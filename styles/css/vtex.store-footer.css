@@ -14,6 +14,84 @@
   background-color: #001930;
 }
 
-.styledLink {
-  color: #ffffff;
+.footerLayout :global(.vtex-flex-layout-0-x-flexRowContent--menu-row) {
+  border-bottom: 1px solid #fff;
+}
+
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--menu-bisogno) {
+  background-color: #FFFFFF;
+}
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--menu-white) {
+  background-color: #FFFFFF;
+}
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--menu-text) {
+  background-color: #FFFFFF;
+}
+
+.footerLayout :global(.vtex-menu-2-x-styledLink--bisogno-text){
+  width: 241px;
+  height: 29px;
+  color: #001930 !important;
+  font-family: "Museo JH Sans 900";
+  font-size: 20px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+
+.footerLayout :global(.vtex-menu-2-x-styledLink--textBold) {
+  width: 290px;
+  height: 227px;
+  color: #001930 !important;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Museo JH Sans 900";
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footerLayout :global(.vtex-menu-2-x-styledLink--textBoldSimple) {
+  width: 290px;
+  height: 227px;
+  color: #001930 !important;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Museo JH Sans 900";
+  font-weight: bold;
+}
+
+
+.footerLayout :global(.vtex-menu-2-x-styledLink--textSimple) {
+  width: 290px;
+  height: 227px;
+  color: #001930;
+  font-family: "Museo JH Sans 500";
+  font-size: 14px;
+  line-height: 17px;
+  color: #001930 !important;
+}
+
+.footerLayout :global(.vtex-menu-2-x-styledLink--textSimpleLast) {
+  width: 290px;
+  height: 227px;
+  color: #001930;
+  font-family: "Museo JH Sans 500";
+  font-size: 14px;
+  line-height: 17px;
+  color: #001930 !important;
+}
+
+.footerLayout :global(.vtex-flex-layout-0-x-flexRowContent--menu-bisogno) {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  color: red;
+}
+
+.footerLayout :global(.vtex-rich-text-0-x-container--footerRich) {
+  color: #ffffff !important;
+  font-family: "Avenir Book";
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: -0.46px;
+  line-height: 17px;
+  margin-left: 22px;
 }

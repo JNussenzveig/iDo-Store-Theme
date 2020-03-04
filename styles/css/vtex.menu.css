@@ -1,0 +1,15 @@
+.menuContainer .menuItem:first-child {
+  margin-bottom: 10px;
+}
+
+.menuContainer .menuItem:last-child {
+  margin-bottom: 50px;
+}
+
+.footerLayout :global(.vtex-menu-2-x-menuItem--textBold) {
+  color: red;
+}
+
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--menu-row) {
+  color: gray;
+}
