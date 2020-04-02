@@ -13,6 +13,7 @@
 
 }
 
+
 .notificationContent {
   font-family: "Museo JH Sans";
   color: #ffffff;
@@ -27,32 +28,147 @@
   max-width: 208px;
 }
 
-.infoCardContainer--info-card-home {
+.infoCardContainer--info-card-domentica {
   max-width: 1520px;
   margin: 0 auto;
   background-color: #e6f1e6;
+  height: 500px!important;
   padding: 0px;
+  margin-bottom: 50px;
 }
 
-.newsletter {
-  background-color: #03054e;
-  max-width: 1528px;
+.infoCardTextContainer--info-card-domentica {
+  margin-top: 250px;
+  max-width: 1500px;
+  width: 750px!important;
+}
+
+
+.infoCardContainer--info-card-domentica :global(.vtex-button) {
+  border-radius: 25px;
+  width: 190px;
+  height: 50px;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+
+.infoCardContainer--info-card-fidelity-card {
+  max-width: 1520px;
   margin: 0 auto;
+  background-color: #e6f1e6;
+  height: 139px!important;
+  padding: 0px;
+  margin-bottom: 50px;
+}
+.infoCardContainer--info-card-fidelity-card :global(.vtex-button) {
+  border-radius: 25px;
+  width: 139px;
+  height: 50px;
+  color: #001930;
+  background-color: white;
+  border-color: white;
+}
+.infoCardTextContainer--info-card-fidelity-card {
+  color: white;
+  font-size: 35px;
+  line-height: 29px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100% !important;
+  flex-direction: row;
+}
+.infoCardHeadline--info-card-fidelity-card {
+  margin-top: 0px;
+  color: black !important;
+}
+
+.infoCardHeadline {
+  color: white;
+  font-family: "Museo JH Sans 900";
+  font-size: 45px;
+}
+
+
+.newsletter {
+  background-color: rgba(0, 0, 0, 0.1)!important;
+  max-width: 1520px;
+  width: 100%;
+  margin: 0 auto;
+  height: 139px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px!important;
 }
 
 .newsletter .container {
-  padding: 60px 10px;
+  padding: 0px!important;
+  max-width: 100%!important;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.buttonContainer :global(.vtex-button__label) {
+  font-size: 0px;
+}
+
+.buttonContainer :global(.vtex-button__label)::after {
+  content: '';
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='16' viewBox='0 0 19 16'%3E%3Cg%3E%3Cg%3E%3Cpath fill='%23fff' d='M14.46 16l-4.963-3.324-2.001 1.67-.813-3.555 8.666-7.554-10.391 5.94L.064 5.664l19-5.663z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  height: 30px;
+  width: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 9px;
+  margin-right: 20px;
+}
+
+
+.container :global(.vtex-store-components-3-x-inputGroup) {
+  position: relative;
+  width: 450px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.0);
+  padding-top: 0px;
+}
+.container :global(.vtex-input-prefix__group) {
+  border-radius: 50px;
+  height: 50px;
+  background-color: #001930;
+  margin-right: 20px;
+}
+.container :global(.vtex-store-components-3-x-buttonContainer) {
+  position: absolute;
+  right: 15px
 }
 
 .label {
-  color: #fff;
+  color: #001930!important;
   font-size: 26px;
+  margin-left: 20px;
+  font-family: "Museo JH Sans 900";
+  font-size: 35px;
+  line-height: 29px;
+  height: 29px;
+  margin-left: 25px;
 }
 
 .inputGroup {
   padding-bottom: 4px;
   display: flex;
   color: #fff;
+
 }
 
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
@@ -62,8 +178,13 @@
 }
 
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
-  color: #fff;
+  color: #ffffff;
   font-size: 16px;
+  font-family: "Museo JH Sans 300";
+  font-size: 20px;
+  line-height: 21px;
+  width: 184px;
+  height: 21px;
 }
 
 .inputGroup :global(.vtex-button) {
@@ -109,3 +230,191 @@
     max-height: 600px;
   }
 }
+
+.flex-grow-1 :global(.vtex-address-modal__address) {
+  width: 500px!important;
+  background-color: red!important;
+  color: red!important;
+  justify-content: flex-end;
+}
+
+
+.vtex-product-summary-2-x-buyButtonContainer  {
+  background-color: black;
+}
+
+
+
+/* Mobile version styles begin here */
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-backtoschool-mobile) {
+  font-size: 35px;
+}
+
+.infoCardContainer--info-card-backtoschool-mobile :global(.vtex-button){
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  border-radius: 50px;
+  border: solid 1px;
+  font-size: 18px;
+  font-family: "MuseoJHSans-900";
+  height: 100%;
+  font-weight: bold;
+}
+
+.infoCardHeadline--info-card-backtoschool-mobile {
+  padding-right: 200px;
+  padding-top: 140px;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-dimentica-mobile) {
+  font-size: 30px;
+}
+
+.infoCardContainer--info-card-dimentica-mobile :global(.vtex-button){
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  border-radius: 50px;
+  border: solid 1px;
+  font-size: 18px;
+  font-family: "MuseoJHSans-900";
+  font-weight: bold;
+}
+
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-fidelity-card-mobile) {
+  font-size: 30px;
+}
+
+.infoCardContainer--info-card-fidelity-card-mobile :global(.vtex-button){
+  background-color: white;
+  border-color: white;
+  border-radius: 50px;
+  border: solid 1px;
+}
+
+.infoCardContainer--info-card-fidelity-card-mobile :global(.vtex-button__label){
+  color: black;
+  font-size: 18px;
+  font-family: "MuseoJHSans-900";
+  font-weight: bold;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-colours-mobile) {
+  font-size: 30px;
+}
+
+.infoCardContainer--info-card-colours-mobile :global(.vtex-button){
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  border-radius: 50px;
+  border: solid 1px;
+  font-size: 18px;
+  font-family: "MuseoJHSans-900";
+  font-weight: bold;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-teddy-mobile) {
+  font-size: 30px;
+}
+
+.infoCardContainer--info-card-teddy-mobile :global(.vtex-button){
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  border-radius: 50px;
+  border: solid 1px;
+  font-size: 18px;
+  font-family: "MuseoJHSans-900";
+  font-weight: bold;
+}
+
+.infoCardTextContainer--firstStackWithImage {
+  align-content: flex-start;
+  display: inherit;
+  align-items: center;
+  align-self: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 0px;
+  width: 50%;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.infoCardContainer--firstStackWithImage {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100vw;
+}
+
+
+.infoCardContainer--secondLayer {
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Product page design desktop version */
+
+.price_listPriceLabel--top-price-section {
+  display: none;
+}
+
+.price_listPrice--top-price-section {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  margin-left: 100px;
+  font-size: 25px;
+}
+
+.price_sellingPriceContainer--top-price-section {
+  display: none;
+}
+
+.price_savingsContainer--top-price-section {
+  display: none;
+}
+
+.price_listPriceLabel--bottom-price-section {
+
+}
+
+.price_listPrice--bottom-price-section {
+
+}
+
+.price_sellingPriceContainer--bottom-price-section {
+
+}
+
+.price_savingsContainer--bottom-price-section {
+
+}
+
+
+
+.productBrand {
+  font-family: 'teste';
+}
+
+
+
+.productImagesThumb--productImageDesktop {
+  max-height: unset !important;
+  width: 33% !important;
+  height: 242px!important;
+}
+
+.productImagesThumb--image-to-hide {
+  max-height: unset !important;
+  width: 33% !important;
+  height: 130px!important;
+}
+

@@ -16,10 +16,6 @@
   "flex-layout.row#footer-0-whitesection": {
     "children": [
       "flex-layout.col#logo-desktopSecondary",
-      "footer-spacer",
-      "footer-spacer",
-      "footer-spacer",
-      "footer-spacer",
       "flex-layout.row#footer-social-networks"
     ],
     "props": {
@@ -30,14 +26,52 @@
   },
 
   "flex-layout.row#footer-social-networks": {
-    "children": [
-      "footer-spacer",
-      "social-networks"
-    ],
+  "children": [
+    "image#facebook",
+    "image#instagram",
+    "image#youtube"
+  ],
+  "props": {
+    "blockClass": "menu-social-networks",
+    "paddingTop": 6,
+    "paddingBottom": 6
+  }
+},
+
+  "image#facebook": {
     "props": {
-      "blockClass": "menu-social-networks",
-      "paddingTop": 6,
-      "paddingBottom": 6
+      "src": "/arquivos/facebook.png",
+      "maxHeight": 39,
+      "maxWidth": 39,
+      "alt": "facebook.com",
+      "title": "facebook.com",
+      "link": {
+        "newTab": true,
+        "url": "https://www.facebook.com/vtexonline/"
+      }
+    }
+  },
+  "image#instagram": {
+    "props": {
+      "src": "/arquivos/instagram.png",
+      "maxHeight": 39,
+      "maxWidth": 39,
+      "alt": "instagram.com",
+      "title": "instagram.com",
+      "link": {
+        "newTab": true,
+        "url": "https://www.facebook.com/vtexonline/"
+      }
+    }
+  },
+  "image#youtube": {
+    "props": {
+      "src": "/arquivos/youtube.png",
+      "maxHeight": 39,
+      "maxWidth": 39,
+      "alt": "youtube.com",
+      "title": "youtube.com",
+      "link": "https://www.youtube.com/user/VTEXTV"
     }
   },
 
@@ -90,25 +124,6 @@
     }
   },
 
-  "social-networks": {
-    "props": {
-      "socialNetworks": [
-        {
-          "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
-        },
-        {
-          "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
-        },
-        {
-          "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
-        }
-      ]
-    }
-  },
-
   "flex-layout.row#footer-2-desktop": {
     "children": ["accepted-payment-methods"],
     "props": {
@@ -130,44 +145,17 @@
     }
   },
 
+
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
+      "flex-layout.row#footer-0-mobile",
+      "flex-layout.row#footer-1-mobile",
+      "flex-layout.row#footer-2-mobile",
+      "flex-layout.row#footer-3-mobile",
+      "flex-layout.row#footer-6-mobile",
+      "flex-layout.row#footer-4-mobile",
+      "flex-layout.row#footer-5-mobile"
     ]
-  },
-  "flex-layout.row#2-footer-mobile": {
-    "children": ["flex-layout.col#footer-1-mobile"],
-    "props": {
-      "blockClass": "payment-methods",
-      "paddingTop": 4,
-      "paddingBottom": 4
-    }
-  },
-  "flex-layout.col#footer-1-mobile": {
-    "children": [
-      "accepted-payment-methods",
-      "social-networks",
-      "rich-text#footer-mobile"
-    ],
-    "props": {
-      "blockClass": "payment-methods",
-      "paddingTop": 4,
-      "paddingBottom": 4,
-      "rowGap": 4
-    }
-  },
-  "flex-layout.row#1-footer-mobile": {
-    "props": {
-      "paddingTop": 4,
-      "paddingBottom": 4
-    },
-    "children": ["vtex.menu@2.x:menu#footer-mobile"]
-  },
-  "rich-text#footer-mobile": {
-    "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
-      "blockClass": "footer"
-    }
   }
+
 }

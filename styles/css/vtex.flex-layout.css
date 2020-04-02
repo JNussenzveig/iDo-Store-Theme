@@ -86,3 +86,81 @@
 .flexCol--switcherMobileCol {
   width: 20%;
 }
+
+.flexRow--menu-text .flexColChild {
+  height: 16px!important;
+}
+
+.flexRow--menu-social-networks .stretchChildrenWidth  {
+  width: auto !important;
+  margin-left: 45px;
+  margin-right: 0px;
+}
+
+/* Styling for product page desktop version */
+
+:global(.vtex-store-components-3-x-price_sellingPrice) {
+  color: #001930;
+  font-family: "Museo JH Sans 900";
+  font-size: 25px;
+  line-height: 29px;
+}
+
+:global(.vtex-store-components-3-x-productNameContainer) {
+  color: #001930;
+  font-family: "Museo JH Sans 900";
+  font-size: 25px;
+  line-height: 29px;
+  font-weight: bold;
+}
+
+.flexRowContent--product-buy-button :global(.vtex-button) {
+  background-color: #001930;
+  border-color: #001930;
+  border-radius: 20px;
+  width: 336px;
+}
+
+.flexRowContent--product-buy-button :global(.vtex-button__label) {
+  color: #ffffff;
+  font-family: "Museo JH Sans 900";
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+:global(.vtex-store-components-3-x-productImagesGallerySwiperContainer--image-to-hide) {
+  display: none;
+}
+
+
+
+/* Mobile styling begins here */
+
+.flexRowContent--main-header-mobile {
+  padding: 0px !important;
+  height: 31px;
+  background-color: #aeca3b!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRowContent--menu-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexRowContent--row-networks-mobile {
+  display: flex
+}
+
+.flexRowContent--row-4-mobile {
+  display: flex;
+  align-items: center;
+}
+
+.flexRowContent--privacy-policy-mobile {
+  justify-content: flex-end;
+}
+

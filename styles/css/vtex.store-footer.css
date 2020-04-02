@@ -10,9 +10,7 @@
   padding-top: 16px;
 }
 
-.footerLayout {
-  background-color: #001930;
-}
+
 
 .footerLayout :global(.vtex-flex-layout-0-x-flexRowContent--menu-row) {
   border-bottom: 1px solid #fff;
@@ -36,6 +34,14 @@
   font-size: 20px;
   line-height: 29px;
   text-transform: uppercase;
+}
+
+.footerLayout :global(.vtex-store-components-3-x-logoContainer) {
+  padding: 0px;
+}
+
+.footerLayout :global(.vtex-flex-layout-0-x-flexRowContent--menu-social-networks) {
+  justify-content: flex-end;
 }
 
 .footerLayout :global(.vtex-menu-2-x-styledLink--textBold) {
@@ -70,6 +76,8 @@
   color: #001930 !important;
 }
 
+
+
 .footerLayout :global(.vtex-menu-2-x-styledLink--textSimpleLast) {
   width: 290px;
   height: 227px;
@@ -95,3 +103,125 @@
   line-height: 17px;
   margin-left: 22px;
 }
+
+/*Mobile version styling begins here*/
+
+:global(.vtex-flex-layout-0-x-flexRow--row-0-mobile) {
+  background-color: white;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--footerWhite) {
+  margin-left: 20px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-1-mobile) {
+  background-color: white;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-2-mobile) {
+  background-color: white;
+  border-bottom: solid 1px;
+  border-top: solid 1px;
+  border-color: gray;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+
+:global(.vtex-menu-2-x-styledLinkContent--textBoldMobile) {
+  font-weight: bold;
+  display: flex;
+  font-family: "MuseoJHSans-300";
+  font-size: 20px;
+  text-transform: uppercase;
+  align-self: center;
+}
+
+:global(.vtex-menu-2-x-menuItem--textSimpleLastMobile) {
+  margin-bottom: 30px;
+}
+
+
+:global(.vtex-menu-2-x-styledLinkContent--bisogno-text-mobile) {
+  font-weight: bold;
+  font-family: "MuseoJHSans-900";
+  font-size: 25px;
+  color: #001930;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--row-3-mobile) {
+  background-color: white;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--textBoldSimpleMobile){
+  font-weight: bold;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--textSimpleMobileLast){
+  margin-bottom: 30px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-4-mobile) {
+  background-color: white;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-5-mobile) {
+  background-color: white;
+  color: black;
+}
+:global(.vtex-flex-layout-0-x-flexRow--row-6-mobile) {
+  background-color: white;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--footer-mobile-menu-23rdmarch) {
+  position: relative;
+}
+
+:global(.vtex-menu-2-x-styledLinkIcon--footer-menu-icon-mobile) {
+  position: absolute;
+}
+
+
+:global(.vtex-menu-2-x-menuContainer--footer-mobile-menu-23rdmarch) {
+  flex-direction: column;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-azienda-mobile) {
+  position: relative;
+}
+
+:global(.vtex-menu-2-x-styledLinkIcon--menu-item-azienda-mobile) {
+  position: absolute;
+  right: 20px;
+  top: 18px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-azienda-mobile--isClosed) {
+  display: none;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-azienda-mobile--isOpen) {
+  display: none;
+}
+
+:global(.vtex-menu-2-x-submenuAccordion) {
+  flex-direction: column;
+}
+
+:global(.vtex-menu-2-x-menuItem--menu-item-footer-mobile-submenu) {
+  border-top: solid 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-menuItem--menu-item-azienda-mobile) {
+  border-top: solid 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-menuItem--menu-item-footer-mobile-submenu-last) {
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
