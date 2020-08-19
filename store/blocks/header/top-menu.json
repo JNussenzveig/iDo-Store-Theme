@@ -24,12 +24,15 @@
   "vtex.menu@2.x:menu#institutional": {
     "children": [
       "menu-item#vtex-search",
-      "menu-item#vtex-heart",
       "menu-item#vtex-location",
-      "menu-item#vtex-cart",
-      "menu-item#vtex-myIdo",
-      "locale-switcher#custom"
+      "minicart.v2",
+      "IsLogged#custom",
+      "locale-switcher#vtex-switcher"
     ]
+  },
+
+  "minicart.v2": {
+    "children": ["minicart-base-content"]
   },
 
   "menu-item#vtex-location": {
@@ -78,8 +81,8 @@
       },
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "http://vtex.com"
+        "type": "internal",
+        "href": "/tutti-i-prodotti"
       }
     }
   },
@@ -101,38 +104,149 @@
     }
   },
 
-  "menu-item#vtex-myIdo": {
+  "menu-item#vtex-myIdoGrey": {
     "props": {
       "id": "menu-item-myIdo",
       "type": "custom",
+      "blockClass": "ido-logo-class-desktop-notLogin",
       "iconProps": {
         "id": "hpa-profile",
         "iconPosition": "center",
-        "size": 22,
-        "viewBox": "0 0 18 22"
+        "size": 20,
+        "viewBox": "0 0 18 22",
+        "blockClass": "ido-logo-color-grey"
       },
-      "highlight": false,
+      "highlight": true,
       "itemProps": {
-        "blockClass": "your-class",
+        "blockClass": "ido-logo-class",
         "type": "internal",
         "href": "#",
-        "noFollow": false,
+        "noFollow": true,
         "tagTitle": "myIdo",
-        "text": "My iDO"
+        "text": "My IDO"
       }
     }
   },
 
-  "locale-switcher#custom": {
+  "menu-item#vtex-myIdoGreen": {
+    "props": {
+      "id": "menu-item-myIdo",
+      "type": "custom",
+      "blockClass": "ido-logo-class-desktop-login",
+      "iconProps": {
+        "id": "hpa-profile",
+        "iconPosition": "center",
+        "size": 20,
+        "viewBox": "0 0 18 22",
+        "blockClass": "ido-logo-color-green"
+      },
+      "highlight": true,
+      "itemProps": {
+        "blockClass": "ido-logo-class",
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "myIdo",
+        "text": "My IDO"
+      }
+    }
+  },
+
+  "locale-switcher#vtex-switcher": {
     "props": {
       "iconProps": {
         "id": "mpa-angle--down",
-        "size": 16,
-        "viewBox": "0 0 16 16",
-        "activeClassName": "black",
+        "size": 1,
+        "viewBox": "0 0 1 1",
+        "activeClassName": "red",
         "mutedClassName": "c-action-primary"
       },
-      "iconPosition": "right"
+      "iconPosition": "left"
+    }
+  },
+
+
+  "modal-trigger#modal-login-button": {
+    "children": [
+      "rich-text#login",
+      "modal-layout#modal-login-content"
+    ]
+  },
+  "IsLogged#custom": {
+    "blocks": [
+      "IsLogged.logged#logged-content",
+      "IsLogged.not-logged#not-logged-content"
+    ]
+  },
+  "IsLogged.logged#logged-content": {
+    "children": [
+      "menu-item#vtex-myIdoGreen",
+      "login#custom-login"
+    ]
+  },
+  "IsLogged.not-logged#not-logged-content": {
+    "children": [
+      "menu-item#vtex-myIdoGrey",
+      "modal-trigger#modal-login-button"
+    ]
+  },
+  "rich-text#login": {
+    "props": {
+      "text": "LOGIN MY IDO"
+    }
+  },
+
+  "modal-layout#modal-login-content": {
+    "children": [
+      "modal-header",
+      "login-content#custom-login"
+    ]
+  },
+
+  "login-content#custom-login": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "emailAndPasswordTitle": "Accedi a MyIDO",
+      "accessCodeTitle": "MyiDO",
+      "emailPlaceholder": "mariorossi@gmail.it",
+      "passwordPlaceholder": "* * * *",
+      "showPasswordVerificationIntoTooltip": true,
+      "providerPasswordButtonLabel": "ACCEDI",
+      "blockClass": "login-content-desktop"
+    }
+  },
+
+  "login#custom-login": {
+    "props": {
+      "logInButtonBehavior": "popover",
+      "isInitialScreenOptionOnly": true,
+      "defaultOption": 1,
+      "iconLabel": "login",
+      "blockClass": "login-desktop",
+      "accountOptionsButtonBehavior": "popover",
+      "accountOptionLinks": [
+        {
+          "label": "Profilo",
+          "path": "/account/#/profile",
+          "cssClass": "my-account-profile-link"
+        },
+        {
+          "label": "Indirizzi",
+          "path": "/account/#/addresses",
+          "cssClass": "my-account-addresses-link"
+        },
+        {
+          "label": "Ordini",
+          "path": "/account/#/orders",
+          "cssClass": "my-account-orders-link"
+        },
+        {
+          "label": "Carte di credito",
+          "path": "/account/#/cards",
+          "cssClass": "my-account-creditCards-link"
+        }
+      ]
     }
   }
 }

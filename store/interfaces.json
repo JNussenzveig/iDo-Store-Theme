@@ -1,0 +1,6 @@
+{
+  "store.product.kitlook": {
+    "allowed": ["kitlook-layout", "kitlook"]
+  }
+
+}

@@ -1,0 +1,967 @@
+@media screen and (min-width: 1024px) {
+  .profileBoxContainer .boxContainer {
+    border: none;
+  }
+
+  .profileFormBoxContainer .boxContainer {
+    border: none;
+  }
+
+  :global(.vtex-addresses .vtex-my-account-1-x-boxContainerBody) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  :global(.vtex-address-form__country) {
+    order: 1;
+  }
+
+  .boxContainerBody :global(.vtex-address-form__postalCode) {
+    margin-bottom: 20px;
+    order: 2;
+  }
+
+
+  :global(.vtex-profile-form-3-x-genderInput) :global(.br2) {
+    border-radius: 20px;
+    border: solid 2px black;
+    height: 40px;
+  }
+
+
+  :global(.vtex-addresses .vtex-button) {
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 14px;
+    letter-spacing: -0.4px;
+    line-height: 21px;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: #002c50;
+    outline: none;
+    order: 3;
+  }
+
+  .deleteButton {
+    order: 4;
+  }
+
+
+  :global(.vtex-pageHeader__title) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 25px;
+    line-height: 27px;
+  }
+
+  :global(.vtex-pageHeader__container) {
+    padding-left: 9px;
+    padding-bottom: 20px;
+  }
+
+  .border-box {
+    border-radius: 25px;
+  }
+
+  :global(.vtex-pageHeader-link__container) {
+    position: absolute;
+    right: 200px;
+  }
+
+  :global(.vtex-pageHeader-link__container .vtex-button) {
+    width: 297px;
+    height: 19px;
+    color: #001930;
+    font-family: "MuseoJHSans700";
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  :global(.vtex-profile-form-3-x-styleguideInput .border-box) {
+    border-radius: 20px;
+    border: 1px solid black;
+    height: 40px;
+  }
+
+  :global(.vtex-profile-form-3-x-styleguideInput .vtex-input__label) {
+    margin-left: 5px;
+  }
+
+
+  :global(.vtex-profile-form-3-x-profileContainer .vtex-button) {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(0, 44, 80, 0.1);
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 18px;
+    letter-spacing: -0.4px;
+    line-height: 21px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+  }
+
+  .profileBoxContainer .boxContainerBody {
+    display: flex;
+  }
+
+  .profileBoxContainer .nameContainer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 0px;
+    justify-content: space-between;
+  }
+
+  .profileBoxContainer .genderContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    justify-content: space-between;
+  }
+
+  .profileBoxContainer .emailContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .profileBoxContainer :global(.vtex-profile-form-3-x-profileSummary) {
+    width: 1000px;
+  }
+
+  .profileBoxContainer .phoneNumberContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  .profileBoxContainer .firstNameSubContainer {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .profileBoxContainer .lastNameSubContainer {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .profileBoxContainer .documentsSubContainer {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .profileBoxContainer .genderSubContainer {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .profileBoxContainer .dateOfBirthSubContainer {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .profileBoxContainer .phoneNumberSubContainer {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .profileBoxContainer .boxContainerFooter {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    padding: 0px;
+  }
+
+  .profileBoxContainer .boxContainerFooter :global(.vtex-button__label) {
+    padding: 0px;
+  }
+
+
+  .profileBoxContainer .boxContainerFooter :global(.vtex-button) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: none;
+  }
+
+
+  .passwordBoxContainer .boxContainer {
+    border: none;
+    display: flex;
+    align-items: baseline;
+  }
+
+  .passwordBoxContainer .dataEntryLabel {
+    width: 100px;
+  }
+
+  .passwordBoxContainer .dataEntryChildren {
+    align-self: center;
+  }
+
+  .passwordBoxContainer :global(.vtex-button__label) {
+    padding: 0px;
+  }
+
+  .passwordBoxContainer .boxContainerFooter {
+    padding: 0px;
+    margin-left: -2px;
+  }
+
+  .passwordBoxContainer .boxContainerFooter :global(.vtex-button) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: none;
+  }
+
+  .passwordBoxContainer :global(.vtex-input-prefix__group) {
+    width: 335px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #001930;
+  }
+
+  .passwordBoxContainer .boxContainerBody :global(.vtex-button) {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #002c50;
+  }
+
+  .passwordBoxContainer .boxContainerBody :global(.vtex-button__label) {
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+  }
+
+
+  .newsletterBoxContainer .boxContainer {
+    border: none;
+  }
+
+  .newsletterBoxContainer .boxContainerBody {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .newsletterBoxContainer :global(.vtex__icon-check) {
+    color: black;
+  }
+
+  .newsletterBoxContainer :global(.vtex-checkbox__inner-container) {
+    border-radius: 20px;
+    background-color: lightblue;
+  }
+
+  .newsletterContainerTitle {
+    display: none;
+  }
+
+  .boxContainerBody {
+    padding: 0px;
+  }
+
+  .passwordBox {
+    display: flex;
+  }
+
+  .profile {
+    position: relative;
+  }
+
+  .corporateName {
+    margin-bottom: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    text-align-last: end;
+  }
+
+  .corporateName :global(.vtex-my-account-1-x-dataEntryChildren) {
+    width: 50%;
+    text-align: end;
+  }
+
+  .tradeName {
+    margin-bottom: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    text-align-last: end;
+  }
+
+  .tradeName :global(.vtex-my-account-1-x-dataEntryChildren) {
+    width: 50%;
+    text-align: end;
+  }
+
+  .tradeName :global(.vtex-my-account-1-x-dataEntryLabel) {
+    width: 211px;
+  }
+
+
+  .corporateDocument {
+    margin-bottom: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    text-align-last: end;
+  }
+
+  .corporateDocument :global(.vtex-my-account-1-x-dataEntryChildren) {
+    width: 50%;
+    text-align: end;
+  }
+
+  .businessPhoneSubContainer {
+    margin-bottom: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    text-align-last: end;
+  }
+
+  .businessPhoneSubContainer :global(.vtex-my-account-1-x-dataEntryChildren) {
+    width: 50%;
+    text-align: end;
+  }
+
+  /* INDIRIZZI STYLING */
+  :global(.vtex-account__page) {
+    position: relative;
+  }
+
+  .addressList {
+  }
+
+  /*.addressBox .boxContainer {
+    border: none;
+    position: relative;
+  }
+
+  .addressBox .boxContainerFooter {
+    padding: 0px;
+  }
+
+  .addressBox .boxContainerBody {
+    color: #001930;
+    font-family: "MuseoJHSans500";
+    font-size: 16px;
+    line-height: 21px;
+    padding-bottom: 40px;
+    margin-bottom: 80px;
+  }
+
+  .addressBox :global(.vtex-button__label) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 16px;
+    line-height: 21px;
+    padding: 0px;
+    text-transform: none;
+  }
+
+  :global(.vtex-pageHeader__children) {
+    position: absolute;
+    top: 500px;
+    left: 435px;
+    z-index: 999;
+  }
+
+  */
+  :global(.vtex-pageHeader__children .vtex-button) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 16px;
+    line-height: 21px;
+    background-color: rgba(0, 44, 80, 0.1);
+    text-transform: none;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+  }
+
+
+  .addressBox .boxContainerFooter :global(.vtex-button__label) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: none;
+  }
+  .deleteButton :global(.vtex-button) {
+    border-radius: 20px;
+    background-color: #962a1a!important;
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  :global(.vtex-addresses .vtex-button) {
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 14px;
+    letter-spacing: -0.4px;
+    line-height: 21px;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: #002c50;
+    outline: none;
+    border-radius: 20px;
+  }
+
+  .addressBox .boxContainerFooter :global(.vtex-button) {
+    background-color: transparent!important;
+  }
+
+
+  /*
+  :global(.vtex-street) {
+
+  }*/
+  .addressBox .boxContainer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    max-width: 550px;
+    min-width: 250px;
+  }
+
+  .boxContainerBody :global(.vtex-address-form__postalCode .vtex-address-form-4-x-container) {
+    border-radius: 20px;
+    border: 1px solid #001930;
+  }
+
+  .boxContainer {
+    border: none;
+  }
+
+  .boxContainerBody :global(.vtex-input-prefix__group) {
+    border-radius: 20px;
+    border: 1px solid #001930;
+  }
+
+  .boxContainerBody :global(.vtex-address-form-4-x-dropdown .vtex-address-form-4-x-container) {
+    border-radius: 20px;
+    border: 1px solid #001930;
+  }
+
+  .boxContainerBody :global(.vtex-address-form__postalCode) {
+    margin-bottom: 20px;
+  }
+
+  :global(.vtex-my-orders-app-3-x-cancelBtn) {
+    display: none;
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderId) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 20px;
+    line-height: 21px;
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderHeaderValue) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 20px;
+    line-height: 21px;
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderHeaderLabel) {
+    color: #001930;
+    font-family: "MuseoJHSans500";
+    font-size: 13px;
+    line-height: 21px;
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderProductName) {
+    color: #001930;
+    font-family: "MuseoJHSans500";
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  :global(.vtex-my-orders-app-3-x-font) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: underline;
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderProductShipping) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 40px;
+  }
+
+  :global(.vtex-my-orders-app-3-x-detailsBtn) {
+    color: #001930;
+    font-family: "MuseoJHSans500";
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+}
+
+@media screen and (max-width: 1023px) {
+  .profileBoxContainer .boxContainer {
+    border: none;
+  }
+
+  .profileBoxContainer .firstNameSubContainer {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .profileBoxContainer .lastNameSubContainer {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .profileBoxContainer .documentsSubContainer {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .profileBoxContainer .genderSubContainer {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .profileBoxContainer .emailContainer {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .profileBoxContainer .dateOfBirthSubContainer {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+  }
+
+
+  .profileBoxContainer .phoneNumberSubContainer {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .profileBoxContainer .corporateDocument {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .profileBoxContainer .corporateName {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .profileBoxContainer .tradeName {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .profileBoxContainer .businessPhoneSubContainer {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .profileBoxContainer .corporateDocument :global(.vtex-my-account-1-x-dataEntryChildren) {
+    text-align: end;
+  }
+
+  .profileBoxContainer .corporateName :global(.vtex-my-account-1-x-dataEntryChildren) {
+    text-align: end;
+  }
+
+  .profileBoxContainer .tradeName :global(.vtex-my-account-1-x-dataEntryChildren) {
+    text-align: end;
+  }
+
+  .profileBoxContainer .businessPhoneSubContainer :global(.vtex-my-account-1-x-dataEntryChildren) {
+    text-align: end;
+  }
+
+  .profileBoxContainer .boxContainerFooter :global(.vtex-button) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 15px;
+    line-height: 21px;
+    width: auto;
+    text-transform: none;
+    padding-left: 0.50rem;
+  }
+
+  .profileBoxContainer .boxContainerFooter {
+    justify-content: unset;
+  }
+
+  .passwordBoxContainer .boxContainer {
+    border: none;
+  }
+
+  .passwordBoxContainer .boxContainerFooter {
+    justify-content: unset;
+  }
+
+
+  .passwordBoxContainer .boxContainerFooter :global(.vtex-button) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 15px;
+    line-height: 21px;
+    width: auto;
+    text-transform: none;
+    padding-left: 0.50rem;
+  }
+
+  :global(.vtex-pageHeader__container) {
+    padding-left: 2.75rem;
+  }
+
+  .newsletterBoxContainer .boxContainer {
+    border: none;
+  }
+
+  .newsletterBoxContainer .newsletterContainerTitle {
+    display: none;
+  }
+
+  .newsletterBoxContainer .boxContainerBody {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .newsletterBoxContainer :global(.vtex__icon-check) {
+    color: black;
+  }
+
+  .newsletterBoxContainer :global(.vtex-checkbox__inner-container) {
+    border-radius: 20px;
+    background-color: lightblue;
+  }
+
+  :global(.vtex-profile-form-3-x-styleguideInput .border-box) {
+    border-radius: 20px;
+    border: 1px solid black;
+    height: 40px;
+  }
+
+  :global(.vtex-profile-form-3-x-styleguideInput .vtex-input__label) {
+    margin-left: 5px;
+  }
+
+  .profileFormBoxContainer :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper .vtex-button) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 13px;
+    line-height: 21px;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: rgba(0, 44, 80, 0.1);
+    outline: none;
+  }
+
+  .profileFormBoxContainer :global(.vtex-button) {
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 14px;
+    letter-spacing: -0.4px;
+    line-height: 21px;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: #002c50;
+    outline: none;
+  }
+
+  :global(.vtex-pageHeader__title) {
+    font-size: 24px;
+    margin-top: 5px;
+  }
+
+  .passwordBoxContainer .boxContainer {
+    border: none;
+    display: flex;
+    align-items: baseline;
+  }
+
+  .passwordBoxContainer .dataEntryLabel {
+    width: 100px;
+  }
+
+  .passwordBoxContainer .dataEntryChildren {
+    align-self: center;
+  }
+
+  .passwordBoxContainer :global(.vtex-input-prefix__group) {
+    width: 335px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #001930;
+  }
+
+  .passwordBoxContainer .boxContainerBody :global(.vtex-button) {
+    border-radius: 20px;
+    background-color: #002c50;
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin-left: 75px;
+  }
+
+  .addressList .addressBox {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  :global(.vtex-pageHeader__children) {
+    position: absolute;
+    right: 0px;
+  }
+
+  :global(.vtex-pageHeader__children .vtex-button) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: none;
+    width: auto;
+  }
+
+  .addressList .boxContainerFooter :global(.vtex-button) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 14px;
+    line-height: 21px;
+    width: auto;
+    text-transform: none;
+    background-color: transparent!important;
+  }
+
+  .addressList .boxContainerFooter {
+    justify-content: flex-start;
+  }
+
+  :global(.vtex-pageHeader-link__container) {
+    margin-bottom: 30px;
+  }
+
+  .boxContainerBody :global(.vtex-address-form__postalCode .vtex-address-form-4-x-container) {
+    border-radius: 20px;
+    border: 1px solid #001930;
+  }
+
+  .boxContainerBody :global(.vtex-input-prefix__group) {
+    border-radius: 20px;
+    border: 1px solid #001930;
+  }
+
+  .boxContainerBody :global(.vtex-address-form-4-x-dropdown .vtex-address-form-4-x-container) {
+    border-radius: 20px;
+    border: 1px solid #001930;
+  }
+
+  .boxContainerBody :global(.vtex-address-form__postalCode) {
+    margin-bottom: 20px;
+    order: 2;
+  }
+
+  :global(.vtex-my-orders-app-3-x-cancelBtn) {
+    display: none;
+  }
+
+  :global(.vtex-my-orders-app-3-x-cancelBtn) {
+    display: none;
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderId) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 12px;
+    line-height: 21px;
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderHeaderValue) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderHeaderLabel) {
+    color: #001930;
+    font-family: "MuseoJHSans500";
+    font-size: 13px;
+    line-height: 21px;
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderProductName) {
+    color: #001930;
+    font-family: "MuseoJHSans500";
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  :global(.vtex-my-orders-app-3-x-font) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 13px;
+    line-height: 21px;
+    text-decoration: underline;
+  }
+
+  :global(.vtex-my-orders-app-3-x-orderProductShipping) {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 13px;
+    line-height: 21px;
+  }
+
+  :global(.vtex-my-orders-app-3-x-detailsBtn) {
+    color: #001930;
+    font-family: "MuseoJHSans500";
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .deleteButton :global(.vtex-button) {
+    border-radius: 20px;
+    background-color: #962a1a!important;
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  :global(.vtex-addresses .vtex-button) {
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 14px;
+    letter-spacing: -0.4px;
+    line-height: 21px;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: #002c50;
+    outline: none;
+    order: 3;
+  }
+
+  :global(.vtex-addresses .vtex-my-account-1-x-boxContainerBody) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .userImage {
+    display: none;
+  }
+
+  .menuLink {
+    padding-left: 0px;
+    border-width: 0px;
+    color: #001930;
+    font-family: "MuseoJHSans300";
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  :global(.vtex-account_menu-link) {
+    padding-left: 0px;
+    border-width: 0px;
+    color: #001930;
+    font-family: "MuseoJHSans300";
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .userName {
+    color: #001930;
+    font-family: "MuseoJHSlab900";
+    font-size: 25px;
+    line-height: 29px;
+  }
+
+  .userGreeting {
+    color: #001930;
+    font-family: "MuseoJHSlab900";
+    font-size: 25px;
+    line-height: 29px;
+  }
+
+  :global(.vtex-address-form__country) {
+    order: 1;
+  }
+
+  .deleteButton {
+    order: 4;
+  }
+
+  :global(.vtex-profile-form-3-x-genderInput) :global(.br2) {
+    border-radius: 20px;
+    border: solid 2px black;
+    height: 40px;
+  }
+
+}
+

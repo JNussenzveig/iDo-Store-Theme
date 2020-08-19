@@ -1,13 +1,12 @@
 {
   "vendor": "storeido",
-  "name": "store-theme-andrei",
-  "version": "3.26.2",
+  "name": "andrei",
+  "version": "3.26.40",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
     "sitemap": "0.x",
-    "docs": "0.x",
-    "assets": "0.x"
+    "docs": "0.x"
   },
   "mustUpdateAt": "2018-09-05",
   "scripts": {
@@ -15,10 +14,13 @@
   },
   "dependencies": {
     "vtex.store": "2.x",
+    "vtex.modal": "0.x",
+    "vtex.modal-layout": "0.x",
     "vtex.store-header": "2.x",
     "vtex.product-summary": "2.x",
     "vtex.store-footer": "2.x",
     "vtex.store-components": "3.x",
+    "vtex.store-icons": "0.x",
     "vtex.styleguide": "9.x",
     "vtex.slider": "0.x",
     "vtex.carousel": "2.x",
@@ -28,6 +30,7 @@
     "vtex.minicart": "2.x",
     "vtex.product-details": "1.x",
     "vtex.product-kit": "1.x",
+    "vtex.product-price": "1.x",
     "vtex.search-result": "3.x",
     "vtex.login": "2.x",
     "vtex.my-account": "1.x",
@@ -44,17 +47,21 @@
     "vtex.product-specification-badges": "0.x",
     "vtex.product-review-interfaces": "1.x",
     "vtex.telemarketing": "2.x",
-    "vtex.order-placed": "1.x",
+    "vtex.order-placed": "2.x",
     "vtex.checkout-summary": "0.x",
     "vtex.product-list": "0.x",
     "vtex.add-to-cart-button": "0.x",
     "vtex.product-bookmark-interfaces": "1.x",
     "vtex.slider-layout": "0.x",
     "vtex.store-image": "0.x",
-    "vtex.address-locator": "2.x"
+    "vtex.address-locator": "2.x",
+    "codeby.logged-conditional": "0.x"
   },
   "peerDependencies": {
-    "acupula.store-locator": "0.x"
+    "acupula.store-locator": "0.x",
+    "codeby.store-locator": "1.x",
+    "codeby.product-specification-accordion": "1.x",
+    "acupula.kitlook": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

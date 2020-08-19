@@ -39,11 +39,165 @@
   width: 81px;
   height: 19px;
   color: #001930;
-  font-family: "Museo JH Sans -500";
+  font-family: "MuseoJHSans500";
   font-size: 14px;
   line-height: 19px;
 }
 
+
+
+
+/*:global(.vtex-minicart-2-x-minicartContainer) {
+  position: relative;
+  bottom: 35px;
+}
+*/
+
+
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-link) :global(.vtex-locale-switcher-0-x-relativeContainer) {
+  position: unset;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:global(.vtex-locale-switcher-0-x-container) {
+  height: 50px;
+}
+:global(.vtex-minicart-2-x-minicartWrapperContainer) {
+  height: 50px;
+}
+
+:global(.vtex-rich-text-0-x-container) {
+  cursor: pointer;
+}
+
+
+
+
+
+
+:global(.vtex-modal-layout-0-x-triggerContainer) {
+  position: relative;
+  bottom: 70px;
+  color: transparent;
+}
+
+:global(.vtex-rich-text-0-x-container) {
+  color: transparent;
+}
+
+
+/* Order By Desktop version styling BEGINS HERE */
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-caretIcon) {
+  position: absolute;
+  left: 120px;
+  bottom: 17px;
+  width: 20px;
+  height: 15px;
+}
+
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-orderByText) {
+  color: #001930!important;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: none;
+  margin-right: 170px;
+}
+
+.flexCol--filterMobileCol {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexColChild--filterMobileCol :global(.vtex-search-result-3-x-filters--layout) {
+  position: absolute;
+  left: 35px;
+}
+
+.flexColChild--filterMobileCol :global(.vtex-search-result-3-x-filterPopupButton) {
+  padding-right: 30px;
+}
+
+
+
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-filterPopupTitle) {
+  font-size: 0px;
+  position: relative;
+}
+
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-orderByOptionsContainer) {
+  margin-top: 55px;
+  width: 310px;
+}
+
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-orderByButton) {
+  border: none;
+}
+
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-filterPopupArrowIcon) {
+  position: absolute;
+  right: 38%;
+  top: 95%;
+}
+
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-orderByOptionItem) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+
+/*Order by desktopv ersion styling ENDS here */
+/*Order by mobile version styling BEGINS here */
+
+
+
+.flexCol--orderByMobileCol :global(.vtex-search-result-3-x-orderByText) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  text-transform: none;
+}
+
+
+.flexCol--orderByMobileCol :global(.vtex-search-result-3-x-filterPopupTitle) {
+  font-size: 0px;
+  position: relative;
+}
+
+.flexCol--orderByMobileCol :global(.vtex-search-result-3-x-orderByOptionsContainer) {
+  margin-top: 55px;
+  width: 310px;
+}
+
+.flexCol--orderByMobileCol :global(.vtex-search-result-3-x-orderByOptionItem) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+
+
+
+
+
+/*Order by mobile version styling ENDS here */
+.flexCol--filterCol { max-width: 230px!important; min-width: 230px!important; }
+
+/* Store loator css */
+
+.flexRow--store-locator-home :global(.vtex-store-components-3-x-container){
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
   color: #727273;
@@ -97,22 +251,70 @@
   margin-right: 0px;
 }
 
+
 /* Styling for product page desktop version */
 
 :global(.vtex-store-components-3-x-price_sellingPrice) {
   color: #001930;
-  font-family: "Museo JH Sans 900";
+  font-family: "MuseoJHSans900";
   font-size: 25px;
   line-height: 29px;
 }
 
+.flexRow--product-name-price-section {
+  border-bottom: 1px solid;
+  border-color: #DCDCDC;
+  padding-bottom: 5px;
+}
+.flexCol--product-name-price-section {
+  justify-content: flex-end;
+}
+
+.flexRowContent--product-main-container {
+  justify-content: space-between !important;
+}
+
+:global(.vtex-store-components-3-x-price_listPriceContainer--bottom-price-section){
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-price_sellingPriceLabel--bottom-price-section) {
+  display: none;
+}
+
 :global(.vtex-store-components-3-x-productNameContainer) {
   color: #001930;
-  font-family: "Museo JH Sans 900";
+  font-family: "MuseoJHSans900";
   font-size: 25px;
   line-height: 29px;
   font-weight: bold;
 }
+
+.flexColChild--product-name-price-section :global(.vtex-product-price-1-x-savings--summary-discount-percentage) {
+  width: 60px !important
+}
+
+.flexRowContent--product-name-price-section .stretchChildrenWidth:first-child .flexColChild--product-name-price-section {
+  flex-direction: column !important;
+  align-items: flex-start;
+}
+
+.flexCol--product-name-price-section {
+  display: flex!important;
+  flex-direction: row!important;
+}
+.flexColChild--product-name-price-section {
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;
+}
+
+.flexRowContent--product-name-price-section .stretchChildrenWidth:first-child .flexCol--product-name-price-section {
+  flex-direction: column !important;
+  align-items: flex-start;
+}
+
+
 
 .flexRowContent--product-buy-button :global(.vtex-button) {
   background-color: #001930;
@@ -123,7 +325,7 @@
 
 .flexRowContent--product-buy-button :global(.vtex-button__label) {
   color: #ffffff;
-  font-family: "Museo JH Sans 900";
+  font-family: "MuseoJHSans900";
   font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
@@ -132,6 +334,41 @@
 :global(.vtex-store-components-3-x-productImagesGallerySwiperContainer--image-to-hide) {
   display: none;
 }
+/* store locator styling  dekstop */
+
+:global(.vtex-rich-text-0-x-container--store-locator-rich-text) {
+  position: absolute;
+  width: 803px;
+  height: 34px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 35px;
+  line-height: 29px;
+  top: 0px;
+  left: 10px;
+  margin-left: 120px;
+}
+
+.flexRow--store-locator-home-mobile {
+  position: relative;
+}
+
+.flexRow--store-locator-home :global(.vtex-store-components-3-x-container) {
+  max-width: 100% !important;
+}
+.flexRowContent--store-locator-home .stretchChildrenWidth {
+  width: 100% !important;
+}
+.flexRowContent--store-locator-home {
+  flex-wrap: wrap;
+  position: relative;
+}
+
+/* all products page */
+:global(.vtex-flex-layout-0-x-flexCol--filterCol) {
+  width: 300px!important;
+}
+/* all products page  END*/
 
 
 
@@ -145,6 +382,8 @@
   justify-content: center;
   align-items: center;
 }
+
+
 
 .flexRowContent--menu-link {
   display: flex;
@@ -163,4 +402,19 @@
 .flexRowContent--privacy-policy-mobile {
   justify-content: flex-end;
 }
+
+/* mobile product page BEGINS here */
+
+.flexRowContent--product-name-price-section {
+  position: relative;
+}
+
+.flexCol--product-name-price-section {
+  width: 50%!important;
+  display: flex;
+  position: absolute;
+  right: 0px;
+  top: 7px;
+}
+/* mobile product page ENDS here */
 

@@ -1,15 +1,16 @@
 {
   "store.home": {
     "blocks": [
-      "responsive-layout.desktop",
-      "responsive-layout.mobile"
+      "responsive-layout.desktop#home",
+      "responsive-layout.mobile#home"
     ]
   },
-    "responsive-layout.desktop": {
+    "responsive-layout.desktop#home": {
       "children": [
         "slider-layout#andrei-images",
         "shelf#radu",
         "rich-text#shelf-title-backToSchool",
+        "info-card#backToSchool",
         "rich-text#question",
         "rich-text#shelf-title-category",
         "slider-layout#demo-products",
@@ -17,17 +18,15 @@
         "info-card#fidelity-card",
         "rich-text#shelf-title-armocromia",
         "info-card#colours",
+        "flex-layout.row#store-locator",
         "info-card#teddy",
-        "rich-text#link",
-        "newsletter",
-        "__fold__.experimentalLazyAssets"
+        "newsletter#desktop"
       ]
     },
 
-    "responsive-layout.mobile": {
+    "responsive-layout.mobile#home": {
       "children": [
         "slider-layout#andrei-imagesMobile",
-        "__fold__.experimentalLazyAssets",
         "shelf#raduMobile",
         "rich-text#shelf-title-backToSchoolMobile",
         "info-card#backToSchoolMobile",
@@ -37,14 +36,13 @@
         "info-card#fidelity-cardMobile",
         "rich-text#shelf-title-armocromiaMobile",
         "info-card#coloursMobile",
-        "address-search",
+        "flex-layout.row#store-locator-mobile",
         "info-card#teddyMobile",
         "newsletter#mobile"
       ]
     },
       "slider-layout#andrei-images": {
         "children": [
-        "stack-layout#firstSlide",
         "stack-layout#firstSlide",
         "rich-text#link"
         ],
@@ -62,66 +60,69 @@
       },
 
      "stack-layout#firstSlide": {
-      "props": {
-       "blockClass": "hatSliderStack"
-      },
-       "children": [
-       "info-card#hat1",
-       "info-card#hat2"
-       ]
+           "props": {
+            "blockClass": "hatSliderStack"
+           },
+            "children": [
+            "info-card#hat1",
+            "info-card#hat2"
+            ]
+          },
+        "info-card#hat1": {
+          "props": {
+            "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/firstsliderhomepage.png",
+            "isFullModeStyle": true,
+            "callToActionText": "BAMBINO",
+            "callToActionUrl": "www.google.com",
+            "textPosition": "center",
+            "headline": "2019",
+            "zIndexOffset": 1,
+            "blockClass": "firstLayer"
+          }
+        },
+         "info-card#hat2": {
+           "props": {
+             "imageUrl": "",
+             "isFullModeStyle": true,
+             "callToActionText": "BAMBINA",
+             "callToActionUrl": "www.facebook.com",
+             "textPosition": "left",
+             "zIndexOffset": 1,
+             "headline": "NUOVI ARRIVI",
+              "blockClass": "secondLayer"
+           }
      },
 
-   "info-card#hat1": {
-     "props": {
-       "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/2-layers.png",
-       "isFullModeStyle": true,
-       "callToActionText": "BAMBINO",
-       "callToActionUrl": "www.google.com",
-       "textPosition": "center",
-       "zIndexOffset": 1
-
-     }
-   },
-    "info-card#hat2": {
-      "props": {
-        "imageUrl": "",
-        "isFullModeStyle": true,
-        "callToActionText": "BAMBINA",
-        "callToActionUrl": "www.facebook.com",
-        "textPosition": "center",
-        "zIndexOffset": 1,
-         "blockClass": "secondLayer"
-
-      }
-},
 
   "shelf#radu": {
-      "blocks": ["product-summary"],
+      "blocks": ["product-summary.shelf"],
       "props": {
+        "blockClass": "shlef-radu",
         "category": 2,
         "orderBy": "OrderByTopSaleDESC",
         "paginationDotsVisibility": "desktopOnly",
         "productList": {
-          "maxItems": 3,
+          "maxItems": 7,
           "itemsPerPage": 3.5,
           "minItemsPerPage": 1,
           "scroll": "BY_PAGE",
           "arrows": true,
-          "titleText": "Top sellers"
+          "titleText": ""
         }
       }
     },
-    "product-summary": {
+    "product-summary#radu": {
     "props": {
-      "isOneClickBuy": false,
+      "isOneClickBuy": true,
       "showBadge": true,
-      "badgeText": "OFF",
+      "badgeText": "ON",
       "displayBuyButton": "displayButtonHover",
       "showCollections": false,
       "showListPrice": true,
-      "showLabels": false,
+      "showLabels": true,
       "showInstallments": true,
-      "showSavings": true
+      "showSavings": true,
+      "showDiscount" : true
     }
   },
 
@@ -134,15 +135,27 @@
    },
 
   "product-summary.shelf": {
+  "props": {
+        "blockClass": "shelf-radu2",
+        "isOneClickBuy": true,
+        "showBadge": true,
+        "badgeText": "ON",
+        "displayBuyButton": "displayButtonNone",
+        "showCollections": true,
+        "showListPrice": true,
+        "showLabels": true,
+        "showInstallments": true,
+        "showSavings": true
+      },
     "children": [
       "product-summary-name",
       "product-summary-description",
       "product-summary-image",
       "product-summary-price",
-      "product-summary-sku-selector",
-      "product-summary-buy-button"
+      "product-summary-sku-selector"
     ]
   },
+
 
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
@@ -166,7 +179,7 @@
       "id": "info-card-fidelity-card",
       "isFullModeStyle": true,
       "textPosition": "left",
-      "imageUrl": "/arquivos/fidelityCardMobile.png",
+      "imageUrl": "/arquivos/fidelityfinal.png",
       "headline": "Richiedi la nostra fidelity card.",
       "callToActionText": "SCOPRI",
       "callToActionUrl": "/sale/d",
@@ -306,9 +319,9 @@
       "id": "info-card-backToSchool",
       "isFullModeStyle": true,
       "textPosition": "left",
-      "imageUrl": "/arquivos/backtoschoolmobile.png",
-      "headline": "Dimentica i capi che si rovinano dopo  un lavaggio: un iDO è per sempre.",
-      "callToActionText": "SCOPRI",
+      "imageUrl": "/arquivos/backtoschool.png",
+      "headline": "Ricomincia l'avventura <br>con l'outfit giusto",
+      "callToActionText": "ACQUISTA",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-domentica",
       "textAlignment": "center"
@@ -327,6 +340,32 @@
       "textAlignment": "center"
     }
   },
+
+  "flex-layout.row#store-locator": {
+      "props": {
+        "blockClass": "store-locator-home"
+      },
+      "children": [
+        "store-locator-search-input#test",
+        "rich-text#store-locator"
+      ]
+    },
+
+  "store-locator-search-input#test": {
+    "props": {
+      "placeholder": "Inserisci indirizzo",
+      "value": "",
+      "redirectTo": "/our-stores",
+      "blockClass": "store-locator-desktop"
+    }
+  },
+    "rich-text#store-locator": {
+      "props": {
+        "text": "​Trova il negozio iDO più vicino a te",
+        "blockClass": "store-locator-rich-text"
+      }
+    },
+
   "info-card#teddy": {
     "props": {
       "id": "info-card-domentica",
@@ -350,8 +389,17 @@
 
   "rich-text#link": {
     "props": {
-      "text": "​<div class='vtex-your-class-name'> <iframe width='1520' height='500' src='https://www.youtube.com/embed/2AVs-Yh1bS8' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>",
+      "text": "​<div class='vtex-rich-text-iframe'> <iframe class='vtex-rich-text-iframe-inside' height='500' src='https://www.youtube.com/embed/2AVs-Yh1bS8' frameborder='0' style = 'width: 100%' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>",
       "blockClass": "link"
     }
-  }
+  },
+
+    "newsletter#desktop": {
+      "props": {
+        "blockClass": "newsletter-desktop",
+        "label": "Iscriviti alla newsletter",
+        "placeholder": "Inserisci la tua email",
+        "hideLabel": false
+      }
+    }
 }

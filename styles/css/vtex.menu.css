@@ -9,3 +9,51 @@
 .footerLayout :global(.vtex-flex-layout-0-x-flexRow--menu-row) {
   color: #ffffff!important;
 }
+
+:global(.vtex-flex-layout-0-x-flexRow--main-header) .menuContainer {
+  align-items: center;
+}
+:global(.vtex-flex-layout-0-x-flexRow--main-header) .menuItem:first-child,
+:global(.vtex-flex-layout-0-x-flexRow--main-header) .menuItem:last-child {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/*footer text styling */
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRow--menu-row) .styledLinkContent {
+  color: white !important;
+  font-family: "Avenir Light";
+}
+
+
+:global(.vtex-menu-2-x-menuItem--filter-icon-mobile) {
+  align-self: center;
+  background-image: url("https://andreibranch--storeido.myvtex.com/arquivos/filter_icon@3x.png");
+  height: 47px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+  margin-top: 4px;
+  position: absolute;
+  margin-left: 88px;
+}
+
+.styledLinkIcon--ido-logo-class-desktop-login {
+  color: grey;
+
+}
+
+.styledLinkContent--ido-logo-class-desktop-login {
+  width: 81px;
+  height: 19px;
+  color: grey;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: bold;
+}
+
+
+
+
