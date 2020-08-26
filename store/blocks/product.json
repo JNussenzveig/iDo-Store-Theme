@@ -1,16 +1,13 @@
 {
   "store.product.kitlook": {
     "children": [
-      "responsive-layout.desktop#product",
-      "responsive-layout.mobile#product"
+      "kitlook-layout"
     ]
   },
 
   "responsive-layout.desktop#product": {
     "children": [
-      "flex-layout.row#product-main",
-      "kitlook-layout",
-      "shelf.relatedProducts#dekstop-product"
+      "flex-layout.row#product-main"
     ]
   },
 
@@ -415,17 +412,18 @@
       "paddingTop": 7,
       "paddingBottom": 7
     },
-    "children": ["flex-layout.col#kitlook", "product-rating-summary"]
+    "children": ["flex-layout.row#kitlook-content-container"]
   },
-  "flex-layout.col#kitlook": {
+  "flex-layout.row#kitlook-content-container": {
     "props": {
       "colGap": 7,
       "rowGap": 7,
       "marginTop": 4,
       "marginBottom": 7,
       "paddingTop": 7,
-      "paddingBottom": 7
+      "paddingBottom": 7,
+      "blockClass": "acupula-desktop-product"
     },
-    "children": ["kitlook"]
+    "children": ["flex-layout.row#product-image","kitlook"]
   }
 }

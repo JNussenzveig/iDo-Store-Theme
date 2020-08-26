@@ -418,3 +418,34 @@
 }
 /* mobile product page ENDS here */
 
+/* acupula desktop */
+
+.flexRowContent--acupula-desktop-product :global(.vtex-checkbox__inner-container) {
+  border-radius: 20px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #001930;
+}
+
+.flexRowContent--acupula-desktop-product :global(.vtex-button) {
+  width: 327px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+  border: none;
+}
+
+.flexRowContent--acupula-desktop-product :global(.vtex-store-components-3-x-buyButtonText) {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.flexRowContent--acupula-desktop-product :global(.vtex-product-details-1-x-quantitySelectorContainer) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
