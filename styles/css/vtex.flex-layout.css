@@ -420,13 +420,6 @@
 
 /* acupula desktop */
 
-.flexRowContent--acupula-desktop-product :global(.vtex-checkbox__inner-container) {
-  border-radius: 20px;
-  width: 20px;
-  height: 20px;
-  border: 1px solid #001930;
-}
-
 .flexRowContent--acupula-desktop-product :global(.vtex-button) {
   width: 327px;
   height: 40px;
@@ -442,6 +435,14 @@
   text-transform: uppercase;
 }
 
+
+.flexRowContent--acupula-desktop-product :global(.vtex-store-components-3-x-skuSelectorItemTextValue) {
+  height: 33px;
+  border-radius: 16px;
+  border: 1px solid #001930;
+  padding-top: 5px;
+}
+
 .flexRowContent--acupula-desktop-product :global(.vtex-product-details-1-x-quantitySelectorContainer) {
   display: flex;
   flex-direction: row;
@@ -449,3 +450,4 @@
   align-items: center;
   margin-top: 20px;
 }
+

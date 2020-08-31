@@ -1,4 +1,5 @@
 @import url('/files/test2.css');
+@import url('/files/acupula.css?asd=1');
 
 :global(.vtex-locale-switcher-0-x-container) {
   justify-content: space-around;
@@ -784,3 +785,18 @@
   }
 }
 /* desktop mobile version ENDS here */
+:global(.vtex-flex-layout-0-x-flexRowContent) .seeMoreButton :global(.vtex-button) {
+  border-radius: unset!important;
+  background-color: unset!important;
+  border: unset!important;
+  height: unset!important;
+  width: unset!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent) .seeMoreButton :global(.vtex-button__label) {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: "MuseoJHSans300";
+  margin-top: 4px;
+}
