@@ -23,7 +23,7 @@
   },
   "info-card#hat1Mobile": {
     "props": {
-      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/nuovoarrivi.png",
+      "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/nuovoarrivi.png",
       "isFullModeStyle": true,
       "callToActionText": "BAMBINO",
       "callToActionUrl": "www.google.com",
@@ -112,7 +112,7 @@
   },
   "info-card#1Mobile": {
     "props": {
-      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
+      "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/glamgirl.png",
       "isFullModeStyle": false,
       "callToActionText": "Glam",
       "textPosition": "center",
@@ -121,7 +121,7 @@
   },
   "info-card#2Mobile": {
     "props": {
-      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/idomini.png",
+      "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/idomini.png",
       "isFullModeStyle": false,
       "callToActionText": "iDO Mini",
       "textPosition": "center",
@@ -130,7 +130,7 @@
   },
   "info-card#3Mobile": {
     "props": {
-      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
+      "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/glamgirl.png",
       "isFullModeStyle": false,
       "callToActionText": "Back to school",
       "textPosition": "center",
@@ -139,7 +139,7 @@
   },
   "info-card#4Mobile": {
     "props": {
-      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
+      "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/glamgirl.png",
       "isFullModeStyle": false,
       "callToActionText": "Glam",
       "textPosition": "center",
@@ -148,7 +148,7 @@
   },
   "info-card#5Mobile": {
     "props": {
-      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/idomini.png",
+      "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/idomini.png",
       "isFullModeStyle": false,
       "callToActionText": "iDO Mini",
       "textPosition": "center",
@@ -157,7 +157,7 @@
   },
   "info-card#6Mobile": {
     "props": {
-      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
+      "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/glamgirl.png",
       "isFullModeStyle": false,
       "callToActionText": "Back to school",
       "textPosition": "center",

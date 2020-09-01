@@ -47,7 +47,7 @@
     "vtex.product-specification-badges": "0.x",
     "vtex.product-review-interfaces": "1.x",
     "vtex.telemarketing": "2.x",
-    "vtex.order-placed": "1.x",
+    "vtex.order-placed": "2.x",
     "vtex.checkout-summary": "0.x",
     "vtex.product-list": "0.x",
     "vtex.add-to-cart-button": "0.x",
@@ -63,7 +63,8 @@
     "codeby.store-locator": "1.x",
     "codeby.product-specification-accordion": "1.x",
     "codeby.custom-state-handles": "0.x",
-    "codeby.menu-tabs": "0.x"
+    "codeby.menu-tabs": "0.x",
+    "acupula.kitlook": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

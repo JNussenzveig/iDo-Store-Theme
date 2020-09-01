@@ -70,7 +70,7 @@
           },
         "info-card#hat1": {
           "props": {
-            "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/firstsliderhomepage.png",
+            "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/firstsliderhomepage.png",
             "isFullModeStyle": true,
             "callToActionText": "BAMBINO",
             "callToActionUrl": "www.google.com",
@@ -98,7 +98,7 @@
       "blocks": ["product-summary.shelf"],
       "props": {
         "blockClass": "shlef-radu",
-        "category": 3,
+        "category": 2,
         "orderBy": "OrderByTopSaleDESC",
         "paginationDotsVisibility": "desktopOnly",
         "productList": {
@@ -254,7 +254,7 @@
   },
    "info-card#1": {
      "props": {
-       "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
+       "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/glamgirl.png",
        "isFullModeStyle": true,
        "callToActionText": "Glam",
        "textPosition": "center"
@@ -262,7 +262,7 @@
    },
    "info-card#2": {
        "props": {
-         "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/idomini.png",
+         "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/idomini.png",
          "isFullModeStyle": true,
          "callToActionText": "iDO Mini",
          "textPosition": "center"
@@ -270,7 +270,7 @@
   },
      "info-card#3": {
        "props": {
-         "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
+         "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/glamgirl.png",
          "isFullModeStyle": true,
          "callToActionText": "Back to school",
          "textPosition": "center"
@@ -279,7 +279,7 @@
 
      "info-card#4": {
        "props": {
-         "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
+         "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/glamgirl.png",
          "isFullModeStyle": true,
          "callToActionText": "Glam",
          "textPosition": "center"
@@ -287,7 +287,7 @@
      },
      "info-card#5": {
          "props": {
-           "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/idomini.png",
+           "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/idomini.png",
            "isFullModeStyle": true,
            "callToActionText": "iDO Mini",
            "textPosition": "center"
@@ -295,7 +295,7 @@
     },
        "info-card#6": {
          "props": {
-           "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
+           "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/glamgirl.png",
            "isFullModeStyle": true,
            "callToActionText": "Back to school",
            "textPosition": "center"
@@ -382,7 +382,7 @@
 
   "rich-text#question": {
     "props": {
-      "text": "​<div class='vtex-rich-text-wrapper'>​<div class='vtex-rich-text-section'><div class='vtex-rich-text-title'>Scopri l'outlet</div><div class='vtex-rich-text-link'><img class='vtex-rich-text-image' src='https://andreibranch--storeido.myvtex.com/arquivos/teddy.png'><a class='vtex-rich-text-href' href='https://www.w3schools.com'>Scopri</a></div></div></div>",
+      "text": "​<div class='vtex-rich-text-wrapper'>​<div class='vtex-rich-text-section'><div class='vtex-rich-text-title'>Scopri l'outlet</div><div class='vtex-rich-text-link'><img class='vtex-rich-text-image' src='https://andrei--storeido.myvtex.com/arquivos/teddy.png'><a class='vtex-rich-text-href' href='https://www.w3schools.com'>Scopri</a></div></div></div>",
       "blockClass": "question"
     }
   },

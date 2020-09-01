@@ -7,6 +7,8 @@
   }
 }
 
+@import url('/files/test2.css');
+@import url('/files/acupula.css?asd=1');
 
 :global(.vtex-locale-switcher-0-x-container) {
   justify-content: space-around;
@@ -577,6 +579,21 @@
   height: 19px;
 }
 
+.discountInsideContainer {
+  left: 0px;
+  width: 36%;
+}
+
+/*.skuSelectorItemImageValue--colors-selector {
+  width: 136px;
+  height: 146px;
+}
+
+.skuSelectorItemImage--colors-selector {
+  width: auto !important;
+  height: 100% !important;
+}*/
+
 .valueWrapper--colors-selector {
   width: 100%;
   display: flex;
@@ -729,12 +746,14 @@
 
 /* product page image size desktop version */
 
-.productImageTag--productImageDesktop {
+/* .productImageTag--productImageDesktop { */
+/*.productImageTag--productImageDesktop {
   width: 720px!important;
   height: 770px!important;
   max-height: 770px!important;
   object-fit: contain;
 }
+}*/
 
 .productImage {
   display: flex;
@@ -1235,3 +1254,19 @@
 }
 
 
+/* desktop mobile version ENDS here */
+:global(.vtex-flex-layout-0-x-flexRowContent) .seeMoreButton :global(.vtex-button) {
+  border-radius: unset!important;
+  background-color: unset!important;
+  border: unset!important;
+  height: unset!important;
+  width: unset!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent) .seeMoreButton :global(.vtex-button__label) {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: "MuseoJHSans300";
+  margin-top: 4px;
+}

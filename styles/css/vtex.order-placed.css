@@ -1,0 +1,121 @@
+@media screen and (min-width: 491px) {
+
+  :global(.vtex-rich-text-0-x-paragraph--go-back-button) {
+    width: 256px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #001930;
+  }
+
+  :global(.vtex-order-placed-back-button) {
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: unset;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+  }
+
+  .section--confirmation :global(.vtex-button) {
+    width: 256px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #001930;
+  }
+
+  .section--confirmation :global(.vtex-button__label) {
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: unset;
+  }
+
+  .confirmationMessage {
+    color: #001930;
+    font-family: "MuseoJHSans500";
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  .confirmationTitle {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 25px;
+    line-height: 29px;
+  }
+
+  .confirmationIconWrapper {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 490px) {
+
+  .section--confirmation :global(.vtex-button) {
+    width: 256px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #001930;
+  }
+
+  .confirmationIconWrapper {
+    display: none;
+  }
+
+  .section--confirmation :global(.vtex-button__label) {
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: unset;
+  }
+
+  .confirmationMessage {
+    color: #001930;
+    font-family: "MuseoJHSans500";
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  .confirmationTitle {
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 25px;
+    line-height: 29px;
+  }
+
+
+  :global(.vtex-rich-text-0-x-paragraph--go-back-button) {
+    width: 256px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #001930;
+  }
+
+  :global(.vtex-order-placed-back-button) {
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: unset;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+  }
+
+  .confirmationMessage {
+    padding: 30px;
+  }
+
+  .section--confirmation :global(.vtex-flex-layout-0-x-flexRowContent--confirmationButtons) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
