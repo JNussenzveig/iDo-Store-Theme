@@ -1,0 +1,681 @@
+{
+
+  "store.custom#contattaci": {
+      "blocks": [
+      "responsive-layout.desktop#contattaci",
+      "responsive-layout.mobile#contattaci-mobile"
+
+      ]
+    },
+    "responsive-layout.desktop#contattaci": {
+      "children": [
+         "flex-layout.row#contattaci-form",
+         "flex-layout.row#newsletter"
+      ]
+    },
+
+    "responsive-layout.mobile#contattaci-mobile": {
+      "children": [
+         "flex-layout.row#contattaci-form-mobile",
+         "newsletter#banner-mobile"
+      ]
+    },
+
+   "flex-layout.row#contattaci-form": {
+       "children": [
+         "tabs-container#contattaci-form"
+       ],
+       "props": {
+       "blockClass": "contattaci-form"
+       }
+   },
+
+  "tabs-container#contattaci-form": {
+    "props": {
+      "orientation": "horizontal",
+      "menuTitle": "Servizio clienti",
+      "tabs": [
+        {
+          "title": "Contattaci",
+          "id": "tab-wrapper#contattaci-form"
+        }
+      ]
+    },
+    "children": [
+      "tab-wrapper#contattaci-form"
+    ]
+  },
+
+  "tab-wrapper#contattaci-form": {
+    "props": {
+      "title": "Test 2"
+    },
+    "children": [
+      "flex-layout.col#contattaci-form"
+    ]
+  },
+
+
+
+    "flex-layout.col#contattaci-form": {
+      "children": [
+        "rich-text#contattaci-form-title1",
+        "rich-text#contattaci-form-content1",
+        "rich-text#contattaci-form-content2",
+        "rich-text#contattaci-form-content3",
+        "rich-text#contattaci-form-title2",
+        "rich-text#contattaci-form-content4",
+        "rich-text#contattaci-form-content5",
+        "rich-text#contattaci-form-content6",
+        "rich-text#contattaci-form-title3",
+        "rich-text#contattaci-form-content7",
+        "rich-text#contattaci-form-content8",
+        "rich-text#contattaci-form-content9",
+        "form#contattaci-form"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "contattaci-form"
+      }
+    },
+
+    "rich-text#contattaci-form-title1": {
+        "props": {
+          "blockClass": "contattaci-form-title",
+          "text":
+          "Negozi"
+        }
+    },
+
+    "rich-text#contattaci-form-content1": {
+        "props": {
+          "blockClass": "contattaci-form-content1",
+          "text":
+          "assistenzaclienti@miniconf.it"
+        }
+    },
+     "rich-text#contattaci-form-content2": {
+         "props": {
+           "blockClass": "contattaci-form-content2",
+           "text":
+           "0575 533248"
+         }
+     },
+    "rich-text#contattaci-form-content3": {
+        "props": {
+          "blockClass": "contattaci-form-content3",
+          "text":
+          "Dal lunedì al venerdì dalle 8:30 alle 18:00"
+        }
+    },
+
+
+    "rich-text#contattaci-form-title2": {
+        "props": {
+          "blockClass": "contattaci-form-title",
+          "text":
+          "Vendita online"
+        }
+    },
+
+    "rich-text#contattaci-form-content4": {
+        "props": {
+          "blockClass": "contattaci-form-content4",
+          "text":
+          "customerservice@ido.it"
+        }
+    },
+     "rich-text#contattaci-form-content5": {
+         "props": {
+           "blockClass": "contattaci-form-content5",
+           "text":
+           "0575 533444"
+         }
+     },
+    "rich-text#contattaci-form-content6": {
+        "props": {
+          "blockClass": "contattaci-form-content6",
+          "text":
+          "Dal lunedì al venerdì dalle 8:30 alle 11:00 e dalle 13:00 alle 15:00"
+        }
+    },
+    "rich-text#contattaci-form-title3": {
+        "props": {
+          "blockClass": "contattaci-form-title",
+          "text":
+          "Impresa"
+        }
+    },
+
+    "rich-text#contattaci-form-content7": {
+        "props": {
+          "blockClass": "contattaci-form-content7",
+          "text":
+          "info@ido.it"
+        }
+    },
+     "rich-text#contattaci-form-content8": {
+         "props": {
+           "blockClass": "contattaci-form-content8",
+           "text":
+           "0575 5331"
+         }
+     },
+    "rich-text#contattaci-form-content9": {
+        "props": {
+          "blockClass": "contattaci-form-content9",
+          "text":
+          "Dal lunedì al venerdì dalle 8:30 alle 18:00"
+        }
+    },
+
+    "form#contattaci-form": {
+             "props": {
+               "entity": "CF",
+               "schema": "contact_form"
+             },
+             "children": [
+               "flex-layout.row#location-contattaci-form",
+               "flex-layout.row#name-surname-contattaci-form",
+               "flex-layout.row#email-phone-contattaci-form",
+               "flex-layout.row#message-contattaci-form",
+               "rich-text#campi-obbligatori-contattaci-form",
+               "flex-layout.row#privacy-contattaci-form",
+               "flex-layout.row#submit-contattaci-form"
+             ],
+             "blocks": ["form-success"]
+           },
+           "form-success": {
+             "children": [
+               "rich-text#successSubmit"
+             ]
+           },
+           "rich-text#successSubmit": {
+             "props": {
+               "text": "Succesfully submitted the data!",
+               "textAlignment": "CENTER",
+               "textPosition": "CENTER"
+             }
+           },
+
+
+
+
+      "flex-layout.row#location-contattaci-form": {
+        "children": [
+                "flex-layout.col#location-contattaci-form"
+
+              ],
+              "props": {
+                "blockClass": "location-contattaci-form"
+            }
+      },
+       "flex-layout.col#location-contattaci-form": {
+         "children": [
+                 "form-input.dropdown#Location"
+               ],
+               "props": {
+                 "blockClass": "contattaci-form-location"
+             }
+       },
+
+
+
+      "flex-layout.row#name-surname-contattaci-form": {
+        "children": [
+                "flex-layout.col#name-contattaci-form",
+                "flex-layout.col#surname-contattaci-form"
+
+              ],
+              "props": {
+                "blockClass": "name-surname-contattaci-form"
+            }
+      },
+       "flex-layout.col#name-contattaci-form": {
+         "children": [
+                 "form-input.text#Name1"
+               ],
+               "props": {
+                 "blockClass": "contattaci-form-name"
+             }
+       },
+      "flex-layout.col#surname-contattaci-form": {
+        "children": [
+                "form-input.text#Surname1"
+              ],
+              "props": {
+                "blockClass": "contattaci-form-surname"
+            }
+      },
+
+
+      "flex-layout.row#email-phone-contattaci-form": {
+        "children": [
+                "flex-layout.col#email-contattaci-form",
+                "flex-layout.col#phone-contattaci-form"
+              ],
+              "props": {
+                "blockClass": "email-phone-contattaci-form"
+            }
+      },
+       "flex-layout.col#email-contattaci-form": {
+         "children": [
+                 "form-input.text#Email1"
+               ],
+               "props": {
+                 "blockClass": "contattaci-form-email"
+             }
+       },
+       "flex-layout.col#phone-contattaci-form": {
+         "children": [
+                 "form-input.text#Phone1"
+               ],
+               "props": {
+                 "blockClass": "contattaci-form-phone"
+             }
+       },
+
+      "flex-layout.row#message-contattaci-form": {
+        "children": [
+                "form-input.text#Message"
+              ],
+              "props": {
+                "blockClass": "contattaci-form-message"
+            }
+      },
+
+
+      "flex-layout.row#privacy-contattaci-form": {
+        "children": [
+                "form-input.checkbox#Privacy1"
+              ],
+              "props": {
+                "blockClass": "contattaci-form-privacy"
+            }
+      },
+
+      "flex-layout.row#submit-contattaci-form": {
+        "children": [
+                "form-submit"
+              ],
+              "props": {
+                "blockClass": "contattaci-form-submit"
+            }
+      },
+
+           "form-input.dropdown#Location": {
+             "props": {
+               "pointer": "#/properties/location",
+               "label": "Selezione la ragione della richiesta"
+             }
+           },
+
+
+           "form-input.text#Name1": {
+             "props": {
+               "pointer": "#/properties/name",
+               "label": "Nome *"
+             }
+           },
+           "form-input.text#Surname1": {
+             "props": {
+               "pointer": "#/properties/surname",
+               "label": "Cognome *"
+             }
+           },
+           "form-input.text#Email1": {
+             "props": {
+               "pointer": "#/properties/email",
+               "label": "Email *"
+             }
+           },
+           "form-input.text#Phone1": {
+             "props": {
+               "pointer": "#/properties/phone",
+               "label": "Telefono"
+             }
+           },
+
+           "form-input.text#Message": {
+             "props": {
+               "pointer": "#/properties/message",
+               "label": "Messaggio *"
+             }
+           },
+            "form-input.checkbox#Privacy1": {
+              "props": {
+                "pointer": "#/properties/privacy",
+                "label": "Ho preso visione dell'informativa sulla Privacy ed acconsento al trattamento dei miei dati personali *"
+              }
+            },
+
+           "rich-text#campi-obbligatori-contattaci-form": {
+                      "props": {
+                        "text": "*Campi obbligatori",
+                        "blockClass": "campi-obbligatori-contattaci-form"
+                      }
+                },
+
+
+           "form-submit": {
+             "props": {
+               "label": "ISCRIVITI"
+             }
+           },
+
+/*contattaci mobile*/
+
+   "flex-layout.row#contattaci-form-mobile": {
+       "children": [
+         "flex-layout.col#contattaci-form-mobile"
+       ],
+       "props": {
+       "blockClass": "contattaci-form-mobile"
+       }
+   },
+
+
+    "flex-layout.col#contattaci-form-mobile": {
+      "children": [
+        "rich-text#servizioClienti-mobile",
+        "rich-text#contattaci-form-title-mobile",
+        "rich-text#contattaci-form-title1-mobile",
+        "rich-text#contattaci-form-content1-mobile",
+        "rich-text#contattaci-form-content2-mobile",
+        "rich-text#contattaci-form-content3-mobile",
+        "rich-text#contattaci-form-title2-mobile",
+        "rich-text#contattaci-form-content4-mobile",
+        "rich-text#contattaci-form-content5-mobile",
+        "rich-text#contattaci-form-content6-mobile",
+        "rich-text#contattaci-form-title3-mobile",
+        "rich-text#contattaci-form-content7-mobile",
+        "rich-text#contattaci-form-content8-mobile",
+        "rich-text#contattaci-form-content9-mobile",
+        "form#contattaci-form-mobile"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "contattaci-form-mobile"
+      }
+    },
+
+   "rich-text#servizioClienti-mobile": {
+       "props": {
+         "blockClass": "servizioClienti-mobile",
+         "text":
+         "Servizio clienti"
+       }
+    },
+
+   "rich-text#contattaci-form-title-mobile": {
+       "props": {
+         "blockClass": "contattaci-form-titlebig-mobile",
+         "text":
+         "Contattaci"
+       }
+    },
+
+    "rich-text#contattaci-form-title1-mobile": {
+        "props": {
+          "blockClass": "contattaci-form-title-mobile",
+          "text":
+          "Negozi"
+        }
+    },
+
+    "rich-text#contattaci-form-content1-mobile": {
+        "props": {
+          "blockClass": "contattaci-form-content1-mobile",
+          "text":
+          "assistenzaclienti@miniconf.it"
+        }
+    },
+     "rich-text#contattaci-form-content2-mobile": {
+         "props": {
+           "blockClass": "contattaci-form-content2-mobile",
+           "text":
+           "0575 533248"
+         }
+     },
+    "rich-text#contattaci-form-content3-mobile": {
+        "props": {
+          "blockClass": "contattaci-form-content3-mobile",
+          "text":
+          "Dal lunedì al venerdì dalle 8:30 alle 18:00"
+        }
+    },
+
+
+    "rich-text#contattaci-form-title2-mobile": {
+        "props": {
+          "blockClass": "contattaci-form-title-mobile",
+          "text":
+          "Vendita online"
+        }
+    },
+
+    "rich-text#contattaci-form-content4-mobile": {
+        "props": {
+          "blockClass": "contattaci-form-content4-mobile",
+          "text":
+          "customerservice@ido.it"
+        }
+    },
+     "rich-text#contattaci-form-content5-mobile": {
+         "props": {
+           "blockClass": "contattaci-form-content5-mobile",
+           "text":
+           "0575 533444"
+         }
+     },
+    "rich-text#contattaci-form-content6-mobile": {
+        "props": {
+          "blockClass": "contattaci-form-content6-mobile",
+          "text":
+          "Dal lunedì al venerdì dalle 8:30 alle 11:00 e dalle 13:00 alle 15:00"
+        }
+    },
+    "rich-text#contattaci-form-title3-mobile": {
+        "props": {
+          "blockClass": "contattaci-form-title-mobile",
+          "text":
+          "Impresa"
+        }
+    },
+
+    "rich-text#contattaci-form-content7-mobile": {
+        "props": {
+          "blockClass": "contattaci-form-content7-mobile",
+          "text":
+          "info@ido.it"
+        }
+    },
+     "rich-text#contattaci-form-content8-mobile": {
+         "props": {
+           "blockClass": "contattaci-form-content8-mobile",
+           "text":
+           "0575 5331"
+         }
+     },
+    "rich-text#contattaci-form-content9-mobile": {
+        "props": {
+          "blockClass": "contattaci-form-content9-mobile",
+          "text":
+          "Dal lunedì al venerdì dalle 8:30 alle 18:00"
+        }
+    },
+
+    "form#contattaci-form-mobile": {
+             "props": {
+               "entity": "CF",
+               "schema": "contact_form"
+             },
+             "children": [
+               "flex-layout.row#location-contattaci-form-mobile",
+               "flex-layout.row#name-contattaci-form-mobile",
+               "flex-layout.row#surname-contattaci-form-mobile",
+               "flex-layout.row#email-contattaci-form-mobile",
+               "flex-layout.row#phone-contattaci-form-mobile",
+               "flex-layout.row#message-contattaci-form-mobile",
+               "rich-text#campi-obbligatori-contattaci-form-mobile",
+               "flex-layout.row#privacy-contattaci-form-mobile",
+               "flex-layout.row#submit-contattaci-form-mobile"
+             ],
+             "blocks": ["form-success#contattaci-form-mobile"]
+           },
+           "form-success#contattaci-form-mobile": {
+             "children": [
+               "rich-text#successSubmitmobile"
+             ]
+           },
+           "rich-text#successSubmitmobile": {
+             "props": {
+               "text": "Succesfully submitted the data!",
+               "textAlignment": "CENTER",
+               "textPosition": "CENTER"
+             }
+           },
+
+
+
+
+      "flex-layout.row#location-contattaci-form-mobile": {
+        "children": [
+                "form-input.dropdown#Location"
+
+              ],
+              "props": {
+                "blockClass": "location-contattaci-form-mobile"
+            }
+      },
+
+      "flex-layout.row#name-contattaci-form-mobile": {
+        "children": [
+               "form-input.text#Name1"
+
+              ],
+              "props": {
+                "blockClass": "name-contattaci-form-mobile"
+            }
+      },
+      "flex-layout.row#surname-contattaci-form-mobile": {
+        "children": [
+                "form-input.text#Surname1"
+
+              ],
+              "props": {
+                "blockClass": "surname-contattaci-form-mobile"
+            }
+      },
+
+
+      "flex-layout.row#email-contattaci-form-mobile": {
+        "children": [
+                "form-input.text#Email1"
+              ],
+              "props": {
+                "blockClass": "email-contattaci-form-mobile"
+            }
+      },
+
+      "flex-layout.row#phone-contattaci-form-mobile": {
+        "children": [
+                "form-input.text#Phone1"
+              ],
+              "props": {
+                "blockClass": "phone-contattaci-form-mobile"
+            }
+      },
+
+      "flex-layout.row#message-contattaci-form-mobile": {
+        "children": [
+                "form-input.text#Message"
+              ],
+              "props": {
+                "blockClass": "contattaci-form-message-mobile"
+            }
+      },
+
+
+      "flex-layout.row#privacy-contattaci-form-mobile": {
+        "children": [
+                "form-input.checkbox#Privacy1"
+              ],
+              "props": {
+                "blockClass": "contattaci-form-privacy-mobile"
+            }
+      },
+
+      "flex-layout.row#submit-contattaci-form-mobile": {
+        "children": [
+                "form-submit#contattaci-mobile"
+              ],
+              "props": {
+                "blockClass": "contattaci-form-submit-mobile"
+            }
+      },
+
+           "form-input.dropdown#Location": {
+             "props": {
+               "pointer": "#/properties/location",
+               "label": "Selezione la ragione della richiesta"
+             }
+           },
+
+
+           "form-input.text#Name1": {
+             "props": {
+               "pointer": "#/properties/name",
+               "label": "Nome *"
+             }
+           },
+           "form-input.text#Surname1": {
+             "props": {
+               "pointer": "#/properties/surname",
+               "label": "Cognome *"
+             }
+           },
+           "form-input.text#Email1": {
+             "props": {
+               "pointer": "#/properties/email",
+               "label": "Email *"
+             }
+           },
+           "form-input.text#Phone1": {
+             "props": {
+               "pointer": "#/properties/phone",
+               "label": "Telefono"
+             }
+           },
+
+           "form-input.text#Message": {
+             "props": {
+               "pointer": "#/properties/message",
+               "label": "Messaggio *"
+             }
+           },
+            "form-input.checkbox#Privacy1": {
+              "props": {
+                "pointer": "#/properties/privacy",
+                "label": "Ho preso visione dell'informativa sulla Privacy ed acconsento al trattamento dei miei dati personali *"
+              }
+            },
+
+           "rich-text#campi-obbligatori-contattaci-form-mobile": {
+                      "props": {
+                        "text": "*Campi obbligatori",
+                        "blockClass": "campi-obbligatori-contattaci-form-mobile"
+                      }
+                },
+
+
+           "form-submit#contattaci-mobile": {
+             "props": {
+               "label": "INVIA"
+             }
+           }
+
+}
+
+
+

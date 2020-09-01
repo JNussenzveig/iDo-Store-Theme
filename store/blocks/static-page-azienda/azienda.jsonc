@@ -1,0 +1,2245 @@
+{
+  "store.custom#azienda": {
+      "blocks": [
+        "responsive-layout.desktop#azienda",
+        "responsive-layout.mobile#azienda"
+      ]
+    },
+
+    "responsive-layout.desktop#azienda": {
+      "children": [
+        "flex-layout.row#azienda",
+        "flex-layout.row#vuoilavorare",
+        "flex-layout.row#newsletter"
+      ]
+    },
+
+    "responsive-layout.mobile#azienda": {
+      "children": [
+        "flex-layout.row#azienda-mobile"
+      ]
+    },
+
+
+   "flex-layout.row#azienda": {
+       "children": [
+         "tabs-container#azienda"
+       ],
+       "props": {
+       "blockClass": "flex-row-azienda"
+       }
+   },
+
+   "flex-layout.row#vuoilavorare": {
+        "children": [
+        "flex-layout.col#vuoilavorare"
+        ],
+        "props": {
+        "blockClass": "flex-row-vuoilavorare"
+        }
+   },
+
+   "flex-layout.row#newsletter": {
+        "children": [
+        "newsletter#chiSiamoDesktop"
+        ],
+        "props": {
+        "blockClass": "flex-row-newsletter"
+        }
+
+   },
+
+  "tabs-container#azienda": {
+    "props": {
+      "menuTitle": "Azienda",
+      "orientation": "horizontal",
+      "tabs": [
+        {
+          "title": "Chi siamo",
+          "id": "tab-wrapper#siamo"
+        },
+        {
+          "title": "Il nostro impegno",
+          "id": "tab-wrapper#impegno"
+        },
+        {
+          "title": "Vuoi aprire un franchising iDO?",
+          "id": "tab-wrapper#aprireFranchising"
+        },
+        {
+          "title": "Rete vendita iDO",
+          "id": "tab-wrapper#reteVendita"
+        },
+        {
+          "title": "Partnerlab",
+          "id": "tab-wrapper#partenerLab"
+        },
+        {
+          "title": "Lavora con noi",
+          "id": "tab-wrapper#lavoraConNoi"
+        }
+      ]
+    },
+    "children": [
+      "tab-wrapper#siamo",
+      "tab-wrapper#impegno",
+      "tab-wrapper#aprireFranchising",
+      "tab-wrapper#reteVendita",
+      "tab-wrapper#partenerLab",
+      "tab-wrapper#lavoraConNoi"
+    ]
+  },
+
+
+  "tab-wrapper#siamo": {
+    "props": {
+      "title": "Test 1"
+    },
+    "children": [
+       "flex-layout.col#chiSiamo"
+    ]
+  },
+  "tab-wrapper#impegno": {
+    "props": {
+      "title": "Test 2"
+    },
+    "children": [
+      "flex-layout.col#chiSiamo"
+    ]
+  },
+  "tab-wrapper#aprireFranchising": {
+    "props": {
+      "title": "Test 1"
+    },
+    "children": [
+      "flex-layout.col#aprireFranchising"
+    ]
+  },
+  "tab-wrapper#reteVendita": {
+    "props": {
+      "title": "rete-vendite"
+    },
+    "children": [
+      "flex-layout.col#rete-vendite"
+    ]
+  },
+  "tab-wrapper#partenerLab": {
+      "props": {
+        "title": "franchising"
+      },
+      "children": [
+        "rich-text#azienda"
+      ]
+  },
+   "tab-wrapper#lavoraConNoi": {
+       "props": {
+         "title": "franchising"
+       },
+       "children": [
+         "rich-text#azienda"
+       ]
+   },
+
+/*azienda*/
+   "rich-text#azienda": {
+       "props": {
+         "blockClass": "azienda",
+         "text":
+         "azienda"
+       }
+     },
+
+/*chi siamo*/
+
+     "flex-layout.col#chiSiamo": {
+        "children": [
+          "rich-text#titleSiamo",
+          "rich-text#contentSiamo1",
+          "rich-text#contentSiamo2",
+          "rich-text#contentSiamo3",
+          "image#chi-siamo"
+        ],
+        "props": {
+          "preventVerticalStretch": true,
+          "blockClass": "chiSiamo"
+        }
+      },
+      "rich-text#titleSiamo": {
+          "props": {
+            "blockClass": "titleSiamo",
+            "text":
+            "La nostra storia comincia molto prima di iDO"
+          }
+      },
+      "rich-text#contentSiamo1": {
+         "props": {
+           "blockClass": "contentSiamo1",
+           "text":
+           "iDO è l'ultimo nato di Miniconf, azienda dedicata all'abbigliamento per l'infanzia, che nasce nel 1973 da un'ispirazione del suo attuale presidente, Giovanni Basagni.<br>Il luogo di nascita è già di per sè ricco di magia: Ortignano, nel cuore della valle del Casentino, nella parte orientale della Toscana, tra montagne ricoperte di faggi e abeti, colline orlate da querce e castagni e improvvisi precipizi a valle dove scorre il primo tratto dell'Arno.<br>Oggi Miniconf è un'azienda leader nel settore, grazie ai suoi brand Sarabanda, Dodipetto e iDO e al fatto di aver puntato su una distribuzione multicanale, sull'attenzione alle nuove tecnologie, su una logistica all'avanguardia, su una capacità di ascolto del mercato e dei consumatori davvero unica."
+         }
+       },
+       "rich-text#contentSiamo2": {
+          "props": {
+             "blockClass": "contentSiamo2",
+             "text":
+             "Nel 2013 l'azienda ha festeggiato i suoi primi 40 anni e ha voluto raccontare la sua storia ripercorrendo gli stili e le tendenze che hanno fatto moda dagli anni '70 fino ad oggi. Perchè da 40 anni i bambini di tutto il mondo ci ispirano, i valori ci guidano. E da 40 anni la moda bambino cresce con noi! Sfoglia la brochure del 40ennale.<br>Nell'aprile del 2015 Miniconf ha ottenuto il prestigioso certificato ELITE di Borsa Italiana (Gruppo London Stock Exchange)."
+              }
+       },
+       "rich-text#contentSiamo3": {
+           "props": {
+              "blockClass": "contentSiamo3",
+              "text":
+              "Per tre volte Miniconf ha ottenuto il riconoscimento di 'Company to watch' da Databank, multinazionale specializzata in ricerche di marketing."
+              }
+       },
+       "image#chi-siamo": {
+           "props": {
+             "src": "https://raduthirdbranch--storeido.myvtex.com/arquivos/chi_siamo@4x.png",
+             "blockClass": "imageChiSiamo"
+           }
+       },
+
+       "flex-layout.col#vuoilavorare": {
+                 "children": [
+                   "info-card#contentVuoilavorare"
+
+                 ],
+                 "props": {
+                   "preventVerticalStretch": true,
+                   "blockClass": "vuoilavorare"
+                 }
+       },
+
+
+
+
+       "rich-text#contentVuoilavorare": {
+            "props": {
+              "blockClass": "Vuoilavorare",
+              "text":
+              "Vuoi lavorare con noi?"
+            }
+       },
+
+       "rich-text#cvTextButton": {
+           "props": {
+             "text": "<a class='vtex-linkCvDesktop' href='http://www.google.com'>Lascia il tuo CV",
+             "blockClass": "cvButton"
+           }
+        },
+
+        "info-card#contentVuoilavorare": {
+            "props": {
+              "id": "info-card-Vuoilavorare",
+              "isFullModeStyle": false,
+              "textPosition": "left",
+              "imageUrl": "",
+              "headline": "Vuoi lavorare con noi?",
+              "callToActionText": "Lascia il tuo CV",
+              "callToActionUrl": "http://www.google.com",
+              "blockClass": "info-card-Vuoilavorare",
+              "textAlignment": "center"
+            }
+          },
+
+
+
+/*il nostro impegno*/
+
+
+/*aprire franchising*/
+
+  "flex-layout.col#aprireFranchising": {
+    "children": [
+      "rich-text#about-title1",
+      "rich-text#about-contentFranchising1",
+      "image#about-us",
+      "flex-layout.row#franchisingStorePhotos",
+      "rich-text#about-title3",
+      "rich-text#about-contentFranchising3",
+      "rich-text#about-title4",
+      "rich-text#about-title5",
+      "flex-layout.row#franchisingCandidatura",
+      "modal-trigger#modal-aprire-un-franchising-form"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "franchising-about-us"
+    }
+  },
+  "rich-text#about-title1": {
+    "props": {
+      "blockClass": "franchising-title1",
+      "text":
+      "# Investi il tuo futuro con iDO, apri un franchising in Italia!"
+    }
+  },
+  "rich-text#about-contentFranchising1": {
+    "props": {
+      "blockClass": "contentFranchising1",
+      "text":
+      " iDO è un marchio di proprietà di Miniconf spa, realtà che opera da oltre 45 anni nel settore della moda Kids. Nasce nel 2011 dalla decisione dell’imprenditore di cogliere l’opportunità di lanciare un brand di tendenza, easy to wear, che fa della coordinabilità uno dei punti di forza della collezione. iDO è riconosciuto per un ottimo rapporto qualità/prezzo in grado di interpretare le richieste dell’attuale mercato omnicanale."
+    }
+  },
+  "image#about-us": {
+    "props": {
+      "src": "https://raduthirdbranch--storeido.myvtex.com/arquivos/franchisingbig@4x.png"
+    }
+  },
+
+  "rich-text#about-title3": {
+    "props": {
+      "blockClass": "about-title3",
+      "text":
+      "Cosa offriamo"
+    }
+  },
+  "rich-text#about-contentFranchising3": {
+    "props": {
+      "blockClass": "contentFranchising3",
+      "text": "a <div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Valutazione della location, realizzazione del progetto esecutivo e Business Plan</span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Concept innovativo e flessibile pensato per una vendita veloce e impattante </span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Esclusiva di zona: totale o sul raggio di km in base al bacino d'utenza</span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Merce in conto vendita: marginalità netta del 40% garantita tutto l'anno</span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Reso totale dell'invenduto a fine stagione</span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Riassortimento settimanale automatico del venduto</span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Area Manager e Visual Merchandiser in affiancamento continuo con analisi performance venduti e KPI</span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Piattaforma BtB \"PartnerLab\" per ordini online, aggiornamenti e comunicazioni.</span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Attività di marketing a livello nazionale e locale</span></div>"
+    }
+  },
+  "rich-text#about-title4": {
+    "props": {
+      "blockClass": "about-title4",
+      "text":
+      "Vuoi saperne di più sul Progetto Franchising iDO?<br><br>infofranchisingido@ido.it "
+    }
+  },
+  "rich-text#about-title5": {
+    "props": {
+      "blockClass": "about-title5",
+      "text":
+      "Invia la tua candidatura"
+    }
+  },
+
+
+
+  "flex-layout.row#franchisingStorePhotos": {
+    "children": ["flex-layout.col#contentCosaCerchiamo", "flex-layout.col#images"],
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#contentCosaCerchiamo": {
+    "children": [
+      "rich-text#about-titleCosaCerchiamo",
+      "rich-text#about-contentFranchising2"
+    ],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#about-titleCosaCerchiamo": {
+    "props": {
+      "blockClass": "about-titleCosaCerchiamo",
+      "text":
+      "Cosa cerchiamo"
+    }
+  },
+  "rich-text#about-contentFranchising2": {
+    "props": {
+      "blockClass": "contentFranchising2",
+      "text":  "a <div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Superficie consigliata da 60 a 140 mq di area vendita netta con<br>15-20mq di magazzino</span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>La posizione ottimale è quella in centri storici di almeno 20.000<br> abitanti o centri commerciali </span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Fee d'ingresso: NO </span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Royalties: NO </span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Investimento iniziale sostenibile sulla base della fatturazione </span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Polizza assicurativa sulla merce </span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Contratto della durata di 5 anni rinnovabile </span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Fideiussione bancaria €30.000 (Riduzione a €15.000 con utilizzo di<br> POS o conto BNL)</span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Contapersone ed Hardware: €3.200 una tantum</span></div>"
+    }
+  },
+
+  "flex-layout.col#images": {
+    "children": [
+      "slider-layout#radu-images"
+    ],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true,
+      "blockClass": "images"
+    }
+  },
+
+
+  "slider-layout#radu-images": {
+    "children": [
+      "info-card#photoStore1",
+      "info-card#photoStore2"
+
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "autoplay": { "stopOnHover": false, "timeout": 3000},
+      "navigationStep": 1,
+      "slideTransition": { "speed": 400, "delay": 0, "timing": "" },
+      "blockClass": "storePhoto"
+    }
+  },
+
+  "info-card#photoStore1": {
+    "props": {
+      "imageUrl": "https://raduthirdbranch--storeido.myvtex.com/arquivos/photo_store_1.png",
+      "blockClass": "photoStore1"
+    }
+  },
+  "info-card#photoStore2": {
+    "props": {
+      "imageUrl": "https://raduthirdbranch--storeido.myvtex.com/arquivos/photo-store-2.png",
+      "blockClass": "photoStore2"
+    }
+  },
+
+  "flex-layout.row#franchisingCandidatura": {
+    "children": ["flex-layout.col#faq", "flex-layout.col#pdf"],
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "blockClass": "candidatura"
+    }
+  },
+
+  "flex-layout.col#faq": {
+    "children": [
+      "info-card#photoFaq",
+      "rich-text#faq",
+      "rich-text#paginaFaq",
+      "modal-trigger#modal-faq-button"
+    ],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "modal-trigger#modal-faq-button": {
+      "children": [
+        "rich-text#faqModal",
+        "modal-layout#modal-faq-content"
+      ],
+      "props": {
+       "blockClass":"faqButton"
+       }
+    },
+   "modal-layout#modal-faq-content": {
+       "children": [
+         "modal-header",
+         "rich-text#faq-modal-title",
+         "rich-text#faq-modal-subtitle",
+         "rich-text#faq-modal-question1",
+         "rich-text#faq-modal-answer1",
+         "rich-text#faq-modal-question2",
+         "rich-text#faq-modal-answer2",
+         "rich-text#faq-modal-question3",
+         "rich-text#faq-modal-answer3",
+         "rich-text#faq-modal-question4",
+         "rich-text#faq-modal-answer4",
+         "rich-text#faq-modal-question5",
+         "rich-text#faq-modal-answer5",
+         "rich-text#faq-modal-question6",
+         "rich-text#faq-modal-answer6",
+         "rich-text#faq-modal-question7"
+       ],
+       "props": {
+       "blockClass":"faqContent"
+       }
+    },
+    "rich-text#faqModal": {
+        "props": {
+          "text": "Domande frequenti",
+          "blockClass": "textFaqModal"
+        }
+     },
+
+     "rich-text#faq-modal-title": {
+         "props": {
+           "text": "FAQ",
+           "blockClass": "faq-modal-title"
+         }
+      },
+      "rich-text#faq-modal-subtitle": {
+          "props": {
+          "text": "Se hai domande frequenti lorem ipsum dolor sit",
+          "blockClass": "faq-modal-subtitle"
+          }
+      },
+      "rich-text#faq-modal-question1": {
+          "props": {
+          "text": "Per diventare franchisee iDO devo avere avuto precedenti esperienze commerciali?",
+          "blockClass": "faq-modal-question"
+          }
+      },
+      "rich-text#faq-modal-answer1": {
+          "props": {
+          "text": "No, non è necessario. Secondo i termini del contratto, riceverai una adeguata formazione per avviare l’attività e sarai seguito costantemente per la migliore gestione del negozio.",
+          "blockClass": "faq-modal-answer"
+          }
+      },
+      "rich-text#faq-modal-question2": {
+          "props": {
+          "text": "Sono tenuto a gestire personalmente il negozio?",
+          "blockClass": "faq-modal-question"
+          }
+      },
+      "rich-text#faq-modal-answer2": {
+          "props": {
+          "text": "No, l’importante è che la gestione dell’attività risponda ai termini del contratto.",
+          "blockClass": "faq-modal-answer"
+          }
+      },
+      "rich-text#faq-modal-question3": {
+           "props": {
+           "text": "Posso gestire il negozio in società con un partner?",
+           "blockClass": "faq-modal-question"
+           }
+      },
+      "rich-text#faq-modal-answer3": {
+            "props": {
+            "text": "Sì.",
+            "blockClass": "faq-modal-answer"
+            }
+      },
+      "rich-text#faq-modal-question4": {
+            "props": {
+            "text": "E se gestisco già un altro negozio?",
+            "blockClass": "faq-modal-question"
+            }
+      },
+      "rich-text#faq-modal-answer4": {
+            "props": {
+            "text": "Non è un problema se gestisci già un altro negozio, anzi l’esperienza acquisita ti sarà utile!",
+            "blockClass": "faq-modal-answer"
+            }
+      },
+      "rich-text#faq-modal-question5": {
+            "props": {
+            "text": "Il negozio deve essere di proprietà o in affitto?",
+            "blockClass": "faq-modal-question"
+            }
+      },
+      "rich-text#faq-modal-answer5": {
+             "props": {
+             "text": "Può essere di tua proprietà oppure in affitto. Se è in affitto, il contratto d’affitto deve poter essere rinnovabile per la durata del contratto di franchisee iDO.",
+             "blockClass": "faq-modal-answer"
+             }
+      },
+      "rich-text#faq-modal-question6": {
+             "props": {
+             "text": "Posso diventare franchisee iDO con 2 o più negozi?",
+             "blockClass": "faq-modal-question"
+             }
+      },
+      "rich-text#faq-modal-answer6": {
+             "props": {
+             "text": "Sì, a condizione che non siano localizzati nello stesso territorio e bacino d’utenza.",
+             "blockClass": "faq-modal-answer"
+             }
+      },
+      "rich-text#faq-modal-question7": {
+             "props": {
+             "text": "Per ulteriori informazioni contattaci a infofranchisingido@ido.it",
+             "blockClass": "faq-modal-question"
+             }
+       },
+
+
+
+
+
+
+  "info-card#photoFaq": {
+    "props": {
+      "imageUrl": "https://raduthirdbranch--storeido.myvtex.com/arquivos/faq_franchising.png",
+      "blockClass": "imageFaq"
+    }
+  },
+
+  "rich-text#faq": {
+    "props": {
+      "text": "FAQ<br>Domande frequenti lorem",
+      "blockClass": "textFaq"
+    }
+  },
+
+  "rich-text#paginaFaq": {
+    "props": {
+      "text": "Vai alla pagina FAQ",
+      "blockClass": "textPaginaFaq"
+    }
+  },
+
+  "flex-layout.col#pdf": {
+    "children": [
+      "info-card#photoPdf",
+      "rich-text#pdf",
+      "rich-text#scaricaPdf",
+      "modal-trigger#modal-pdf-button"
+    ],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "modal-trigger#modal-pdf-button": {
+        "children": [
+          "rich-text#pdfModal",
+          "modal-layout#modal-pdf-content"
+        ],
+        "props": {
+         "blockClass":"pdfButton"
+        }
+  },
+  "rich-text#pdfModal": {
+          "props": {
+            "text": "scarica il pdf",
+            "blockClass": "textPdfModal"
+          }
+   },
+
+   "modal-layout#modal-pdf-content": {
+          "children": [
+            "modal-header",
+            "rich-text#pdf-modal-title"
+          ],
+          "props": {
+          "blockClass":"faqContent"
+          }
+       },
+    "rich-text#pdf-modal-title": {
+           "props": {
+             "text": "pdf",
+             "blockClass": "textPdfModal"
+           }
+     },
+
+
+
+
+
+  "info-card#photoPdf": {
+    "props": {
+      "imageUrl": "https://raduthirdbranch--storeido.myvtex.com/arquivos/pdfFranchising.png",
+      "blockClass": "imagePdf"
+    }
+  },
+
+  "rich-text#pdf": {
+    "props": {
+      "text": "Scarica la nostra brochure <br> in PDF",
+      "blockClass": "textPdf"
+    }
+  },
+
+  "rich-text#scaricaPdf": {
+    "props": {
+      "text": "Scarica il PDF",
+      "blockClass": "textScaricaPdf"
+    }
+  },
+
+  "modal-trigger#modal-franchising-button": {
+    "children": [
+      "rich-text#franchisingTextButton"
+    ]
+  },
+
+  "rich-text#franchisingTextButton": {
+    "props": {
+      "text": "<a class='vtex-linkFranchisingDesktop' href='https://raduthirdbranch--storeido.myvtex.com/azienda?__bindingAddress=www.ido.it/it'>Apri un franchising iDO",
+      "blockClass": "franchisingButton"
+    }
+  },
+
+  "modal-trigger#modal-aprire-un-franchising-form": {
+      "children": [
+        "rich-text#franchisingTextButton",
+        "modal-layout#modal-aprire-un-franchising-form"
+      ]
+    },
+
+  "modal-layout#modal-aprire-un-franchising-form": {
+         "children": [
+           "modal-header",
+           "flex-layout.row#franchisingform"
+         ],
+         "props": {
+         "blockClass":"modal-aprire-un-franchising-form"
+         }
+      },
+
+
+
+    "flex-layout.row#franchisingform": {
+        "children": [
+          "flex-layout.col#franchisingform"
+        ],
+        "props": {
+          "blockClass": "franchisingform"
+         }
+      },
+      "flex-layout.col#franchisingform": {
+        "children": [
+          "form#franchisingform"
+        ],
+        "props": {
+          "blockClass": "franchisingform"
+         }
+      },
+
+
+      "form#franchisingform": {
+          "props": {
+            "entity": "FF",
+            "schema": "frn_schema"
+          },
+          "children": [
+            "rich-text#compila-form-aprire-franchising",
+            "flex-layout.row#name-surname-franchising-form",
+            "flex-layout.row#email-phone-franchising-form",
+            "flex-layout.row#store-city-franchising-form",
+            "flex-layout.row#comments-franchising-form",
+            "rich-text#campi-obbligatori-franchising-form",
+            "flex-layout.row#privacy-franchising-form",
+            "flex-layout.row#submit-franchising-form"
+          ],
+          "blocks": ["form-success#franchisingform"]
+        },
+        "form-success#franchisingform": {
+          "children": [
+            "rich-text#successSubmitfranchisingform"
+          ]
+        },
+        "rich-text#successSubmitfranchisingform": {
+          "props": {
+            "text": "Succesfully submitted the data!",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+          }
+        },
+        "form-input.text#Name": {
+          "props": {
+            "pointer": "#/properties/Name",
+            "label": "Nome *"
+          }
+        },
+        "form-input.text#Surname": {
+          "props": {
+            "pointer": "#/properties/Surname",
+            "label": "Cognome *"
+          }
+        },
+        "form-input.text#Email": {
+          "props": {
+            "pointer": "#/properties/Email",
+            "label": "Indirizzo mail *"
+          }
+        },
+         "form-input.text#Phone": {
+           "props": {
+             "pointer": "#/properties/Phone",
+             "label": "Telefono *"
+           }
+         },
+         "form-input.dropdown#Store": {
+           "props": {
+             "pointer": "#/properties/Store",
+             "label": "Hai già a disposizione un negozio? *"
+           }
+         },
+         "form-input.dropdown#City": {
+           "props": {
+             "pointer": "#/properties/City",
+             "label": "In quale città vuoi aprire il tuo punto vendita? *"
+           }
+         },
+         "form-input.text#Comments": {
+           "props": {
+             "pointer": "#/properties/Comments",
+             "label": "Lascia un commento"
+           }
+         },
+
+
+         "form-input.checkbox#Privacy": {
+           "props": {
+             "pointer": "#/properties/Privacy",
+             "label": "Ho preso visione dell'informativa sulla Privacy ed acconsento al trattamento dei miei dati personali *"
+           }
+         },
+
+        "rich-text#campi-obbligatori-franchising-form": {
+                   "props": {
+                     "text": "*Campi obbligatori",
+                     "blockClass": "campi-obbligatori-franchising-form"
+                   }
+             },
+
+
+        "form-submit#franchising-form": {
+          "props": {
+            "label": "INVIA"
+          }
+        },
+
+        "rich-text#compila-form-aprire-franchising": {
+                   "props": {
+                     "text": "Compila il form per aprire un franchising iDO",
+                     "blockClass": "compila-form-aprire-franchising"
+                   }
+             },
+
+
+
+      "flex-layout.row#name-surname-franchising-form": {
+        "children": [
+                "flex-layout.col#name-franchising-form",
+                "flex-layout.col#surname-franchising-form"
+
+              ],
+              "props": {
+                "blockClass": "name-surname-franchising-form"
+            }
+      },
+       "flex-layout.col#name-franchising-form": {
+         "children": [
+                 "form-input.text#Name"
+               ],
+               "props": {
+                 "blockClass": "franchising-form-name"
+             }
+       },
+      "flex-layout.col#surname-franchising-form": {
+        "children": [
+                "form-input.text#Surname"
+              ],
+              "props": {
+                "blockClass": "franchising-form-surname"
+            }
+      },
+
+
+
+      "flex-layout.row#email-phone-franchising-form": {
+        "children": [
+                "flex-layout.col#email-franchising-form",
+                "flex-layout.col#phone-franchising-form"
+
+              ],
+              "props": {
+                "blockClass": "email-phone-franchising-form"
+            }
+      },
+       "flex-layout.col#email-franchising-form": {
+         "children": [
+                 "form-input.text#Email"
+               ],
+               "props": {
+                 "blockClass": "franchising-form-email"
+             }
+       },
+      "flex-layout.col#phone-franchising-form": {
+        "children": [
+                "form-input.text#Phone"
+              ],
+              "props": {
+                "blockClass": "franchising-form-phone"
+            }
+      },
+
+
+       "flex-layout.row#store-city-franchising-form": {
+         "children": [
+                 "flex-layout.col#store-franchising-form",
+                 "flex-layout.col#city-franchising-form"
+
+               ],
+               "props": {
+                 "blockClass": "store-city-franchising-form"
+             }
+       },
+        "flex-layout.col#store-franchising-form": {
+          "children": [
+                  "form-input.dropdown#Store"
+                ],
+                "props": {
+                  "blockClass": "franchising-form-store"
+              }
+        },
+       "flex-layout.col#city-franchising-form": {
+         "children": [
+                 "form-input.dropdown#City"
+               ],
+               "props": {
+                 "blockClass": "franchising-form-city"
+             }
+       },
+
+
+      "flex-layout.row#comments-franchising-form": {
+        "children": [
+                "form-input.text#Comments"
+              ],
+              "props": {
+                "blockClass": "franchisingformcomments"
+            }
+      },
+      "flex-layout.row#privacy-franchising-form": {
+        "children": [
+                "form-input.checkbox#Privacy"
+              ],
+              "props": {
+                "blockClass": "franchisingformprivacy"
+            }
+      },
+
+      "flex-layout.row#submit-franchising-form": {
+        "children": [
+                "form-submit#franchising-form"
+              ],
+              "props": {
+                "blockClass": "franchisingformsubmit"
+            }
+      },
+
+
+  "newsletter#chiSiamoDesktop": {
+               "props": {
+                 "blockClass": "newsletterSiamoDesktop",
+                 "label": "Iscriviti alla newsletter",
+                 "placeholder": "Inserisci la tua email",
+                 "hideLabel": false
+               }
+        },
+
+/*rete vendite*/
+
+       "flex-layout.col#rete-vendite": {
+         "children": [
+           "vtex.menu@2.x:menu#rete-vendite"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite"
+         }
+       },
+
+
+       "vtex.menu@2.x:menu#rete-vendite": {
+           "props": {
+             "blockClass": "menu-rete-vendite"
+           },
+           "children": [
+             "menu-item#Lombardia",
+             "menu-item#Marche-Umbria-Abruzzo-Molise",
+             "menu-item#Piemonte-Valle-Daosta",
+             "menu-item#Lazio",
+             "menu-item#Triveneto",
+             "menu-item#Campania",
+             "menu-item#Liguria",
+             "menu-item#Sicilia",
+             "menu-item#Toscana",
+             "menu-item#Puglia-Basilicata",
+             "menu-item#Emilia-Romagna",
+             "menu-item#Calabria",
+             "menu-item#Sardegna",
+             "flex-layout.row#maggiori-informazioni"
+           ]
+         },
+
+
+        "menu-item#Lombardia": {
+            "props": {
+              "id": "menu-item-rete-vendite",
+              "type": "custom",
+              "highlight": false,
+              "blockClass": "menu-item-rete-vendite",
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Lombardia",
+                "text": "Lombardia"
+              },
+
+              "iconToTheRight": true
+            },
+            "blocks": ["vtex.menu@2.x:submenu.accordion#lombardia"]
+          },
+
+          "menu-item#Marche-Umbria-Abruzzo-Molise": {
+             "props": {
+              "id": "menu-item-rete-vendite",
+              "type": "custom",
+              "highlight": false,
+              "blockClass": "menu-item-rete-vendite",
+             "itemProps": {
+              "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Marche, Umbria, Abruzzo, Molise",
+                "text": "Marche, Umbria, Abruzzo, Molise"
+              },
+              "iconToTheRight": true
+               },
+              "blocks": ["vtex.menu@2.x:submenu.accordion#marche-umbria-abruzzo-molise"]
+          },
+
+          "menu-item#Piemonte-Valle-Daosta": {
+                    "props": {
+                     "id": "menu-item-rete-vendite",
+                     "type": "custom",
+                     "highlight": false,
+                     "blockClass": "menu-item-rete-vendite",
+                    "itemProps": {
+                     "type": "internal",
+                       "href": "#",
+                       "noFollow": false,
+                       "tagTitle": "Piemonte, Valle D’Aosta",
+                       "text": "Piemonte, Valle D’Aosta"
+                     },
+                     "iconToTheRight": true
+                      },
+                     "blocks": ["vtex.menu@2.x:submenu.accordion#piemonte-valle-daosta"]
+          },
+
+          "menu-item#Lazio": {
+                    "props": {
+                     "id": "menu-item-rete-vendite",
+                     "type": "custom",
+                     "highlight": false,
+                     "blockClass": "menu-item-rete-vendite",
+                    "itemProps": {
+                     "type": "internal",
+                       "href": "#",
+                       "noFollow": false,
+                       "tagTitle": "Lazio",
+                       "text": "Lazio"
+                     },
+                     "iconToTheRight": true
+                      },
+                     "blocks": ["vtex.menu@2.x:submenu.accordion#lazio"]
+          },
+
+          "menu-item#Triveneto": {
+                    "props": {
+                     "id": "menu-item-rete-vendite",
+                     "type": "custom",
+                     "highlight": false,
+                     "blockClass": "menu-item-rete-vendite",
+                    "itemProps": {
+                     "type": "internal",
+                       "href": "#",
+                       "noFollow": false,
+                       "tagTitle": "Triveneto",
+                       "text": "Triveneto"
+                     },
+                     "iconToTheRight": true
+                      },
+                     "blocks": ["vtex.menu@2.x:submenu.accordion#triveneto"]
+          },
+
+          "menu-item#Campania": {
+                    "props": {
+                     "id": "menu-item-rete-vendite",
+                     "type": "custom",
+                     "highlight": false,
+                     "blockClass": "menu-item-rete-vendite",
+                    "itemProps": {
+                     "type": "internal",
+                       "href": "#",
+                       "noFollow": false,
+                       "tagTitle": "Campania",
+                       "text": "Campania"
+                     },
+                     "iconToTheRight": true
+                      },
+                     "blocks": ["vtex.menu@2.x:submenu.accordion#campania"]
+          },
+
+          "menu-item#Liguria": {
+                    "props": {
+                     "id": "menu-item-rete-vendite",
+                     "type": "custom",
+                     "highlight": false,
+                     "blockClass": "menu-item-rete-vendite",
+                    "itemProps": {
+                     "type": "internal",
+                       "href": "#",
+                       "noFollow": false,
+                       "tagTitle": "Liguria",
+                       "text": "Liguria"
+                     },
+                     "iconToTheRight": true
+                      },
+                     "blocks": ["vtex.menu@2.x:submenu.accordion#liguria"]
+          },
+          "menu-item#Sicilia": {
+                    "props": {
+                     "id": "menu-item-rete-vendite",
+                     "type": "custom",
+                     "highlight": false,
+                     "blockClass": "menu-item-rete-vendite",
+                    "itemProps": {
+                     "type": "internal",
+                       "href": "#",
+                       "noFollow": false,
+                       "tagTitle": "Sicilia",
+                       "text": "Sicilia"
+                     },
+                     "iconToTheRight": true
+                      },
+                     "blocks": ["vtex.menu@2.x:submenu.accordion#sicilia"]
+          },
+          "menu-item#Toscana": {
+                    "props": {
+                     "id": "menu-item-rete-vendite",
+                     "type": "custom",
+                     "highlight": false,
+                     "blockClass": "menu-item-rete-vendite",
+                    "itemProps": {
+                     "type": "internal",
+                       "href": "#",
+                       "noFollow": false,
+                       "tagTitle": "Toscana",
+                       "text": "Toscana"
+                     },
+                     "iconToTheRight": true
+                      },
+                     "blocks": ["vtex.menu@2.x:submenu.accordion#toscana"]
+          },
+          "menu-item#Puglia-Basilicata": {
+                    "props": {
+                     "id": "menu-item-rete-vendite",
+                     "type": "custom",
+                     "highlight": false,
+                     "blockClass": "menu-item-rete-vendite",
+                    "itemProps": {
+                     "type": "internal",
+                       "href": "#",
+                       "noFollow": false,
+                       "tagTitle": "Puglia, Basilicata",
+                       "text": "Puglia, Basilicata"
+                     },
+                     "iconToTheRight": true
+                      },
+                     "blocks": ["vtex.menu@2.x:submenu.accordion#puglia-basilicata"]
+          },
+          "menu-item#Emilia-Romagna": {
+                    "props": {
+                     "id": "menu-item-rete-vendite",
+                     "type": "custom",
+                     "highlight": false,
+                     "blockClass": "menu-item-rete-vendite",
+                    "itemProps": {
+                     "type": "internal",
+                       "href": "#",
+                       "noFollow": false,
+                       "tagTitle": "Emilia Romagna",
+                       "text": "Emilia Romagna"
+                     },
+                     "iconToTheRight": true
+                      },
+                     "blocks": ["vtex.menu@2.x:submenu.accordion#emilia-romagna"]
+          },
+          "menu-item#Calabria": {
+                    "props": {
+                     "id": "menu-item-rete-vendite",
+                     "type": "custom",
+                     "highlight": false,
+                     "blockClass": "menu-item-rete-vendite",
+                    "itemProps": {
+                     "type": "internal",
+                       "href": "#",
+                       "noFollow": false,
+                       "tagTitle": "Calabria",
+                       "text": "Calabria"
+                     },
+                     "iconToTheRight": true
+                      },
+                     "blocks": ["vtex.menu@2.x:submenu.accordion#calabria"]
+          },
+          "menu-item#Sardegna": {
+                    "props": {
+                     "id": "menu-item-rete-vendite",
+                     "type": "custom",
+                     "highlight": false,
+                     "blockClass": "menu-item-rete-vendite",
+                    "itemProps": {
+                     "type": "internal",
+                       "href": "#",
+                       "noFollow": false,
+                       "tagTitle": "Sardegna",
+                       "text": "Sardegna"
+                     },
+                     "iconToTheRight": true
+                      },
+                     "blocks": ["vtex.menu@2.x:submenu.accordion#sardegna"]
+          },
+
+
+
+          "vtex.menu@2.x:submenu.accordion#lombardia": {
+              "children": [
+              "rich-text#Lombardia-title1",
+              "flex-layout.col#rete-vendite-content1",
+              "rich-text#Lombardia-title2",
+              "flex-layout.col#rete-vendite-content2"
+
+              ],
+              "props": {
+              "blockClass": "submenu-rete-vendite"
+              }
+            },
+
+              "menu-item#submenu-lombardia": {
+              "props": {
+              "id": "menu-item-lombardia-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "lombardia",
+              "text": "lombardia"
+              }
+            }
+          },
+
+       "flex-layout.col#rete-vendite-content1": {
+         "children": [
+           "rich-text#Lombardia-phone1",
+           "rich-text#Lombardia-email"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+       "flex-layout.col#rete-vendite-content2": {
+         "children": [
+           "rich-text#Lombardia-phone2"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+          "rich-text#Lombardia-title1": {
+            "props": {
+            "text": "Pier Angelo Rubbi",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#Lombardia-phone1": {
+            "props": {
+            "text": "335 261422",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+          "rich-text#Lombardia-email": {
+            "props": {
+            "text": "rubbi.pierangelo@ido.it",
+            "blockClass": "rete-vendita-contact-email"
+            }
+          },
+          "rich-text#Lombardia-title2": {
+            "props": {
+            "text": "Andrea Rubbi",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#Lombardia-phone2": {
+            "props": {
+            "text": "334 9121797",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+
+
+
+          "vtex.menu@2.x:submenu.accordion#marche-umbria-abruzzo-molise": {
+              "children": [
+              "rich-text#marche-umbria-abruzzo-molise-title1",
+              "flex-layout.col#marche-umbria-abruzzo-molise-content1",
+              "rich-text#marche-umbria-abruzzo-molise-title2",
+              "flex-layout.col#marche-umbria-abruzzo-molise-content2"
+              ],
+              "props": {
+              "blockClass": "submenu-rete-vendite"
+              }
+            },
+
+              "menu-item#submenu-marche-umbria-abruzzo-molise": {
+              "props": {
+              "id": "menu-item-marche-umbria-abruzzo-molise-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "marche-umbria-abruzzo-molise",
+              "text": "marche-umbria-abruzzo-molise"
+              }
+            }
+          },
+
+       "flex-layout.col#marche-umbria-abruzzo-molise-content1": {
+         "children": [
+           "rich-text#marche-umbria-abruzzo-molise-phone1",
+           "rich-text#marche-umbria-abruzzo-molise-email1"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+       "flex-layout.col#marche-umbria-abruzzo-molise-content2": {
+         "children": [
+           "rich-text#marche-umbria-abruzzo-molise-phone2",
+           "rich-text#marche-umbria-abruzzo-molise-email2"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+          "rich-text#marche-umbria-abruzzo-molise-title1": {
+            "props": {
+            "text": "Mario Borgognoni",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#marche-umbria-abruzzo-molise-phone1": {
+            "props": {
+            "text": "335 7014604",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+          "rich-text#marche-umbria-abruzzo-molise-email1": {
+            "props": {
+            "text": "borgognoni.mario@ido.it",
+            "blockClass": "rete-vendita-contact-email"
+            }
+          },
+          "rich-text#marche-umbria-abruzzo-molise-title2": {
+            "props": {
+            "text": "Roberto Marini",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#marche-umbria-abruzzo-molise-phone2": {
+            "props": {
+            "text": "339 8584607",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+          "rich-text#marche-umbria-abruzzo-molise-email2": {
+            "props": {
+            "text": "marini.roberto@ido.it",
+            "blockClass": "rete-vendita-contact-email"
+            }
+          },
+
+
+          "vtex.menu@2.x:submenu.accordion#piemonte-valle-daosta": {
+              "children": [
+              "rich-text#piemonte-valle-daosta-title1",
+              "flex-layout.col#piemonte-valle-daosta-content1",
+              "rich-text#piemonte-valle-daosta-title2",
+              "flex-layout.col#piemonte-valle-daosta-content2"
+              ],
+              "props": {
+              "blockClass": "submenu-rete-vendite"
+              }
+            },
+
+              "menu-item#submenu-piemonte-valle-daosta": {
+              "props": {
+              "id": "menu-item-piemonte-valle-daosta-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "piemonte-valle-daosta",
+              "text": "piemonte-valle-daosta"
+              }
+            }
+          },
+
+       "flex-layout.col#piemonte-valle-daosta-content1": {
+         "children": [
+           "rich-text#piemonte-valle-daosta-phone1",
+           "rich-text#piemonte-valle-daosta-email"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+       "flex-layout.col#piemonte-valle-daosta-content2": {
+         "children": [
+           "rich-text#piemonte-valle-daosta-phone2"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+          "rich-text#piemonte-valle-daosta-title1": {
+            "props": {
+            "text": "Dino Longo",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#piemonte-valle-daosta-phone1": {
+            "props": {
+            "text": "348 4108418",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+          "rich-text#piemonte-valle-daosta-email": {
+            "props": {
+            "text": "longorappresentanze@ido.it",
+            "blockClass": "rete-vendita-contact-email"
+            }
+          },
+          "rich-text#piemonte-valle-daosta-title2": {
+            "props": {
+            "text": "Dony Bianchino",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#piemonte-valle-daosta-phone2": {
+            "props": {
+            "text": "347 9390182",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+
+
+          "vtex.menu@2.x:submenu.accordion#lazio": {
+              "children": [
+              "rich-text#lazio-title1",
+              "flex-layout.col#lazio-content1",
+              "rich-text#lazio-title2",
+              "flex-layout.col#lazio-content2"
+              ],
+              "props": {
+              "blockClass": "submenu-rete-vendite"
+              }
+            },
+
+              "menu-item#submenu-lazio": {
+              "props": {
+              "id": "menu-item-lazio-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "lazio",
+              "text": "lazio"
+              }
+            }
+          },
+
+       "flex-layout.col#lazio-content1": {
+         "children": [
+           "rich-text#lazio-phone1",
+           "rich-text#lazio-email1"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+       "flex-layout.col#lazio-content2": {
+         "children": [
+           "rich-text#lazio-phone2",
+           "rich-text#lazio-email2"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+          "rich-text#lazio-title1": {
+            "props": {
+            "text": "Eugenio Sermoneta",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#lazio-phone1": {
+            "props": {
+            "text": "335 6296632",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+          "rich-text#lazio-email1": {
+            "props": {
+            "text": "sermoneta.eugenio@ido.it",
+            "blockClass": "rete-vendita-contact-email"
+            }
+          },
+          "rich-text#lazio-title2": {
+            "props": {
+            "text": "Massimo Guiducci",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#lazio-phone2": {
+            "props": {
+            "text": "339 6178035",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+          "rich-text#lazio-email2": {
+            "props": {
+            "text": "guiducci.massimo@ido.it",
+            "blockClass": "rete-vendita-contact-email"
+            }
+          },
+
+
+          "vtex.menu@2.x:submenu.accordion#triveneto": {
+              "children": [
+              "rich-text#triveneto-title1",
+              "flex-layout.col#triveneto-content1"
+              ],
+              "props": {
+              "blockClass": "submenu-rete-vendite"
+              }
+            },
+
+              "menu-item#submenu-triveneto": {
+              "props": {
+              "id": "menu-item-triveneto-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "triveneto",
+              "text": "triveneto"
+              }
+            }
+          },
+
+       "flex-layout.col#triveneto-content1": {
+         "children": [
+           "rich-text#triveneto-phone1",
+           "rich-text#triveneto-email1"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+
+          "rich-text#triveneto-title1": {
+            "props": {
+            "text": "Studio Tonetto",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#triveneto-phone1": {
+            "props": {
+            "text": "335 5714883",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+          "rich-text#triveneto-email1": {
+            "props": {
+            "text": "studiotonetto@ido.it",
+            "blockClass": "rete-vendita-contact-email"
+            }
+          },
+
+
+          "vtex.menu@2.x:submenu.accordion#campania": {
+              "children": [
+              "rich-text#campania-title1",
+              "flex-layout.col#campania-content1"
+              ],
+              "props": {
+              "blockClass": "submenu-rete-vendite"
+              }
+            },
+
+              "menu-item#submenu-campania": {
+              "props": {
+              "id": "menu-item-campania-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "campania",
+              "text": "campania"
+              }
+            }
+          },
+
+       "flex-layout.col#campania-content1": {
+         "children": [
+           "rich-text#campania-phone1",
+           "rich-text#campania-email1"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+
+          "rich-text#campania-title1": {
+            "props": {
+            "text": "Mario Alborino",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#campania-phone1": {
+            "props": {
+            "text": "333 9015212",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+          "rich-text#campania-email1": {
+            "props": {
+            "text": "alborino.mario@ido.it",
+            "blockClass": "rete-vendita-contact-email"
+            }
+          },
+
+
+
+          "vtex.menu@2.x:submenu.accordion#liguria": {
+              "children": [
+              "rich-text#liguria-title1",
+              "flex-layout.col#liguria-content1",
+              "rich-text#liguria-title2",
+              "flex-layout.col#liguria-content2"
+              ],
+              "props": {
+              "blockClass": "submenu-rete-vendite"
+              }
+            },
+
+              "menu-item#submenu-liguria": {
+              "props": {
+              "id": "menu-item-liguria-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "liguria",
+              "text": "liguria"
+              }
+            }
+          },
+
+       "flex-layout.col#liguria-content1": {
+         "children": [
+           "rich-text#liguria-phone1",
+           "rich-text#liguria-email1"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+       "flex-layout.col#liguria-content2": {
+         "children": [
+           "rich-text#liguria-phone2",
+           "rich-text#liguria-email2"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+          "rich-text#liguria-title1": {
+            "props": {
+            "text": "Dino Longo",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#liguria-phone1": {
+            "props": {
+            "text": "348 4108418",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+          "rich-text#liguria-email1": {
+            "props": {
+            "text": "longo.dino@ido.it",
+            "blockClass": "rete-vendita-contact-email"
+            }
+          },
+          "rich-text#liguria-title2": {
+            "props": {
+            "text": "Dony Bianchino",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#liguria-phone2": {
+            "props": {
+            "text": "347 9390182",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+          "rich-text#liguria-email2": {
+            "props": {
+            "text": "bianchino.dony@ido.it",
+            "blockClass": "rete-vendita-contact-email"
+            }
+          },
+
+
+
+          "vtex.menu@2.x:submenu.accordion#sicilia": {
+              "children": [
+              "rich-text#sicilia-title1",
+              "flex-layout.col#sicilia-content1",
+              "rich-text#sicilia-title2",
+              "flex-layout.col#sicilia-content2"
+              ],
+              "props": {
+              "blockClass": "submenu-rete-vendite"
+              }
+            },
+
+              "menu-item#submenu-sicilia": {
+              "props": {
+              "id": "menu-item-sicilia-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "sicilia",
+              "text": "sicilia"
+              }
+            }
+          },
+
+       "flex-layout.col#sicilia-content1": {
+         "children": [
+           "rich-text#sicilia-phone1",
+           "rich-text#sicilia-email"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+       "flex-layout.col#sicilia-content2": {
+         "children": [
+           "rich-text#sicilia-phone2"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+          "rich-text#sicilia-title1": {
+            "props": {
+            "text": "Giancarlo Ribera",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#sicilia-phone1": {
+            "props": {
+            "text": "335 5754183",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+          "rich-text#sicilia-email": {
+            "props": {
+            "text": "ribera.giancarlo@ido.it",
+            "blockClass": "rete-vendita-contact-email"
+            }
+          },
+          "rich-text#sicilia-title2": {
+            "props": {
+            "text": "Luigi Colosimo",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#sicilia-phone2": {
+            "props": {
+            "text": "393 5692289",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+
+
+
+          "vtex.menu@2.x:submenu.accordion#toscana": {
+              "children": [
+              "rich-text#toscana-title1",
+              "flex-layout.col#toscana-content"
+              ],
+              "props": {
+              "blockClass": "submenu-rete-vendite"
+              }
+            },
+
+              "menu-item#submenu-toscana": {
+              "props": {
+              "id": "menu-item-toscana-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "toscana",
+              "text": "toscana"
+              }
+            }
+          },
+
+       "flex-layout.col#toscana-content": {
+         "children": [
+           "rich-text#toscana-phone1",
+           "rich-text#toscana-email"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+
+          "rich-text#toscana-title1": {
+            "props": {
+            "text": "Maurizio Maggi",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#toscana-phone1": {
+            "props": {
+            "text": "335 5762094",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+          "rich-text#toscana-email": {
+            "props": {
+            "text": "maggi.maurizio@ido.it",
+            "blockClass": "rete-vendita-contact-email"
+            }
+          },
+
+
+
+          "vtex.menu@2.x:submenu.accordion#puglia-basilicata": {
+              "children": [
+              "rich-text#puglia-basilicata-title1",
+              "flex-layout.col#puglia-basilicata-content"
+              ],
+              "props": {
+              "blockClass": "submenu-rete-vendite"
+              }
+            },
+
+              "menu-item#submenu-puglia-basilicata": {
+              "props": {
+              "id": "menu-item-puglia-basilicata-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "puglia-basilicata",
+              "text": "puglia-basilicata"
+              }
+            }
+          },
+
+       "flex-layout.col#puglia-basilicata-content": {
+         "children": [
+           "rich-text#puglia-basilicata-phone1",
+           "rich-text#puglia-basilicata-email"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+
+          "rich-text#puglia-basilicata-title1": {
+            "props": {
+            "text": "Simone Lamanna",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#puglia-basilicata-phone1": {
+            "props": {
+            "text": "348 3740426",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+          "rich-text#puglia-basilicata-email": {
+            "props": {
+            "text": "lamanna.simone@ido.it",
+            "blockClass": "rete-vendita-contact-email"
+            }
+          },
+
+
+
+          "vtex.menu@2.x:submenu.accordion#emilia-romagna": {
+              "children": [
+              "rich-text#emilia-romagna-title1",
+              "flex-layout.col#emilia-romagna-content1",
+              "rich-text#emilia-romagna-title2",
+              "flex-layout.col#emilia-romagna-content2"
+              ],
+              "props": {
+              "blockClass": "submenu-rete-vendite"
+              }
+            },
+
+              "menu-item#submenu-emilia-romagna": {
+              "props": {
+              "id": "menu-item-emilia-romagna-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "emilia-romagna",
+              "text": "emilia-romagna"
+              }
+            }
+          },
+
+       "flex-layout.col#emilia-romagna-content1": {
+         "children": [
+           "rich-text#emilia-romagna-phone1",
+           "rich-text#emilia-romagna-email1"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+       "flex-layout.col#emilia-romagna-content2": {
+         "children": [
+           "rich-text#emilia-romagna-phone2",
+           "rich-text#emilia-romagna-email2"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+          "rich-text#emilia-romagna-title1": {
+            "props": {
+            "text": "Luca Stendardi",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#emilia-romagna-phone1": {
+            "props": {
+            "text": "348 3805297",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+          "rich-text#emilia-romagna-email1": {
+            "props": {
+            "text": "stendardi.luca@ido.it",
+            "blockClass": "rete-vendita-contact-email"
+            }
+          },
+          "rich-text#emilia-romagna-title2": {
+            "props": {
+            "text": "Stefano Baruffa",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#emilia-romagna-phone2": {
+            "props": {
+            "text": "340 8096117",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+          "rich-text#emilia-romagna-email2": {
+            "props": {
+            "text": "baruffa.stefano@ido.it",
+            "blockClass": "rete-vendita-contact-email"
+            }
+          },
+
+
+
+          "vtex.menu@2.x:submenu.accordion#calabria": {
+              "children": [
+              "rich-text#calabria-title1",
+              "flex-layout.col#calabria-content1",
+              "rich-text#calabria-title2",
+              "flex-layout.col#calabria-content2"
+              ],
+              "props": {
+              "blockClass": "submenu-rete-vendite"
+              }
+            },
+
+              "menu-item#submenu-calabria": {
+              "props": {
+              "id": "menu-item-calabria-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "calabria",
+              "text": "calabria"
+              }
+            }
+          },
+
+       "flex-layout.col#calabria-content1": {
+         "children": [
+           "rich-text#calabria-phone1",
+           "rich-text#calabria-email1"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+       "flex-layout.col#calabria-content2": {
+         "children": [
+           "rich-text#calabria-phone2"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+          "rich-text#calabria-title1": {
+            "props": {
+            "text": "Enrico Stefani",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#calabria-phone1": {
+            "props": {
+            "text": "335 8130133",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+          "rich-text#calabria-email1": {
+            "props": {
+            "text": "stefani.enrico@ido.it",
+            "blockClass": "rete-vendita-contact-email"
+            }
+          },
+          "rich-text#calabria-title2": {
+            "props": {
+            "text": "Leonardo Vitti",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#calabria-phone2": {
+            "props": {
+            "text": "346 3344033",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+
+
+         "vtex.menu@2.x:submenu.accordion#sardegna": {
+              "children": [
+              "rich-text#sardegna-title1",
+              "flex-layout.col#sardegna-content1",
+              "rich-text#sardegna-title2",
+              "flex-layout.col#sardegna-content2"
+              ],
+              "props": {
+              "blockClass": "submenu-rete-vendite"
+              }
+            },
+
+              "menu-item#submenu-sardegna": {
+              "props": {
+              "id": "menu-item-sardegna-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "sardegna",
+              "text": "sardegna"
+              }
+            }
+          },
+       "flex-layout.col#sardegna-content1": {
+         "children": [
+           "rich-text#sardegna-phone1"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+       "flex-layout.col#sardegna-content2": {
+         "children": [
+           "rich-text#sardegna-phone2"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "rete-vendite-content"
+         }
+       },
+
+
+          "rich-text#sardegna-title1": {
+            "props": {
+            "text": "Alessandro Melis",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#sardegna-phone1": {
+            "props": {
+            "text": "333 7317416",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+
+          "rich-text#sardegna-title2": {
+            "props": {
+            "text": "Riccardo Chiminelli",
+            "blockClass": "rete-vendita-contact-title"
+            }
+          },
+          "rich-text#sardegna-phone2": {
+            "props": {
+            "text": "340 7971406",
+            "blockClass": "rete-vendita-contact-phone"
+            }
+          },
+
+       "flex-layout.row#maggiori-informazioni": {
+           "children": [
+            "rich-text#maggiori-informazioni-title",
+             "flex-layout.col#maggiori-informazioni-content1",
+             "flex-layout.col#maggiori-informazioni-content2",
+             "flex-layout.col#maggiori-informazioni-content3"
+           ],
+           "props": {
+           "blockClass": "flex-row-maggiori-informazioni"
+           }
+       },
+
+       "flex-layout.col#maggiori-informazioni-content1": {
+         "children": [
+           "rich-text#italian-Dept-title1",
+           "rich-text#italian-Dept-phone1"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "maggiori-informazioni-content"
+         }
+       },
+       "flex-layout.col#maggiori-informazioni-content2": {
+         "children": [
+           "rich-text#franchising-title1",
+           "rich-text#franchising-phone1"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "maggiori-informazioni-content"
+         }
+       },
+       "flex-layout.col#maggiori-informazioni-content3": {
+         "children": [
+           "rich-text#export-Dept-title1",
+           "rich-text#export-Dept-phone1"
+         ],
+         "props": {
+           "preventVerticalStretch": true,
+           "blockClass": "maggiori-informazioni-content"
+         }
+       },
+
+          "rich-text#maggiori-informazioni-title": {
+            "props": {
+            "text": "Per maggiori informazioni",
+            "blockClass": "maggiori-informazioni-title"
+            }
+          },
+
+          "rich-text#italian-Dept-title1": {
+            "props": {
+            "text": "Italian Dept.",
+            "blockClass": "maggiori-informazioni-contact-title"
+            }
+          },
+          "rich-text#italian-Dept-phone1": {
+            "props": {
+            "text": "info@ido.it<br>Tel 0575 533 230<br>Fax 0575 533 306",
+            "blockClass": "maggiori-informazioni-contact-phone"
+            }
+          },
+
+          "rich-text#franchising-title1": {
+            "props": {
+            "text": "Franchising",
+            "blockClass": "maggiori-informazioni-contact-title"
+            }
+          },
+          "rich-text#franchising-phone1": {
+            "props": {
+            "text": "infofranchisingido@ido.it<br>Tel 0575 533 554<br>Fax 0575 533 300",
+            "blockClass": "maggiori-informazioni-contact-phone"
+            }
+          },
+          "rich-text#export-Dept-title1": {
+            "props": {
+            "text": "Export Dept.",
+            "blockClass": "maggiori-informazioni-contact-title"
+            }
+          },
+          "rich-text#export-Dept-phone1": {
+            "props": {
+            "text": "trade@miniconf.it<br>Tel 0575 533 527<br>0575 533 528",
+            "blockClass": "maggiori-informazioni-contact-phone"
+            }
+          }
+
+
+
+
+
+}
+
+
+
+
+
+
+

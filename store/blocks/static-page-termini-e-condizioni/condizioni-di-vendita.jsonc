@@ -1,0 +1,486 @@
+{
+
+  "store.custom#condizioni-generali-di-vendita": {
+      "blocks": [
+        "flex-layout.row#condizioni-generali-di-vendita",
+        "flex-layout.row#newsletter"
+      ]
+    },
+
+   "flex-layout.row#condizioni-generali-di-vendita": {
+       "children": [
+         "tabs-container#condizioni-generali-di-vendita"
+       ],
+       "props": {
+       "blockClass": "flex-row-condizioni-generali-di-vendita"
+       }
+   },
+
+  "tabs-container#condizioni-generali-di-vendita": {
+    "props": {
+      "menuTitle": "Termini e condizioni",
+      "orientation": "horizontal",
+      "tabs": [
+        {
+          "title": "Condizioni generali di vendita",
+          "id": "tab-wrapper#condizioni-generali-di-vendita"
+        }
+      ]
+    },
+    "children": [
+      "tab-wrapper#condizioni-generali-di-vendita"
+    ]
+  },
+
+  "tab-wrapper#condizioni-generali-di-vendita": {
+    "props": {
+      "title": "Test 2"
+    },
+    "children": [
+      "flex-layout.col#condizioni-generali-di-vendita"
+    ]
+  },
+
+
+    "flex-layout.col#condizioni-generali-di-vendita": {
+      "children": [
+        "rich-text#condizioni-generali-di-vendita-title1",
+        "rich-text#condizioni-generali-di-vendita-content1",
+        "rich-text#condizioni-generali-di-vendita-title2",
+        "rich-text#condizioni-generali-di-vendita-content2",
+        "rich-text#condizioni-generali-di-vendita-title3",
+        "rich-text#condizioni-generali-di-vendita-content3",
+        "rich-text#condizioni-generali-di-vendita-title4",
+        "rich-text#condizioni-generali-di-vendita-content4",
+        "rich-text#condizioni-generali-di-vendita-title5",
+        "rich-text#condizioni-generali-di-vendita-content5",
+        "rich-text#condizioni-generali-di-vendita-title6",
+        "rich-text#condizioni-generali-di-vendita-content6",
+        "rich-text#condizioni-generali-di-vendita-title7",
+        "rich-text#condizioni-generali-di-vendita-content7",
+        "rich-text#condizioni-generali-di-vendita-title8",
+        "rich-text#condizioni-generali-di-vendita-content8",
+        "rich-text#condizioni-generali-di-vendita-title9",
+        "rich-text#condizioni-generali-di-vendita-content9",
+        "rich-text#condizioni-generali-di-vendita-title10",
+        "rich-text#condizioni-generali-di-vendita-content10",
+        "rich-text#condizioni-generali-di-vendita-title11",
+        "rich-text#condizioni-generali-di-vendita-content11",
+        "rich-text#condizioni-generali-di-vendita-title12",
+        "rich-text#condizioni-generali-di-vendita-content12",
+        "rich-text#condizioni-generali-di-vendita-title13",
+        "rich-text#condizioni-generali-di-vendita-content13",
+        "rich-text#condizioni-generali-di-vendita-title14",
+        "rich-text#condizioni-generali-di-vendita-content14",
+        "rich-text#condizioni-generali-di-vendita-title15",
+        "rich-text#condizioni-generali-di-vendita-content15",
+        "rich-text#condizioni-generali-di-vendita-title16",
+        "rich-text#condizioni-generali-di-vendita-content16",
+        "rich-text#condizioni-generali-di-vendita-title17",
+        "rich-text#condizioni-generali-di-vendita-content17",
+        "rich-text#condizioni-generali-di-vendita-title18",
+        "rich-text#condizioni-generali-di-vendita-content18",
+        "rich-text#condizioni-generali-di-vendita-title19",
+        "rich-text#condizioni-generali-di-vendita-content19",
+        "rich-text#condizioni-generali-di-vendita-title20",
+        "rich-text#condizioni-generali-di-vendita-content20",
+        "rich-text#condizioni-generali-di-vendita-title21",
+        "rich-text#condizioni-generali-di-vendita-content21",
+        "rich-text#condizioni-generali-di-vendita-title22",
+        "rich-text#condizioni-generali-di-vendita-content22",
+        "rich-text#condizioni-generali-di-vendita-title23",
+        "rich-text#condizioni-generali-di-vendita-content23",
+        "rich-text#condizioni-generali-di-vendita-title24",
+        "rich-text#condizioni-generali-di-vendita-content24",
+        "rich-text#condizioni-generali-di-vendita-title25",
+        "rich-text#condizioni-generali-di-vendita-content25"
+
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "condizioni-generali-di-vendita"
+      }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-title1": {
+        "props": {
+          "blockClass": "condizioni-generali-di-vendita-title",
+          "text":
+          "Le presenti condizioni generali di vendita governano l’acquisto on line dei prodotti della Miniconf S.p.a. effettuato tramite il sito www.ido.it."
+        }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content1": {
+        "props": {
+          "blockClass": "condizioni-generali-di-vendita-content",
+            "text":
+            "Indice <br><br>1. Definizioni<br>2. Oggetto<br>3. Registrazione al sito<br>4. Conclusione dei Contratti di Compravendita<br>5. Disponibilità dei Prodotti<br>6. Prezzo e costi di spedizione<br>7. Modalità di invio degli Ordini<br>8. Modalità di pagamento<br>9. Spedizione e consegna dei Prodotti<br>10. Diritto di recesso<br>11. Vizi e difformità dei Prodotti<br>12. Privacy<br>13. Errori e/o inesattezze nel Negozio On Line<br>14. Proprietà intellettuale<br>15. Legge applicabile e foro competente<br>16. Contatti"
+        }
+   },
+
+   "rich-text#condizioni-generali-di-vendita-title2": {
+           "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "1.Definizioni<br>Condizioni Generali di Vendita"
+        }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content2": {
+         "props": {
+          "blockClass": "condizioni-generali-di-vendita-content",
+            "text":
+            "Le condizioni generali di vendita costituiscono l’insieme delle regole che verranno applicate all’acquisto dei prodotti Miniconf (i “Prodotti”) tramite il sito www.ido.it.<br>Le Condizioni Generali di Vendita sono formulate in conformità alla normativa sui contratti conclusi al di fuori dei locali commerciali e, in particolare, in conformità a quanto disposto dal D. Lgs. 9 aprile 2003 n. 70 (Attuazione della Direttiva 2000/31/CE relativa a taluni aspetti giuridici dei servizi della società dell'informazione nel mercato interno, con particolare riferimento al commercio elettronico) nonché dal D. Lgs. 6 settembre 2005, n. 206 (Codice del Consumo) e successive modifiche ed integrazioni. "
+        }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-title3": {
+           "props": {
+           "blockClass": "condizioni-generali-di-vendita-title",
+            "text":
+            "Parti del contratto"
+        }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content3": {
+             "props": {
+              "blockClass": "condizioni-generali-di-vendita-content",
+              "text":
+              "Le parti del contratto sono le seguenti:<br>- Miniconf S.p.a., con sede in Ortignano Raggiolo 52010 (Ar), Via Provinciale 1/a, Partita iva P.IVA 00249390519 - REA AR 64978.<br>- Cliente, ai fini delle presenti Condizioni Generali di Vendita, per Cliente si intende la persona fisica o altro soggetto di diritto che acquista i Prodotti tramite il sito www.ido.it."
+         }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-title4": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "2.Oggetto"
+         }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content4": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "2.1 Le Condizioni Generali di Vendita disciplinano il rapporto tra il Cliente e Miniconf S.p.a. per l’acquisto dei Prodotti di volta in volta a tal fine resi disponibili nel sito www.ido.it.<br>2.2 Miniconf S.p.a si riserva il diritto di modificare in ogni momento le Condizioni Generali di Vendita, fermo restando che si intenderanno applicabili ai contratti di compravendita conclusi tra il Cliente e Miniconf S.p.a (i “Contratti di Compravendita”) quelle pubblicate nel sito www.ido.it (il “Negozio On line”) al momento dell’invio delle proposte di acquisto dei Prodotti (gli “Ordini”) da parte dei Clienti.<br>2.3 In caso di contrasto tra le Condizioni Generali di Vendita ed eventuali altri termini e condizioni relativi ai Contratti di Compravendita pubblicati nel Negozio On line troveranno applicazione i termini e le condizioni più favorevoli per i Clienti.<br>2.4 I Contratti di Compravendita conclusi accedendo al sito www.ido.it sono disciplinati dal diritto italiano e in particolare dal D. Lgs. 9 aprile 2003 n. 70 (Attuazione della Direttiva 2000/31/CE relativa a taluni aspetti giuridici dei servizi della società dell'informazione nel mercato interno, con particolare riferimento al commercio elettronico) e dal D. Lgs. 6 settembre 2005, n. 206 (Codice del Consumo) e successive modifiche ed integrazioni."
+         }
+    },
+    "rich-text#condizioni-generali-di-vendita-title5": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "3.Registrazione al sito"
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content5": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "3.1 La registrazione con 'username' e 'password' è facoltativa ma comporta il vantaggio della memorizzazione dello storico e della tracciabilità dei propri Ordini. Tuttavia, se il Cliente non desidera registrarsi, può concludere comunque l'acquisto attraverso la procedura di Check out veloce: in questo caso saranno richiesti solo i dati necessari alla spedizione, alla consegna e al pagamento dell'Ordine.<br>3.2 Il Cliente potrà registrarsi direttamente nella sezione “myiDO” nella quale, oltre che concludere l’acquisto, potrà trovare news su mode e tendenze. La registrazione alla sezione myiDO darà inoltre diritto al Cliente di avere uno sconto del 10% sugli acquisti nonché al reso gratuito e alla spedizione gratuita per ordini con consegna sul punto vendita. La spedizione è gratuita anche per i clienti non registrati al sito o per i clienti registrati al sito ma non alla sezione myiDO che richiedano la consegna su un punto vendita iDO."
+          }
+    },
+    "rich-text#condizioni-generali-di-vendita-title6": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "4.Conclusione dei Contratti di Compravendita"
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content6": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "4.1 Miniconf S.p.a si impegna ad inviare ai Clienti la conferma della spedizione (la “Conferma”) dell’Ordine entro 3 giorni lavorativi dal ricevimento degli Ordini da parte dei Clienti.<br>4.2 I Contratti di Compravendita si intendono conclusi tra le Parti nel momento in cui i Clienti ricevono la Conferma dell’Ordine. Qualora i Clienti non ricevano la Conferma dell’Ordine entro il termine indicato all’art. 4.1, il relativo Ordine dovrà intendersi rifiutato da Miniconf S.p.a e, quindi, privo di effetti. Miniconf S.p.a. non risponde di malfunzionamenti dipendenti dal gestore della rete di trasmissione dei dati.<br>4.3 Con l’invio degli Ordini i Clienti riconoscono e dichiarano di avere preso visione di tutte le indicazioni fornitegli durante la procedura di acquisto e di accettare integralmente le Condizioni Generali di Vendita nonché di aver preso visione di tutte le ulteriori informazioni contenute nel Negozio On line.<br>4.4 Gli Ordini saranno archiviati presso la banca dati del Negozio On line, secondo le modalità e nel rispetto delle disposizioni di cui al D. lgs. 30 giugno 2003 n. 196 (“Privacy”) e saranno accessibili contattando Miniconf S.p.a. ai riferimenti di cui all’art. 1 ovvero accedendo alla cartella relativa al proprio profilo contenente le informazioni personali (il “Profilo”)."
+          }
+    },
+    "rich-text#condizioni-generali-di-vendita-title7": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "5.Disponibilità dei Prodotti"
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content7": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "5.1 Fatto salvo quanto previsto all’art. 5.2, in corrispondenza di ciascun Prodotto pubblicato nel Negozio On line, Miniconf S.p.a. indica se lo stesso:<br>(i) è disponibile presso i propri magazzini;<br>(ii) non è disponibile presso i propri magazzini.<br>5.2 Tutti i Prodotti sono soggetti alla disponibilità del momento. Miniconf S.p.a. si riserva in qualsiasi momento di variare la tipologia e la disponibilità dei Prodotti pubblicati nel Negozio On line senza che ciò comporti alcuna responsabilità per Miniconf S.p.a nei confronti dei Clienti.<br>5.3 L’indicazione relativa alla disponibilità dei Prodotti non è vincolante, fermo restando che i Prodotti indicati come “non disponibili” ai sensi dell’art. 5.1 (ii) non potranno essere ordinati dai Clienti. In caso di indisponibilità sopravvenuta di uno o più Prodotti indicati come disponibili al momento dell’invio dell’Ordine da parte di un Cliente, Miniconf S.p.a., fermo restando quanto previsto dall’art. 5.2, si impegna a darne tempestiva comunicazione a mezzo e-mail al Cliente, proponendo se possibile una alternativa e congelando il pagamento se effettuato tramite carta di credito o PayPal.<br>In tal caso, fermo restando il diritto di recesso di cui al successivo art. 10, il Cliente potrà integrare o confermare l’Ordine entro le 48 ore successive al ricevimento della e-mail, rispondendo alla stessa. Qualora non riceva nessuna risposta dal Cliente trascorse le 48 ore, Miniconf S.p.a. procederà a completare l’invio dei Prodotti disponibili. Nel caso di pagamento con carta di credito o PayPal Miniconf S.p.a. processerà il pagamento al momento dell’Ordine ed i Prodotti non disponibili verranno rimborsati immediatamente al Cliente. Nel caso di pagamento tramite bonifico bancario, Miniconf S.p.a. provvederà al più presto a rimborsare una somma pari al valore dei Prodotti non disponibili."
+          }
+    },
+    "rich-text#condizioni-generali-di-vendita-title8": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "6.Prezzo e costi di spedizione."
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content8": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "6.1 I prezzi dei Prodotti sono espressi in € (Euro). Il prezzo applicabile è quello pubblicato nel Negozio On line al momento dell’invio degli Ordini da parte dei Clienti.<br>Miniconf S.p.a. verifica costantemente che tutti i prezzi indicati nel Negozio On line siano corretti, senza tuttavia che ciò possa garantire l’assenza di errori. Nell’eventualità che venisse riscontato un errore nel prezzo, Miniconf S.p.a. darà al Cliente la possibilità di riconfermare l’Ordine secondo le modalità di cui all’art. 5.3 che precede.<br>6.2 Il prezzo si intende comprensivo di IVA. <br>6.3 Il prezzo non comprende i costi di spedizione. Miniconf S.p.a. si riserva di richiedere ai Clienti un contributo per i costi di spedizione che potrà variare a seconda del tipo di consegna, della quantità di Prodotti da consegnare, del loro volume, del loro peso e della loro destinazione.<br>6.4 Il contributo richiesto da Miniconf S.p.a per i costi di spedizione è indicato, separatamente rispetto al prezzo, prima dell’invio dell’Ordine da parte dei Clienti e sarà pagato dai Clienti unitamente e contestualmente al pagamento del prezzo secondo le modalità di cui al successivo art. 8.<br>6.5 Eventuali tasse, imposte, dazi e altri oneri previsti dalle leggi dello Stato ove i Prodotti sono spediti e consegnati saranno interamente a carico dei Clienti e da questi pagati al momento della consegna dei Prodotti, direttamente alle autorità fiscali o doganali competenti ovvero al corriere incaricato della consegna."
+          }
+    },
+    "rich-text#condizioni-generali-di-vendita-title9": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "7.Modalità di invio degli Ordini"
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content9": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "7.1 Al fine di procedere all’invio degli Ordini, i Clienti sono invitati a registrarsi nel Negozio On line inserendo tutti i dati “obbligatori” e scegliendo una password per inviare gli Ordini e per accedere, anche in un momento successivo, al proprio Profilo. Il Cliente ha la possibilità di procedere rapidamente all’invio dell’Ordine attraverso la procedura di Check out veloce, che permette di completare l’acquisto come ospite del sito. Per portare a termine tale procedura è sufficiente inserire nome e cognome, un indirizzo e-mail, l’indirizzo di consegna dei Prodotti, un numero telefonico e le informazioni necessarie per il pagamento.<br>7.2 I Clienti possono acquistare i Prodotti selezionandoli nella sezione del Negozio On line dedicata alla tipologia del Prodotto ricercato e inserendoli nel “carrello”. Qualora i Prodotti che i Clienti intendono acquistare siano più di uno, la stessa procedura di cui sopra dovrà essere ripetuta cliccando su “aggiungi altri prodotti”. Completata la scelta dei Prodotti, i Clienti devono, se non vi hanno già provveduto in precedenza, procedere alla registrazione di cui all’art. 3 o, se già registrati, devono autenticarsi inserendo indirizzo e-mail e password negli appositi spazi e cliccare su “Completa l’acquisto!”.<br>In alternativa i clienti che non intendono registrarsi al sito possono selezionare l’opzione Check out veloce dove è sufficiente inserire nome e cognome, un indirizzo e-mail, l’indirizzo di consegna dei Prodotti, un numero telefonico e le informazioni necessarie per il pagamento.<br>Verificata la correttezza dei dati relativi al Prodotto/i scelto/i e delle “informazioni di invio”, i Clienti devono scegliere la modalità di pagamento di cui al successivo art. 8. Scelta la modalità di pagamento, i Clienti possono procedere all’invio degli Ordini cliccando su 'Effettua l’ordine'."
+          }
+    },
+    "rich-text#condizioni-generali-di-vendita-title10": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "8.Modalità di pagamento"
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content10": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "8.1 I Clienti possono effettuare il pagamento del prezzo dei Prodotti selezionati e del contributo per i costi di spedizione di cui all’art. 6 che precede mediante carta di credito, PayPal, bonifico bancario e contrassegno. Miniconf S.p.a si riserva la facoltà di variare, in ogni momento, i mezzi di pagamento utilizzabili dai Clienti, fermo restando che si intenderanno utilizzabili quelli pubblicati nel Negozio On line al momento dell’invio degli Ordini da parte dei Clienti.<br>8.2 In caso di pagamento a mezzo carta di credito l'addebito ai Clienti del Prezzo dei Prodotti selezionati e del contributo per i costi di spedizione di cui all’art. 6 che precede avviene, verificati i dati della carta di credito e ricevuta l'autorizzazione di addebito da parte di Banca Sella, contestualmente all'invio da parte di Miniconf S.p.a della Conferma dell’Ordine. I dati delle carte di credito inviati durante l'effettuazione degli Ordini sono protetti e sono inviati direttamente verso Banca Sella. Il pagamento avviene direttamente su server sicuro, con chiave di criptazione SSL in modo tale da garantire l'assoluta sicurezza della transazione. I dati della carta di credito non sono accessibili a Miniconf S.p.a o comunque a terzi, né al momento dell'invio degli Ordini né successivamente.<br>Al fine di rendere più sicura la transazione on line a mezzo carta di credito, al Cliente sarà richiesto di inserire il secure code, avvertendo che, in difetto, la transazione non potrà essere accettata. <br>8.3 In caso di pagamento tramite PayPal, al momento dell'invio degli Ordini da parte dei Clienti, la sessione Web sarà trasferita su sito Web sicuro di PayPal. Su tale sito Web, i Clienti possono completare il pagamento del prezzo e del contributo per i costi di spedizione di cui all’art. 6 che precede utilizzando il proprio conto PayPal e secondo le condizioni di utilizzo del servizio PayPal sottoscritto dai Clienti in quel momento o precedentemente. L'addebito del prezzo e del contributo per i costi di spedizione sul conto PayPal dei Clienti avviene contestualmente all'invio da parte di Miniconf S.p.a. della Conferma dell’Ordine.<br>8.4 In caso di pagamento a mezzo di bonifico bancario, i Clienti devono effettuare il bonifico ai dati bancari indicati nel Negozio On line, indicando nella causale il numero d’ordine comunicato da Miniconf S.p.a. al momento dell’invio della conferma di ordine da parte dei Clienti. La merce verrà spedita al cliente solo al momento della ricezione del bonifico.<br>8.5 In caso di pagamento tramite contrassegno la merce parte normalmente entro 3 giorni lavorativi dal ricevimento dell'Ordine, e all'arrivo del pacco, il Cliente provvederà a saldare al corriere l'importo dell'Ordine. Questo servizio prevede un sovrapprezzo di 7 €. Non sarà possibile utilizzare il metodo di pagamento contrassegno per ordini con consegna nel punto vendita. Per ordini con consegna nel punto vendita le modalità di pagamento accettate nel sito www.ido.it sono solo bonifico bancario, carta di credito e PayPal.<br>8.6 Contemporaneamente all’invio degli Ordini, Miniconf S.p.a invierà ai Clienti documento di Conferma dell’Ordine, anticipata via e-mail all’indirizzo inserito dal Cliente al momento dell’Ordine. Nel caso in cui il cliente necessiti della fattura, dovrà inserire il suo codice fiscale prima di completare l’acquisto, se si tratta di cliente privato o della partita IVA nel caso si tratti di azienda. Ai fini dell’emissione della fattura, fanno fede le informazioni fornite dai Clienti. Nessuna variazione della fattura sarà possibile dopo la sua emissione da parte di Miniconf S.p.a.<br>8.7 Le informazioni ricevute da Miniconf S.p.a. saranno utilizzate esclusivamente per completare le procedure relative alla compravendita dei Prodotti e per le procedure di rimborso in caso di esercizio del diritto di recesso di cui al successivo art. 10 da parte dei Clienti."
+          }
+    },
+    "rich-text#condizioni-generali-di-vendita-title11": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "9.Spedizione e consegna dei Prodotti"
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content11": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "Nella versione italiana del sito www.ido.it è possibile acquistare solo dall’Italia e consegnare i prodotti in Italia.<br>9.1 Premesso che per “spedizione” dei Prodotti da parte di Miniconf S.p.a. si intende la consegna degli stessi ai corrieri di volta in volta selezionati, Miniconf S.p.a. non è tenuta alla spedizione dei Prodotti fino a quando non ha ricevuto il pagamento del prezzo; una volta ricevuto il pagamento del prezzo, Miniconf S.p.a. si impegna a spedire i Prodotti:<br>(i) nel caso di Prodotti disponibili (come definiti all’art. 5):<br>- entro 3 giorni lavorativi dal ricevimento della comunicazione di autorizzazione di addebito di cui all’art. 8.2 in caso di pagamento tramite carta di credito;<br>- entro 3 giorni lavorativi dal momento in cui è stata resa disponibile a Miniconf S.p.a. l’informazione di avvenuto pagamento in caso di pagamento con mezzi diversi dalla carta di credito;<br>(ii) in caso di indisponibilità sopravvenuta di un Prodotto indicato come disponibile al momento dell’invio dell’Ordine da parte del Cliente, Miniconf S.p.a. si impegna a darne comunicazione a mezzo e-mail o telefono al Cliente, proponendo se possibile una alternativa, congelando il pagamento se effettuato tramite carta di credito.<br>In questo caso Miniconf S.p.a. darà al Cliente la possibilità di confermare o integrare l’Ordine secondo le modalità di cui all’art. 5.3 che precede.<br>9.2 Miniconf S.p.a. garantisce la spedizione dei prodotti, tramite corrieri espressi di volta in volta selezionati a seconda del Prodotto oggetto dell’Ordine e del luogo di destinazione. I Prodotti sono spediti da Miniconf S.p.a. e consegnati dal corriere selezionato da Miniconf S.p.a. all’indirizzo indicato dai Clienti al momento della registrazione di cui all’art. 3 o al diverso indirizzo indicato al momento dell’invio dell’Ordine secondo le modalità di cui all’art. 7 che precede.<br>9.3 Miniconf S.p.a. si impegna a fare tutto quanto nelle sue possibilità affinché i Prodotti spediti ai sensi degli artt. 9.1 e 9.2 siano consegnati dai corrieri selezionati entro 72 ore dalla data di spedizione.<br>9.4 I termini di consegna di cui all’art. 9.3, non possono, in ogni caso, essere ritenuti vincolanti e Miniconf S.p.a., non potendo controllare direttamente le consegne dei Prodotti successivamente alla loro spedizione, non può essere ritenuta in alcun modo responsabile per il loro mancato rispetto.<br>9.5 Al fine di permettere ai Clienti di seguire lo stato degli Ordini, Miniconf S.p.a. genera un numero d’Ordine che, inserito nella sezione “I miei ordini”, accessibile da tutte le pagine del Negozio On line, consente di verificare tutte le informazioni relative agli Ordini.<br>9.6 I Clienti potranno sempre verificare lo stato degli Ordini grazie alla funzione on line “Order Tracking” fornita dal corriere scelto da Miniconf S.p.a per la consegna. Tale verifica può essere effettuata dai Clienti solo successivamente alla spedizione dei Prodotti e utilizzando i dati per la tracciatura comunicati da Miniconf S.p.a. a mezzo e-mail oppure accedendo al Profilo.<br>9.7 I Clienti, o altri soggetti incaricati dai Clienti che si trovino all’indirizzo indicato per la consegna dei Prodotti nella Conferma dell’Ordine, sono tenuti a verificare, al momento della consegna, che:<br>(i) i Prodotti corrispondano a quanto indicato nel documento di trasporto del corriere (DDT) sia per numero che per tipologia;<br>(ii) l’imballaggio/la confezione dei Prodotti sia integra, non danneggiata, né bagnata o comunque alterata, anche nei materiali di chiusura.<br>9.8 Qualsiasi danno all’imballaggio/confezione dei Prodotti deve essere immediatamente contestato dai Clienti mediante l’apposizione di una riserva di controllo scritta sulla prova di avvenuta consegna del corriere. Resta inteso che, una volta firmato il documento del corriere senza alcuna contestazione, i Clienti non possono più sollevare alcuna contestazione a Miniconf S.p.a. con riferimento alle caratteristiche esteriori di quanto consegnato.<br>9.9 I Prodotti possono essere consegnati dai corrieri solo ai Clienti o a persone da questi incaricate; il soggetto a cui i Prodotti sono consegnati deve apporre una firma per certificare l’avvenuta consegna. I corrieri non effettuano consegne presso caselle postali o mediante inserimento dei Prodotti in buche delle lettere o altri luoghi similari."
+          }
+    },
+    "rich-text#condizioni-generali-di-vendita-title12": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "10.Diritto di recesso"
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content12": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "Il diritto di recesso può essere esercitato da tutti i Clienti, sia che abbiano effettuato l’acquisto come ospite oppure come cliente registrato al sito o alla sezione myiDO.<br>Il Cliente non registrato che ha effettuato l’acquisto come ospite potrà esercitare il diritto di recesso entro 14 giorni lavorativi dalla ricezione della merce attraverso la seguente procedura:<br>1. il Cliente comunica che intende effettuare il reso via e-mail all’indirizzo servizioclienti@ido.it specificando il numero di ordine ed i capi che intende restituire;<br>2. I prodotti non devono essere stati utilizzati, indossati, lavati o danneggiati; <br>3. I prodotti devono essere restituiti integri nella loro confezione originale e con tutti i cartellini e spediti entro 14 giorni lavorativi dalla data di ricezione a: iDO shop, p/o Miniconf S.p.a, Zona Industriale Ferrantina, Via dell’artigianato, 52011, Bibbiena (AR), Italia Magazzino Ferrantina 3.<br>4. Miniconf si riserva il diritto di non accettare capi danneggiati e/o utilizzati. <br>Il costo della restituzione del/i prodotto/i al nostro magazzino effettuato dal Cliente  non registrato al sito www.ido.it è a carico del Cliente stesso che è libero di scegliere il vettore che preferisce per la spedizione. Solo in caso di difetti del prodotto imputabili a Miniconf S.p.a., l’azienda si riserva il diritto di valutare l’accollo della spesa di spedizione.<br>Se, invece, il Cliente è registrato al sito o è un Cliente registrato nella sezione myiDO e desidera esercitare il diritto di recesso potrà farlo entro 14 giorni lavorativi dalla ricezione della merce effettuando la procedura di reso direttamente all’interno del proprio account. Il Cliente potrà entrare direttamente nel proprio Ordine, cliccare su quale/i capo/i desidera restituire, prenotare il reso e stampare il modulo di reso da inserire all’interno del pacco. In fase di richiesta reso, Miniconf S.p.a. invita il Cliente a indicare il motivo per cui intende restituire il/i prodotto/i. <br>Il reso è gratuito solo per i Clienti registrati alla sezione myiDO e, in tal caso, sarà Miniconf S.p.a., dopo che il Cliente ha richiesto il ritiro compilando i campi specificati nella documentazione che trova nel proprio account myiDO, a inviare il corriere. <br>Il Cliente registrato al sito potrà entrare nell’ordine di cui intende restituire i Prodotti, cliccare su quale/i capo/i desidera restituire comunicando a Miniconf S.p.a. il motivo per cui intende restituirli e stampare il modulo di reso da inserire all’interno del pacco. Eseguita questa procedura il Cliente potrà spedire il reso con il vettore che preferisce.<br><br>Usufruendo del reso gratuito a carico di Miniconf S.p.a., il Cliente myiDO non potrà richiedere un cambio merce. Il reso potrà essere chiuso o con un riaccredito o con un coupon pari al valore dei capi resi. Il coupon non sarà comprensivo di spese di spedizione gratuite.<br>Nel caso in cui, invece, un utente non registrato o un utente registrato al sito richiedano un cambio-merce, il/i nuovo/i prodotto/i verranno spedito, a carico di Miniconf S.p.a., solo dopo che Miniconf S.p.a. avrà ricevuto il reso e ne avrà verificate le condizioni. <br>Il costo della restituzione del prodotto/i al magazzino della Miniconf S.p.a. effettuata da un Cliente registrato nella sezione MyiDO è a carico di Miniconf S.p.a. solo qualora il Cliente rispetti la procedura di reso specificata nel sito www.ido.it e nelle presenti condizioni generali di vendita.<br>Le spese di spedizione di invio del cambio- merce sono a carico di Miniconf S.p.a. solo per resi effettuati da utenti non registrati o per utenti registrati al sito www.ido.it. <br>Il cambio merce a spese di Miniconf S.p.a. non è previsto per gli utenti myiDO ovvero registrati alla sezione myiDO del sito www.ido.it  <br>Notare bene: alcuni prodotti sono disponibili in una sola dimensione/colore/lunghezza. Questi prodotti non possono pertanto essere cambiati per una diversa dimensione/colore/lunghezza etc.<br>Qualora il cliente non registrato o registrato non voglia effettuare un cambio merce può richiedere il rimborso che verrà effettuato conformemente alla modalità di pagamento dell’Ordine oppure tramite l’emissione di un codice coupon utilizzabile per un nuovo acquisto sul Negozio On line. "
+          }
+    },
+    "rich-text#condizioni-generali-di-vendita-title13": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "11.Vizi e difformità dei Prodotti"
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content13": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "11.1 Qualora i Prodotti presentino eventuali vizi o difformità queste dovranno essere denunciate dai Clienti direttamente a Miniconf S.p.a.<br>11.2 Ai Clienti sono riconosciuti i diritti del consumatore di cui all’art. 130 del D. Lgs. 206/05 (Codice del Consumo); tali diritti devono essere esercitati nei termini di cui dall’art. 132 del medesimo D. Lgs. 206/05."
+          }
+    },
+    "rich-text#condizioni-generali-di-vendita-title14": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "12.Privacy"
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content14": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "Miniconf S.p.a. dichiara e garantisce che i dati personali dei Clienti saranno trattati in conformità alle disposizioni di cui al D. Lgs. 196/03 e successive modifiche ed integrazioni. I dettagli relativi alle modalità del trattamento dei dati sono comunicati ai Clienti al momento della registrazione di cui al precedente art. 3."
+          }
+    },
+    "rich-text#condizioni-generali-di-vendita-title15": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "13.Errori e/o inesattezze nel Negozio On line "
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content15": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "Miniconf S.p.a si impegna a verificare costantemente il sito www.ido.it al fine di evitare errori o inesattezze. Tuttavia, è possibile che il sito www.ido.it contenga, o possa nel tempo contenere, errori, inesattezze o omissioni, alcune delle quali potrebbero riferirsi al prezzo ed alla disponibilità del Prodotto, ed alla scheda informativa del Prodotto stesso.<br>Miniconf S.p.a si riserva pertanto il diritto di correggere gli errori, le inesattezze o le omissioni contenute nel sito www.ido.it anche dopo che sia stato inviato un Ordine e si riserva altresì di cambiare o aggiornare le informazioni in qualsiasi momento senza preventiva comunicazione ai Clienti."
+          }
+    },
+    "rich-text#condizioni-generali-di-vendita-title16": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "14.Proprietà Intellettuale"
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content16": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "Tutti i diritti di proprietà intellettuale, quali marchi e copyrights, connessi al Negozio On line (compresi i contenuti) sono di esclusiva proprietà di Miniconf S.p.a.<br>Il sito www.ido.it e i suoi contenuti non possono essere riprodotti né integralmente né parzialmente, trasferiti con mezzi elettronici o convenzionali, modificati, collegati e utilizzati per qualsivoglia fine senza il preventivo consenso scritto di Miniconf S.p.a."
+          }
+    },
+    "rich-text#condizioni-generali-di-vendita-title17": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "15.Legge applicabile e foro competente"
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content17": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "15.1 Le condizioni di accesso al sito www.ido.it sono governate dalle norme di diritto italiano e devono essere interpretate in conformità con le leggi italiane.<br>15.2 Il Cliente accetta la giurisdizione esclusiva dei Tribunali italiani. Per qualsiasi azione derivante o connessa alle Condizioni Generali di Vendita, alla navigazione e all’uso del sito, sarà esclusivamente competente il Tribunale di Arezzo."
+          }
+    },
+    "rich-text#condizioni-generali-di-vendita-title18": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "16.Contatti"
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content18": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "Per ulteriori informazioni e assistenza sul sito www.ido.it o sulle modalità di acquisto on line i Clienti possono contattare direttamente Miniconf S.p.a tramite il servizio clienti scrivendo all’indirizzo e-mail servizioclienti@ido.it oppure telefonando al numero 0575/533444 dalle ore 9 alle 17."
+          }
+    },
+    "rich-text#condizioni-generali-di-vendita-title19": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "Spedizione e Consegna"
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content19": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "Per garantire una rapida consegna, il negozio on line Miniconf S.p.a. si affida ai migliori corrieri espressi selezionati a seconda della destinazione. Il costo di spedizione risulterà nel carrello e verrà aggiunto al totale dell'ordine durante il processo di acquisto e sarà addebitato al momento del pagamento. Nulla sarà quindi dovuto al corriere al momento della consegna, fatta salva l’ipotesi di pagamento tramite contrassegno.<br>Elaborazione dell'ordine <br>Gli ordini vengono elaborati dalle 8.00 alle 16.30 dal Lunedì al Venerdì. Gli ordini effettuati dopo le 15.30 del Venerdì saranno elaborati il Lunedì successivo. Gli ordini relativi a prodotti disponibili saranno evasi entro 3 giorni lavorativi dal ricevimento del pagamento. Tutte le fasi del procedimento e lo stato dell’ordine saranno visibili nel proprio account personale.  Per verificare le informazioni relative ad un ordine si invita ad accedere al proprio account nella sezione 'I miei ordini'."
+          }
+    },
+    "rich-text#condizioni-generali-di-vendita-title20": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "Pagamenti"
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content20": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "Il Negozio on line accetta pagamenti tramite PayPal, carta di credito, bonifico bancario e contrassegno. La modalità di pagamento contrassegno non è prevista nel caso di consegne richieste in punto vendita. Il Cliente potrà scegliere tra queste modalità di pagamento al termine del processo d'ordine.<br>In nessun caso Miniconf S.p.a. potrà accettare pagamenti in contanti, né direttamente né tramite invio postale.<br>Notare bene: questo negozio on line opera dall’Italia e tutte le transazioni sono effettuate in Euro (se non diversamente specificato)."
+          }
+    },
+    "rich-text#condizioni-generali-di-vendita-title21": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "1 PayPal"
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content21": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "PayPal permette a qualsiasi azienda o consumatore che disponga di un indirizzo e-mail di inviare e ricevere pagamenti in maniera sicura. Selezionando il sistema di pagamento PayPal il Cliente accederà al sito sicuro di PayPal. Qui, se dispone già di un conto PayPal, sarà sufficiente autorizzare il pagamento. Se invece ancora non dispone di un conto PayPal, dopo una registrazione gratuita e l'inserimento dei dati della propria carta di credito (anche prepagata, tipo Postepay), sarà possibile effettuare pagamenti verso Miniconf S.p.a."
+          }
+    },
+    "rich-text#condizioni-generali-di-vendita-title22": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "2 Carta di credito"
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content22": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "il Cliente potrà pagare nel negozio on line usando le carte di credito aderenti ai circuiti VISA, Mastercard. Il pagamento avviene su server sicuro (SSL) con chiave di criptazione a 128 bit. <br>Con questo sistema tutti i dati della carta di credito passano direttamente alla società bancaria incaricata dell'incasso su una connessione criptata e sicura. Nessuno all'interno di Miniconf S.p.a. o su Internet ha accesso ai dati della carta di credito né al momento dell'invio né successivamente.<br>Nell'estratto conto della carta di credito il Cliente riceverà un addebito con la causale 'Miniconf S.p.a.'.<br>L'importo verrà addebitato sulla carta di credito appena Miniconf S.p.a. processa l'Ordine.<br>Per la sicurezza della transazione a mezzo carta di credito, al Cliente sarà richiesto di inserire il secure code, avvertendo che, in difetto, la transazione non potrà essere accettata."
+          }
+    },
+    "rich-text#condizioni-generali-di-vendita-title23": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "3 Bonifico bancario"
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content23": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "In caso di pagamento a mezzo di bonifico bancario, il cliente deve effettuare il bonifico alle coordinate bancarie indicate nella e-mail di conferma, indicando nella causale il numero d’Ordine comunicato da Miniconf S.p.a. al momento della Conferma dell’Ordine. La merce verrà spedita solo al momento della ricezione della conferma del pagamento."
+          }
+    },
+    "rich-text#condizioni-generali-di-vendita-title24": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "4 Contrassegno"
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content24": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "In caso di pagamento tramite contrassegno, all'arrivo del pacco, il Cliente provvederà a saldare in contanti al corriere l'importo dell'ordine comprensivo del costo di spedizione. Questo servizio prevede un sovrapprezzo di 7 €.<br>Non sarà possibile utilizzare il metodo di pagamento contrassegno per ordini con consegna nel punto vendita. Per ordini con consegna nel punto vendita le modalità di pagamento accettate nel Negozio On line sono bonifico bancario, carta di credito e Paypal."
+          }
+    },
+    "rich-text#condizioni-generali-di-vendita-title25": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-title",
+             "text":
+             "Diritto DI RECESSO E PROCEDURA di reso"
+          }
+    },
+
+    "rich-text#condizioni-generali-di-vendita-content25": {
+             "props": {
+             "blockClass": "condizioni-generali-di-vendita-content",
+             "text":
+             "Il diritto di recesso può essere esercitato da tutti i Clienti, sia che abbiano effettuato l’acquisto come ospite oppure come cliente registrato al sito o alla sezione myiDO.<br>Il Cliente non registrato che ha effettuato l’acquisto come ospite potrà esercitare il diritto di recesso entro 14 giorni lavorativi dalla ricezione della merce attraverso la seguente procedura:<br>1. il Cliente comunica che intende effettuare il reso via e-mail all’indirizzo servizioclienti@ido.it specificando il numero di ordine ed i capi che intende restituire;<br>2. I prodotti non devono essere stati utilizzati, indossati, lavati o danneggiati; <br>3. I prodotti devono essere restituiti integri nella loro confezione originale e con tutti i cartellini e spediti entro 14 giorni lavorativi dalla data di ricezione a: iDO shop, p/o Miniconf S.p.a, Zona Industriale Ferrantina, Via dell’artigianato, 52011, Bibbiena (AR), Italia Magazzino Ferrantina 3.<br>4. Miniconf si riserva il diritto di non accettare capi danneggiati e/o utilizzati. <br>Il costo della restituzione del/i prodotto/i al nostro magazzino effettuato dal Cliente  non registrato al sito www.ido.it è a carico del Cliente stesso che è libero di scegliere il vettore che preferisce per la spedizione. Solo in caso di difetti del Prodotto imputabili a Miniconf S.p.a., l’azienda si riserva il diritto di valutare l’accollo della spesa di spedizione.<br>Se, invece, il Cliente è registrato al sito o è un cliente registrato nella sezione myiDO e desidera esercitare il diritto di recesso potrà farlo entro 14 giorni lavorativi dalla ricezione della merce effettuando la procedura di reso direttamente all’interno del proprio account. Il Cliente potrà entrare direttamente nel proprio Ordine, cliccare su quale/i capo/i desidera restituire comunicando a Miniconf S.p.a. il motivo per cui intende restituirli, prenotare il reso e stampare il modulo di reso da inserire all’interno del pacco.  <br>Il reso è gratuito solo per i Clienti registrati nella sezione myiDO e, in tal caso, sarà Miniconf S.p.a., dopo che il Cliente ha richiesto il ritiro compilando i campi specificati nella documentazione che trova nel proprio account myiDO, a inviare il corriere. <br>Il Cliente registrato al sito, ma non registrato alla sezione myiDO, potrà entrare nell’Ordine di cui intende restituire i Prodotti, cliccare su quale/i capo/i desidera restituire comunicando a Miniconf S.p.a. il motivo per cui intende restituirli e stampare il modulo di reso da inserire all’interno del pacco. Eseguita questa procedura il Cliente potrà spedire il reso con il vettore che preferisce.<br>Usufruendo del reso gratuito a carico di Miniconf S.P.A., il cliente myiDO non potrà richiedere un cambio merce. Il reso potrà essere chiuso o con un riaccredito pari al valore del/i capo/i che il cliente restituisce o con un coupon pari al valore dei capi resi. Il coupon non sarà comprensivo di spese di spedizione gratuite.<br>Nel caso in cui, invece, un utente non registrato o un utente registrato al sito, ma non registrato alla sezione myiDO, richiedano un cambio merce, il/i nuovo/i prodotto/i verranno spediti, a carico di Miniconf S.p.a. solo dopo che Miniconf S.p.a. avrà ricevuto il reso e ne avrà verificato le condizioni. <br>Il costo della restituzione del prodotto/i al magazzino della Miniconf S.p.a. effettuata da un Cliente registrato nella sezione myiDO è a carico di Miniconf S.p.a. solo qualora il Cliente rispetti la procedura di reso specificata nel sito www.ido.it.<br>Le spese di spedizione di invio del cambio merce sono a carico di Miniconf S.p.a. solo per resi effettuati da utenti non registrati o per utenti registrati al sito www.ido.it. <br>Il cambio merce a spese di Miniconf S.p.a. non è previsto per gli utenti myiDO ovvero registrati alla sezione myiDO del sito www.ido.it <br>Notare bene: alcuni prodotti sono disponibili in una sola dimensione/colore/lunghezza. Questi prodotti non possono pertanto essere cambiati per una diversa dimensione/colore/lunghezza etc.<br>Qualora il Cliente non registrato al sito o registrato al sito ma non alla sezione myiDO non voglia effettuare un cambio merce può richiedere il rimborso che verrà effettuato conformemente alla modalità di pagamento dell’Ordine oppure tramite l’emissione di un codice coupon utilizzabile per un nuovo acquisto sul Negozio On line. "
+          }
+    }
+}
+
+
+

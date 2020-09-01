@@ -1,0 +1,258 @@
+{
+  "slider-layout#andrei-imagesMobile": {
+    "children": [
+      "stack-layout#firstSlideMobile"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "hatSliderMobile"
+    }
+  },
+  "stack-layout#firstSlideMobile": {
+    "children": [
+      "info-card#hat1Mobile",
+      "info-card#hat2Mobile"
+    ]
+  },
+  "info-card#hat1Mobile": {
+    "props": {
+      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/nuovoarrivi.png",
+      "isFullModeStyle": true,
+      "callToActionText": "BAMBINO",
+      "callToActionUrl": "www.google.com",
+      "textPosition": "center",
+      "headline": "2019",
+      "zIndexOffset": 1,
+      "blockClass": "firstStackWithImage"
+    }
+  },
+  "info-card#hat2Mobile": {
+    "props": {
+      "imageUrl": "",
+      "isFullModeStyle": true,
+      "callToActionText": "BAMBINA",
+      "callToActionUrl": "www.facebook.com",
+      "textPosition": "center",
+      "headline": "NUOVI ARRIVI",
+      "zIndexOffset": 1,
+      "blockClass": "secondLayerMobile"
+    }
+  },
+  "shelf#raduMobile": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "category": 2,
+      "blockClass": "showMobile",
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 8,
+        "itemsPerPage": 2,
+        "minItemsPerPage": 2,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": ""
+      }
+    }
+  },
+  "rich-text#shelf-title-backToSchoolMobile": {
+    "props": {
+      "text": "## Back To School",
+      "blockClass": "rich-text-backtoschoolMobile"
+    }
+  },
+  "info-card#backToSchoolMobile": {
+    "props": {
+      "id": "info-card-backToSchool",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/boyandgirlmobile.png",
+      "headline": "Ricomincia <br> l'avventura <br> con l'outfit giusto",
+      "callToActionText": "ACQUISTA",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-backtoschool-mobile",
+      "textAlignment": "center"
+    }
+  },
+  "rich-text#shelf-title-categoryMobile": {
+    "props": {
+      "text": "## Un iDO per ogni occasione",
+      "blockClass": "category-shelf-mobile"
+    }
+  },
+  "slider-layout#demo-productsMobile": {
+    "children": [
+      "info-card#1Mobile",
+      "info-card#2Mobile",
+      "info-card#3Mobile",
+      "info-card#4Mobile",
+      "info-card#5Mobile",
+      "info-card#6Mobile"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf-mobile",
+      "showNavigationArrows": "never"
+    }
+  },
+  "info-card#1Mobile": {
+    "props": {
+      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
+      "isFullModeStyle": false,
+      "callToActionText": "Glam",
+      "textPosition": "center",
+      "blockClass": "mobile-slide"
+    }
+  },
+  "info-card#2Mobile": {
+    "props": {
+      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/idomini.png",
+      "isFullModeStyle": false,
+      "callToActionText": "iDO Mini",
+      "textPosition": "center",
+      "blockClass": "mobile-slide"
+    }
+  },
+  "info-card#3Mobile": {
+    "props": {
+      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
+      "isFullModeStyle": false,
+      "callToActionText": "Back to school",
+      "textPosition": "center",
+      "blockClass": "mobile-slide"
+    }
+  },
+  "info-card#4Mobile": {
+    "props": {
+      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
+      "isFullModeStyle": false,
+      "callToActionText": "Glam",
+      "textPosition": "center",
+      "blockClass": "mobile-slide"
+    }
+  },
+  "info-card#5Mobile": {
+    "props": {
+      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/idomini.png",
+      "isFullModeStyle": false,
+      "callToActionText": "iDO Mini",
+      "textPosition": "center",
+      "blockClass": "mobile-slide"
+    }
+  },
+  "info-card#6Mobile": {
+    "props": {
+      "imageUrl": "https://andreibranch--storeido.myvtex.com/arquivos/glamgirl.png",
+      "isFullModeStyle": false,
+      "callToActionText": "Back to school",
+      "textPosition": "center",
+      "blockClass": "mobile-slide"
+    }
+  },
+  "info-card#dimenticaMobile": {
+    "props": {
+      "id": "info-card-dimentica",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/backtoschoolmobile.png",
+      "headline": "Dimentica i capi che <br> si rovinano dopo  un lavaggio: un iDO è <br> per sempre.",
+      "callToActionText": "SCOPRI",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-dimentica-mobile",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#fidelity-cardMobile": {
+    "props": {
+      "id": "info-card-fidelity-card",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/fidelityCMobile.png",
+      "headline": "Richiedi la nostra<br> fidelity card",
+      "callToActionText": "SCOPRI",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-fidelity-card-mobile",
+      "textAlignment": "center"
+    }
+  },
+  "rich-text#shelf-title-armocromiaMobile": {
+    "props": {
+      "text": "## L’armocromia",
+      "blockClass": "armocromia-mobile"
+    }
+  },
+  "info-card#coloursMobile": {
+    "props": {
+      "id": "info-card-domentica",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/Schermata_2019-10-10_alle_22.37.00.png",
+      "headline": "Quali colori stanno<br> meglio al tuo<br> bambino?",
+      "callToActionText": "SCOPRI",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-colours-mobile",
+      "textAlignment": "center"
+    }
+  },
+
+  "flex-layout.row#store-locator-mobile": {
+    "props": {
+      "blockClass": "store-locator-home-mobile"
+    },
+    "children": [
+      "store-locator-search-input#mobile",
+      "rich-text#store-locatorMobile"
+    ]
+  },
+  "store-locator-search-input#mobile": {
+    "props": {
+      "placeholder": "Inserisci indirizzo",
+      "value": "",
+      "redirectTo": "/our-stores",
+      "blockClass": "store-locator-mobile"
+    }
+  },
+  "rich-text#store-locatorMobile": {
+    "props": {
+      "text": "​",
+      "blockClass": "store-locator-rich-text-mobile"
+    }
+  },
+  "info-card#teddyMobile": {
+    "props": {
+      "id": "info-card-domentica",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/teddymobilefinal.png",
+      "headline": "Scopri l’outlet",
+      "callToActionText": "SCOPRI",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-teddy-mobile",
+      "textAlignment": "center"
+    }
+  },
+
+  "newsletter#mobile": {
+    "props": {
+      "blockClass": "newsletter-mobile",
+      "label": "Iscriviti alla newsletter",
+      "placeholder": "Inserisci la tua email",
+      "hideLabel": false
+    }
+  }
+}

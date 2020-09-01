@@ -1,0 +1,74 @@
+{
+
+  "store.custom#cookie-policy": {
+      "blocks": [
+        "flex-layout.row#cookie-policy",
+        "flex-layout.row#newsletter"
+      ]
+    },
+
+   "flex-layout.row#cookie-policy": {
+       "children": [
+         "tabs-container#cookie-policy"
+       ],
+       "props": {
+       "blockClass": "flex-row-cookie-policy"
+       }
+   },
+
+  "tabs-container#cookie-policy": {
+    "props": {
+      "menuTitle": "Termini e condizioni",
+      "orientation": "horizontal",
+      "tabs": [
+        {
+          "title": "Cookie Policy",
+          "id": "tab-wrapper#cookie-policy"
+        }
+      ]
+    },
+    "children": [
+      "tab-wrapper#cookie-policy"
+    ]
+  },
+
+  "tab-wrapper#cookie-policy": {
+    "props": {
+      "title": "Test 2"
+    },
+    "children": [
+      "flex-layout.col#cookie-policy"
+    ]
+  },
+
+
+    "flex-layout.col#cookie-policy": {
+      "children": [
+        "rich-text#cookie-policy-title5",
+        "rich-text#cookie-policy-content5"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "cookie-policy"
+      }
+    },
+
+    "rich-text#cookie-policy-title5": {
+             "props": {
+             "blockClass": "cookie-policy-title",
+             "text":
+             "COOKIES"
+          }
+    },
+
+    "rich-text#cookie-policy-content5": {
+             "props": {
+             "blockClass": "cookie-policy-content",
+             "text":
+             "Le informazioni relative ai cookie utilizzati sul Sito Web sono reperibili alla sezione “Uso dei Cookie”."
+          }
+    }
+}
+
+
+

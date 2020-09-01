@@ -1,0 +1,1237 @@
+@media screen and (max-width: 1025px) {
+  .infoCardImageContainer--info-card-aprire-franchising-banner-mobile {
+    display: none !important;
+  }
+  .infoCardTextContainer--info-card-aprire-franchising-banner-mobile {
+    width: 100% !important;
+  }
+}
+
+
+:global(.vtex-locale-switcher-0-x-container) {
+  justify-content: space-around;
+  margin-bottom: 14px;
+}
+.notificationBarContainer {
+  background-color: #aeca3b;
+  width: 358px;
+  height: 30px;
+  font-family: "MuseoJHSans700";
+  font-size: 15px;
+  line-height: 21px;
+  text-transform: uppercase;
+  align-content: center;
+
+}
+
+.item {
+  display: none;
+}
+
+.notificationContent {
+  font-family: "MuseoJHSans700";
+  color: #ffffff;
+}
+
+.notificationBarInner {
+  min-height: auto!important;
+  height: 100%;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  max-width: 208px;
+}
+
+.infoCardContainer--info-card-domentica {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  height: 500px!important;
+  padding: 0px;
+  margin-bottom: 50px;
+}
+
+.infoCardTextContainer--info-card-domentica {
+  margin-top: 250px;
+  max-width: 1500px;
+  width: 750px!important;
+}
+
+
+
+.infoCardContainer--info-card-domentica :global(.vtex-button) {
+  border-radius: 25px;
+  width: 190px;
+  height: 50px;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+
+.infoCardContainer--info-card-fidelity-card {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  height: 139px!important;
+  padding: 0px;
+  margin-bottom: 50px;
+}
+.infoCardContainer--info-card-fidelity-card :global(.vtex-button) {
+  border-radius: 25px;
+  width: 139px;
+  height: 50px;
+  color: #001930;
+  background-color: white;
+  border-color: white;
+}
+.infoCardTextContainer--info-card-fidelity-card {
+  color: white;
+  font-size: 35px;
+  line-height: 29px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100% !important;
+  flex-direction: row;
+}
+.infoCardHeadline--info-card-fidelity-card {
+  margin-top: 0px;
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 35px;
+}
+
+.infoCardHeadline--info-card-domentica {
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 45px;
+}
+
+.newsletter--newsletter-desktop {
+  background-color: rgba(0, 0, 0, 0.1)!important;
+  max-width: 1520px;
+  width: 100%;
+  margin: 0 auto;
+  height: 139px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px!important;
+}
+
+.newsletter--newsletter-desktop .container {
+  padding: 0px!important;
+  max-width: 100%!important;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.buttonContainer :global(.vtex-button__label) {
+  font-size: 0px;
+}
+
+.buttonContainer :global(.vtex-button__label)::after {
+  content: '';
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='19' height='16' viewBox='0 0 19 16'%3E%3Cg%3E%3Cg%3E%3Cpath fill='%23fff' d='M14.46 16l-4.963-3.324-2.001 1.67-.813-3.555 8.666-7.554-10.391 5.94L.064 5.664l19-5.663z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  height: 30px;
+  width: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 9px;
+  margin-right: 20px;
+}
+
+
+.inputGroup--newsletter-desktop {
+  position: relative;
+  width: 450px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.0);
+  padding-top: 0px;
+}
+.container :global(.vtex-input-prefix__group) {
+  border-radius: 50px;
+  height: 50px;
+  background-color: #001930;
+  margin-right: 20px;
+}
+.container :global(.vtex-store-components-3-x-buttonContainer) {
+  position: absolute;
+  right: 15px
+}
+
+.label--newsletter-desktop {
+  color: #001930!important;
+  font-size: 26px;
+  margin-left: 20px;
+  font-family: "MuseoJHSans900";
+  font-size: 35px;
+  line-height: 29px;
+  height: 29px;
+  margin-left: 25px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  width: 184px;
+  height: 21px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+
+@media only screen and (min-width: 640px) {
+  .label--newsletter-desktop {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.flex-grow-1 :global(.vtex-address-modal__address) {
+  width: 500px!important;
+  background-color: red!important;
+  color: red!important;
+  justify-content: flex-end;
+}
+
+.content--image-to-hide {
+  width: 408px!important;
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .content--image-to-hide {
+    width: 271px!important;
+  }
+}
+
+@media only screen and (min-width: 1301px) {
+  .productImagesThumbsSwiperContainer--productImageDesktop {
+    width: 680px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .productImagesThumbsSwiperContainer--productImageDesktop {
+    width: 100% !important;
+  }
+}
+
+
+.vtex-product-summary-2-x-buyButtonContainer  {
+  background-color: black;
+}
+
+
+/* Mobile version styles begin here */
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-backtoschool-mobile) {
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 30px;
+  line-height: 32px;
+}
+
+.infoCardContainer--info-card-backtoschool-mobile :global(.vtex-button){
+  background-color: transparent;
+  border-color: white;
+  border-radius: 50px;
+  border: solid 1px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.infoCardContainer--info-card-backtoschool-mobile {
+  height: 375px;
+  display: flex;
+  align-items: flex-end;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-dimentica-mobile) {
+  text-shadow: 0 2px 20px rgba(135, 135, 135, 0.5);
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 30px;
+  line-height: 32px;
+}
+
+.infoCardContainer--info-card-dimentica-mobile {
+  margin-bottom: 60px;
+  height: 375px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.infoCardContainer--info-card-dimentica-mobile :global(.vtex-button){
+  background-color: transparent;
+  border-color: white;
+  border-radius: 50px;
+  border: solid 1px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
+.infoCardHeadline--info-card-fidelity-card-mobile {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.infoCardContainer--info-card-fidelity-card-mobile :global(.vtex-button){
+  background-color: white;
+  border-color: white;
+  border-radius: 50px;
+  height: 40px;
+  width: 150px;
+}
+
+.infoCardContainer--info-card-fidelity-card-mobile :global(.vtex-button__label){
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.infoCardHeadline--info-card-colours-mobile {
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 30px;
+  line-height: 32px
+}
+
+.infoCardContainer--info-card-colours-mobile :global(.vtex-button){
+  background-color: transparent;
+  border-color: white;
+  border-radius: 50px;
+  border: solid 1px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.infoCardContainer--info-card-colours-mobile {
+  height: 375px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 60px;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-teddy-mobile) {
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 30px;
+  line-height: 32px;
+}
+
+.infoCardContainer--info-card-teddy-mobile :global(.vtex-button){
+  background-color: transparent;
+  border-color: white;
+  border-radius: 50px;
+  border: solid 1px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
+.newsletter--newsletter-mobile {
+  margin-bottom: 60px;
+  background-color: #ffffff!important;
+}
+
+
+.infoCardContainer--info-card-teddy-mobile {
+ margin-bottom: 60px;
+  height: 375px;
+  display: flex;
+  align-items: flex-end;
+}
+
+
+.infoCardTextContainer--firstStackWithImage {
+  align-content: flex-start;
+  display: inherit;
+  align-items: center;
+  align-self: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 0px;
+  width: 50%;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.infoCardContainer--firstStackWithImage {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 100vw;
+}
+
+
+.infoCardContainer--secondLayer {
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+
+.infoCardContainer--secondLayerMobile {
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+/* Codeby store locator css */
+
+
+/* newsletter mobile desktop */
+.label--newsletter-mobile {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 40px;
+}
+
+.inputGroup--newsletter-mobile {
+  position: absolute;
+  width: 340px;
+  height: 40px;
+  align-self: center;
+  margin-left: 10px;
+}
+/* newsletter mobile desktop */
+
+
+
+
+/* Product page design desktop version */
+
+.price_listPriceLabel--top-price-section {
+  display: none;
+}
+
+.skuSelectorInternalBox {
+  justify-content: center;
+  border: none;
+}
+
+
+
+.diagonalCross--colors-selector {
+  height: 60%;
+  width: 90%;
+  top: 20%;
+  left: 5%;
+}
+
+
+
+.skuSelectorSubcontainer--color .skuSelectorItem--colors-selector--selected {
+  border: 1px solid;
+  width: 27px!important;
+  height: 27px!important;
+}
+
+
+.skuSelectorSubcontainer--size :global(.vtex-store-components-3-x-skuSelectorItem--colors-selector){
+  height: 33px;
+  width: 33px;
+  border-radius: 16px;
+  border: solid 1px;
+}
+
+.skuSelectorSubcontainer--size :global(.vtex-store-components-3-x-skuSelectorItem--selector-mobile){
+  height: 33px;
+  width: 33px;
+  border-radius: 16px;
+  border: solid 1px;
+}
+
+.price_listPrice--top-price-section {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  margin-left: 100px;
+  font-size: 25px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-family: "MuseoJHSans900";
+}
+
+.price_className--top-price-section-discount {
+  margin-left: 30px;
+}
+.price_sellingPriceContainer--top-price-section {
+  display: none;
+}
+
+.price_savingsContainer--top-price-section {
+  display: none;
+}
+
+.price_listPriceLabel--top-price-section-discount {
+  display: none;
+}
+
+.price_listPrice--top-price-section-discount {
+  text-decoration: none;
+  color: black;
+  margin-left: 100px;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+:global(.vtex-product-price-1-x-savings--summary-discount-percentage) {
+  margin-left: 5px;
+  align-items: center;
+  width: auto;
+  color: #aeca3b;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.skuSelectorItemImage {
+  height: 19px;
+  width: 19px;
+  margin: 0 !important;
+  margin-right: 0.25rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skuSelectorItemImageValue--colors-selector {
+  width: 19px;
+  height: 19px;
+}
+
+.valueWrapper--colors-selector {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skuSelectorInternalBox {
+  border-radius: 0px;
+}
+
+.frameAround {
+  border: none;
+}
+
+.carouselGaleryThumbs--image-to-hide {
+  min-height: 135px;
+}
+
+.skuSelectorTextContainer {
+  display: none;
+}
+
+.discountInsideContainer {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  background-color: #aeca3b;
+}
+
+:global(.vtex-product-identifier-0-x-product-identifier--productReference) {
+  display: none;
+}
+
+
+.price_sellingPriceContainer--top-price-section-discount {
+  display: none;
+}
+
+.price_savingsContainer--top-price-section-discount {
+  display: none;
+}
+/* Product Page mobile version styling BEGINS here */
+
+.discountInsideContainer::after {
+  content: ' ';
+  height: 20px;
+  width: 35px;
+  position: absolute;
+  right: -11px;
+  top: 0px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 28px 12px 0 0;
+  border-color: #aeca3b transparent transparent transparent;
+}
+
+.productImageTag--productImageMobile {
+  width: 375px!important;
+  height: 405px!important;
+}
+
+.productImagesThumb--productImageMobile {
+  width: 117px!important;
+  height: 129px!important;
+}
+
+.productImagesThumbsSwiperContainer--productImageMobile {
+  width: 349px!important;
+}
+
+.price_listPrice--mobile-price-without-discount {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  margin-left: 100px;
+  font-size: 25px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-family: "MuseoJHSans900";
+}
+
+.price_sellingPriceContainer--mobile-price-without-discount {
+  display: none;
+}
+
+.price_savingsContainer--mobile-price-without-discount {
+  display: none;
+}
+
+.price_savingsContainer--mobile-price-without-discount {
+  display: none;
+}
+
+.price_listPriceLabel--mobile-price-without-discount {
+  display: none;
+}
+
+
+
+/* Product Page mobile version styling ENDS here */
+
+/* name of the product styling */
+
+.productBrand {
+  font-family: 'MuseoJHSans900';
+  width: 260px;
+  height: 100%;
+  color: #001930;
+  font-size: 25px;
+  line-height: 29px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
+
+.productImagesThumb--productImageDesktop {
+  max-height: unset !important;
+  width: 225px!important;
+  height: 242px!important;
+  max-width: 33% !important;
+}
+
+.productImagesThumb--image-to-hide {
+  max-height: unset !important;
+  width: 135px!important;
+  height: 146px!important;
+}
+
+/* Product page SKU selector styling BEGINS here */
+.skuSelectorContainer--colors-selector .skuSelectorSubcontainer--size {
+
+}
+
+.skuSelectorContainer--colors-selector {
+  border-bottom: 1px solid;
+  border-color: #DCDCDC;
+}
+
+.skuSelectorContainer--size-picker .skuSelectorSubcontainer--color{
+  display: none;
+}
+/* product page SKU selector styling ENDS here */
+
+/* product page image size desktop version */
+
+.productImageTag--productImageDesktop {
+  width: 720px!important;
+  height: 770px!important;
+  max-height: 770px!important;
+  object-fit: contain;
+}
+
+.productImage {
+  display: flex;
+  justify-content: center;
+}
+/* product page image size desktop version  END*/
+
+/* dekstop mobile verison BEGINS here  */
+@media screen and (max-width:  768px) {
+
+  .infoCardContainer--mobile-slide {
+    width: auto!important;
+    height: auto!important;
+  }
+
+  .infoCardTextContainer--mobile-slide {
+    order: 2;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+  }
+  .infoCardCallActionContainer--mobile-slide {
+    width: 100%;
+  }
+  .infoCardCallActionContainer--mobile-slide :global(.vtex-button__label) {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px !important;
+  }
+  .infoCardContainer--mobile-slide {
+    display: flex;
+    flex-direction: column;
+  }
+  .infoCardTextContainer--mobile-slide {
+    order: 2;
+  }
+  .infoCardImageContainer-mobile-slide {
+    order: 1;
+    height: 211px;
+    width: 195px;
+  }
+
+  .infoCardCallActionContainer--mobile-slide :global(.vtex-button) {
+    width: 100%!important;
+    height: auto!important;
+    margin-left: 0px!important;
+    font-size: 20px!important;
+  }
+
+  .carouselGaleryThumbs--productImageMobile {
+    display: flex;
+  }
+}
+/* chi siamo newsletter button */
+
+:global(.vtex-store-components-3-x-newsletter--newsletterSiamoDesktop) {
+  position: relative;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-Vuoilavorare) {
+  display: block;
+}
+
+:global(.vtex-store-components-3-x-form--newsletterSiamoDesktop) {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 139px;
+}
+
+:global(.vtex-store-components-3-x-container--newsletterSiamoDesktop) {
+  padding-top: 26px;
+}
+
+:global(.vtex-store-components-3-x-label--newsletterSiamoDesktop) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-left: 41px;
+  width: 32%;
+  text-align: left;
+}
+
+:global(.vtex-store-components-3-x-inputGroup--newsletterSiamoDesktop) {
+  width: 468px;
+  height: 50px;
+  border-radius: 25px;
+  position: absolute;
+  right: 0px;
+}
+
+.inputGroup--newsletterSiamoDesktop :global(.vtex-input-prefix__group) {
+  margin-right: 0px;
+}
+
+.inputGroup--newsletterSiamoDesktop :global(.vtex-input) {
+  position: relative;
+  height: 46px;
+  bottom: 14px;
+}
+
+.inputGroup--newsletterSiamoDesktop :global(.vtex-store-components-3-x-buttonContainer--newsletterSiamoDesktop) {
+  position: relative;
+  bottom: 14px;
+  right: 85px;
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-Vuoilavorare) {
+  margin-top: 72px;
+  position: relative;
+  height: 141px;
+  background-color: #001930;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-Vuoilavorare) {
+  width: 32%;
+  text-align: left;
+  height: 29px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-top: unset;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-Vuoilavorare) {
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 0px;
+  position: relative;
+  width: 100%;
+}
+
+:global(.vtex-store-components-3-x-infoCardImageContainer--info-card-Vuoilavorare) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-Vuoilavorare) {
+  position: absolute;
+  right: 0px;
+}
+
+.infoCardCallActionContainer--info-card-Vuoilavorare :global(.vtex-button) {
+  width: 340px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  bottom: 63px;
+  right: 85px;
+  border-width: unset;
+  border-color: unset;
+  outline: none;
+}
+
+.infoCardCallActionContainer--info-card-Vuoilavorare :global(.vtex-button__label) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  position: relative;
+  text-transform: capitalize;
+  padding: 0px;
+}
+/* apri un franchising ido info card*/
+
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-aprirefranchising) {
+  margin-top: 57px;
+  margin-bottom: 31px;
+  position: relative;
+  height: 141px;
+  background-color: #001930;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-aprirefranchising) {
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 0px;
+  position: relative;
+  width: 100%;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-aprirefranchising) {
+  width: 32%;
+  text-align: left;
+  height: 29px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-top: unset;
+}
+
+:global(.vtex-store-components-3-x-infoCardImageContainer--info-card-aprirefranchising) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-aprirefranchising) {
+  display: block;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-aprirefranchising) {
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 0px;
+  position: relative;
+  width: 100%;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-aprirefranchising) {
+  position: absolute;
+  right: 0px;
+}
+
+.infoCardCallActionContainer--info-card-aprirefranchising :global(.vtex-button) {
+  width: 340px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  bottom: 63px;
+  right: 85px;
+  border-width: unset;
+  border-color: unset;
+  outline: none;
+}
+
+.infoCardCallActionContainer--info-card-aprirefranchising :global(.vtex-button__label) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  position: relative;
+  text-transform: capitalize;
+  padding: 0px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--imageTaglie) {
+  margin-top: 18px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--imageTaglie) {
+  max-width: 100%;
+}
+
+/* lacromonia trova il negozzio*/
+
+
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-larocromiaaprirefranchising-desktop) {
+  margin-top: 57px;
+  margin-bottom: 31px;
+  position: relative;
+  height: 141px;
+  background-color: #001930;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-larocromiaaprirefranchising-desktop) {
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 0px;
+  position: relative;
+  width: 100%;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-larocromiaaprirefranchising-desktop) {
+  width: 40%;
+  text-align: left;
+  height: 29px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-top: unset;
+}
+
+:global(.vtex-store-components-3-x-infoCardImageContainer--info-card-larocromiaaprirefranchising-desktop) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-larocromiaaprirefranchising-desktop) {
+  display: block;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-larocromiaaprirefranchising-desktop) {
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 0px;
+  position: relative;
+  width: 100%;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-larocromiaaprirefranchising-desktop) {
+  position: absolute;
+  right: 0px;
+}
+
+.infoCardCallActionContainer--info-card-larocromiaaprirefranchising-desktop :global(.vtex-button) {
+  width: 340px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  bottom: 63px;
+  right: 85px;
+  border-width: unset;
+  border-color: unset;
+  outline: none;
+}
+
+.infoCardCallActionContainer--info-card-larocromiaaprirefranchising-desktop :global(.vtex-button__label) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  position: relative;
+  text-transform: capitalize;
+  justify-content: left;
+  padding-left: 20px;
+}
+
+.infoCardCallActionContainer--info-card-larocromiaaprirefranchising-desktop :global(.vtex-button)::after {
+  content: "";
+  position: absolute;
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/zoom.png);
+  width: 18px;
+  height: 18px;
+  left: 89%;
+  bottom: 12px;
+}
+
+/* lacromonia aiuto*/
+
+
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-aiuto) {
+  margin-top: 72px;
+  position: relative;
+  height: 141px;
+  background-color: #001930;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-aiuto) {
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 0px;
+  position: relative;
+  width: 100%;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-aiuto) {
+  width: 40%;
+  text-align: left;
+  height: 29px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-top: unset;
+}
+
+:global(.vtex-store-components-3-x-infoCardImageContainer--info-card-aiuto) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-aiuto) {
+  display: block;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-aiuto) {
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 0px;
+  position: relative;
+  width: 100%;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-aiuto) {
+  position: absolute;
+  right: 0px;
+}
+
+.infoCardCallActionContainer--info-card-aiuto :global(.vtex-button) {
+  bottom: 63px;
+  right: 165px;
+  border-width: unset;
+  border-color: unset;
+  outline: none;
+  width: 51px;
+  height: 51px;
+  border-radius: 26px;
+  background-color: #ffffff;
+}
+
+.infoCardCallActionContainer--info-card-aiuto :global(.vtex-button__label) {
+  bottom: 51px;
+  position: relative;
+  padding: 0px;
+  color: #002c50;
+  font-family: "MuseoJHSans500";
+  font-size: 22px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+
+.infoCardCallActionContainer--info-card-aiuto :global(.vtex-button)::before {
+  content:"NO";
+  border-width: unset;
+  border-color: unset;
+  outline: none;
+  width: 51px;
+  height: 51px;
+  border-radius: 26px;
+  background-color: #ffffff;
+  display: flex;
+  position: relative;
+  bottom: 3px;
+  left: 77px;
+  padding: 0px;
+  color: #002c50;
+  font-family: "MuseoJHSans500";
+  font-size: 22px;
+  line-height: 29px;
+  text-transform: uppercase;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+
+/* tempi di consegna newsletter button */
+
+:global(.vtex-store-components-3-x-form--newslettertempiDiConsegna) {
+  background-color: rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 939px;
+  height: 106px;
+}
+
+:global(.vtex-store-components-3-x-label--newslettertempiDiConsegna) {
+  color: #001930!important;
+  font-size: 26px;
+  font-family: "MuseoJHSans900";
+  line-height: 29px;
+  height: 29px;
+  margin-left: 27px;
+}
+
+:global(.vtex-store-components-3-x-inputGroup--newslettertempiDiConsegna) {
+  position: relative;
+  width: 450px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.0);
+  padding-top: 5px;
+}
+
+/* reso e cambi newsletter button */
+
+:global(.vtex-store-components-3-x-form--newsletterresoEcambi) {
+  background-color: rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 939px;
+  height: 106px;
+}
+
+:global(.vtex-store-components-3-x-label--newsletterresoEcambi) {
+  color: #001930!important;
+  font-size: 26px;
+  font-family: "MuseoJHSans900";
+  line-height: 29px;
+  height: 29px;
+  margin-left: 27px;
+}
+
+:global(.vtex-store-components-3-x-inputGroup--newsletterresoEcambi) {
+  position: relative;
+  width: 450px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.0);
+  padding-top: 5px;
+}
+
+/*aprire franchising banner mobile*/
+
+.infoCardTextContainer--info-card-aprire-franchising-banner-mobile :global(.vtex-button) {
+  width: 340px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+.infoCardTextContainer--info-card-aprire-franchising-banner-mobile :global(.vtex-button__label) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  line-height: 21px;
+}
+
+:global(.vtex-store-components-3-x-form--banner-mobile) {
+  display: block!important;
+}
+
+

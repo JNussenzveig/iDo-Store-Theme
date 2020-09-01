@@ -1,0 +1,367 @@
+{
+
+  "store.custom#regolamento": {
+      "blocks": [
+        "flex-layout.row#regolamento",
+        "flex-layout.row#newsletter"
+      ]
+    },
+
+   "flex-layout.row#regolamento": {
+       "children": [
+         "tabs-container#regolamento"
+       ],
+       "props": {
+       "blockClass": "flex-row-regolamento"
+       }
+   },
+
+  "tabs-container#regolamento": {
+    "props": {
+      "menuTitle": "Termini e condizioni",
+      "orientation": "horizontal",
+      "tabs": [
+        {
+          "title": "Regolamento",
+          "id": "tab-wrapper#regolamento"
+        }
+      ]
+    },
+    "children": [
+      "tab-wrapper#regolamento"
+    ]
+  },
+
+  "tab-wrapper#regolamento": {
+    "props": {
+      "title": "Test 2"
+    },
+    "children": [
+      "flex-layout.col#regolamento"
+    ]
+  },
+
+
+    "flex-layout.col#regolamento": {
+      "children": [
+        "rich-text#regolamento-title1",
+        "rich-text#regolamento-content1",
+        "rich-text#regolamento-title2",
+        "rich-text#regolamento-content2",
+        "rich-text#regolamento-title3",
+        "rich-text#regolamento-content3",
+        "rich-text#regolamento-title4",
+        "rich-text#regolamento-content4",
+        "rich-text#regolamento-title5",
+        "rich-text#regolamento-content5",
+        "rich-text#regolamento-title6",
+        "rich-text#regolamento-content6",
+        "rich-text#regolamento-title7",
+        "rich-text#regolamento-content7",
+        "rich-text#regolamento-title8",
+        "rich-text#regolamento-content8",
+        "rich-text#regolamento-title9",
+        "rich-text#regolamento-content9",
+        "rich-text#regolamento-title10",
+        "rich-text#regolamento-content10",
+        "rich-text#regolamento-title11",
+        "rich-text#regolamento-content11",
+        "rich-text#regolamento-title12",
+        "rich-text#regolamento-content12",
+        "rich-text#regolamento-title13",
+        "rich-text#regolamento-content13",
+        "rich-text#regolamento-title14",
+        "rich-text#regolamento-content14",
+        "rich-text#regolamento-title15",
+        "rich-text#regolamento-content15",
+        "rich-text#regolamento-title16",
+        "rich-text#regolamento-content16",
+        "rich-text#regolamento-title17",
+        "rich-text#regolamento-content17",
+        "rich-text#regolamento-title18",
+        "rich-text#regolamento-content18"
+
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "regolamento"
+      }
+    },
+
+    "rich-text#regolamento-title1": {
+        "props": {
+          "blockClass": "regolamento-title",
+          "text":
+          "1.Chi siamo"
+        }
+    },
+
+    "rich-text#regolamento-content1": {
+        "props": {
+          "blockClass": "regolamento-content",
+            "text":
+            "Benvenuto nel negozio on line ufficiale di Miniconf S.p.a. In queste pagine potrà trovare i prodotti del nostro marchio iDO, brand di proprietà di Miniconf S.p.a., visionarli, verificarne le caratteristiche e decidere di farteli consegnare direttamente a casa.<br>Abbiamo creato questo spazio per permetterle di vivere una piacevole esperienza di navigazione ed acquisto che sia coerente con i nostri valori."
+        }
+   },
+
+   "rich-text#regolamento-title2": {
+           "props": {
+             "blockClass": "regolamento-title",
+             "text":
+             "1.1 Clausola liberatoria"
+        }
+    },
+
+    "rich-text#regolamento-content2": {
+         "props": {
+          "blockClass": "regolamento-content",
+            "text":
+            "Miniconf S.p.a. non potrà essere ritenuta responsabile di eventuali errori né di perdite o danni causati o derivanti dall’affidamento fatto dai clienti sulle informazioni ricavate dal presente sito. Il presente sito e le informazioni in esso contenute, inoltre, potranno essere soggette a modifica in qualsiasi momento e senza obbligo di comunicazione preventiva o successiva."
+        }
+    },
+
+    "rich-text#regolamento-title3": {
+           "props": {
+           "blockClass": "regolamento-title",
+            "text":
+            "1.2 Limitazione di responsabilità e risarcimenti"
+        }
+    },
+
+    "rich-text#regolamento-content3": {
+             "props": {
+              "blockClass": "regolamento-content",
+              "text":
+              "Miniconf S.p.a. non potrà essere ritenuta in alcun modo responsabile di danni effettivi, diretti, indiretti, accessori, emergenti o di qualsiasi altro tipo, derivanti dall'utilizzo o dall'impossibilità di utilizzare le informazioni, i prodotti o il materiale del sito o relativi alla qualità degli stessi. Poiché l'esclusione o le limitazioni di responsabilità per quanto attiene ai danni accessori o emergenti non sono consentite in alcuni paesi, dette esclusioni e limitazioni potrebbero non essere applicabili in tutto o in parte al cliente."
+         }
+    },
+
+    "rich-text#regolamento-title4": {
+             "props": {
+             "blockClass": "regolamento-title",
+             "text":
+             "2.Come acquistare"
+         }
+    },
+
+    "rich-text#regolamento-content4": {
+             "props": {
+             "blockClass": "regolamento-content",
+             "text":
+             "Nella Homepage e nei menù troverà i collegamenti ai prodotti e alle categorie. Troverà indicazioni su come ordinare, come pagare, come sarà consegnata la merce, come potrà eventualmente cambiarla.<br>Durante il completamento dell'ordine, saranno richiesti alcuni dati personali necessari per la consegna dei prodotti e sarà offerta la possibilità di registrarsi al negozio on line www.ido.it inserendo la propria email e scegliendo una password per velocizzare gli accessi futuri.<br>I dati personali saranno trattati secondo la normativa vigente in materia ed utilizzati strettamente entro i limiti dell'informativa che leggerà e accetterà al momento della registrazione.<br>Il negozio on line iDO non può evadere alcun ordine nei confronti di clienti che non accettino il trattamento dei dati personali. Nessun dato relativo alla carta di credito sarà assunto o registrato da Miniconf S.p.a. Troverà ulteriori informazioni sulla sicurezza dei pagamenti nel successivo paragrafo 4."
+         }
+    },
+    "rich-text#regolamento-title5": {
+             "props": {
+             "blockClass": "regolamento-title",
+             "text":
+             "3.Conferma della ricezione dell'ordine ed accettazione dello stesso"
+          }
+    },
+
+    "rich-text#regolamento-content5": {
+             "props": {
+             "blockClass": "regolamento-content",
+             "text":
+             "Ricevuto un ordine, Miniconf S.p.a. invierà automaticamente una conferma di ricezione a mezzo e-mail, nella quale saranno ricapitolati tutti gli estremi dell'ordine stesso. A seguito della ricezione di un ordine Miniconf S.p.a. verificherà l'effettiva disponibilità del prodotto ordinato e solo dopo tale verifica comunicherà la propria accettazione. Contemporaneamente all’accettazione, Miniconf S.p.a. provvederà a processare il pagamento. Una e-mail di conferma verrà inviata al momento della spedizione della merce; in tale comunicazione sarà allegato il codice necessario per la tracciabilità della spedizione.<br>Nel caso in cui Miniconf S.p.a., per qualsiasi ragione, non sia in grado di evadere anche parzialmente un ordine pervenuto lo comunicherà tempestivamente al cliente, proponendo se possibile un’alternativa.<br>Viene escluso ogni diritto del cliente a un risarcimento danni o indennizzo, nonché qualsiasi responsabilità contrattuale o extracontrattuale per danni diretti o indiretti a persone e/o cose provocati dalla mancata accettazione di un ordine.<br>Se è stato effettuato un acquisto nel negozio on line iDO, potranno essere verificate tutte le informazioni del proprio ordine seguendo il link 'I miei ordini' dopo essersi autenticati con la propria e-mail e la password che è stata scelta al momento della registrazione. Saranno ricordati la data dell'ordine, i prodotti ordinati, l'ammontare totale, l'indirizzo a cui è stata richiesta la spedizione e lo status di evasione.<br>Si potrà, inoltre, verificare il contenuto dell'ordine che si sta compilando seguendo il link 'Carrello'. <br>In ogni momento si potrà comunicare con il servizio clienti della Miniconf S.p.a. per risolvere eventuali dubbi o richiedere informazioni aggiuntive."
+          }
+    },
+    "rich-text#regolamento-title6": {
+             "props": {
+             "blockClass": "regolamento-title",
+             "text":
+             "4.Pagamenti"
+          }
+    },
+
+    "rich-text#regolamento-content6": {
+             "props": {
+             "blockClass": "regolamento-content",
+             "text":
+              "Il negozio on line Miniconf S.p.a. accetta pagamenti tramite PayPal, carta di credito, bonifico bancario e contrassegno. Si potrà scegliere tra queste modalità di pagamento al termine del processo d'ordine.<br>In nessun caso Miniconf S.p.a potrà accettare pagamenti in contanti, né direttamente né tramite invio postale.<br>Nota: Questo negozio on line opera dall’Italia e tutte le transazioni sono effettuate in Euro (se non diversamente specificato)."
+          }
+    },
+    "rich-text#regolamento-title7": {
+             "props": {
+             "blockClass": "regolamento-title",
+             "text":
+             "4.1 PayPal"
+          }
+    },
+
+    "rich-text#regolamento-content7": {
+             "props": {
+             "blockClass": "regolamento-content",
+             "text":
+             "PayPal permette a qualsiasi azienda o consumatore che disponga di un indirizzo e-mail di inviare e ricevere pagamenti in maniera sicura.<br>Selezionando il sistema di pagamento PayPal si accederà al sito sicuro di PayPal. Qui, se si  dispone già di un conto PayPal, sarà sufficiente autorizzare il pagamento. Se invece ancora non si dispone di un conto PayPal, dopo una registrazione gratuita e l'inserimento dei dati della propria carta di credito (anche prepagata, tipo Postepay), sarà possibile effettuare pagamenti verso Miniconf S.p.a.<br>Si potrà utilizzare anche il proprio conto corrente bancario per alimentare il conto PayPal da cui successivamente si effettueranno i pagamenti. L'utilizzo di PayPal, come strumento di pagamento on line, è gratuito."
+          }
+    },
+    "rich-text#regolamento-title8": {
+             "props": {
+             "blockClass": "regolamento-title",
+             "text":
+             "4.2 Carta di credito"
+          }
+    },
+
+    "rich-text#regolamento-content8": {
+             "props": {
+             "blockClass": "regolamento-content",
+             "text":
+             "Si potrà pagare nel negozio on line Miniconf usando le carte di credito aderenti ai circuiti VISA, Mastercard.<br>Il pagamento avviene su server sicuro (SSL) con chiave di criptazione a 128 bit. Con questo sistema tutti i dati della propria carta di credito passano direttamente alla società bancaria incaricata dell'incasso su una connessione criptata e sicura. Nessuno all'interno di Miniconf S.p.a. o su Internet ha accesso ai dati della carta di credito né al momento dell'invio né successivamente.<br>Nell'estratto conto della carta di credito si riceverà un addebito con la causale Miniconf S.p.a.<br>L'importo viene addebitato sulla carta di credito appena Miniconf S.p.a. processa l'ordine.<br>Gli ordini pagati con carta di credito sono i più veloci ad essere evasi in quanto la comunicazione a Miniconf S.p.a dell'avvenuto pagamento è istantanea.<br>Per la sicurezza della transazione a mezzo carta di credito, al cliente sarà richiesto di inserire il secure code, avvertendo che, in difetto, la transazione non potrà essere accettata."
+          }
+    },
+    "rich-text#regolamento-title9": {
+             "props": {
+             "blockClass": "regolamento-title",
+             "text":
+             "4.3 Bonifico bancario"
+          }
+    },
+
+    "rich-text#regolamento-content9": {
+             "props": {
+             "blockClass": "regolamento-content",
+             "text":
+             "In caso di pagamento a mezzo di bonifico bancario, il cliente deve effettuare il bonifico alle coordinate bancarie indicate nella e.mail di conferma, indicando nella causale il numero d’ordine comunicato da Miniconf S.p.a al momento della conferma dello stesso. La merce verrà spedita solo al momento della ricezione della conferma del pagamento."
+          }
+    },
+    "rich-text#regolamento-title10": {
+             "props": {
+             "blockClass": "regolamento-title",
+             "text":
+             "4.4 Contrassegno"
+          }
+    },
+
+    "rich-text#regolamento-content10": {
+             "props": {
+             "blockClass": "regolamento-content",
+             "text":
+             "In caso di pagamento tramite contrassegno, all'arrivo del pacco, il cliente provvederà a saldare al corriere l'importo dell'ordine comprensivo del costo di spedizione. Questo servizio prevede un sovrapprezzo di 7€.<br>Non sarà possibile utilizzare il metodo di pagamento contrassegno per ordini con consegna nel punto vendita. Per ordini con consegna nel punto vendita le modalità di pagamento accettate nel sito www.ido.it sono bonifico bancario, carta di credito e PayPal."
+          }
+    },
+    "rich-text#regolamento-title11": {
+             "props": {
+             "blockClass": "regolamento-title",
+             "text":
+             "5.Spedizione e Consegna"
+          }
+    },
+
+    "rich-text#regolamento-content11": {
+             "props": {
+             "blockClass": "regolamento-content",
+             "text":
+             "Per garantire una rapida consegna, il negozio on line iDO si affida ai migliori corrieri espressi selezionati a seconda della destinazione. Il costo di spedizione risulterà nel carrello e verrà aggiunto al totale dell'ordine durante il processo di acquisto e ti sarà addebitato al momento del pagamento. Nulla sarà quindi dovuto al corriere al momento della consegna, fatta salva l’ipotesi di pagamento tramite contrassegno."
+          }
+    },
+    "rich-text#regolamento-title12": {
+             "props": {
+             "blockClass": "regolamento-title",
+             "text":
+             "5.1 Elaborazione dell'ordine"
+          }
+    },
+
+    "rich-text#regolamento-content12": {
+             "props": {
+             "blockClass": "regolamento-content",
+             "text":
+             "Gli ordini vengono elaborati dalle 8.00 alle 16.30 dal Lunedì al Venerdì. Gli ordini effettuati dopo le 15.30 di Venerdì saranno elaborati il Lunedì successivo.<br>Gli ordini relativi a prodotti disponibili saranno evasi entro 3 giorni lavorativi dal ricevimento del pagamento. Tutte le fasi del procedimento e lo stato dell’ordine saranno visibili nel proprio account personale.<br>Per esaminare e verificare le informazioni relative ad un ordine, si invita ad accedere al proprio account e cliccare sulla pagina 'I miei ordini' (visibile su tutte le pagine del negozio on line Miniconf). Cliccare poi sul numero dell'ordine per visualizzarne i dettagli."
+          }
+    },
+    "rich-text#regolamento-title13": {
+             "props": {
+             "blockClass": "regolamento-title",
+             "text":
+             "5.2 Monitoraggio dell'ordine"
+          }
+    },
+
+    "rich-text#regolamento-content13": {
+             "props": {
+             "blockClass": "regolamento-content",
+             "text":
+             "È possibile visualizzare lo 'Stato' di un ordine dalla pagina 'I miei ordini'. A spedizione avvenuta si riceverà un numero di “Order tracking”. Immettendo tale numero nell’area apposita del sito sarà possibile monitorare lo stato della spedizione."
+          }
+    },
+    "rich-text#regolamento-title14": {
+             "props": {
+             "blockClass": "regolamento-title",
+             "text":
+             "6.1 Costi di spedizione"
+          }
+    },
+
+    "rich-text#regolamento-content14": {
+             "props": {
+             "blockClass": "regolamento-content",
+             "text":
+             "La vendita nel sito www.ido.it è attiva in Italia per la versione italiana del sito www.ido.it poiché nella versione italiana del sito è possibile acquistare solo dall’Italia con consegna in Italia. Le spese di spedizione visualizzate sono calcolate in base al quantitativo e al peso dei prodotti nel carrello. Il costo finale di spedizione sarà visualizzato durante il processo di acquisto."
+          }
+    },
+    "rich-text#regolamento-title15": {
+             "props": {
+             "blockClass": "regolamento-title",
+             "text":
+             "7.Politica di reso "
+          }
+    },
+
+    "rich-text#regolamento-content15": {
+             "props": {
+             "blockClass": "regolamento-content",
+             "text":
+             "I prodotti devono essere restituiti entro 14 giorni lavorativi dalla consegna.<br>I prodotti restituiti non devono essere stati indossati e lavati o alterati in qualsiasi modo.<br>I prodotti restituiti devono avere tutti le loro etichette originali e devono essere nella loro confezione originale.<br>È obbligatorio completare la procedura di reso specificata nelle condizioni generali di vendita. "
+          }
+    },
+    "rich-text#regolamento-title16": {
+             "props": {
+             "blockClass": "regolamento-title",
+             "text":
+             "7.1 Cambio merce"
+          }
+    },
+
+    "rich-text#regolamento-content16": {
+             "props": {
+             "blockClass": "regolamento-content",
+             "text":
+             "Se si desidera esercitare il diritto di recesso  si può richiedere il cambio merce entro 14 giorni lavorativi dalla ricezione della merce.<br>a. I prodotti non devono essere stati utilizzati, indossati, lavati o danneggiati;<br>b. il cartellino identificativo deve essere attaccato ai prodotti;<br>c. i prodotti devono essere restituiti integri e non utilizzati nella loro confezione originale;<br>d. Miniconf S.p.a. si riserva il diritto di non accettare capi danneggiati e/o utilizzati;<br>e. i prodotti resi devono essere consegnati al corriere entro 14 giorni lavorativi decorrenti dalla data di ricezione.<br>Nel caso di un reso fatto da un utente non registrato al sito o da un utente registrato al sito ma non registrato alla sezione myiDO il costo della restituzione del prodotto/i al magazzino della Miniconf S.p.a., sia tramite corriere o servizio postale, è esclusivamente a carico del cliente.<br>In caso di cambio merce il nuovo prodotto/i verrà spedito una volta che Miniconf S.p.a. avrà ricevuto il prodotto originale/i. Se non si desidera un cambio merce si può richiedere un rimborso. <br>Il cambio merce non può essere richiesto da un cliente registrato alla sezione myiDO.<br>In primo luogo, si prega di comunicare via e-mail a servizioclienti@ido.it l’intenzione di effettuare un reso.<br>I costi amministrativi di rimborso sono a carico di Miniconf S.p.a. Al contrario tutti i costi di spedizione del prodotto, sia tramite corriere sia tramite servizio postale, sono a carico del cliente. Il cliente sarà quindi rimborsato del valore del prodotto restituito.<br>(1) Il negozio opera dall'Unione Europea, per questo motivo tutte le transazioni, anche in valuta, vengono convertite in Euro a seguito del pagamento da parte del cliente.<br>(2) I prodotti restituiti, pagati tramite bonifico bancario, vengono rimborsati tramite bonifico bancario. Per il rimborso il cliente deve comunicare le coordinate bancarie al servizio di assistenza clienti. I dati richiesti sono IBAN e il nome del titolare del conto.<br>Il rimborso sarà elaborato non appena il prodotto restituito arriva nel magazzino della Miniconf S.p.a.  e ne sarà verificata l’integrità.<br>Nota bene: se il pagamento avviene con carta di credito, i rimborsi possono richiedere fino a 4 settimane per essere visibili sul proprio estratto conto. Il rimborso verrà visualizzato nel proprio estratto conto con la descrizione Miniconf S.p.a."
+          }
+    },
+    "rich-text#regolamento-title17": {
+             "props": {
+             "blockClass": "regolamento-title",
+             "text":
+             "8.Assistenza cliente"
+          }
+    },
+
+    "rich-text#regolamento-content17": {
+             "props": {
+             "blockClass": "regolamento-content",
+             "text":
+             "Tutte le informazioni sullo stato degli ordini saranno visualizzabili sul proprio account al quale il cliente avrà accesso una volta effettuata la registrazione tramite la propria e-mail e password.<br>Per maggiori informazioni riguardanti i propri acquisti on line sul sito www.ido.it  il cliente potrà contattare la Miniconf S.p.a. all’indirizzo e-mail servizioclienti@ido.it o per telefono al numero 0575/533444.<br>Il customer service della Miniconf S.p.a. risponderà alle domande del cliente dal Lunedì al Venerdì dalle 9.00 alle 12.00 e dalle 13.00 alle 17.00  esclusi i festivi."
+          }
+    },
+    "rich-text#regolamento-title18": {
+             "props": {
+             "blockClass": "regolamento-title",
+             "text":
+             "9.Copyright e marchi"
+          }
+    },
+
+    "rich-text#regolamento-content18": {
+             "props": {
+             "blockClass": "regolamento-content",
+             "text":
+             "Il design del sito www.ido.it e tutto il materiale ivi contenuto (i marchi, i loghi, il codice HTML, gli scripts, i testi, i disegni, le immagini ed i prodotti) sono parte integrante del negozio online iDO ed è protetto da copyright. Ogni uso non autorizzato di tale contenuto quale la copia, l'inclusione in frame e l'associazione con contenuto non originato su questo negozio on line non è permesso e sarà perseguito a termini di legge."
+          }
+    }
+}
+
+
+

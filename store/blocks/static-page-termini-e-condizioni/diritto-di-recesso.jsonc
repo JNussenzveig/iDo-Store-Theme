@@ -1,0 +1,93 @@
+{
+
+  "store.custom#diritto-di-recesso": {
+      "blocks": [
+        "flex-layout.row#diritto-di-recesso",
+        "flex-layout.row#newsletter"
+      ]
+    },
+
+   "flex-layout.row#diritto-di-recesso": {
+       "children": [
+         "tabs-container#diritto-di-recesso"
+       ],
+       "props": {
+       "blockClass": "flex-row-diritto-di-recesso"
+       }
+   },
+
+  "tabs-container#diritto-di-recesso": {
+    "props": {
+      "menuTitle": "Termini e condizioni",
+      "orientation": "horizontal",
+      "tabs": [
+        {
+          "title": "Diritto di recesso",
+          "id": "tab-wrapper#diritto-di-recesso"
+        }
+      ]
+    },
+    "children": [
+      "tab-wrapper#diritto-di-recesso"
+    ]
+  },
+
+  "tab-wrapper#diritto-di-recesso": {
+    "props": {
+      "title": "Test 2"
+    },
+    "children": [
+      "flex-layout.col#diritto-di-recesso"
+    ]
+  },
+
+
+    "flex-layout.col#diritto-di-recesso": {
+      "children": [
+        "rich-text#diritto-di-recesso-content1",
+        "rich-text#diritto-di-recesso-title1",
+        "rich-text#diritto-di-recesso-title2",
+        "rich-text#diritto-di-recesso-content2"
+
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "diritto-di-recesso"
+      }
+    },
+
+    "rich-text#diritto-di-recesso-title1": {
+        "props": {
+          "blockClass": "diritto-di-recesso-title",
+          "text":
+          "Le spese di spedizione di invio del cambio- merce sono a carico di Miniconf S.p.a. solo per resi effettuati da utenti non registrati o per utenti registrati al sito www.ido.it. "
+        }
+    },
+
+    "rich-text#diritto-di-recesso-content1": {
+        "props": {
+          "blockClass": "diritto-di-recesso-content",
+            "text":
+            "Il diritto di recesso può essere esercitato da tutti i Clienti, sia che abbiano effettuato l’acquisto come ospite oppure come cliente registrato al sito o alla sezione myiDO.<br><br>Il Cliente non registrato che ha effettuato l’acquisto come ospite potrà esercitare il diritto di recesso entro 14 giorni lavorativi dalla ricezione della merce attraverso la seguente procedura:<br><br>1. il Cliente comunica che intende effettuare il reso via e-mail all’indirizzo servizioclienti@ido.it  specificando il numero di ordine ed i capi che intende restituire;<br>2. I prodotti non devono essere stati utilizzati, indossati, lavati o danneggiati; <br>3. I prodotti devono essere restituiti integri nella loro confezione originale e con tutti i cartellini e spediti entro 14 giorni lavorativi dalla data di ricezione a: iDO shop, p/o Miniconf S.p.a, Zona Industriale Ferrantina, Via dell’artigianato, 52011, Bibbiena (AR), Italia Magazzino Ferrantina 3.<br>4. Miniconf si riserva il diritto di non accettare capi danneggiati e/o utilizzati. <br>Il costo della restituzione del/i prodotto/i al nostro magazzino effettuato dal Cliente  non registrato al sito www.ido.it è a carico del Cliente stesso che è libero di scegliere il vettore che preferisce per la spedizione. Solo in caso di difetti del prodotto imputabili a Miniconf S.p.a., l’azienda si riserva il diritto di valutare l’accollo della spesa di spedizione.<br><br>Se, invece, il Cliente è registrato al sito o è un Cliente registrato nella sezione myiDO e desidera esercitare il diritto di recesso potrà farlo entro 14 giorni lavorativi dalla ricezione della merce effettuando la procedura di reso direttamente all’interno del proprio account. Il Cliente potrà entrare direttamente nel proprio Ordine, cliccare su quale/i capo/i desidera restituire, prenotare il reso e stampare il modulo di reso da inserire all’interno del pacco. In fase di richiesta reso, Miniconf S.p.a. invita il Cliente a indicare il motivo per cui intende restituire il/i prodotto/i. <br><br>Il reso è gratuito solo per i Clienti registrati alla sezione myiDO e, in tal caso, sarà Miniconf S.p.a., dopo che il Cliente ha richiesto il ritiro compilando i campi specificati nella documentazione che trova nel proprio account myiDO, a inviare il corriere. <br>Il Cliente registrato al sito potrà entrare nell’ordine di cui intende restituire i Prodotti, cliccare su quale/i capo/i desidera restituire comunicando a Miniconf S.p.a. il motivo per cui intende restituirli e stampare il modulo di reso da inserire all’interno del pacco. Eseguita questa procedura il Cliente potrà spedire il reso con il vettore che preferisce.<br><br>Usufruendo del reso gratuito a carico di Miniconf S.p.a., il Cliente myiDO non potrà richiedere un cambio merce. Il reso potrà essere chiuso o con un riaccredito o con un coupon pari al valore dei capi resi. Il coupon non sarà comprensivo di spese di spedizione gratuite.<br><br>Nel caso in cui, invece, un utente non registrato o un utente registrato al sito richiedano un cambio-merce, il/i nuovo/i prodotto/i verranno spedito, a carico di Miniconf S.p.a., solo dopo che Miniconf S.p.a. avrà ricevuto il reso e ne avrà verificate le condizioni. <br><br>Il costo della restituzione del prodotto/i al magazzino della Miniconf S.p.a. effettuata da un Cliente registrato nella sezione MyiDO è a carico di Miniconf S.p.a. solo qualora il Cliente rispetti la procedura di reso specificata nel sito www.ido.it e nelle presenti condizioni generali di vendita."
+        }
+   },
+
+   "rich-text#diritto-di-recesso-title2": {
+           "props": {
+             "blockClass": "diritto-di-recesso-title",
+             "text":
+             "Il cambio merce a spese di Miniconf S.p.a. non è previsto per gli utenti myiDO ovvero registrati alla sezione myiDO del sito www.ido.it"
+        }
+    },
+
+    "rich-text#diritto-di-recesso-content2": {
+         "props": {
+          "blockClass": "diritto-di-recesso-content",
+            "text":
+            "Notare bene: alcuni prodotti sono disponibili in una sola dimensione/colore/lunghezza. Questi prodotti non possono pertanto essere cambiati per una diversa dimensione/colore/lunghezza etc.<br><br>Qualora il cliente non registrato o registrato non voglia effettuare un cambio merce può richiedere il rimborso che verrà effettuato conformemente alla modalità di pagamento dell’Ordine oppure tramite l’emissione di un codice coupon utilizzabile per un nuovo acquisto sul Negozio On line. <br><br>Per ulteriori specifiche leggi le nostre condizioni generali di vendita (link alle condizioni generali di vendita)"
+        }
+    }
+}
+
+
+

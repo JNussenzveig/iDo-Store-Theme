@@ -1,0 +1,1224 @@
+@media screen and (max-width: 1025px) {
+  .flexRow--azienda-mobile .flexRowContent--azienda-mobile {
+    flex-direction: column;
+  }
+  .flexRow--azienda-mobile .flexRowContent--azienda-mobile .stretchChildrenWidth {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .flexRowContent--franchisingButtonmobile {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+}
+
+
+
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+
+.flexRowContent--menu-link {
+  background-color: #FFFFFF !important;
+  color: #00263a;
+  height: 50px;
+}
+
+.flexRowContent--main-header {
+  background-color: #f0f0f0;
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: #f0f0f0;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  font-size: 14px;
+  width: 81px;
+  height: 19px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+
+
+
+/*:global(.vtex-minicart-2-x-minicartContainer) {
+  position: relative;
+  bottom: 35px;
+}
+*/
+
+
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-link) :global(.vtex-locale-switcher-0-x-relativeContainer) {
+  position: unset;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:global(.vtex-locale-switcher-0-x-container) {
+  height: 50px;
+}
+:global(.vtex-minicart-2-x-minicartWrapperContainer) {
+  height: 50px;
+}
+
+:global(.vtex-rich-text-0-x-container) {
+  cursor: pointer;
+}
+
+
+
+
+
+
+:global(.vtex-modal-layout-0-x-triggerContainer) {
+  position: relative;
+  bottom: 70px;
+  color: transparent;
+}
+
+:global(.vtex-rich-text-0-x-container) {
+  color: transparent;
+}
+
+
+/* Order By Desktop version styling BEGINS HERE */
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-caretIcon) {
+  position: absolute;
+  left: 120px;
+  bottom: 17px;
+  width: 20px;
+  height: 15px;
+}
+
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-orderByText) {
+  color: #001930!important;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: none;
+  margin-right: 170px;
+}
+
+.flexCol--filterMobileCol {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexColChild--filterMobileCol :global(.vtex-search-result-3-x-filters--layout) {
+  position: absolute;
+  left: 35px;
+}
+
+.flexColChild--filterMobileCol :global(.vtex-search-result-3-x-filterPopupButton) {
+  padding-right: 30px;
+}
+
+
+
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-filterPopupTitle) {
+  font-size: 0px;
+  position: relative;
+}
+
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-orderByOptionsContainer) {
+  margin-top: 55px;
+  width: 310px;
+}
+
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-orderByButton) {
+  border: none;
+}
+
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-filterPopupArrowIcon) {
+  position: absolute;
+  right: 38%;
+  top: 95%;
+}
+
+.flexCol--orderByColDesktop :global(.vtex-search-result-3-x-orderByOptionItem) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+
+/*Order by desktopv ersion styling ENDS here */
+/*Order by mobile version styling BEGINS here */
+
+
+
+.flexCol--orderByMobileCol :global(.vtex-search-result-3-x-orderByText) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  text-transform: none;
+}
+
+
+.flexCol--orderByMobileCol :global(.vtex-search-result-3-x-filterPopupTitle) {
+  font-size: 0px;
+  position: relative;
+}
+
+.flexCol--orderByMobileCol :global(.vtex-search-result-3-x-orderByOptionsContainer) {
+  margin-top: 55px;
+  width: 310px;
+}
+
+.flexCol--orderByMobileCol :global(.vtex-search-result-3-x-orderByOptionItem) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+
+
+
+
+
+/*Order by mobile version styling ENDS here */
+.flexCol--filterCol { max-width: 230px!important; min-width: 230px!important; }
+
+/* Store loator css */
+
+.flexRow--store-locator-home :global(.vtex-store-components-3-x-container){
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #727273;
+  font-size: 14px;
+}
+.flexRow--deals {
+  background-color: white;
+  padding: 14px 0px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexCol--switcherMobileCol {
+  width: 20%;
+}
+
+.flexRow--menu-text .flexColChild {
+  height: 16px!important;
+}
+
+.flexRow--menu-social-networks .stretchChildrenWidth  {
+  width: auto !important;
+  margin-left: 45px;
+  margin-right: 0px;
+}
+
+
+/* Styling for product page desktop version */
+
+:global(.vtex-store-components-3-x-price_sellingPrice) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.flexRow--product-name-price-section {
+  border-bottom: 1px solid;
+  border-color: #DCDCDC;
+  padding-bottom: 5px;
+}
+.flexCol--product-name-price-section {
+  justify-content: flex-end;
+}
+
+.flexRowContent--product-main-container {
+  justify-content: space-between !important;
+}
+
+:global(.vtex-store-components-3-x-price_listPriceContainer--bottom-price-section){
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-price_sellingPriceLabel--bottom-price-section) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-productNameContainer) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  font-weight: bold;
+}
+
+.flexColChild--product-name-price-section :global(.vtex-product-price-1-x-savings--summary-discount-percentage) {
+  width: 60px !important
+}
+
+.flexRowContent--product-name-price-section .stretchChildrenWidth:first-child .flexColChild--product-name-price-section {
+  flex-direction: column !important;
+  align-items: flex-start;
+}
+
+.flexCol--product-name-price-section {
+  display: flex!important;
+  flex-direction: row!important;
+}
+.flexColChild--product-name-price-section {
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;
+}
+
+.flexRowContent--product-name-price-section .stretchChildrenWidth:first-child .flexCol--product-name-price-section {
+  flex-direction: column !important;
+  align-items: flex-start;
+}
+
+
+
+.flexRowContent--product-buy-button :global(.vtex-button) {
+  background-color: #001930;
+  border-color: #001930;
+  border-radius: 20px;
+  width: 336px;
+}
+
+.flexRowContent--product-buy-button :global(.vtex-button__label) {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+:global(.vtex-store-components-3-x-productImagesGallerySwiperContainer--image-to-hide) {
+  display: none;
+}
+/* store locator styling  dekstop */
+
+:global(.vtex-rich-text-0-x-container--store-locator-rich-text) {
+  position: absolute;
+  width: 803px;
+  height: 34px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 35px;
+  line-height: 29px;
+  top: 0px;
+  left: 10px;
+  margin-left: 120px;
+}
+
+.flexRow--store-locator-home-mobile {
+  position: relative;
+}
+
+.flexRow--store-locator-home :global(.vtex-store-components-3-x-container) {
+  max-width: 100% !important;
+}
+.flexRowContent--store-locator-home .stretchChildrenWidth {
+  width: 100% !important;
+}
+.flexRowContent--store-locator-home {
+  flex-wrap: wrap;
+  position: relative;
+}
+
+/* all products page */
+:global(.vtex-flex-layout-0-x-flexCol--filterCol) {
+  width: 300px!important;
+}
+/* all products page  END*/
+
+
+
+/* Mobile styling begins here */
+
+.flexRowContent--main-header-mobile {
+  padding: 0px !important;
+  height: 31px;
+  background-color: #aeca3b!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.flexRowContent--menu-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexRowContent--row-networks-mobile {
+  display: flex
+}
+
+.flexRowContent--row-4-mobile {
+  display: flex;
+  align-items: center;
+}
+
+.flexRowContent--privacy-policy-mobile {
+  justify-content: flex-end;
+}
+
+/* mobile product page BEGINS here */
+
+.flexRowContent--product-name-price-section {
+  position: relative;
+}
+
+.flexCol--product-name-price-section {
+  width: 50%!important;
+  display: flex;
+  position: absolute;
+  right: 0px;
+  top: 7px;
+}
+/* azienda chi siamo */
+
+
+:global(.vtex-flex-layout-0-x-flexRow--flex-row-vuoilavorare) {
+  padding-right: 76px;
+  padding-left: 76px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--flex-row-newsletter) {
+  padding-right: 76px;
+  padding-left: 76px;
+}
+
+.flexCol--chiSiamo :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100%!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--flex-row-aprirefranchising) {
+  padding-right: 76px;
+  padding-left: 76px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--guida-alle-taglie) {
+  width: 64%;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--condizioni-generali-di-vendita) {
+  padding-top: 12px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--regolamento) {
+  padding-top: 14px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--diritto-di-recesso) {
+  padding-top: 14px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--privacy-policy) {
+  padding-top: 14px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--trattamento-dati) {
+  padding-top: 4px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--cookie-policy) {
+  padding-top: 14px;
+}
+
+/*franchising form modal*/
+
+:global(.vtex-flex-layout-0-x-flexRowContent--franchisingform) {
+  padding: 50px;
+  position: relative;
+}
+
+
+
+.flexRowContent--franchisingform :global(.vtex-input__label) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 33px;
+}
+
+.flexRowContent--franchisingform :global(.vtex-dropdown__label) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 33px;
+}
+
+.flexRowContent--franchisingform :global(.vtex-checkbox__label) {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "Avenir Book";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15px;
+  text-align: left;
+}
+
+
+
+:global(.vtex-dropdown__container) {
+  border: none;
+}
+
+
+
+.flexRowContent--franchisingformsubmit :global(.vtex-button) {
+  width: 159px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+}
+
+.flexColChild--franchising-form-store :global(.vtex-dropdown__button) {
+  width: 333px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #001930;
+  margin-left: 33px;
+}
+
+.flexRowContent--franchisingformsubmit :global(.vtex-button__label) {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+:global(.vtex-store-form-0-x-formSubmitContainer) {
+  margin-left: 20rem;
+  position: relative;
+  margin-right: 20rem;
+}
+
+
+
+
+.flexRowContent--franchisingform :global(.vtex-checkbox__line-container) {
+  margin-left: 33px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--name-surname-franchising-form) {
+  margin-bottom: 30px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--email-phone-franchising-form) {
+  margin-bottom: 30px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--store-city-franchising-form) {
+  margin-bottom: 30px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--franchisingformprivacy) {
+  margin-bottom: 30px;
+}
+
+
+.flexCol--franchising-form-name :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #001930;
+  margin-left: 33px;
+}
+
+.flexCol--franchising-form-surname :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #001930;
+  margin-left: 33px;
+}
+
+.flexCol--franchising-form-email :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #001930;
+  margin-left: 33px;
+
+}
+
+.flexCol--franchising-form-phone :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #001930;
+  margin-left: 33px;
+}
+
+.flexCol--franchising-form-store :global(.vtex-input-prefix__group) {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #001930;
+  margin-left: 33px;
+}
+
+.flexCol--franchising-form-city :global(.vtex-dropdown__button) {
+  width: 333px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #001930;
+  margin-left: 33px;
+}
+
+.flexRowContent--franchisingformcomments :global(.vtex-input-prefix__group) {
+  width: 725px;
+  height: 197px;
+  border-radius: 20px;
+  border: 1px solid #001930;
+  margin-left: 33px;
+}
+
+.flexRowContent--franchisingformprivacy :global(.vtex-input-prefix__group) {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #5a5a5a;
+  margin-left: 33px;
+}
+
+.flexRowContent--franchisingformprivacy :global(.vtex-checkbox__box) {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #5a5a5a;
+  border-radius: 50%;
+  color: #001930;
+}
+.flexRowContent--franchisingformprivacy :global(.vtex-checkbox__inner-container) {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #5a5a5a;
+  border-radius: 50%;
+}
+
+/*contattaci form*/
+
+.flexCol--contattaci-form-location :global(.vtex-dropdown__button) {
+  width: 333px;
+  height: 40px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+}
+
+.flexCol--contattaci-form-name :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+  margin-right: 18px;
+
+}
+
+.flexCol--contattaci-form-surname :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+  margin-right: 0px!important;
+}
+
+.flexCol--contattaci-form-email :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+  margin-right: 18px;
+}
+
+.flexCol--contattaci-form-phone :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+}
+
+.flexRow--contattaci-form-message :global(.vtex-input-prefix__group) {
+  width: 725px;
+  height: 197px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+}
+
+
+.flexRowContent--contattaci-form :global(.vtex-input__label) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.flexColChild--contattaci-form-client-type :global(.vtex-input__label) {
+  width: 319px;
+  height: 38px;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 24px;
+  line-height: 25px;
+}
+
+.flexRowContent--contattaci-form :global(.vtex-dropdown__label) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.flexRowContent--contattaci-form :global(.vtex-checkbox__label) {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "Avenir Book";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15px;
+}
+
+
+
+:global(.vtex-dropdown__container) {
+  border: none;
+}
+
+.flexRowContent--contattaci-form :global(.vtex-button) {
+  width: 159px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+}
+
+.flexRow--contattaci-form-submit :global(.vtex-button__label) {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.flexRowContent--location-contattaci-form :global(.vtex-styleguide-9-x-dropdown) {
+  margin-top: 50px;
+  margin-bottom: 62px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--name-surname-contattaci-form) {
+  margin-bottom: 30px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--email-phone-contattaci-form) {
+  margin-bottom: 30px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--contattaci-form-submit) {
+  margin-top: 48px;
+  margin-bottom: 80px;
+}
+
+.flexRow--contattaci-form-privacy :global(.vtex-checkbox__inner-container) {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #5a5a5a;
+  border-radius: 50%;
+}
+
+.flexRow--contattaci-form-privacy :global(.vtex-checkbox__box) {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #5a5a5a;
+  border-radius: 50%;
+  color: #001930;
+}
+
+.flexRowContent--contattaci-form-submit :global(.vtex-store-form-0-x-formSubmitContainer) {
+  margin-left: 0px;
+}
+
+/*iscriviti alla newsletter*/
+
+.flexCol--newsletter-form-name :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+  margin-right: 18px;
+
+}
+
+.flexCol--newsletter-form-surname :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+  margin-right: 0px!important;
+}
+
+.flexCol--newsletter-form-email :global(.vtex-input-prefix__group) {
+  width: 723px;
+  height: 40px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+}
+
+
+
+
+
+
+.flexRowContent--newsletter-form :global(.vtex-button) {
+  width: 159px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+}
+
+.flexRow--newsletter-form-submit :global(.vtex-button__label) {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--name-surname-newsletter-form) {
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--newsletter-form-submit) {
+  margin-top: 48px;
+  margin-bottom: 80px;
+}
+
+.flexRow--newsletter-form-privacy :global(.vtex-checkbox__inner-container) {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #5a5a5a;
+  border-radius: 50%;
+}
+
+.flexRow--newsletter-form-privacy :global(.vtex-checkbox__box) {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #5a5a5a;
+  border-radius: 50%;
+  color: #001930;
+}
+
+.flexRowContent--newsletter-form-submit :global(.vtex-store-form-0-x-formSubmitContainer) {
+  margin-left: 0px;
+}
+
+.flexRowContent--newsletter-form :global(.vtex-input__label) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.flexColChild--newsletter-form-client-type :global(.vtex-input__label) {
+  width: 319px;
+  height: 38px;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 24px;
+  line-height: 25px;
+}
+
+.flexRowContent--newsletter-form :global(.vtex-checkbox__label) {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "Avenir Book";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15px;
+}
+
+/*franchising mobile*/
+
+.flexColChild--franchising-about-us-mobile :global(.vtex-modal-layout-0-x-triggerContainer) {
+  bottom: unset;
+}
+
+.flexColChild--imagesmobile {
+  margin-bottom: 40px;
+}
+
+/*franchising form mobile*/
+
+.flexRowContent--name-franchising-formmobile :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+}
+
+.flexRowContent--surname-franchising-formmobile :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+}
+
+.flexRowContent--email-franchising-formmobile :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+}
+
+.flexRowContent--phone-franchising-formmobile :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+}
+
+.flexRowContent--store-franchising-formmobile :global(.vtex-dropdown__button) {
+  width: 335px;
+  height: 40px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+}
+
+.flexRowContent--city-franchising-formmobile :global(.vtex-dropdown__button) {
+  width: 335px;
+  height: 40px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+}
+
+.flexRowContent--comments-franchising-formmobile :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 197px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+}
+
+.flexColChild--franchisingformmobile :global(.vtex-input__label) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 25px;
+}
+
+.flexColChild--franchisingformmobile :global(.vtex-dropdown__label) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 25px;
+}
+
+.flexColChild--franchisingformmobile :global(.vtex-checkbox__label) {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "Avenir Book";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15px;
+  text-align: start;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--privacy-franchising-formmobile) {
+  margin-top: 20px;
+}
+
+.flexColChild--franchisingformmobile :global(.vtex-checkbox__box) {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #5a5a5a;
+  border-radius: 50%;
+  color: #001930;
+}
+.flexColChild--franchisingformmobile :global(.vtex-checkbox__inner-container) {
+  border-style: none;
+}
+
+.flexColChild--franchisingformmobile :global(.vtex-button) {
+  width: 159px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+}
+
+:global(.vtex-button__label) {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--franchisingformsubmitmobile) {
+  margin-top: 23px;
+  margin-bottom: 100px;
+}
+
+/* FRANCHISING FAQ */
+
+:global(.vtex-flex-layout-0-x-flexCol--franchising-faq-mobile) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*RETE VENDITA MOBILE start here*/
+
+.flexColChild--rete-vendite-mobile :global(.vtex-menu-2-x-menuContainer--menu-rete-vendite) {
+  flex-direction: column;
+  width: 100%;
+}
+
+.flexRowContent--flex-row-maggiori-informazioni-mobile :global(.vtex-rich-text-0-x-paragraph--maggiori-informazioni-contact-phone) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 8px;
+}
+
+/*contatatci MOBILE*/
+
+:global(.vtex-flex-layout-0-x-flexCol--contattaci-form-mobile) {
+  margin-left: 20px;
+}
+
+
+.flexRowContent--location-contattaci-form-mobile :global(.vtex-dropdown__button) {
+  width: 335px;
+  height: 40px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+}
+
+.flexRowContent--name-contattaci-form-mobile :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+  margin-right: 18px;
+
+}
+
+.flexRowContent--surname-contattaci-form-mobile :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+  margin-right: 0px!important;
+}
+
+.flexRowContent--email-contattaci-form-mobile :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+  margin-right: 18px;
+}
+
+.flexRowContent--phone-contattaci-form-mobile :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+}
+
+.flexRowContent--contattaci-form-message-mobile :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 197px!important;
+  border-radius: 20px!important;
+  border: 1px solid #001930;
+}
+
+
+.flexRowContent--name-contattaci-form-mobile :global(.vtex-input__label) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 51px;
+}
+
+.flexRowContent--surname-contattaci-form-mobile :global(.vtex-input__label) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 25px;
+}
+
+.flexRowContent--email-contattaci-form-mobile :global(.vtex-input__label) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 25px;
+}
+
+.flexRowContent--phone-contattaci-form-mobile :global(.vtex-input__label) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 25px;
+}
+
+.flexRowContent--contattaci-form-message-mobile :global(.vtex-input__label) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 25px;
+}
+
+.flexRowContent--location-contattaci-form-mobile :global(.vtex-dropdown__label) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 25px;
+}
+
+.flexRowContent--contattaci-form-privacy-mobile :global(.vtex-checkbox__label) {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "Avenir Book";
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 15px;
+  text-align: left;
+}
+
+
+
+:global(.vtex-dropdown__container) {
+  border: none;
+}
+
+.flexRowContent--contattaci-form-submit-mobile :global(.vtex-button) {
+  width: 159px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+}
+
+.flexRow--contattaci-form-submit-mobile :global(.vtex-button__label) {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.flexRowContent--location-contattaci-form :global(.vtex-styleguide-9-x-dropdown) {
+  margin-top: 50px;
+  margin-bottom: 62px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--name-surname-contattaci-form-mobile) {
+  margin-bottom: 30px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--email-phone-contattaci-form-mobile) {
+  margin-bottom: 30px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--contattaci-form-submit-mobile) {
+  margin-top: 48px;
+  margin-bottom: 80px;
+}
+
+.flexRow--contattaci-form-privacy-mobile :global(.vtex-checkbox__inner-container) {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #5a5a5a;
+  border-radius: 50%;
+}
+
+.flexRow--contattaci-form-privacy-mobile :global(.vtex-checkbox__box) {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #5a5a5a;
+  border-radius: 50%;
+  color: #001930;
+}
+
+.flexRowContent--contattaci-form-submit-mobile :global(.vtex-store-form-0-x-formSubmitContainer) {
+  margin-left: 0px;
+}
+
+.flexRowContent--contattaci-form-submit-mobile :global(.vtex-store-form-0-x-formSubmitContainer) {
+  margin-right: unset;
+}
+
+.flexRowContent--contattaci-form-submit-mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: unset;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--campi-obbligatori-contattaci-form-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 12px;
+  line-height: 21px;
+}
+
+.flexRowContent--contattaci-form-submit-mobile :global(.vtex-store-form-0-x-formSubmitContainer) {
+  width: auto;
+}
+
+:global(.vtex-store-components-3-x-label--banner-mobile) {
+  width: 100%;
+  display: flex;
+  text-align: left;
+}
+
+
+

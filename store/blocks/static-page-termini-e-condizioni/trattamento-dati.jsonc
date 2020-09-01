@@ -1,0 +1,257 @@
+{
+
+  "store.custom#trattamento-dati": {
+      "blocks": [
+        "flex-layout.row#trattamento-dati",
+        "flex-layout.row#newsletter"
+      ]
+    },
+
+   "flex-layout.row#trattamento-dati": {
+       "children": [
+         "tabs-container#trattamento-dati"
+       ],
+       "props": {
+       "blockClass": "flex-row-trattamento-dati"
+       }
+   },
+
+  "tabs-container#trattamento-dati": {
+    "props": {
+      "menuTitle": "Termini e condizioni",
+      "orientation": "horizontal",
+      "tabs": [
+        {
+          "title": "Trattamento dati",
+          "id": "tab-wrapper#trattamento-dati"
+        }
+      ]
+    },
+    "children": [
+      "tab-wrapper#trattamento-dati"
+    ]
+  },
+
+  "tab-wrapper#trattamento-dati": {
+    "props": {
+      "title": "Test 2"
+    },
+    "children": [
+      "flex-layout.col#trattamento-dati"
+    ]
+  },
+
+
+    "flex-layout.col#trattamento-dati": {
+      "children": [
+        "rich-text#trattamento-dati-title1",
+        "rich-text#trattamento-dati-content1",
+        "rich-text#trattamento-dati-title2",
+        "rich-text#trattamento-dati-content2",
+        "rich-text#trattamento-dati-title3",
+        "rich-text#trattamento-dati-content3",
+        "rich-text#trattamento-dati-title4",
+        "rich-text#trattamento-dati-content4",
+        "rich-text#trattamento-dati-title5",
+        "rich-text#trattamento-dati-content5",
+        "rich-text#trattamento-dati-title6",
+        "rich-text#trattamento-dati-content6",
+        "rich-text#trattamento-dati-title7",
+        "rich-text#trattamento-dati-content7",
+        "rich-text#trattamento-dati-title8",
+        "rich-text#trattamento-dati-title9",
+        "rich-text#trattamento-dati-content9",
+        "rich-text#trattamento-dati-title10",
+        "rich-text#trattamento-dati-content10",
+        "rich-text#trattamento-dati-title11",
+        "rich-text#trattamento-dati-content11",
+        "rich-text#trattamento-dati-title12",
+        "rich-text#trattamento-dati-content12"
+
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "trattamento-dati"
+      }
+    },
+
+    "rich-text#trattamento-dati-title1": {
+        "props": {
+          "blockClass": "trattamento-dati-informativa-policy-title",
+          "text":
+          "Informativa Privacy"
+        }
+    },
+
+    "rich-text#trattamento-dati-content1": {
+        "props": {
+          "blockClass": "trattamento-dati-content",
+            "text":
+            "Miniconf S.p.a., con sede a Ortignano (AR), Via Provinciale 1/A, P.IVA 00249390519, in osservanza delle prescrizioni previste dal D.Lgs. 196/2003 (Codice in materia di protezione dei dati personali), rilascia la presente informativa ai sensi dell’art. 13 del D.Lgs. 196/2003 a coloro che intendono registrarsi sul sito www.ido.it (il “Sito Web”), comunicando che il trattamento dei dati é improntato ai principi di correttezza, liceità e trasparenza, venendo pertanto tutelata la riservatezza e i diritti dei clienti. <br>I dati personali sono raccolti da Miniconf S.p.a. tramite il Sito Web per mezzo dello specifico form ivi previsto."
+        }
+   },
+
+   "rich-text#trattamento-dati-title2": {
+           "props": {
+             "blockClass": "trattamento-dati-title",
+             "text":
+             "Finalità del trattamento dei dati personali"
+        }
+    },
+
+    "rich-text#trattamento-dati-content2": {
+         "props": {
+          "blockClass": "trattamento-dati-content",
+            "text":
+            "I dati personali raccolti saranno oggetto di trattamenti informatici o manuali per le seguenti finalità: <br>1. gestione operativa della navigazione sul Sito Web;<br>2. gestione della sicurezza del Sito Web;<br>3. adempimento di obblighi di legge e di regolamento;<br>4. esercizio di diritti in sede giudiziaria;<br>5. gestione delle vendite e delle transazioni eseguite nel contesto del Sito Web;<br>6. gestione degli ordini, vendita e consegna dei prodotti;<br>7. gestione resi e garanzie ed altre attività necessarie alla vendita dei prodotti tramite il Sito Web;<br>8. contattare l’utente, anche via e-mail e via cellulare, per qualsiasi problema relativo alla gestione dell’ordine o alle successive richieste relative all’ordine;<br>9. ottemperare agli obblighi di legge derivanti dalla normativa fiscale e contabile e da qualsiasi altra normativa vigente cui Miniconf sia tenuta oppure ottemperare ai provvedimenti emessi legittimamente dalle autorità competenti;<br>10. invio, previo consenso espresso, di messaggi commerciali relativi a Miniconf e ai suoi prodotti, servizi, promozioni nonché alle iniziative culturali e agli eventi organizzati da Miniconf (cd. finalità di marketing diretto);<br>11. inserimento, previo ulteriore e distinto consenso espresso, nel data base clienti di Miniconf per tracciare un profilo cliente nonchè per analizzare i dati relativi alle preferenze dello stesso (cd. finalità di profilazione)."
+        }
+    },
+
+    "rich-text#trattamento-dati-title3": {
+           "props": {
+           "blockClass": "trattamento-dati-title",
+            "text":
+            "Soggetti coinvolti nel trattamento"
+        }
+    },
+
+    "rich-text#trattamento-dati-content3": {
+             "props": {
+              "blockClass": "trattamento-dati-content",
+              "text":
+              "I dati personali saranno trattati dal nostro personale specificatamente autorizzato e potranno essere portati a conoscenza di soggetti terzi quali professionisti, consulenti, negozi partner e più in generale soggetti terzi che cooperano con Miniconf S.p.a. per il perseguimento delle finalità sopra indicate."
+         }
+    },
+
+    "rich-text#trattamento-dati-title4": {
+             "props": {
+             "blockClass": "trattamento-dati-title",
+             "text":
+             "Natura del consenso al trattamento dei dati personali"
+         }
+    },
+
+    "rich-text#trattamento-dati-content4": {
+             "props": {
+             "blockClass": "trattamento-dati-content",
+             "text":
+             "Il conferimento ed il consenso al trattamento dei dati personali per le finalità sopra indicate ai punti v, vi, vii, viii e ix é necessario al fine di evadere e gestire le sue richieste, con conseguente impossibilità di usufruire dei servizi strettamente connessi alla registrazione in caso di rifiuto. Viceversa, il consenso é facoltativo relativamente alle finalità di cui ai punti x (cd. finalità di marketing diretto) e xi (cd. finalità di profilazione); tuttavia si segnala che in caso di rifiuto del consenso consegue la nostra impossibilità di assicurare informazione sugli sviluppi dei nostri servizi mentre non avrà alcuna conseguenza sulla sua possibilità di accedere alle funzionalità offerte dal Sito Web.<br>La Miniconf S.p.a. assicura che il trattamento dei dati personali conferiti, effettuato con o senza l’ausilio di mezzi elettronici o comunque automatizzati, avverrà mediante strumenti idonei a garantirne la sicurezza e la riservatezza. Esso potrà comprendere - nel rispetto dei limiti e delle condizioni posti dal D.Lgs. 196/2003 - una o più tra le seguenti operazioni sui dati personali: raccolta, registrazione, organizzazione, conservazione, elaborazione, modificazione, estrazione, raffronto, utilizzo, interconnessione, blocco, comunicazione, cancellazione, distruzione."
+         }
+    },
+    "rich-text#trattamento-dati-title5": {
+             "props": {
+             "blockClass": "trattamento-dati-title",
+             "text":
+             "Ambito di diffusione dei dati personali"
+          }
+    },
+
+    "rich-text#trattamento-dati-content5": {
+             "props": {
+             "blockClass": "trattamento-dati-content",
+             "text":
+             "I dati personali non saranno oggetto di diffusione."
+          }
+    },
+    "rich-text#trattamento-dati-title6": {
+             "props": {
+             "blockClass": "trattamento-dati-title",
+             "text":
+             "Titolare del trattamento"
+          }
+    },
+
+    "rich-text#trattamento-dati-content6": {
+             "props": {
+             "blockClass": "trattamento-dati-content",
+             "text":
+              "Titolare del trattamento dei dati personali è Miniconf S.p.a., con sede ad Ortignano Raggiolo (Ar), via Provinciale 1/A, che li utilizzerà per le finalità di cui sopra."
+          }
+    },
+    "rich-text#trattamento-dati-title7": {
+             "props": {
+             "blockClass": "trattamento-dati-title",
+             "text":
+             "Diritti dell’interessato"
+          }
+    },
+
+    "rich-text#trattamento-dati-content7": {
+             "props": {
+             "blockClass": "trattamento-dati-content",
+             "text":
+             "Nei confronti del titolare del trattamento é sempre possibile esercitare da parte dell’interessato i diritti di cui all´art. 7 del D.Lgs. n. 196/2003, qui riportato integralmente:"
+          }
+    },
+    "rich-text#trattamento-dati-title8": {
+             "props": {
+             "blockClass": "trattamento-dati-title",
+             "text":
+             "1.L´interessato ha diritto di ottenere la conferma dell’esistenza o meno di dati personali che lo riguardano, anche se non ancora registrati, e la loro comunicazione in forma intelligibile."
+          }
+    },
+
+    "rich-text#trattamento-dati-title9": {
+             "props": {
+             "blockClass": "trattamento-dati-title",
+             "text":
+             "2.L´interessato ha diritto di ottenere l’indicazione:"
+          }
+    },
+
+    "rich-text#trattamento-dati-content9": {
+             "props": {
+             "blockClass": "trattamento-dati-content",
+             "text":
+             "a. dell’origine dei dati personali;<br>b. delle finalità e modalità del trattamento;<br>c. della logica applicata in caso di trattamento effettuato con l´ausilio di strumenti elettronici;<br>d. degli estremi identificativi del titolare, dei responsabili e del rappresentante designato ai sensi dell´articolo 5, comma 2 D.Lgs. 196/2003;<br>e. dei soggetti o delle categorie di soggetti ai quali i dati personali possono essere comunicati o che possono venirne a conoscenza in qualità di rappresentante designato nel territorio dello Stato, di responsabili o incaricati."
+          }
+    },
+    "rich-text#trattamento-dati-title10": {
+             "props": {
+             "blockClass": "trattamento-dati-title",
+             "text":
+             "3.L´interessato ha diritto di ottenere:"
+          }
+    },
+
+    "rich-text#trattamento-dati-content10": {
+             "props": {
+             "blockClass": "trattamento-dati-content",
+             "text":
+             "a. l’aggiornamento, la rettificazione ovvero, quando vi ha interesse, l’integrazione dei dati;<br>b. la cancellazione, la trasformazione in forma anonima o il blocco dei dati trattati in violazione della legge, compresi quelli di cui non é necessaria la conservazione in relazione agli scopi per i quali i dati sono stati raccolti o successivamente trattati;<br>c. l’attestazione che le operazioni di cui alle lettere a) e b) del precedente punto 2 sono state portate a conoscenza, anche per quanto riguarda il loro contenuto, di coloro ai quali i dati sono stati comunicati o diffusi, eccettuato il caso in cui tale adempimento si rivela impossibile o comporta un impiego di mezzi manifestamente sproporzionato rispetto al diritto tutelato."
+          }
+    },
+    "rich-text#trattamento-dati-title11": {
+             "props": {
+             "blockClass": "trattamento-dati-title",
+             "text":
+             "4.L’interessato ha diritto di opporsi, in tutto o in parte:"
+          }
+    },
+
+    "rich-text#trattamento-dati-content11": {
+             "props": {
+             "blockClass": "trattamento-dati-content",
+             "text":
+             "a. per motivi legittimi al trattamento dei dati personali che lo riguardano, ancorché pertinenti allo scopo della raccolta;<br>b. al trattamento di dati personali che lo riguardano a fini di invio di materiale pubblicitario o di vendita diretta o per il compimento di ricerche di mercato o di comunicazione commerciale.<br><br>Si informa l’interessato che per concludere un acquisto online deve dichiarare di aver letto l'informativa privacy e rilasciare i dati personali indicati come necessari nel form.<br>L’interessato dovrà acconsentire specificatamente il trattamento dei dati personali per finalità di marketing diretto ai fini dell'invio di materiali informativi, pubblicitari, quali newsletter e cataloghi attinenti alle attività svolte all’interno del Sito Web, anche via e-mail, nonché per finalità di profilazione ai fini dell'inserimento nel data base clienti di Miniconf S.p.a per tracciare un profilo cliente e per l'analisi delle sue preferenze."
+          }
+    },
+    "rich-text#trattamento-dati-title12": {
+             "props": {
+             "blockClass": "trattamento-dati-title",
+             "text":
+             "Modifiche all’Informativa Privacy"
+          }
+    },
+
+    "rich-text#trattamento-dati-content12": {
+             "props": {
+             "blockClass": "trattamento-dati-content",
+             "text":
+             "Miniconf S.p.a si riserva la facoltà di modificare questa informativa in qualsiasi momento."
+          }
+    }
+}
+
+
+

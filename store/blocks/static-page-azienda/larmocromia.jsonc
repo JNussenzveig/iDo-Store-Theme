@@ -1,0 +1,622 @@
+{
+
+  "store.custom#larmocromia": {
+      "blocks": [
+        "flex-layout.row#larmocromia",
+        "rich-text#scorpi-tutti-i-prodotti-text-button",
+        "flex-layout.row#larocromiaaprirefranchising",
+        "flex-layout.row#newsletter"
+      ]
+    },
+
+
+   "flex-layout.row#larmocromia": {
+       "children": [
+         "tabs-container#larmocromia"
+       ],
+       "props": {
+       "blockClass": "flex-row-larmocromia"
+       }
+   },
+
+   "flex-layout.row#larocromiaaprirefranchising": {
+      "children": [
+       "flex-layout.col#larocromiaaprirefranchising"
+       ],
+       "props": {
+       "blockClass": "flex-row-larocromiaaprirefranchising"
+       }
+   },
+
+   "flex-layout.col#larocromiaaprirefranchising": {
+       "children": [
+       "info-card#contentlarocromiaaprirefranchising"
+       ],
+       "props": {
+       "preventVerticalStretch": true,
+       "blockClass": "aprirefranchisingdesktop"
+       }
+   },
+
+   "info-card#contentlarocromiaaprirefranchising": {
+        "props": {
+        "id": "info-card-larocromiaaprirefranchising-desktop",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "",
+        "headline": "Trova il negozio iDO più vicino a te",
+        "callToActionText": "Inserisci indirizzo",
+        "callToActionUrl": "http://www.google.com",
+        "blockClass": "info-card-larocromiaaprirefranchising-desktop",
+        "textAlignment": "center"
+        }
+   },
+
+   "flex-layout.row#aiuto": {
+      "children": [
+       "flex-layout.col#aiuto"
+       ],
+       "props": {
+       "blockClass": "flex-row-aiuto"
+       }
+   },
+
+   "flex-layout.col#aiuto": {
+       "children": [
+       "info-card#contentaiuto"
+       ],
+       "props": {
+       "preventVerticalStretch": true,
+       "blockClass": "aiuto"
+       }
+   },
+
+   "info-card#contentaiuto": {
+        "props": {
+        "id": "info-card-aiuto",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "",
+        "headline": "Questa sezione ti è stata d'aiuto?",
+        "callToActionText": "SI",
+        "callToActionUrl": "http://www.google.com",
+        "blockClass": "info-card-aiuto",
+        "textAlignment": "center"
+        }
+   },
+
+
+
+
+  "tabs-container#larmocromia": {
+    "props": {
+      "menuTitle": "",
+      "orientation": "horizontal",
+      "blockClass": "menu",
+      "tabs": [
+        {
+          "title": "L’armocromia",
+          "id": "tab-wrapper#larmocromia"
+        }
+      ]
+    },
+    "children": [
+      "tab-wrapper#larmocromia"
+    ]
+  },
+
+  "tab-wrapper#larmocromia": {
+    "props": {
+      "title": "Test 2"
+    },
+    "children": [
+      "rich-text#larmocromia-title1",
+      "rich-text#larmocromia-content1",
+      "rich-text#larmocromia-title2",
+      "flex-layout.col#larmocromia"
+    ]
+  },
+
+  "rich-text#larmocromia-title1": {
+          "props": {
+            "blockClass": "larmocromia-title1",
+            "text":
+            "Capelli biondi o castani?<br>Occhi scuri o chiari?"
+          }
+   },
+
+   "rich-text#larmocromia-content1": {
+           "props": {
+             "blockClass": "larmocromia-content1",
+               "text":
+               "Ogni bambino è un universo a sé. I colori dell'abbigliamento di un bambino devono lasciar risplendere la sua personalità, ma è fondamentale che si adattino anche alle sue caratteristiche fisiche."
+           }
+   },
+  "rich-text#larmocromia-title2": {
+          "props": {
+            "blockClass": "larmocromia-title2",
+            "text":
+            "Scegli una delle immagini sottostanti e scopri quali sono i colori ideali del tuo bambino!"
+          }
+   },
+  "rich-text#larmocromia-title3": {
+          "props": {
+            "blockClass": "larmocromia-title3",
+            "text":
+            "SI"
+          }
+   },
+   "rich-text#larmocromia-content3": {
+           "props": {
+             "blockClass": "larmocromia-content3",
+               "text":
+               "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias."
+           }
+   },
+  "rich-text#larmocromia-title4": {
+          "props": {
+            "blockClass": "larmocromia-title4",
+            "text":
+            "NO"
+          }
+   },
+   "rich-text#larmocromia-content4": {
+           "props": {
+             "blockClass": "larmocromia-content4",
+               "text":
+               "Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias."
+           }
+   },
+
+
+    "flex-layout.col#larmocromia": {
+      "children": [
+        "vtex.menu@2.x:menu#larmocromia"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "larmocromia"
+      }
+    },
+
+
+    "vtex.menu@2.x:menu#larmocromia": {
+        "props": {
+          "blockClass": "menu-larmocromia"
+        },
+        "children": [
+          "menu-item#moro-con-carnagione-chiara",
+          "menu-item#moro-con-carnagione-scura",
+          "menu-item#moro",
+          "menu-item#castano-con-carnagione-chiara",
+          "menu-item#castano-con-carnagione-scura",
+          "menu-item#biondo-con-carnagione-chiara",
+          "menu-item#biondo-con-carnagione-scura",
+          "menu-item#rosso",
+          "menu-item#albino"
+        ]
+      },
+
+
+     "menu-item#moro-con-carnagione-chiara": {
+         "props": {
+           "id": "menu-item-larmocromia-moro-con-carnagione-chiara",
+           "type": "custom",
+           "highlight": false,
+           "blockClass": "menu-item-larmocromia-moro-con-carnagione-chiara",
+           "itemProps": {
+             "type": "internal",
+             "href": "#",
+             "noFollow": false,
+             "tagTitle": "Moro con carnagione chiara",
+             "text": "Moro con carnagione chiara"
+           },
+                 "iconToTheRight": false
+         },
+         "blocks": ["vtex.menu@2.x:submenu.accordion#moro-con-carnagione-chiara"]
+       },
+
+
+       "vtex.menu@2.x:submenu.accordion#moro-con-carnagione-chiara": {
+           "children": [
+            "rich-text#larmocromia-title3",
+            "rich-text#larmocromia-content3",
+            "rich-text#larmocromia-title4",
+            "rich-text#larmocromia-content4"
+           ],
+           "props": {
+           "blockClass": "submenu-larmocromia"
+           }
+         },
+
+           "menu-item#submenu-moro-con-carnagione-chiara": {
+           "props": {
+           "id": "menu-item-moro-con-carnagione-chiara-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "#",
+           "noFollow": false,
+           "tagTitle": "moro-con-carnagione-chiara",
+           "text": "moro-con-carnagione-chiara"
+           }
+         }
+       },
+
+     "menu-item#moro-con-carnagione-scura": {
+         "props": {
+           "id": "menu-item-larmocromia-moro-con-carnagione-scura",
+           "type": "custom",
+           "highlight": false,
+           "blockClass": "menu-item-larmocromia-moro-con-carnagione-scura",
+           "itemProps": {
+             "type": "internal",
+             "href": "#",
+             "noFollow": false,
+             "tagTitle": "Moro con carnagione scura",
+             "text": "Moro con carnagione scura"
+           },
+                 "iconToTheRight": false
+         },
+         "blocks": ["vtex.menu@2.x:submenu.accordion#moro-con-carnagione-scura"]
+       },
+
+
+       "vtex.menu@2.x:submenu.accordion#moro-con-carnagione-scura": {
+           "children": [
+            "rich-text#larmocromia-title3",
+            "rich-text#larmocromia-content3",
+            "rich-text#larmocromia-title4",
+            "rich-text#larmocromia-content4"
+           ],
+           "props": {
+           "blockClass": "submenu-larmocromia"
+           }
+         },
+
+           "menu-item#submenu-moro-con-carnagione-scura": {
+           "props": {
+           "id": "menu-item-moro-con-carnagione-scura-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "#",
+           "noFollow": false,
+           "tagTitle": "moro-con-carnagione-scura",
+           "text": "moro-con-carnagione-scura"
+           }
+         }
+       },
+
+     "menu-item#moro": {
+         "props": {
+           "id": "menu-item-larmocromia-moro",
+           "type": "custom",
+           "highlight": false,
+           "blockClass": "menu-item-larmocromia-moro",
+           "itemProps": {
+             "type": "internal",
+             "href": "#",
+             "noFollow": false,
+             "tagTitle": "Moro",
+             "text": "Moro"
+           },
+                 "iconToTheRight": false
+         },
+         "blocks": ["vtex.menu@2.x:submenu.accordion#moro"]
+       },
+
+
+       "vtex.menu@2.x:submenu.accordion#moro": {
+           "children": [
+            "rich-text#larmocromia-title3",
+            "rich-text#larmocromia-content3",
+            "rich-text#larmocromia-title4",
+            "rich-text#larmocromia-content4"
+           ],
+           "props": {
+           "blockClass": "submenu-larmocromia"
+           }
+         },
+
+           "menu-item#submenu-moro": {
+           "props": {
+           "id": "menu-item-moro-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "#",
+           "noFollow": false,
+           "tagTitle": "moro",
+           "text": "moro"
+           }
+         }
+       },
+
+     "menu-item#castano-con-carnagione-chiara": {
+         "props": {
+           "id": "menu-item-larmocromia-castano-con-carnagione-chiara",
+           "type": "custom",
+           "highlight": false,
+           "blockClass": "menu-item-larmocromia-castano-con-carnagione-chiara",
+           "itemProps": {
+             "type": "internal",
+             "href": "#",
+             "noFollow": false,
+             "tagTitle": "Castano con carnagione chiara",
+             "text": "Castano con carnagione chiara"
+           },
+                 "iconToTheRight": false
+         },
+         "blocks": ["vtex.menu@2.x:submenu.accordion#castano-con-carnagione-chiara"]
+       },
+
+
+       "vtex.menu@2.x:submenu.accordion#castano-con-carnagione-chiara": {
+           "children": [
+            "rich-text#larmocromia-title3",
+            "rich-text#larmocromia-content3",
+            "rich-text#larmocromia-title4",
+            "rich-text#larmocromia-content4"
+           ],
+           "props": {
+           "blockClass": "submenu-larmocromia"
+           }
+         },
+
+           "menu-item#submenu-castano-con-carnagione-chiara": {
+           "props": {
+           "id": "menu-item-castano-con-carnagione-chiara-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "#",
+           "noFollow": false,
+           "tagTitle": "castano-con-carnagione-chiara",
+           "text": "castano-con-carnagione-chiara"
+           }
+         }
+       },
+     "menu-item#castano-con-carnagione-scura": {
+         "props": {
+           "id": "menu-item-larmocromia-castano-con-carnagione-scura",
+           "type": "custom",
+           "highlight": false,
+           "blockClass": "menu-item-larmocromia-castano-con-carnagione-scura",
+           "itemProps": {
+             "type": "internal",
+             "href": "#",
+             "noFollow": false,
+             "tagTitle": "Castano con carnagione scura",
+             "text": "Castano con carnagione scura"
+           },
+                 "iconToTheRight": false
+         },
+         "blocks": ["vtex.menu@2.x:submenu.accordion#castano-con-carnagione-scura"]
+       },
+
+
+       "vtex.menu@2.x:submenu.accordion#castano-con-carnagione-scura": {
+           "children": [
+            "rich-text#larmocromia-title3",
+            "rich-text#larmocromia-content3",
+            "rich-text#larmocromia-title4",
+            "rich-text#larmocromia-content4"
+           ],
+           "props": {
+           "blockClass": "submenu-larmocromia"
+           }
+         },
+
+           "menu-item#submenu-castano-con-carnagione-scura": {
+           "props": {
+           "id": "menu-item-castano-con-carnagione-scura-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "#",
+           "noFollow": false,
+           "tagTitle": "castano-con-carnagione-scura",
+           "text": "castano-con-carnagione-scura"
+           }
+         }
+       },
+     "menu-item#biondo-con-carnagione-chiara": {
+         "props": {
+           "id": "menu-item-larmocromia-biondo-con-carnagione-chiara",
+           "type": "custom",
+           "highlight": false,
+           "blockClass": "menu-item-larmocromia-biondo-con-carnagione-chiara",
+           "itemProps": {
+             "type": "internal",
+             "href": "#",
+             "noFollow": false,
+             "tagTitle": "Biondo con carnagione chiara",
+             "text": "Biondo con carnagione chiara"
+           },
+                 "iconToTheRight": false
+         },
+         "blocks": ["vtex.menu@2.x:submenu.accordion#biondo-con-carnagione-chiara"]
+       },
+
+
+       "vtex.menu@2.x:submenu.accordion#biondo-con-carnagione-chiara": {
+           "children": [
+            "rich-text#larmocromia-title3",
+            "rich-text#larmocromia-content3",
+            "rich-text#larmocromia-title4",
+            "rich-text#larmocromia-content4"
+           ],
+           "props": {
+           "blockClass": "submenu-larmocromia"
+           }
+         },
+
+           "menu-item#submenu-biondo-con-carnagione-chiara": {
+           "props": {
+           "id": "menu-item-cbiondo-con-carnagione-chiara-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "#",
+           "noFollow": false,
+           "tagTitle": "biondo-con-carnagione-chiara",
+           "text": "biondo-con-carnagione-chiara"
+           }
+         }
+       },
+
+     "menu-item#biondo-con-carnagione-scura": {
+         "props": {
+           "id": "menu-item-larmocromia-biondo-con-carnagione-scura",
+           "type": "custom",
+           "highlight": false,
+           "blockClass": "menu-item-larmocromia-biondo-con-carnagione-scura",
+           "itemProps": {
+             "type": "internal",
+             "href": "#",
+             "noFollow": false,
+             "tagTitle": "Biondo con carnagione scura",
+             "text": "Biondo con carnagione scura"
+           },
+                 "iconToTheRight": false
+         },
+         "blocks": ["vtex.menu@2.x:submenu.accordion#biondo-con-carnagione-scura"]
+       },
+
+
+       "vtex.menu@2.x:submenu.accordion#biondo-con-carnagione-scura": {
+           "children": [
+            "rich-text#larmocromia-title3",
+            "rich-text#larmocromia-content3",
+            "rich-text#larmocromia-title4",
+            "rich-text#larmocromia-content4"
+           ],
+           "props": {
+           "blockClass": "submenu-larmocromia"
+           }
+         },
+
+           "menu-item#submenu-biondo-con-carnagione-scura": {
+           "props": {
+           "id": "menu-item-biondo-con-carnagione-scura-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "#",
+           "noFollow": false,
+           "tagTitle": "biondo-con-carnagione-scura",
+           "text": "biondo-con-carnagione-scura"
+           }
+         }
+       },
+
+     "menu-item#rosso": {
+         "props": {
+           "id": "menu-item-larmocromia-rosso",
+           "type": "custom",
+           "highlight": false,
+           "blockClass": "menu-item-larmocromia-rosso",
+           "itemProps": {
+             "type": "internal",
+             "href": "#",
+             "noFollow": false,
+             "tagTitle": "Rosso",
+             "text": "Rosso"
+           },
+                 "iconToTheRight": false
+         },
+         "blocks": ["vtex.menu@2.x:submenu.accordion#rosso"]
+       },
+
+
+       "vtex.menu@2.x:submenu.accordion#rosso": {
+           "children": [
+            "rich-text#larmocromia-title3",
+            "rich-text#larmocromia-content3",
+            "rich-text#larmocromia-title4",
+            "rich-text#larmocromia-content4"
+           ],
+           "props": {
+           "blockClass": "submenu-larmocromia"
+           }
+         },
+
+           "menu-item#submenu-rosso": {
+           "props": {
+           "id": "menu-item-rosso-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "#",
+           "noFollow": false,
+           "tagTitle": "rosso",
+           "text": "rosso"
+           }
+         }
+       },
+     "menu-item#albino": {
+         "props": {
+           "id": "menu-item-larmocromia-albino",
+           "type": "custom",
+           "highlight": false,
+           "blockClass": "menu-item-larmocromia-albino",
+           "itemProps": {
+             "type": "internal",
+             "href": "#",
+             "noFollow": false,
+             "tagTitle": "Albino",
+             "text": "Albino"
+           },
+                 "iconToTheRight": false
+         },
+         "blocks": ["vtex.menu@2.x:submenu.accordion#albino"]
+       },
+
+
+       "vtex.menu@2.x:submenu.accordion#albino": {
+           "children": [
+            "rich-text#larmocromia-title3",
+            "rich-text#larmocromia-content3",
+            "rich-text#larmocromia-title4",
+            "rich-text#larmocromia-content4"
+           ],
+           "props": {
+           "blockClass": "submenu-larmocromia"
+           }
+         },
+
+           "menu-item#submenu-albino": {
+           "props": {
+           "id": "menu-item-albino-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "#",
+           "noFollow": false,
+           "tagTitle": "albino",
+           "text": "albino"
+           }
+         }
+       },
+
+         "rich-text#scorpi-tutti-i-prodotti-text-button": {
+           "props": {
+             "text": "<a class='vtex-link-scorpi-tutti-i-prodotti' href='http://www.google.com'>SCOPRI TUTTI I PRODOTTI",
+             "blockClass": "scorpi-tutti-i-prodotti-button"
+           }
+         }
+
+}
+
+
+

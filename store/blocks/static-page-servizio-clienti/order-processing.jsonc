@@ -1,0 +1,88 @@
+{
+
+  "store.custom#order-processing": {
+      "blocks": [
+        "responsive-layout.desktop#order-processing",
+        "responsive-layout.mobile#order-processing"
+      ]
+    },
+    "responsive-layout.desktop#order-processing": {
+      "children": [
+        "flex-layout.row#order-processing",
+        "flex-layout.row#newsletter"
+      ]
+    },
+
+    "responsive-layout.mobile#order-processing": {
+      "children": [
+        "flex-layout.row#order-processing",
+        "flex-layout.row#newsletter"
+      ]
+    },
+   "flex-layout.row#order-processing": {
+       "children": [
+         "tabs-container#order-processing"
+       ],
+       "props": {
+       "blockClass": "flex-row-order-processing"
+       }
+   },
+
+  "tabs-container#order-processing": {
+    "props": {
+      "menuTitle": "Servizio clienti",
+      "orientation": "horizontal",
+      "tabs": [
+        {
+          "title": "Order processing",
+          "id": "tab-wrapper#order-processing"
+        }
+      ]
+    },
+    "children": [
+      "tab-wrapper#order-processing"
+    ]
+  },
+
+  "tab-wrapper#order-processing": {
+    "props": {
+      "title": "Test 2"
+    },
+    "children": [
+      "flex-layout.col#order-processing"
+    ]
+  },
+
+
+
+    "flex-layout.col#order-processing": {
+      "children": [
+        "rich-text#order-processing-title",
+        "rich-text#order-processing"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "order-processing"
+      }
+    },
+
+    "rich-text#order-processing-title": {
+        "props": {
+          "blockClass": "order-processing-title",
+          "text":
+          "Order processing - Elaborazione dell'ordine"
+        }
+    },
+
+    "rich-text#order-processing": {
+        "props": {
+          "blockClass": "order-processing",
+            "text":
+            "Gli ordini vengono elaborati dalle 8.00 alle 16.30 dal Lunedì al Venerdì. Gli ordini effettuati dopo le 15.30 di Venerdì saranno elaborati il Lunedì successivo.<br><br>Gli ordini relativi a prodotti disponibili saranno evasi entro 3 giorni lavorativi dal ricevimento del pagamento. Tutte le fasi del procedimento e lo stato dell’ordine saranno visibili nel proprio account personale.<br><br>Per esaminare e verificare le informazioni relative ad un ordine, si invita ad accedere al proprio account e cliccare sulla pagina 'I miei ordini' (visibile su tutte le pagine del negozio on line Miniconf). Cliccare poi sul numero dell'ordine per visualizzarne i dettagli.<br><br>Per ulteriori specifiche leggi le nostre condizioni generali di vendita."
+        }
+   }
+
+}
+
+
+

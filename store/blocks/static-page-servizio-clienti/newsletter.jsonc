@@ -1,0 +1,208 @@
+{
+
+  "store.custom#iscriviti-alla-newsletter": {
+      "blocks": [
+        "flex-layout.row#newsletter-form"
+      ]
+    },
+
+   "flex-layout.row#newsletter-form": {
+       "children": [
+         "tabs-container#newsletter-form"
+       ],
+       "props": {
+       "blockClass": "newsletter-form"
+       }
+   },
+
+  "tabs-container#newsletter-form": {
+    "props": {
+      "orientation": "horizontal",
+      "menuTitle": "Servizio clienti",
+      "tabs": [
+        {
+          "title": "Newsletter",
+          "id": "tab-wrapper#newsletter-form"
+        }
+      ]
+    },
+    "children": [
+      "tab-wrapper#newsletter-form"
+    ]
+  },
+
+  "tab-wrapper#newsletter-form": {
+    "props": {
+      "title": "Test 2"
+    },
+    "children": [
+      "flex-layout.col#newsletter-form"
+    ]
+  },
+
+
+
+    "flex-layout.col#newsletter-form": {
+      "children": [
+        "rich-text#newsletter-form-title1",
+        "rich-text#newsletter-form-title2",
+        "form#newsletter-form"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "newsletter-form"
+      }
+    },
+
+    "rich-text#newsletter-form-title1": {
+        "props": {
+          "blockClass": "newsletter-form-title1",
+          "text":
+          "Rimani aggiornato su novità e trend dal mondo iDO!"
+        }
+    },
+
+    "rich-text#newsletter-form-title2": {
+        "props": {
+          "blockClass": "newsletter-form-title2",
+            "text":
+            "Iscriviti subito alla nostra newsletter!"
+        }
+   },
+
+    "form#newsletter-form": {
+             "props": {
+               "entity": "NF",
+               "schema": "newsletter_form"
+             },
+             "children": [
+               "flex-layout.row#name-surname-newsletter-form",
+               "flex-layout.row#email-newsletter-form",
+               "rich-text#campi-obbligatori-newsletter-form",
+               "flex-layout.row#privacy-newsletter-form",
+               "flex-layout.row#submit-newsletter-form"
+             ],
+             "blocks": ["form-success#newsletter-form"]
+           },
+           "form-success#newsletter-form": {
+             "children": [
+               "rich-text#successSubmitnewsletter-form"
+             ]
+           },
+           "rich-text#successSubmitnewsletter-form": {
+             "props": {
+               "text": "Succesfully submitted the data!",
+               "textAlignment": "CENTER",
+               "textPosition": "CENTER"
+             }
+           },
+
+      "flex-layout.row#name-surname-newsletter-form": {
+        "children": [
+                "flex-layout.col#name-newsletter-form",
+                "flex-layout.col#surname-newsletter-form"
+
+              ],
+              "props": {
+                "blockClass": "name-surname-newsletter-form"
+            }
+      },
+       "flex-layout.col#name-newsletter-form": {
+         "children": [
+                 "form-input.text#Name2"
+               ],
+               "props": {
+                 "blockClass": "newsletter-form-name"
+             }
+       },
+      "flex-layout.col#surname-newsletter-form": {
+        "children": [
+                "form-input.text#Surname2"
+              ],
+              "props": {
+                "blockClass": "newsletter-form-surname"
+            }
+      },
+
+      "flex-layout.row#email-newsletter-form": {
+        "children": [
+                "flex-layout.col#email-newsletter-form"
+              ],
+              "props": {
+                "blockClass": "email-newsletter-form"
+            }
+      },
+       "flex-layout.col#email-newsletter-form": {
+         "children": [
+                 "form-input.text#Email2"
+               ],
+               "props": {
+                 "blockClass": "newsletter-form-email"
+             }
+       },
+
+      "flex-layout.row#privacy-newsletter-form": {
+        "children": [
+                "form-input.checkbox#Privacy2"
+              ],
+              "props": {
+                "blockClass": "newsletter-form-privacy"
+            }
+      },
+
+      "flex-layout.row#submit-newsletter-form": {
+        "children": [
+                "form-submit#submit-newsletter-form"
+              ],
+              "props": {
+                "blockClass": "newsletter-form-submit"
+            }
+      },
+
+
+
+
+
+           "form-input.text#Name2": {
+             "props": {
+               "pointer": "#/properties/name",
+               "label": "Nome *"
+             }
+           },
+           "form-input.text#Surname2": {
+             "props": {
+               "pointer": "#/properties/surname",
+               "label": "Cognome *"
+             }
+           },
+           "form-input.text#Email2": {
+             "props": {
+               "pointer": "#/properties/email",
+               "label": "Email *"
+             }
+           },
+            "form-input.checkbox#Privacy2": {
+              "props": {
+                "pointer": "#/properties/privacy",
+                "label": "Ho preso visione dell'informativa sulla Privacy ed acconsento al trattamento dei miei dati personali *"
+              }
+            },
+
+           "rich-text#campi-obbligatori-newsletter-form": {
+                      "props": {
+                        "text": "*Campi obbligatori",
+                        "blockClass": "campi-obbligatori-newsletter-form"
+                      }
+                },
+
+
+           "form-submit#submit-newsletter-form": {
+             "props": {
+               "label": "ISCRIVITI"
+             }
+           }
+
+}
+
+
+

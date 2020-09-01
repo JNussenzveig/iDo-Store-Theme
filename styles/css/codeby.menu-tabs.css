@@ -1,0 +1,380 @@
+/*Azienda*/
+
+.tabsButtonsContainer {
+  width: 18%;
+  margin-right: 88px;
+  margin-left: 76px;
+}
+
+
+.tabContentContainer {
+  width: 83%;
+  margin-right: 76px;
+}
+
+.tabButtonTitle {
+  width: 260px;
+  height: 29px;
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  padding-bottom: 14px;
+  padding-left: 30px;
+  padding-top: 26px;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--flex-row-tempi-di-consegna) .tabButtonTitle {
+  width: 339px;
+  height: 21px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+  padding-left: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--flex-row-order-processing) .tabButtonTitle {
+  width: 339px;
+  height: 21px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+  padding-left: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--flex-row-condizioni-generali-di-vendita) .tabButtonTitle {
+  width: 339px;
+  height: 21px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+  padding-left: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--flex-row-regolamento) .tabButtonTitle {
+   width: 339px;
+   height: 21px;
+   color: #001930;
+   font-family: "MuseoJHSans500";
+   font-size: 18px;
+   line-height: 21px;
+   padding-left: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--flex-row-diritto-di-recesso) .tabButtonTitle {
+  width: 339px;
+  height: 21px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+  padding-left: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--flex-row-privacy-policy) .tabButtonTitle {
+   width: 339px;
+   height: 21px;
+   color: #001930;
+   font-family: "MuseoJHSans500";
+   font-size: 18px;
+   line-height: 21px;
+   padding-left: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--flex-row-cookie-policy) .tabButtonTitle {
+  width: 339px;
+  height: 21px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+  padding-left: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--flex-row-trattamento-dati) .tabButtonTitle {
+  width: 339px;
+  height: 21px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+  padding-left: 0px;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--flex-row-reso-e-cambi) .tabButtonTitle {
+  width: 339px;
+  height: 21px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+  padding-left: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--flex-row-guida-alle-taglie) .tabButtonTitle {
+  width: 339px;
+  height: 21px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+  padding-left: 0px;
+}
+
+
+.tabContentContainer--tab-wrapper-order-processing {
+  padding-top: 19px;
+}
+
+
+.activeTab--tab-wrapper-aprireFranchising :global(.vtex-flex-layout-0-x-flexRow--flex-row-vuoilavorare) {
+  display: none;
+
+}
+
+.activeTab--tab-wrapper-aprireFranchising :global(.vtex-store-components-3-x-container--newsletterSiamoDesktop) {
+  display: none;
+}
+
+.tabButton--active {
+  color: #001930;
+  font-size: 20px;
+  line-height: 21px;
+  font-family: "MuseoJHSans900";
+}
+
+
+.tabButton--tab-wrapperazienda {
+  padding-top: 45px;
+  padding-bottom: 20px;
+  width: 204px;
+  height: 375px;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+}
+
+
+.tabButton--tab-wrappersiamo {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.tabButton--tab-wrapperimpegno {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.tabButton--tab-wrapperaprireFranchising {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.tabButton--tab-wrapperreteVendita {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.tabButton--tab-wrapperpartenerLab {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.tabButton--tab-wrapperlavoraConNoi {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+/*SERVIZIO CLIENTI*/
+
+
+
+
+.tabButton--tab-wrapperguida-alle-taglie {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.tabButton--tab-wrappertempi-di-consegna  {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.tabButton--tab-wrapperreso-e-cambi {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.tabButton--tab-wrapperorder-processing {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.tabButton--tab-wrappercontattaci {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.tabButton--tab-wrapperiscrivitiAllaNewsletter {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+}
+
+/* termini e condizioni*/
+
+.tabButton--tab-wrappercondizioni-generali-di-vendita {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.tabButton--tab-wrapperregolamento {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.tabButton--tab-wrapperdiritto-di-recesso {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.tabButton--tab-wrapperprivacy-policy {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.tabButton--tab-wrappertrattamento-dati {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.tabButton--tab-wrappercookie-policy {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+}
+
+/*larmocromia*/
+
+.tabButton--tab-wrapperlarmocromia {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  padding-top: 22px;
+}
+
+.tabContentContainer--tab-wrapper-larmocromia {
+  width: 53%;
+  margin-right: 76px;
+}
+
+
+/*contattaci*/
+
+:global(.vtex-flex-layout-0-x-flexRowContent--contattaci-form) .tabButtonTitle {
+  width: 339px;
+  height: 21px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+  padding-left: 0px;
+}
+
+.tabButton--tab-wrappercontattaci-form {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  padding-top: 22px;
+}
+
+.tabContentContainer--tab-wrapper-contattaci-form {
+  width: unset;
+  margin-right: 0px;
+}
+
+/*iscrivitti alla newsletter*/
+
+:global(.vtex-flex-layout-0-x-flexRowContent--newsletter-form) .tabButtonTitle {
+  width: 339px;
+  height: 21px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+  padding-left: 0px;
+}
+
+.tabButton--tab-wrappernewsletter-form {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  padding-top: 22px;
+}
+
+.tabContentContainer--tab-wrapper-newsletter-form {
+  width: unset;
+  margin-right: 0px;
+}
+

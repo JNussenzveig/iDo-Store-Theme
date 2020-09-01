@@ -1,0 +1,146 @@
+{
+  "store.custom#franchising-faq": {
+          "blocks": [
+            "responsive-layout.mobile#franchising-faq-mobile"
+          ]
+        },
+    "responsive-layout.mobile#franchising-faq-mobile": {
+          "children": [
+             "flex-layout.row#franchising-faq-mobile"
+             ]
+     },
+    "flex-layout.row#franchising-faq-mobile": {
+        "children": [
+          "flex-layout.col#franchising-faq-mobile"
+        ],
+        "props": {
+          "blockClass": "franchising-faq-mobile"
+         }
+      },
+    "flex-layout.col#franchising-faq-mobile": {
+      "children": [
+         "rich-text#faq-mobile-title1",
+         "rich-text#faq-mobile-title2",
+         "rich-text#faq-mobile-subtitle",
+         "rich-text#faq-mobile-question1",
+         "rich-text#faq-mobile-answer1",
+         "rich-text#faq-mobile-question2",
+         "rich-text#faq-mobile-answer2",
+         "rich-text#faq-mobile-question3",
+         "rich-text#faq-mobile-answer3",
+         "rich-text#faq-mobile-question4",
+         "rich-text#faq-mobile-answer4",
+         "rich-text#faq-mobile-question5",
+         "rich-text#faq-mobile-answer5",
+         "rich-text#faq-mobile-question6",
+         "rich-text#faq-mobile-answer6",
+         "rich-text#faq-mobile-question7",
+         "flex-layout.row#franchisingButtonmobile"
+      ],
+      "props": {
+        "blockClass": "franchising-faq-mobile"
+       }
+    },
+
+
+     "rich-text#faq-mobile-title1": {
+         "props": {
+           "text": "Vuoi aprire un franchising iDO?",
+           "blockClass": "faq-mobile-title"
+         }
+      },
+     "rich-text#faq-mobile-title2": {
+         "props": {
+           "text": "FAQ",
+           "blockClass": "faq-mobile-title"
+         }
+      },
+      "rich-text#faq-mobile-subtitle": {
+          "props": {
+          "text": "Se hai domande frequenti lorem ipsum dolor sit",
+          "blockClass": "faq-mobile-subtitle"
+          }
+      },
+      "rich-text#faq-mobile-question1": {
+          "props": {
+          "text": "Per diventare franchisee iDO devo avere avuto precedenti esperienze commerciali?",
+          "blockClass": "faq-mobile-question"
+          }
+      },
+      "rich-text#faq-mobile-answer1": {
+          "props": {
+          "text": "No, non è necessario. Secondo i termini del contratto, riceverai una adeguata formazione per avviare l’attività e sarai seguito costantemente per la migliore gestione del negozio.",
+          "blockClass": "faq-mobile-answer"
+          }
+      },
+      "rich-text#faq-mobile-question2": {
+          "props": {
+          "text": "Sono tenuto a gestire personalmente il negozio?",
+          "blockClass": "faq-mobile-question"
+          }
+      },
+      "rich-text#faq-mobile-answer2": {
+          "props": {
+          "text": "No, l’importante è che la gestione dell’attività risponda ai termini del contratto.",
+          "blockClass": "faq-mobile-answer"
+          }
+      },
+      "rich-text#faq-mobile-question3": {
+           "props": {
+           "text": "Posso gestire il negozio in società con un partner?",
+           "blockClass": "faq-mobile-question"
+           }
+      },
+      "rich-text#faq-mobile-answer3": {
+            "props": {
+            "text": "Sì.",
+            "blockClass": "faq-mobile-answer"
+            }
+      },
+      "rich-text#faq-mobile-question4": {
+            "props": {
+            "text": "E se gestisco già un altro negozio?",
+            "blockClass": "faq-mobile-question"
+            }
+      },
+      "rich-text#faq-mobile-answer4": {
+            "props": {
+            "text": "Non è un problema se gestisci già un altro negozio, anzi l’esperienza acquisita ti sarà utile!",
+            "blockClass": "faq-mobile-answer"
+            }
+      },
+      "rich-text#faq-mobile-question5": {
+            "props": {
+            "text": "Il negozio deve essere di proprietà o in affitto?",
+            "blockClass": "faq-mobile-question"
+            }
+      },
+      "rich-text#faq-mobile-answer5": {
+             "props": {
+             "text": "Può essere di tua proprietà oppure in affitto. Se è in affitto, il contratto d’affitto deve poter essere rinnovabile per la durata del contratto di franchisee iDO.",
+             "blockClass": "faq-mobile-answer"
+             }
+      },
+      "rich-text#faq-mobile-question6": {
+             "props": {
+             "text": "Posso diventare franchisee iDO con 2 o più negozi?",
+             "blockClass": "faq-mobile-question"
+             }
+      },
+      "rich-text#faq-mobile-answer6": {
+             "props": {
+             "text": "Sì, a condizione che non siano localizzati nello stesso territorio e bacino d’utenza.",
+             "blockClass": "faq-mobile-answer"
+             }
+      },
+      "rich-text#faq-mobile-question7": {
+             "props": {
+             "text": "Per ulteriori informazioni contattaci a infofranchisingido@ido.it",
+             "blockClass": "faq-mobile-question"
+             }
+       }
+
+
+
+
+}

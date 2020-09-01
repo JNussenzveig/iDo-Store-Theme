@@ -1,0 +1,265 @@
+{
+
+  "store.custom#privacy-policy": {
+      "blocks": [
+        "flex-layout.row#privacy-policy",
+        "flex-layout.row#newsletter"
+      ]
+    },
+
+   "flex-layout.row#privacy-policy": {
+       "children": [
+         "tabs-container#privacy-policy"
+       ],
+       "props": {
+       "blockClass": "flex-row-privacy-policy"
+       }
+   },
+
+  "tabs-container#privacy-policy": {
+    "props": {
+      "menuTitle": "Termini e condizioni",
+      "orientation": "horizontal",
+      "tabs": [
+        {
+          "title": "Privacy & policy",
+          "id": "tab-wrapper#privacy-policy"
+        }
+      ]
+    },
+    "children": [
+      "tab-wrapper#privacy-policy"
+    ]
+  },
+
+  "tab-wrapper#privacy-policy": {
+    "props": {
+      "title": "Test 2"
+    },
+    "children": [
+      "flex-layout.col#privacy-policy"
+    ]
+  },
+
+
+    "flex-layout.col#privacy-policy": {
+      "children": [
+        "rich-text#privacy-policy-content1",
+        "rich-text#privacy-policy-title2",
+        "rich-text#privacy-policy-title3",
+        "rich-text#privacy-policy-content3",
+        "rich-text#privacy-policy-title4",
+        "rich-text#privacy-policy-content4",
+        "rich-text#privacy-policy-title5",
+        "rich-text#privacy-policy-content5",
+        "rich-text#privacy-policy-title6",
+        "rich-text#privacy-policy-content6",
+        "rich-text#privacy-policy-title7",
+        "rich-text#privacy-policy-content7",
+        "rich-text#privacy-policy-title8",
+        "rich-text#privacy-policy-content8",
+        "rich-text#privacy-policy-title9",
+        "rich-text#privacy-policy-content9",
+        "rich-text#privacy-policy-title10",
+        "rich-text#privacy-policy-content10",
+        "rich-text#privacy-policy-title11",
+        "rich-text#privacy-policy-content11",
+        "rich-text#privacy-policy-title12",
+        "rich-text#privacy-policy-content12",
+        "rich-text#privacy-policy-title13",
+        "rich-text#privacy-policy-content13"
+
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "privacy-policy"
+      }
+    },
+
+    "rich-text#privacy-policy-content1": {
+        "props": {
+          "blockClass": "privacy-policy-content",
+            "text":
+            "La presente policy sulla protezione dei dati personali (la “Privacy Policy”), conforme all’art. 13 del D.Lgs. 30 giugno 2003 n. 196 (il “D.Lgs. 196/2003”), descrive le modalità di trattamento dei dati personali che vengono raccolti o forniti dagli utenti registrati o non registrati sul sito www.ido.it (il “Sito Web”) gestito da Miniconf SpA e si propone di fornire agli utenti indicazioni circa il titolare del trattamento, le informazioni personali raccolte attraverso il Sito Web, le finalità e le modalità per cui tali informazioni vengono trattate, i soggetti terzi coinvolti nel trattamento, le misure di sicurezza adottate al fine di proteggere e tutelare i dati raccolti e le modalità con cui l’utente può verificare il trattamento di dati che lo riguarda ed esercitare i diritti allo stesso riconosciuti dal D.Lgs. 196/2003.<br><br>Il Sito Web è posseduto e gestito da Miniconf SpA, con sede a Ortignano (AR), Via Provinciale 1/A, P.IVA 00249390519 (“Miniconf”).<br><br>Per noi di Miniconf la protezione dei dati personali dei propri clienti e i dati degli utenti del Sito Web è una questione di fiducia e per noi la vostra fiducia è importante.<br><br>Per tale ragione adottiamo politiche e misure di sicurezza specifiche per rispettare le normative vigenti in materia di protezione dei dati personali e per proteggere i dati personali dei nostri utenti.<br><br>Vi invitiamo, pertanto, a leggere attentamente la presente policy perché possiate sentirvi sicuri quando navigate nel nostro sito web."
+        }
+   },
+
+   "rich-text#privacy-policy-title2": {
+           "props": {
+             "blockClass": "privacy-policy-title",
+             "text":
+             "DATI PERSONALI RACCOLTI E TRATTATI"
+        }
+    },
+
+
+    "rich-text#privacy-policy-title3": {
+           "props": {
+           "blockClass": "privacy-policy-title",
+            "text":
+            "Dati di navigazione"
+        }
+    },
+
+    "rich-text#privacy-policy-content3": {
+             "props": {
+              "blockClass": "privacy-policy-content",
+              "text":
+              "Miniconf non raccoglie o elabora dati personali dell’utente in caso di visita e consultazione del Sito Web, tuttavia i dati di navigazione possono essere automaticamente registrati dalla piattaforma tecnologica tramite cui il Sito Web viene messo a disposizione dell’utente, quali, ad esempio, nome del provider di accesso alla rete Internet, Sito Web di provenienza, pagine visitate, data e durata della visita, etc. Tali informazioni consentono l’accesso al Sito Web nonché la fruizione di alcuni servizi e possono essere utilizzate in forma anonima ed aggregata per fini statistici e per verificare il corretto funzionamento del Sito Web. <br>Inoltre se l’utente accede al Sito Web effettuando il login, ad esempio autenticandosi sul negozio online, i dati di navigazione potrebbero essere incrociati con i dati personali dell’utente e, ove l’utente abbia dato il proprio consenso, essere utilizzati per conoscere meglio l’utente e migliorare i servizi di Miniconf. "
+         }
+    },
+
+    "rich-text#privacy-policy-title4": {
+             "props": {
+             "blockClass": "privacy-policy-title",
+             "text":
+             "Dati forniti volontariamente dall’utente"
+         }
+    },
+
+    "rich-text#privacy-policy-content4": {
+             "props": {
+             "blockClass": "privacy-policy-content",
+             "text":
+             "Miniconf raccoglie e tratta i dati personali che l’utente fornisce volontariamente al momento della creazione dell’account sul Sito Web. L’utente potrà creare un account personale sul Sito Web per utilizzare o facilitare l’uso di alcune funzionalità disponibili sul Sito stesso, come ad esempio la “lista desideri”.<br>La creazione di un account non è obbligatoria e, qualora l’utente decida di crearlo, potrà cancellarlo in qualsiasi momento contattando Miniconf a servizioclienti@ido.it <br>Al momento della creazione dell’account sul sito Web l’utente fornisce a Miniconf dati di contatto ed identificativi. L’utente riconosce che alcune delle informazioni che vengono richieste e chiaramente indicate come tali sono essenziali per completare la registrazione e che pertanto, in assenza di tali informazioni o di rifiuto di fornirle, Miniconf non potrà dare seguito alla richiesta.<br>Miniconf utilizzerà i dati forniti esclusivamente per erogare i servizi collegati all’account dell’utente, che includono i servizi relativi ad acquisti online. <br>I dati personali raccolti allo scopo di gestire ed elaborare gli acquisti online dell’utente sul Sito Web sono di titolarità e sotto il controllo di Miniconf.  <br>Nelle sezioni del Sito Web in cui sono raccolti i dati personali dell’utente è pubblicata una informativa di Miniconf redatta ai sensi dell’articolo 13 del D.Lgs. 196/2003."
+         }
+    },
+    "rich-text#privacy-policy-title5": {
+             "props": {
+             "blockClass": "privacy-policy-title",
+             "text":
+             "COOKIES"
+          }
+    },
+
+    "rich-text#privacy-policy-content5": {
+             "props": {
+             "blockClass": "privacy-policy-content",
+             "text":
+             "Le informazioni relative ai cookie utilizzati sul Sito Web sono reperibili alla sezione “Uso dei Cookie”."
+          }
+    },
+    "rich-text#privacy-policy-title6": {
+             "props": {
+             "blockClass": "privacy-policy-title",
+             "text":
+             "FINALITÀ DEL TRATTAMENTO"
+          }
+    },
+
+    "rich-text#privacy-policy-content6": {
+             "props": {
+             "blockClass": "privacy-policy-content",
+             "text":
+              "Miniconf tratta i dati dell’utente per le seguenti finalità:<br>1. gestione operativa della navigazione sul Sito Web;<br>2. gestione della sicurezza del Sito Web;<br>3. adempimento di obblighi di legge e di regolamento;<br>4. esercizio di diritti in sede giudiziaria;<br>5. gestione delle vendite e delle transazioni eseguite nel contesto del Sito Web;<br>6. gestione degli ordini, vendita e consegna dei prodotti;<br>7. gestione resi e garanzie ed altre attività necessarie alla vendita dei prodotti tramite il Sito Web;<br>8. contattare l’utente, anche via e-mail, per qualsiasi problema relativo alla gestione dell’ordine o alle successive richieste relative all’ordine;<br>9. ottemperare agli obblighi di legge derivanti dalla normativa fiscale e contabile e da qualsiasi altra normativa vigente cui Miniconf sia tenuta oppure ottemperare ai provvedimenti emessi legittimamente dalle autorità competenti;<br>10. invio, previo consenso espresso, di messaggi commerciali relativi a Miniconf e ai suoi prodotti, servizi, promozioni nonché alle iniziative culturali e agli eventi organizzati da Miniconf (cd. finalità di marketing diretto);<br>11. inserimento, previo ulteriore e distinto consenso espresso, nel data base clienti di Miniconf per tracciare un profilo cliente nonchè per analizzare i dati relativi alle preferenze dello stesso (cd. finalità di profilazione)."
+          }
+    },
+    "rich-text#privacy-policy-title7": {
+             "props": {
+             "blockClass": "privacy-policy-title",
+             "text":
+             "NATURA DEL CONFERIMENTO"
+          }
+    },
+
+    "rich-text#privacy-policy-content7": {
+             "props": {
+             "blockClass": "privacy-policy-content",
+             "text":
+             "Il conferimento dei dati da parte dell’utente per le finalità sopra indicate è facoltativo. L’eventuale mancato conferimento di dati per finalità commerciali non avrà alcuna conseguenza sulla possibilità di accedere alle funzionalità offerte dal Sito Web, fatta eccezione per l’impossibilità di procedere all’acquisto online dei prodotti. Infatti il mancato conferimento o il rifiuto di conferire tutti i dati necessari per poter procedere all’acquisto comporta l’impossibilità del sistema di processare la richiesta dell’utente."
+          }
+    },
+    "rich-text#privacy-policy-title8": {
+             "props": {
+             "blockClass": "privacy-policy-title",
+             "text":
+             "MODALITÀ DI UTILIZZO DEI DATI PERSONALI"
+          }
+    },
+
+    "rich-text#privacy-policy-content8": {
+             "props": {
+             "blockClass": "privacy-policy-content",
+             "text":
+             "I dati personali dell’utente sono trattati tramite modalità informatiche e telematiche, prevalentemente con mezzi elettronici ed automatizzati e, limitatamente a particolari operazioni, tramite supporto cartaceo. In conformità al D.Lgs. 196/2003, specifiche misure di sicurezza sono osservate per prevenire la perdita dei dati, usi illeciti o non corretti ed accessi non autorizzati."
+          }
+    },
+    "rich-text#privacy-policy-title9": {
+             "props": {
+             "blockClass": "privacy-policy-title",
+             "text":
+             "MODALITÀ DI CONDIVISIONE DEI DATI PERSONALI"
+          }
+    },
+
+    "rich-text#privacy-policy-content9": {
+             "props": {
+             "blockClass": "privacy-policy-content",
+             "text":
+             "I dati personali dell’utente verranno trattati dal personale di Miniconf specificatamente autorizzato il quale opera principalmente nelle direzioni E-Commerce, Sistemi informativi e sicurezza, comunicazione, commerciale e retail.<br>I dati personali potranno inoltre essere portati a conoscenza di soggetti terzi quali professionisti, consulenti, negozi partner e più in generale soggetti terzi che cooperano con Miniconf per il perseguimento delle finalità di cui sopra.<br>In ogni caso, Miniconf si impegna a fornire a tali terzi solo i dati necessari all’espletamento delle funzioni ed attività ad essi affidati; si impegna, altresì, a fare quanto possibile affinché i terzi usino i dati ricevuti solo per le finalità indicate da Miniconf e nel rispetto della normativa in materia di trattamento dei dati personali applicabile.<br>I dati personali non saranno oggetto di diffusione."
+          }
+    },
+    "rich-text#privacy-policy-title10": {
+             "props": {
+             "blockClass": "privacy-policy-title",
+             "text":
+             "MODIFICHE ALLA PRESENTE POLICY"
+          }
+    },
+
+    "rich-text#privacy-policy-content10": {
+             "props": {
+             "blockClass": "privacy-policy-content",
+             "text":
+             "La presente Privacy Policy potrà essere modificata per conformarsi a nuovi obblighi imposti dalla legge o per necessità tecniche relative all’operatività del Sito Web.<br>Miniconf invita pertanto gli utenti a consultare periodicamente questa sezione del Sito Web."
+          }
+    },
+    "rich-text#privacy-policy-title11": {
+             "props": {
+             "blockClass": "privacy-policy-title",
+             "text":
+             "TITOLARE DEL TRATTAMENTO"
+          }
+    },
+
+    "rich-text#privacy-policy-content11": {
+             "props": {
+             "blockClass": "privacy-policy-content",
+             "text":
+             "Il titolare del trattamento dei dati personali è Miniconf SpA, con sede a Ortignano (AR), Via Provinciale 1/A, P.IVA 00249390519."
+          }
+    },
+    "rich-text#privacy-policy-title12": {
+             "props": {
+             "blockClass": "privacy-policy-title",
+             "text":
+             "ESERCIZIO DEI DIRITTI DELL’UTENTE"
+          }
+    },
+
+    "rich-text#privacy-policy-content12": {
+             "props": {
+             "blockClass": "privacy-policy-content",
+             "text":
+             "Gli utenti del Sito Web possono esercitare i diritti di cui all’art. 7 del D.Lgs. 196/2003, che si riproduce qui di seguito integralmente. <br>Tali diritti potranno essere esercitati senza alcuna formalità con semplice richiesta rivolta al Titolare del trattamento come sopra identificato, all’indirizzo e-mail servizioclienti@ido.it "
+          }
+    },
+    "rich-text#privacy-policy-title13": {
+             "props": {
+             "blockClass": "privacy-policy-title",
+             "text":
+             "ART. 7 D.LGS 196/2003. DIRITTI DELL’INTERESSATO"
+          }
+    },
+
+    "rich-text#privacy-policy-content13": {
+             "props": {
+             "blockClass": "privacy-policy-content",
+             "text":
+             "1.L'interessato ha diritto di ottenere la conferma dell'esistenza o meno di dati personali che lo riguardano, anche se non ancora registrati, e la loro comunicazione in forma intelligibile.<br><br>2. L’interessato ha diritto di ottenere l’indicazione:<br>a. dell’origine dei dati personali;<br>b. delle finalità e modalità del trattamento;<br>c. della logica applicata in caso di trattamento effettuato con l’ausilio di strumenti elettronici;<br>d. degli estremi identificativi del titolare, dei responsabili e del rappresentante designato ai sensi dell’articolo 5, comma 2; <br>e. dei soggetti o delle categorie di soggetti ai quali i dati personali possono essere comunicati o che possono venirne a conoscenza in qualità di rappresentante designato nel territorio dello Stato, di responsabili o incaricati.<br><br>3. L’interessato ha diritto di ottenere:<br>a. l'aggiornamento, la rettificazione ovvero, quando vi ha interesse, l'integrazione dei dati;<br>b. la cancellazione, la trasformazione in forma anonima o il blocco dei dati trattati in violazione di legge, compresi quelli di cui non è necessaria la conservazione in relazione agli scopi per i quali i dati sono stati raccolti o successivamente trattati;<br>c. l'attestazione che le operazioni di cui alle lettere a) e b) sono state portate a conoscenza, anche per quanto riguarda il loro contenuto, di coloro ai quali i dati sono stati comunicati o diffusi, eccettuato il caso in cui tale adempimento si rivela impossibile o comporta un impiego di mezzi manifestamente sproporzionato rispetto al diritto tutelato.<br><br>4. L’interessato ha diritto di opporsi, in tutto o in parte:<br>a. per motivi legittimi al trattamento dei dati personali che lo riguardano, ancorché pertinenti allo scopo della raccolta;<br>b. al trattamento di dati personali che lo riguardano a fini di invio di materiale pubblicitario o di vendita diretta o per il compimento di ricerche di mercato o di comunicazione commerciale."
+          }
+    }
+}
+
+
+

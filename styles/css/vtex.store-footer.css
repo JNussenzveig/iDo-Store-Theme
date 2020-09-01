@@ -1,0 +1,241 @@
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+
+
+
+.footerLayout :global(.vtex-flex-layout-0-x-flexRowContent--menu-row) {
+  border-bottom: 1px solid #fff;
+}
+
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--menu-bisogno) {
+  background-color: #FFFFFF;
+}
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--menu-white) {
+  background-color: #FFFFFF;
+}
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--menu-text) {
+  background-color: #FFFFFF;
+}
+
+.footerLayout :global(.vtex-menu-2-x-styledLink--bisogno-text){
+  width: 241px;
+  height: 29px;
+  color: #001930 !important;
+  font-family: "MuseoJHSans900";
+  font-size: 20px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+
+.footerLayout :global(.vtex-store-components-3-x-logoContainer) {
+  padding: 0px;
+}
+
+.footerLayout :global(.vtex-flex-layout-0-x-flexRowContent--menu-social-networks) {
+  justify-content: flex-end;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--menu-row) {
+  background-color: #001930;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--credits) {
+  background-color: #001930;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--payment-methods) {
+  background-color: #001930;
+}
+
+.footerLayout :global(.vtex-menu-2-x-styledLink--textBold) {
+  width: 290px;
+  height: 227px;
+  color: #001930 !important;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "MuseoJHSans900";
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footerLayout :global(.vtex-menu-2-x-styledLink--textBoldSimple) {
+  width: 290px;
+  height: 227px;
+  color: #001930 !important;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "MuseoJHSans900";
+  font-weight: bold;
+}
+
+
+.footerLayout :global(.vtex-menu-2-x-styledLink--textSimple) {
+  width: 290px;
+  height: 227px;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 17px;
+  color: #001930 !important;
+}
+
+
+
+.footerLayout :global(.vtex-menu-2-x-styledLink--textSimpleLast) {
+  width: 290px;
+  height: 227px;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 17px;
+  color: #001930 !important;
+}
+
+.footerLayout :global(.vtex-flex-layout-0-x-flexRowContent--menu-bisogno) {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  color: red;
+}
+
+.footerLayout :global(.vtex-rich-text-0-x-container--footerRich) {
+  color: #ffffff !important;
+  font-family: "Avenir Book";
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: -0.46px;
+  line-height: 17px;
+  margin-left: 22px;
+}
+
+/*Mobile version styling begins here*/
+
+:global(.vtex-flex-layout-0-x-flexRow--row-0-mobile) {
+  background-color: white;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--footerWhite) {
+  margin-left: 20px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-1-mobile) {
+  background-color: white;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-2-mobile) {
+  background-color: white;
+  border-bottom: solid 1px;
+  border-top: solid 1px;
+  border-color: gray;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+
+:global(.vtex-menu-2-x-styledLinkContent--textBoldMobile) {
+  font-weight: bold;
+  display: flex;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  text-transform: uppercase;
+  align-self: center;
+}
+
+:global(.vtex-menu-2-x-menuItem--textSimpleLastMobile) {
+  margin-bottom: 30px;
+}
+
+
+:global(.vtex-menu-2-x-styledLinkContent--bisogno-text-mobile) {
+  font-weight: bold;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  color: #001930;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--row-3-mobile) {
+  background-color: white;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--textBoldSimpleMobile){
+  font-weight: bold;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--textSimpleMobileLast){
+  margin-bottom: 30px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-4-mobile) {
+  background-color: white;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--row-5-mobile) {
+  background-color: white;
+  color: black;
+}
+:global(.vtex-flex-layout-0-x-flexRow--row-6-mobile) {
+  background-color: white;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--footer-mobile-menu-23rdmarch) {
+  position: relative;
+}
+
+:global(.vtex-menu-2-x-styledLinkIcon--footer-menu-icon-mobile) {
+  position: absolute;
+}
+
+
+:global(.vtex-menu-2-x-menuContainer--footer-mobile-menu-23rdmarch) {
+  flex-direction: column;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-azienda-mobile) {
+  position: relative;
+}
+
+:global(.vtex-menu-2-x-styledLinkIcon--menu-item-azienda-mobile) {
+  position: absolute;
+  right: 20px;
+  top: 18px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-azienda-mobile--isClosed) {
+  display: none;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-azienda-mobile--isOpen) {
+  display: none;
+}
+
+:global(.vtex-menu-2-x-submenuAccordion) {
+  flex-direction: column;
+}
+
+:global(.vtex-menu-2-x-menuItem--menu-item-footer-mobile-submenu) {
+  border-top: solid 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-menuItem--menu-item-azienda-mobile) {
+  border-top: solid 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-menuItem--menu-item-footer-mobile-submenu-last) {
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-styledLinkIcon--menu-item-azienda-mobile) {
+  display: none;
+}
+

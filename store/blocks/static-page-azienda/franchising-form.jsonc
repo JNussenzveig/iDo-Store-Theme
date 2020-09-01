@@ -1,0 +1,228 @@
+{
+
+  "store.custom#franchising-form": {
+        "blocks": [
+          "responsive-layout.mobile#franchising-form-mobile"
+        ]
+      },
+  "responsive-layout.mobile#franchising-form-mobile": {
+        "children": [
+           "flex-layout.row#franchisingformmobile"
+           ]
+   },
+  "flex-layout.row#franchisingformmobile": {
+      "children": [
+        "flex-layout.col#franchisingformmobile"
+      ],
+      "props": {
+        "blockClass": "franchisingformmobile"
+       }
+    },
+  "flex-layout.col#franchisingformmobile": {
+    "children": [
+      "form#franchisingformmobile"
+    ],
+    "props": {
+      "blockClass": "franchisingformmobile"
+     }
+  },
+
+
+  "form#franchisingformmobile": {
+      "props": {
+        "entity": "FF",
+        "schema": "frn_schema"
+      },
+      "children": [
+        "rich-text#aprire-franchisingmobile",
+        "rich-text#compila-form-aprire-franchisingmobile",
+        "flex-layout.row#name-franchising-formmobile",
+        "flex-layout.row#surname-franchising-formmobile",
+        "flex-layout.row#email-franchising-formmobile",
+        "flex-layout.row#phone-franchising-formmobile",
+        "flex-layout.row#store-franchising-formmobile",
+        "flex-layout.row#city-franchising-formmobile",
+        "flex-layout.row#comments-franchising-formmobile",
+        "rich-text#campi-obbligatori-franchising-form-mobile",
+        "flex-layout.row#privacy-franchising-formmobile",
+        "flex-layout.row#submit-franchising-formmobile"
+      ],
+      "blocks": ["form-success#franchisingformmobile"]
+    },
+    "form-success#franchisingformmobile": {
+      "children": [
+        "rich-text#successSubmit-franchisingformmobile"
+      ]
+    },
+    "rich-text#successSubmit-franchisingformmobile": {
+      "props": {
+        "text": "Succesfully submitted the data!",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      }
+    },
+    "form-input.text#Namefranchisingformmobile": {
+      "props": {
+        "pointer": "#/properties/Name",
+        "label": "Nome *"
+      }
+    },
+    "form-input.text#Surnamefranchisingformmobile": {
+      "props": {
+        "pointer": "#/properties/Surname",
+        "label": "Cognome *"
+      }
+    },
+    "form-input.text#Emailfranchisingformmobile": {
+      "props": {
+        "pointer": "#/properties/Email",
+        "label": "Indirizzo mail *"
+      }
+    },
+     "form-input.text#Phonefranchisingformmobile": {
+       "props": {
+         "pointer": "#/properties/Phone",
+         "label": "Telefono *"
+       }
+     },
+     "form-input.dropdown#Storefranchisingformmobile": {
+       "props": {
+         "pointer": "#/properties/Store",
+         "label": "Hai già a disposizione un negozio? *"
+       }
+     },
+     "form-input.dropdown#Cityfranchisingformmobile": {
+       "props": {
+         "pointer": "#/properties/City",
+         "label": "In quale città vuoi aprire il tuo punto vendita? *"
+       }
+     },
+     "form-input.text#Commentsfranchisingformmobile": {
+       "props": {
+         "pointer": "#/properties/Comments",
+         "label": "Lascia un commento"
+       }
+     },
+
+
+     "form-input.checkbox#Privacyfranchisingformmobile": {
+       "props": {
+         "pointer": "#/properties/Privacy",
+         "label": "Ho preso visione dell'informativa sulla Privacy ed acconsento al trattamento dei miei dati personali*"
+       }
+     },
+
+    "rich-text#campi-obbligatori-franchising-formmobile": {
+               "props": {
+                 "text": "*Campi obbligatori",
+                 "blockClass": "campi-obbligatori-franchising-formmobile"
+               }
+         },
+
+
+    "form-submit#franchisingformmobile": {
+      "props": {
+        "label": "INVIA"
+      }
+    },
+
+    "rich-text#aprire-franchisingmobile": {
+               "props": {
+                 "text": "Vuoi aprire un franchising iDO?",
+                 "blockClass": "aprire-franchisingmobile"
+               }
+         },
+
+    "rich-text#compila-form-aprire-franchisingmobile": {
+               "props": {
+                 "text": "Compila il form per aprire un franchising iDO",
+                 "blockClass": "compila-form-aprire-franchisingmobile"
+               }
+         },
+
+
+
+  "flex-layout.row#name-franchising-formmobile": {
+    "children": [
+            "form-input.text#Namefranchisingformmobile"
+          ],
+          "props": {
+            "blockClass": "name-franchising-formmobile"
+        }
+  },
+  "flex-layout.row#surname-franchising-formmobile": {
+    "children": [
+            "form-input.text#Surnamefranchisingformmobile"
+          ],
+          "props": {
+            "blockClass": "surname-franchising-formmobile"
+        }
+  },
+  "flex-layout.row#email-franchising-formmobile": {
+    "children": [
+            "form-input.text#Emailfranchisingformmobile"
+          ],
+          "props": {
+            "blockClass": "email-franchising-formmobile"
+        }
+  },
+  "flex-layout.row#phone-franchising-formmobile": {
+    "children": [
+            "form-input.text#Phonefranchisingformmobile"
+          ],
+          "props": {
+            "blockClass": "phone-franchising-formmobile"
+        }
+  },
+  "flex-layout.row#store-franchising-formmobile": {
+    "children": [
+            "form-input.dropdown#Storefranchisingformmobile"
+          ],
+          "props": {
+            "blockClass": "store-franchising-formmobile"
+        }
+  },
+  "flex-layout.row#city-franchising-formmobile": {
+    "children": [
+            "form-input.dropdown#Cityfranchisingformmobile"
+          ],
+          "props": {
+            "blockClass": "city-franchising-formmobile"
+        }
+  },
+  "flex-layout.row#comments-franchising-formmobile": {
+    "children": [
+            "form-input.text#Commentsfranchisingformmobile"
+          ],
+          "props": {
+            "blockClass": "comments-franchising-formmobile"
+        }
+  },
+  "flex-layout.row#privacy-franchising-formmobile": {
+    "children": [
+            "form-input.checkbox#Privacyfranchisingformmobile"
+          ],
+          "props": {
+            "blockClass": "privacy-franchising-formmobile"
+        }
+  },
+
+  "flex-layout.row#submit-franchising-formmobile": {
+    "children": [
+            "form-submit#franchisingformmobile"
+          ],
+          "props": {
+            "blockClass": "franchisingformsubmitmobile"
+        }
+  },
+
+  "rich-text#campi-obbligatori-franchising-form-mobile": {
+             "props": {
+               "text": "*Campi obbligatori",
+               "blockClass": "campi-obbligatori-franchising-form-mobile"
+             }
+       }
+
+
+
+}

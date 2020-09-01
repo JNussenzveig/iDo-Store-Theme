@@ -1,0 +1,2706 @@
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelfTitle {
+  color: #727273;
+  justify-content: flex-start!important;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 35px;
+  line-height: 29px;
+  font-weight: 900;
+  margin-left: 135px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footerRich) {
+  color: gray;
+}
+
+:global(.vtex-rich-text-iframe-inside) {
+  width: 100%;
+}
+
+:global(.vtex-rich-text-iframe) {
+  width: 100%;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.headingLevel2--category-shelf-mobile {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-left: 20px;
+}
+
+.headingLevel2--rich-text-backtoschoolMobile {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-left: 20px;
+}
+
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.paragraph--question {
+  display: none;
+}
+
+.container--question .paragraph {
+  max-width: 1528px;
+}
+
+:global(.vtex-rich-text-wrapper) {
+  width: 1520px;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+}
+
+:global(.vtex-rich-text-section) {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+:global(.vtex-rich-text-title) {
+  position: absolute;
+  top: 400px;
+  left: 50px;
+  z-index: 900;
+  width: 459px;
+  height: 42px;
+  text-shadow: 0 2px 30px #000000;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 45px;
+  line-height: 32px;
+
+}
+:global(.vtex-rich-text-link) {
+  position: absolute;
+  top: 480px;
+  left: 60px;
+  z-index: 900;
+  color: #fff;
+  border: solid 1px;
+  border-radius: 50px;
+  width: 190px;
+  height: 50px;
+  display: flex;
+}
+
+:global(.vtex-rich-text-href) {
+  text-decoration: none;
+  color: white;
+  margin-left: 50px;
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+  font-family: "MuseoJHSans900";
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+:global(.vtex-rich-text-image) {
+  width: 100%;
+}
+
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+.container--title {
+  color: #03034E;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}
+
+/*Mobile version styling begins here */
+
+
+:global(.vtex-rich-text-0-x-headingLevel2--rich-text-category-shelf-mobile) {
+  font-size: 10px;
+}
+
+.headingLevel2--armocromia-mobile {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-left: 20px;
+}
+
+.paragraph--Prezzo {
+  margin-bottom: 0px;
+}
+.paragraph--partire {
+  margin-top: 0px;
+}
+
+
+:global(.vtex-rich-text-0-x-paragraph--footerRichMobile) {
+  color: black;
+  font-size: 8px;
+  text-align: center;
+}
+
+/* store locator text styling */
+
+:global(.vtex-rich-text-0-x-paragraph--store-locator-rich-text) {
+  width: 803px;
+  height: 34px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 35px;
+  line-height: 29px;
+  margin-top: 56px;
+  margin-left: 41px;
+}
+
+.container--store-locator-rich-text-mobile {
+  position: absolute;
+}
+
+
+/* Richtext for size selector  */
+
+:global(.vtex-rich-text-0-x-paragraph--scegli-taglia-richtext) {
+  width: 146px;
+  height: 21px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 19px;
+}
+
+/* richtext next to price discount on mobile product page BEGINS HERE */
+
+.flexCol--product-name-price-rich-text {
+   width: 50%;
+ }
+
+.paragraph--Prezzo {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 19px;
+}
+
+.paragraph--link {
+  width: 100%;
+}
+
+.container--link {
+  width: 100%;
+}
+
+.wrapper--link {
+  width: 100%;
+}
+
+.paragraph--partire {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+/*AZIENDA-CHI SIAOMO */
+
+
+
+:global(.vtex-rich-text-0-x-container--titleSiamo) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 24px;
+  text-transform: lowercase;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contentSiamo1) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contentSiamo2) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contentSiamo3) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--chiSiamo) {
+  height: 375px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--imageChiSiamo) {
+  padding-top: 45px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--Vuoilavorare) {
+  margin-top: 50px;
+  width: 1250px;
+  height: 139px;
+  background-color: #001930;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--Vuoilavorare) {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  width: 39%;
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 40px;
+}
+
+
+
+:global(.vtex-store-components-3-x-imageElement--imageIscrivitiNewslatter) {
+  padding-top: 25px;
+}
+
+
+:global(.vtex-rich-text-0-x-paragraph--cvButton) {
+  width: 300px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+}
+
+:global(.vtex-linkCvDesktop) {
+  width: 140px;
+  height: 21px;
+  color: #5a5a5a;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  text-decoration: none;
+  position: relative;
+  left: 80px;
+  text-decoration: none;
+  top: 14px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--cvButton) {
+  position: absolute;
+  right: 68px;
+  bottom: 25px;
+}
+
+
+
+:global(.vtex-rich-text-0-x-container--cvButton) {
+  height: 2px;
+}
+
+:global(.vtex-rich-text-0-x-container--Vuoilavorare) {
+  width: 100%;
+}
+
+/*AZIENDA-FRANCHISING*/
+
+:global(.vtex-rich-text-0-x-heading--franchising-title1) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 24px;
+  line-height: 29px;
+}
+:global(.vtex-rich-text-0-x-wrapper--contentFranchising1) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 24px;
+  line-height: 29px;
+}
+
+:global(.vtex-rich-text-0-x-container--about-titleCosaCerchiamo) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 24px;
+  line-height: 27px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contentFranchising2) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--about-title3) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 24px;
+  line-height: 27px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contentFranchising3) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--about-title4) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  line-height: 24px;
+}
+
+:global(.vtex-rich-text-0-x-link--about-title4) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+:global(.vtex-rich-text-0-x-container--about-title5) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 24px;
+  line-height: 29px;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--photoStore2) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--photoStore1) {
+  display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--images) {
+  width: 348px;
+  height: 406px;
+}
+
+
+
+:global(.vtex-slider-layout-0-x-sliderTrack--storePhoto) {
+  width: 348px;
+  height: 406px;
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--photoStore1) {
+  width: 348px;
+  height: 406px;
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--photoStore2) {
+  width: 348px;
+  height: 406px;
+}
+
+:global(.vtex-store-components-3-x-infoCardImage--photoStore1) {
+  max-width: unset;
+}
+
+:global(.vtex-store-components-3-x-infoCardImage--photoStore2) {
+  max-width: unset;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--imageFaq) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--imagePdf) {
+  display: none;
+}
+
+
+:global(.vtex-rich-text-0-x-paragraph--contentFranchising3) {
+  display: none;
+}
+
+
+:global(.vtex-static-page-checkmark) {
+  background-image: url("https://raduthirdbranch--storeido.myvtex.com/arquivos/checkmark.png");
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+:global(.vtex-special-p) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+:global(.vtex-rich-text-0-x-paragraph--contentFranchising2) {
+  display: none;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--textFaq) {
+  width: 304px;
+  height: 77px;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 24px;
+  line-height: 29px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--textPdf) {
+  width: 304px;
+  height: 77px;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 24px;
+  line-height: 29px;
+}
+
+:global(.vtex-store-components-3-x-infoCardImageContainer--imageFaq) {
+  width: 456px;
+  height: 150px;
+}
+
+:global(.vtex-store-components-3-x-infoCardImage--imagePdf) {
+  width: 456px;
+  height: 150px;
+}
+
+:global(.vtex-store-components-3-x-infoCardImageContainer--imagePdf) {
+  width: 456px;
+  height: 150px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--textPaginaFaq) {
+  width: 184px;
+  height: 19px;
+  color: rgba(0, 25, 48, 0.5);
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: underline;
+  bottom: 43px;
+  position: relative;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--textScaricaPdf) {
+  width: 184px;
+  height: 19px;
+  color: rgba(0, 25, 48, 0.5);
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: underline;
+  top:6px;
+  position: relative;
+}
+
+:global(.vtex-linkFranchisingDesktop) {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 30px;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--franchisingButton) {
+  width: 467px;
+  height: 60px;
+  border-radius: 35px;
+  background-color: #aeca3b;
+  position: relative;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--franchisingButton) {
+  justify-content: center;
+  position: relative;
+  margin-top: 19px;
+}
+
+
+
+:global(.vtex-rich-text-0-x-wrapper--franchisingButton) {
+  left: 50%;
+  position: relative;
+}
+
+:global(.vtex-special-p-content) {
+  position: relative;
+  bottom: 21px;
+  left: 32px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--franchisingButton) {
+  display: flex;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--franchising-about-us) {
+  padding-top: 11px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--images) {
+  margin-top: 35px;
+  margin-left: 50px;
+}
+
+/*AZIENDA-faq*/
+
+:global(.vtex-rich-text-0-x-wrapper--faqtitle1) {
+  color: #001930;
+}
+
+/*AZIENDA-modal faq questions*/
+
+:global(.vtex-rich-text-0-x-paragraph--textFaqModal) {
+  color: transparent;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--textPdfModal) {
+  top: 23px;
+  position: relative;
+  color: transparent;
+}
+
+:global(.vtex-rich-text-0-x-container--textFaqModal) {
+  position: relative;
+  bottom: 26px;
+}
+
+:global(.vtex-modal-layout-0-x-paper--faqContent) {
+  width: 704px;
+  height: 845px;
+}
+
+:global(.vtex-rich-text-0-x-container--faq-modal-title) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 27px;
+  text-transform: uppercase;
+  bottom: 32px;
+  position: relative;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--faq-modal-subtitle) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 24px;
+  line-height: 27px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--faq-modal-question) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+
+:global(.vtex-rich-text-0-x-wrapper--faq-modal-answer) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-modal-layout-0-x-paper--faqContent) {
+  padding: 35px;
+}
+
+:global(.vtex-rich-text-0-x-container--faq-modal-subtitle) {
+  bottom: 77px;
+  position: relative
+}
+
+:global(.vtex-rich-text-0-x-container--faq-modal-question) {
+  bottom: 100px;
+  position: relative;
+}
+
+:global(.vtex-rich-text-0-x-container--faq-modal-answer) {
+  position: relative;
+  bottom: 105px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-rich-text-0-x-link--faq-modal-question) {
+  color: #001930;
+  text-decoration: none;
+}
+
+/*AZIENDA-modal faq form*/
+
+:global(.vtex-rich-text-0-x-paragraph--compila-form-aprire-franchising) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 24px;
+  line-height: 25px;
+  margin-bottom: 37px;
+  margin-left: 33px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--campi-obbligatori-franchising-form) {
+  width: 107px;
+  height: 21px;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 12px;
+  line-height: 21px;
+  margin-left: 33px;
+}
+
+
+
+
+
+
+/*larmocromia*/
+
+
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-larmocromia) {
+  padding: unset;
+  margin: unset;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--servizioClienti) {
+  width: 339px;
+  height: 21px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 81px;
+  position: relative;
+}
+
+:global(.vtex-menu-2-x-menuContainer--menu-larmocromia) {
+  padding-top: 27px;
+}
+
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-larmocromia-moro-con-carnagione-chiara) {
+  margin: unset;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-larmocromia-moro-con-carnagione-scura) {
+  margin: unset;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-larmocromia-moro) {
+  margin: unset;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-larmocromia-castano-con-carnagione-chiara) {
+  margin: unset;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-larmocromia-castano-con-carnagione-scura) {
+  margin: unset;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-larmocromia-biondo-con-carnagione-chiara) {
+  margin: unset;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-larmocromia-biondo-con-carnagione-scura) {
+  margin: unset;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-larmocromia-rosso) {
+  margin: unset;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-larmocromia-albino) {
+  margin: unset;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-con-carnagione-chiara)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/moro_con_carnagione_chiara.png);
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  height: 87px;
+  width: 87px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-con-carnagione-scura)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/moro_con_carnagione_scura.png);
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  height: 87px;
+  width: 87px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/moro.png);
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  height: 87px;
+  width: 87px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-castano-con-carnagione-chiara)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Castano_con_carnagione_chiara.png);
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  height: 87px;
+  width: 87px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-castano-con-carnagione-scura)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Castano_con_carnagione_scura.png);
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  height: 87px;
+  width: 87px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-biondo-con-carnagione-chiara)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Biondo_con_carnagione_chiaras.png);
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  height: 87px;
+  width: 87px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-biondo-con-carnagione-scura)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Biondo_con_carnagione_scura.png);
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  height: 87px;
+  width: 87px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-rosso)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Rosso.png);
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  height: 87px;
+  width: 87px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-albino)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Albino.png);
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  height: 87px;
+  width: 87px;
+}
+
+
+
+
+
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-con-carnagione-chiara) {
+  color: #001930;
+  padding-top: 15px;
+  justify-content: flex-start;
+  align-items: center;
+  height: 87px;
+  font-family: "MuseoJHSans500";
+  font-size: 23px;
+  line-height: 26px;
+  position: relative;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-con-carnagione-scura) {
+  color: #001930;
+  padding-top: 15px;
+  justify-content: flex-start;
+  align-items: center;
+  height: 87px;
+  font-family: "MuseoJHSans500";
+  font-size: 23px;
+  line-height: 26px;
+  position: relative;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro) {
+  color: #001930;
+  padding-top: 15px;
+  justify-content: flex-start;
+  align-items: center;
+  height: 87px;
+  font-family: "MuseoJHSans500";
+  font-size: 23px;
+  line-height: 26px;
+  position: relative;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-castano-con-carnagione-chiara) {
+  color: #001930;
+  padding-top: 15px;
+  justify-content: flex-start;
+  align-items: center;
+  height: 87px;
+  font-family: "MuseoJHSans500";
+  font-size: 23px;
+  line-height: 26px;
+  position: relative;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-castano-con-carnagione-scura) {
+  color: #001930;
+  padding-top: 15px;
+  justify-content: flex-start;
+  align-items: center;
+  height: 87px;
+  font-family: "MuseoJHSans500";
+  font-size: 23px;
+  line-height: 26px;
+  position: relative;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-biondo-con-carnagione-chiara) {
+  color: #001930;
+  padding-top: 15px;
+  justify-content: flex-start;
+  align-items: center;
+  height: 87px;
+  font-family: "MuseoJHSans500";
+  font-size: 23px;
+  line-height: 26px;
+  position: relative;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-biondo-con-carnagione-scura) {
+  color: #001930;
+  padding-top: 15px;
+  justify-content: flex-start;
+  align-items: center;
+  height: 87px;
+  font-family: "MuseoJHSans500";
+  font-size: 23px;
+  line-height: 26px;
+  position: relative;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-rosso) {
+  color: #001930;
+  padding-top: 15px;
+  justify-content: flex-start;
+  align-items: center;
+  height: 87px;
+  font-family: "MuseoJHSans500";
+  font-size: 23px;
+  line-height: 26px;
+  position: relative;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-albino) {
+  color: #001930;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: flex-start;
+  align-items: center;
+  height: 87px;
+  font-family: "MuseoJHSans500";
+  font-size: 23px;
+  line-height: 26px;
+  position: relative;
+}
+
+
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-moro-con-carnagione-chiara--isClosed) {
+  font-size: 40px;
+  color: #000000;
+  font-family: "MuseoJHSans300";
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-moro-con-carnagione-chiara--isOpen) {
+  font-size: 40px;
+  color: #000000;
+  font-family: monospace;
+  position: absolute;
+  right: 0px;
+}
+
+
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-moro-con-carnagione-scura--isClosed) {
+  font-size: 40px;
+  color: #000000;
+  font-family: "MuseoJHSans300";
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-moro-con-carnagione-scura--isOpen) {
+  font-size: 40px;
+  color: #000000;
+  font-family: monospace;
+  position: absolute;
+  right: 0px;
+}
+
+
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-moro--isClosed) {
+  font-size: 40px;
+  color: #000000;
+  font-family: "MuseoJHSans300";
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-moro--isOpen) {
+  font-size: 40px;
+  color: #000000;
+  font-family: monospace;
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-castano-con-carnagione-chiara--isClosed) {
+  font-size: 40px;
+  color: #000000;
+  font-family: "MuseoJHSans300";
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-castano-con-carnagione-chiara--isOpen) {
+  font-size: 40px;
+  color: #000000;
+  font-family: monospace;
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-castano-con-carnagione-scura--isClosed) {
+  font-size: 40px;
+  color: #000000;
+  font-family: "MuseoJHSans300";
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-castano-con-carnagione-scura--isOpen) {
+  font-size: 40px;
+  color: #000000;
+  font-family: monospace;
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-biondo-con-carnagione-chiara--isClosed) {
+  font-size: 40px;
+  color: #000000;
+  font-family: "MuseoJHSans300";
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-biondo-con-carnagione-chiara--isOpen) {
+  font-size: 40px;
+  color: #000000;
+  font-family: monospace;
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-biondo-con-carnagione-scura--isClosed) {
+  font-size: 40px;
+  color: #000000;
+  font-family: "MuseoJHSans300";
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-biondo-con-carnagione-scura--isOpen) {
+  font-size: 40px;
+  color: #000000;
+  font-family: monospace;
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-rosso--isClosed) {
+  font-size: 40px;
+  color: #000000;
+  font-family: "MuseoJHSans300";
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-rosso--isOpen) {
+  font-size: 40px;
+  color: #000000;
+  font-family: monospace;
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-albino--isClosed) {
+  font-size: 40px;
+  color: #000000;
+  font-family: "MuseoJHSans300";
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-albino--isOpen) {
+  font-size: 40px;
+  color: #000000;
+  font-family: monospace;
+  position: absolute;
+  right: 0px;
+}
+
+
+
+
+:global(.vtex-rich-text-0-x-paragraph--larmocromia-title1) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 24px;
+  line-height: 24px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--larmocromia-content1) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  line-height: 24px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--larmocromia-title2) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--larmocromia-title3) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--larmocromia-content3) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--larmocromia-title4) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--larmocromia-content4) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+
+:global(.vtex-rich-text-0-x-container--larmocromia-title4) {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+:global(.vtex-menu-2-x-menuItem--menu-item-larmocromia) {
+  margin-bottom: 10px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--imageTaglie) {
+  max-width: 64%;
+}
+
+
+
+:global(.vtex-menu-2-x-menuContainer--menu-larmocromia) {
+  flex-direction: column;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia) {
+  justify-content: space-between;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia--isOpen) {
+  width: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 8px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia--isClosed) {
+  width: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 8px;
+}
+
+
+
+:global(.vtex-menu-2-x-submenuAccordion--submenu-larmocromia) {
+  padding-left: 0px;
+}
+
+:global(.vtex-link-scorpi-tutti-i-prodotti) {
+  color: white;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--scorpi-tutti-i-prodotti-button) {
+  width: 296px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+  position: absolute;
+}
+
+:global(.vtex-rich-text-0-x-container--scorpi-tutti-i-prodotti-button) {
+  position: relative;
+  justify-content: center;
+  margin-bottom: 140px;
+}
+
+:global(.vtex-link-scorpi-tutti-i-prodotti) {
+  width: 236px;
+  height: 22px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  left: 28px;
+  top: 6px;
+}
+
+
+/* lacromonia trova il negozio*/
+
+:global(.vtex-flex-layout-0-x-flexRowContent--flex-row-larocromiaaprirefranchising) {
+  padding-right: 76px;
+  padding-left: 76px;
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-larocromiaaprirefranchising-desktop) {
+  margin-top: 72px;
+  position: relative;
+  height: 141px;
+  background-color: #001930;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-larocromiaaprirefranchising-desktop) {
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 0px;
+  position: relative;
+  width: 100%;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-larocromiaaprirefranchising-desktop) {
+  width: 32%;
+  text-align: left;
+  height: 29px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-top: unset;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-larocromiaaprirefranchising-desktop) {
+  position: absolute;
+  right: 0px;
+}
+
+/* lacromonia aiuto*/
+
+:global(.vtex-flex-layout-0-x-flexRowContent--flex-row-aiuto) {
+  padding-right: 76px;
+  padding-left: 76px;
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-aiuto) {
+  margin-top: 72px;
+  position: relative;
+  height: 141px;
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Questa_sezione.png);
+  background-size: cover;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-aiuto) {
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 0px;
+  position: relative;
+  width: 100%;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-aiuto) {
+  width: 32%;
+  text-align: left;
+  height: 29px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-top: unset;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-aiuto) {
+  position: absolute;
+  right: 0px;
+}
+
+
+
+/*SERVIZIO CLIENTI-GUIDA ALLE TAGLIE*/
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-guida-alle-taglie) {
+  padding: unset;
+  margin: unset;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--servizioClienti) {
+  width: 339px;
+  height: 21px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 81px;
+  position: relative;
+}
+
+:global(.vtex-menu-2-x-menuContainer--menu-guida-alle-taglie) {
+  padding-top: 27px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-guida-alle-taglie) {
+  height: 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  justify-content: flex-start;
+  padding-top: 15px;
+}
+
+:global(.vtex-menu-2-x-menuItem--menu-item-guida-alle-taglie) {
+  margin-bottom: 10px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--imageTaglie) {
+  max-width: 64%;
+}
+
+
+
+:global(.vtex-menu-2-x-menuContainer--menu-guida-alle-taglie) {
+  flex-direction: column;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-guida-alle-taglie) {
+  justify-content: space-between;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-guida-alle-taglie--isOpen)::after {
+  content: "";
+  width: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 8px;
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowup.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-guida-alle-taglie--isClosed)::after {
+  content: "";
+  width: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 8px;
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowdown.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-guida-alle-taglie) {
+  font-size: 0px;
+}
+
+:global(.vtex-menu-2-x-submenuAccordion--submenu-guida-alle-taglie) {
+  padding-left: 0px;
+}
+
+
+
+
+
+/*SERVIZIO CLIENTI-TEMPI DI CONSEGNA*/
+
+:global(.vtex-rich-text-0-x-container--tempiDiConsegna) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-container--capTempiDiConsegna) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans900";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--tempiDiConsegna) {
+  padding-top: 68px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--tempiDiConsegna) {
+  margin-top: 0px;
+  position: relative;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--capTempiDiConsegna) {
+  margin-bottom: 0px;
+  position: relative;
+}
+
+:global(.vtex-rich-text-0-x-link--tempiDiConsegna) {
+  color: #5a5a5a;
+  text-decoration: none;
+}
+
+/*SERVIZIO CLIENTI-RESO E CAMBI*/
+
+:global(.vtex-rich-text-0-x-container--reso-e-cambi) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--reso-e-cambi-title) {
+  width: 704px;
+  height: 39px;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 25px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--reso-e-cambi) {
+  padding-top: 4px;
+}
+
+:global(.vtex-rich-text-0-x-link--reso-e-cambi) {
+  color: #5a5a5a;
+  text-decoration: none;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--reso-e-cambi-title) {
+  margin-bottom: 0px;
+  position: relative;
+}
+
+/*SERVIZIO CLIENTI-ORDER PROCESSING*/
+
+:global(.vtex-rich-text-0-x-container--order-processing) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--order-processing-title) {
+  width: 704px;
+  height: 39px;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 0px;
+  position: relative;
+  margin-top: 4px;
+}
+
+/*TERMINI E CONDIZIONI - condizioni generali di vendita */
+
+:global(.vtex-rich-text-0-x-paragraph--condizioni-generali-di-vendita-title) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans900";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-container--condizioni-generali-di-vendita-content) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-link--condizioni-generali-di-vendita-title) {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+:global(.vtex-rich-text-0-x-link--condizioni-generali-di-vendita-content) {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+/*TERMINI E CONDIZIONI - regolamento */
+
+:global(.vtex-rich-text-0-x-paragraph--regolamento-title) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans900";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-container--regolamento-content) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-link--regolamento-title) {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+:global(.vtex-rich-text-0-x-link--regolamento-content) {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+/*TERMINI E CONDIZIONI - dritto-di-recesso */
+
+:global(.vtex-rich-text-0-x-paragraph--diritto-di-recesso-title) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans900";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-container--diritto-di-recesso-content) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-link--diritto-di-recesso-title) {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+:global(.vtex-rich-text-0-x-link--diritto-di-recesso-content) {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+/*TERMINI E CONDIZIONI - privacy policy */
+
+:global(.vtex-rich-text-0-x-paragraph--privacy-policy-title) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans900";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-container--privacy-policy-content) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-link--privacy-policy-title) {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+:global(.vtex-rich-text-0-x-link--privacy-policy-content) {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+/*TERMINI E CONDIZIONI - trattamento-dati */
+
+:global(.vtex-rich-text-0-x-paragraph--trattamento-dati-title) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans900";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-container--trattamento-dati-content) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-link--trattamento-dati-title) {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+:global(.vtex-rich-text-0-x-link--trattamento-dati-content) {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--trattamento-dati-informativa-policy-title) {
+  width: 704px;
+  height: 39px;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 25px;
+}
+
+/*TERMINI E CONDIZIONI - cookie policy */
+
+:global(.vtex-rich-text-0-x-paragraph--cookie-policy-title) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans900";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-container--cookie-policy-content) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-link--cookie-policy-title) {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+:global(.vtex-rich-text-0-x-link--cookie-policy-content) {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+/*newsletter*/
+
+:global(.vtex-rich-text-0-x-paragraph--newsletter-form-title1) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 24px;
+  line-height: 25px;
+  margin-bottom: 0px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--newsletter-form-title2) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 24px;
+  line-height: 25px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--campi-obbligatori-newsletter-form) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 12px;
+  line-height: 21px;
+}
+
+/*contattaci*/
+
+:global(.vtex-rich-text-0-x-paragraph--contattaci-form-title) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 24px;
+  line-height: 25px;
+}
+
+:global(.vtex-rich-text-0-x-container--contattaci-form-content1) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-container--contattaci-form-content2) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-container--contattaci-form-content3) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-container--contattaci-form-content4) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-container--contattaci-form-content5) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-container--contattaci-form-content6) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-container--contattaci-form-content7) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-container--contattaci-form-content8) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-container--contattaci-form-content9) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-link--contattaci-form-content1) {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+:global(.vtex-rich-text-0-x-link--contattaci-form-content4) {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+:global(.vtex-rich-text-0-x-link--contattaci-form-content7) {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+:global(.vtex-rich-text-0-x-link--contattaci-form-content1)::before {
+  content: "@";
+  justify-content: space-between;
+  align-items: center;
+  width: 22px;
+  height: 24px;
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 19px;
+  margin-right: 13px;
+}
+
+:global(.vtex-rich-text-0-x-link--contattaci-form-content4)::before {
+  content: "@";
+  justify-content: space-between;
+  align-items: center;
+  width: 22px;
+  height: 24px;
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 19px;
+  margin-right: 13px;
+}
+
+:global(.vtex-rich-text-0-x-link--contattaci-form-content7)::before {
+  content: "@";
+  justify-content: space-between;
+  align-items: center;
+  width: 22px;
+  height: 24px;
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 19px;
+  margin-right: 13px;
+}
+
+:global(.vtex-rich-text-0-x-container--contattaci-form-content2)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/phone.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  width: 19px;
+  height: 19px;
+  margin-right: 16px;
+}
+
+:global(.vtex-rich-text-0-x-container--contattaci-form-content5)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/phone.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  width: 19px;
+  height: 19px;
+  margin-right: 16px;
+}
+
+:global(.vtex-rich-text-0-x-container--contattaci-form-content8)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/phone.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  width: 19px;
+  height: 19px;
+  margin-right: 16px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contattaci-form-content2) {
+  margin-top: 0px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contattaci-form-content3) {
+  margin-top: 0px;
+  margin-left: 35px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contattaci-form-content5) {
+  margin-top: 0px;
+}
+:global(.vtex-rich-text-0-x-paragraph--contattaci-form-content6) {
+  margin-top: 0px;
+  margin-left: 35px;
+}
+:global(.vtex-rich-text-0-x-paragraph--contattaci-form-content8) {
+  margin-top: 0px;
+}
+:global(.vtex-rich-text-0-x-paragraph--contattaci-form-content9) {
+  margin-top: 0px;
+  margin-left: 35px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--campi-obbligatori-contattaci-form) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 12px;
+  line-height: 21px;
+}
+
+
+
+/*rete vendita*/
+
+:global(.vtex-menu-2-x-menuContainer--menu-rete-vendite) {
+  flex-direction: column;
+  width: 60%;
+  margin-top: 15px;
+}
+
+
+
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-rete-vendite) {
+  justify-content: space-between;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-rete-vendite) {
+  align-items: center;
+  position: relative;
+  height: 50px;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-rete-vendite--isOpen)::after {
+  content: "";
+  width: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 8px;
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowup.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-rete-vendite--isClosed)::after {
+  content: "";
+  width: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 8px;
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowdown.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-rete-vendite) {
+  font-size: 0px;
+}
+
+:global(.vtex-menu-2-x-submenuAccordion--submenu-rete-vendite) {
+  padding-left: 0px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--rete-vendita-contact-title) {
+  font-family: "MuseoJHSans500";
+  line-height: 19px;
+  color: #001930;
+  font-size: 18px;
+  margin-bottom: unset;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-rete-vendite) {
+  padding: unset;
+  margin: unset;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--rete-vendita-contact-phone) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  margin: unset;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--rete-vendita-contact-email) {
+  margin: unset;
+}
+
+:global(.vtex-rich-text-0-x-container--rete-vendita-contact-phone) {
+  margin-top: 4px;
+  width: 200px;
+}
+
+
+:global(.vtex-rich-text-0-x-container--rete-vendita-contact-phone)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/phone.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  width: 19px;
+  height: 19px;
+  margin-right: 16px;
+}
+
+:global(.vtex-rich-text-0-x-link--rete-vendita-contact-email) {
+  text-decoration: none;
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-link--rete-vendita-contact-email)::before {
+  content: "@";
+  justify-content: space-between;
+  align-items: center;
+  width: 22px;
+  height: 24px;
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 19px;
+  margin-right: 13px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--rete-vendite-content) {
+  flex-direction: initial;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 68px;
+  align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--flex-row-maggiori-informazioni) {
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--maggiori-informazioni-title) {
+  width: 343px;
+  height: 31px;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--maggiori-informazioni-contact-title) {
+  width: 306px;
+  height: 20px;
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--maggiori-informazioni-contact-phone) {
+  width: 204px;
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: unset;
+  margin-bottom: unset;
+  margin-left: 25px;
+}
+
+:global(.vtex-rich-text-0-x-link--maggiori-informazioni-contact-phone) {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+
+
+
+/* AZIENDA MOBILE start here*/
+
+:global(.vtex-menu-2-x-menuContainer--azienda-mobile) {
+  flex-direction: column;
+}
+
+:global(.vtex-rich-text-0-x-container--azienda-title-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-left: 1.5rem;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-azienda-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+}
+
+
+:global(.vtex-rich-text-0-x-paragraph--chi-siamo-mobile-content) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-azienda-mobile-submenu) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+}
+
+:global(.vtex-menu-2-x-submenuAccordion--submenu-azienda-mobile) {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  padding: unset;
+  width: unset;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--chi-siamo-mobile-photo) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-infoCardImageContainer--chi-siamo-mobile-photo) {
+  width: unset;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--lavora-con-noi-mobile-content) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+/* APRIRE FRANCHISING MOBILE*/
+
+:global(.vtex-rich-text-0-x-headingLevel1--franchising-title1mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  letter-spacing: -0.3px;
+  line-height: 29px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contentFranchising1mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 27px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--about-titleCosaCerchiamomobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 24px;
+  line-height: 27px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contentFranchising2mobile) {
+  margin: unset;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contentFranchising3mobile) {
+  margin: unset;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--about-title3mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 24px;
+  line-height: 27px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--about-title4mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  line-height: 24px;
+}
+:global(.vtex-rich-text-0-x-link--about-title4mobile) {
+  text-decoration: none;
+  color: #001930;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--about-title5mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 24px;
+  line-height: 29px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--textFaqmobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: unset;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--photoStore1mobile) {
+  margin: unset;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--photoStore1mobile) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--photoStore2mobile) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--imageFaqmobile) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--imagePdfmobile) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-infoCardImageContainer--imageFaqmobile) {
+  margin-top: 40px;
+}
+
+:global(.vtex-textPaginaFaqmobile) {
+  color: rgba(0, 25, 48, 0.5);
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: underline;
+  margin: unset;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--textPaginaFaqmobile) {
+  margin-top: unset;
+}
+
+
+
+:global(.vtex-rich-text-0-x-paragraph--textPdfmobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: unset;
+}
+
+
+
+:global(.vtex-rich-text-0-x-paragraph--franchisingButtonmobile) {
+  width: 337px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #aeca3b;
+}
+
+:global(.vtex-franchisingButtonmobile) {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 21px;
+  text-decoration: none;
+  left: 24px;
+  position: relative;
+  top: 14px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--textpdfModalmobile) {
+  color: rgba(0, 25, 48, 0.5);
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: underline;
+  margin: unset;
+}
+
+
+
+:global(.vtex-rich-text-0-x-paragraph--textScaricaPdfmobile) {
+  color: rgba(0, 25, 48, 0.5);
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: underline;
+  margin: unset;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--franchisingButtonmobile) {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+:global(.vtex-store-components-3-x-infoCardImageContainer--imageFaqmobile) {
+  margin-top: unset;
+}
+
+/*FRANCHISING FORM MOBILE start here*/
+
+:global(.vtex-flex-layout-0-x-flexRow--franchisingformmobile) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--aprire-franchisingmobile) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-right: 20px;
+  margin-bottom: unset;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--compila-form-aprire-franchisingmobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: unset;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--campi-obbligatori-franchising-form-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 12px;
+  line-height: 21px;
+  margin-bottom: unset;
+}
+
+/* FRANCHISING FAQ star here*/
+
+:global(.vtex-rich-text-0-x-paragraph--faq-mobile-title) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-right: 60px;
+  margin-bottom: unset;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--faq-mobile-subtitle) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--faq-mobile-question) {
+  font-size: 14px;
+  line-height: 19px;
+  color: #001930;
+  font-family: "MuseoJHSans900";
+}
+
+:global(.vtex-rich-text-0-x-paragraph--faq-mobile-answer) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-container--faq-mobile-answer) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-rich-text-0-x-paragraph--faq-mobile-subtitle) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 24px;
+  line-height: 27px;
+}
+
+:global(.vtex-rich-text-0-x-link--faq-mobile-question) {
+  font-size: 14px;
+  line-height: 19px;
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  text-decoration: none;
+}
+
+/* rete vendite mobile*/
+
+:global(.vtex-rich-text-0-x-paragraph--invia-candidatura-Buttonmobile) {
+  width: 335px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+}
+
+:global(.vtex-invia-candidatura-Buttonmobile) {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  line-height: 21px;
+  left: 60px;
+  position: relative;
+  top: 7px;
+  text-decoration: none;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-azienda-mobile--isOpen)::after {
+  content: "";
+  width: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 8px;
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowup.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-azienda-mobile--isClosed)::after {
+  content: "";
+  width: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 8px;
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowdown.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-azienda-mobile) {
+  font-size: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-azienda-mobile--isOpen) {
+  display: inline-flex!important;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-azienda-mobile--isClosed) {
+  display: inline-flex!important;
+}
+
+/*APRIRE FRANCHISING BANNER MOBILE*/
+
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-aprire-franchising-banner-mobile) {
+  height: 126px;
+  background-color: #001930;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-aprire-franchising-banner-mobile) {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-aprire-franchising-banner-mobile) {
+  position: relative;
+  bottom: 10px;
+}
+
+
+
+:global(.vtex-store-components-3-x-label--banner-mobile) {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+}
+
+/*contattaci mobile*/
+
+:global(.vtex-rich-text-0-x-paragraph--servizioClienti-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contattaci-form-titlebig-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-top: unset;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contattaci-form-title-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+}
+
+:global(.vtex-rich-text-0-x-link--contattaci-form-content1-mobile) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contattaci-form-content2-mobile) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: unset;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contattaci-form-content3-mobile) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  margin-left: 35px;
+  margin-top: unset;
+}
+
+:global(.vtex-rich-text-0-x-link--contattaci-form-content4-mobile) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contattaci-form-content5-mobile) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: unset;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contattaci-form-content6-mobile) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  margin-left: 35px;
+  margin-top: unset;
+}
+
+:global(.vtex-rich-text-0-x-link--contattaci-form-content7-mobile) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contattaci-form-content8-mobile) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: unset;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contattaci-form-content9-mobile) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  margin-left: 35px;
+  margin-top: unset;
+}
+
+:global(.vtex-rich-text-0-x-link--contattaci-form-content1-mobile)::before {
+  content: "@";
+  justify-content: space-between;
+  align-items: center;
+  width: 22px;
+  height: 24px;
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 19px;
+  margin-right: 13px;
+}
+
+:global(.vtex-rich-text-0-x-link--contattaci-form-content4-mobile)::before {
+  content: "@";
+  justify-content: space-between;
+  align-items: center;
+  width: 22px;
+  height: 24px;
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 19px;
+  margin-right: 13px;
+}
+
+:global(.vtex-rich-text-0-x-link--contattaci-form-content7-mobile)::before {
+  content: "@";
+  justify-content: space-between;
+  align-items: center;
+  width: 22px;
+  height: 24px;
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 19px;
+  margin-right: 13px;
+}
+
+:global(.vtex-rich-text-0-x-container--contattaci-form-content2-mobile)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/phone.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  width: 19px;
+  height: 19px;
+  margin-right: 16px;
+}
+
+:global(.vtex-rich-text-0-x-container--contattaci-form-content5-mobile)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/phone.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  width: 19px;
+  height: 19px;
+  margin-right: 16px;
+}
+
+:global(.vtex-rich-text-0-x-container--contattaci-form-content8-mobile)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/phone.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  width: 19px;
+  height: 19px;
+  margin-right: 16px;
+}

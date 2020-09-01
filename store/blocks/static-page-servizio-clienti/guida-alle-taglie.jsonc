@@ -1,0 +1,479 @@
+{
+
+  "store.custom#guida-alle-taglie": {
+      "blocks": [
+        "flex-layout.row#guida-alle-taglie",
+        "flex-layout.row#aprirefranchising",
+        "flex-layout.row#newsletter"
+      ]
+    },
+
+   "flex-layout.row#guida-alle-taglie": {
+       "children": [
+         "tabs-container#guida-alle-taglie"
+       ],
+       "props": {
+       "blockClass": "flex-row-guida-alle-taglie"
+       }
+   },
+
+   "flex-layout.row#aprirefranchising": {
+      "children": [
+       "flex-layout.col#aprirefranchising"
+       ],
+       "props": {
+       "blockClass": "flex-row-aprirefranchising"
+       }
+   },
+
+   "flex-layout.col#aprirefranchising": {
+       "children": [
+       "info-card#contentaprirefranchising"
+       ],
+       "props": {
+       "preventVerticalStretch": true,
+       "blockClass": "aprirefranchising"
+       }
+   },
+
+   "info-card#contentaprirefranchising": {
+        "props": {
+        "id": "info-card-aprirefranchising",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "",
+        "headline": "Apri un franchising iDO",
+        "callToActionText": "Compila il form",
+        "callToActionUrl": "http://www.google.com",
+        "blockClass": "info-card-aprirefranchising",
+        "textAlignment": "center"
+        }
+   },
+
+
+  "tabs-container#guida-alle-taglie": {
+    "props": {
+      "menuTitle": "Servizio clienti",
+      "orientation": "horizontal",
+      "blockClass": "menu",
+      "tabs": [
+        {
+          "title": "Guida alle taglie",
+          "id": "tab-wrapper#guida-alle-taglie"
+        }
+      ]
+    },
+    "children": [
+      "tab-wrapper#guida-alle-taglie"
+    ]
+  },
+
+  "tab-wrapper#guida-alle-taglie": {
+    "props": {
+      "title": "Test 2"
+    },
+    "children": [
+      "flex-layout.col#guida-alle-taglie"
+    ]
+  },
+
+
+
+    "flex-layout.col#guida-alle-taglie": {
+      "children": [
+        "vtex.menu@2.x:menu#guida-alle-taglie"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "guida-alle-taglie"
+      }
+    },
+
+
+    "vtex.menu@2.x:menu#guida-alle-taglie": {
+        "props": {
+          "blockClass": "menu-guida-alle-taglie"
+        },
+        "children": [
+          "menu-item#Abbigliamento",
+          "menu-item#Neonato0-18mesi",
+          "menu-item#Bambina6-36mesi",
+          "menu-item#Bambino6-36mesi",
+          "menu-item#Bambina3-16anni",
+          "menu-item#Bambino3-16anni",
+          "menu-item#Accessori"
+        ]
+      },
+
+      "image#neonato-mesi": {
+                  "props": {
+                    "src": "https://raduthirdbranch--storeido.myvtex.com/arquivos/neonato-mesi@4x.png",
+                    "blockClass": "imageTaglie"
+                  }
+       },
+
+       "image#neonato-altezza": {
+                   "props": {
+                    "src": "https://raduthirdbranch--storeido.myvtex.com/arquivos/neonato-altezza@4x.png",
+                    "blockClass": "imageTaglie"
+                    }
+       },
+
+       "image#neonato-torace": {
+                    "props": {
+                    "src": "https://raduthirdbranch--storeido.myvtex.com/arquivos/neonato-torace@4x.png",
+                    "blockClass": "imageTaglie"
+                    }
+       },
+
+       "image#neonato-vita": {
+                    "props": {
+                    "src": "https://raduthirdbranch--storeido.myvtex.com/arquivos/neonato-vita@4x.png",
+                    "blockClass": "imageTaglie"
+                    }
+       },
+
+       "image#neonato-fianchi": {
+                    "props": {
+                    "src": "https://raduthirdbranch--storeido.myvtex.com/arquivos/neonato-fianchi@4x.png",
+                    "blockClass": "imageTaglie"
+                    }
+       },
+
+       "image#neonato-peso": {
+                    "props": {
+                    "src": "https://raduthirdbranch--storeido.myvtex.com/arquivos/neonato-peso@4x.png",
+                    "blockClass": "imageTaglie"
+                    }
+       },
+
+
+     "menu-item#Abbigliamento": {
+         "props": {
+           "id": "menu-item-abbigliamento",
+           "type": "custom",
+           "highlight": false,
+           "blockClass": "menu-item-guida-alle-taglie",
+           "itemProps": {
+             "type": "internal",
+             "href": "#",
+             "noFollow": false,
+             "tagTitle": "Abbigliamento",
+             "text": "Abbigliamento"
+           },
+
+           "iconToTheRight": true
+         },
+         "blocks": ["vtex.menu@2.x:submenu.accordion#abbigliamento"]
+       },
+
+       "menu-item#Neonato0-18mesi": {
+          "props": {
+           "id": "menu-item-neonato",
+           "type": "custom",
+           "highlight": false,
+           "blockClass": "menu-item-guida-alle-taglie",
+          "itemProps": {
+           "type": "internal",
+             "href": "#",
+             "noFollow": false,
+             "tagTitle": "Neonato      0 - 18 mesi",
+             "text": "Neonato      0 - 18 mesi"
+           },
+           "iconToTheRight": true
+            },
+           "blocks": ["vtex.menu@2.x:submenu.accordion#Neonato0-18mesi"]
+       },
+       "menu-item#Bambina6-36mesi": {
+                 "props": {
+                  "id": "menu-item-neonato",
+                  "type": "custom",
+                  "highlight": false,
+                  "blockClass": "menu-item-guida-alle-taglie",
+                 "itemProps": {
+                  "type": "internal",
+                    "href": "#",
+                    "noFollow": false,
+                    "tagTitle": "Bambina      6 - 36 mesi",
+                    "text": "Bambina      6 - 36 mesi"
+                  },
+                  "iconToTheRight": true
+                   },
+                  "blocks": ["vtex.menu@2.x:submenu.accordion#Bambina6-36mesi"]
+       },
+
+       "menu-item#Bambino6-36mesi": {
+                 "props": {
+                  "id": "menu-item-neonato",
+                  "type": "custom",
+                  "highlight": false,
+                  "blockClass": "menu-item-guida-alle-taglie",
+                 "itemProps": {
+                  "type": "internal",
+                    "href": "#",
+                    "noFollow": false,
+                    "tagTitle": "Bambino      6 - 36 mesi",
+                    "text": "Bambino      6 - 36 mesi"
+                  },
+                  "iconToTheRight": true
+                   },
+                  "blocks": ["vtex.menu@2.x:submenu.accordion#Bambino6-36mesi"]
+       },
+       "menu-item#Bambina3-16anni": {
+                 "props": {
+                  "id": "menu-item-neonato",
+                  "type": "custom",
+                  "highlight": false,
+                  "blockClass": "menu-item-guida-alle-taglie",
+                 "itemProps": {
+                  "type": "internal",
+                    "href": "#",
+                    "noFollow": false,
+                    "tagTitle": "Bambina      3 - 16 anni",
+                    "text": "Bambina      3 - 16 anni"
+                  },
+                  "iconToTheRight": true
+                   },
+                  "blocks": ["vtex.menu@2.x:submenu.accordion#Bambina3-16anni"]
+       },
+       "menu-item#Bambino3-16anni": {
+                 "props": {
+                  "id": "menu-item-neonato",
+                  "type": "custom",
+                  "highlight": false,
+                  "blockClass": "menu-item-guida-alle-taglie",
+                 "itemProps": {
+                  "type": "internal",
+                    "href": "#",
+                    "noFollow": false,
+                    "tagTitle": "Bambino      3 - 16 anni",
+                    "text": "Bambino      3 - 16 anni"
+                  },
+                  "iconToTheRight": true
+                   },
+                  "blocks": ["vtex.menu@2.x:submenu.accordion#Bambino3-16anni"]
+       },
+       "menu-item#Accessori": {
+                 "props": {
+                  "id": "menu-item-neonato",
+                  "type": "custom",
+                  "highlight": false,
+                  "blockClass": "menu-item-guida-alle-taglie",
+                 "itemProps": {
+                  "type": "internal",
+                    "href": "#",
+                    "noFollow": false,
+                    "tagTitle": "Accessori",
+                    "text": "Accessori"
+                  },
+                  "iconToTheRight": true
+                   },
+                  "blocks": ["vtex.menu@2.x:submenu.accordion#Accessori"]
+       },
+
+       "vtex.menu@2.x:submenu.accordion#abbigliamento": {
+           "children": [
+             "image#neonato-mesi",
+             "image#neonato-altezza",
+             "image#neonato-torace",
+             "image#neonato-vita",
+             "image#neonato-fianchi",
+             "image#neonato-peso"
+           ],
+           "props": {
+           "blockClass": "submenu-guida-alle-taglie"
+           }
+         },
+
+           "menu-item#submenu-abbigliamento": {
+           "props": {
+           "id": "menu-item-abbigliamento-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "#",
+           "noFollow": false,
+           "tagTitle": "Guida alle taglie",
+           "text": "Guida alle taglie"
+           }
+         }
+       },
+
+       "vtex.menu@2.x:submenu.accordion#Neonato0-18mesi": {
+             "children": [
+                "image#neonato-mesi",
+                "image#neonato-altezza",
+                "image#neonato-torace",
+                "image#neonato-vita",
+                "image#neonato-fianchi",
+                "image#neonato-peso"
+                ],
+                "props": {
+                "blockClass": "submenu-guida-alle-taglie"
+                }
+             },
+
+              "menu-item#submenu-Neonato0-18mesi": {
+              "props": {
+              "id": "menu-item-neonato-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "Guida alle taglie",
+              "text": "Guida alle taglie"
+              }
+           }
+       },
+
+
+       "vtex.menu@2.x:submenu.accordion#Bambina6-36mesi": {
+              "children": [
+              "image#neonato-mesi",
+              "image#neonato-altezza",
+              "image#neonato-torace",
+              "image#neonato-vita",
+              "image#neonato-fianchi",
+              "image#neonato-peso"
+              ],
+              "props": {
+              "blockClass": "submenu-guida-alle-taglie"
+              }
+       },
+
+              "menu-item#submenu-Bambina6-36mesi": {
+              "props": {
+              "id": "menu-item-abbigliamento-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "Guida alle taglie",
+              "text": "Guida alle taglie"
+              }
+           }
+       },
+
+
+       "vtex.menu@2.x:submenu.accordion#Bambino6-36mesi": {
+              "children": [
+              "image#neonato-mesi",
+              "image#neonato-altezza",
+              "image#neonato-torace",
+              "image#neonato-vita",
+              "image#neonato-fianchi",
+              "image#neonato-peso"
+              ],
+              "props": {
+              "blockClass": "submenu-guida-alle-taglie"
+              }
+       },
+
+              "menu-item#submenu-Bambino6-36mesi": {
+              "props": {
+              "id": "menu-item-abbigliamento-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "Guida alle taglie",
+              "text": "Guida alle taglie"
+              }
+            }
+       },
+       "vtex.menu@2.x:submenu.accordion#Bambina3-16anni": {
+              "children": [
+              "image#neonato-mesi",
+              "image#neonato-altezza",
+              "image#neonato-torace",
+              "image#neonato-vita",
+              "image#neonato-fianchi",
+              "image#neonato-peso"
+              ],
+              "props": {
+              "blockClass": "submenu-guida-alle-taglie"
+              }
+        },
+
+              "menu-item#submenu-Bambina3-16anni": {
+              "props": {
+              "id": "menu-item-abbigliamento-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "Guida alle taglie",
+              "text": "Guida alle taglie"
+              }
+            }
+        },
+        "vtex.menu@2.x:submenu.accordion#Bambino3-16anni": {
+               "children": [
+               "image#neonato-mesi",
+               "image#neonato-altezza",
+               "image#neonato-torace",
+               "image#neonato-vita",
+               "image#neonato-fianchi",
+               "image#neonato-peso"
+               ],
+               "props": {
+               "blockClass": "submenu-guida-alle-taglie"
+               }
+         },
+
+               "menu-item#submenu-Bambino3-16anni": {
+               "props": {
+               "id": "menu-item-abbigliamento-submenu",
+               "type": "custom",
+               "highlight": false,
+               "itemProps": {
+               "type": "internal",
+               "href": "#",
+               "noFollow": false,
+               "tagTitle": "Guida alle taglie",
+               "text": "Guida alle taglie"
+               }
+             }
+         },
+
+         "vtex.menu@2.x:submenu.accordion#Accessori": {
+                "children": [
+                "image#neonato-mesi",
+                "image#neonato-altezza",
+                "image#neonato-torace",
+                "image#neonato-vita",
+                "image#neonato-fianchi",
+                "image#neonato-peso"
+                ],
+                "props": {
+                "blockClass": "submenu-guida-alle-taglie"
+                }
+         },
+
+                "menu-item#submenu-Accessori": {
+                "props": {
+                "id": "menu-item-abbigliamento-submenu",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Guida alle taglie",
+                "text": "Guida alle taglie"
+                }
+             }
+         }
+}
+
+
+

@@ -1,0 +1,14 @@
+@import url('/files/franchising-fixes.css');
+
+
+.tooltipContainer {
+  z-index: 9999999;
+
+}
+.paperScrollContent {
+  overflow: visible;
+}
+
+.paper--modal-aprire-un-franchising-form :global(.vtex-modal-layout-0-x-closeButtonContainer) {
+  padding: 30px;
+}
