@@ -67,8 +67,18 @@
   width: 100%;
 }
 
+@media screen and (max-width: 1025px) {
 
-.locatorSearchContainer--store-locator-mobile {
-  width: 375px!important;
-  height: 164px;
+  .locatorSearchContainer--store-locator-mobile {
+    height: 164px;
+    width: 100%!important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    justify-content: center!important;
+  }
+
+  .locatorInputWrapper--store-locator-mobile {
+    margin-right: 0 !important;
+  }
+
 }

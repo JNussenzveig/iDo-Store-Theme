@@ -1220,5 +1220,9 @@
   text-align: left;
 }
 
+.flexRow--store-locator-home-mobile :global(.vtex-store-components-3-x-container) {
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
 
 
