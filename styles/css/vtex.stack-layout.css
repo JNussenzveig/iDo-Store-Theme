@@ -88,6 +88,14 @@
   color: white;
 }
 
+.stackContainer--hatSliderStack :global(.vtex-button__label) {
+  color: black!important;
+}
+
+.stackContainer--hatSliderStack :global(.vtex-button__label):hover {
+  color: white!important;
+}
+
 
 /*Mobile version styling begins here */
 
