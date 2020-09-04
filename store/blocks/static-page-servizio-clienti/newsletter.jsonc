@@ -2,9 +2,24 @@
 
   "store.custom#iscriviti-alla-newsletter": {
       "blocks": [
+        "responsive-layout.desktop#iscriviti-alla-newsletter",
+        "responsive-layout.mobile#iscriviti-alla-newsletter"
+      ]
+    },
+    "responsive-layout.desktop#iscriviti-alla-newsletter": {
+      "children": [
         "flex-layout.row#newsletter-form"
       ]
     },
+
+    "responsive-layout.mobile#iscriviti-alla-newsletter": {
+      "children": [
+        "flex-layout.row#newsletter-form-mobile"
+      ]
+    },
+
+
+
 
    "flex-layout.row#newsletter-form": {
        "children": [
@@ -197,6 +212,184 @@
 
 
            "form-submit#submit-newsletter-form": {
+             "props": {
+               "label": "ISCRIVITI"
+             }
+           },
+
+ /*mobile*/
+
+   "flex-layout.row#newsletter-form-mobile": {
+       "children": [
+         "flex-layout.col#newsletter-form-mobile"
+       ],
+       "props": {
+       "blockClass": "newsletter-form-mobile"
+       }
+   },
+
+    "flex-layout.col#newsletter-form-mobile": {
+      "children": [
+        "rich-text#iscriviti-alla-newsletter-mobile-title",
+        "rich-text#iscriviti-alla-newsletter-titlebig-mobile",
+        "rich-text#newsletter-form-title1-mobile",
+        "rich-text#newsletter-form-title2-mobile",
+        "form#newsletter-form-mobile"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "newsletter-form-mobile"
+      }
+    },
+
+    "rich-text#newsletter-form-title1-mobile": {
+        "props": {
+          "blockClass": "newsletter-form-title1-mobile",
+          "text":
+          "Rimani aggiornato su novità e trend dal mondo iDO!"
+        }
+    },
+
+    "rich-text#newsletter-form-title2-mobile": {
+        "props": {
+          "blockClass": "newsletter-form-title2-mobile",
+            "text":
+            "Iscriviti subito alla nostra newsletter!"
+        }
+   },
+
+    "form#newsletter-form-mobile": {
+             "props": {
+               "entity": "NF",
+               "schema": "newsletter_form"
+             },
+             "children": [
+              "flex-layout.col#name-newsletter-form-mobile",
+              "flex-layout.col#surname-newsletter-form-mobile",
+              "flex-layout.row#email-newsletter-form-mobile",
+              "rich-text#campi-obbligatori-newsletter-form-mobile",
+              "flex-layout.row#privacy-newsletter-form-mobile",
+              "flex-layout.row#submit-newsletter-form-mobile"
+             ],
+             "blocks": ["form-success#newsletter-form-mobile"]
+           },
+           "form-success#newsletter-form-mobile": {
+             "children": [
+               "rich-text#successSubmitnewsletter-form-mobile"
+             ]
+           },
+           "rich-text#successSubmitnewsletter-form-mobile": {
+             "props": {
+               "text": "Succesfully submitted the data!",
+               "textAlignment": "CENTER",
+               "textPosition": "CENTER"
+             }
+           },
+
+       "flex-layout.col#name-newsletter-form-mobile": {
+         "children": [
+                 "form-input.text#Name2"
+               ],
+               "props": {
+                 "blockClass": "newsletter-form-name-mobile"
+             }
+       },
+      "flex-layout.col#surname-newsletter-form-mobile": {
+        "children": [
+                "form-input.text#Surname2"
+              ],
+              "props": {
+                "blockClass": "newsletter-form-surname-mobile"
+            }
+      },
+
+      "flex-layout.row#email-newsletter-form-mobile": {
+        "children": [
+                "flex-layout.col#email-newsletter-form-mobile"
+              ],
+              "props": {
+                "blockClass": "email-newsletter-form-mobile"
+            }
+      },
+       "flex-layout.col#email-newsletter-form-mobile": {
+         "children": [
+                 "form-input.text#Email2"
+               ],
+               "props": {
+                 "blockClass": "newsletter-form-email-mobile"
+             }
+       },
+
+      "flex-layout.row#privacy-newsletter-form-mobile": {
+        "children": [
+                "form-input.checkbox#Privacy2"
+              ],
+              "props": {
+                "blockClass": "newsletter-form-privacy-mobile"
+            }
+      },
+
+      "flex-layout.row#submit-newsletter-form-mobile": {
+        "children": [
+                "form-submit#submit-newsletter-form"
+              ],
+              "props": {
+                "blockClass": "newsletter-form-submit-mobile"
+            }
+      },
+
+
+
+
+
+           "form-input.text#Name2": {
+             "props": {
+               "pointer": "#/properties/name",
+               "label": "Nome *"
+             }
+           },
+           "form-input.text#Surname2": {
+             "props": {
+               "pointer": "#/properties/surname",
+               "label": "Cognome *"
+             }
+           },
+           "form-input.text#Email2": {
+             "props": {
+               "pointer": "#/properties/email",
+               "label": "Email *"
+             }
+           },
+            "form-input.checkbox#Privacy2": {
+              "props": {
+                "pointer": "#/properties/privacy",
+                "label": "Ho preso visione dell'informativa sulla Privacy ed acconsento al trattamento dei miei dati personali *"
+              }
+            },
+
+           "rich-text#campi-obbligatori-newsletter-form-mobile": {
+                      "props": {
+                        "text": "*Campi obbligatori",
+                        "blockClass": "campi-obbligatori-newsletter-form-mobile"
+                      }
+                },
+   "rich-text#iscriviti-alla-newsletter-mobile-title": {
+       "props": {
+         "blockClass": "iscriviti-alla-newsletter-mobile-title",
+         "text":
+         "Servizio clienti"
+       }
+    },
+
+   "rich-text#iscriviti-alla-newsletter-titlebig-mobile": {
+       "props": {
+         "blockClass": "iscriviti-alla-newsletter-titlebig-mobile",
+         "text":
+         "Iscriviti alla newsletter"
+       }
+    },
+
+           "form-submit#submit-newsletter-form-mobile": {
              "props": {
                "label": "ISCRIVITI"
              }

@@ -2,11 +2,24 @@
 
   "store.custom#tempi-di-consegna": {
       "blocks": [
-        "flex-layout.row#tempi-di-consegna",
-        "flex-layout.row#newsletter"
+      "responsive-layout.desktop#tempi-di-consegna",
+      "responsive-layout.mobile#tempi-di-consegna"
+            ]
+          },
 
-      ]
-    },
+          "responsive-layout.desktop#tempi-di-consegna": {
+            "children": [
+              "flex-layout.row#tempi-di-consegna",
+              "flex-layout.row#newsletter"
+            ]
+          },
+
+          "responsive-layout.mobile#tempi-di-consegna": {
+            "children": [
+              "flex-layout.row#tempi-di-consegna-mobile",
+              "newsletter#banner-mobile"
+            ]
+          },
 
    "flex-layout.row#tempi-di-consegna": {
        "children": [
@@ -209,6 +222,209 @@
     },
 
     "rich-text#tempiDiConsegna10": {
+           "props": {
+           "blockClass": "tempiDiConsegna",
+             "text":
+             "I Prodotti possono essere consegnati dai corrieri solo ai Clienti o a persone da questi incaricate; il soggetto a cui i Prodotti sono consegnati deve apporre una firma per certificare l’avvenuta consegna. I corrieri non effettuano consegne presso caselle postali o mediante inserimento dei Prodotti in buche delle lettere o altri luoghi similari.<br><br>Per ulteriori specifiche leggi le nostre condizioni generali di vendita. "
+           }
+    },
+
+/*mobile*/
+
+   "flex-layout.row#tempi-di-consegna-mobile": {
+       "children": [
+         "flex-layout.col#tempiDiConsegna-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-tempi-di-consegna-mobile"
+       }
+   },
+
+
+
+    "flex-layout.col#tempiDiConsegna-mobile": {
+      "children": [
+        "rich-text#tempiDiConsegna-mobile",
+        "rich-text#tempiDiConsegnatitlebig-mobile",
+        "rich-text#tempiDiConsegna1-mobile",
+        "rich-text#tempiDiConsegnaCap1-mobile",
+        "rich-text#tempiDiConsegna2-mobile",
+        "rich-text#tempiDiConsegnaCap2-mobile",
+        "rich-text#tempiDiConsegna3-mobile",
+        "rich-text#tempiDiConsegnaCap3-mobile",
+        "rich-text#tempiDiConsegna4-mobile",
+        "rich-text#tempiDiConsegnaCap4-mobile",
+        "rich-text#tempiDiConsegna5-mobile",
+        "rich-text#tempiDiConsegnaCap5-mobile",
+        "rich-text#tempiDiConsegna6-mobile",
+        "rich-text#tempiDiConsegnaCap6-mobile",
+        "rich-text#tempiDiConsegna7-mobile",
+        "rich-text#tempiDiConsegnaCap7-mobile",
+        "rich-text#tempiDiConsegna8-mobile",
+        "rich-text#tempiDiConsegnaCap8-mobile",
+        "rich-text#tempiDiConsegna9-mobile",
+        "rich-text#tempiDiConsegnaCap9-mobile",
+        "rich-text#tempiDiConsegna10-mobile"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "tempiDiConsegna-mobile"
+      }
+    },
+
+   "rich-text#tempiDiConsegna-mobile": {
+       "props": {
+         "blockClass": "tempiDiConsegna-mobile",
+         "text":
+         "Servizio clienti"
+       }
+    },
+
+   "rich-text#tempiDiConsegnatitlebig-mobile": {
+       "props": {
+         "blockClass": "tempiDiConsegna-titlebig-mobile",
+         "text":
+         "Tempi di consegna"
+       }
+    },
+    "rich-text#tempiDiConsegna1-mobile": {
+        "props": {
+          "blockClass": "tempiDiConsegna",
+          "text":
+          "Nella versione italiana del sito www.ido.it è possibile acquistare solo dall’Italia e consegnare i Prodotti in Italia.<br><br>Per garantire una rapida consegna, il negozio on line Miniconf S.p.a. si affida ai migliori corrieri espressi selezionati a seconda della destinazione. Il costo di spedizione risulterà nel carrello e verrà aggiunto al totale dell'ordine durante il processo di acquisto e sarà addebitato al momento del pagamento. Nulla sarà quindi dovuto al corriere al momento della consegna, fatta salva l’ipotesi di pagamento tramite contrassegno."
+        }
+    },
+
+    "rich-text#tempiDiConsegnaCap1-mobile": {
+        "props": {
+          "blockClass": "capTempiDiConsegna",
+            "text":
+            "9.1"
+        }
+   },
+   "rich-text#tempiDiConsegna2-mobile": {
+        "props": {
+          "blockClass": "tempiDiConsegna",
+            "text":
+            "Premesso che per “spedizione” dei Prodotti da parte di Miniconf S.p.a. si intende la consegna degli stessi ai corrieri di volta in volta selezionati, Miniconf S.p.a. non è tenuta alla spedizione dei Prodotti fino a quando non ha ricevuto il pagamento del prezzo; una volta ricevuto il pagamento del prezzo, Miniconf S.p.a. si impegna a spedire i Prodotti:<br><br>(i) nel caso di Prodotti disponibili (come definiti all’art. 5):<br><br>- entro 3 giorni lavorativi dal ricevimento della comunicazione di autorizzazione di addebito di cui all’art. 8.2 in caso di pagamento tramite carta di credito;<br><br>- entro 3 giorni lavorativi dal momento in cui è stata resa disponibile a Miniconf S.p.a. l’informazione di avvenuto pagamento in caso di pagamento con mezzi diversi dalla carta di credito;<br><br>(ii) in caso di indisponibilità sopravvenuta di un Prodotto indicato come disponibile al momento dell’invio dell’Ordine da parte del Cliente, Miniconf S.p.a. si impegna a darne comunicazione a mezzo e-mail o telefono al Cliente, proponendo se possibile una alternativa, congelando il pagamento se effettuato tramite carta di credito.<br><br>In questo caso Miniconf S.p.a. darà al Cliente la possibilità di confermare o integrare l’Ordine secondo le modalità di cui all’art. 5.3 che precede."
+        }
+   },
+   "rich-text#tempiDiConsegnaCap2-mobile": {
+         "props": {
+          "blockClass": "capTempiDiConsegna",
+            "text":
+            "9.2"
+           }
+    },
+    "rich-text#tempiDiConsegna3-mobile": {
+          "props": {
+          "blockClass": "tempiDiConsegna",
+            "text":
+            "Miniconf S.p.a. garantisce la spedizione dei Prodotti, tramite corrieri espressi di volta in volta selezionati a seconda del Prodotto oggetto dell’Ordine e del luogo di destinazione. I Prodotti sono spediti da Miniconf S.p.a. e consegnati dal corriere selezionato da Miniconf S.p.a. all’indirizzo indicato dai Clienti al momento della registrazione di cui all’art. 3 o al diverso indirizzo indicato al momento dell’invio dell’Ordine secondo le modalità di cui all’art. 7 che precede."
+          }
+    },
+    "rich-text#tempiDiConsegnaCap3-mobile": {
+          "props": {
+           "blockClass": "capTempiDiConsegna",
+             "text":
+             "9.3"
+          }
+    },
+    "rich-text#tempiDiConsegna4-mobile": {
+           "props": {
+           "blockClass": "tempiDiConsegna",
+             "text":
+             "Miniconf S.p.a. si impegna a fare tutto quanto nelle sue possibilità affinché i Prodotti spediti ai sensi degli artt. 9.1 e 9.2 siano consegnati dai corrieri selezionati entro 72 ore dalla data di spedizione."
+          }
+    },
+    "rich-text#tempiDiConsegnaCap4-mobile": {
+           "props": {
+           "blockClass": "capTempiDiConsegna",
+             "text":
+             "9.4"
+           }
+    },
+
+    "rich-text#tempiDiConsegna5-mobile": {
+           "props": {
+           "blockClass": "tempiDiConsegna",
+              "text":
+              "I Termini di consegna di cui all’art. 9.3, non possono, in ogni caso, essere ritenuti vincolanti e Miniconf S.p.a., non potendo controllare direttamente le consegne dei Prodotti successivamente alla loro spedizione, non può essere ritenuta in alcun modo responsabile per il loro mancato rispetto."
+           }
+    },
+
+    "rich-text#tempiDiConsegnaCap5-mobile": {
+           "props": {
+           "blockClass": "capTempiDiConsegna",
+              "text":
+              "9.5"
+           }
+    },
+
+    "rich-text#tempiDiConsegna6-mobile": {
+           "props": {
+           "blockClass": "tempiDiConsegna",
+              "text":
+              "Al fine di permettere ai Clienti di seguire lo stato degli Ordini, Miniconf S.p.a. genera un numero d’Ordine che, inserito nella sezione “I miei ordini”, accessibile da tutte le pagine del Negozio On line, consente di verificare tutte le informazioni relative agli Ordini."
+           }
+    },
+
+    "rich-text#tempiDiConsegnaCap6-mobile": {
+           "props": {
+           "blockClass": "capTempiDiConsegna",
+              "text":
+              "9.6"
+           }
+    },
+
+    "rich-text#tempiDiConsegna7-mobile": {
+           "props": {
+           "blockClass": "tempiDiConsegna",
+              "text":
+              "I Clienti potranno sempre verificare lo stato degli Ordini grazie alla funzione on line “Order Tracking” fornita dal corriere scelto da Miniconf S.p.a per la consegna. Tale verifica può essere effettuata dai Clienti solo successivamente alla spedizione dei Prodotti e utilizzando i dati per la tracciatura comunicati da Miniconf S.p.a. a mezzo e-mail oppure accedendo al Profilo."
+           }
+    },
+
+    "rich-text#tempiDiConsegnaCap7-mobile": {
+           "props": {
+           "blockClass": "capTempiDiConsegna",
+              "text":
+              "9.7"
+           }
+    },
+
+    "rich-text#tempiDiConsegna8-mobile": {
+           "props": {
+           "blockClass": "tempiDiConsegna",
+             "text":
+             "I Clienti, o altri soggetti incaricati dai Clienti che si trovino all’indirizzo indicato per la consegna dei Prodotti nella Conferma dell’Ordine, sono tenuti a verificare, al momento della consegna, che:<br><br>(i) i Prodotti corrispondano a quanto indicato nel documento di trasporto del corriere (DDT) sia per numero che per tipologia;<br><br>(ii) l’imballaggio/la confezione dei Prodotti sia integra, non danneggiata, né bagnata o comunque alterata, anche nei materiali di chiusura."
+           }
+    },
+    "rich-text#tempiDiConsegnaCap8-mobile": {
+           "props": {
+           "blockClass": "capTempiDiConsegna",
+             "text":
+              "9.8"
+           }
+   },
+
+   "rich-text#tempiDiConsegna9-mobile": {
+           "props": {
+           "blockClass": "tempiDiConsegna",
+             "text":
+             "Qualsiasi danno all’imballaggio/confezione dei Prodotti deve essere immediatamente contestato dai Clienti mediante l’apposizione di una riserva di controllo scritta sulla prova di avvenuta consegna del corriere. Resta inteso che, una volta firmato il documento del corriere senza alcuna contestazione, i Clienti non possono più sollevare alcuna contestazione a Miniconf S.p.a. con riferimento alle caratteristiche esteriori di quanto consegnato."
+           }
+   },
+
+   "rich-text#tempiDiConsegnaCap9-mobile": {
+           "props": {
+           "blockClass": "capTempiDiConsegna",
+             "text":
+              "9.9"
+           }
+    },
+
+    "rich-text#tempiDiConsegna10-mobile": {
            "props": {
            "blockClass": "tempiDiConsegna",
              "text":

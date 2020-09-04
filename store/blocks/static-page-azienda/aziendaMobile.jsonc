@@ -196,8 +196,8 @@
 
           "vtex.menu@2.x:submenu.accordion#il-nostro-impegno-mobile": {
               "children": [
-              "rich-text#chi-siamo-mobile-content",
-              "info-card#chi-siamo-mobile-photo"
+              "rich-text#titleil-nostro-impegno-mobile",
+              "rich-text#contentil-nostro-impegno-mobile"
               ],
               "props": {
               "blockClass": "submenu-azienda-mobile"
@@ -218,6 +218,21 @@
               }
             }
           },
+
+      "rich-text#titleil-nostro-impegno-mobile": {
+          "props": {
+            "blockClass": "titleil-nostro-impegno-mobile",
+            "text":
+            "L’impegno di iDO ruota intorno al rispetto dei quattro valori fondanti: rispetto, lealtà, trasparenza e senso di appartenenza."
+          }
+      },
+      "rich-text#contentil-nostro-impegno-mobile": {
+         "props": {
+           "blockClass": "contentil-nostro-impegno-mobile",
+           "text":
+           "Il risultato è una collezione dallo stile unico ma che sappia anche essere confortevole, durevole e sicura per il bambino, con l’obiettivo di migliorare sia la qualità della vita del bambino che il mondo in cui viviamo.<br><br>Da sempre, l’azienda richiede esplicitamente a tutti i collaboratori, partner e fornitori di iDO di condividere i propri valori tramite l’adozione di un codice di condotta che definisce questi principi cardine in tema di sicurezza e tutela ambientale per tutti i processi produttivi.<br><br>La certificazione UNI EN ISO 104001 è un importante passo in questa direzione.<br><br>Quella di iDO è quindi una missione quotidiana, una mentalità radicata da decenni e che riguarda trasversalmente il benessere, la responsabilità sociale, la sostenibilità ambientale e la sicurezza. Questa missione è avvalorata anche dalle numerose iniziative di natura benefica e socioculturale di cui iDO si rende protagonista sul territorio."
+         }
+       },
 
 
           "vtex.menu@2.x:submenu.accordion#aprire-franchising-mobile": {
@@ -427,7 +442,7 @@
 
             "rich-text#paginaFaqmobile": {
               "props": {
-                "text": "<a class='vtex-textPaginaFaqmobile' href='https://raduthirdbranch--storeido.myvtex.com/franchising-faq?__bindingAddress=www.ido.it/it'>Vai alla pagina FAQ",
+                "text": "<a class='vtex-textPaginaFaqmobile' href='https://radufivebranch--storeido.myvtex.com/franchising-faq?__bindingAddress=www.ido.it/it'>Vai alla pagina FAQ",
                 "blockClass": "textPaginaFaqmobile"
               }
             },
@@ -499,7 +514,7 @@
 
             "rich-text#franchisingTextButtonmobile": {
               "props": {
-                "text": "<a class='vtex-franchisingButtonmobile' href='https://raduthirdbranch--storeido.myvtex.com/franchising-form?__bindingAddress=www.ido.it/it'>Apri un franchising iDO",
+                "text": "<a class='vtex-franchisingButtonmobile' href='https://radufivebranch--storeido.myvtex.com/franchising-form?__bindingAddress=www.ido.it/it'>Apri un franchising iDO",
                 "blockClass": "franchisingButtonmobile"
               }
             },

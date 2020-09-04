@@ -520,7 +520,7 @@
   line-height: 29px;
 }
 
-:global(.vtex-rich-text-0-x-wrapper--textPdf) {
+:global(.vtex-rich-text-0-x-paragraph--textPdf) {
   width: 304px;
   height: 77px;
   color: #001930;
@@ -593,7 +593,6 @@
 
 
 :global(.vtex-rich-text-0-x-wrapper--franchisingButton) {
-  left: 50%;
   position: relative;
 }
 
@@ -625,16 +624,27 @@
 /*AZIENDA-modal faq questions*/
 
 :global(.vtex-rich-text-0-x-paragraph--textFaqModal) {
-  color: transparent;
+  color: rgba(0, 25, 48, 0.5);
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: underline;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--textPdfModal) {
-  top: 23px;
-  position: relative;
-  color: transparent;
+  color: rgba(0, 25, 48, 0.5);
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: underline;
 }
 
 :global(.vtex-rich-text-0-x-container--textFaqModal) {
+  position: relative;
+  bottom: 26px;
+}
+
+:global(.vtex-rich-text-0-x-container--textPdfModal) {
   position: relative;
   bottom: 26px;
 }
@@ -721,11 +731,6 @@
   line-height: 21px;
   margin-left: 33px;
 }
-
-
-
-
-
 
 /*larmocromia*/
 
@@ -1306,7 +1311,6 @@
   height: 40px;
   border-radius: 20px;
   background-color: #001930;
-  position: absolute;
 }
 
 :global(.vtex-rich-text-0-x-container--scorpi-tutti-i-prodotti-button) {
@@ -1331,10 +1335,7 @@
 
 /* lacromonia trova il negozio*/
 
-:global(.vtex-flex-layout-0-x-flexRowContent--flex-row-larocromiaaprirefranchising) {
-  padding-right: 76px;
-  padding-left: 76px;
-}
+
 
 :global(.vtex-store-components-3-x-infoCardContainer--info-card-larocromiaaprirefranchising-desktop) {
   margin-top: 72px;
@@ -1366,46 +1367,6 @@
   position: absolute;
   right: 0px;
 }
-
-/* lacromonia aiuto*/
-
-:global(.vtex-flex-layout-0-x-flexRowContent--flex-row-aiuto) {
-  padding-right: 76px;
-  padding-left: 76px;
-}
-
-:global(.vtex-store-components-3-x-infoCardContainer--info-card-aiuto) {
-  margin-top: 72px;
-  position: relative;
-  height: 141px;
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Questa_sezione.png);
-  background-size: cover;
-}
-
-:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-aiuto) {
-  justify-content: center;
-  padding-left: 40px;
-  padding-right: 0px;
-  position: relative;
-  width: 100%;
-}
-
-:global(.vtex-store-components-3-x-infoCardHeadline--info-card-aiuto) {
-  width: 32%;
-  text-align: left;
-  height: 29px;
-  color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 25px;
-  line-height: 29px;
-  margin-top: unset;
-}
-
-:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-aiuto) {
-  position: absolute;
-  right: 0px;
-}
-
 
 
 /*SERVIZIO CLIENTI-GUIDA ALLE TAGLIE*/
@@ -2529,6 +2490,7 @@
   font-family: "MuseoJHSans500";
   font-size: 18px;
   line-height: 21px;
+  margin-left: 10px;
 }
 
 /*contattaci mobile*/
@@ -2704,3 +2666,780 @@
   height: 19px;
   margin-right: 16px;
 }
+
+/*tempi di consegna mobile*/
+
+:global(.vtex-rich-text-0-x-paragraph--tempiDiConsegna-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--tempiDiConsegna-titlebig-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-top: 0px;
+}
+
+/*reso e cambi mobile*/
+
+:global(.vtex-rich-text-0-x-paragraph--reso-e-cambi-mobile) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--reso-e-cambi-mobile-title) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--reso-e-cambi-titlebig-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-top: 0px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--reso-e-cambi-title-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 25px;
+}
+
+:global(.vtex-rich-text-0-x-link--reso-e-cambi-mobile) {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+/*order procesing mobile*/
+
+:global(.vtex-rich-text-0-x-paragraph--order-processing-title-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 25px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--order-processing-mobile-title) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--order-processing-titlebig-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-top: 0px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--order-processing-mobile) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+/* guida alle taglie mobile*/
+
+:global(.vtex-rich-text-0-x-paragraph--guida-alle-taglie-mobile-title) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--guida-alle-taglie-titlebig-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-top: 0px;
+}
+
+/* il nostro impegno desktop*/
+
+:global(.vtex-rich-text-0-x-paragraph--titleil-nostro-impegno) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 24px;
+  text-transform: lowercase;
+}
+:global(.vtex-rich-text-0-x-paragraph--contentil-nostro-impegno) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+/* il nostro impegno mobile*/
+
+:global(.vtex-rich-text-0-x-paragraph--titleil-nostro-impegno-mobile) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--contentil-nostro-impegno-mobile) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+/*lavora con noi desktop*/
+
+:global(.vtex-rich-text-0-x-paragraph--lavora-con-noi-content) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: 30px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--invia-candidatura-Button) {
+  width: 335px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+}
+
+:global(.vtex-invia-candidatura-Button) {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+}
+
+/*iscrivitti alla newsletter mobile*/
+
+:global(.vtex-rich-text-0-x-paragraph--iscriviti-alla-newsletter-mobile-title) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--iscriviti-alla-newsletter-titlebig-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-top: 0px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--newsletter-form-title1-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 25px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--newsletter-form-title2-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  line-height: 21px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--campi-obbligatori-newsletter-form-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 12px;
+  line-height: 21px;
+}
+
+/*larmocromia mobile*/
+
+:global(.vtex-rich-text-0-x-paragraph--larmocromia-title-menu-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--larmocromia-title1-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+}
+:global(.vtex-rich-text-0-x-paragraph--larmocromia-content1-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  line-height: 21px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--larmocromia-title2-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-larmocromia-moro-con-carnagione-chiara-mobile) {
+  margin: unset;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-larmocromia-moro-con-carnagione-scura-mobile) {
+  margin: unset;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-larmocromia-moro-mobile) {
+  margin: unset;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-larmocromia-castano-con-carnagione-chiara-mobile) {
+  margin: unset;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-larmocromia-castano-con-carnagione-scura-mobile) {
+  margin: unset;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-larmocromia-biondo-con-carnagione-chiara-mobile) {
+  margin: unset;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-larmocromia-biondo-con-carnagione-scura-mobile) {
+  margin: unset;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-larmocromia-rosso-mobile) {
+  margin: unset;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-larmocromia-albino-mobile) {
+  margin: unset;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-con-carnagione-chiara-mobile)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/moro_con_carnagione_chiara.png);
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  height: 87px;
+  width: 87px;
+  margin-right: 13px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-con-carnagione-scura-mobile)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/moro_con_carnagione_scura.png);
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  height: 87px;
+  width: 87px;
+  margin-right: 13px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-mobile)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/moro.png);
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  height: 87px;
+  width: 87px;
+  margin-right: 13px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-castano-con-carnagione-chiara-mobile)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Castano_con_carnagione_chiara.png);
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  height: 87px;
+  width: 87px;
+  margin-right: 13px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-castano-con-carnagione-scura-mobile)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Castano_con_carnagione_scura.png);
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  height: 87px;
+  width: 87px;
+  margin-right: 13px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-biondo-con-carnagione-chiara-mobile)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Biondo_con_carnagione_chiaras.png);
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  height: 87px;
+  width: 87px;
+  margin-right: 13px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-biondo-con-carnagione-scura-mobile)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Biondo_con_carnagione_scura.png);
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  height: 87px;
+  width: 87px;
+  margin-right: 13px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-rosso-mobile)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Rosso.png);
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  height: 87px;
+  width: 87px;
+  margin-right: 13px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-albino-mobile)::before {
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Albino.png);
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  justify-content: space-between;
+  align-items: center;
+  height: 87px;
+  width: 87px;
+  margin-right: 13px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-con-carnagione-chiara-mobile) {
+  color: #001930;
+  justify-content: flex-start;
+  align-items: center;
+  height: 87px;
+  font-family: "MuseoJHSans500";
+  font-size: 23px;
+  line-height: 26px;
+  position: relative;
+  white-space: pre-wrap;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-con-carnagione-scura-mobile) {
+  color: #001930;
+  justify-content: flex-start;
+  align-items: center;
+  height: 87px;
+  font-family: "MuseoJHSans500";
+  font-size: 23px;
+  line-height: 26px;
+  position: relative;
+  white-space: pre-wrap;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-mobile) {
+  color: #001930;
+  justify-content: flex-start;
+  align-items: center;
+  height: 87px;
+  font-family: "MuseoJHSans500";
+  font-size: 23px;
+  line-height: 26px;
+  position: relative;
+  white-space: pre-wrap;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-castano-con-carnagione-chiara-mobile) {
+  color: #001930;
+  justify-content: flex-start;
+  align-items: center;
+  height: 87px;
+  font-family: "MuseoJHSans500";
+  font-size: 23px;
+  line-height: 26px;
+  position: relative;
+  white-space: pre-wrap;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-castano-con-carnagione-scura-mobile) {
+  color: #001930;
+  justify-content: flex-start;
+  align-items: center;
+  height: 87px;
+  font-family: "MuseoJHSans500";
+  font-size: 23px;
+  line-height: 26px;
+  position: relative;
+  white-space: pre-wrap;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-biondo-con-carnagione-chiara-mobile) {
+  color: #001930;
+  justify-content: flex-start;
+  align-items: center;
+  height: 87px;
+  font-family: "MuseoJHSans500";
+  font-size: 23px;
+  line-height: 26px;
+  position: relative;
+  white-space: pre-wrap;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-biondo-con-carnagione-scura-mobile) {
+  color: #001930;
+  justify-content: flex-start;
+  align-items: center;
+  height: 87px;
+  font-family: "MuseoJHSans500";
+  font-size: 23px;
+  line-height: 26px;
+  position: relative;
+  white-space: pre-wrap;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-rosso-mobile) {
+  color: #001930;
+  justify-content: flex-start;
+  align-items: center;
+  height: 87px;
+  font-family: "MuseoJHSans500";
+  font-size: 23px;
+  line-height: 26px;
+  position: relative;
+  white-space: pre-wrap;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-albino-mobile) {
+  color: #001930;
+  padding-bottom: 15px;
+  justify-content: flex-start;
+  align-items: center;
+  height: 87px;
+  font-family: "MuseoJHSans500";
+  font-size: 23px;
+  line-height: 26px;
+  position: relative;
+  white-space: pre-wrap;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-moro-con-carnagione-chiara-mobile--isClosed) {
+  font-size: 35px;
+  color: #000000;
+  font-family: "MuseoJHSans300";
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-moro-con-carnagione-chiara-mobile--isOpen) {
+  font-size: 35px;
+  color: #000000;
+  font-family: monospace;
+  position: absolute;
+  right: 0px;
+}
+
+
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-moro-con-carnagione-scura-mobile--isClosed) {
+  font-size: 35px;
+  color: #000000;
+  font-family: "MuseoJHSans300";
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-moro-con-carnagione-scura-mobile--isOpen) {
+  font-size: 35px;
+  color: #000000;
+  font-family: monospace;
+  position: absolute;
+  right: 0px;
+}
+
+
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-moro-mobile--isClosed) {
+  font-size: 35px;
+  color: #000000;
+  font-family: "MuseoJHSans300";
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-moro-mobile--isOpen) {
+  font-size: 35px;
+  color: #000000;
+  font-family: monospace;
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-castano-con-carnagione-chiara-mobile--isClosed) {
+  font-size: 35px;
+  color: #000000;
+  font-family: "MuseoJHSans300";
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-castano-con-carnagione-chiara-mobile--isOpen) {
+  font-size: 35px;
+  color: #000000;
+  font-family: monospace;
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-castano-con-carnagione-scura-mobile--isClosed) {
+  font-size: 35px;
+  color: #000000;
+  font-family: "MuseoJHSans300";
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-castano-con-carnagione-scura-mobile--isOpen) {
+  font-size: 35px;
+  color: #000000;
+  font-family: monospace;
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-biondo-con-carnagione-chiara-mobile--isClosed) {
+  font-size: 35px;
+  color: #000000;
+  font-family: "MuseoJHSans300";
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-biondo-con-carnagione-chiara-mobile--isOpen) {
+  font-size: 35px;
+  color: #000000;
+  font-family: monospace;
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-biondo-con-carnagione-scura-mobile--isClosed) {
+  font-size: 35px;
+  color: #000000;
+  font-family: "MuseoJHSans300";
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-biondo-con-carnagione-scura-mobile--isOpen) {
+  font-size: 35px;
+  color: #000000;
+  font-family: monospace;
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-rosso-mobile--isClosed) {
+  font-size: 35px;
+  color: #000000;
+  font-family: "MuseoJHSans300";
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-rosso-mobile--isOpen) {
+  font-size: 35px;
+  color: #000000;
+  font-family: monospace;
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-albino-mobile--isClosed) {
+  font-size: 35px;
+  color: #000000;
+  font-family: "MuseoJHSans300";
+  position: absolute;
+  right: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-albino-mobile--isOpen) {
+  font-size: 35px;
+  color: #000000;
+  font-family: monospace;
+  position: absolute;
+  right: 0px;
+}
+
+
+:global(.vtex-rich-text-0-x-paragraph--larmocromia-title3-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--larmocromia-content3-mobile) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--larmocromia-title4-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--larmocromia-content4-mobile) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
+:global(.vtex-link-scorpi-tutti-i-prodotti-mobile) {
+  color: white;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--scorpi-tutti-i-prodotti-button-mobile) {
+  width: 296px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+}
+
+:global(.vtex-rich-text-0-x-container--scorpi-tutti-i-prodotti-button-mobile) {
+  position: relative;
+  justify-content: center;
+  margin-bottom: 54px;
+}
+
+:global(.vtex-link-scorpi-tutti-i-prodotti-mobile) {
+  width: 236px;
+  height: 22px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* lacromonia trova il negozio mobile*/
+
+
+
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-trova-il-negozio-iDO-mobile) {
+  position: relative;
+  height: 164px;
+  background-color: #001930;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-trova-il-negozio-iDO-mobile) {
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-trova-il-negozio-iDO-mobile) {
+  text-align: center;
+  height: 29px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-top: 22px;
+  margin-bottom: 19px;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-trova-il-negozio-iDO-mobile) {
+  right: 0px;
+}
+
+

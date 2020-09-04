@@ -1,15 +1,13 @@
 /*Azienda*/
 
 .tabsButtonsContainer {
-  width: 18%;
-  margin-right: 88px;
-  margin-left: 76px;
+  width: 25%;
 }
 
 
 .tabContentContainer {
-  width: 83%;
-  margin-right: 76px;
+  width: 75%;
+
 }
 
 .tabButtonTitle {
