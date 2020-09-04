@@ -600,6 +600,19 @@
   border-radius: 50%;
 }
 
+.filter__container--specificationFilter_19 .filterItem :global(.vtex-checkbox__inner-container) {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #001930;
+  border-radius: 50%;
+}
+
+.filter__container--specificationFilter_19 .filterItem {
+  padding-top: 5px;
+  padding-bottom: 0!important;
+  margin-left: 18px;
+}
+
 .filter__container--specificationFilter_19 .filterItem--M :global(.vtex-checkbox__inner-container) {
   width: 20px;
   height: 20px;
