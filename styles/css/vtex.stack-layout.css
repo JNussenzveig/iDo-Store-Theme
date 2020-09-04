@@ -182,6 +182,14 @@
   color: white;
 }
 
+.stackContainer :global(.vtex-button__label) {
+  color: black!important;
+}
+
+.stackContainer :global(.vtex-button__label):hover {
+  color: white!important;
+}
+
 /*desktop*/
 :global(.vtex-store-components-3-x-infoCardHeadline--secondLayer) {
   position: absolute;
