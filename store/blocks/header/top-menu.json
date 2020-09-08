@@ -48,10 +48,11 @@
       },
       "itemProps": {
         "type": "internal",
-        "href": "/location"
+        "href": "/our-stores"
       }
     }
   },
+
   "menu-item#vtex-heart": {
     "props": {
       "id": "menu-item-location-icon",

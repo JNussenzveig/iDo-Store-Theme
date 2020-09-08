@@ -51,7 +51,7 @@
       "textPosition": "left",
       "imageUrl": "/arquivos/shopbylook.png",
       "callToActionText": "SHOP THE LOOK",
-      "callToActionUrl": "kitlook",
+      "callToActionUrl": "/Tutti-i-Prodotti?__bindingAddress=www.ido.it/it&map=c,c&query=/Tutti-i-Prodotti/testkitlook",
       "blockClass": "info-card-shop-by-look",
       "textAlignment": "center"
     }
@@ -116,7 +116,7 @@
       "textPosition": "left",
       "imageUrl": "/arquivos/shopbylookmobile.png",
       "callToActionText": "SHOP THE LOOK",
-      "callToActionUrl": "kitlook",
+      "callToActionUrl": "/tutti-i-prodotti",
       "blockClass": "info-card-shop-by-look-mobile",
       "textAlignment": "center"
     }
