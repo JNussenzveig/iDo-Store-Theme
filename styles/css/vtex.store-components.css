@@ -1278,3 +1278,59 @@
     color: black!important;
   }
 }
+
+/* shop by look page */
+
+  .infoCardContainer--info-card-shop-by-look {
+    height: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+  }
+
+  .infoCardContainer--info-card-shop-by-look :global(.vtex-button__label){
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  .infoCardContainer--info-card-shop-by-look :global(.vtex-button){
+    width: 280px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    position: absolute;
+    bottom: 52px;
+    left: 39px;
+  }
+
+  .infoCardContainer--info-card-shop-by-look-mobile {
+    height: 375px;
+    position: relative;
+  }
+
+  .infoCardContainer--info-card-shop-by-look-mobile :global(.vtex-button__label){
+    width: 100%;
+    height: 22px;
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  .infoCardContainer--info-card-shop-by-look-mobile :global(.vtex-button){
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    position: absolute;
+    bottom: 22px;
+    left: 22px;
+  }
+
+
+
+/* shop by look page END*/
