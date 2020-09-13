@@ -2,6 +2,59 @@
 
 }
 
+.storeLocatorContainer {
+  flex-direction: row-reverse!important;
+}
+
+.storeLocatorContainer :global(.vtex-button) {
+  width: 335px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+  border: none;
+  outline: none;
+}
+
+.storeLocatorContainer :global(.vtex-button__label) {
+  height: 21px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: none;
+}
+
+.storeItemAddress {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.storeItemName {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 20px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+
+.storeLocatorContainer :global(.vtex__icon-caret-up) {
+  color: #001930!important;
+}
+
+.storeLocatorContainer :global(.vtex__icon-caret-down) {
+  color: #001930!important;
+}
+
+.storeLocatorContainer :global(.vtex-styleguide-9-x-jsFocusVisible) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 14px;
+  line-height: 19px;
+}
+
 
 .locatorSearchContainer {
   position: relative;

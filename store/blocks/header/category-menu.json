@@ -342,10 +342,7 @@
         "tagTitle": "More",
         "text": "ARMOCROMIA"
       }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#more"
-    ]
+    }
   },
   "vtex.menu@2.x:submenu#more": {
     "props": {
