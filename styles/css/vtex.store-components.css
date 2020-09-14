@@ -1180,63 +1180,66 @@
   margin-top: 4px;
 }
 
-:global(.vtex-slider-layout-0-x-sliderLayoutContainer--storePhoto) .infoCardImageContainer { width: 100% }
 
-:global(.vtex-store-components-3-x-infoCardImageContainer) { width: 100% }
+@media screen and (min-width: 1026px) {
 
-:global(.vtex-flex-layout-0-x-flexColChild--franchising-about-us) {
-  justify-content: center;
-  height: auto;
+  .infoCardCallActionContainer--info-card-fidelity-card :global(.vtex-button__label) {
+    color: black!important;
+  }
 }
 
-:global(.vtex-rich-text-0-x-container--franchisingButton) {
-  justify-content: center;
-  display: flex;
-}
+/* shop by look page */
 
-:global(.vtex-flex-layout-0-x-flexRowContent--invia-candidatura-Button) {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .infoCardContainer--info-card-shop-by-look {
+    height: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+  }
 
-.flexRow--newsletter-form-submit-mobile :global(.vtex-store-form-0-x-formSubmitContainer) {
-  margin-left: 0px;
-}
+  .infoCardContainer--info-card-shop-by-look :global(.vtex-button__label){
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 18px;
+    text-transform: uppercase;
+  }
 
-/* trova il negozio banner mobile*/
+  .infoCardContainer--info-card-shop-by-look :global(.vtex-button){
+    width: 280px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    position: absolute;
+    bottom: 52px;
+    left: 39px;
+  }
 
-:global(.vtex-store-components-3-x-infoCardImageContainer--info-card-trova-il-negozio-iDO-mobile) {
-  display: none;
-}
+  .infoCardContainer--info-card-shop-by-look-mobile {
+    height: 375px;
+    position: relative;
+  }
+
+  .infoCardContainer--info-card-shop-by-look-mobile :global(.vtex-button__label){
+    width: 100%;
+    height: 22px;
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  .infoCardContainer--info-card-shop-by-look-mobile :global(.vtex-button){
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    position: absolute;
+    bottom: 22px;
+    left: 22px;
+  }
 
 
-.infoCardTextContainer--info-card-trova-il-negozio-iDO-mobile :global(.vtex-button) {
-  width: 340px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: #ffffff;
-}
-.infoCardTextContainer--info-card-trova-il-negozio-iDO-mobile :global(.vtex-button__label) {
-  color: #5a5a5a;
-  font-family: "MuseoJHSans300";
-  font-size: 18px;
-  line-height: 21px;
-}
 
-:global(.vtex-store-components-3-x-form--banner-mobile) {
-  display: block!important;
-}
-
-/*terminie condizioni mobile*/
-
-:global(.vtex-menu-2-x-menuContainer--termini-e-condizioni-mobile) {
-  flex-direction: column;
-}
-
-:global(.vtex-menu-2-x-styledLinkContent--menu-item-termini-e-condizioni-mobile) {
-  color: #001930;
-  font-family: "MuseoJHSans300";
-  font-size: 20px;
-  line-height: 21px;
-}
+/* shop by look page END*/

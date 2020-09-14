@@ -6,6 +6,7 @@
       "menu-item#more"
     ]
   },
+
   "menu-item#category-apparel": {
     "props": {
       "id": "menu-item-category-apparel",
@@ -14,7 +15,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/Tutti-i-Prodotti/Bambina",
         "noFollow": false,
         "tagTitle": "Apparel & Accessories",
         "text": "BAMBINA"
@@ -24,6 +25,7 @@
       "vtex.menu@2.x:submenu#category-apparel"
     ]
   },
+
   "vtex.menu@2.x:submenu#category-apparel": {
     "props": {
       "width": "auto"
@@ -32,61 +34,140 @@
       "vtex.menu@2.x:menu#category-apparel"
     ]
   },
+
   "vtex.menu@2.x:menu#category-apparel": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#pantaloni-bambina",
+      "menu-item#accesori-bambina",
+      "menu-item#maglie-e-felpe-bambina",
+      "menu-item#tute-e-completi-bambina",
+      "menu-item#giubbotti-e-giacche-bambina",
+      "menu-item#t-shit-polo-e-camicie-bambina",
+      "menu-item#abiti-e-gonne-bambina"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+
+  "menu-item#pantaloni-bambina": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-category-pantaloni-bambina",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/Tutti-i-Prodotti/Bambina/pantaloni",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Pantaloni",
+        "text": "Pantaloni"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+
+  "menu-item#accesori-bambina": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-category-accesori-bambina",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/Tutti-i-Prodotti/Bambina/Accessori",
         "noFollow": false,
         "tagTitle": "Accessories",
         "text": "Accessories"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+
+  "menu-item#maglie-e-felpe-bambina": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-category-maglie-e-felpe-bambina",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/Tutti-i-Prodotti/Bambina/Maglie-E-Felpe",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "Maglie E Felpe",
+        "text": "Maglie E Felpe"
       }
     }
   },
+
+  "menu-item#tute-e-completi-bambina": {
+    "props": {
+      "id": "menu-item-categorytute-e-completi-bambina",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/Bambina/Tute-E-Completi",
+        "noFollow": false,
+        "tagTitle": "Tute E Completi",
+        "text": "Tute E Completi"
+      }
+    }
+  },
+
+
+  "menu-item#giubbotti-e-giacche-bambina": {
+    "props": {
+      "id": "menu-item-category-giubbotti-e-giacche-bambina",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/Bambina/Giubbotti-E-Giacche",
+        "noFollow": false,
+        "tagTitle": "Giubbotti E Giacche",
+        "text": "Giubbotti E Giacche"
+      }
+    }
+  },
+
+
+  "menu-item#t-shit-polo-e-camicie-bambina": {
+    "props": {
+      "id": "menu-item-category-t-shit-polo-e-camicie-bambina",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/Bambina/T-Shirt-Polo-E-Camicie",
+        "noFollow": false,
+        "tagTitle": "T-shirt, Polo E Camicie",
+        "text": "T-shirt, Polo E Camicie"
+      }
+    }
+  },
+
+
+  "menu-item#abiti-e-gonne-bambina": {
+    "props": {
+      "id": "menu-item-category-abiti-e-gonne-bambina",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/Bambina/Abiti-E-Gonne",
+        "noFollow": false,
+        "tagTitle": "Abiti E Gonne",
+        "text": "Abiti E Gonne"
+      }
+    }
+  },
+
+
+
+
   "menu-item#category-home": {
     "props": {
       "id": "menu-item-category-home",
@@ -95,13 +176,159 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/Tutti-i-Prodotti/Bambino",
         "noFollow": false,
         "tagTitle": "Home & Decor",
         "text": "BAMBINO"
       }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-bambino"
+    ]
+  },
+
+
+  "vtex.menu@2.x:submenu#category-bambino": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-bambino"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#category-bambino": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#pantaloni-bambino",
+      "menu-item#accesori-bambino",
+      "menu-item#maglie-e-felpe-bambino",
+      "menu-item#tute-e-completi-bambino",
+      "menu-item#giubbotti-e-giacche-bambino",
+      "menu-item#t-shit-polo-e-camicie-bambino",
+      "menu-item#abiti-e-gonne-bambino"
+    ]
+  },
+
+
+  "menu-item#pantaloni-bambino": {
+    "props": {
+      "id": "menu-item-category-pantaloni-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/Bambino/pantaloni",
+        "noFollow": false,
+        "tagTitle": "Pantaloni",
+        "text": "Pantaloni"
+      }
     }
   },
+  "menu-item#accesori-bambino": {
+    "props": {
+      "id": "menu-item-category-accesori-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/Bambino/Accessori",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+
+  "menu-item#maglie-e-felpe-bambino": {
+    "props": {
+      "id": "menu-item-category-maglie-e-felpe-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/Bambino/Maglie-E-Felpe",
+        "noFollow": false,
+        "tagTitle": "Maglie E Felpe",
+        "text": "Maglie E Felpe"
+      }
+    }
+  },
+
+  "menu-item#tute-e-completi-bambino": {
+    "props": {
+      "id": "menu-item-categorytute-e-completi-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/Bambino/Tute-E-Completi",
+        "noFollow": false,
+        "tagTitle": "Tute E Completi",
+        "text": "Tute E Completi"
+      }
+    }
+  },
+
+
+  "menu-item#giubbotti-e-giacche-bambino": {
+    "props": {
+      "id": "menu-item-category-giubbotti-e-giacche-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/Bambino/Giubbotti-E-Giacche",
+        "noFollow": false,
+        "tagTitle": "Giubbotti E Giacche",
+        "text": "Giubbotti E Giacche"
+      }
+    }
+  },
+
+
+  "menu-item#t-shit-polo-e-camicie-bambino": {
+    "props": {
+      "id": "menu-item-category-t-shit-polo-e-camicie-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/Bambino/T-Shirt-Polo-E-Camicie",
+        "noFollow": false,
+        "tagTitle": "T-shirt, Polo E Camicie",
+        "text": "T-shirt, Polo E Camicie"
+      }
+    }
+  },
+
+
+  "menu-item#abiti-e-gonne-bambino": {
+    "props": {
+      "id": "menu-item-category-abiti-e-gonne-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/Bambino/Abiti-E-Gonne",
+        "noFollow": false,
+        "tagTitle": "Abiti E Gonne",
+        "text": "Abiti E Gonne"
+      }
+    }
+  },
+
+
+
   "menu-item#more": {
     "props": {
       "id": "menu-item-custom-sale",
@@ -115,10 +342,7 @@
         "tagTitle": "More",
         "text": "ARMOCROMIA"
       }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#more"
-    ]
+    }
   },
   "vtex.menu@2.x:submenu#more": {
     "props": {

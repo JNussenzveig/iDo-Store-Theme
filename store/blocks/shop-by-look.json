@@ -1,0 +1,192 @@
+{
+  "store.custom#shop-by-look": {
+    "blocks": [
+      "responsive-layout.desktop#shop-by-look",
+      "responsive-layout.mobile#shop-by-look-mobile"
+    ]
+  },
+
+  "responsive-layout.desktop#shop-by-look": {
+    "children": [
+      "shelf#first-shelf-shop-by-look",
+      "info-card#shop-by-look",
+      "shelf#second-shelf-shop-by-look",
+      "shelf#third-shelf-shop-by-look"
+    ]
+  },
+
+  "responsive-layout.mobile#shop-by-look-mobile": {
+    "children": [
+      "shelf#first-shelf-shop-by-look-mobile",
+      "info-card#shop-by-look-mobile",
+      "shelf#second-shelf-shop-by-look-mobile",
+      "shelf#third-shelf-shop-by-look-mobile",
+      "shelf#fourth-shelf-shop-by-look-mobile",
+      "shelf#fifth-shelf-shop-by-look-mobile"
+    ]
+  },
+
+  "shelf#first-shelf-shop-by-look": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "blockClass": "first-shelf",
+      "category": 2,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 7,
+        "itemsPerPage": 3.5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": ""
+      }
+    }
+  },
+
+  "info-card#shop-by-look": {
+    "props": {
+      "id": "info-card-shop-by-look",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/shopbylook.png",
+      "callToActionText": "SHOP THE LOOK",
+      "callToActionUrl": "/Tutti-i-Prodotti?__bindingAddress=www.ido.it/it&map=c,c&query=/Tutti-i-Prodotti/testkitlook",
+      "blockClass": "info-card-shop-by-look",
+      "textAlignment": "center"
+    }
+  },
+
+  "shelf#second-shelf-shop-by-look": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "blockClass": "second-shelf",
+      "category": 2,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 7,
+        "itemsPerPage": 3.5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": ""
+      }
+    }
+  },
+  "shelf#third-shelf-shop-by-look": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "blockClass": "third-shelf",
+      "category": 2,
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 7,
+        "itemsPerPage": 3.5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": ""
+      }
+    }
+  },
+
+  "shelf#first-shelf-shop-by-look-mobile": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "blockClass": "first-shelf-mobile",
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 7,
+        "itemsPerPage": 3.5,
+        "minItemsPerPage": 2,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": ""
+      }
+    }
+  },
+
+  "info-card#shop-by-look-mobile": {
+    "props": {
+      "id": "info-card-shop-by-look-mobile",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/shopbylookmobile.png",
+      "callToActionText": "SHOP THE LOOK",
+      "callToActionUrl": "/tutti-i-prodotti",
+      "blockClass": "info-card-shop-by-look-mobile",
+      "textAlignment": "center"
+    }
+  },
+
+  "shelf#second-shelf-shop-by-look-mobile": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "blockClass": "second-shelf-mobile",
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 7,
+        "itemsPerPage": 3.5,
+        "minItemsPerPage": 2,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": ""
+      }
+    }
+  },
+
+  "shelf#third-shelf-shop-by-look-mobile": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "blockClass": "third-shelf-mobile",
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 7,
+        "itemsPerPage": 3.5,
+        "minItemsPerPage": 2,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": ""
+      }
+    }
+  },
+
+  "shelf#fourth-shelf-shop-by-look-mobile": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "blockClass": "third-shelf-mobile",
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 7,
+        "itemsPerPage": 3.5,
+        "minItemsPerPage": 2,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": ""
+      }
+    }
+  },
+
+  "shelf#fifth-shelf-shop-by-look-mobile": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "blockClass": "third-shelf-mobile",
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 7,
+        "itemsPerPage": 3.5,
+        "minItemsPerPage": 2,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": ""
+      }
+    }
+  }
+}

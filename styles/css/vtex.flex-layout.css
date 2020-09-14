@@ -356,7 +356,6 @@
   line-height: 29px;
   top: 0px;
   left: 10px;
-  margin-left: 120px;
 }
 
 .flexRow--store-locator-home-mobile {
@@ -1205,144 +1204,9 @@
   text-align: left;
 }
 
-/*tempi de consegna mobile*/
-
-:global(.vtex-flex-layout-0-x-flexCol--tempiDiConsegna-mobile) {
-  margin-right: 21px;
-  margin-left: 21px;
-}
-
-/*reso e cambi mobile*/
-
-:global(.vtex-flex-layout-0-x-flexCol--flex-layout-col-reso-e-cambi-mobile) {
-  margin-right: 21px;
-  margin-left: 21px;
-}
-
-/*order processing mobile*/
-
-:global(.vtex-flex-layout-0-x-flexCol--order-processing-mobile) {
-  margin-right: 21px;
-  margin-left: 21px;
-}
-
-/*guida alle taglie mobile*/
-
-:global(.vtex-flex-layout-0-x-flexCol--guida-alle-taglie-mobile) {
-  margin-right: 21px;
-  margin-left: 21px;
-}
-
-/*iscriviti alla newsletter mobile*/
-
-.flexCol--newsletter-form-name-mobile :global(.vtex-input-prefix__group) {
-  width: 335px;
-  height: 40px!important;
-  border-radius: 20px!important;
-  border: 1px solid #001930;
-}
-
-.flexCol--newsletter-form-surname-mobile :global(.vtex-input-prefix__group) {
-  width: 335px;
-  height: 40px!important;
-  border-radius: 20px!important;
-  border: 1px solid #001930;
-}
-
-.flexCol--newsletter-form-email-mobile :global(.vtex-input-prefix__group) {
-  width: 335px;
-  height: 40px!important;
-  border-radius: 20px!important;
-  border: 1px solid #001930;
-}
-
-
-.flexRowContent--newsletter-form-mobile :global(.vtex-button) {
-  width: 159px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: #001930;
-}
-
-.flexRow--newsletter-form-submit-mobile :global(.vtex-button__label) {
-  color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 18px;
-  text-transform: uppercase;
-}
-
-
-
-.flexRow--newsletter-form-privacy-mobile :global(.vtex-checkbox__inner-container) {
-  width: 15px;
-  height: 15px;
-  border: 1px solid #5a5a5a;
-  border-radius: 50%;
-}
-
-.flexRow--newsletter-form-privacy-mobile :global(.vtex-checkbox__box) {
-  width: 15px;
-  height: 15px;
-  border: 1px solid #5a5a5a;
-  border-radius: 50%;
-  color: #001930;
-}
-
-.flexRowContent--newsletter-form-submit-mobile :global(.vtex-store-form-0-x-formSubmitContainer) {
-  margin-left: 0px;
-}
-
-.flexRowContent--newsletter-form-mobile :global(.vtex-input__label) {
-  color: #001930;
-  font-family: "MuseoJHSans300";
-  font-size: 18px;
-  line-height: 21px;
-}
-
-.flexColChild--newsletter-form-client-type-mobile :global(.vtex-input__label) {
-  width: 319px;
-  height: 38px;
-  color: #001930;
-  font-family: "MuseoJHSans300";
-  font-size: 24px;
-  line-height: 25px;
-}
-
-.flexRowContent--newsletter-form-mobile :global(.vtex-checkbox__label) {
-  color: rgba(0, 0, 0, 0.65);
-  font-family: "Avenir Book";
-  font-size: 12px;
-  font-weight: 300;
-  line-height: 15px;
-  text-align: left;
-}
-
-:global(.vtex-flex-layout-0-x-flexCol--newsletter-form-name-mobile) {
-  margin-top: 25px;
-}
-
-:global(.vtex-flex-layout-0-x-flexCol--newsletter-form-surname-mobile) {
-  margin-top: 25px;
-}
-
-:global(.vtex-flex-layout-0-x-flexCol--newsletter-form-email-mobile) {
-  margin-top: 25px;
-}
-
-:global(.vtex-flex-layout-0-x-flexRow--newsletter-form-mobile) {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-:global(.vtex-flex-layout-0-x-flexRow--newsletter-form-privacy-mobile) {
-  margin-bottom: 30px;
-}
-
-/*larmocromia mobile*/
-
-:global(.vtex-flex-layout-0-x-flexRow--flex-row-larmocromia-mobile) {
-  margin-left: 10px;
-  margin-right: 10px;
+.flexRow--store-locator-home-mobile :global(.vtex-store-components-3-x-container) {
+  padding-left: 0!important;
+  padding-right: 0!important;
 }
 
 

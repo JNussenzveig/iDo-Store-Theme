@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [4.0.0] - 2020-09-01
+
+## [3.26.41] - 2020-09-01
+
 ## [3.26.1] - 2020-02-20
 ### Changed
 - Limit the width of the search bar input instead of its container.

@@ -381,7 +381,7 @@
       "blockClass": "menu-item-footer-mobile-submenu",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/azienda",
         "noFollow": false,
         "tagTitle": "AZIENDA",
         "text": "AZIENDA"
@@ -431,7 +431,7 @@
     "highlight": false,
     "itemProps": {
     "type": "internal",
-    "href": "#",
+    "href": "/guida-alle-taglie",
     "noFollow": false,
     "tagTitle": "Guida alle taglie",
     "text": "Guida alle taglie"
@@ -446,7 +446,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/tempi-di-consegna",
         "noFollow": false,
         "tagTitle": "Tempi di consegna",
         "text": "Tempi di consegna"
@@ -461,7 +461,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/reso-e-cambi",
         "noFollow": false,
         "tagTitle": "Resi e cambi",
         "text": "Resi e cambi"
@@ -476,7 +476,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/order-processing",
         "noFollow": false,
         "tagTitle": "Order processing",
         "text": "Order processing"
@@ -492,7 +492,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/contattaci",
         "noFollow": false,
         "tagTitle": "Contattaci",
         "text": "Contattaci"
@@ -507,7 +507,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/iscriviti-alla-newsletter",
         "noFollow": false,
         "tagTitle": "Iscriviti alla newsletter",
         "text": "Iscriviti alla newsletter"
@@ -519,13 +519,68 @@
       "id": "menu-item-azienda-mobile",
       "type": "custom",
       "highlight": false,
-      "blockClass": "menu-item-footer-mobile-submenu",
+      "blockClass": "menu-item-footer-mobile-submenu-my-ido",
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
         "tagTitle": "MYIDO",
         "text": "MYIDO"
+      }
+    },
+  "blocks": ["vtex.menu@2.x:submenu.accordion#shop-my-ido-mobile"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#shop-my-ido-mobile": {
+    "children": [
+      "menu-item#submenu-registrati-mobile",
+      "menu-item#submenu-accedi-mobile",
+      "menu-item#submenu-scopri-i-negozi-my-ido-mobile"
+    ]
+  },
+
+  "menu-item#submenu-registrati-mobile": {
+    "props": {
+      "id": "menu-item-azienda-mobile-submenu",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Registrati",
+        "text": "Registrati"
+      }
+    }
+  },
+
+
+  "menu-item#submenu-accedi-mobile": {
+    "props": {
+      "id": "menu-item-regolamento-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Accedi",
+        "text": "Accedi"
+      }
+    }
+  },
+
+  "menu-item#submenu-scopri-i-negozi-my-ido-mobile": {
+    "props": {
+      "id": "menu-item-diritto-di-reso-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Scopri i negozi myiDO",
+        "text": "Scopri i negozi myiDO"
       }
     }
   },
@@ -535,13 +590,118 @@
       "id": "menu-item-azienda-mobile",
       "type": "custom",
       "highlight": false,
-      "blockClass": "menu-item-footer-mobile-submenu",
+      "blockClass": "menu-item-footer-mobile-termini-e-condizione",
       "itemProps": {
         "type": "internal",
         "href": "#",
         "noFollow": false,
         "tagTitle": "TERMINI E CONDIZIONI",
         "text": "TERMINI E CONDIZIONI"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#shop-mobile"]
+  },
+
+
+  "vtex.menu@2.x:submenu.accordion#shop-mobile": {
+    "children": [
+      "menu-item#submenu-condizioni-di-vendita-mobile",
+      "menu-item#submenu-regolamento-mobile",
+      "menu-item#submenu-diritto-di-reso-mobile",
+      "menu-item#submenu-privacy-policy-mobile",
+      "menu-item#submenu-trattamento-dati-mobile",
+      "menu-item#submenu-cookie-policy-mobile"
+    ]
+  },
+
+  "menu-item#submenu-condizioni-di-vendita-mobile": {
+    "props": {
+      "id": "menu-item-azienda-mobile-submenu",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/condizioni-generali-di-vendita",
+        "noFollow": false,
+        "tagTitle": "Condizioni di vendita",
+        "text": "Condizioni di vendita"
+      }
+    }
+  },
+
+
+  "menu-item#submenu-regolamento-mobile": {
+    "props": {
+      "id": "menu-item-regolamento-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/regolamento",
+        "noFollow": false,
+        "tagTitle": "Regolamento",
+        "text": "Regolamento"
+      }
+    }
+  },
+
+  "menu-item#submenu-diritto-di-reso-mobile": {
+    "props": {
+      "id": "menu-item-diritto-di-reso-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/diritto-di-recesso",
+        "noFollow": false,
+        "tagTitle": "Diritto di reso",
+        "text": "Diritto di reso"
+      }
+    }
+  },
+
+  "menu-item#submenu-privacy-policy-mobile": {
+    "props": {
+      "id": "menu-item-privacy-policy-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/privacy-and-policy",
+        "noFollow": false,
+        "tagTitle": "Privacy Policy",
+        "text": "Privacy Policy"
+      }
+    }
+  },
+
+
+  "menu-item#submenu-trattamento-dati-mobile": {
+    "props": {
+      "id": "menu-item-trattamento-dati-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trattamento-dati",
+        "noFollow": false,
+        "tagTitle": "Trattamento Dati",
+        "text": "Trattamento Dati"
+      }
+    }
+  },
+
+  "menu-item#submenu-cookie-policy-mobile": {
+    "props": {
+      "id": "menu-item-cookie-policy-mobile",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cookie-policy",
+        "noFollow": false,
+        "tagTitle": "Cookie Policy",
+        "text": "Cookie Policy"
       }
     }
   },
