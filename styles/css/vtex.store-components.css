@@ -1227,3 +1227,16 @@
 :global(.vtex-store-components-3-x-form--banner-mobile) {
   display: block!important;
 }
+
+/*terminie condizioni mobile*/
+
+:global(.vtex-menu-2-x-menuContainer--termini-e-condizioni-mobile) {
+  flex-direction: column;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-termini-e-condizioni-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+}

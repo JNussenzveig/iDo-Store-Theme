@@ -3442,4 +3442,14 @@
   right: 0px;
 }
 
+/*terminie condizioni mobile*/
+
+:global(.vtex-rich-text-0-x-paragraph--termini-e-condizioni-title-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-left: 20px;
+}
+
 

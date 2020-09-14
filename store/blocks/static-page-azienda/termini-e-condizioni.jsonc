@@ -1,0 +1,475 @@
+{
+  "store.custom#termini-e-condizioni": {
+        "blocks": [
+        "responsive-layout.desktop#termini-e-condizioni",
+        "responsive-layout.mobile#termini-e-condizioni"
+      ]
+    },
+
+    "responsive-layout.desktop#termini-e-condizioni": {
+      "children": [
+        "flex-layout.row#termini-e-condizioni"
+      ]
+    },
+
+    "responsive-layout.mobile#termini-e-condizioni": {
+      "children": [
+        "rich-text#termini-e-condizioni-title-mobile",
+        "vtex.menu@2.x:menu#termini-e-condizioni"
+      ]
+    },
+
+   "flex-layout.row#termini-e-condizioni": {
+        "children": [
+        "flex-layout.row#termini-e-condizioni"
+        ],
+        "props": {
+        "blockClass": "flex-row-termini-e-condizioni"
+        }
+   },
+    "rich-text#termini-e-condizioni-title-mobile": {
+      "props": {
+        "text": "Termini e condizioni",
+        "blockClass": "termini-e-condizioni-title-mobile"
+      }
+    },
+
+
+
+  "flex-layout.row#termini-e-condizioni": {
+    "children": [
+      "vtex.menu@2.x:menu#termini-e-condizioni"
+    ]
+  },
+  "vtex.menu@2.x:menu#termini-e-condizioni": {
+    "props": {
+      "blockClass": "termini-e-condizioni-mobile"
+    },
+    "children": [
+      "menu-item#condizioni-generali-di-vendita-mobile",
+      "menu-item#regolamento-mobile",
+      "menu-item#diritto-di-recesso-mobile",
+      "menu-item#privacy-policy-mobile",
+      "menu-item#trattamento-dati-mobile",
+      "menu-item#cookie-policy-mobile"
+    ]
+  },
+
+        "menu-item#condizioni-generali-di-vendita-mobile": {
+            "props": {
+              "id": "menu-item-termini-e-condizioni-mobile",
+              "type": "custom",
+              "highlight": false,
+              "blockClass": "menu-item-termini-e-condizioni-mobile",
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Condizioni di vendita",
+                "text": "Condizioni di vendita"
+              },
+
+              "iconToTheRight": true
+            },
+            "blocks": ["vtex.menu@2.x:submenu.accordion#condizioni-generali-di-vendita-mobile"]
+          },
+
+          "menu-item#regolamento-mobile": {
+             "props": {
+              "id": "menu-item-termini-e-condizioni-mobile",
+              "type": "custom",
+              "highlight": false,
+              "blockClass": "menu-item-termini-e-condizioni-mobile",
+             "itemProps": {
+              "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Regolamento",
+                "text": "Regolamento"
+              },
+              "iconToTheRight": true
+               },
+              "blocks": ["vtex.menu@2.x:submenu.accordion#regolamento-mobile"]
+          },
+
+          "menu-item#diritto-di-recesso-mobile": {
+             "props": {
+              "id": "menu-item-termini-e-condizioni-mobile",
+              "type": "custom",
+              "highlight": false,
+              "blockClass": "menu-item-termini-e-condizioni-mobile",
+             "itemProps": {
+              "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Diritto di reso",
+                "text": "Diritto di reso"
+              },
+              "iconToTheRight": true
+               },
+              "blocks": ["vtex.menu@2.x:submenu.accordion#diritto-di-recesso-mobile"]
+          },
+
+          "menu-item#privacy-policy-mobile": {
+             "props": {
+              "id": "menu-item-termini-e-condizioni-mobile",
+              "type": "custom",
+              "highlight": false,
+              "blockClass": "menu-item-termini-e-condizioni-mobile",
+             "itemProps": {
+              "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Privacy Policy",
+                "text": "Privacy Policy"
+              },
+              "iconToTheRight": true
+               },
+              "blocks": ["vtex.menu@2.x:submenu.accordion#privacy-policy-mobile"]
+          },
+          "menu-item#trattamento-dati-mobile": {
+             "props": {
+              "id": "menu-item-termini-e-condizioni-mobile",
+              "type": "custom",
+              "highlight": false,
+              "blockClass": "menu-item-termini-e-condizioni-mobile",
+             "itemProps": {
+              "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Trattamento Dati",
+                "text": "Trattamento Dati"
+              },
+              "iconToTheRight": true
+               },
+              "blocks": ["vtex.menu@2.x:submenu.accordion#trattamento-dati-mobile"]
+          },
+
+
+
+          "menu-item#cookie-policy-mobile": {
+             "props": {
+              "id": "menu-item-termini-e-condizioni-mobile",
+              "type": "custom",
+              "highlight": false,
+              "blockClass": "menu-item-termini-e-condizioni-mobile",
+             "itemProps": {
+              "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Cookie Policy",
+                "text": "Cookie Policy"
+              },
+              "iconToTheRight": true
+               },
+              "blocks": ["vtex.menu@2.x:submenu.accordion#cookie-policy-mobile"]
+          },
+
+
+
+          "vtex.menu@2.x:submenu.accordion#condizioni-generali-di-vendita-mobile": {
+              "children": [
+        "rich-text#condizioni-generali-di-vendita-title1",
+        "rich-text#condizioni-generali-di-vendita-content1",
+        "rich-text#condizioni-generali-di-vendita-title2",
+        "rich-text#condizioni-generali-di-vendita-content2",
+        "rich-text#condizioni-generali-di-vendita-title3",
+        "rich-text#condizioni-generali-di-vendita-content3",
+        "rich-text#condizioni-generali-di-vendita-title4",
+        "rich-text#condizioni-generali-di-vendita-content4",
+        "rich-text#condizioni-generali-di-vendita-title5",
+        "rich-text#condizioni-generali-di-vendita-content5",
+        "rich-text#condizioni-generali-di-vendita-title6",
+        "rich-text#condizioni-generali-di-vendita-content6",
+        "rich-text#condizioni-generali-di-vendita-title7",
+        "rich-text#condizioni-generali-di-vendita-content7",
+        "rich-text#condizioni-generali-di-vendita-title8",
+        "rich-text#condizioni-generali-di-vendita-content8",
+        "rich-text#condizioni-generali-di-vendita-title9",
+        "rich-text#condizioni-generali-di-vendita-content9",
+        "rich-text#condizioni-generali-di-vendita-title10",
+        "rich-text#condizioni-generali-di-vendita-content10",
+        "rich-text#condizioni-generali-di-vendita-title11",
+        "rich-text#condizioni-generali-di-vendita-content11",
+        "rich-text#condizioni-generali-di-vendita-title12",
+        "rich-text#condizioni-generali-di-vendita-content12",
+        "rich-text#condizioni-generali-di-vendita-title13",
+        "rich-text#condizioni-generali-di-vendita-content13",
+        "rich-text#condizioni-generali-di-vendita-title14",
+        "rich-text#condizioni-generali-di-vendita-content14",
+        "rich-text#condizioni-generali-di-vendita-title15",
+        "rich-text#condizioni-generali-di-vendita-content15",
+        "rich-text#condizioni-generali-di-vendita-title16",
+        "rich-text#condizioni-generali-di-vendita-content16",
+        "rich-text#condizioni-generali-di-vendita-title17",
+        "rich-text#condizioni-generali-di-vendita-content17",
+        "rich-text#condizioni-generali-di-vendita-title18",
+        "rich-text#condizioni-generali-di-vendita-content18",
+        "rich-text#condizioni-generali-di-vendita-title19",
+        "rich-text#condizioni-generali-di-vendita-content19",
+        "rich-text#condizioni-generali-di-vendita-title20",
+        "rich-text#condizioni-generali-di-vendita-content20",
+        "rich-text#condizioni-generali-di-vendita-title21",
+        "rich-text#condizioni-generali-di-vendita-content21",
+        "rich-text#condizioni-generali-di-vendita-title22",
+        "rich-text#condizioni-generali-di-vendita-content22",
+        "rich-text#condizioni-generali-di-vendita-title23",
+        "rich-text#condizioni-generali-di-vendita-content23",
+        "rich-text#condizioni-generali-di-vendita-title24",
+        "rich-text#condizioni-generali-di-vendita-content24",
+        "rich-text#condizioni-generali-di-vendita-title25",
+        "rich-text#condizioni-generali-di-vendita-content25"
+
+              ],
+              "props": {
+              "blockClass": "submenu-termini-e-condizioni-mobile"
+              }
+            },
+
+              "menu-item#submenu-chi-siamo-mobile": {
+              "props": {
+              "id": "menu-item-condizioni-generali-di-vendita-mobile-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "condizioni-generali-di-vendita-mobile",
+              "text": "condizioni-generali-di-vendita-mobile"
+              }
+            }
+          },
+
+
+
+          "vtex.menu@2.x:submenu.accordion#regolamento-mobile": {
+              "children": [
+        "rich-text#regolamento-title1",
+        "rich-text#regolamento-content1",
+        "rich-text#regolamento-title2",
+        "rich-text#regolamento-content2",
+        "rich-text#regolamento-title3",
+        "rich-text#regolamento-content3",
+        "rich-text#regolamento-title4",
+        "rich-text#regolamento-content4",
+        "rich-text#regolamento-title5",
+        "rich-text#regolamento-content5",
+        "rich-text#regolamento-title6",
+        "rich-text#regolamento-content6",
+        "rich-text#regolamento-title7",
+        "rich-text#regolamento-content7",
+        "rich-text#regolamento-title8",
+        "rich-text#regolamento-content8",
+        "rich-text#regolamento-title9",
+        "rich-text#regolamento-content9",
+        "rich-text#regolamento-title10",
+        "rich-text#regolamento-content10",
+        "rich-text#regolamento-title11",
+        "rich-text#regolamento-content11",
+        "rich-text#regolamento-title12",
+        "rich-text#regolamento-content12",
+        "rich-text#regolamento-title13",
+        "rich-text#regolamento-content13",
+        "rich-text#regolamento-title14",
+        "rich-text#regolamento-content14",
+        "rich-text#regolamento-title15",
+        "rich-text#regolamento-content15",
+        "rich-text#regolamento-title16",
+        "rich-text#regolamento-content16",
+        "rich-text#regolamento-title17",
+        "rich-text#regolamento-content17",
+        "rich-text#regolamento-title18",
+        "rich-text#regolamento-content18"
+              ],
+              "props": {
+              "blockClass": "submenu-termini-e-condizioni-mobile"
+              }
+            },
+
+              "menu-item#submenu-chi-siamo-mobile": {
+              "props": {
+              "id": "menu-item-regolamento-mobile-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "regolamento-mobile",
+              "text": "regolamento-mobile"
+              }
+            }
+          },
+
+
+
+
+          "vtex.menu@2.x:submenu.accordion#diritto-di-recesso-mobile": {
+              "children": [
+        "rich-text#diritto-di-recesso-content1",
+        "rich-text#diritto-di-recesso-title1",
+        "rich-text#diritto-di-recesso-title2",
+        "rich-text#diritto-di-recesso-content2"
+         ],
+              "props": {
+              "blockClass": "submenu-termini-e-condizioni-mobile"
+              }
+            },
+
+              "menu-item#submenu-diritto-di-recesso-mobile": {
+              "props": {
+              "id": "menu-item-diritto-di-recesso-mobile-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "diritto-di-recesso-mobile",
+              "text": "diritto-di-recesso-mobile"
+              }
+            }
+          },
+
+
+          "vtex.menu@2.x:submenu.accordion#privacy-policy-mobile": {
+              "children": [
+        "rich-text#privacy-policy-content1",
+        "rich-text#privacy-policy-title2",
+        "rich-text#privacy-policy-title3",
+        "rich-text#privacy-policy-content3",
+        "rich-text#privacy-policy-title4",
+        "rich-text#privacy-policy-content4",
+        "rich-text#privacy-policy-title5",
+        "rich-text#privacy-policy-content5",
+        "rich-text#privacy-policy-title6",
+        "rich-text#privacy-policy-content6",
+        "rich-text#privacy-policy-title7",
+        "rich-text#privacy-policy-content7",
+        "rich-text#privacy-policy-title8",
+        "rich-text#privacy-policy-content8",
+        "rich-text#privacy-policy-title9",
+        "rich-text#privacy-policy-content9",
+        "rich-text#privacy-policy-title10",
+        "rich-text#privacy-policy-content10",
+        "rich-text#privacy-policy-title11",
+        "rich-text#privacy-policy-content11",
+        "rich-text#privacy-policy-title12",
+        "rich-text#privacy-policy-content12",
+        "rich-text#privacy-policy-title13",
+        "rich-text#privacy-policy-content13"
+         ],
+              "props": {
+              "blockClass": "submenu-termini-e-condizioni-mobile"
+              }
+            },
+
+              "menu-item#submenu-privacy-policy-mobile": {
+              "props": {
+              "id": "menu-item-privacy-policy-mobile-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "privacy-policy-mobile",
+              "text": "privacy-policy-mobile"
+              }
+            }
+          },
+
+          "vtex.menu@2.x:submenu.accordion#trattamento-dati-mobile": {
+              "children": [
+       "rich-text#trattamento-dati-title1",
+        "rich-text#trattamento-dati-content1",
+        "rich-text#trattamento-dati-title2",
+        "rich-text#trattamento-dati-content2",
+        "rich-text#trattamento-dati-title3",
+        "rich-text#trattamento-dati-content3",
+        "rich-text#trattamento-dati-title4",
+        "rich-text#trattamento-dati-content4",
+        "rich-text#trattamento-dati-title5",
+        "rich-text#trattamento-dati-content5",
+        "rich-text#trattamento-dati-title6",
+        "rich-text#trattamento-dati-content6",
+        "rich-text#trattamento-dati-title7",
+        "rich-text#trattamento-dati-content7",
+        "rich-text#trattamento-dati-title8",
+        "rich-text#trattamento-dati-title9",
+        "rich-text#trattamento-dati-content9",
+        "rich-text#trattamento-dati-title10",
+        "rich-text#trattamento-dati-content10",
+        "rich-text#trattamento-dati-title11",
+        "rich-text#trattamento-dati-content11",
+        "rich-text#trattamento-dati-title12",
+        "rich-text#trattamento-dati-content12"
+         ],
+              "props": {
+              "blockClass": "submenu-termini-e-condizioni-mobile"
+              }
+            },
+
+              "menu-item#submenu-trattamento-dati-mobile": {
+              "props": {
+              "id": "menu-item-trattamento-dati-mobile-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "trattamento-dati-mobile",
+              "text": "trattamento-dati-mobile"
+              }
+            }
+          },
+
+
+          "vtex.menu@2.x:submenu.accordion#cookie-policy-mobile": {
+              "children": [
+       "rich-text#trattamento-dati-title1",
+        "rich-text#trattamento-dati-content1",
+        "rich-text#trattamento-dati-title2",
+        "rich-text#trattamento-dati-content2",
+        "rich-text#trattamento-dati-title3",
+        "rich-text#trattamento-dati-content3",
+        "rich-text#trattamento-dati-title4",
+        "rich-text#trattamento-dati-content4",
+        "rich-text#trattamento-dati-title5",
+        "rich-text#trattamento-dati-content5",
+        "rich-text#trattamento-dati-title6",
+        "rich-text#trattamento-dati-content6",
+        "rich-text#trattamento-dati-title7",
+        "rich-text#trattamento-dati-content7",
+        "rich-text#trattamento-dati-title8",
+        "rich-text#trattamento-dati-title9",
+        "rich-text#trattamento-dati-content9",
+        "rich-text#trattamento-dati-title10",
+        "rich-text#trattamento-dati-content10",
+        "rich-text#trattamento-dati-title11",
+        "rich-text#trattamento-dati-content11",
+        "rich-text#trattamento-dati-title12",
+        "rich-text#trattamento-dati-content12"
+         ],
+              "props": {
+              "blockClass": "submenu-termini-e-condizioni-mobile"
+              }
+            },
+
+              "menu-item#submenu-cookie-policy-mobile": {
+              "props": {
+              "id": "menu-item-cookie-policy-mobile-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "cookie-policy-mobile",
+              "text": "cookie-policy-mobile"
+              }
+            }
+          }
+}
