@@ -1,7 +1,9 @@
 {
   "store.product.kitlook": {
     "children": [
-      "kitlook-layout"
+      "kitlook-layout",
+      "breadcrumb#andrei",
+      "responsive-layout.mobile#product"
     ]
   },
 
@@ -14,7 +16,7 @@
   "responsive-layout.mobile#product": {
     "children": [
       "flex-layout.row#product-breadcrumb-mobile",
-      "product-images#mobileVersion",
+      "product-images#mobileVersion"  ,
       "sku-selector#mobile",
       "product-quantity#mobile",
       "flex-layout.row#productNamePriceSecondaryMobile",

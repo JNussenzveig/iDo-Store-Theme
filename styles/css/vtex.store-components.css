@@ -1243,3 +1243,10 @@
 
 
 /* shop by look page END*/
+
+@media screen and (max-width: 1025px) {
+  .price_className--mobile-price-without-discount {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

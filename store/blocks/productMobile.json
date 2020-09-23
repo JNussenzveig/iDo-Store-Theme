@@ -1,10 +1,11 @@
 {
   "flex-layout.row#product-breadcrumb-mobile": {
     "props": {
-      "marginTop": 10
+      "marginTop": 10,
+      "blockClass": "breadcrumbs-mobile-top-container"
     },
     "children": [
-      "breadcrumb#andrei",
+      "breadcrumb",
       "product-price#product-details-mobile"
     ]
   },
@@ -22,6 +23,7 @@
       "showSavings": false
     }
   },
+
 
   "product-images#mobileVersion": {
     "props": {
