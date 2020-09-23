@@ -7,8 +7,6 @@
   }
 }
 
-@import url('/files/test2.css');
-@import url('/files/acupula.css?asd=1');
 
 :global(.vtex-locale-switcher-0-x-container) {
   justify-content: space-around;
@@ -1083,103 +1081,12 @@
   bottom: 12px;
 }
 
-/* lacromonia aiuto*/
 
+/*larmocromia mobile*/
 
-:global(.vtex-store-components-3-x-infoCardContainer--info-card-aiuto) {
-  margin-top: 72px;
-  position: relative;
-  height: 141px;
-  background-color: #001930;
-}
-
-:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-aiuto) {
-  justify-content: center;
-  padding-left: 40px;
-  padding-right: 0px;
-  position: relative;
-  width: 100%;
-}
-
-:global(.vtex-store-components-3-x-infoCardHeadline--info-card-aiuto) {
-  width: 40%;
-  text-align: left;
-  height: 29px;
-  color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 25px;
-  line-height: 29px;
-  margin-top: unset;
-}
-
-:global(.vtex-store-components-3-x-infoCardImageContainer--info-card-aiuto) {
-  display: none;
-}
-
-:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-aiuto) {
-  display: block;
-}
-
-:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-aiuto) {
-  justify-content: center;
-  padding-left: 40px;
-  padding-right: 0px;
-  position: relative;
-  width: 100%;
-}
-
-:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-aiuto) {
-  position: absolute;
-  right: 0px;
-}
-
-.infoCardCallActionContainer--info-card-aiuto :global(.vtex-button) {
-  bottom: 63px;
-  right: 165px;
-  border-width: unset;
-  border-color: unset;
-  outline: none;
-  width: 51px;
-  height: 51px;
-  border-radius: 26px;
-  background-color: #ffffff;
-}
-
-.infoCardCallActionContainer--info-card-aiuto :global(.vtex-button__label) {
-  bottom: 51px;
-  position: relative;
-  padding: 0px;
-  color: #002c50;
-  font-family: "MuseoJHSans500";
-  font-size: 22px;
-  line-height: 29px;
-  text-transform: uppercase;
-}
-
-.infoCardCallActionContainer--info-card-aiuto :global(.vtex-button)::before {
-  content:"NO";
-  border-width: unset;
-  border-color: unset;
-  outline: none;
-  width: 51px;
-  height: 51px;
-  border-radius: 26px;
-  background-color: #ffffff;
-  display: flex;
-  position: relative;
-  bottom: 3px;
-  left: 77px;
-  padding: 0px;
-  color: #002c50;
-  font-family: "MuseoJHSans500";
-  font-size: 22px;
-  line-height: 29px;
-  text-transform: uppercase;
-  justify-content: center;
+:global(.vtex-menu-2-x-menuContainer--menu-larmocromia-mobile) {
   flex-direction: column;
 }
-
-
 
 
 /* tempi di consegna newsletter button */
@@ -1252,6 +1159,8 @@
 :global(.vtex-store-components-3-x-form--banner-mobile) {
   display: block!important;
 }
+
+
 
 
 /* desktop mobile version ENDS here */

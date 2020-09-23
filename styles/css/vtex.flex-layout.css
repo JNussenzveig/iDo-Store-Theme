@@ -92,14 +92,8 @@
   cursor: pointer;
 }
 
-
-
-
-
-
 :global(.vtex-modal-layout-0-x-triggerContainer) {
   position: relative;
-  bottom: 70px;
   color: transparent;
 }
 
@@ -434,14 +428,7 @@
 /* azienda chi siamo */
 
 
-:global(.vtex-flex-layout-0-x-flexRow--flex-row-vuoilavorare) {
-  padding-right: 76px;
-  padding-left: 76px;
-}
-:global(.vtex-flex-layout-0-x-flexRow--flex-row-newsletter) {
-  padding-right: 76px;
-  padding-left: 76px;
-}
+
 
 .flexCol--chiSiamo :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   width: 100%!important;
@@ -527,6 +514,7 @@
   height: 40px;
   border-radius: 20px;
   background-color: #001930;
+  outline: none;
 }
 
 .flexColChild--franchising-form-store :global(.vtex-dropdown__button) {
@@ -545,9 +533,8 @@
 }
 
 :global(.vtex-store-form-0-x-formSubmitContainer) {
-  margin-left: 20rem;
-  position: relative;
-  margin-right: 20rem;
+  justify-content: center;
+  display: flex;
 }
 
 
@@ -729,6 +716,7 @@
   font-size: 12px;
   font-weight: 300;
   line-height: 15px;
+  text-align: left;
 }
 
 
@@ -814,10 +802,6 @@
 }
 
 
-
-
-
-
 .flexRowContent--newsletter-form :global(.vtex-button) {
   width: 159px;
   height: 40px;
@@ -886,6 +870,7 @@
   font-size: 12px;
   font-weight: 300;
   line-height: 15px;
+  text-align: left;
 }
 
 /*franchising mobile*/
@@ -1011,8 +996,8 @@
 /* FRANCHISING FAQ */
 
 :global(.vtex-flex-layout-0-x-flexCol--franchising-faq-mobile) {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 21px;
+  margin-right: 21px;
 }
 
 /*RETE VENDITA MOBILE start here*/
@@ -1030,7 +1015,7 @@
 /*contatatci MOBILE*/
 
 :global(.vtex-flex-layout-0-x-flexCol--contattaci-form-mobile) {
-  margin-left: 20px;
+  margin-left: 21px;
 }
 
 

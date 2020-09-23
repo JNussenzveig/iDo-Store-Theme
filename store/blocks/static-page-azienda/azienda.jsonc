@@ -104,7 +104,7 @@
       "title": "Test 2"
     },
     "children": [
-      "flex-layout.col#chiSiamo"
+      "flex-layout.col#il-nostro-impegno"
     ]
   },
   "tab-wrapper#aprireFranchising": {
@@ -133,10 +133,10 @@
   },
    "tab-wrapper#lavoraConNoi": {
        "props": {
-         "title": "franchising"
+         "title": "lavora-con-noi"
        },
        "children": [
-         "rich-text#azienda"
+         "flex-layout.col#lavora-con-noi"
        ]
    },
 
@@ -246,6 +246,76 @@
 
 /*il nostro impegno*/
 
+     "flex-layout.col#il-nostro-impegno": {
+        "children": [
+          "rich-text#titleil-nostro-impegno",
+          "rich-text#contentil-nostro-impegno"
+
+        ],
+        "props": {
+          "preventVerticalStretch": true,
+          "blockClass": "il-nostro-impegno"
+        }
+      },
+      "rich-text#titleil-nostro-impegno": {
+          "props": {
+            "blockClass": "titleil-nostro-impegno",
+            "text":
+            "L’impegno di iDO ruota intorno al rispetto dei quattro valori fondanti: rispetto, lealtà, trasparenza e senso di appartenenza."
+          }
+      },
+      "rich-text#contentil-nostro-impegno": {
+         "props": {
+           "blockClass": "contentil-nostro-impegno",
+           "text":
+           "Il risultato è una collezione dallo stile unico ma che sappia anche essere confortevole, durevole e sicura per il bambino, con l’obiettivo di migliorare sia la qualità della vita del bambino che il mondo in cui viviamo.<br><br>Da sempre, l’azienda richiede esplicitamente a tutti i collaboratori, partner e fornitori di iDO di condividere i propri valori tramite l’adozione di un codice di condotta che definisce questi principi cardine in tema di sicurezza e tutela ambientale per tutti i processi produttivi.<br><br>La certificazione UNI EN ISO 104001 è un importante passo in questa direzione.<br><br>Quella di iDO è quindi una missione quotidiana, una mentalità radicata da decenni e che riguarda trasversalmente il benessere, la responsabilità sociale, la sostenibilità ambientale e la sicurezza. Questa missione è avvalorata anche dalle numerose iniziative di natura benefica e socioculturale di cui iDO si rende protagonista sul territorio."
+         }
+       },
+
+       "flex-layout.col#vuoilavorare": {
+                 "children": [
+                   "info-card#contentVuoilavorare"
+
+                 ],
+                 "props": {
+                   "preventVerticalStretch": true,
+                   "blockClass": "vuoilavorare"
+                 }
+       },
+
+
+
+
+       "rich-text#contentVuoilavorare": {
+            "props": {
+              "blockClass": "Vuoilavorare",
+              "text":
+              "Vuoi lavorare con noi?"
+            }
+       },
+
+       "rich-text#cvTextButton": {
+           "props": {
+             "text": "<a class='vtex-linkCvDesktop' href='http://www.google.com'>Lascia il tuo CV",
+             "blockClass": "cvButton"
+           }
+        },
+
+        "info-card#contentVuoilavorare": {
+            "props": {
+              "id": "info-card-Vuoilavorare",
+              "isFullModeStyle": false,
+              "textPosition": "left",
+              "imageUrl": "",
+              "headline": "Vuoi lavorare con noi?",
+              "callToActionText": "Lascia il tuo CV",
+              "callToActionUrl": "http://www.google.com",
+              "blockClass": "info-card-Vuoilavorare",
+              "textAlignment": "center"
+            }
+          },
+
+
 
 /*aprire franchising*/
 
@@ -260,7 +330,7 @@
       "rich-text#about-title4",
       "rich-text#about-title5",
       "flex-layout.row#franchisingCandidatura",
-      "modal-trigger#modal-aprire-un-franchising-form"
+      "flex-layout.row#modal-aprire-un-franchising-form"
     ],
     "props": {
       "preventVerticalStretch": true,
@@ -411,7 +481,6 @@
     "children": [
       "info-card#photoFaq",
       "rich-text#faq",
-      "rich-text#paginaFaq",
       "modal-trigger#modal-faq-button"
     ],
     "props": {
@@ -454,7 +523,7 @@
     },
     "rich-text#faqModal": {
         "props": {
-          "text": "Domande frequenti",
+          "text": "Vai alla pagina FAQ",
           "blockClass": "textFaqModal"
         }
      },
@@ -569,18 +638,11 @@
     }
   },
 
-  "rich-text#paginaFaq": {
-    "props": {
-      "text": "Vai alla pagina FAQ",
-      "blockClass": "textPaginaFaq"
-    }
-  },
 
   "flex-layout.col#pdf": {
     "children": [
       "info-card#photoPdf",
       "rich-text#pdf",
-      "rich-text#scaricaPdf",
       "modal-trigger#modal-pdf-button"
     ],
     "props": {
@@ -600,7 +662,7 @@
   },
   "rich-text#pdfModal": {
           "props": {
-            "text": "scarica il pdf",
+            "text": "Scarica il pdf",
             "blockClass": "textPdfModal"
           }
    },
@@ -639,12 +701,7 @@
     }
   },
 
-  "rich-text#scaricaPdf": {
-    "props": {
-      "text": "Scarica il PDF",
-      "blockClass": "textScaricaPdf"
-    }
-  },
+
 
   "modal-trigger#modal-franchising-button": {
     "children": [
@@ -654,16 +711,27 @@
 
   "rich-text#franchisingTextButton": {
     "props": {
-      "text": "<a class='vtex-linkFranchisingDesktop' href='https://raduthirdbranch--storeido.myvtex.com/azienda?__bindingAddress=www.ido.it/it'>Apri un franchising iDO",
+      "text": "<a class='vtex-linkFranchisingDesktop' href='https://radufivebranch--storeido.myvtex.com/azienda?__bindingAddress=www.ido.it/it'>Apri un franchising iDO",
       "blockClass": "franchisingButton"
     }
   },
 
+    "flex-layout.row#modal-aprire-un-franchising-form": {
+        "children": [
+          "modal-trigger#modal-aprire-un-franchising-form"
+        ],
+        "props": {
+          "blockClass": "modal-aprire-un-franchising-form"
+         }
+      },
   "modal-trigger#modal-aprire-un-franchising-form": {
       "children": [
         "rich-text#franchisingTextButton",
         "modal-layout#modal-aprire-un-franchising-form"
-      ]
+      ],
+      "props": {
+            "blockClass": "modal-trigger-aprire-un-franchising-form"
+          }
     },
 
   "modal-layout#modal-aprire-un-franchising-form": {
@@ -2229,11 +2297,43 @@
             "text": "trade@miniconf.it<br>Tel 0575 533 527<br>0575 533 528",
             "blockClass": "maggiori-informazioni-contact-phone"
             }
-          }
+          },
+
+         "flex-layout.col#lavora-con-noi": {
+            "children": [
+              "rich-text#lavora-con-noi-content",
+              "flex-layout.row#invia-candidatura-Button"
+            ],
+            "props": {
+              "preventVerticalStretch": true,
+              "blockClass": "lavora-con-noi"
+            }
+          },
+
+          "rich-text#lavora-con-noi-content": {
+            "props": {
+            "text": "Se ritieni che il tuo profilo professionale possa essere di nostro interesse e che il settore nel quale operiamo sia per te stimolante e motivo di cescita, inviaci il tuo curriculim vitae.<br><br>Si garantisce la massima riservatezza dei dati comunicati. È possibile richiederne la rettifica o la cancellazione degli stessi inviando richiesta alla nostra azienda.riconoscimento di 'Company to watch' da Databank, multinazionale specializzata in ricerche di marketing.",
+            "blockClass": "lavora-con-noi-content"
+            }
+          },
+            "flex-layout.row#invia-candidatura-Button": {
+              "children": [
+              "rich-text#invia-candidatura-Button"
+              ],
+              "props": {
+                "preventHorizontalStretch": true,
+                "fullWidth": true,
+                "blockClass": "invia-candidatura-Button"
+              }
+            },
 
 
-
-
+            "rich-text#invia-candidatura-Button": {
+              "props": {
+                "text": "<a class='vtex-invia-candidatura-Button' href='https://google.com'>Invia la tua candidatura",
+                "blockClass": "invia-candidatura-Button"
+              }
+            }
 
 }
 
