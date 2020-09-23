@@ -2,10 +2,25 @@
 
   "store.custom#trattamento-dati": {
       "blocks": [
+      "responsive-layout.desktop#trattamento-dati",
+      "responsive-layout.mobile#trattamento-dati"
+
+      ]
+    },
+    "responsive-layout.desktop#trattamento-dati": {
+      "children": [
         "flex-layout.row#trattamento-dati",
         "flex-layout.row#newsletter"
       ]
     },
+
+    "responsive-layout.mobile#trattamento-dati": {
+      "children": [
+        "flex-layout.row#trattamento-dati-mobile",
+        "newsletter#banner-mobile"
+      ]
+    },
+
 
    "flex-layout.row#trattamento-dati": {
        "children": [
@@ -250,7 +265,71 @@
              "text":
              "Miniconf S.p.a si riserva la facoltà di modificare questa informativa in qualsiasi momento."
           }
-    }
+    },
+
+/*mobile*/
+
+    "flex-layout.row#trattamento-dati-mobile": {
+        "children": [
+          "flex-layout.col#trattamento-dati-mobile"
+        ],
+        "props": {
+        "blockClass": "flex-row-order-processing-mobile"
+        }
+    },
+
+
+     "flex-layout.col#trattamento-dati-mobile": {
+       "children": [
+         "rich-text#trattamento-dati-mobile-title",
+         "rich-text#trattamento-dati-titlebig-mobile",
+        "rich-text#trattamento-dati-title1",
+        "rich-text#trattamento-dati-content1",
+        "rich-text#trattamento-dati-title2",
+        "rich-text#trattamento-dati-content2",
+        "rich-text#trattamento-dati-title3",
+        "rich-text#trattamento-dati-content3",
+        "rich-text#trattamento-dati-title4",
+        "rich-text#trattamento-dati-content4",
+        "rich-text#trattamento-dati-title5",
+        "rich-text#trattamento-dati-content5",
+        "rich-text#trattamento-dati-title6",
+        "rich-text#trattamento-dati-content6",
+        "rich-text#trattamento-dati-title7",
+        "rich-text#trattamento-dati-content7",
+        "rich-text#trattamento-dati-title8",
+        "rich-text#trattamento-dati-title9",
+        "rich-text#trattamento-dati-content9",
+        "rich-text#trattamento-dati-title10",
+        "rich-text#trattamento-dati-content10",
+        "rich-text#trattamento-dati-title11",
+        "rich-text#trattamento-dati-content11",
+        "rich-text#trattamento-dati-title12",
+        "rich-text#trattamento-dati-content12"
+
+       ],
+       "props": {
+         "preventVerticalStretch": true,
+         "blockClass": "order-processing-mobile"
+       }
+     },
+
+    "rich-text#trattamento-dati-mobile-title": {
+        "props": {
+          "blockClass": "order-processing-mobile-title",
+          "text":
+          "Termini e condizioni"
+        }
+     },
+
+    "rich-text#trattamento-dati-titlebig-mobile": {
+        "props": {
+          "blockClass": "order-processing-titlebig-mobile",
+          "text":
+          "Trattamento dati"
+        }
+     }
+
 }
 
 

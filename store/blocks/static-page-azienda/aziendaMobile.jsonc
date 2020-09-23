@@ -264,7 +264,7 @@
               "children": [
                 "rich-text#about-title1mobile",
                 "rich-text#about-contentFranchising1mobile",
-                "image#about-usmobile",
+                "flex-layout.col#zerofeemobile",
                 "flex-layout.col#contentCosaCerchiamomobile",
                 "rich-text#about-title3mobile",
                 "rich-text#about-contentFranchising3mobile",
@@ -294,11 +294,77 @@
                 " iDO è un marchio di proprietà di Miniconf spa, realtà che opera da oltre 45 anni nel settore della moda Kids. Nasce nel 2011 dalla decisione dell’imprenditore di cogliere l’opportunità di lanciare un brand di tendenza, easy to wear, che fa della coordinabilità uno dei punti di forza della collezione. iDO è riconosciuto per un ottimo rapporto qualità/prezzo in grado di interpretare le richieste dell’attuale mercato omnicanale."
               }
             },
-            "image#about-usmobile": {
+
+
+
+
+
+
+             "flex-layout.col#zerofeemobile": {
+               "children": [
+                 "slider-layout#zerofeemobile"
+               ],
+               "props": {
+                 "width": "grow",
+                 "preventVerticalStretch": true,
+                 "blockClass": "zerofeemobile"
+               }
+             },
+
+
+             "slider-layout#zerofeemobile": {
+               "children": [
+                 "image#photozerofee1mobile",
+                 "image#photozerofee2mobile",
+                 "image#photozerofee3mobile"
+
+               ],
+               "props": {
+                 "itemsPerPage": {
+                   "desktop": 1,
+                   "tablet": 1,
+                   "phone": 1
+                 },
+                 "infinite": true,
+                 "fullWidth": true,
+                 "showNavigationArrows": "never",
+                 "showPaginationDots": "never",
+                 "autoplay": { "stopOnHover": false, "timeout": 3000},
+                 "navigationStep": 1,
+                 "slideTransition": { "speed": 400, "delay": 0, "timing": "" },
+                 "blockClass": "photozerofee"
+               }
+             },
+
+            "image#photozerofee1mobile": {
               "props": {
                 "src": "https://raduthirdbranch--storeido.myvtex.com/arquivos/franchising_zerofeemobile@3x.png"
               }
             },
+            "image#photozerofee2mobile": {
+              "props": {
+                "src": "https://raduthirdbranch--storeido.myvtex.com/arquivos/franchising_zerofeemobile@3x.png"
+              }
+            },
+            "image#photozerofee3mobile": {
+              "props": {
+                "src": "https://raduthirdbranch--storeido.myvtex.com/arquivos/franchising_zerofeemobile@3x.png"
+              }
+            },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             "rich-text#about-title3mobile": {
               "props": {

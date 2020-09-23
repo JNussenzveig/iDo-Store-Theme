@@ -2,10 +2,25 @@
 
   "store.custom#condizioni-generali-di-vendita": {
       "blocks": [
+      "responsive-layout.desktop#condizioni-generali-di-vendita",
+      "responsive-layout.mobile#condizioni-generali-di-vendita"
+
+      ]
+    },
+    "responsive-layout.desktop#condizioni-generali-di-vendita": {
+      "children": [
         "flex-layout.row#condizioni-generali-di-vendita",
         "flex-layout.row#newsletter"
       ]
     },
+
+    "responsive-layout.mobile#condizioni-generali-di-vendita": {
+      "children": [
+        "flex-layout.row#condizioni-generali-di-vendita-mobile",
+        "newsletter#banner-mobile"
+      ]
+    },
+
 
    "flex-layout.row#condizioni-generali-di-vendita": {
        "children": [
@@ -479,7 +494,96 @@
              "text":
              "Il diritto di recesso può essere esercitato da tutti i Clienti, sia che abbiano effettuato l’acquisto come ospite oppure come cliente registrato al sito o alla sezione myiDO.<br>Il Cliente non registrato che ha effettuato l’acquisto come ospite potrà esercitare il diritto di recesso entro 14 giorni lavorativi dalla ricezione della merce attraverso la seguente procedura:<br>1. il Cliente comunica che intende effettuare il reso via e-mail all’indirizzo servizioclienti@ido.it specificando il numero di ordine ed i capi che intende restituire;<br>2. I prodotti non devono essere stati utilizzati, indossati, lavati o danneggiati; <br>3. I prodotti devono essere restituiti integri nella loro confezione originale e con tutti i cartellini e spediti entro 14 giorni lavorativi dalla data di ricezione a: iDO shop, p/o Miniconf S.p.a, Zona Industriale Ferrantina, Via dell’artigianato, 52011, Bibbiena (AR), Italia Magazzino Ferrantina 3.<br>4. Miniconf si riserva il diritto di non accettare capi danneggiati e/o utilizzati. <br>Il costo della restituzione del/i prodotto/i al nostro magazzino effettuato dal Cliente  non registrato al sito www.ido.it è a carico del Cliente stesso che è libero di scegliere il vettore che preferisce per la spedizione. Solo in caso di difetti del Prodotto imputabili a Miniconf S.p.a., l’azienda si riserva il diritto di valutare l’accollo della spesa di spedizione.<br>Se, invece, il Cliente è registrato al sito o è un cliente registrato nella sezione myiDO e desidera esercitare il diritto di recesso potrà farlo entro 14 giorni lavorativi dalla ricezione della merce effettuando la procedura di reso direttamente all’interno del proprio account. Il Cliente potrà entrare direttamente nel proprio Ordine, cliccare su quale/i capo/i desidera restituire comunicando a Miniconf S.p.a. il motivo per cui intende restituirli, prenotare il reso e stampare il modulo di reso da inserire all’interno del pacco.  <br>Il reso è gratuito solo per i Clienti registrati nella sezione myiDO e, in tal caso, sarà Miniconf S.p.a., dopo che il Cliente ha richiesto il ritiro compilando i campi specificati nella documentazione che trova nel proprio account myiDO, a inviare il corriere. <br>Il Cliente registrato al sito, ma non registrato alla sezione myiDO, potrà entrare nell’Ordine di cui intende restituire i Prodotti, cliccare su quale/i capo/i desidera restituire comunicando a Miniconf S.p.a. il motivo per cui intende restituirli e stampare il modulo di reso da inserire all’interno del pacco. Eseguita questa procedura il Cliente potrà spedire il reso con il vettore che preferisce.<br>Usufruendo del reso gratuito a carico di Miniconf S.P.A., il cliente myiDO non potrà richiedere un cambio merce. Il reso potrà essere chiuso o con un riaccredito pari al valore del/i capo/i che il cliente restituisce o con un coupon pari al valore dei capi resi. Il coupon non sarà comprensivo di spese di spedizione gratuite.<br>Nel caso in cui, invece, un utente non registrato o un utente registrato al sito, ma non registrato alla sezione myiDO, richiedano un cambio merce, il/i nuovo/i prodotto/i verranno spediti, a carico di Miniconf S.p.a. solo dopo che Miniconf S.p.a. avrà ricevuto il reso e ne avrà verificato le condizioni. <br>Il costo della restituzione del prodotto/i al magazzino della Miniconf S.p.a. effettuata da un Cliente registrato nella sezione myiDO è a carico di Miniconf S.p.a. solo qualora il Cliente rispetti la procedura di reso specificata nel sito www.ido.it.<br>Le spese di spedizione di invio del cambio merce sono a carico di Miniconf S.p.a. solo per resi effettuati da utenti non registrati o per utenti registrati al sito www.ido.it. <br>Il cambio merce a spese di Miniconf S.p.a. non è previsto per gli utenti myiDO ovvero registrati alla sezione myiDO del sito www.ido.it <br>Notare bene: alcuni prodotti sono disponibili in una sola dimensione/colore/lunghezza. Questi prodotti non possono pertanto essere cambiati per una diversa dimensione/colore/lunghezza etc.<br>Qualora il Cliente non registrato al sito o registrato al sito ma non alla sezione myiDO non voglia effettuare un cambio merce può richiedere il rimborso che verrà effettuato conformemente alla modalità di pagamento dell’Ordine oppure tramite l’emissione di un codice coupon utilizzabile per un nuovo acquisto sul Negozio On line. "
           }
-    }
+    },
+/* mobile*/
+    "flex-layout.row#condizioni-generali-di-vendita-mobile": {
+        "children": [
+          "flex-layout.col#condizioni-generali-di-vendita-mobile"
+        ],
+        "props": {
+        "blockClass": "flex-row-order-processing-mobile"
+        }
+    },
+
+
+     "flex-layout.col#condizioni-generali-di-vendita-mobile": {
+       "children": [
+         "rich-text#condizioni-generali-di-vendita-mobile-title",
+         "rich-text#condizioni-generali-di-vendita-titlebig-mobile",
+        "rich-text#condizioni-generali-di-vendita-title1",
+        "rich-text#condizioni-generali-di-vendita-content1",
+        "rich-text#condizioni-generali-di-vendita-title2",
+        "rich-text#condizioni-generali-di-vendita-content2",
+        "rich-text#condizioni-generali-di-vendita-title3",
+        "rich-text#condizioni-generali-di-vendita-content3",
+        "rich-text#condizioni-generali-di-vendita-title4",
+        "rich-text#condizioni-generali-di-vendita-content4",
+        "rich-text#condizioni-generali-di-vendita-title5",
+        "rich-text#condizioni-generali-di-vendita-content5",
+        "rich-text#condizioni-generali-di-vendita-title6",
+        "rich-text#condizioni-generali-di-vendita-content6",
+        "rich-text#condizioni-generali-di-vendita-title7",
+        "rich-text#condizioni-generali-di-vendita-content7",
+        "rich-text#condizioni-generali-di-vendita-title8",
+        "rich-text#condizioni-generali-di-vendita-content8",
+        "rich-text#condizioni-generali-di-vendita-title9",
+        "rich-text#condizioni-generali-di-vendita-content9",
+        "rich-text#condizioni-generali-di-vendita-title10",
+        "rich-text#condizioni-generali-di-vendita-content10",
+        "rich-text#condizioni-generali-di-vendita-title11",
+        "rich-text#condizioni-generali-di-vendita-content11",
+        "rich-text#condizioni-generali-di-vendita-title12",
+        "rich-text#condizioni-generali-di-vendita-content12",
+        "rich-text#condizioni-generali-di-vendita-title13",
+        "rich-text#condizioni-generali-di-vendita-content13",
+        "rich-text#condizioni-generali-di-vendita-title14",
+        "rich-text#condizioni-generali-di-vendita-content14",
+        "rich-text#condizioni-generali-di-vendita-title15",
+        "rich-text#condizioni-generali-di-vendita-content15",
+        "rich-text#condizioni-generali-di-vendita-title16",
+        "rich-text#condizioni-generali-di-vendita-content16",
+        "rich-text#condizioni-generali-di-vendita-title17",
+        "rich-text#condizioni-generali-di-vendita-content17",
+        "rich-text#condizioni-generali-di-vendita-title18",
+        "rich-text#condizioni-generali-di-vendita-content18",
+        "rich-text#condizioni-generali-di-vendita-title19",
+        "rich-text#condizioni-generali-di-vendita-content19",
+        "rich-text#condizioni-generali-di-vendita-title20",
+        "rich-text#condizioni-generali-di-vendita-content20",
+        "rich-text#condizioni-generali-di-vendita-title21",
+        "rich-text#condizioni-generali-di-vendita-content21",
+        "rich-text#condizioni-generali-di-vendita-title22",
+        "rich-text#condizioni-generali-di-vendita-content22",
+        "rich-text#condizioni-generali-di-vendita-title23",
+        "rich-text#condizioni-generali-di-vendita-content23",
+        "rich-text#condizioni-generali-di-vendita-title24",
+        "rich-text#condizioni-generali-di-vendita-content24",
+        "rich-text#condizioni-generali-di-vendita-title25",
+        "rich-text#condizioni-generali-di-vendita-content25"
+
+       ],
+       "props": {
+         "preventVerticalStretch": true,
+         "blockClass": "order-processing-mobile"
+       }
+     },
+
+    "rich-text#condizioni-generali-di-vendita-mobile-title": {
+        "props": {
+          "blockClass": "condizioni-generali-di-vendita-mobile-title",
+          "text":
+          "Termini e condizioni"
+        }
+     },
+
+    "rich-text#condizioni-generali-di-vendita-titlebig-mobile": {
+        "props": {
+          "blockClass": "condizioni-generali-di-vendita-titlebig-mobile",
+          "text":
+          "Condizioni generali di vendita"
+        }
+     }
+
 }
 
 

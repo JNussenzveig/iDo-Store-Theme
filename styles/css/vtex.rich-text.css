@@ -1456,6 +1456,56 @@
 }
 
 
+/*guida alle taglie mobile*/
+
+:global(.vtex-menu-2-x-menuContainer--menu-guida-alle-taglie-mobile) {
+  flex-direction: column;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-guida-alle-taglie-mobile) {
+  justify-content: space-between;
+  white-space: unset;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-guida-alle-taglie-mobile--isOpen)::after {
+  content: "";
+  width: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 8px;
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowup.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-guida-alle-taglie-mobile--isClosed)::after {
+  content: "";
+  width: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 8px;
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowdown.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-guida-alle-taglie-mobile) {
+  font-size: 0px;
+}
+
+:global(.vtex-menu-2-x-submenuAccordion--submenu-guida-alle-taglie-mobile) {
+  padding-left: 0px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--imageTagliemobile) {
+  margin-top: 18px;
+}
+
+
 
 
 
@@ -3400,15 +3450,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
 /* lacromonia trova il negozio mobile*/
 
 
@@ -3449,7 +3490,264 @@
   font-family: "MuseoJHSans900";
   font-size: 25px;
   line-height: 29px;
-  margin-left: 20px;
+  margin-left: 1.5rem;
+}
+
+:global(.vtex-menu-2-x-menuContainer--termini-e-condizioni-mobile) {
+  flex-direction: column;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-termini-e-condizioni-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-termini-e-condizioni-mobile--isOpen)::after {
+  content: "";
+  width: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 8px;
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowup.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-termini-e-condizioni-mobile--isClosed)::after {
+  content: "";
+  width: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 8px;
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowdown.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-termini-e-condizioni-mobile--isClosed) {
+  display: none;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-termini-e-condizioni-mobile--isOpen) {
+  display: none;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-termini-e-condizioni-mobile) {
+  font-size: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-termini-e-condizioni-mobile--isOpen) {
+  display: inline-flex!important;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-termini-e-condizioni-mobile--isClosed) {
+  display: inline-flex!important;
+}
+
+:global(.vtex-menu-2-x-submenuAccordion--submenu-termini-e-condizioni-mobile) {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  padding: unset;
+  width: unset;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--azienda-mobile) {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/*servizio clienti mobile*/
+
+:global(.vtex-rich-text-0-x-paragraph--servizio-clienti-title-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-left: 1.5rem;
+}
+
+:global(.vtex-menu-2-x-menuContainer--servizio-clienti-mobile) {
+  flex-direction: column;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-servizio-clienti-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-servizio-clienti-mobile--isOpen)::after {
+  content: "";
+  width: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 8px;
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowup.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-servizio-clienti-mobile--isClosed)::after {
+  content: "";
+  width: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 8px;
+  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowdown.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-servizio-clienti-mobile--isClosed) {
+  display: none;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-servizio-clienti-mobile--isOpen) {
+  display: none;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-servizio-clienti-mobile) {
+  font-size: 0px;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-servizio-clienti-mobile--isOpen) {
+  display: inline-flex!important;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-item-servizio-clienti-mobile--isClosed) {
+  display: inline-flex!important;
+}
+
+:global(.vtex-menu-2-x-submenuAccordion--submenu-servizio-clienti-mobile) {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  padding: unset;
+  width: unset;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--servizio-clienti-mobile) {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/*termini e condizioni - condizioni generali di vendita mobile*/
+
+:global(.vtex-rich-text-0-x-paragraph--condizioni-generali-di-vendita-mobile-title) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  line-height: 21px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--condizioni-generali-di-vendita-titlebig-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-top: 0px;
+}
+
+/*servizio clienti guida alle taglie mobile*/
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-servizio-clienti-mobile) {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+:global(.vtex-menu-2-x-submenuAccordion--submenu-guida-alle-taglie-mobile) {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+:global(.vtex-menu-2-x-submenuAccordion--submenu-tempi-di-consegna-mobile) {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: unset;
+  padding-left: 0px;
+}
+
+:global(.vtex-menu-2-x-submenuAccordion--submenu-resi-e-cambi-mobile) {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: unset;
+  padding-left: 0px;
+}
+
+:global(.vtex-menu-2-x-submenuAccordion--submenu-ordering-processing-mobile) {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: unset;
+  padding-left: 0px;
+}
+
+:global(.vtex-menu-2-x-submenuAccordion--submenu-contattaci-form-mobile) {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: unset;
+  padding-left: 0px;
+}
+
+:global(.vtex-menu-2-x-submenuAccordion--submenu-newsletter-form-mobile) {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: unset;
+  padding-left: 0px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-guida-alle-taglie-mobile) {
+  margin-left: unset;
+  margin-right: unset;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-guida-alle-taglie-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  line-height: 21px;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-guida-alle-taglie-mobile) {
+  width: 100%;
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+:global(.vtex-menu-2-x-menuItem--menu-item-guida-alle-taglie-mobile) {
+  margin-bottom: unset!important;
+}
+
+:global(.vtex-menu-2-x-menuItem--menu-item-guida-alle-taglie-mobile) {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-submenuAccordion--submenu-guida-alle-taglie-images-mobile) {
+  padding-left: unset;
 }
 
 
