@@ -2,10 +2,25 @@
 
   "store.custom#privacy-policy": {
       "blocks": [
+      "responsive-layout.desktop#privacy-policy",
+      "responsive-layout.mobile#privacy-policy"
+
+      ]
+    },
+    "responsive-layout.desktop#privacy-policy": {
+      "children": [
         "flex-layout.row#privacy-policy",
         "flex-layout.row#newsletter"
       ]
     },
+
+    "responsive-layout.mobile#privacy-policy": {
+      "children": [
+        "flex-layout.row#privacy-policy-mobile",
+        "newsletter#banner-mobile"
+      ]
+    },
+
 
    "flex-layout.row#privacy-policy": {
        "children": [
@@ -258,7 +273,72 @@
              "text":
              "1.L'interessato ha diritto di ottenere la conferma dell'esistenza o meno di dati personali che lo riguardano, anche se non ancora registrati, e la loro comunicazione in forma intelligibile.<br><br>2. L’interessato ha diritto di ottenere l’indicazione:<br>a. dell’origine dei dati personali;<br>b. delle finalità e modalità del trattamento;<br>c. della logica applicata in caso di trattamento effettuato con l’ausilio di strumenti elettronici;<br>d. degli estremi identificativi del titolare, dei responsabili e del rappresentante designato ai sensi dell’articolo 5, comma 2; <br>e. dei soggetti o delle categorie di soggetti ai quali i dati personali possono essere comunicati o che possono venirne a conoscenza in qualità di rappresentante designato nel territorio dello Stato, di responsabili o incaricati.<br><br>3. L’interessato ha diritto di ottenere:<br>a. l'aggiornamento, la rettificazione ovvero, quando vi ha interesse, l'integrazione dei dati;<br>b. la cancellazione, la trasformazione in forma anonima o il blocco dei dati trattati in violazione di legge, compresi quelli di cui non è necessaria la conservazione in relazione agli scopi per i quali i dati sono stati raccolti o successivamente trattati;<br>c. l'attestazione che le operazioni di cui alle lettere a) e b) sono state portate a conoscenza, anche per quanto riguarda il loro contenuto, di coloro ai quali i dati sono stati comunicati o diffusi, eccettuato il caso in cui tale adempimento si rivela impossibile o comporta un impiego di mezzi manifestamente sproporzionato rispetto al diritto tutelato.<br><br>4. L’interessato ha diritto di opporsi, in tutto o in parte:<br>a. per motivi legittimi al trattamento dei dati personali che lo riguardano, ancorché pertinenti allo scopo della raccolta;<br>b. al trattamento di dati personali che lo riguardano a fini di invio di materiale pubblicitario o di vendita diretta o per il compimento di ricerche di mercato o di comunicazione commerciale."
           }
-    }
+    },
+
+/*mobile*/
+
+    "flex-layout.row#privacy-policy-mobile": {
+        "children": [
+          "flex-layout.col#privacy-policy-mobile"
+        ],
+        "props": {
+        "blockClass": "flex-row-order-processing-mobile"
+        }
+    },
+
+
+     "flex-layout.col#privacy-policy-mobile": {
+       "children": [
+         "rich-text#privacy-policy-mobile-title",
+         "rich-text#privacy-policy-titlebig-mobile",
+        "rich-text#privacy-policy-content1",
+        "rich-text#privacy-policy-title2",
+        "rich-text#privacy-policy-title3",
+        "rich-text#privacy-policy-content3",
+        "rich-text#privacy-policy-title4",
+        "rich-text#privacy-policy-content4",
+        "rich-text#privacy-policy-title5",
+        "rich-text#privacy-policy-content5",
+        "rich-text#privacy-policy-title6",
+        "rich-text#privacy-policy-content6",
+        "rich-text#privacy-policy-title7",
+        "rich-text#privacy-policy-content7",
+        "rich-text#privacy-policy-title8",
+        "rich-text#privacy-policy-content8",
+        "rich-text#privacy-policy-title9",
+        "rich-text#privacy-policy-content9",
+        "rich-text#privacy-policy-title10",
+        "rich-text#privacy-policy-content10",
+        "rich-text#privacy-policy-title11",
+        "rich-text#privacy-policy-content11",
+        "rich-text#privacy-policy-title12",
+        "rich-text#privacy-policy-content12",
+        "rich-text#privacy-policy-title13",
+        "rich-text#privacy-policy-content13"
+
+       ],
+       "props": {
+         "preventVerticalStretch": true,
+         "blockClass": "order-processing-mobile"
+       }
+     },
+
+    "rich-text#privacy-policy-mobile-title": {
+        "props": {
+          "blockClass": "order-processing-mobile-title",
+          "text":
+          "Termini e condizioni"
+        }
+     },
+
+    "rich-text#privacy-policy-titlebig-mobile": {
+        "props": {
+          "blockClass": "order-processing-titlebig-mobile",
+          "text":
+          "Privacy Policy"
+        }
+     }
+
 }
 
 

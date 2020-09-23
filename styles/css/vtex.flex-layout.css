@@ -1211,6 +1211,29 @@
 
 @media screen and (max-width: 1024px) {
 
+
+  
+/* termini e condizioni mobile*/
+
+:global(.vtex-menu-2-x-menuItem--menu-item-termini-e-condizioni-mobile) {
+  margin-bottom: 0px!important;
+}
+
+:global(.vtex-menu-2-x-menuItem--menu-item-termini-e-condizioni-mobile) {
+  border-top: solid 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* servizio clienti mobile*/
+
+:global(.vtex-menu-2-x-menuItem--menu-item-servizio-clienti-mobile) {
+  margin-bottom: 0px!important;
+}
+
+:global(.vtex-menu-2-x-menuItem--menu-item-servizio-clienti-mobile) {
+  border-top: solid 1px;
+  border-color: rgba(0, 0, 0, 0.1);
+=======
   .flexRowContent--product-main-container {
   display: none;
 }
@@ -1222,4 +1245,5 @@
   .flexRow--breadcrumbs-mobile-top-container {
     margin-top: -81px!important;
   }
+
 }

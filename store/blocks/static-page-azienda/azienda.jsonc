@@ -93,7 +93,7 @@
 
   "tab-wrapper#siamo": {
     "props": {
-      "title": "Test 1"
+      "title": "chi-siamo"
     },
     "children": [
        "flex-layout.col#chiSiamo"
@@ -101,7 +101,7 @@
   },
   "tab-wrapper#impegno": {
     "props": {
-      "title": "Test 2"
+      "title": "impegno"
     },
     "children": [
       "flex-layout.col#il-nostro-impegno"
@@ -109,7 +109,7 @@
   },
   "tab-wrapper#aprireFranchising": {
     "props": {
-      "title": "Test 1"
+      "title": "franchising"
     },
     "children": [
       "flex-layout.col#aprireFranchising"
@@ -125,7 +125,7 @@
   },
   "tab-wrapper#partenerLab": {
       "props": {
-        "title": "franchising"
+        "title": "partener-lab"
       },
       "children": [
         "rich-text#azienda"

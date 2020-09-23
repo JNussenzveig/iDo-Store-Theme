@@ -397,123 +397,14 @@
       "blockClass": "menu-item-azienda-mobile",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "https://radufivebranch--storeido.myvtex.com/servizio-clienti?__bindingAddress=www.ido.it/it",
         "noFollow": false,
         "tagTitle": "SERVIZIO CLIENTI",
         "text": "SERVIZIO CLIENTI"
-      },
-      "iconProps": {
-        "id": "hpa-arrow-to-bottom",
-        "size": 16,
-        "viewBox": "0 0 16 16",
-        "activeClassName": "footer-menu-icon-mobile",
-        "mutedClassName": "c-action-primary"
-      },
-      "iconToTheRight": true
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#shop"]
-  },
-  "vtex.menu@2.x:submenu.accordion#shop": {
-    "children": [
-      "menu-item#submenu-guida-alle-taglie",
-      "menu-item#submenu-tempi-di-consegna",
-      "menu-item#submenu-resi-e-cambi",
-      "menu-item#submenu-order-processing",
-      "menu-item#submenu-contattaci",
-      "menu-item#submenu-inscriviti-alla-newsletter"
-    ]
-  },
-
-    "menu-item#submenu-guida-alle-taglie": {
-    "props": {
-    "id": "menu-item-azienda-mobile-submenu",
-    "type": "custom",
-    "highlight": false,
-    "itemProps": {
-    "type": "internal",
-    "href": "/guida-alle-taglie",
-    "noFollow": false,
-    "tagTitle": "Guida alle taglie",
-    "text": "Guida alle taglie"
-    }
-  }
-},
-
-  "menu-item#submenu-tempi-di-consegna": {
-    "props": {
-      "id": "menu-item-tempi-di-consegna",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tempi-di-consegna",
-        "noFollow": false,
-        "tagTitle": "Tempi di consegna",
-        "text": "Tempi di consegna"
       }
     }
   },
 
-  "menu-item#submenu-resi-e-cambi": {
-    "props": {
-      "id": "menu-item-resi-e-cambi",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/reso-e-cambi",
-        "noFollow": false,
-        "tagTitle": "Resi e cambi",
-        "text": "Resi e cambi"
-      }
-    }
-  },
-
-  "menu-item#submenu-order-processing": {
-    "props": {
-      "id": "menu-item-order-processing",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/order-processing",
-        "noFollow": false,
-        "tagTitle": "Order processing",
-        "text": "Order processing"
-      }
-    }
-  },
-
-
-  "menu-item#submenu-contattaci": {
-    "props": {
-      "id": "menu-item-contattaci",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/contattaci",
-        "noFollow": false,
-        "tagTitle": "Contattaci",
-        "text": "Contattaci"
-      }
-    }
-  },
-
-  "menu-item#submenu-inscriviti-alla-newsletter": {
-    "props": {
-      "id": "menu-item-inscriviti-alla-newsletter",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/iscriviti-alla-newsletter",
-        "noFollow": false,
-        "tagTitle": "Iscriviti alla newsletter",
-        "text": "Iscriviti alla newsletter"
-      }
-    }
-  },
   "menu-item#my-ido-mobile": {
     "props": {
       "id": "menu-item-azienda-mobile",
@@ -593,118 +484,16 @@
       "blockClass": "menu-item-footer-mobile-termini-e-condizione",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "https://radufivebranch--storeido.myvtex.com/termini-e-condizioni?__bindingAddress=www.ido.it/it",
         "noFollow": false,
         "tagTitle": "TERMINI E CONDIZIONI",
         "text": "TERMINI E CONDIZIONI"
       }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#shop-mobile"]
-  },
-
-
-  "vtex.menu@2.x:submenu.accordion#shop-mobile": {
-    "children": [
-      "menu-item#submenu-condizioni-di-vendita-mobile",
-      "menu-item#submenu-regolamento-mobile",
-      "menu-item#submenu-diritto-di-reso-mobile",
-      "menu-item#submenu-privacy-policy-mobile",
-      "menu-item#submenu-trattamento-dati-mobile",
-      "menu-item#submenu-cookie-policy-mobile"
-    ]
-  },
-
-  "menu-item#submenu-condizioni-di-vendita-mobile": {
-    "props": {
-      "id": "menu-item-azienda-mobile-submenu",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/condizioni-generali-di-vendita",
-        "noFollow": false,
-        "tagTitle": "Condizioni di vendita",
-        "text": "Condizioni di vendita"
-      }
     }
   },
 
 
-  "menu-item#submenu-regolamento-mobile": {
-    "props": {
-      "id": "menu-item-regolamento-mobile",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/regolamento",
-        "noFollow": false,
-        "tagTitle": "Regolamento",
-        "text": "Regolamento"
-      }
-    }
-  },
 
-  "menu-item#submenu-diritto-di-reso-mobile": {
-    "props": {
-      "id": "menu-item-diritto-di-reso-mobile",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/diritto-di-recesso",
-        "noFollow": false,
-        "tagTitle": "Diritto di reso",
-        "text": "Diritto di reso"
-      }
-    }
-  },
-
-  "menu-item#submenu-privacy-policy-mobile": {
-    "props": {
-      "id": "menu-item-privacy-policy-mobile",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/privacy-and-policy",
-        "noFollow": false,
-        "tagTitle": "Privacy Policy",
-        "text": "Privacy Policy"
-      }
-    }
-  },
-
-
-  "menu-item#submenu-trattamento-dati-mobile": {
-    "props": {
-      "id": "menu-item-trattamento-dati-mobile",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/trattamento-dati",
-        "noFollow": false,
-        "tagTitle": "Trattamento Dati",
-        "text": "Trattamento Dati"
-      }
-    }
-  },
-
-  "menu-item#submenu-cookie-policy-mobile": {
-    "props": {
-      "id": "menu-item-cookie-policy-mobile",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/cookie-policy",
-        "noFollow": false,
-        "tagTitle": "Cookie Policy",
-        "text": "Cookie Policy"
-      }
-    }
-  },
 
   "menu-item#fidelity-card-mobile": {
     "props": {

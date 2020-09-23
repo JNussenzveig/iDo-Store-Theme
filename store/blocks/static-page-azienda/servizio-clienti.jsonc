@@ -1,0 +1,460 @@
+{
+  "store.custom#servizio-clienti": {
+        "blocks": [
+        "responsive-layout.desktop#servizio-clienti",
+        "responsive-layout.mobile#servizio-clienti"
+      ]
+    },
+
+    "responsive-layout.desktop#servizio-clienti": {
+      "children": [
+        "flex-layout.row#servizio-clienti"
+      ]
+    },
+
+    "responsive-layout.mobile#servizio-clienti": {
+      "children": [
+        "rich-text#servizio-clienti-title-mobile",
+        "vtex.menu@2.x:menu#servizio-clienti"
+      ]
+    },
+
+   "flex-layout.row#servizio-clienti": {
+        "children": [
+        "flex-layout.row#servizio-clienti"
+        ],
+        "props": {
+        "blockClass": "flex-row-servizio-clienti"
+        }
+   },
+    "rich-text#servizio-clienti-title-mobile": {
+      "props": {
+        "text": "Servizio clienti",
+        "blockClass": "servizio-clienti-title-mobile"
+      }
+    },
+
+
+
+  "flex-layout.row#servizio-clienti": {
+    "children": [
+      "vtex.menu@2.x:menu#servizio-clienti"
+    ]
+  },
+  "vtex.menu@2.x:menu#servizio-clienti": {
+    "props": {
+      "blockClass": "servizio-clienti-mobile"
+    },
+    "children": [
+      "menu-item#guida-alle-taglie-mobile",
+      "menu-item#tempi-di-consegna-mobile",
+      "menu-item#resi-e-cambi-mobile",
+      "menu-item#order-processing-mobile",
+      "menu-item#contattaci-mobile",
+      "menu-item#iscrivitti-alla-newsletter-mobile"
+    ]
+  },
+
+        "menu-item#guida-alle-taglie-mobile": {
+            "props": {
+              "id": "menu-item-servizio-clienti-mobile",
+              "type": "custom",
+              "highlight": false,
+              "blockClass": "menu-item-servizio-clienti-mobile",
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Guida alle taglie",
+                "text": "Guida alle taglie"
+              },
+
+              "iconToTheRight": true
+            },
+            "blocks": ["vtex.menu@2.x:submenu.accordion#guida-alle-taglie-mobile"]
+          },
+
+          "menu-item#tempi-di-consegna-mobile": {
+             "props": {
+              "id": "menu-item-servizio-clienti-mobile",
+              "type": "custom",
+              "highlight": false,
+              "blockClass": "menu-item-servizio-clienti-mobile",
+             "itemProps": {
+              "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Tempi di consegna",
+                "text": "Tempi di consegna"
+              },
+              "iconToTheRight": true
+               },
+              "blocks": ["vtex.menu@2.x:submenu.accordion#tempi-di-consegna-mobile"]
+          },
+
+          "menu-item#resi-e-cambi-mobile": {
+             "props": {
+              "id": "menu-item-servizio-clienti-mobile",
+              "type": "custom",
+              "highlight": false,
+              "blockClass": "menu-item-servizio-clienti-mobile",
+             "itemProps": {
+              "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Resi e cambi",
+                "text": "Resi e cambi"
+              },
+              "iconToTheRight": true
+               },
+              "blocks": ["vtex.menu@2.x:submenu.accordion#resi-e-cambi-mobile"]
+          },
+
+          "menu-item#order-processing-mobile": {
+             "props": {
+              "id": "menu-item-servizio-clienti-mobile",
+              "type": "custom",
+              "highlight": false,
+              "blockClass": "menu-item-servizio-clienti-mobile",
+             "itemProps": {
+              "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Order processing",
+                "text": "Order processing"
+              },
+              "iconToTheRight": true
+               },
+              "blocks": ["vtex.menu@2.x:submenu.accordion#order-processing-mobile"]
+          },
+          "menu-item#contattaci-mobile": {
+             "props": {
+              "id": "menu-item-servizio-clienti-mobile",
+              "type": "custom",
+              "highlight": false,
+              "blockClass": "menu-item-servizio-clienti-mobile",
+             "itemProps": {
+              "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Contattaci",
+                "text": "Contattaci"
+              },
+              "iconToTheRight": true
+               },
+              "blocks": ["vtex.menu@2.x:submenu.accordion#contattaci-mobile"]
+          },
+
+
+
+          "menu-item#iscrivitti-alla-newsletter-mobile": {
+             "props": {
+              "id": "menu-item-servizio-clienti-mobile",
+              "type": "custom",
+              "highlight": false,
+              "blockClass": "menu-item-servizio-clienti-mobile",
+             "itemProps": {
+              "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Iscrivitti alla newsletter",
+                "text": "Iscrivitti alla newsletter"
+              },
+              "iconToTheRight": true
+               },
+              "blocks": ["vtex.menu@2.x:submenu.accordion#iscrivitti-alla-newsletter-mobile"]
+          },
+
+
+
+          "vtex.menu@2.x:submenu.accordion#guida-alle-taglie-mobile": {
+              "children": [
+              "flex-layout.row#guida-alle-taglie-mobile",
+              "newsletter#banner-mobile"
+
+              ],
+              "props": {
+              "blockClass": "submenu-guida-alle-taglie-mobile"
+              }
+            },
+
+              "menu-item#submenu-guida-alle-taglie-mobile": {
+              "props": {
+              "id": "menu-item-guida-alle-taglie-mobile-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "guida-alle-taglie-mobile",
+              "text": "guida-alle-taglie-mobile"
+              }
+            }
+          },
+
+
+
+          "vtex.menu@2.x:submenu.accordion#tempi-di-consegna-mobile": {
+              "children": [
+              "flex-layout.row#tempi-di-consegna-menu-mobile"
+              ],
+              "props": {
+              "blockClass": "submenu-tempi-di-consegna-mobile"
+              }
+            },
+
+              "menu-item#submenu-tempi-di-consegna-mobile": {
+              "props": {
+              "id": "menu-item-tempi-di-consegna-mobile-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "tempi-di-consegna-mobile",
+              "text": "tempi-di-consegna-mobile"
+              }
+            }
+          },
+
+   "flex-layout.row#tempi-di-consegna-menu-mobile": {
+       "children": [
+         "flex-layout.col#tempiDiConsegna-menu-mobile",
+          "newsletter#banner-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-tempi-di-consegna-mobile"
+       }
+   },
+
+
+
+    "flex-layout.col#tempiDiConsegna-menu-mobile": {
+      "children": [
+        "rich-text#tempiDiConsegna1-mobile",
+        "rich-text#tempiDiConsegnaCap1-mobile",
+        "rich-text#tempiDiConsegna2-mobile",
+        "rich-text#tempiDiConsegnaCap2-mobile",
+        "rich-text#tempiDiConsegna3-mobile",
+        "rich-text#tempiDiConsegnaCap3-mobile",
+        "rich-text#tempiDiConsegna4-mobile",
+        "rich-text#tempiDiConsegnaCap4-mobile",
+        "rich-text#tempiDiConsegna5-mobile",
+        "rich-text#tempiDiConsegnaCap5-mobile",
+        "rich-text#tempiDiConsegna6-mobile",
+        "rich-text#tempiDiConsegnaCap6-mobile",
+        "rich-text#tempiDiConsegna7-mobile",
+        "rich-text#tempiDiConsegnaCap7-mobile",
+        "rich-text#tempiDiConsegna8-mobile",
+        "rich-text#tempiDiConsegnaCap8-mobile",
+        "rich-text#tempiDiConsegna9-mobile",
+        "rich-text#tempiDiConsegnaCap9-mobile",
+        "rich-text#tempiDiConsegna10-mobile"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "tempiDiConsegna-mobile"
+      }
+    },
+
+
+
+          "vtex.menu@2.x:submenu.accordion#resi-e-cambi-mobile": {
+              "children": [
+              "flex-layout.row#reso-e-cambi-menu-mobile",
+              "newsletter#banner-mobile"
+         ],
+              "props": {
+              "blockClass": "submenu-resi-e-cambi-mobile"
+              }
+            },
+
+              "menu-item#submenu-resi-e-cambi-mobile": {
+              "props": {
+              "id": "menu-item-resi-e-cambi-mobile-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "resi-e-cambi-mobile",
+              "text": "resi-e-cambi-mobile"
+              }
+            }
+          },
+
+   "flex-layout.row#reso-e-cambi-menu-mobile": {
+       "children": [
+         "flex-layout.col#reso-e-cambi-menu-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-reso-e-cambi-mobile"
+       }
+   },
+
+    "flex-layout.col#reso-e-cambi-menu-mobile": {
+      "children": [
+        "rich-text#reso-e-cambi-title-mobile",
+        "rich-text#reso-e-cambi-mobile"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "flex-layout-col-reso-e-cambi-mobile"
+      }
+    },
+
+
+
+          "vtex.menu@2.x:submenu.accordion#order-processing-mobile": {
+              "children": [
+              "flex-layout.row#order-processing-menu-mobile",
+              "newsletter#banner-mobile"
+
+         ],
+              "props": {
+              "blockClass": "submenu-order-processing-mobile"
+              }
+            },
+
+              "menu-item#submenu-order-processing-mobile": {
+              "props": {
+              "id": "menu-item-order-processing-mobile-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "order-processing-mobile",
+              "text": "order-processing-mobile"
+              }
+            }
+          },
+
+   "flex-layout.row#order-processing-menu-mobile": {
+       "children": [
+         "flex-layout.col#order-processing-menu-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-order-processing-mobile"
+       }
+   },
+
+
+    "flex-layout.col#order-processing-menu-mobile": {
+      "children": [
+        "rich-text#order-processing-title-mobile",
+        "rich-text#order-processing-mobile"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "order-processing-mobile"
+      }
+    },
+
+          "vtex.menu@2.x:submenu.accordion#contattaci-mobile": {
+              "children": [
+              "flex-layout.row#contattaci-form-menu-mobile",
+              "newsletter#banner-mobile"
+
+         ],
+              "props": {
+              "blockClass": "submenu-contattaci-mobile"
+              }
+            },
+
+              "menu-item#submenu-contattaci-mobile": {
+              "props": {
+              "id": "menu-item-contattaci-mobile-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "contattaci-mobile",
+              "text": "contattaci-mobile"
+              }
+            }
+          },
+
+   "flex-layout.row#contattaci-form-menu-mobile": {
+       "children": [
+         "flex-layout.col#contattaci-form-menu-mobile"
+       ],
+       "props": {
+       "blockClass": "contattaci-form-mobile"
+       }
+   },
+
+
+    "flex-layout.col#contattaci-form-menu-mobile": {
+      "children": [
+        "rich-text#contattaci-form-title1-mobile",
+        "rich-text#contattaci-form-content1-mobile",
+        "rich-text#contattaci-form-content2-mobile",
+        "rich-text#contattaci-form-content3-mobile",
+        "rich-text#contattaci-form-title2-mobile",
+        "rich-text#contattaci-form-content4-mobile",
+        "rich-text#contattaci-form-content5-mobile",
+        "rich-text#contattaci-form-content6-mobile",
+        "rich-text#contattaci-form-title3-mobile",
+        "rich-text#contattaci-form-content7-mobile",
+        "rich-text#contattaci-form-content8-mobile",
+        "rich-text#contattaci-form-content9-mobile",
+        "form#contattaci-form-mobile"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "contattaci-form-mobile"
+      }
+    },
+          "vtex.menu@2.x:submenu.accordion#iscrivitti-alla-newsletter-mobile": {
+              "children": [
+              "flex-layout.row#newsletter-form-menu-mobile"
+
+         ],
+              "props": {
+              "blockClass": "submenu-iscrivitti-alla-newsletter-mobile"
+              }
+            },
+
+              "menu-item#submenu-iscrivitti-alla-newsletter-mobile": {
+              "props": {
+              "id": "menu-item-iscrivitti-alla-newsletter-mobile-submenu",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "iscrivitti-alla-newsletter-mobile",
+              "text": "iscrivitti-alla-newsletter-mobile"
+              }
+            }
+          },
+   "flex-layout.row#newsletter-form-menu-mobile": {
+       "children": [
+         "flex-layout.col#newsletter-form-menu-mobile"
+       ],
+       "props": {
+       "blockClass": "newsletter-form-mobile"
+       }
+   },
+
+    "flex-layout.col#newsletter-form-menu-mobile": {
+      "children": [
+        "rich-text#newsletter-form-title1-mobile",
+        "rich-text#newsletter-form-title2-mobile",
+        "form#newsletter-form-mobile"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "newsletter-form-mobile"
+      }
+    }
+
+}

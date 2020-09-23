@@ -2,8 +2,22 @@
 
   "store.custom#diritto-di-recesso": {
       "blocks": [
+      "responsive-layout.desktop#diritto-di-recesso",
+      "responsive-layout.mobile#diritto-di-recesso"
+
+      ]
+    },
+    "responsive-layout.desktop#diritto-di-recesso": {
+      "children": [
         "flex-layout.row#diritto-di-recesso",
         "flex-layout.row#newsletter"
+      ]
+    },
+
+    "responsive-layout.mobile#diritto-di-recesso": {
+      "children": [
+        "flex-layout.row#diritto-di-recesso-mobile",
+        "newsletter#banner-mobile"
       ]
     },
 
@@ -86,7 +100,52 @@
             "text":
             "Notare bene: alcuni prodotti sono disponibili in una sola dimensione/colore/lunghezza. Questi prodotti non possono pertanto essere cambiati per una diversa dimensione/colore/lunghezza etc.<br><br>Qualora il cliente non registrato o registrato non voglia effettuare un cambio merce può richiedere il rimborso che verrà effettuato conformemente alla modalità di pagamento dell’Ordine oppure tramite l’emissione di un codice coupon utilizzabile per un nuovo acquisto sul Negozio On line. <br><br>Per ulteriori specifiche leggi le nostre condizioni generali di vendita (link alle condizioni generali di vendita)"
         }
-    }
+    },
+/*mobile*/
+
+    "flex-layout.row#diritto-di-recesso-mobile": {
+        "children": [
+          "flex-layout.col#diritto-di-recesso-mobile"
+        ],
+        "props": {
+        "blockClass": "flex-row-order-processing-mobile"
+        }
+    },
+
+
+     "flex-layout.col#diritto-di-recesso-mobile": {
+       "children": [
+         "rich-text#diritto-di-recesso-mobile-title",
+         "rich-text#diritto-di-recesso-titlebig-mobile",
+        "rich-text#diritto-di-recesso-content1",
+        "rich-text#diritto-di-recesso-title1",
+        "rich-text#diritto-di-recesso-title2",
+        "rich-text#diritto-di-recesso-content2"
+
+       ],
+       "props": {
+         "preventVerticalStretch": true,
+         "blockClass": "order-processing-mobile"
+       }
+     },
+
+    "rich-text#diritto-di-recesso-mobile-title": {
+        "props": {
+          "blockClass": "order-processing-mobile-title",
+          "text":
+          "Termini e condizioni"
+        }
+     },
+
+    "rich-text#diritto-di-recesso-titlebig-mobile": {
+        "props": {
+          "blockClass": "order-processing-titlebig-mobile",
+          "text":
+          "Diritto di reso"
+        }
+     }
+
+
 }
 
 

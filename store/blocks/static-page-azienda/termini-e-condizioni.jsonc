@@ -218,7 +218,8 @@
         "rich-text#condizioni-generali-di-vendita-title24",
         "rich-text#condizioni-generali-di-vendita-content24",
         "rich-text#condizioni-generali-di-vendita-title25",
-        "rich-text#condizioni-generali-di-vendita-content25"
+        "rich-text#condizioni-generali-di-vendita-content25",
+        "newsletter#banner-mobile"
 
               ],
               "props": {
@@ -226,7 +227,7 @@
               }
             },
 
-              "menu-item#submenu-chi-siamo-mobile": {
+              "menu-item#submenu-condizioni-generali-di-vendita-mobile": {
               "props": {
               "id": "menu-item-condizioni-generali-di-vendita-mobile-submenu",
               "type": "custom",
@@ -280,14 +281,15 @@
         "rich-text#regolamento-title17",
         "rich-text#regolamento-content17",
         "rich-text#regolamento-title18",
-        "rich-text#regolamento-content18"
+        "rich-text#regolamento-content18",
+        "newsletter#banner-mobile"
               ],
               "props": {
               "blockClass": "submenu-termini-e-condizioni-mobile"
               }
             },
 
-              "menu-item#submenu-chi-siamo-mobile": {
+              "menu-item#submenu-regolamento-mobile": {
               "props": {
               "id": "menu-item-regolamento-mobile-submenu",
               "type": "custom",
@@ -310,7 +312,8 @@
         "rich-text#diritto-di-recesso-content1",
         "rich-text#diritto-di-recesso-title1",
         "rich-text#diritto-di-recesso-title2",
-        "rich-text#diritto-di-recesso-content2"
+        "rich-text#diritto-di-recesso-content2",
+        "newsletter#banner-mobile"
          ],
               "props": {
               "blockClass": "submenu-termini-e-condizioni-mobile"
@@ -358,7 +361,8 @@
         "rich-text#privacy-policy-title12",
         "rich-text#privacy-policy-content12",
         "rich-text#privacy-policy-title13",
-        "rich-text#privacy-policy-content13"
+        "rich-text#privacy-policy-content13",
+        "newsletter#banner-mobile"
          ],
               "props": {
               "blockClass": "submenu-termini-e-condizioni-mobile"
@@ -404,7 +408,8 @@
         "rich-text#trattamento-dati-title11",
         "rich-text#trattamento-dati-content11",
         "rich-text#trattamento-dati-title12",
-        "rich-text#trattamento-dati-content12"
+        "rich-text#trattamento-dati-content12",
+        "newsletter#banner-mobile"
          ],
               "props": {
               "blockClass": "submenu-termini-e-condizioni-mobile"
@@ -429,29 +434,9 @@
 
           "vtex.menu@2.x:submenu.accordion#cookie-policy-mobile": {
               "children": [
-       "rich-text#trattamento-dati-title1",
-        "rich-text#trattamento-dati-content1",
-        "rich-text#trattamento-dati-title2",
-        "rich-text#trattamento-dati-content2",
-        "rich-text#trattamento-dati-title3",
-        "rich-text#trattamento-dati-content3",
-        "rich-text#trattamento-dati-title4",
-        "rich-text#trattamento-dati-content4",
-        "rich-text#trattamento-dati-title5",
-        "rich-text#trattamento-dati-content5",
-        "rich-text#trattamento-dati-title6",
-        "rich-text#trattamento-dati-content6",
-        "rich-text#trattamento-dati-title7",
-        "rich-text#trattamento-dati-content7",
-        "rich-text#trattamento-dati-title8",
-        "rich-text#trattamento-dati-title9",
-        "rich-text#trattamento-dati-content9",
-        "rich-text#trattamento-dati-title10",
-        "rich-text#trattamento-dati-content10",
-        "rich-text#trattamento-dati-title11",
-        "rich-text#trattamento-dati-content11",
-        "rich-text#trattamento-dati-title12",
-        "rich-text#trattamento-dati-content12"
+        "rich-text#cookie-policy-title5",
+        "rich-text#cookie-policy-content5",
+        "newsletter#banner-mobile"
          ],
               "props": {
               "blockClass": "submenu-termini-e-condizioni-mobile"

@@ -2,8 +2,22 @@
 
   "store.custom#regolamento": {
       "blocks": [
+      "responsive-layout.desktop#regolamento",
+      "responsive-layout.mobile#regolamento"
+
+      ]
+    },
+    "responsive-layout.desktop#regolamento": {
+      "children": [
         "flex-layout.row#regolamento",
         "flex-layout.row#newsletter"
+      ]
+    },
+
+    "responsive-layout.mobile#regolamento": {
+      "children": [
+        "flex-layout.row#regolamento-mobile",
+        "newsletter#banner-mobile"
       ]
     },
 
@@ -360,7 +374,83 @@
              "text":
              "Il design del sito www.ido.it e tutto il materiale ivi contenuto (i marchi, i loghi, il codice HTML, gli scripts, i testi, i disegni, le immagini ed i prodotti) sono parte integrante del negozio online iDO ed è protetto da copyright. Ogni uso non autorizzato di tale contenuto quale la copia, l'inclusione in frame e l'associazione con contenuto non originato su questo negozio on line non è permesso e sarà perseguito a termini di legge."
           }
-    }
+    },
+/*mobile*/
+
+    "flex-layout.row#regolamento-mobile": {
+        "children": [
+          "flex-layout.col#regolamento-mobile"
+        ],
+        "props": {
+        "blockClass": "flex-row-order-processing-mobile"
+        }
+    },
+
+
+     "flex-layout.col#regolamento-mobile": {
+       "children": [
+         "rich-text#regolamento-mobile-title",
+         "rich-text#regolamento-titlebig-mobile",
+        "rich-text#regolamento-title1",
+        "rich-text#regolamento-content1",
+        "rich-text#regolamento-title2",
+        "rich-text#regolamento-content2",
+        "rich-text#regolamento-title3",
+        "rich-text#regolamento-content3",
+        "rich-text#regolamento-title4",
+        "rich-text#regolamento-content4",
+        "rich-text#regolamento-title5",
+        "rich-text#regolamento-content5",
+        "rich-text#regolamento-title6",
+        "rich-text#regolamento-content6",
+        "rich-text#regolamento-title7",
+        "rich-text#regolamento-content7",
+        "rich-text#regolamento-title8",
+        "rich-text#regolamento-content8",
+        "rich-text#regolamento-title9",
+        "rich-text#regolamento-content9",
+        "rich-text#regolamento-title10",
+        "rich-text#regolamento-content10",
+        "rich-text#regolamento-title11",
+        "rich-text#regolamento-content11",
+        "rich-text#regolamento-title12",
+        "rich-text#regolamento-content12",
+        "rich-text#regolamento-title13",
+        "rich-text#regolamento-content13",
+        "rich-text#regolamento-title14",
+        "rich-text#regolamento-content14",
+        "rich-text#regolamento-title15",
+        "rich-text#regolamento-content15",
+        "rich-text#regolamento-title16",
+        "rich-text#regolamento-content16",
+        "rich-text#regolamento-title17",
+        "rich-text#regolamento-content17",
+        "rich-text#regolamento-title18",
+        "rich-text#regolamento-content18"
+
+       ],
+       "props": {
+         "preventVerticalStretch": true,
+         "blockClass": "order-processing-mobile"
+       }
+     },
+
+    "rich-text#regolamento-mobile-title": {
+        "props": {
+          "blockClass": "order-processing-mobile-title",
+          "text":
+          "Termini e condizioni"
+        }
+     },
+
+    "rich-text#regolamento-titlebig-mobile": {
+        "props": {
+          "blockClass": "order-processing-titlebig-mobile",
+          "text":
+          "Regolamento"
+        }
+     }
+
 }
 
 
