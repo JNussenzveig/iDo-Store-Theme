@@ -1074,7 +1074,7 @@
 .infoCardCallActionContainer--info-card-larocromiaaprirefranchising-desktop :global(.vtex-button)::after {
   content: "";
   position: absolute;
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/zoom.png);
+  background-image: url(/arquivos/zoom.png);
   width: 18px;
   height: 18px;
   left: 89%;
