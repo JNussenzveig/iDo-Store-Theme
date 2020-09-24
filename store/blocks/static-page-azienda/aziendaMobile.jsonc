@@ -187,7 +187,7 @@
 
             "info-card#chi-siamo-mobile-photo": {
               "props": {
-                "imageUrl": "https://raduthirdbranch--storeido.myvtex.com/arquivos/chi_siamo_mobile@3x.png",
+                "imageUrl": "/arquivos/chi_siamo_mobile@3x.png",
                 "blockClass": "chi-siamo-mobile-photo"
               }
             },
@@ -338,17 +338,17 @@
 
             "image#photozerofee1mobile": {
               "props": {
-                "src": "https://raduthirdbranch--storeido.myvtex.com/arquivos/franchising_zerofeemobile@3x.png"
+                "src": "/arquivos/franchising_01.png"
               }
             },
             "image#photozerofee2mobile": {
               "props": {
-                "src": "https://raduthirdbranch--storeido.myvtex.com/arquivos/franchising_zerofeemobile@3x.png"
+                "src": "/arquivos/franchising_02.png"
               }
             },
             "image#photozerofee3mobile": {
               "props": {
-                "src": "https://raduthirdbranch--storeido.myvtex.com/arquivos/franchising_zerofeemobile@3x.png"
+                "src": "/arquivos/franchising_03.png"
               }
             },
 
@@ -460,13 +460,13 @@
 
             "info-card#photoStore1mobile": {
               "props": {
-                "imageUrl": "https://raduthirdbranch--storeido.myvtex.com/arquivos/photo_store_1.png",
+                "imageUrl": "/arquivos/photo_store_1.png",
                 "blockClass": "photoStore1mobile"
               }
             },
             "info-card#photoStore2mobile": {
               "props": {
-                "imageUrl": "https://raduthirdbranch--storeido.myvtex.com/arquivos/photo-store-2.png",
+                "imageUrl": "/arquivos/photo-store-2.png",
                 "blockClass": "photoStore2mobile"
               }
             },
@@ -494,7 +494,7 @@
 
             "info-card#photoFaqmobile": {
               "props": {
-                "imageUrl": "https://raduthirdbranch--storeido.myvtex.com/arquivos/faq_franchising.png",
+                "imageUrl": "/arquivos/faq_franchising.png",
                 "blockClass": "imageFaqmobile"
               }
             },
@@ -508,7 +508,7 @@
 
             "rich-text#paginaFaqmobile": {
               "props": {
-                "text": "<a class='vtex-textPaginaFaqmobile' href='https://radufivebranch--storeido.myvtex.com/franchising-faq?__bindingAddress=www.ido.it/it'>Vai alla pagina FAQ",
+                "text": "<a class='vtex-textPaginaFaqmobile' href='/franchising-faq?'>Vai alla pagina FAQ",
                 "blockClass": "textPaginaFaqmobile"
               }
             },
@@ -530,7 +530,7 @@
 
               "info-card#photoPdfmobile": {
                 "props": {
-                  "imageUrl": "https://raduthirdbranch--storeido.myvtex.com/arquivos/pdfFranchising.png",
+                  "imageUrl": "/arquivos/pdfFranchising.png",
                   "blockClass": "imagePdfmobile"
                 }
               },
@@ -580,7 +580,7 @@
 
             "rich-text#franchisingTextButtonmobile": {
               "props": {
-                "text": "<a class='vtex-franchisingButtonmobile' href='https://radufivebranch--storeido.myvtex.com/franchising-form?__bindingAddress=www.ido.it/it'>Apri un franchising iDO",
+                "text": "<a class='vtex-franchisingButtonmobile' href='/franchising-form?'>Apri un franchising iDO",
                 "blockClass": "franchisingButtonmobile"
               }
             },

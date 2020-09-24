@@ -493,7 +493,7 @@
 
 
 :global(.vtex-static-page-checkmark) {
-  background-image: url("https://raduthirdbranch--storeido.myvtex.com/arquivos/checkmark.png");
+  background-image: url("/arquivos/checkmark.png");
   width: 20px;
   height: 20px;
   background-position: center;
@@ -803,7 +803,7 @@
 
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-con-carnagione-chiara)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/moro_con_carnagione_chiara.png);
+  background-image: url(/arquivos/moro_con_carnagione_chiara.png);
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
@@ -818,7 +818,7 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-con-carnagione-scura)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/moro_con_carnagione_scura.png);
+  background-image: url(/arquivos/moro_con_carnagione_scura.png);
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
@@ -833,7 +833,7 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/moro.png);
+  background-image: url(/arquivos/moro.png);
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
@@ -848,7 +848,7 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-castano-con-carnagione-chiara)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Castano_con_carnagione_chiara.png);
+  background-image: url(/arquivos/Castano_con_carnagione_chiara.png);
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
@@ -863,7 +863,7 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-castano-con-carnagione-scura)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Castano_con_carnagione_scura.png);
+  background-image: url(/arquivos/Castano_con_carnagione_scura.png);
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
@@ -878,7 +878,7 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-biondo-con-carnagione-chiara)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Biondo_con_carnagione_chiaras.png);
+  background-image: url(/arquivos/Biondo_con_carnagione_chiaras.png);
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
@@ -893,7 +893,7 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-biondo-con-carnagione-scura)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Biondo_con_carnagione_scura.png);
+  background-image: url(/arquivos/Biondo_con_carnagione_scura.png);
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
@@ -908,7 +908,7 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-rosso)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Rosso.png);
+  background-image: url(/arquivos/Rosso.png);
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
@@ -923,7 +923,7 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-albino)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Albino.png);
+  background-image: url(/arquivos/Albino.png);
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
@@ -1428,7 +1428,7 @@
   justify-content: center;
   align-items: center;
   height: 8px;
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowup.png);
+  background-image: url(/arquivos/arrowup.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1441,7 +1441,7 @@
   justify-content: center;
   align-items: center;
   height: 8px;
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowdown.png);
+  background-image: url(/arquivos/arrowdown.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1474,7 +1474,7 @@
   justify-content: center;
   align-items: center;
   height: 8px;
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowup.png);
+  background-image: url(/arquivos/arrowup.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1487,7 +1487,7 @@
   justify-content: center;
   align-items: center;
   height: 8px;
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowdown.png);
+  background-image: url(/arquivos/arrowdown.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1911,7 +1911,7 @@
 }
 
 :global(.vtex-rich-text-0-x-container--contattaci-form-content2)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/phone.png);
+  background-image: url(/arquivos/phone.png);
   background-position: center;
   background-repeat: no-repeat;
   content: "";
@@ -1923,7 +1923,7 @@
 }
 
 :global(.vtex-rich-text-0-x-container--contattaci-form-content5)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/phone.png);
+  background-image: url(/arquivos/phone.png);
   background-position: center;
   background-repeat: no-repeat;
   content: "";
@@ -1935,7 +1935,7 @@
 }
 
 :global(.vtex-rich-text-0-x-container--contattaci-form-content8)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/phone.png);
+  background-image: url(/arquivos/phone.png);
   background-position: center;
   background-repeat: no-repeat;
   content: "";
@@ -2013,7 +2013,7 @@
   justify-content: center;
   align-items: center;
   height: 8px;
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowup.png);
+  background-image: url(/arquivos/arrowup.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2026,7 +2026,7 @@
   justify-content: center;
   align-items: center;
   height: 8px;
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowdown.png);
+  background-image: url(/arquivos/arrowdown.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2072,7 +2072,7 @@
 
 
 :global(.vtex-rich-text-0-x-container--rete-vendita-contact-phone)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/phone.png);
+  background-image: url(/arquivos/phone.png);
   background-position: center;
   background-repeat: no-repeat;
   content: "";
@@ -2483,7 +2483,7 @@
   justify-content: center;
   align-items: center;
   height: 8px;
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowup.png);
+  background-image: url(/arquivos/arrowup.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2496,7 +2496,7 @@
   justify-content: center;
   align-items: center;
   height: 8px;
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowdown.png);
+  background-image: url(/arquivos/arrowdown.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2682,7 +2682,7 @@
 }
 
 :global(.vtex-rich-text-0-x-container--contattaci-form-content2-mobile)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/phone.png);
+  background-image: url(/arquivos/phone.png);
   background-position: center;
   background-repeat: no-repeat;
   content: "";
@@ -2694,7 +2694,7 @@
 }
 
 :global(.vtex-rich-text-0-x-container--contattaci-form-content5-mobile)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/phone.png);
+  background-image: url(/arquivos/phone.png);
   background-position: center;
   background-repeat: no-repeat;
   content: "";
@@ -2706,7 +2706,7 @@
 }
 
 :global(.vtex-rich-text-0-x-container--contattaci-form-content8-mobile)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/phone.png);
+  background-image: url(/arquivos/phone.png);
   background-position: center;
   background-repeat: no-repeat;
   content: "";
@@ -2990,7 +2990,7 @@
 
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-con-carnagione-chiara-mobile)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/moro_con_carnagione_chiara.png);
+  background-image: url(/arquivos/moro_con_carnagione_chiara.png);
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
@@ -3006,7 +3006,7 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-con-carnagione-scura-mobile)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/moro_con_carnagione_scura.png);
+  background-image: url(/arquivos/moro_con_carnagione_scura.png);
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
@@ -3022,7 +3022,7 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-mobile)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/moro.png);
+  background-image: url(/arquivos/moro.png);
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
@@ -3038,7 +3038,7 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-castano-con-carnagione-chiara-mobile)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Castano_con_carnagione_chiara.png);
+  background-image: url(/arquivos/Castano_con_carnagione_chiara.png);
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
@@ -3054,7 +3054,7 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-castano-con-carnagione-scura-mobile)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Castano_con_carnagione_scura.png);
+  background-image: url(/arquivos/Castano_con_carnagione_scura.png);
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
@@ -3070,7 +3070,7 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-biondo-con-carnagione-chiara-mobile)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Biondo_con_carnagione_chiaras.png);
+  background-image: url(/arquivos/Biondo_con_carnagione_chiaras.png);
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
@@ -3086,7 +3086,7 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-biondo-con-carnagione-scura-mobile)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Biondo_con_carnagione_scura.png);
+  background-image: url(/arquivos/Biondo_con_carnagione_scura.png);
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
@@ -3102,7 +3102,7 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-rosso-mobile)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Rosso.png);
+  background-image: url(/arquivos/Rosso.png);
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
@@ -3118,7 +3118,7 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-albino-mobile)::before {
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/Albino.png);
+  background-image: url(/arquivos/Albino.png);
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
@@ -3511,7 +3511,7 @@
   justify-content: center;
   align-items: center;
   height: 8px;
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowup.png);
+  background-image: url(/arquivos/arrowup.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3524,7 +3524,7 @@
   justify-content: center;
   align-items: center;
   height: 8px;
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowdown.png);
+  background-image: url(/arquivos/arrowdown.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3590,7 +3590,7 @@
   justify-content: center;
   align-items: center;
   height: 8px;
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowup.png);
+  background-image: url(/arquivos/arrowup.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3603,7 +3603,7 @@
   justify-content: center;
   align-items: center;
   height: 8px;
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowdown.png);
+  background-image: url(/arquivos/arrowdown.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

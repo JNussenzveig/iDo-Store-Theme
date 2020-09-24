@@ -397,7 +397,7 @@
       "blockClass": "menu-item-azienda-mobile",
       "itemProps": {
         "type": "internal",
-        "href": "https://radufivebranch--storeido.myvtex.com/servizio-clienti?__bindingAddress=www.ido.it/it",
+        "href": "/servizio-clienti",
         "noFollow": false,
         "tagTitle": "SERVIZIO CLIENTI",
         "text": "SERVIZIO CLIENTI"
@@ -484,7 +484,7 @@
       "blockClass": "menu-item-footer-mobile-termini-e-condizione",
       "itemProps": {
         "type": "internal",
-        "href": "https://radufivebranch--storeido.myvtex.com/termini-e-condizioni?__bindingAddress=www.ido.it/it",
+        "href": "/termini-e-condizioni",
         "noFollow": false,
         "tagTitle": "TERMINI E CONDIZIONI",
         "text": "TERMINI E CONDIZIONI"
