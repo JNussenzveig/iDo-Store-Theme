@@ -711,7 +711,7 @@
 
   "rich-text#franchisingTextButton": {
     "props": {
-      "text": "<a class='vtex-linkFranchisingDesktop' href='https://radufivebranch--storeido.myvtex.com/azienda?__bindingAddress=www.ido.it/it'>Apri un franchising iDO",
+      "text": "<a class='vtex-linkFranchisingDesktop' href='/azienda'>Apri un franchising iDO",
       "blockClass": "franchisingButton"
     }
   },
