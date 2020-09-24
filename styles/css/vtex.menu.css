@@ -72,7 +72,7 @@
   justify-content: center;
   align-items: center;
   height: 8px;
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowdown.png);
+  background-image: url(/arquivos/arrowdown.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,7 +90,7 @@
   justify-content: center;
   align-items: center;
   height: 8px;
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowup.png);
+  background-image: url(/arquivos/arrowup.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -98,35 +98,8 @@
 
 .accordionIcon--menu-item-footer-mobile-submenu-my-ido--isClosed { font-size: 0 }
 .accordionIcon--menu-item-footer-mobile-submenu-my-ido--isOpen { font-size: 0 }
-.accordionIcon--menu-item-footer-mobile-termini-e-condizione--isClosed { font-size: 0 }
-.accordionIcon--menu-item-footer-mobile-termini-e-condizione--isOpen { font-size: 0 }
 .menuItem--menu-item-footer-mobile-termini-e-condizione {
   border-top: solid 1px;
   border-color: rgba(0,0,0,0.1);
 }
 
-.accordionIcon--menu-item-footer-mobile-termini-e-condizione--isClosed::after {
-  content: "";
-  width: 16px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  height: 8px;
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowdown.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.accordionIcon--menu-item-footer-mobile-termini-e-condizione--isOpen::after {
-  content: "";
-  width: 16px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  height: 8px;
-  background-image: url(https://raduthirdbranch--storeido.myvtex.com/arquivos/arrowup.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}

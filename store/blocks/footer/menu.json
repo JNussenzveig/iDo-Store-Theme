@@ -36,7 +36,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/azienda?activeTab=tab-wrapper*siamo",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Chi Siamo",
         "text": "Chi Siamo"
@@ -51,7 +51,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/azienda?activeTab=tab-wrapperimpegno",
+        "href": "#",
         "noFollow": false,
         "tagTitle": "Il nostro impegno",
         "text": "Il nostro impegno"

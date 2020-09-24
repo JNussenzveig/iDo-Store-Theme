@@ -194,7 +194,7 @@
        },
        "image#chi-siamo": {
            "props": {
-             "src": "https://raduthirdbranch--storeido.myvtex.com/arquivos/chi_siamo@4x.png",
+             "src": "/arquivos/chi_siamo@4x.png",
              "blockClass": "imageChiSiamo"
            }
        },
@@ -353,7 +353,7 @@
   },
   "image#about-us": {
     "props": {
-      "src": "https://raduthirdbranch--storeido.myvtex.com/arquivos/franchisingbig@4x.png"
+      "src": "/arquivos/franchisingbig@4x.png"
     }
   },
 
@@ -457,13 +457,13 @@
 
   "info-card#photoStore1": {
     "props": {
-      "imageUrl": "https://raduthirdbranch--storeido.myvtex.com/arquivos/photo_store_1.png",
+      "imageUrl": "/arquivos/photo_store_1.png",
       "blockClass": "photoStore1"
     }
   },
   "info-card#photoStore2": {
     "props": {
-      "imageUrl": "https://raduthirdbranch--storeido.myvtex.com/arquivos/photo-store-2.png",
+      "imageUrl": "/arquivos/photo-store-2.png",
       "blockClass": "photoStore2"
     }
   },
@@ -626,7 +626,7 @@
 
   "info-card#photoFaq": {
     "props": {
-      "imageUrl": "https://raduthirdbranch--storeido.myvtex.com/arquivos/faq_franchising.png",
+      "imageUrl": "/arquivos/faq_franchising.png",
       "blockClass": "imageFaq"
     }
   },
@@ -689,7 +689,7 @@
 
   "info-card#photoPdf": {
     "props": {
-      "imageUrl": "https://raduthirdbranch--storeido.myvtex.com/arquivos/pdfFranchising.png",
+      "imageUrl": "/arquivos/pdfFranchising.png",
       "blockClass": "imagePdf"
     }
   },

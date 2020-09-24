@@ -184,7 +184,7 @@
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background-image: url("https://radusecondbranch--storeido.myvtex.com/arquivos/multicolor.png");
+  background-image: url("/arquivos/multicolor.png");
 }
 
 
@@ -837,7 +837,7 @@
 
 
 .filterAccordionItemBox :global(.vtex__icon-check) {
-  background-image: url("https://raduthirdbranch--storeido.myvtex.com/arquivos/PathCopy.png");
+  background-image: url("/arquivos/PathCopy.png");
   width: 25px!important;
   height: 25px!important;
   color: transparent!important;
@@ -936,7 +936,7 @@
 .filterAccordionItemBox--multicolor :global(.vtex-checkbox__inner-container) {
   width: 20px;
   height: 20px;
-  background-image: url("https://raduthirdbranch--storeido.myvtex.com/arquivos/multicolormobileido.png");
+  background-image: url("/arquivos/multicolormobileido.png");
   border-radius: 50%;
 }
 
