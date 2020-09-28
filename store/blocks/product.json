@@ -195,7 +195,8 @@
   "sku-selector#colors": {
     "props": {
       "blockClass": "colors-selector",
-      "thumbnailImage": "color"
+      "thumbnailImage": "undefined",
+      "showVariationsLabels": true
     }
 },
 

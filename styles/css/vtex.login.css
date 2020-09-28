@@ -114,23 +114,23 @@
 .content--emailAndPassword :global(.vtex-login-2-x-facebookOptionBtn) {
   bottom: 148px;
   position: relative;
-  background-image: url("/arquivos/facebookButton.png");
+  background-image: url(/arquivos/facebookButton.png);
 }
 
 :global(.codeby-custom-state-handles-0-x-languageHandle--en) .facebookOptionBtn {
   bottom: 148px;
   position: relative;
-  background-image: url("/arquivos/facebookButtonEng.png");
+  background-image: url(/arquivos/facebookButtonEng.png);
 }
 
 .content--emailAndPassword .optionsSticky :global(.vtex-login-2-x-googleOptionBtn) {
   bottom: 134px;
   position: relative;
-  background-image: url("/arquivos/googleButton.png");
+  background-image: url(/arquivos/googleButton.png);
 }
 
 :global(.codeby-custom-state-handles-0-x-languageHandle--en) .googleOptionBtn {
-  background-image: url("/arquivos/googleEng.png") !important;
+  background-image: url(/arquivos/googleEng.png) !important;
 }
 
 .buttonSocial {

@@ -125,8 +125,6 @@
     },
     "children": [
       "menu-item#myido",
-      "menu-item#registrati",
-      "menu-item#accedi",
       "menu-item#scopri"
     ]
   },
@@ -139,7 +137,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/smartphones",
+        "href": "/account/#/profile",
         "noFollow": true,
         "tagTitle": "MY IDO",
         "text": "MY IDO"
@@ -147,37 +145,6 @@
     }
   },
 
-  "menu-item#registrati": {
-    "props": {
-      "id": "menu-item-registrati",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/decoration/videogames",
-        "noFollow": true,
-        "tagTitle": "Registrati",
-        "text": "Registrati"
-      }
-    }
-  },
-
-  "menu-item#accedi": {
-    "props": {
-      "id": "menu-item-accedi",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/decoration/tvs",
-        "noFollow": true,
-        "tagTitle": "Accedi",
-        "text": "Accedi"
-      }
-    }
-  },
 
   "menu-item#scopri": {
     "props": {
@@ -187,7 +154,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/tvs",
+        "href": "/our-stores",
         "noFollow": true,
         "tagTitle": "Scopri i negozi myiDO",
         "text": "Scopri i negozi myiDO"
@@ -439,8 +406,6 @@
     },
     "children": [
       "menu-item#myido",
-      "menu-item#registrati",
-      "menu-item#accedi",
       "menu-item#scopri"
     ]
   },
@@ -464,8 +429,6 @@
     },
     "children": [
       "menu-item#myido",
-      "menu-item#registrati",
-      "menu-item#accedi",
       "menu-item#scopri"
     ]
   },
