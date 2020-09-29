@@ -95,8 +95,8 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "/azienda?activeTab=tab-wrapper*partenerLab",
+        "type": "external",
+        "href": "/https://partnerlab.miniconf.app/partnerlab/client/index.html",
         "noFollow": false,
         "tagTitle": "Partnerlab",
         "text": "Partnerlab"
@@ -317,8 +317,8 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "/bags/necessaire",
+        "type": "external",
+        "href": "https://partnerlab.miniconf.app/partnerlab/client/index.html",
         "noFollow": true,
         "tagTitle": "PARTNERLAB",
         "text": "PARTNERLAB"

@@ -39,11 +39,13 @@
     "children": [
       "menu-item#textContent14Mobile",
       "menu-item#textContent15Mobile",
+      "menu-item#textContent15SecondMobile",
       "menu-item#textContent16Mobile",
       "menu-item#textContent17Mobile",
       "footer-spacer",
       "menu-item#textContent18Mobile",
       "menu-item#textContent19Mobile",
+      "menu-item#textContent19SecondMobile",
       "menu-item#textContent20Mobile",
       "menu-item#textContent21Mobile"
     ]

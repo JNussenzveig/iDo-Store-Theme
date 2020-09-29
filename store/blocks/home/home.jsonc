@@ -44,7 +44,6 @@
       "slider-layout#andrei-images": {
         "children": [
         "stack-layout#firstSlide",
-        "rich-text#link",
         "stack-layout#secondSlide"
         ],
         "props": {
@@ -346,7 +345,7 @@
       "headline": "Dimentica i capi che si rovinano dopo  un lavaggio: un iDO è per sempre.",
       "callToActionText": "SCOPRI",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-domentica",
+      "blockClass": "info-card-domentica-homepage",
       "textAlignment": "center"
     }
   },

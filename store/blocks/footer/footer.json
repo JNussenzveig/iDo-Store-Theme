@@ -71,7 +71,10 @@
       "maxWidth": 39,
       "alt": "youtube.com",
       "title": "youtube.com",
-      "link": "https://www.youtube.com/user/idokidswear?feature=results_main"
+      "link": {
+        "newTab": true,
+        "url": "https://www.youtube.com/user/idokidswear?feature=results_main"
+      }
     }
   },
 

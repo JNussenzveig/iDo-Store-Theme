@@ -445,11 +445,13 @@
     "children": [
       "menu-item#textContent14",
       "menu-item#textContent15",
+      "menu-item#textContent15Second",
       "menu-item#textContent16",
       "menu-item#textContent17",
       "footer-spacer",
       "menu-item#textContent18",
       "menu-item#textContent19",
+      "menu-item#textContent19Second",
       "menu-item#textContent20",
       "menu-item#textContent21"
     ]
@@ -624,7 +626,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "mailto: assistenzaclienti@miniconf.it",
         "noFollow": false,
         "tagTitle": "assistenzaclienti@miniconf.it ",
         "text": "assistenzaclienti@miniconf.it "
@@ -640,7 +642,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "tel:+390575533248",
         "noFollow": false,
         "tagTitle": "0575 533248",
         "text": "0575 533248"
@@ -688,10 +690,26 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "mailto: customerservice@ido.it",
         "noFollow": false,
-        "tagTitle": "customerservice@ido.it - 0575 533444",
-        "text": "customerservice@ido.it - 0575 533444"
+        "tagTitle": "customerservice@ido.it",
+        "text": "customerservice@ido.it"
+      }
+    }
+  },
+  "menu-item#textContent15Second": {
+    "props": {
+      "id": "menu-item-text15",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimple",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "tel:+390575533444",
+        "noFollow": false,
+        "tagTitle": "- 0575 533444",
+        "text": "- 0575 533444"
       }
     }
   },
@@ -752,10 +770,26 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "mailto: info@ido.it",
         "noFollow": false,
-        "tagTitle": "info@ido.it - 0575 5331",
-        "text": "info@ido.it - 0575 5331"
+        "tagTitle": "info@ido.it",
+        "text": "info@ido.it"
+      }
+    }
+  },
+  "menu-item#textContent19Second": {
+    "props": {
+      "id": "menu-item-text19",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimple",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "tel:+3905755331",
+        "noFollow": false,
+        "tagTitle": "- 0575 5331",
+        "text": "- 0575 5331"
       }
     }
   },

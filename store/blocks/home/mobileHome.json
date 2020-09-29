@@ -173,7 +173,7 @@
       "headline": "Dimentica i capi che <br> si rovinano dopo  un lavaggio: un iDO è <br> per sempre.",
       "callToActionText": "SCOPRI",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-dimentica-mobile",
+      "blockClass": "info-card-dimentica-mobile-homepage",
       "textAlignment": "center"
     }
   },
