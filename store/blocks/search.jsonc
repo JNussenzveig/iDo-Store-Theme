@@ -157,8 +157,6 @@
     "blocks": ["gallery", "not-found"]
   },
 
-
-
   "search-not-found-layout": {
     "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
   },

@@ -434,10 +434,7 @@
   width: 100%!important;
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--flex-row-aprirefranchising) {
-  padding-right: 76px;
-  padding-left: 76px;
-}
+
 
 :global(.vtex-flex-layout-0-x-flexCol--guida-alle-taglie) {
   width: 64%;
@@ -883,6 +880,10 @@
   margin-bottom: 40px;
 }
 
+:global(.vtex-flex-layout-0-x-flexCol--zerofeemobile) {
+  margin-top: 30px;
+}
+
 /*franchising form mobile*/
 
 .flexRowContent--name-franchising-formmobile :global(.vtex-input-prefix__group) {
@@ -1212,7 +1213,7 @@
 @media screen and (max-width: 1024px) {
 
 
-  
+
 /* termini e condizioni mobile*/
 
 :global(.vtex-menu-2-x-menuItem--menu-item-termini-e-condizioni-mobile) {
@@ -1233,7 +1234,7 @@
 :global(.vtex-menu-2-x-menuItem--menu-item-servizio-clienti-mobile) {
   border-top: solid 1px;
   border-color: rgba(0, 0, 0, 0.1);
-=======
+}
   .flexRowContent--product-main-container {
   display: none;
 }
@@ -1246,4 +1247,9 @@
     margin-top: -81px!important;
   }
 
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--modal-aprire-un-franchising-form) {
+  margin-top: 50px;
+  margin-left: 25%;
 }

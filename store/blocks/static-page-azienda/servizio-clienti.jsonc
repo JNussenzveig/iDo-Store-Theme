@@ -170,6 +170,7 @@
           "vtex.menu@2.x:submenu.accordion#guida-alle-taglie-mobile": {
               "children": [
               "flex-layout.row#guida-alle-taglie-mobile",
+              "info-card#aprire-franchising-banner-mobile",
               "newsletter#banner-mobile"
 
               ],
@@ -393,6 +394,8 @@
 
     "flex-layout.col#contattaci-form-menu-mobile": {
       "children": [
+        "rich-text#servizioClienti-mobile",
+        "rich-text#contattaci-form-title-mobile",
         "rich-text#contattaci-form-title1-mobile",
         "rich-text#contattaci-form-content1-mobile",
         "rich-text#contattaci-form-content2-mobile",
@@ -414,7 +417,7 @@
     },
           "vtex.menu@2.x:submenu.accordion#iscrivitti-alla-newsletter-mobile": {
               "children": [
-              "flex-layout.row#newsletter-form-menu-mobile"
+              "flex-layout.row#newsletter-form-mobile"
 
          ],
               "props": {
@@ -447,6 +450,8 @@
 
     "flex-layout.col#newsletter-form-menu-mobile": {
       "children": [
+        "rich-text#iscriviti-alla-newsletter-mobile-title",
+        "rich-text#iscriviti-alla-newsletter-titlebig-mobile",
         "rich-text#newsletter-form-title1-mobile",
         "rich-text#newsletter-form-title2-mobile",
         "form#newsletter-form-mobile"

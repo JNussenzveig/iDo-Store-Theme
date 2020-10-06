@@ -424,42 +424,11 @@
 
   "vtex.menu@2.x:submenu.accordion#shop-my-ido-mobile": {
     "children": [
-      "menu-item#submenu-registrati-mobile",
-      "menu-item#submenu-accedi-mobile",
       "menu-item#submenu-scopri-i-negozi-my-ido-mobile"
     ]
   },
 
-  "menu-item#submenu-registrati-mobile": {
-    "props": {
-      "id": "menu-item-azienda-mobile-submenu",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Registrati",
-        "text": "Registrati"
-      }
-    }
-  },
 
-
-  "menu-item#submenu-accedi-mobile": {
-    "props": {
-      "id": "menu-item-regolamento-mobile",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Accedi",
-        "text": "Accedi"
-      }
-    }
-  },
 
   "menu-item#submenu-scopri-i-negozi-my-ido-mobile": {
     "props": {

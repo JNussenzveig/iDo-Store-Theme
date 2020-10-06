@@ -18,7 +18,7 @@
     "responsive-layout.mobile#larmocromia": {
       "children": [
         "flex-layout.row#larmocromia-mobile",
-        "flex-layout.row#trova-il-negozio-iDO-mobile",
+        "flex-layout.row#Trova-il-negozio-mobile",
         "newsletter#banner-mobile"
       ]
     },
@@ -120,34 +120,6 @@
             "Scegli una delle immagini sottostanti e scopri quali sono i colori ideali del tuo bambino!"
           }
    },
-  "rich-text#larmocromia-title3": {
-          "props": {
-            "blockClass": "larmocromia-title3",
-            "text":
-            "SI"
-          }
-   },
-   "rich-text#larmocromia-content3": {
-           "props": {
-             "blockClass": "larmocromia-content3",
-               "text":
-               "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias."
-           }
-   },
-  "rich-text#larmocromia-title4": {
-          "props": {
-            "blockClass": "larmocromia-title4",
-            "text":
-            "NO"
-          }
-   },
-   "rich-text#larmocromia-content4": {
-           "props": {
-             "blockClass": "larmocromia-content4",
-               "text":
-               "Excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias."
-           }
-   },
 
 
     "flex-layout.col#larmocromia": {
@@ -166,158 +138,188 @@
           "blockClass": "menu-larmocromia"
         },
         "children": [
-          "menu-item#moro-con-carnagione-chiara",
-          "menu-item#moro-con-carnagione-scura",
-          "menu-item#moro",
-          "menu-item#castano-con-carnagione-chiara",
-          "menu-item#castano-con-carnagione-scura",
-          "menu-item#biondo-con-carnagione-chiara",
-          "menu-item#biondo-con-carnagione-scura",
-          "menu-item#rosso",
-          "menu-item#albino"
+          "menu-item#Fototipo-primavera",
+          "menu-item#Fototipo-estate",
+          "menu-item#Fototipo-autunno",
+          "menu-item#Fototipo-inverno"
         ]
       },
 
-
-     "menu-item#moro-con-carnagione-chiara": {
+     "menu-item#Fototipo-primavera": {
          "props": {
-           "id": "menu-item-larmocromia-moro-con-carnagione-chiara",
+           "id": "menu-item-larmocromia-rosso",
            "type": "custom",
            "highlight": false,
-           "blockClass": "menu-item-larmocromia-moro-con-carnagione-chiara",
+           "blockClass": "menu-item-larmocromia-rosso",
            "itemProps": {
              "type": "internal",
              "href": "#",
              "noFollow": false,
-             "tagTitle": "Moro con carnagione chiara",
-             "text": "Moro con carnagione chiara"
+             "tagTitle": "Primavera",
+             "text": "Primavera"
            },
                  "iconToTheRight": false
          },
-         "blocks": ["vtex.menu@2.x:submenu.accordion#moro-con-carnagione-chiara"]
+         "blocks": ["vtex.menu@2.x:submenu.accordion#Fototipo-primavera"]
        },
 
 
-       "vtex.menu@2.x:submenu.accordion#moro-con-carnagione-chiara": {
+       "vtex.menu@2.x:submenu.accordion#Fototipo-primavera": {
            "children": [
-            "rich-text#larmocromia-title3",
-            "rich-text#larmocromia-content3",
-            "rich-text#larmocromia-title4",
-            "rich-text#larmocromia-content4"
+           "rich-text#Fototipo-primavera-description",
+            "rich-text#Fototipo-primavera-title3",
+            "rich-text#Fototipo-primavera-content3",
+            "rich-text#Fototipo-primavera-title4",
+            "rich-text#Fototipo-primavera-content4"
            ],
            "props": {
            "blockClass": "submenu-larmocromia"
            }
          },
 
-           "menu-item#submenu-moro-con-carnagione-chiara": {
+           "menu-item#submenu-Fototipo-primavera": {
            "props": {
-           "id": "menu-item-moro-con-carnagione-chiara-submenu",
+           "id": "menu-item-Fototipo-primavera-submenu",
            "type": "custom",
            "highlight": false,
            "itemProps": {
            "type": "internal",
            "href": "#",
            "noFollow": false,
-           "tagTitle": "moro-con-carnagione-chiara",
-           "text": "moro-con-carnagione-chiara"
+           "tagTitle": "rosso",
+           "text": "rosso"
            }
          }
        },
 
-     "menu-item#moro-con-carnagione-scura": {
+  "rich-text#Fototipo-primavera-description": {
+          "props": {
+            "blockClass": "larmocromia-content3",
+            "text":
+            "Caratteristiche: <br>Capelli biondi con possibili varianti castane dorate<br>Carnagione chiara, avorio<br>Occhi azzurri, verdi o nocciola"
+          }
+   },
+
+  "rich-text#Fototipo-primavera-title3": {
+          "props": {
+            "blockClass": "larmocromia-title3",
+            "text":
+            "SI"
+          }
+   },
+   "rich-text#Fototipo-primavera-content3": {
+           "props": {
+             "blockClass": "larmocromia-content3",
+               "text":
+               "Sono adatti tutti i toni neutri come l’avorio, il cuoio, il marrone chiaro, oltre ai verdi, gli aranci e i rossi più brillanti."
+           }
+   },
+  "rich-text#Fototipo-primavera-title4": {
+          "props": {
+            "blockClass": "larmocromia-title4",
+            "text":
+            "NO"
+          }
+   },
+   "rich-text#Fototipo-primavera-content4": {
+           "props": {
+             "blockClass": "larmocromia-content4",
+               "text":
+               "Da evitare i colori molto scuri e freddi, oltre al bianco"
+           }
+   },
+
+
+
+
+
+     "menu-item#Fototipo-estate": {
          "props": {
-           "id": "menu-item-larmocromia-moro-con-carnagione-scura",
+           "id": "menu-item-larmocromia-biondo-con-carnagione-chiara",
            "type": "custom",
            "highlight": false,
-           "blockClass": "menu-item-larmocromia-moro-con-carnagione-scura",
+           "blockClass": "menu-item-larmocromia-biondo-con-carnagione-chiara",
            "itemProps": {
              "type": "internal",
              "href": "#",
              "noFollow": false,
-             "tagTitle": "Moro con carnagione scura",
-             "text": "Moro con carnagione scura"
+             "tagTitle": "Estate",
+             "text": "Estate"
            },
                  "iconToTheRight": false
          },
-         "blocks": ["vtex.menu@2.x:submenu.accordion#moro-con-carnagione-scura"]
+         "blocks": ["vtex.menu@2.x:submenu.accordion#Fototipo-estate"]
        },
 
 
-       "vtex.menu@2.x:submenu.accordion#moro-con-carnagione-scura": {
+       "vtex.menu@2.x:submenu.accordion#Fototipo-estate": {
            "children": [
-            "rich-text#larmocromia-title3",
-            "rich-text#larmocromia-content3",
-            "rich-text#larmocromia-title4",
-            "rich-text#larmocromia-content4"
+            "rich-text#Fototipo-estate-description",
+            "rich-text#Fototipo-estate-title3",
+            "rich-text#Fototipo-estate-content3",
+            "rich-text#Fototipo-estate-title4",
+            "rich-text#Fototipo-estate-content4"
            ],
            "props": {
            "blockClass": "submenu-larmocromia"
            }
          },
 
-           "menu-item#submenu-moro-con-carnagione-scura": {
+           "menu-item#submenu-Fototipo-estate": {
            "props": {
-           "id": "menu-item-moro-con-carnagione-scura-submenu",
+           "id": "menu-item-Fototipo-estate-submenu",
            "type": "custom",
            "highlight": false,
            "itemProps": {
            "type": "internal",
            "href": "#",
            "noFollow": false,
-           "tagTitle": "moro-con-carnagione-scura",
-           "text": "moro-con-carnagione-scura"
+           "tagTitle": "biondo-con-carnagione-chiara",
+           "text": "biondo-con-carnagione-chiara"
            }
          }
        },
+  "rich-text#Fototipo-estate-description": {
+          "props": {
+            "blockClass": "larmocromia-content3",
+            "text":
+            "Caratteristiche:<br>Capelli platino o biondo cenere<br>Carnagione chiara, rosata o avorio<br>Occhi chiari, blu, verdi o grigi"
+          }
+   },
 
-     "menu-item#moro": {
-         "props": {
-           "id": "menu-item-larmocromia-moro",
-           "type": "custom",
-           "highlight": false,
-           "blockClass": "menu-item-larmocromia-moro",
-           "itemProps": {
-             "type": "internal",
-             "href": "#",
-             "noFollow": false,
-             "tagTitle": "Moro",
-             "text": "Moro"
-           },
-                 "iconToTheRight": false
-         },
-         "blocks": ["vtex.menu@2.x:submenu.accordion#moro"]
-       },
-
-
-       "vtex.menu@2.x:submenu.accordion#moro": {
-           "children": [
-            "rich-text#larmocromia-title3",
-            "rich-text#larmocromia-content3",
-            "rich-text#larmocromia-title4",
-            "rich-text#larmocromia-content4"
-           ],
+  "rich-text#Fototipo-estate-title3": {
+          "props": {
+            "blockClass": "larmocromia-title3",
+            "text":
+            "SI"
+          }
+   },
+   "rich-text#Fototipo-estate-content3": {
            "props": {
-           "blockClass": "submenu-larmocromia"
+             "blockClass": "larmocromia-content3",
+               "text":
+               "Le tonalità meno accese del blu, del rosa o contenenti il grigio. Il rosso è particolarmente adatto nella maggior parte delle sue tonalità."
            }
-         },
-
-           "menu-item#submenu-moro": {
+   },
+  "rich-text#Fototipo-estate-title4": {
+          "props": {
+            "blockClass": "larmocromia-title4",
+            "text":
+            "NO"
+          }
+   },
+   "rich-text#Fototipo-estate-content4": {
            "props": {
-           "id": "menu-item-moro-submenu",
-           "type": "custom",
-           "highlight": false,
-           "itemProps": {
-           "type": "internal",
-           "href": "#",
-           "noFollow": false,
-           "tagTitle": "moro",
-           "text": "moro"
+             "blockClass": "larmocromia-content4",
+               "text":
+               "Il nero è da evitare quando possibile, oltre al bianco assoluto, il sabbia, l’arancione e in generale ogni tinta che contenga il colore giallo anche parzialmente."
            }
-         }
-       },
+   },
 
-     "menu-item#castano-con-carnagione-chiara": {
+
+
+
+     "menu-item#Fototipo-autunno": {
          "props": {
            "id": "menu-item-larmocromia-castano-con-carnagione-chiara",
            "type": "custom",
@@ -327,28 +329,29 @@
              "type": "internal",
              "href": "#",
              "noFollow": false,
-             "tagTitle": "Castano con carnagione chiara",
-             "text": "Castano con carnagione chiara"
+             "tagTitle": "Autunno",
+             "text": "Autunno"
            },
                  "iconToTheRight": false
          },
-         "blocks": ["vtex.menu@2.x:submenu.accordion#castano-con-carnagione-chiara"]
+         "blocks": ["vtex.menu@2.x:submenu.accordion#Fototipo-autunno"]
        },
 
 
-       "vtex.menu@2.x:submenu.accordion#castano-con-carnagione-chiara": {
+       "vtex.menu@2.x:submenu.accordion#Fototipo-autunno": {
            "children": [
-            "rich-text#larmocromia-title3",
-            "rich-text#larmocromia-content3",
-            "rich-text#larmocromia-title4",
-            "rich-text#larmocromia-content4"
+            "rich-text#Fototipo-autunno-description",
+            "rich-text#Fototipo-autunno-title3",
+            "rich-text#Fototipo-autunno-content3",
+            "rich-text#Fototipo-autunno-title4",
+            "rich-text#Fototipo-autunno-content4"
            ],
            "props": {
            "blockClass": "submenu-larmocromia"
            }
          },
 
-           "menu-item#submenu-castano-con-carnagione-chiara": {
+           "menu-item#submenu-Fototipo-autunno": {
            "props": {
            "id": "menu-item-castano-con-carnagione-chiara-submenu",
            "type": "custom",
@@ -362,237 +365,138 @@
            }
          }
        },
-     "menu-item#castano-con-carnagione-scura": {
+  "rich-text#Fototipo-autunno-description": {
+          "props": {
+            "blockClass": "larmocromia-content3",
+            "text":
+            "Caratteristiche:<br>Capelli rossi, biondi o castani ma tendenti al dorato<br>Carnagione chiara, con o senza lentiggini<br>Occhi verdi, nocciola o castano con venature ambrate."
+          }
+   },
+
+
+  "rich-text#Fototipo-autunno-title3": {
+          "props": {
+            "blockClass": "larmocromia-title3",
+            "text":
+            "SI"
+          }
+   },
+   "rich-text#Fototipo-autunno-content3": {
+           "props": {
+             "blockClass": "larmocromia-content3",
+               "text":
+               "I colori più adatti per i bambini del fototipo “Autunno” sono le tonalità di beige e marrone, il color ruggine, il giallo senape, il viola mosto e le diverse tonalità di verde."
+           }
+   },
+  "rich-text#Fototipo-autunno-title4": {
+          "props": {
+            "blockClass": "larmocromia-title4",
+            "text":
+            "NO"
+          }
+   },
+   "rich-text#Fototipo-autunno-content4": {
+           "props": {
+             "blockClass": "larmocromia-content4",
+               "text":
+               "Il blu è il principale colore da evitare; sconsigliate anche le tonalità di grigio e le tonalità pastello o troppo polverose."
+           }
+   },
+
+
+
+
+     "menu-item#Fototipo-inverno": {
          "props": {
-           "id": "menu-item-larmocromia-castano-con-carnagione-scura",
+           "id": "menu-item-larmocromia-moro-con-carnagione-scura",
            "type": "custom",
            "highlight": false,
-           "blockClass": "menu-item-larmocromia-castano-con-carnagione-scura",
+           "blockClass": "menu-item-larmocromia-moro-con-carnagione-scura",
            "itemProps": {
              "type": "internal",
              "href": "#",
              "noFollow": false,
-             "tagTitle": "Castano con carnagione scura",
-             "text": "Castano con carnagione scura"
+             "tagTitle": "Inverno",
+             "text": "Inverno"
            },
                  "iconToTheRight": false
          },
-         "blocks": ["vtex.menu@2.x:submenu.accordion#castano-con-carnagione-scura"]
+         "blocks": ["vtex.menu@2.x:submenu.accordion#Fototipo-inverno"]
        },
 
 
-       "vtex.menu@2.x:submenu.accordion#castano-con-carnagione-scura": {
+       "vtex.menu@2.x:submenu.accordion#Fototipo-inverno": {
            "children": [
-            "rich-text#larmocromia-title3",
-            "rich-text#larmocromia-content3",
-            "rich-text#larmocromia-title4",
-            "rich-text#larmocromia-content4"
+            "rich-text#Fototipo-inverno-description",
+            "rich-text#Fototipo-inverno-title3",
+            "rich-text#Fototipo-inverno-content3",
+            "rich-text#Fototipo-inverno-title4",
+            "rich-text#Fototipo-inverno-content4"
            ],
            "props": {
            "blockClass": "submenu-larmocromia"
            }
          },
 
-           "menu-item#submenu-castano-con-carnagione-scura": {
+           "menu-item#submenu-Fototipo-inverno": {
            "props": {
-           "id": "menu-item-castano-con-carnagione-scura-submenu",
+           "id": "menu-item-moro-con-carnagione-scura-submenu",
            "type": "custom",
            "highlight": false,
            "itemProps": {
            "type": "internal",
            "href": "#",
            "noFollow": false,
-           "tagTitle": "castano-con-carnagione-scura",
-           "text": "castano-con-carnagione-scura"
+           "tagTitle": "moro-con-carnagione-scura",
+           "text": "moro-con-carnagione-scura"
            }
          }
        },
-     "menu-item#biondo-con-carnagione-chiara": {
-         "props": {
-           "id": "menu-item-larmocromia-biondo-con-carnagione-chiara",
-           "type": "custom",
-           "highlight": false,
-           "blockClass": "menu-item-larmocromia-biondo-con-carnagione-chiara",
-           "itemProps": {
-             "type": "internal",
-             "href": "#",
-             "noFollow": false,
-             "tagTitle": "Biondo con carnagione chiara",
-             "text": "Biondo con carnagione chiara"
-           },
-                 "iconToTheRight": false
-         },
-         "blocks": ["vtex.menu@2.x:submenu.accordion#biondo-con-carnagione-chiara"]
-       },
+  "rich-text#Fototipo-inverno-description": {
+          "props": {
+            "blockClass": "larmocromia-content3",
+            "text":
+            "Caratteristiche:<br>Capelli scuri<br>Carnagione avorio, ebano o olivastra<br>Occhi scuri, nocciola o grigio-verdi"
+          }
+   },
 
 
-       "vtex.menu@2.x:submenu.accordion#biondo-con-carnagione-chiara": {
-           "children": [
-            "rich-text#larmocromia-title3",
-            "rich-text#larmocromia-content3",
-            "rich-text#larmocromia-title4",
-            "rich-text#larmocromia-content4"
-           ],
+  "rich-text#Fototipo-inverno-title3": {
+          "props": {
+            "blockClass": "larmocromia-title3",
+            "text":
+            "SI"
+          }
+   },
+   "rich-text#Fototipo-inverno-content3": {
            "props": {
-           "blockClass": "submenu-larmocromia"
+             "blockClass": "larmocromia-content3",
+               "text":
+               "Tonalità molto scure, oppure chiarissime e accese. Il blu, il viola, il bordeaux e il magenta sono scelte vincenti, così come i rossi e i verdi brillanti."
            }
-         },
-
-           "menu-item#submenu-biondo-con-carnagione-chiara": {
+   },
+  "rich-text#Fototipo-inverno-title4": {
+          "props": {
+            "blockClass": "larmocromia-title4",
+            "text":
+            "NO"
+          }
+   },
+   "rich-text#Fototipo-inverno-content4": {
            "props": {
-           "id": "menu-item-cbiondo-con-carnagione-chiara-submenu",
-           "type": "custom",
-           "highlight": false,
-           "itemProps": {
-           "type": "internal",
-           "href": "#",
-           "noFollow": false,
-           "tagTitle": "biondo-con-carnagione-chiara",
-           "text": "biondo-con-carnagione-chiara"
+             "blockClass": "larmocromia-content4",
+               "text":
+               "I colori pastello sono poco adatti, oltre al beige e all’arancio (comprese le sfumature tipicamente associate ai colori autunnali)."
            }
-         }
-       },
-
-     "menu-item#biondo-con-carnagione-scura": {
-         "props": {
-           "id": "menu-item-larmocromia-biondo-con-carnagione-scura",
-           "type": "custom",
-           "highlight": false,
-           "blockClass": "menu-item-larmocromia-biondo-con-carnagione-scura",
-           "itemProps": {
-             "type": "internal",
-             "href": "#",
-             "noFollow": false,
-             "tagTitle": "Biondo con carnagione scura",
-             "text": "Biondo con carnagione scura"
-           },
-                 "iconToTheRight": false
-         },
-         "blocks": ["vtex.menu@2.x:submenu.accordion#biondo-con-carnagione-scura"]
-       },
+   },
 
 
-       "vtex.menu@2.x:submenu.accordion#biondo-con-carnagione-scura": {
-           "children": [
-            "rich-text#larmocromia-title3",
-            "rich-text#larmocromia-content3",
-            "rich-text#larmocromia-title4",
-            "rich-text#larmocromia-content4"
-           ],
-           "props": {
-           "blockClass": "submenu-larmocromia"
-           }
-         },
-
-           "menu-item#submenu-biondo-con-carnagione-scura": {
-           "props": {
-           "id": "menu-item-biondo-con-carnagione-scura-submenu",
-           "type": "custom",
-           "highlight": false,
-           "itemProps": {
-           "type": "internal",
-           "href": "#",
-           "noFollow": false,
-           "tagTitle": "biondo-con-carnagione-scura",
-           "text": "biondo-con-carnagione-scura"
-           }
-         }
-       },
-
-     "menu-item#rosso": {
-         "props": {
-           "id": "menu-item-larmocromia-rosso",
-           "type": "custom",
-           "highlight": false,
-           "blockClass": "menu-item-larmocromia-rosso",
-           "itemProps": {
-             "type": "internal",
-             "href": "#",
-             "noFollow": false,
-             "tagTitle": "Rosso",
-             "text": "Rosso"
-           },
-                 "iconToTheRight": false
-         },
-         "blocks": ["vtex.menu@2.x:submenu.accordion#rosso"]
-       },
 
 
-       "vtex.menu@2.x:submenu.accordion#rosso": {
-           "children": [
-            "rich-text#larmocromia-title3",
-            "rich-text#larmocromia-content3",
-            "rich-text#larmocromia-title4",
-            "rich-text#larmocromia-content4"
-           ],
-           "props": {
-           "blockClass": "submenu-larmocromia"
-           }
-         },
-
-           "menu-item#submenu-rosso": {
-           "props": {
-           "id": "menu-item-rosso-submenu",
-           "type": "custom",
-           "highlight": false,
-           "itemProps": {
-           "type": "internal",
-           "href": "#",
-           "noFollow": false,
-           "tagTitle": "rosso",
-           "text": "rosso"
-           }
-         }
-       },
-     "menu-item#albino": {
-         "props": {
-           "id": "menu-item-larmocromia-albino",
-           "type": "custom",
-           "highlight": false,
-           "blockClass": "menu-item-larmocromia-albino",
-           "itemProps": {
-             "type": "internal",
-             "href": "#",
-             "noFollow": false,
-             "tagTitle": "Albino",
-             "text": "Albino"
-           },
-                 "iconToTheRight": false
-         },
-         "blocks": ["vtex.menu@2.x:submenu.accordion#albino"]
-       },
-
-
-       "vtex.menu@2.x:submenu.accordion#albino": {
-           "children": [
-            "rich-text#larmocromia-title3",
-            "rich-text#larmocromia-content3",
-            "rich-text#larmocromia-title4",
-            "rich-text#larmocromia-content4"
-           ],
-           "props": {
-           "blockClass": "submenu-larmocromia"
-           }
-         },
-
-           "menu-item#submenu-albino": {
-           "props": {
-           "id": "menu-item-albino-submenu",
-           "type": "custom",
-           "highlight": false,
-           "itemProps": {
-           "type": "internal",
-           "href": "#",
-           "noFollow": false,
-           "tagTitle": "albino",
-           "text": "albino"
-           }
-         }
-       },
 
          "rich-text#scorpi-tutti-i-prodotti-text-button": {
            "props": {
-             "text": "<a class='vtex-link-scorpi-tutti-i-prodotti' href='http://www.google.com'>SCOPRI TUTTI I PRODOTTI",
+             "text": "<a class='vtex-link-scorpi-tutti-i-prodotti' href='/tutti-i-prodotti?'>SCOPRI TUTTI I PRODOTTI",
              "blockClass": "scorpi-tutti-i-prodotti-button"
            }
          },
@@ -694,379 +598,53 @@
       }
     },
 
-
     "vtex.menu@2.x:menu#larmocromia-mobile": {
         "props": {
-          "blockClass": "menu-larmocromia-mobile"
+          "blockClass": "menu-larmocromia"
         },
         "children": [
-          "menu-item#moro-con-carnagione-chiara-mobile",
-          "menu-item#moro-con-carnagione-scura-mobile",
-          "menu-item#moro-mobile",
-          "menu-item#castano-con-carnagione-chiara-mobile",
-          "menu-item#castano-con-carnagione-scura-mobile",
-          "menu-item#biondo-con-carnagione-chiara-mobile",
-          "menu-item#biondo-con-carnagione-scura-mobile",
-          "menu-item#rosso-mobile",
-          "menu-item#albino-mobile"
+          "menu-item#Fototipo-primavera-mobile",
+          "menu-item#Fototipo-estate-mobile",
+          "menu-item#Fototipo-autunno-mobile",
+          "menu-item#Fototipo-inverno-mobile"
         ]
       },
 
-
-     "menu-item#moro-con-carnagione-chiara-mobile": {
+     "menu-item#Fototipo-primavera-mobile": {
          "props": {
-           "id": "menu-item-larmocromia-moro-con-carnagione-chiara-mobile",
+           "id": "menu-item-larmocromia-rosso",
            "type": "custom",
            "highlight": false,
-           "blockClass": "menu-item-larmocromia-moro-con-carnagione-chiara-mobile",
+           "blockClass": "menu-item-larmocromia-rosso",
            "itemProps": {
              "type": "internal",
              "href": "#",
              "noFollow": false,
-             "tagTitle": "Moro con carnagione chiara",
-             "text": "Moro con carnagione chiara"
+             "tagTitle": "Primavera",
+             "text": "Primavera"
            },
                  "iconToTheRight": false
          },
-         "blocks": ["vtex.menu@2.x:submenu.accordion#moro-con-carnagione-chiara-mobile"]
+         "blocks": ["vtex.menu@2.x:submenu.accordion#Fototipo-primavera-mobile"]
        },
 
 
-       "vtex.menu@2.x:submenu.accordion#moro-con-carnagione-chiara-mobile": {
+       "vtex.menu@2.x:submenu.accordion#Fototipo-primavera-mobile": {
            "children": [
-            "rich-text#larmocromia-title3-mobile",
-            "rich-text#larmocromia-content3-mobile",
-            "rich-text#larmocromia-title4-mobile",
-            "rich-text#larmocromia-content4-mobile"
+           "rich-text#Fototipo-primavera-description-mobile",
+            "rich-text#Fototipo-primavera-title3-mobile",
+            "rich-text#Fototipo-primavera-content3-mobile",
+            "rich-text#Fototipo-primavera-title4-mobile",
+            "rich-text#Fototipo-primavera-content4-mobile"
            ],
            "props": {
-           "blockClass": "submenu-larmocromia-mobile"
+           "blockClass": "submenu-larmocromia"
            }
          },
 
-           "menu-item#submenu-moro-con-carnagione-chiara-mobile": {
+           "menu-item#submenu-Fototipo-primavera-mobile": {
            "props": {
-           "id": "menu-item-moro-con-carnagione-chiara-submenu-mobile",
-           "type": "custom",
-           "highlight": false,
-           "itemProps": {
-           "type": "internal",
-           "href": "#",
-           "noFollow": false,
-           "tagTitle": "moro-con-carnagione-chiara",
-           "text": "moro-con-carnagione-chiara"
-           }
-         }
-       },
-
-     "menu-item#moro-con-carnagione-scura-mobile": {
-         "props": {
-           "id": "menu-item-larmocromia-moro-con-carnagione-scura-mobile",
-           "type": "custom",
-           "highlight": false,
-           "blockClass": "menu-item-larmocromia-moro-con-carnagione-scura-mobile",
-           "itemProps": {
-             "type": "internal",
-             "href": "#",
-             "noFollow": false,
-             "tagTitle": "Moro con carnagione scura",
-             "text": "Moro con carnagione scura"
-           },
-                 "iconToTheRight": false
-         },
-         "blocks": ["vtex.menu@2.x:submenu.accordion#moro-con-carnagione-scura-mobile"]
-       },
-
-
-       "vtex.menu@2.x:submenu.accordion#moro-con-carnagione-scura-mobile": {
-           "children": [
-            "rich-text#larmocromia-title3-mobile",
-            "rich-text#larmocromia-content3-mobile",
-            "rich-text#larmocromia-title4-mobile",
-            "rich-text#larmocromia-content4-mobile"
-           ],
-           "props": {
-           "blockClass": "submenu-larmocromia-mobile"
-           }
-         },
-
-           "menu-item#submenu-moro-con-carnagione-scura-mobile": {
-           "props": {
-           "id": "menu-item-moro-con-carnagione-scura-submenu-mobile",
-           "type": "custom",
-           "highlight": false,
-           "itemProps": {
-           "type": "internal",
-           "href": "#",
-           "noFollow": false,
-           "tagTitle": "moro-con-carnagione-scura",
-           "text": "moro-con-carnagione-scura"
-           }
-         }
-       },
-
-     "menu-item#moro-mobile": {
-         "props": {
-           "id": "menu-item-larmocromia-moro-mobile",
-           "type": "custom",
-           "highlight": false,
-           "blockClass": "menu-item-larmocromia-moro-mobile",
-           "itemProps": {
-             "type": "internal",
-             "href": "#",
-             "noFollow": false,
-             "tagTitle": "Moro",
-             "text": "Moro"
-           },
-                 "iconToTheRight": false
-         },
-         "blocks": ["vtex.menu@2.x:submenu.accordion#moro-mobile"]
-       },
-
-
-       "vtex.menu@2.x:submenu.accordion#moro-mobile": {
-           "children": [
-            "rich-text#larmocromia-title3-mobile",
-            "rich-text#larmocromia-content3-mobile",
-            "rich-text#larmocromia-title4-mobile",
-            "rich-text#larmocromia-content4-mobile"
-           ],
-           "props": {
-           "blockClass": "submenu-larmocromia-mobile"
-           }
-         },
-
-           "menu-item#submenu-moro-mobile": {
-           "props": {
-           "id": "menu-item-moro-submenu-mobile",
-           "type": "custom",
-           "highlight": false,
-           "itemProps": {
-           "type": "internal",
-           "href": "#",
-           "noFollow": false,
-           "tagTitle": "moro",
-           "text": "moro"
-           }
-         }
-       },
-
-     "menu-item#castano-con-carnagione-chiara-mobile": {
-         "props": {
-           "id": "menu-item-larmocromia-castano-con-carnagione-chiara-mobile",
-           "type": "custom",
-           "highlight": false,
-           "blockClass": "menu-item-larmocromia-castano-con-carnagione-chiara-mobile",
-           "itemProps": {
-             "type": "internal",
-             "href": "#",
-             "noFollow": false,
-             "tagTitle": "Castano con carnagione chiara",
-             "text": "Castano con carnagione chiara"
-           },
-                 "iconToTheRight": false
-         },
-         "blocks": ["vtex.menu@2.x:submenu.accordion#castano-con-carnagione-chiara-mobile"]
-       },
-
-
-       "vtex.menu@2.x:submenu.accordion#castano-con-carnagione-chiara-mobile": {
-           "children": [
-            "rich-text#larmocromia-title3-mobile",
-            "rich-text#larmocromia-content3-mobile",
-            "rich-text#larmocromia-title4-mobile",
-            "rich-text#larmocromia-content4-mobile"
-           ],
-           "props": {
-           "blockClass": "submenu-larmocromia-mobile"
-           }
-         },
-
-           "menu-item#submenu-castano-con-carnagione-chiara-mobile": {
-           "props": {
-           "id": "menu-item-castano-con-carnagione-chiara-submenu-mobile",
-           "type": "custom",
-           "highlight": false,
-           "itemProps": {
-           "type": "internal",
-           "href": "#",
-           "noFollow": false,
-           "tagTitle": "castano-con-carnagione-chiara",
-           "text": "castano-con-carnagione-chiara"
-           }
-         }
-       },
-     "menu-item#castano-con-carnagione-scura-mobile": {
-         "props": {
-           "id": "menu-item-larmocromia-castano-con-carnagione-scura-mobile",
-           "type": "custom",
-           "highlight": false,
-           "blockClass": "menu-item-larmocromia-castano-con-carnagione-scura-mobile",
-           "itemProps": {
-             "type": "internal",
-             "href": "#",
-             "noFollow": false,
-             "tagTitle": "Castano con carnagione scura",
-             "text": "Castano con carnagione scura"
-           },
-                 "iconToTheRight": false
-         },
-         "blocks": ["vtex.menu@2.x:submenu.accordion#castano-con-carnagione-scura-mobile"]
-       },
-
-
-       "vtex.menu@2.x:submenu.accordion#castano-con-carnagione-scura-mobile": {
-           "children": [
-            "rich-text#larmocromia-title3-mobile",
-            "rich-text#larmocromia-content3-mobile",
-            "rich-text#larmocromia-title4-mobile",
-            "rich-text#larmocromia-content4-mobile"
-           ],
-           "props": {
-           "blockClass": "submenu-larmocromia-mobile"
-           }
-         },
-
-           "menu-item#submenu-castano-con-carnagione-scura-mobile": {
-           "props": {
-           "id": "menu-item-castano-con-carnagione-scura-submenu-mobile",
-           "type": "custom",
-           "highlight": false,
-           "itemProps": {
-           "type": "internal",
-           "href": "#",
-           "noFollow": false,
-           "tagTitle": "castano-con-carnagione-scura",
-           "text": "castano-con-carnagione-scura"
-           }
-         }
-       },
-     "menu-item#biondo-con-carnagione-chiara-mobile": {
-         "props": {
-           "id": "menu-item-larmocromia-biondo-con-carnagione-chiara-mobile",
-           "type": "custom",
-           "highlight": false,
-           "blockClass": "menu-item-larmocromia-biondo-con-carnagione-chiara-mobile",
-           "itemProps": {
-             "type": "internal",
-             "href": "#",
-             "noFollow": false,
-             "tagTitle": "Biondo con carnagione chiara",
-             "text": "Biondo con carnagione chiara"
-           },
-                 "iconToTheRight": false
-         },
-         "blocks": ["vtex.menu@2.x:submenu.accordion#biondo-con-carnagione-chiara-mobile"]
-       },
-
-
-       "vtex.menu@2.x:submenu.accordion#biondo-con-carnagione-chiara-mobile": {
-           "children": [
-            "rich-text#larmocromia-title3-mobile",
-            "rich-text#larmocromia-content3-mobile",
-            "rich-text#larmocromia-title4-mobile",
-            "rich-text#larmocromia-content4-mobile"
-           ],
-           "props": {
-           "blockClass": "submenu-larmocromia-mobile"
-           }
-         },
-
-           "menu-item#submenu-biondo-con-carnagione-chiara-mobile": {
-           "props": {
-           "id": "menu-item-cbiondo-con-carnagione-chiara-submenu-mobile",
-           "type": "custom",
-           "highlight": false,
-           "itemProps": {
-           "type": "internal",
-           "href": "#",
-           "noFollow": false,
-           "tagTitle": "biondo-con-carnagione-chiara",
-           "text": "biondo-con-carnagione-chiara"
-           }
-         }
-       },
-
-     "menu-item#biondo-con-carnagione-scura-mobile": {
-         "props": {
-           "id": "menu-item-larmocromia-biondo-con-carnagione-scura-mobile",
-           "type": "custom",
-           "highlight": false,
-           "blockClass": "menu-item-larmocromia-biondo-con-carnagione-scura-mobile",
-           "itemProps": {
-             "type": "internal",
-             "href": "#",
-             "noFollow": false,
-             "tagTitle": "Biondo con carnagione scura",
-             "text": "Biondo con carnagione scura"
-           },
-                 "iconToTheRight": false
-         },
-         "blocks": ["vtex.menu@2.x:submenu.accordion#biondo-con-carnagione-scura-mobile"]
-       },
-
-
-       "vtex.menu@2.x:submenu.accordion#biondo-con-carnagione-scura-mobile": {
-           "children": [
-            "rich-text#larmocromia-title3-mobile",
-            "rich-text#larmocromia-content3-mobile",
-            "rich-text#larmocromia-title4-mobile",
-            "rich-text#larmocromia-content4-mobile"
-           ],
-           "props": {
-           "blockClass": "submenu-larmocromia-mobile"
-           }
-         },
-
-           "menu-item#submenu-biondo-con-carnagione-scura-mobile": {
-           "props": {
-           "id": "menu-item-biondo-con-carnagione-scura-submenu-mobile",
-           "type": "custom",
-           "highlight": false,
-           "itemProps": {
-           "type": "internal",
-           "href": "#",
-           "noFollow": false,
-           "tagTitle": "biondo-con-carnagione-scura",
-           "text": "biondo-con-carnagione-scura"
-           }
-         }
-       },
-
-     "menu-item#rosso-mobile": {
-         "props": {
-           "id": "menu-item-larmocromia-rosso-mobile",
-           "type": "custom",
-           "highlight": false,
-           "blockClass": "menu-item-larmocromia-rosso-mobile",
-           "itemProps": {
-             "type": "internal",
-             "href": "#",
-             "noFollow": false,
-             "tagTitle": "Rosso",
-             "text": "Rosso"
-           },
-                 "iconToTheRight": false
-         },
-         "blocks": ["vtex.menu@2.x:submenu.accordion#rosso-mobile"]
-       },
-
-
-       "vtex.menu@2.x:submenu.accordion#rosso-mobile": {
-           "children": [
-            "rich-text#larmocromia-title3-mobile",
-            "rich-text#larmocromia-content3-mobile",
-            "rich-text#larmocromia-title4-mobile",
-            "rich-text#larmocromia-content4-mobile"
-           ],
-           "props": {
-           "blockClass": "submenu-larmocromia-mobile"
-           }
-         },
-
-           "menu-item#submenu-rosso-mobile": {
-           "props": {
-           "id": "menu-item-rosso-submenu-mobile",
+           "id": "menu-item-Fototipo-primavera-submenu",
            "type": "custom",
            "highlight": false,
            "itemProps": {
@@ -1078,83 +656,351 @@
            }
          }
        },
-     "menu-item#albino-mobile": {
+
+  "rich-text#Fototipo-primavera-description-mobile": {
+          "props": {
+            "blockClass": "larmocromia-content3",
+            "text":
+            "Caratteristiche: <br>Capelli biondi con possibili varianti castane dorate<br>Carnagione chiara, avorio<br>Occhi azzurri, verdi o nocciola"
+          }
+   },
+
+  "rich-text#Fototipo-primavera-title3-mobile": {
+          "props": {
+            "blockClass": "larmocromia-title3",
+            "text":
+            "SI"
+          }
+   },
+   "rich-text#Fototipo-primavera-content3-mobile": {
+           "props": {
+             "blockClass": "larmocromia-content3",
+               "text":
+               "Sono adatti tutti i toni neutri come l’avorio, il cuoio, il marrone chiaro, oltre ai verdi, gli aranci e i rossi più brillanti."
+           }
+   },
+  "rich-text#Fototipo-primavera-title4-mobile": {
+          "props": {
+            "blockClass": "larmocromia-title4",
+            "text":
+            "NO"
+          }
+   },
+   "rich-text#Fototipo-primavera-content4-mobile": {
+           "props": {
+             "blockClass": "larmocromia-content4",
+               "text":
+               "Da evitare i colori molto scuri e freddi, oltre al bianco"
+           }
+   },
+
+
+
+
+
+     "menu-item#Fototipo-estate-mobile": {
          "props": {
-           "id": "menu-item-larmocromia-albino-mobile",
+           "id": "menu-item-larmocromia-biondo-con-carnagione-chiara",
            "type": "custom",
            "highlight": false,
-           "blockClass": "menu-item-larmocromia-albino-mobile",
+           "blockClass": "menu-item-larmocromia-biondo-con-carnagione-chiara",
            "itemProps": {
              "type": "internal",
              "href": "#",
              "noFollow": false,
-             "tagTitle": "Albino",
-             "text": "Albino"
+             "tagTitle": "Estate",
+             "text": "Estate"
            },
                  "iconToTheRight": false
          },
-         "blocks": ["vtex.menu@2.x:submenu.accordion#albino-mobile"]
+         "blocks": ["vtex.menu@2.x:submenu.accordion#Fototipo-estate-mobile"]
        },
 
 
-       "vtex.menu@2.x:submenu.accordion#albino-mobile": {
+       "vtex.menu@2.x:submenu.accordion#Fototipo-estate-mobile": {
            "children": [
-            "rich-text#larmocromia-title3-mobile",
-            "rich-text#larmocromia-content3-mobile",
-            "rich-text#larmocromia-title4-mobile",
-            "rich-text#larmocromia-content4-mobile"
+            "rich-text#Fototipo-estate-description-mobile",
+            "rich-text#Fototipo-estate-title3-mobile",
+            "rich-text#Fototipo-estate-content3-mobile",
+            "rich-text#Fototipo-estate-title4-mobile",
+            "rich-text#Fototipo-estate-content4-mobile"
            ],
            "props": {
-           "blockClass": "submenu-larmocromia-mobile"
+           "blockClass": "submenu-larmocromia"
            }
          },
 
-           "menu-item#submenu-albino-mobile": {
+           "menu-item#submenu-Fototipo-estate-mobile": {
            "props": {
-           "id": "menu-item-albino-submenu-mobile",
+           "id": "menu-item-Fototipo-estate-submenu",
            "type": "custom",
            "highlight": false,
            "itemProps": {
            "type": "internal",
            "href": "#",
            "noFollow": false,
-           "tagTitle": "albino",
-           "text": "albino"
+           "tagTitle": "biondo-con-carnagione-chiara",
+           "text": "biondo-con-carnagione-chiara"
            }
          }
        },
+  "rich-text#Fototipo-estate-description-mobile": {
+          "props": {
+            "blockClass": "larmocromia-content3",
+            "text":
+            "Caratteristiche:<br>Capelli platino o biondo cenere<br>Carnagione chiara, rosata o avorio<br>Occhi chiari, blu, verdi o grigi"
+          }
+   },
 
-         "rich-text#scorpi-tutti-i-prodotti-text-button-mobile": {
+  "rich-text#Fototipo-estate-title3-mobile": {
+          "props": {
+            "blockClass": "larmocromia-title3",
+            "text":
+            "SI"
+          }
+   },
+   "rich-text#Fototipo-estate-content3-mobile": {
            "props": {
-             "text": "<a class='vtex-link-scorpi-tutti-i-prodotti' href='http://www.google.com'>SCOPRI TUTTI I PRODOTTI",
-             "blockClass": "scorpi-tutti-i-prodotti-button-mobile"
+             "blockClass": "larmocromia-content3",
+               "text":
+               "Le tonalità meno accese del blu, del rosa o contenenti il grigio. Il rosso è particolarmente adatto nella maggior parte delle sue tonalità."
            }
-         },
-
-
-   "flex-layout.row#trova-il-negozio-iDO-mobile": {
-      "children": [
-       "info-card#trova-il-negozio-iDO-mobile"
-       ],
-       "props": {
-       "blockClass": "trova-il-negozio-iDO-mobile"
-       }
+   },
+  "rich-text#Fototipo-estate-title4-mobile": {
+          "props": {
+            "blockClass": "larmocromia-title4",
+            "text":
+            "NO"
+          }
+   },
+   "rich-text#Fototipo-estate-content4-mobile": {
+           "props": {
+             "blockClass": "larmocromia-content4",
+               "text":
+               "Il nero è da evitare quando possibile, oltre al bianco assoluto, il sabbia, l’arancione e in generale ogni tinta che contenga il colore giallo anche parzialmente."
+           }
    },
 
 
-   "info-card#trova-il-negozio-iDO-mobile": {
-        "props": {
-        "id": "info-card-trova-il-negozio-iDO-mobile",
-        "isFullModeStyle": false,
-        "textPosition": "left",
-        "imageUrl": "",
-        "headline": "Trova il negozio iDO più vicino a te",
-        "callToActionText": "Inserisci indirizzo",
-        "callToActionUrl": "http://www.google.com",
-        "blockClass": "info-card-trova-il-negozio-iDO-mobile",
-        "textAlignment": "center"
-        }
-   }
+
+
+     "menu-item#Fototipo-autunno-mobile": {
+         "props": {
+           "id": "menu-item-larmocromia-castano-con-carnagione-chiara",
+           "type": "custom",
+           "highlight": false,
+           "blockClass": "menu-item-larmocromia-castano-con-carnagione-chiara",
+           "itemProps": {
+             "type": "internal",
+             "href": "#",
+             "noFollow": false,
+             "tagTitle": "Autunno",
+             "text": "Autunno"
+           },
+                 "iconToTheRight": false
+         },
+         "blocks": ["vtex.menu@2.x:submenu.accordion#Fototipo-autunno-mobile"]
+       },
+
+
+       "vtex.menu@2.x:submenu.accordion#Fototipo-autunno-mobile": {
+           "children": [
+            "rich-text#Fototipo-autunno-description-mobile",
+            "rich-text#Fototipo-autunno-title3-mobile",
+            "rich-text#Fototipo-autunno-content3-mobile",
+            "rich-text#Fototipo-autunno-title4-mobile",
+            "rich-text#Fototipo-autunno-content4-mobile"
+           ],
+           "props": {
+           "blockClass": "submenu-larmocromia"
+           }
+         },
+
+           "menu-item#submenu-Fototipo-autunno-mobile": {
+           "props": {
+           "id": "menu-item-castano-con-carnagione-chiara-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "#",
+           "noFollow": false,
+           "tagTitle": "castano-con-carnagione-chiara",
+           "text": "castano-con-carnagione-chiara"
+           }
+         }
+       },
+  "rich-text#Fototipo-autunno-description-mobile": {
+          "props": {
+            "blockClass": "larmocromia-content3",
+            "text":
+            "Caratteristiche:<br>Capelli rossi, biondi o castani ma tendenti al dorato<br>Carnagione chiara, con o senza lentiggini<br>Occhi verdi, nocciola o castano con venature ambrate."
+          }
+   },
+
+
+  "rich-text#Fototipo-autunno-title3-mobile": {
+          "props": {
+            "blockClass": "larmocromia-title3",
+            "text":
+            "SI"
+          }
+   },
+   "rich-text#Fototipo-autunno-content3-mobile": {
+           "props": {
+             "blockClass": "larmocromia-content3",
+               "text":
+               "I colori più adatti per i bambini del fototipo “Autunno” sono le tonalità di beige e marrone, il color ruggine, il giallo senape, il viola mosto e le diverse tonalità di verde."
+           }
+   },
+  "rich-text#Fototipo-autunno-title4-mobile": {
+          "props": {
+            "blockClass": "larmocromia-title4",
+            "text":
+            "NO"
+          }
+   },
+   "rich-text#Fototipo-autunno-content4-mobile": {
+           "props": {
+             "blockClass": "larmocromia-content4",
+               "text":
+               "Il blu è il principale colore da evitare; sconsigliate anche le tonalità di grigio e le tonalità pastello o troppo polverose."
+           }
+   },
+
+
+
+
+     "menu-item#Fototipo-inverno-mobile": {
+         "props": {
+           "id": "menu-item-larmocromia-moro-con-carnagione-scura",
+           "type": "custom",
+           "highlight": false,
+           "blockClass": "menu-item-larmocromia-moro-con-carnagione-scura",
+           "itemProps": {
+             "type": "internal",
+             "href": "#",
+             "noFollow": false,
+             "tagTitle": "Inverno",
+             "text": "Inverno"
+           },
+                 "iconToTheRight": false
+         },
+         "blocks": ["vtex.menu@2.x:submenu.accordion#Fototipo-inverno-mobile"]
+       },
+
+
+       "vtex.menu@2.x:submenu.accordion#Fototipo-inverno-mobile": {
+           "children": [
+            "rich-text#Fototipo-inverno-description-mobile",
+            "rich-text#Fototipo-inverno-title3-mobile",
+            "rich-text#Fototipo-inverno-content3-mobile",
+            "rich-text#Fototipo-inverno-title4-mobile",
+            "rich-text#Fototipo-inverno-content4-mobile"
+           ],
+           "props": {
+           "blockClass": "submenu-larmocromia"
+           }
+         },
+
+           "menu-item#submenu-Fototipo-inverno-mobile": {
+           "props": {
+           "id": "menu-item-moro-con-carnagione-scura-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "#",
+           "noFollow": false,
+           "tagTitle": "moro-con-carnagione-scura",
+           "text": "moro-con-carnagione-scura"
+           }
+         }
+       },
+  "rich-text#Fototipo-inverno-description-mobile": {
+          "props": {
+            "blockClass": "larmocromia-content3",
+            "text":
+            "Caratteristiche:<br>Capelli scuri<br>Carnagione avorio, ebano o olivastra<br>Occhi scuri, nocciola o grigio-verdi"
+          }
+   },
+
+
+  "rich-text#Fototipo-inverno-title3-mobile": {
+          "props": {
+            "blockClass": "larmocromia-title3",
+            "text":
+            "SI"
+          }
+   },
+   "rich-text#Fototipo-inverno-content3-mobile": {
+           "props": {
+             "blockClass": "larmocromia-content3",
+               "text":
+               "Tonalità molto scure, oppure chiarissime e accese. Il blu, il viola, il bordeaux e il magenta sono scelte vincenti, così come i rossi e i verdi brillanti."
+           }
+   },
+  "rich-text#Fototipo-inverno-title4-mobile": {
+          "props": {
+            "blockClass": "larmocromia-title4",
+            "text":
+            "NO"
+          }
+   },
+   "rich-text#Fototipo-inverno-content4-mobile": {
+           "props": {
+             "blockClass": "larmocromia-content4",
+               "text":
+               "I colori pastello sono poco adatti, oltre al beige e all’arancio (comprese le sfumature tipicamente associate ai colori autunnali)."
+           }
+   },
+
+
+
+
+
+         "rich-text#scorpi-tutti-i-prodotti-text-button-mobile": {
+           "props": {
+             "text": "<a class='vtex-link-scorpi-tutti-i-prodotti' href='/tutti-i-prodotti?'>SCOPRI TUTTI I PRODOTTI",
+             "blockClass": "scorpi-tutti-i-prodotti-button"
+           }
+         },
+
+   "flex-layout.row#Trova-il-negozio-mobile": {
+       "children": [
+         "flex-layout.col#Trova-il-negozio-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-larmocromia"
+       }
+   },
+
+        "flex-layout.col#Trova-il-negozio-mobile": {
+                 "children": [
+                   "info-card#Trova-il-negozio-mobile"
+
+                 ],
+                 "props": {
+                   "preventVerticalStretch": true,
+                   "blockClass": "aprire-franchising-banner-mobile"
+                 }
+       },
+
+
+        "info-card#Trova-il-negozio-mobile": {
+            "props": {
+              "id": "info-card-aprire-franchising-banner-mobile",
+              "isFullModeStyle": false,
+              "textPosition": "center",
+              "imageUrl": "",
+              "headline": "Trova il negozio iDO più vicino a te",
+              "callToActionText": "Inserisci indirizzo",
+              "callToActionUrl": "http://www.google.com",
+              "blockClass": "info-card-aprire-franchising-banner-mobile",
+              "textAlignment": "center"
+            }
+          }
+
 
 
 
