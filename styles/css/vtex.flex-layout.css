@@ -95,6 +95,8 @@
 :global(.vtex-modal-layout-0-x-triggerContainer) {
   position: relative;
   color: transparent;
+  bottom: 68px;
+  left: 20px;
 }
 
 :global(.vtex-rich-text-0-x-container) {
@@ -433,7 +435,6 @@
 .flexCol--chiSiamo :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   width: 100%!important;
 }
-
 
 
 :global(.vtex-flex-layout-0-x-flexCol--guida-alle-taglie) {
@@ -1235,6 +1236,7 @@
   border-top: solid 1px;
   border-color: rgba(0, 0, 0, 0.1);
 }
+
   .flexRowContent--product-main-container {
   display: none;
 }

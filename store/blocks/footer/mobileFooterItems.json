@@ -413,7 +413,7 @@
       "blockClass": "menu-item-footer-mobile-submenu-my-ido",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/account/#/profile",
         "noFollow": false,
         "tagTitle": "MYIDO",
         "text": "MYIDO"
@@ -427,8 +427,6 @@
       "menu-item#submenu-scopri-i-negozi-my-ido-mobile"
     ]
   },
-
-
 
   "menu-item#submenu-scopri-i-negozi-my-ido-mobile": {
     "props": {
@@ -504,7 +502,7 @@
         "title": "facebook.com",
         "link": {
           "newTab": true,
-          "url": "https://www.facebook.com/vtexonline/"
+          "url": "https://it-it.facebook.com/iDO.kidswear"
         }
       }
     },
@@ -517,7 +515,7 @@
         "title": "instagram.com",
         "link": {
           "newTab": true,
-          "url": "https://www.facebook.com/vtexonline/"
+          "url": "https://www.instagram.com/idokidswear/"
         }
       }
     },
@@ -528,7 +526,7 @@
         "maxWidth": 39,
         "alt": "youtube.com",
         "title": "youtube.com",
-        "link": "https://www.youtube.com/user/VTEXTV"
+        "link": "https://www.youtube.com/user/idokidswear?feature=results_main"
       }
     },
     "menu-item#privacyMobile": {

@@ -44,7 +44,8 @@
       "slider-layout#andrei-images": {
         "children": [
         "stack-layout#firstSlide",
-        "rich-text#link"
+        "rich-text#link",
+        "stack-layout#secondSlide"
         ],
         "props": {
           "itemsPerPage": {
@@ -54,7 +55,7 @@
           },
           "infinite": true,
           "fullWidth": true,
-          "showNavigationArrows": "desktopOnly",
+          "showNavigationArrows": "always",
           "blockClass": "hatSlider"
         }
       },
@@ -70,10 +71,10 @@
           },
         "info-card#hat1": {
           "props": {
-            "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/firstsliderhomepage.png",
+            "imageUrl": "/arquivos/firstsliderhomepage.png",
             "isFullModeStyle": true,
             "callToActionText": "BAMBINO",
-            "callToActionUrl": "www.google.com",
+            "callToActionUrl": "/Tutti-i-Prodotti/Bambino",
             "textPosition": "center",
             "headline": "2019",
             "zIndexOffset": 1,
@@ -85,7 +86,42 @@
              "imageUrl": "",
              "isFullModeStyle": true,
              "callToActionText": "BAMBINA",
-             "callToActionUrl": "www.facebook.com",
+             "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
+             "textPosition": "left",
+             "zIndexOffset": 1,
+             "headline": "NUOVI ARRIVI",
+              "blockClass": "secondLayer"
+           }
+     },
+
+
+     "stack-layout#secondSlide": {
+           "props": {
+            "blockClass": "hatSliderStack"
+           },
+            "children": [
+            "info-card#hat3",
+            "info-card#hat4"
+            ]
+          },
+        "info-card#hat3": {
+          "props": {
+            "imageUrl": "/arquivos/hp_1250x570_slider.jpg",
+            "isFullModeStyle": true,
+            "callToActionText": "BAMBINO",
+            "callToActionUrl": "/Tutti-i-Prodotti/Bambino",
+            "textPosition": "center",
+            "headline": "2019",
+            "zIndexOffset": 1,
+            "blockClass": "firstLayer"
+          }
+        },
+         "info-card#hat4": {
+           "props": {
+             "imageUrl": "",
+             "isFullModeStyle": true,
+             "callToActionText": "BAMBINA",
+             "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
              "textPosition": "left",
              "zIndexOffset": 1,
              "headline": "NUOVI ARRIVI",
@@ -205,7 +241,7 @@
 
   "rich-text#shelf-title-backToSchool": {
     "props": {
-      "text": "## Back To School",
+      "text": "## Look Book",
       "blockClass": "shelfTitle"
     }
   },
@@ -323,7 +359,7 @@
       "imageUrl": "/arquivos/backtoschool.png",
       "headline": "Ricomincia l'avventura <br>con l'outfit giusto",
       "callToActionText": "ACQUISTA",
-      "callToActionUrl": "/shop-by-look",
+      "callToActionUrl": "/Tutti-i-Prodotti/testkitlook",
       "blockClass": "info-card-domentica",
       "textAlignment": "center"
     }
@@ -336,7 +372,7 @@
       "imageUrl": "/arquivos/Schermata_2019-10-10_alle_22.37.00.png",
       "headline": "Quali colori stanno meglio al tuo bambino?",
       "callToActionText": "SCOPRI",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/larmocromia",
       "blockClass": "info-card-domentica",
       "textAlignment": "center"
     }

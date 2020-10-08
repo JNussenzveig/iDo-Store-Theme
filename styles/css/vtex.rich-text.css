@@ -213,14 +213,14 @@
 /* store locator text styling */
 
 :global(.vtex-rich-text-0-x-paragraph--store-locator-rich-text) {
-  width: 803px;
+  width: 613px;
   height: 34px;
   color: #ffffff;
   font-family: "MuseoJHSans900";
   font-size: 35px;
   line-height: 29px;
   margin-top: 56px;
-  margin-left: 41px;
+  margin-left: 200px;
 }
 
 .container--store-locator-rich-text-mobile {
@@ -493,7 +493,7 @@
 
 
 :global(.vtex-static-page-checkmark) {
-  background-image: url("/arquivos/checkmark.png");
+  background-image: url(/arquivos/checkmark.png);
   width: 20px;
   height: 20px;
   background-position: center;
