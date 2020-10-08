@@ -881,6 +881,10 @@
   margin-bottom: 40px;
 }
 
+:global(.vtex-flex-layout-0-x-flexCol--zerofeemobile) {
+  margin-top: 30px;
+}
+
 /*franchising form mobile*/
 
 .flexRowContent--name-franchising-formmobile :global(.vtex-input-prefix__group) {
@@ -1245,4 +1249,9 @@
     margin-top: -81px!important;
   }
 
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--modal-aprire-un-franchising-form) {
+  margin-top: 50px;
+  margin-left: 25%;
 }

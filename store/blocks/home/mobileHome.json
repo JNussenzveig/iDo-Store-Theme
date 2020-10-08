@@ -47,7 +47,7 @@
   },
   "shelf#raduMobile": {
     "blocks": [
-      "product-summary"
+      "product-summary.shelf"
     ],
     "props": {
       "category": 2,

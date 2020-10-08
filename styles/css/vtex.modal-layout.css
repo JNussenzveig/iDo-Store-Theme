@@ -12,3 +12,7 @@
 .paper--modal-aprire-un-franchising-form :global(.vtex-modal-layout-0-x-closeButtonContainer) {
   padding: 30px;
 }
+
+.paperScrollContent {
+  max-height: unset;
+}

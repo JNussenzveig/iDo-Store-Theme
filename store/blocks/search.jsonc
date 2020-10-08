@@ -157,8 +157,6 @@
     "blocks": ["gallery", "not-found"]
   },
 
-
-
   "search-not-found-layout": {
     "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
   },
@@ -176,14 +174,23 @@
     }
   },
 
-  "gallery": {
-    "blocks": ["product-summary#searchDekstop"],
+"gallery": {
+    "blocks": ["product-summary.shelf#searchDekstop"],
     "props": {
       "blockClass":"desktop-search-gallery"
     }
   },
 
-      "product-summary#searchDekstop": {
+  "product-summary.shelf#searchDekstop": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "add-to-list-btn"
+    ]
+  },
+
+      "product-summary.shelf#searchDesktop": {
       "props": {
         "isOneClickBuy": true,
         "showBadge": true,

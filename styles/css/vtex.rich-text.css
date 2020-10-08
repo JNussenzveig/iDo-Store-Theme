@@ -641,12 +641,10 @@
 
 :global(.vtex-rich-text-0-x-container--textFaqModal) {
   position: relative;
-  bottom: 26px;
 }
 
 :global(.vtex-rich-text-0-x-container--textPdfModal) {
   position: relative;
-  bottom: 26px;
 }
 
 :global(.vtex-modal-layout-0-x-paper--faqContent) {
@@ -802,20 +800,7 @@
 }
 
 
-:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-con-carnagione-chiara)::before {
-  background-image: url(/arquivos/moro_con_carnagione_chiara.png);
-  color: #001930;
-  font-family: "MuseoJHSans300";
-  font-size: 20px;
-  line-height: 21px;
-  background-position: center;
-  background-repeat: no-repeat;
-  content: "";
-  justify-content: space-between;
-  align-items: center;
-  height: 87px;
-  width: 87px;
-}
+
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-con-carnagione-scura)::before {
   background-image: url(/arquivos/moro_con_carnagione_scura.png);
@@ -830,22 +815,9 @@
   align-items: center;
   height: 87px;
   width: 87px;
+  margin-right: 30px;
 }
 
-:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro)::before {
-  background-image: url(/arquivos/moro.png);
-  color: #001930;
-  font-family: "MuseoJHSans300";
-  font-size: 20px;
-  line-height: 21px;
-  background-position: center;
-  background-repeat: no-repeat;
-  content: "";
-  justify-content: space-between;
-  align-items: center;
-  height: 87px;
-  width: 87px;
-}
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-castano-con-carnagione-chiara)::before {
   background-image: url(/arquivos/Castano_con_carnagione_chiara.png);
@@ -860,22 +832,10 @@
   align-items: center;
   height: 87px;
   width: 87px;
+  margin-right: 30px;
 }
 
-:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-castano-con-carnagione-scura)::before {
-  background-image: url(/arquivos/Castano_con_carnagione_scura.png);
-  color: #001930;
-  font-family: "MuseoJHSans300";
-  font-size: 20px;
-  line-height: 21px;
-  background-position: center;
-  background-repeat: no-repeat;
-  content: "";
-  justify-content: space-between;
-  align-items: center;
-  height: 87px;
-  width: 87px;
-}
+
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-biondo-con-carnagione-chiara)::before {
   background-image: url(/arquivos/Biondo_con_carnagione_chiaras.png);
@@ -890,25 +850,13 @@
   align-items: center;
   height: 87px;
   width: 87px;
+  margin-right: 30px;
 }
 
-:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-biondo-con-carnagione-scura)::before {
-  background-image: url(/arquivos/Biondo_con_carnagione_scura.png);
-  color: #001930;
-  font-family: "MuseoJHSans300";
-  font-size: 20px;
-  line-height: 21px;
-  background-position: center;
-  background-repeat: no-repeat;
-  content: "";
-  justify-content: space-between;
-  align-items: center;
-  height: 87px;
-  width: 87px;
-}
+
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-rosso)::before {
-  background-image: url(/arquivos/Rosso.png);
+  background-image: url(/arquivos/primavera.png);
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
@@ -920,23 +868,8 @@
   align-items: center;
   height: 87px;
   width: 87px;
+  margin-right: 30px;
 }
-
-:global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-albino)::before {
-  background-image: url(/arquivos/Albino.png);
-  color: #001930;
-  font-family: "MuseoJHSans300";
-  font-size: 20px;
-  line-height: 21px;
-  background-position: center;
-  background-repeat: no-repeat;
-  content: "";
-  justify-content: space-between;
-  align-items: center;
-  height: 87px;
-  width: 87px;
-}
-
 
 
 
@@ -1260,6 +1193,9 @@
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+:global(.vtex-rich-text-0-x-container--larmocromia-title3) {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
 
 
 :global(.vtex-menu-2-x-menuItem--menu-item-larmocromia) {
@@ -2167,14 +2103,14 @@
   margin-left: 1.5rem;
 }
 
-:global(.vtex-menu-2-x-styledLinkContent--menu-item-azienda-mobile) {
+/*:global(.vtex-menu-2-x-styledLinkContent--menu-item-azienda-mobile) {
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
   line-height: 21px;
 }
 
-
+*/
 :global(.vtex-rich-text-0-x-paragraph--chi-siamo-mobile-content) {
   color: #5a5a5a;
   font-family: "MuseoJHSans500";
@@ -3750,4 +3686,6 @@
   padding-left: unset;
 }
 
-
+:global(.vtex-menu-2-x-submenuAccordion--submenu-guida-alle-taglie-images) {
+  padding-left: unset;
+}
