@@ -196,7 +196,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1025px) {
 
   .sliderTrack--shelf-mobile {
   justify-content: flex-start !important;
@@ -219,3 +219,4 @@
     margin-right: 20px;
   }
 }
+

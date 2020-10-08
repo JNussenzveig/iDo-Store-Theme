@@ -18,7 +18,7 @@
         "info-card#fidelity-card",
         "rich-text#shelf-title-armocromia",
         "info-card#colours",
-        "flex-layout.row#store-locator",
+        "flex-layout.row#store-locator#ido",
         "info-card#teddy",
         "newsletter#desktop"
       ]
@@ -130,7 +130,7 @@
 
 
   "shelf#radu": {
-      "blocks": ["product-summary.shelf"],
+      "blocks": ["product-summary.shelf#radu"],
       "props": {
         "blockClass": "shlef-radu",
         "category": 2,
@@ -148,16 +148,16 @@
     },
     "product-summary#radu": {
     "props": {
-      "isOneClickBuy": true,
-      "showBadge": true,
+      "isOneClickBuy": false,
+      "showBadge": false,
       "badgeText": "ON",
       "displayBuyButton": "displayButtonHover",
       "showCollections": false,
-      "showListPrice": true,
-      "showLabels": true,
-      "showInstallments": true,
-      "showSavings": true,
-      "showDiscount" : true
+      "showListPrice": false,
+      "showLabels": false,
+      "showInstallments": false,
+      "showSavings": false,
+      "showDiscount" : false
     }
   },
 
@@ -169,7 +169,7 @@
      }
    },
 
-  "product-summary.shelf": {
+  "product-summary.shelf#radu": {
   "props": {
         "blockClass": "shelf-radu2",
         "isOneClickBuy": true,
@@ -177,17 +177,15 @@
         "badgeText": "ON",
         "displayBuyButton": "displayButtonNone",
         "showCollections": true,
-        "showListPrice": true,
-        "showLabels": true,
-        "showInstallments": true,
-        "showSavings": true
+        "showListPrice": false,
+        "showLabels": false,
+        "showInstallments": false,
+        "showSavings": false
       },
     "children": [
-      "product-summary-name",
-      "product-summary-description",
       "product-summary-image",
-      "product-summary-price",
-      "product-summary-sku-selector"
+      "product-summary-name",
+      "product-summary-price"
     ]
   },
 
@@ -376,7 +374,7 @@
     }
   },
 
-  "flex-layout.row#store-locator": {
+  "flex-layout.row#store-locator#ido": {
       "props": {
         "blockClass": "store-locator-home"
       },

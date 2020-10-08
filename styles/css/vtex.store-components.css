@@ -805,7 +805,7 @@
 /* product page image size desktop version  END*/
 
 /* dekstop mobile verison BEGINS here  */
-@media screen and (max-width:  768px) {
+@media screen and (max-width:  1025px) {
 
   .infoCardContainer--mobile-slide {
     width: auto!important;
@@ -1303,3 +1303,4 @@
 .infoCardCallActionContainer--info-card-dimentica-mobile-homepage {
   display: none;
 }
+

@@ -31,9 +31,7 @@
     ]
   },
 
-  "minicart.v2": {
-    "children": ["minicart-base-content"]
-  },
+
 
   "menu-item#vtex-location": {
     "props": {

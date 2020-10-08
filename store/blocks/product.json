@@ -2,7 +2,6 @@
   "store.product.kitlook": {
     "children": [
       "kitlook-layout",
-      "breadcrumb#andrei",
       "responsive-layout.mobile#product"
     ]
   },
@@ -65,7 +64,10 @@
       "paddingBottom": 7,
       "blockClass": "product-main-container"
     },
-    "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
+    "children": [
+      "flex-layout.col#stack",
+      "flex-layout.col#right-col"
+    ]
   },
 
   "shelf.relatedProducts#dekstop-product": {
@@ -401,6 +403,8 @@
   "kitlook-layout": {
     "children": [
       "flex-layout.row#product-main",
+      "shelf.relatedProducts#dekstop-product",
+      "shelf.relatedProducts#mobile-product",
       "flex-layout.row#kitlook"
     ]
   },
