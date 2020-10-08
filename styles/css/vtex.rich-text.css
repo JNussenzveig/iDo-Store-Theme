@@ -2103,14 +2103,14 @@
   margin-left: 1.5rem;
 }
 
-:global(.vtex-menu-2-x-styledLinkContent--menu-item-azienda-mobile) {
+/*:global(.vtex-menu-2-x-styledLinkContent--menu-item-azienda-mobile) {
   color: #001930;
   font-family: "MuseoJHSans300";
   font-size: 20px;
   line-height: 21px;
 }
 
-
+*/
 :global(.vtex-rich-text-0-x-paragraph--chi-siamo-mobile-content) {
   color: #5a5a5a;
   font-family: "MuseoJHSans500";

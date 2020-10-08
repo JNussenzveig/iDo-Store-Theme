@@ -64,7 +64,8 @@
       "product-rating-inline",
       "product-summary-space",
       "product-summary-price",
-      "add-to-cart-button"
+      "add-to-cart-button",
+      "add-to-list-btn"
     ]
   },
 

@@ -1,0 +1,9 @@
+.wishlistIconContainer :global(.vtex-button) {
+  display: inline-flex!important;
+}
+
+
+.wishlistIconContainer :global(.vtex-button) .flexCol {
+  display: inline-flex!important;
+}
+

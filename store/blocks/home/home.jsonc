@@ -152,7 +152,8 @@
       "product-summary-description",
       "product-summary-image",
       "product-summary-price",
-      "product-summary-sku-selector"
+      "product-summary-sku-selector",
+      "add-to-list-btn"
     ]
   },
 
