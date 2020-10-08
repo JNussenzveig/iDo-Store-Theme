@@ -112,7 +112,8 @@
       "title": "franchising"
     },
     "children": [
-      "flex-layout.col#aprireFranchising"
+      "flex-layout.col#aprireFranchising",
+      "flex-layout.row#modal-aprire-un-franchising-form"
     ]
   },
   "tab-wrapper#reteVendita": {
@@ -329,8 +330,7 @@
       "rich-text#about-contentFranchising3",
       "rich-text#about-title4",
       "rich-text#about-title5",
-      "flex-layout.row#franchisingCandidatura",
-      "flex-layout.row#modal-aprire-un-franchising-form"
+      "flex-layout.row#franchisingCandidatura"
     ],
     "props": {
       "preventVerticalStretch": true,
@@ -388,7 +388,7 @@
 
 
   "flex-layout.row#franchisingStorePhotos": {
-    "children": ["flex-layout.col#contentCosaCerchiamo", "flex-layout.col#images"],
+    "children": ["flex-layout.col#contentCosaCerchiamo", "flex-layout.col#photo-store-desktop"],
     "props": {
       "preventHorizontalStretch": true,
       "fullWidth": true
@@ -420,53 +420,62 @@
     }
   },
 
-  "flex-layout.col#images": {
-    "children": [
-      "slider-layout#radu-images"
-    ],
-    "props": {
-      "width": "grow",
-      "preventVerticalStretch": true,
-      "blockClass": "images"
-    }
-  },
 
 
-  "slider-layout#radu-images": {
-    "children": [
-      "info-card#photoStore1",
-      "info-card#photoStore2"
+             "flex-layout.col#photo-store-desktop": {
+               "children": [
+                 "slider-layout#photo-store-desktop"
+               ],
+               "props": {
+                 "width": "grow",
+                 "preventVerticalStretch": true,
+                 "blockClass": "zerofeemobile"
+               }
+             },
 
-    ],
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": true,
-      "showNavigationArrows": "never",
-      "showPaginationDots": "never",
-      "autoplay": { "stopOnHover": false, "timeout": 3000},
-      "navigationStep": 1,
-      "slideTransition": { "speed": 400, "delay": 0, "timing": "" },
-      "blockClass": "storePhoto"
-    }
-  },
 
-  "info-card#photoStore1": {
-    "props": {
-      "imageUrl": "/arquivos/photo_store_1.png",
-      "blockClass": "photoStore1"
-    }
-  },
-  "info-card#photoStore2": {
-    "props": {
-      "imageUrl": "/arquivos/photo-store-2.png",
-      "blockClass": "photoStore2"
-    }
-  },
+             "slider-layout#photo-store-desktop": {
+               "children": [
+                 "image#photo-store-1",
+                 "image#photo-store-2"
+
+               ],
+               "props": {
+                 "itemsPerPage": {
+                   "desktop": 1,
+                   "tablet": 1,
+                   "phone": 1
+                 },
+                 "infinite": true,
+                 "fullWidth": true,
+                 "showNavigationArrows": "never",
+                 "showPaginationDots": "never",
+                 "autoplay": { "stopOnHover": false, "timeout": 3000},
+                 "navigationStep": 1,
+                 "slideTransition": { "speed": 400, "delay": 0, "timing": "" },
+                 "blockClass": "photozerofee"
+               }
+             },
+
+            "image#photo-store-1": {
+              "props": {
+                "src": "/arquivos/photo_store_1.png"
+              }
+            },
+            "image#photo-store-2": {
+              "props": {
+                "src": "/arquivos/photo-store-2.png"
+              }
+            },
+
+
+
+
+
+
+
+
+
 
   "flex-layout.row#franchisingCandidatura": {
     "children": ["flex-layout.col#faq", "flex-layout.col#pdf"],

@@ -90,7 +90,8 @@
     "children": [
       "product-summary-image",
       "product-summary-name",
-      "product-summary-price#related-desktop"
+      "product-summary-price#related-desktop",
+      "add-to-list-btn"
     ]
   },
 
@@ -124,7 +125,7 @@
   },
 
   "flex-layout.col#stack": {
-    "children": ["stack-layout"],
+    "children": ["stack-layout", "add-to-list-btn"],
     "props": {
       "rowGap": 0,
       "width": "60%"
@@ -179,6 +180,7 @@
       "custom-accordion#specification-3",
       "custom-accordion#specification-4",
       "availability-subscriber"
+
     ]
   },
 

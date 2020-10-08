@@ -5,11 +5,10 @@
     },
     "children": [
       "menu-item#azienda",
-      "menu-item#chiSiamo",
-      "menu-item#impegno",
+      "menu-item#Siamo",
+      "menu-item#nostroimpegno",
       "menu-item#franchising",
       "menu-item#vendita",
-      "menu-item#partner",
       "menu-item#lavora"
     ]
   },
@@ -28,30 +27,30 @@
       }
     }
   },
-  "menu-item#chiSiamo": {
+  "menu-item#Siamo": {
     "props": {
-      "id": "menu-item-chi-siamo",
+      "id": "menu-item-siamo",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/azienda?activeTab=tab-wrapper*siamo",
         "noFollow": false,
         "tagTitle": "Chi Siamo",
         "text": "Chi Siamo"
       }
     }
   },
-  "menu-item#impegno": {
+  "menu-item#nostroimpegno": {
     "props": {
-      "id": "menu-item-impegno",
+      "id": "menu-item-nostroimpegno",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/azienda?activeTab=tab-wrapper*impegno",
         "noFollow": false,
         "tagTitle": "Il nostro impegno",
         "text": "Il nostro impegno"
@@ -88,21 +87,7 @@
       }
     }
   },
-  "menu-item#partner": {
-    "props": {
-      "id": "menu-item-partner",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/azienda?activeTab=tab-wrapper*partenerLab",
-        "noFollow": false,
-        "tagTitle": "Partnerlab",
-        "text": "Partnerlab"
-      }
-    }
-  },
+
   "menu-item#lavora": {
     "props": {
       "id": "menu-item-lavora",
