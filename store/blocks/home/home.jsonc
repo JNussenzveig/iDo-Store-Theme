@@ -185,7 +185,7 @@
     "children": [
       "product-summary-image",
       "product-summary-name",
-      "product-summary-price"
+      "product-summary-price",
       "add-to-list-btn"
 
     ]
