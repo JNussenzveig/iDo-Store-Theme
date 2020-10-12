@@ -90,7 +90,7 @@
   },
 
   "gallery#mobile": {
-    "blocks": ["product-summary#searchMobile"],
+    "blocks": ["product-summary.shelf#searchMobile"],
     "props": {
       "blockClass":"mobile-search-gallery"
     }
@@ -110,6 +110,16 @@
       "showOnMobile": true,
       "blockClass": "breadcrumb-mobile"
     }
+  },
+
+  "product-summary.shelf#searchMobile": {
+    "children": [
+      "add-to-list-btn",
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price"
+
+    ]
   },
 
   "product-summary#searchMobile": {

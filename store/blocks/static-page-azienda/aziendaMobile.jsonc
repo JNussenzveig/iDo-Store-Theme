@@ -117,8 +117,8 @@
               "highlight": false,
               "blockClass": "menu-item-azienda-mobile",
              "itemProps": {
-              "type": "internal",
-                "href": "#",
+              "type": "external",
+                "href": "https://partnerlab.miniconf.app/partnerlab/client/index.html",
                 "noFollow": false,
                 "tagTitle": "Partnerlab",
                 "text": "Partnerlab"
@@ -1722,8 +1722,8 @@
               "type": "custom",
               "highlight": false,
               "itemProps": {
-              "type": "internal",
-              "href": "#",
+              "type": "external",
+              "href": "https://partnerlab.miniconf.app/partnerlab/client/index.html",
               "noFollow": false,
               "tagTitle": "partnerlab-mobile",
               "text": "partnerlab-mobile"

@@ -1,7 +1,7 @@
 {
   "vendor": "storeido",
   "name": "andrei",
-  "version": "4.0.1",
+  "version": "5.1.1",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -65,7 +65,8 @@
     "codeby.product-specification-accordion": "1.x",
     "codeby.custom-state-handles": "0.x",
     "codeby.menu-tabs": "0.x",
-    "acupula.kitlook": "0.x"
+    "acupula.kitlook": "0.x",
+    "vtex.wish-list": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

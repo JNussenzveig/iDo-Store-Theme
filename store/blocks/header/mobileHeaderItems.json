@@ -28,7 +28,7 @@
       },
       "itemProps": {
         "type": "internal",
-        "href": "/location"
+        "href": "/our-stores"
       }
     }
   },
@@ -191,7 +191,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/Tutti-i-Prodotti/Bambina",
         "noFollow": false,
         "tagTitle": "Bambina",
         "text": "Bambina"

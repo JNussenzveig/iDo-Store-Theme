@@ -88,6 +88,21 @@
     }
   },
 
+  "menu-item#partner": {
+    "props": {
+      "id": "menu-item-partner",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "/https://partnerlab.miniconf.app/partnerlab/client/index.html",
+        "noFollow": false,
+        "tagTitle": "Partnerlab",
+        "text": "Partnerlab"
+      }
+    }
+  },
   "menu-item#lavora": {
     "props": {
       "id": "menu-item-lavora",
@@ -122,7 +137,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/smartphones",
+        "href": "/account/#/profile",
         "noFollow": true,
         "tagTitle": "MY IDO",
         "text": "MY IDO"
@@ -139,7 +154,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/tvs",
+        "href": "/our-stores",
         "noFollow": true,
         "tagTitle": "Scopri i negozi myiDO",
         "text": "Scopri i negozi myiDO"
@@ -302,8 +317,8 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "/bags/necessaire",
+        "type": "external",
+        "href": "https://partnerlab.miniconf.app/partnerlab/client/index.html",
         "noFollow": true,
         "tagTitle": "PARTNERLAB",
         "text": "PARTNERLAB"

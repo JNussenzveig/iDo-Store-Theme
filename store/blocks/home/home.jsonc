@@ -15,10 +15,9 @@
         "rich-text#shelf-title-category",
         "slider-layout#demo-products",
         "info-card#dimentica",
-        "info-card#fidelity-card",
         "rich-text#shelf-title-armocromia",
         "info-card#colours",
-        "flex-layout.row#store-locator",
+        "flex-layout.row#store-locator#ido",
         "info-card#teddy",
         "newsletter#desktop"
       ]
@@ -33,7 +32,6 @@
         "rich-text#shelf-title-categoryMobile",
         "slider-layout#demo-productsMobile",
         "info-card#dimenticaMobile",
-        "info-card#fidelity-cardMobile",
         "rich-text#shelf-title-armocromiaMobile",
         "info-card#coloursMobile",
         "flex-layout.row#store-locator-mobile",
@@ -44,7 +42,7 @@
       "slider-layout#andrei-images": {
         "children": [
         "stack-layout#firstSlide",
-        "rich-text#link"
+        "stack-layout#secondSlide"
         ],
         "props": {
           "itemsPerPage": {
@@ -54,7 +52,7 @@
           },
           "infinite": true,
           "fullWidth": true,
-          "showNavigationArrows": "desktopOnly",
+          "showNavigationArrows": "always",
           "blockClass": "hatSlider"
         }
       },
@@ -70,10 +68,10 @@
           },
         "info-card#hat1": {
           "props": {
-            "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/firstsliderhomepage.png",
+            "imageUrl": "/arquivos/firstsliderhomepage.png",
             "isFullModeStyle": true,
             "callToActionText": "BAMBINO",
-            "callToActionUrl": "www.google.com",
+            "callToActionUrl": "/Tutti-i-Prodotti/Bambino",
             "textPosition": "center",
             "headline": "2019",
             "zIndexOffset": 1,
@@ -85,7 +83,42 @@
              "imageUrl": "",
              "isFullModeStyle": true,
              "callToActionText": "BAMBINA",
-             "callToActionUrl": "www.facebook.com",
+             "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
+             "textPosition": "left",
+             "zIndexOffset": 1,
+             "headline": "NUOVI ARRIVI",
+              "blockClass": "secondLayer"
+           }
+     },
+
+
+     "stack-layout#secondSlide": {
+           "props": {
+            "blockClass": "hatSliderStack"
+           },
+            "children": [
+            "info-card#hat3",
+            "info-card#hat4"
+            ]
+          },
+        "info-card#hat3": {
+          "props": {
+            "imageUrl": "/arquivos/hp_1250x570_slider.jpg",
+            "isFullModeStyle": true,
+            "callToActionText": "BAMBINO",
+            "callToActionUrl": "/Tutti-i-Prodotti/Bambino",
+            "textPosition": "center",
+            "headline": "2019",
+            "zIndexOffset": 1,
+            "blockClass": "firstLayer"
+          }
+        },
+         "info-card#hat4": {
+           "props": {
+             "imageUrl": "",
+             "isFullModeStyle": true,
+             "callToActionText": "BAMBINA",
+             "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
              "textPosition": "left",
              "zIndexOffset": 1,
              "headline": "NUOVI ARRIVI",
@@ -95,7 +128,7 @@
 
 
   "shelf#radu": {
-      "blocks": ["product-summary.shelf"],
+      "blocks": ["product-summary.shelf#radu"],
       "props": {
         "blockClass": "shlef-radu",
         "category": 2,
@@ -113,16 +146,16 @@
     },
     "product-summary#radu": {
     "props": {
-      "isOneClickBuy": true,
-      "showBadge": true,
+      "isOneClickBuy": false,
+      "showBadge": false,
       "badgeText": "ON",
       "displayBuyButton": "displayButtonHover",
       "showCollections": false,
-      "showListPrice": true,
-      "showLabels": true,
-      "showInstallments": true,
-      "showSavings": true,
-      "showDiscount" : true
+      "showListPrice": false,
+      "showLabels": false,
+      "showInstallments": false,
+      "showSavings": false,
+      "showDiscount" : false
     }
   },
 
@@ -134,7 +167,7 @@
      }
    },
 
-  "product-summary.shelf": {
+  "product-summary.shelf#radu": {
   "props": {
         "blockClass": "shelf-radu2",
         "isOneClickBuy": true,
@@ -142,17 +175,16 @@
         "badgeText": "ON",
         "displayBuyButton": "displayButtonNone",
         "showCollections": true,
-        "showListPrice": true,
-        "showLabels": true,
-        "showInstallments": true,
-        "showSavings": true
+        "showListPrice": false,
+        "showLabels": false,
+        "showInstallments": false,
+        "showSavings": false
       },
     "children": [
-      "product-summary-name",
-      "product-summary-description",
       "product-summary-image",
+      "product-summary-name",
       "product-summary-price",
-      "product-summary-sku-selector"
+      "add-to-list-btn"
     ]
   },
 
@@ -204,7 +236,7 @@
 
   "rich-text#shelf-title-backToSchool": {
     "props": {
-      "text": "## Back To School",
+      "text": "## Look Book",
       "blockClass": "shelfTitle"
     }
   },
@@ -310,7 +342,7 @@
       "headline": "Dimentica i capi che si rovinano dopo  un lavaggio: un iDO è per sempre.",
       "callToActionText": "SCOPRI",
       "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-domentica",
+      "blockClass": "info-card-domentica-homepage",
       "textAlignment": "center"
     }
   },
@@ -322,7 +354,7 @@
       "imageUrl": "/arquivos/backtoschool.png",
       "headline": "Ricomincia l'avventura <br>con l'outfit giusto",
       "callToActionText": "ACQUISTA",
-      "callToActionUrl": "/shop-by-look",
+      "callToActionUrl": "/Tutti-i-Prodotti/testkitlook",
       "blockClass": "info-card-domentica",
       "textAlignment": "center"
     }
@@ -335,13 +367,13 @@
       "imageUrl": "/arquivos/Schermata_2019-10-10_alle_22.37.00.png",
       "headline": "Quali colori stanno meglio al tuo bambino?",
       "callToActionText": "SCOPRI",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/larmocromia",
       "blockClass": "info-card-domentica",
       "textAlignment": "center"
     }
   },
 
-  "flex-layout.row#store-locator": {
+  "flex-layout.row#store-locator#ido": {
       "props": {
         "blockClass": "store-locator-home"
       },

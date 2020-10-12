@@ -2,7 +2,6 @@
   "store.product.kitlook": {
     "children": [
       "kitlook-layout",
-      "breadcrumb#andrei",
       "responsive-layout.mobile#product"
     ]
   },
@@ -65,7 +64,10 @@
       "paddingBottom": 7,
       "blockClass": "product-main-container"
     },
-    "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
+    "children": [
+      "flex-layout.col#stack",
+      "flex-layout.col#right-col"
+    ]
   },
 
   "shelf.relatedProducts#dekstop-product": {
@@ -90,7 +92,8 @@
     "children": [
       "product-summary-image",
       "product-summary-name",
-      "product-summary-price#related-desktop"
+      "product-summary-price#related-desktop",
+      "add-to-list-btn"
     ]
   },
 
@@ -124,7 +127,7 @@
   },
 
   "flex-layout.col#stack": {
-    "children": ["stack-layout"],
+    "children": ["stack-layout", "add-to-list-btn"],
     "props": {
       "rowGap": 0,
       "width": "60%"
@@ -179,6 +182,7 @@
       "custom-accordion#specification-3",
       "custom-accordion#specification-4",
       "availability-subscriber"
+
     ]
   },
 
@@ -195,7 +199,8 @@
   "sku-selector#colors": {
     "props": {
       "blockClass": "colors-selector",
-      "thumbnailImage": "color"
+      "thumbnailImage": "undefined",
+      "showVariationsLabels": true
     }
 },
 
@@ -400,6 +405,8 @@
   "kitlook-layout": {
     "children": [
       "flex-layout.row#product-main",
+      "shelf.relatedProducts#dekstop-product",
+      "shelf.relatedProducts#mobile-product",
       "flex-layout.row#kitlook"
     ]
   },

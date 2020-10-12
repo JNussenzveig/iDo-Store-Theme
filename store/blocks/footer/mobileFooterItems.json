@@ -193,7 +193,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "mailto: assistenzaclienti@miniconf.it",
         "noFollow": false,
         "tagTitle": "assistenzaclienti@miniconf.it ",
         "text": "assistenzaclienti@miniconf.it "
@@ -209,7 +209,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "tel:+390575533248",
         "noFollow": false,
         "tagTitle": "0575 533248",
         "text": "0575 533248"
@@ -257,10 +257,27 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "mailto: customerservice@ido.it",
         "noFollow": false,
-        "tagTitle": "customerservice@ido.it - 0575 533444",
-        "text": "customerservice@ido.it - 0575 533444"
+        "tagTitle": "customerservice@ido.it",
+        "text": "customerservice@ido.it"
+      }
+    }
+  },
+
+  "menu-item#textContent15SecondMobile": {
+    "props": {
+      "id": "menu-item-text15",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimpleMobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "tel:+390575533444",
+        "noFollow": false,
+        "tagTitle": "- 0575 533444",
+        "text": "- 0575 533444"
       }
     }
   },
@@ -321,10 +338,27 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "mailto: info@ido.it",
         "noFollow": false,
-        "tagTitle": "info@ido.it - 0575 5331",
-        "text": "info@ido.it - 0575 5331"
+        "tagTitle": "info@ido.it",
+        "text": "info@ido.it"
+      }
+    }
+  },
+
+  "menu-item#textContent19SecondMobile": {
+    "props": {
+      "id": "menu-item-text19",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "textSimpleMobile",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "tel:+3905755331",
+        "noFollow": false,
+        "tagTitle": "- 0575 5331",
+        "text": "- 0575 5331"
       }
     }
   },
@@ -413,7 +447,7 @@
       "blockClass": "menu-item-footer-mobile-submenu-my-ido",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/account/#/profile",
         "noFollow": false,
         "tagTitle": "MYIDO",
         "text": "MYIDO"
@@ -427,8 +461,6 @@
       "menu-item#submenu-scopri-i-negozi-my-ido-mobile"
     ]
   },
-
-
 
   "menu-item#submenu-scopri-i-negozi-my-ido-mobile": {
     "props": {
@@ -504,7 +536,7 @@
         "title": "facebook.com",
         "link": {
           "newTab": true,
-          "url": "https://www.facebook.com/vtexonline/"
+          "url": "https://it-it.facebook.com/iDO.kidswear"
         }
       }
     },
@@ -517,7 +549,7 @@
         "title": "instagram.com",
         "link": {
           "newTab": true,
-          "url": "https://www.facebook.com/vtexonline/"
+          "url": "https://www.instagram.com/idokidswear/"
         }
       }
     },
@@ -528,7 +560,10 @@
         "maxWidth": 39,
         "alt": "youtube.com",
         "title": "youtube.com",
-        "link": "https://www.youtube.com/user/VTEXTV"
+        "link": {
+          "newTab": true,
+          "url": "https://www.youtube.com/user/idokidswear?feature=results_main"
+        }
       }
     },
     "menu-item#privacyMobile": {
