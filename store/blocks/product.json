@@ -1,14 +1,15 @@
 {
   "store.product.kitlook": {
     "children": [
-      "kitlook-layout",
-      "responsive-layout.mobile#product"
+      "responsive-layout.mobile#product",
+      "responsive-layout.desktop#product"
     ]
   },
 
   "responsive-layout.desktop#product": {
     "children": [
-      "flex-layout.row#product-main"
+      "flex-layout.row#product-main",
+      "shelf.relatedProducts#mobile-product"
     ]
   },
 
