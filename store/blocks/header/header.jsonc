@@ -56,7 +56,6 @@
     "children": [
       "vtex.menu@2.x:menu#websites",
       "flex-layout.col#spacer",
-      "search-bar",
       "vtex.menu@2.x:menu#institutional"
     ]
   },

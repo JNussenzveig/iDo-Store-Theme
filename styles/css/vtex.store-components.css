@@ -1304,3 +1304,17 @@
   display: none;
 }
 
+
+.skuSelectorItem--colors-selector--selected {
+  border: solid 1px black;
+}
+
+.searchBarContainer {
+  height: 50px;
+  display: flex!important;
+  align-items: center;
+}
+
+.searchBarIcon--search {
+  display: none;
+}
