@@ -41,7 +41,7 @@
 }
 
 .flexRowContent--main-header {
-  background-color: #f0f0f0;
+  background-color: white;
 }
 
 .flexRowContent--main-header-mobile {
@@ -492,7 +492,7 @@
 
 .flexRowContent--franchisingform :global(.vtex-checkbox__label) {
   color: rgba(0, 0, 0, 0.65);
-  font-family: "Avenir Book";
+  font-family: "MuseoJHSans300";
   font-size: 12px;
   font-weight: 300;
   line-height: 15px;
@@ -710,7 +710,7 @@
 
 .flexRowContent--contattaci-form :global(.vtex-checkbox__label) {
   color: rgba(0, 0, 0, 0.65);
-  font-family: "Avenir Book";
+  font-family: "MuseoJHSans300";
   font-size: 12px;
   font-weight: 300;
   line-height: 15px;
@@ -864,7 +864,7 @@
 
 .flexRowContent--newsletter-form :global(.vtex-checkbox__label) {
   color: rgba(0, 0, 0, 0.65);
-  font-family: "Avenir Book";
+  font-family: "MuseoJHSans300";
   font-size: 12px;
   font-weight: 300;
   line-height: 15px;
@@ -954,7 +954,7 @@
 
 .flexColChild--franchisingformmobile :global(.vtex-checkbox__label) {
   color: rgba(0, 0, 0, 0.65);
-  font-family: "Avenir Book";
+  font-family: "MuseoJHSans300";
   font-size: 12px;
   font-weight: 300;
   line-height: 15px;
@@ -1118,7 +1118,7 @@
 
 .flexRowContent--contattaci-form-privacy-mobile :global(.vtex-checkbox__label) {
   color: rgba(0, 0, 0, 0.65);
-  font-family: "Avenir Book";
+  font-family: "MuseoJHSans300";
   font-size: 12px;
   font-weight: 300;
   line-height: 15px;
