@@ -1304,3 +1304,98 @@
   display: none;
 }
 
+/*ogni occasioni desktop */
+.infoCardCallActionContainer--info-card-category-baby-special :global(.vtex-button) {
+  display: none;
+}
+
+.infoCardCallActionContainer--info-card-category-back-to-school :global(.vtex-button) {
+  display: none;
+}
+
+.infoCardCallActionContainer--info-card-category-denim-time :global(.vtex-button) {
+  display: none;
+}
+
+.infoCardCallActionContainer--info-card-category-every-day-style :global(.vtex-button) {
+  display: none;
+}
+
+.infoCardCallActionContainer--info-card-category-special-events :global(.vtex-button) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-category-baby-special) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-category-baby-special) {
+  position: fixed;
+  bottom: 3%;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-category-back-to-school) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-category-back-to-school) {
+  position: fixed;
+  bottom: 3%;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-category-denim-time) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-category-denim-time) {
+  position: fixed;
+  bottom: 3%;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-category-every-day-style) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-category-every-day-style) {
+  position: fixed;
+  bottom: 3%;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-category-special-events) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-category-special-events) {
+  position: fixed;
+  bottom: 3%;
+}

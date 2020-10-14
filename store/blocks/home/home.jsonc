@@ -13,8 +13,9 @@
         "info-card#backToSchool",
         "rich-text#question",
         "rich-text#shelf-title-category",
-        "slider-layout#demo-products",
+        "flex-layout.row#Un-iDO-per-ogni-occasione",
         "info-card#dimentica",
+        "info-card#fidelity-card",
         "rich-text#shelf-title-armocromia",
         "info-card#colours",
         "flex-layout.row#store-locator#ido",
@@ -130,7 +131,7 @@
   "shelf#radu": {
       "blocks": ["product-summary.shelf#radu"],
       "props": {
-        "blockClass": "shlef-radu",
+        "blockClass": "shelf-radu",
         "category": 2,
         "orderBy": "OrderByTopSaleDESC",
         "paginationDotsVisibility": "desktopOnly",
@@ -144,7 +145,8 @@
         }
       }
     },
-    "product-summary#radu": {
+
+   "product-summary#radu": {
     "props": {
       "isOneClickBuy": false,
       "showBadge": false,
@@ -189,50 +191,6 @@
   },
 
 
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
-    "props": {
-      "height": 720,
-      "images": [
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        }
-      ]
-    }
-  },
-
-  "info-card#fidelity-card": {
-    "props": {
-      "id": "info-card-fidelity-card",
-      "isFullModeStyle": true,
-      "textPosition": "left",
-      "imageUrl": "/arquivos/fidelityfinal.png",
-      "headline": "Richiedi la nostra fidelity card.",
-      "callToActionText": "SCOPRI",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-fidelity-card",
-      "textAlignment": "center"
-    }
-  },
-
-
-  "slider-layout#demo-images": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "always",
-      "blockClass": "carousel"
-    }
-  },
 
   "rich-text#shelf-title-backToSchool": {
     "props": {
@@ -253,24 +211,117 @@
       "blockClass": "shelfTitle"
     }
   },
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+
+/*    "flex-layout.row#Un-iDO-per-ogni-occasione": {
+        "children": [
+          "flex-layout.col#Un-iDO-per-ogni-occasione"
+        ],
+        "props": {
+          "blockClass": "Un-iDO-per-ogni-occasione"
+         }
+      },
+      "flex-layout.col#Un-iDO-per-ogni-occasione": {
+        "children": [
+          "slider-layout#Un-iDO-per-ogni-occasione"
+        ],
+        "props": {
+          "blockClass": "Un-iDO-per-ogni-occasione"
+         }
+      },
+
+
+
+  "slider-layout#Un-iDO-per-ogni-occasione": {
+    "children": [
+       "info-card#category-baby-special",
+       "info-card#category-back-to-school",
+       "info-card#category-denim-time",
+       "info-card#category-every-day-style",
+       "info-card#category-special-events"
+       ],
+         "props": {
+           "itemsPerPage": {
+             "desktop": 3,
+             "tablet": 2,
+             "phone": 1
+           },
+           "infinite": true,
+           "fullWidth": false,
+           "showNavigationArrows": "always",
+           "showPaginationDots": "never",
+           "navigationStep": 1,
+           "blockClass": "ogniOccasioni"
+           }
+   },
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
   },
-  "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+
+
+
+ "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "carousel"
+    }
+  },
+*/
+  "rich-text#shelf-title-backToSchool": {
+    "props": {
+      "text": "## Look Book",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelf-title-category": {
+    "props": {
+      "text": "## Un iDO per ogni occasione",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+  "rich-text#shelf-title-armocromia": {
+    "props": {
+      "text": "## L’armocromia",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#Un-iDO-per-ogni-occasione": {
+    "children": ["list-context.product-list#Un-iDO-per-ogni-occasione"]
+  },
+  "list-context.product-list#Un-iDO-per-ogni-occasione": {
+    "children": ["slider-layout#Un-iDO-per-ogni-occasione"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-  "slider-layout#demo-products": {
+
+  "slider-layout#Un-iDO-per-ogni-occasione": {
     "children": [
-    "info-card#1",
-    "info-card#2",
-    "info-card#3",
-    "info-card#4",
-    "info-card#5",
-    "info-card#6"
+       "info-card#category-baby-special",
+       "info-card#category-back-to-school",
+       "info-card#category-denim-time",
+       "info-card#category-every-day-style",
+       "info-card#category-special-events"
     ],
     "props": {
       "itemsPerPage": {
@@ -278,61 +329,86 @@
         "tablet": 2,
         "phone": 1
       },
-      "infinite": true,
+      "infinite": false,
       "fullWidth": false,
       "blockClass": "shelf",
-      "showNavigationArrows": "always"
+      "showNavigationArrows": "never"
     }
   },
-   "info-card#1": {
+
+
+   "info-card#category-baby-special": {
      "props": {
-       "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/glamgirl.png",
+       "imageUrl": "/arquivos/402x435_baby-special.jpg",
        "isFullModeStyle": true,
-       "callToActionText": "Glam",
-       "textPosition": "center"
+       "headline": "Baby special",
+      "textPosition": "left",
+      "callToActionUrl": "/Tutti-i-Prodotti/Baby%20special",
+      "blockClass": "info-card-category-baby-special",
+      "textAlignment": "center"
      }
    },
-   "info-card#2": {
-       "props": {
-         "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/idomini.png",
-         "isFullModeStyle": true,
-         "callToActionText": "iDO Mini",
-         "textPosition": "center"
-       }
-  },
-     "info-card#3": {
-       "props": {
-         "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/glamgirl.png",
-         "isFullModeStyle": true,
-         "callToActionText": "Back to school",
-         "textPosition": "center"
-       }
-  },
 
-     "info-card#4": {
-       "props": {
-         "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/glamgirl.png",
-         "isFullModeStyle": true,
-         "callToActionText": "Glam",
-         "textPosition": "center"
-       }
-     },
-     "info-card#5": {
-         "props": {
-           "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/idomini.png",
-           "isFullModeStyle": true,
-           "callToActionText": "iDO Mini",
-           "textPosition": "center"
-         }
-    },
-       "info-card#6": {
-         "props": {
-           "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/glamgirl.png",
-           "isFullModeStyle": true,
-           "callToActionText": "Back to school",
-           "textPosition": "center"
-         }
-    },
+   "info-card#category-back-to-school": {
+     "props": {
+       "imageUrl": "/arquivos/402x435_back-to-school.jpg",
+       "isFullModeStyle": true,
+       "headline": "Back to school",
+      "textPosition": "left",
+      "callToActionUrl": "/Tutti-i-Prodotti/Ready%20for%20school",
+      "blockClass": "info-card-category-back-to-school",
+      "textAlignment": "center"
+
+     }
+   },
+
+
+   "info-card#category-denim-time": {
+     "props": {
+       "imageUrl": "/arquivos/402x435_denim-time.jpg",
+       "isFullModeStyle": true,
+       "headline": "Denim time",
+      "textPosition": "left",
+      "callToActionUrl": "/Tutti-i-Prodotti/Denim%20Time",
+      "blockClass": "info-card-category-denim-time",
+      "textAlignment": "center"
+
+     }
+   },
+
+
+   "info-card#category-every-day-style": {
+     "props": {
+       "imageUrl": "/arquivos/402x435_every-day-style.jpg",
+       "isFullModeStyle": true,
+       "headline": "Every day style",
+      "textPosition": "left",
+      "callToActionUrl": "/Tutti-i-Prodotti/Denim%20Time",
+      "blockClass": "info-card-category-every-day-style",
+      "textAlignment": "center"
+
+     }
+   },
+
+
+   "info-card#category-special-events": {
+     "props": {
+       "imageUrl": "/arquivos/402x435_special-events.jpg",
+       "isFullModeStyle": true,
+       "headline": "Special events",
+      "textPosition": "left",
+      "callToActionUrl": "Tutti-i-Prodotti/Special%20events",
+      "blockClass": "info-card-category-special-events",
+      "textAlignment": "center"
+
+     }
+   },
+
+
+
+
+
+
   "info-card#dimentica": {
     "props": {
       "id": "info-card-dimentica",
@@ -369,6 +445,20 @@
       "callToActionText": "SCOPRI",
       "callToActionUrl": "/larmocromia",
       "blockClass": "info-card-domentica",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#fidelity-card": {
+    "props": {
+      "id": "info-card-fidelity-card",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/fidelityfinal.png",
+      "headline": "Richiedi la nostra fidelity card.",
+      "callToActionText": "SCOPRI",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-fidelity-card",
       "textAlignment": "center"
     }
   },
