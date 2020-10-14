@@ -1,7 +1,11 @@
 {
   "vendor": "storeido",
   "name": "andrei",
+<<<<<<< HEAD
   "version": "5.1.1",
+=======
+  "version": "5.0.1",
+>>>>>>> 8a8cc8d466b21aba94fcd2b2e96cc77b563aaac8
   "builders": {
     "styles": "2.x",
     "store": "0.x",
