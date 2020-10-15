@@ -103,3 +103,26 @@
   border-color: rgba(0,0,0,0.1);
 }
 
+
+.submenuWrapper--bambina-desktop-main-container-submenu--isOpen {
+  position: fixed;
+  width: 100%;
+}
+
+.submenuWrapper--bambino-desktop-main-container-submenu--isOpen {
+  position: fixed;
+  width: 100%;
+}
+
+.submenu--bambina-desktop-main-container-submenu {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+
+.submenu--bambino-desktop-main-container-submenu {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+
