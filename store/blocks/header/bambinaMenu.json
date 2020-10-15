@@ -16,16 +16,16 @@
       "blockClass": "bambinaMenuDesktopFirstColumn"
     },
     "children": [
-      "menu-item#guarda-tutti",
-      "menu-item#0-18-mesi",
-      "menu-item#6-36mesi",
-      "menu-item#3-8anni",
-      "menu-item#9-16anni",
+      "menu-item#guarda-tutti-bambina",
+      "menu-item#0-18-mesi-bambina",
+      "menu-item#6-36mesi-bambina",
+      "menu-item#3-8anni-bambina",
+      "menu-item#9-16anni-bambina",
       "menu-item#guida-alle-taglie-bambina"
     ]
   },
 
-  "menu-item#guarda-tutti": {
+  "menu-item#guarda-tutti-bambina": {
     "props": {
       "id": "menu-item-guarda-tutti-bambina",
       "type": "custom",
@@ -41,7 +41,7 @@
     }
   },
 
-  "menu-item#0-18-mesi": {
+  "menu-item#0-18-mesi-bambina": {
     "props": {
       "id": "menu-item-0-18-mesi-bambina",
       "type": "custom",
@@ -57,7 +57,7 @@
     }
   },
 
-  "menu-item#6-36mesi": {
+  "menu-item#6-36mesi-bambina": {
     "props": {
       "id": "menu-item-6-36-mesi-bambina",
       "type": "custom",
@@ -73,7 +73,7 @@
     }
   },
 
-  "menu-item#3-8anni": {
+  "menu-item#3-8anni-bambina": {
     "props": {
       "id": "menu-item-3-16-anni-accesori-bambina",
       "type": "custom",
@@ -89,7 +89,7 @@
     }
   },
 
-  "menu-item#9-16anni": {
+  "menu-item#9-16anni-bambina": {
     "props": {
       "id": "menu-item-9-16-anni-accesori-bambina",
       "type": "custom",

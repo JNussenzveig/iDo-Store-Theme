@@ -34,6 +34,8 @@
 .accordionContainer {
   padding-left: 5px;
   padding-right: 5px;
+  display: inline;
+  margin: 0!important;
 }
 
 .itemTitle--meeting-class {
