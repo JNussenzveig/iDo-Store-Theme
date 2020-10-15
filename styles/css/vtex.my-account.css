@@ -384,15 +384,14 @@
     padding: 0px;
     text-transform: none;
   }
-
+*/
   :global(.vtex-pageHeader__children) {
     position: absolute;
-    top: 500px;
-    left: 435px;
+    top: 12rem;
+    right: 35%;
     z-index: 999;
   }
 
-  */
   :global(.vtex-pageHeader__children .vtex-button) {
     color: #001930;
     font-family: "MuseoJHSans900";

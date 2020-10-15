@@ -91,79 +91,97 @@
   },
   "slider-layout#demo-productsMobile": {
     "children": [
-      "info-card#1Mobile",
-      "info-card#2Mobile",
-      "info-card#3Mobile",
-      "info-card#4Mobile",
-      "info-card#5Mobile",
-      "info-card#6Mobile"
+      "info-card#category-baby-special-mobile",
+      "info-card#category-back-to-school-mobile",
+      "info-card#category-denim-time-mobile",
+      "info-card#category-every-day-style-mobile",
+      "info-card#category-special-events-mobile"
     ],
     "props": {
       "itemsPerPage": {
         "desktop": 2,
-        "tablet": 2,
-        "phone": 2
+        "tablet": 1,
+        "phone": 1
       },
       "infinite": true,
-      "fullWidth": false,
+      "fullWidth": true,
       "blockClass": "shelf-mobile",
       "showNavigationArrows": "never"
     }
   },
-  "info-card#1Mobile": {
+
+  "info-card#category-baby-special-mobile": {
     "props": {
-      "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/glamgirl.png",
-      "isFullModeStyle": false,
-      "callToActionText": "Glam",
-      "textPosition": "center",
-      "blockClass": "mobile-slide"
+      "imageUrl": "/arquivos/402x435_baby-special.jpg",
+      "isFullModeStyle": true,
+      "headline": "Baby special",
+      "textPosition": "left",
+      "callToActionUrl": "/Tutti-i-Prodotti/Baby%20special",
+      "blockClass": "info-card-category-baby-special-mobile",
+      "textAlignment": "center"
     }
   },
-  "info-card#2Mobile": {
+
+  "info-card#category-back-to-school-mobile": {
     "props": {
-      "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/idomini.png",
-      "isFullModeStyle": false,
-      "callToActionText": "iDO Mini",
-      "textPosition": "center",
-      "blockClass": "mobile-slide"
+      "imageUrl": "/arquivos/402x435_back-to-school.jpg",
+      "isFullModeStyle": true,
+      "headline": "Back to school",
+      "textPosition": "left",
+      "callToActionUrl": "/Tutti-i-Prodotti/Ready%20for%20school",
+      "blockClass": "info-card-category-back-to-school-mobile",
+      "textAlignment": "center"
+
     }
   },
-  "info-card#3Mobile": {
+
+
+  "info-card#category-denim-time-mobile": {
     "props": {
-      "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/glamgirl.png",
-      "isFullModeStyle": false,
-      "callToActionText": "Back to school",
-      "textPosition": "center",
-      "blockClass": "mobile-slide"
+      "imageUrl": "/arquivos/402x435_denim-time.jpg",
+      "isFullModeStyle": true,
+      "headline": "Denim time",
+      "textPosition": "left",
+      "callToActionUrl": "/Tutti-i-Prodotti/Denim%20Time",
+      "blockClass": "info-card-category-denim-time-mobile",
+      "textAlignment": "center"
+
     }
   },
-  "info-card#4Mobile": {
+
+
+  "info-card#category-every-day-style-mobile": {
     "props": {
-      "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/glamgirl.png",
-      "isFullModeStyle": false,
-      "callToActionText": "Glam",
-      "textPosition": "center",
-      "blockClass": "mobile-slide"
+      "imageUrl": "/arquivos/402x435_every-day-style.jpg",
+      "isFullModeStyle": true,
+      "headline": "Every day style",
+      "textPosition": "left",
+      "callToActionUrl": "/Tutti-i-Prodotti/Denim%20Time",
+      "blockClass": "info-card-category-every-day-style-mobile",
+      "textAlignment": "center"
+
     }
   },
-  "info-card#5Mobile": {
+
+
+  "info-card#category-special-events-mobile": {
     "props": {
-      "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/idomini.png",
-      "isFullModeStyle": false,
-      "callToActionText": "iDO Mini",
-      "textPosition": "center",
-      "blockClass": "mobile-slide"
+      "imageUrl": "/arquivos/402x435_special-events.jpg",
+      "isFullModeStyle": true,
+      "headline": "Special events",
+      "textPosition": "left",
+      "callToActionUrl": "Tutti-i-Prodotti/Special%20events",
+      "blockClass": "info-card-category-special-events-mobile",
+      "textAlignment": "center"
+
     }
   },
-  "info-card#6Mobile": {
-    "props": {
-      "imageUrl": "https://andrei--storeido.myvtex.com/arquivos/glamgirl.png",
-      "isFullModeStyle": false,
-      "callToActionText": "Back to school",
-      "textPosition": "center",
-      "blockClass": "mobile-slide"
-    }
-  },
+
+
+
+
+
+
   "info-card#dimenticaMobile": {
     "props": {
       "id": "info-card-dimentica",
