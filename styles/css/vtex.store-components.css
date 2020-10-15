@@ -67,7 +67,7 @@
 }
 
 .infoCardContainer--info-card-domentica-homepage {
-  margin-top: 250px;
+  margin-top: 120px;
   max-width: 1500px;
 }
 
@@ -1398,4 +1398,71 @@
 :global(.vtex-store-components-3-x-infoCardTextContainer--info-card-category-special-events) {
   position: fixed;
   bottom: 3%;
+}
+
+/* ogni occasioni mobile version */
+
+.infoCardTextContainer--info-card-category-baby-special-mobile {
+  position: relative;
+  top: 67%;
+}
+.infoCardHeadline--info-card-category-baby-special-mobile {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+}
+
+.infoCardTextContainer--info-card-category-back-to-school-mobile {
+  position: relative;
+  top: 67%;
+}
+.infoCardHeadline--info-card-category-back-to-school-mobile {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+}
+
+.infoCardTextContainer--info-card-category-denim-time-mobile {
+  position: relative;
+  top: 67%;
+}
+.infoCardHeadline--info-card-category-denim-time-mobile {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+}
+
+.infoCardTextContainer--info-card-category-every-day-style-mobile {
+  position: relative;
+  top: 67%;
+}
+.infoCardHeadline--info-card-category-every-day-style-mobile {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+}
+
+.infoCardTextContainer--info-card-category-special-events-mobile {
+  position: relative;
+  top: 67%;
+}
+.infoCardHeadline--info-card-category-special-events-mobile {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
 }

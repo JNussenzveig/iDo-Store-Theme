@@ -143,7 +143,7 @@
       "itemProps": {
         "blockClass": "ido-logo-class",
         "type": "internal",
-        "href": "#",
+        "href": "/account",
         "noFollow": true,
         "tagTitle": "myIdo",
         "text": "My IDO"
