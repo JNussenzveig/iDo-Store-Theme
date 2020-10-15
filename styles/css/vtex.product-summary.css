@@ -87,3 +87,24 @@
 
 
 /* mobile search page END */
+
+.element--shelf-radu2 .nameContainer {
+  text-align: left;
+  height: 110px;
+}
+
+.element--shelf-radu2 .priceContainer {
+  align-self: end;
+}
+
+.element--shelf-radu2 :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+  text-align: left;
+}
+
+.element--shelf-radu2 .imageContainer {
+  margin: unset!important;
+}
+
+.element--shelf-radu2 {
+  width: 370px;
+}

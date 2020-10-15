@@ -199,7 +199,7 @@
   "sku-selector#colors": {
     "props": {
       "blockClass": "colors-selector",
-      "thumbnailImage": "undefined",
+      "thumbnailImage": "color",
       "showVariationsLabels": true
     }
 },
