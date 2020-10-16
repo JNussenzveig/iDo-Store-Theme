@@ -139,8 +139,8 @@
         "type": "internal",
         "href": "/account/#/profile",
         "noFollow": true,
-        "tagTitle": "MY IDO",
-        "text": "MY IDO"
+        "tagTitle": "STORE LOCATOR",
+        "text": "STORE LOCATOR"
       }
     }
   },
@@ -156,8 +156,8 @@
         "type": "internal",
         "href": "/our-stores",
         "noFollow": true,
-        "tagTitle": "Scopri i negozi myiDO",
-        "text": "Scopri i negozi myiDO"
+        "tagTitle": "Scopri i negozi iDO",
+        "text": "Scopri i negozi iDO"
       }
     }
   },
@@ -290,26 +290,11 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#fidelitycard",
       "menu-item#partnerlab"
     ]
   },
 
-  "menu-item#fidelitycard": {
-    "props": {
-      "id": "menu-item-fidelitycard",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/necessaire",
-        "noFollow": true,
-        "tagTitle": "FIDELITY CARD",
-        "text": "FIDELITY CARD"
-      }
-    }
-  },
+
   "menu-item#partnerlab": {
     "props": {
       "id": "menu-item-partnerlab",
