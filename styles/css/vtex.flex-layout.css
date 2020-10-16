@@ -35,7 +35,7 @@
 }
 
 .flexRowContent--menu-link {
-  background-color: #FFFFFF !important;
+  background-color: #DCDCDC!important;
   color: #00263a;
   height: 50px;
 }
@@ -60,7 +60,13 @@
   line-height: 19px;
 }
 
-
+.flexRowContent--menu-social-networks-header {
+  width: 150px;
+  height: 100%;
+  padding: 0;
+  margin-top: 12px;
+  margin-left: 20px;
+}
 
 
 /*:global(.vtex-minicart-2-x-minicartContainer) {
@@ -1256,3 +1262,13 @@
   margin-left: 25%;
 }
 
+@media screen and (min-width: 1024px) {
+/*
+  .flexRowContent--product-main-container-ido {
+    display: flex;
+    flex-direction: column;
+  }
+  .flexRowContent--product-main-container-ido .stretchChildrenWidth {
+    width: 100%!important;
+  }*/
+}

@@ -62,13 +62,32 @@
       "marginBottom": 7,
       "paddingTop": 7,
       "paddingBottom": 7,
-      "blockClass": "product-main-container"
+      "blockClass": "product-main-container-ido"
     },
     "children": [
-      "flex-layout.col#stack",
-      "flex-layout.col#right-col"
+      "flex-layout.col#productPageTop"
     ]
   },
+
+    "flex-layout.col#productPageTop": {
+    "props": {
+      "blockClass": "product-page-se"
+    },
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#productPage"
+    ]
+  },
+
+  "flex-layout.row#productPage": {
+    "props": {
+      "blockClass": "product-page-secondary-container-ido"
+    },
+    "children": [
+        "flex-layout.col#stack",
+        "flex-layout.col#right-col"
+      ]
+    },
 
   "shelf.relatedProducts#dekstop-product": {
     "props": {
@@ -166,7 +185,6 @@
       "width": "40%"
     },
     "children": [
-      "flex-layout.row#product-breadcrumb",
       "flex-layout.row#productNamePrice",
       "flex-layout.row#product-imageSecondary",
       "product-rating-summary",

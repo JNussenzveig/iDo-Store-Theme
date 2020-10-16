@@ -17,9 +17,9 @@
         "info-card#dimentica",
         "rich-text#shelf-title-armocromia",
         "info-card#colours",
-        "flex-layout.row#store-locator#ido",
+        "info-card#store-locator",
         "info-card#teddy",
-        "newsletter#desktop"
+        "info-card#newsletter"
       ]
     },
 
@@ -34,9 +34,9 @@
         "info-card#dimenticaMobile",
         "rich-text#shelf-title-armocromiaMobile",
         "info-card#coloursMobile",
-        "flex-layout.row#store-locator-mobile",
+        "info-card#store-locator",
         "info-card#teddyMobile",
-        "newsletter#mobile"
+        "info-card#newsletter"
       ]
     },
       "slider-layout#andrei-images": {
@@ -462,6 +462,19 @@
     }
   },
 
+  "info-card#store-locator": {
+    "props": {
+      "id": "info-card-fidelity-card",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "headline": "Trova il negozio iDO più vicino a te",
+      "callToActionText": "SCOPRI",
+      "callToActionUrl": "/our-stores",
+      "blockClass": "store-locator-desktop",
+      "textAlignment": "center"
+    }
+  },
+
   "flex-layout.row#store-locator#ido": {
       "props": {
         "blockClass": "store-locator-home"
@@ -495,7 +508,7 @@
       "imageUrl": "/arquivos/Schermata_2019-11-27_alle_14.27.20.png",
       "headline": "Scopri l’outlet",
       "callToActionText": "SCOPRI",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "https://www.miniconfshop.it/",
       "blockClass": "info-card-domentica",
       "textAlignment": "center"
     }
@@ -522,5 +535,18 @@
         "placeholder": "Inserisci la tua email",
         "hideLabel": false
       }
+    },
+
+  "info-card#newsletter": {
+    "props": {
+      "id": "info-car",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "headline": "Iscriviti alla newsletter",
+      "callToActionText": "Iscriviti",
+      "callToActionUrl": "/iscriviti-alla-newsletter",
+      "blockClass": "newsletter-desktop",
+      "textAlignment": "center"
     }
+  }
 }

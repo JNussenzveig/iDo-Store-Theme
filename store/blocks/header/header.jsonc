@@ -13,12 +13,15 @@
   },
 
   "sticky-layout#header": {
-  "children": [
-  "CustomHandles",
-  "flex-layout.row#3-desktop",
-  "flex-layout.row#2-desktop",
-  "flex-layout.row#4-desktop"
-     ]
+    "props": {
+      "blockClass":"header-main-container"
+    },
+    "children": [
+    "CustomHandles",
+    "flex-layout.row#3-desktop",
+    "flex-layout.row#2-desktop",
+    "flex-layout.row#4-desktop"
+       ]
   },
 
   "flex-layout.row#2-desktop": {

@@ -1483,3 +1483,211 @@
 .searchBarIcon--search {
   display: none;
 }
+/*
+Store locator desktop version final*/
+@media screen and (min-width: 1024px) {
+
+  .infoCardContainer--store-locator-desktop {
+    max-width: 1520px;
+    margin: 0 auto;
+    background-color: #001930;
+    height: 139px !important;
+    padding: 0px;
+    margin-bottom: 50px;
+    position: relative;
+  }
+
+  .infoCardContainer--store-locator-desktop :global(.vtex-button) {
+    border-color: white;
+    width: auto;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    color: black;
+    transition: .3s;
+  }
+
+  .infoCardContainer--store-locator-desktop :global(.vtex-button__label) {
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "MuseoJHSans900";
+  }
+
+  .infoCardTextContainer--store-locator-desktop {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .infoCardHeadline--store-locator-desktop {
+    height: 138px;
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 35px;
+    margin-top: 0 !important;
+    display: flex;
+    align-items: center;
+  }
+
+  .infoCardCallActionContainer--store-locator-desktop {
+    height: 138px;
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 35px;
+    margin-top: 0 !important;
+    display: flex;
+    align-items: center;
+  }
+
+  .infoCardContainer--newsletter-desktop {
+    max-width: 1520px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 139px !important;
+    padding: 0px;
+    margin-bottom: 50px;
+    position: relative;
+  }
+
+  .infoCardContainer--newsletter-desktop :global(.vtex-button) {
+    border-color: white;
+    width: auto;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #001930;
+    color: black;
+    transition: .3s;
+    text-decoration: inherit;
+  }
+
+  .infoCardContainer--newsletter-desktop :global(.vtex-button__label) {
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "MuseoJHSans300";
+  }
+
+  .infoCardTextContainer--newsletter-desktop {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .infoCardHeadline--newsletter-desktop {
+    height: 138px;
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 35px;
+    margin-top: 0 !important;
+    display: flex;
+    align-items: center;
+  }
+
+  .infoCardCallActionContainer--newsletter-desktop {
+    height: 138px;
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 35px;
+    margin-top: 0 !important;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .infoCardContainer--store-locator-desktop {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #001930;
+    height: 164px !important;
+    padding: 0px;
+    margin-bottom: 50px;
+    position: relative;
+  }
+
+  .infoCardHeadline--store-locator-desktop {
+    width: 248px;
+    height: 57px;
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 29px;
+    text-align: left;
+  }
+
+  .infoCardContainer--store-locator-desktop :global(.vtex-button) {
+    border-color: white;
+    width: auto;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    color: black;
+    transition: .3s;
+  }
+
+  .infoCardContainer--store-locator-desktop :global(.vtex-button__label) {
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "MuseoJHSans900";
+  }
+
+  .infoCardContainer--newsletter-desktop {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 164px !important;
+    padding: 0px;
+    margin-bottom: 50px;
+    position: relative;
+  }
+
+  .infoCardHeadline--newsletter-desktop {
+    width: 248px;
+    height: 57px;
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 29px;
+    text-align: left;
+  }
+
+  .infoCardContainer--newsletter-desktop :global(.vtex-button) {
+    border-color: white;
+    width: auto;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #001930;
+    color: black;
+    transition: .3s;
+  }
+
+  .infoCardContainer--newsletter-desktop :global(.vtex-button__label) {
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "MuseoJHSans300";
+  }
+}
+/*
+store locator mobile version final */
+
+.productImagesGallerySlide--productImageDesktop {
+  width: 730px;
+}

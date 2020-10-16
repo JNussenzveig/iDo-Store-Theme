@@ -38,6 +38,19 @@
   }
 },
 
+  "flex-layout.row#footer-social-networks-header": {
+  "children": [
+    "image#facebookHeader",
+    "image#instagramHeader",
+    "image#youtubeHeader"
+  ],
+  "props": {
+    "blockClass": "menu-social-networks-header",
+    "paddingTop": 6,
+    "paddingBottom": 6
+  }
+},
+
   "image#facebook": {
     "props": {
       "src": "/arquivos/facebook.png",
@@ -51,6 +64,21 @@
       }
     }
   },
+
+  "image#facebookHeader": {
+    "props": {
+      "src": "/arquivos/facebook.png",
+      "maxHeight": 29,
+      "maxWidth": 29,
+      "alt": "facebook.com",
+      "title": "facebook.com",
+      "link": {
+        "newTab": true,
+        "url": "https://it-it.facebook.com/iDO.kidswear"
+      }
+    }
+  },
+
   "image#instagram": {
     "props": {
       "src": "/arquivos/instagram.png",
@@ -64,11 +92,40 @@
       }
     }
   },
+
+  "image#instagramHeader": {
+    "props": {
+      "src": "/arquivos/instagram.png",
+      "maxHeight": 29,
+      "maxWidth": 29,
+      "alt": "instagram.com",
+      "title": "instagram.com",
+      "link": {
+        "newTab": true,
+        "url": "https://www.instagram.com/idokidswear/"
+      }
+    }
+  },
+
   "image#youtube": {
     "props": {
       "src": "/arquivos/youtube.png",
       "maxHeight": 39,
       "maxWidth": 39,
+      "alt": "youtube.com",
+      "title": "youtube.com",
+      "link": {
+        "newTab": true,
+        "url": "https://www.youtube.com/user/idokidswear?feature=results_main"
+      }
+    }
+  },
+
+  "image#youtubeHeader": {
+    "props": {
+      "src": "/arquivos/youtube.png",
+      "maxHeight": 29,
+      "maxWidth": 29,
       "alt": "youtube.com",
       "title": "youtube.com",
       "link": {

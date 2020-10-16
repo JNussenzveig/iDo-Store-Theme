@@ -126,3 +126,12 @@
   padding-right: 40px;
 }
 
+.styledLinkContainer--cart-icon-ido {
+  width: 19px;
+  height: 19px;
+  padding: 0;
+  margin-left: 0px;
+}
+.menuItem--cart-icon-ido {
+  margin-bottom: 0!important;
+}
