@@ -286,7 +286,6 @@
   color: #001930;
   font-family: "MuseoJHSans900";
   font-size: 24px;
-  text-transform: lowercase;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--contentSiamo1) {
@@ -2766,7 +2765,6 @@
   color: #001930;
   font-family: "MuseoJHSans900";
   font-size: 24px;
-  text-transform: lowercase;
 }
 :global(.vtex-rich-text-0-x-paragraph--contentil-nostro-impegno) {
   color: #5a5a5a;

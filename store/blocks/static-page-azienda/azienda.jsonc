@@ -8,9 +8,7 @@
 
     "responsive-layout.desktop#azienda": {
       "children": [
-        "flex-layout.row#azienda",
-        "flex-layout.row#vuoilavorare",
-        "flex-layout.row#newsletter"
+        "flex-layout.row#azienda"
       ]
     },
 
@@ -71,10 +69,6 @@
           "id": "tab-wrapper#reteVendita"
         },
         {
-          "title": "Partnerlab",
-          "id": "tab-wrapper#partenerLab"
-        },
-        {
           "title": "Lavora con noi",
           "id": "tab-wrapper#lavoraConNoi"
         }
@@ -85,7 +79,6 @@
       "tab-wrapper#impegno",
       "tab-wrapper#aprireFranchising",
       "tab-wrapper#reteVendita",
-      "tab-wrapper#partenerLab",
       "tab-wrapper#lavoraConNoi"
     ]
   },
@@ -123,14 +116,6 @@
     "children": [
       "flex-layout.col#rete-vendite"
     ]
-  },
-  "tab-wrapper#partenerLab": {
-      "props": {
-        "title": "partener-lab"
-      },
-      "children": [
-        "rich-text#azienda"
-      ]
   },
    "tab-wrapper#lavoraConNoi": {
        "props": {
@@ -2339,7 +2324,7 @@
 
             "rich-text#invia-candidatura-Button": {
               "props": {
-                "text": "<a class='vtex-invia-candidatura-Button' href='https://google.com'>Invia la tua candidatura",
+                "text": "<a class='vtex-invia-candidatura-Button' href='http://web.miniconf.it/RecruitSelection'>Invia la tua candidatura",
                 "blockClass": "invia-candidatura-Button"
               }
             }

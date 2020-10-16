@@ -3,9 +3,7 @@
   "flex-layout.row#azienda-mobile": {
       "children": [
         "rich-text#azienda-title-mobile",
-        "flex-layout.col#azienda-mobile",
-        "flex-layout.col#aprire-franchising-banner-mobile",
-        "newsletter#banner-mobile"
+        "flex-layout.col#azienda-mobile"
       ],
       "props": {
         "blockClass": "azienda-mobile",
