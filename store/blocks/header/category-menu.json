@@ -28,7 +28,8 @@
 
   "vtex.menu@2.x:submenu#category-apparel": {
     "props": {
-      "width": "auto"
+      "width": "auto",
+      "blockClass": "bambina-desktop-main-container-submenu"
     },
     "children": [
       "vtex.menu@2.x:menu#category-apparel"
@@ -37,16 +38,11 @@
 
   "vtex.menu@2.x:menu#category-apparel": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "bambina-desktop-main-container"
     },
     "children": [
-      "menu-item#pantaloni-bambina",
-      "menu-item#accesori-bambina",
-      "menu-item#maglie-e-felpe-bambina",
-      "menu-item#tute-e-completi-bambina",
-      "menu-item#giubbotti-e-giacche-bambina",
-      "menu-item#t-shit-polo-e-camicie-bambina",
-      "menu-item#abiti-e-gonne-bambina"
+      "flex-layout.row#bambinaMenuDesktop"
     ]
   },
 
@@ -190,7 +186,8 @@
 
   "vtex.menu@2.x:submenu#category-bambino": {
     "props": {
-      "width": "auto"
+      "width": "auto",
+      "blockClass": "bambino-desktop-main-container-submenu"
     },
     "children": [
       "vtex.menu@2.x:menu#category-bambino"
@@ -202,13 +199,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#pantaloni-bambino",
-      "menu-item#accesori-bambino",
-      "menu-item#maglie-e-felpe-bambino",
-      "menu-item#tute-e-completi-bambino",
-      "menu-item#giubbotti-e-giacche-bambino",
-      "menu-item#t-shit-polo-e-camicie-bambino",
-      "menu-item#abiti-e-gonne-bambino"
+      "flex-layout.row#bambinoMenuDesktop"
     ]
   },
 

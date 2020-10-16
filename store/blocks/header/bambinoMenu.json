@@ -1,0 +1,308 @@
+{
+  "flex-layout.row#bambinoMenuDesktop":{
+    "props": {
+      "text": "## L’armocromia",
+      "blockClass": "shelfTitle"
+    },
+    "children": [
+      "flex-layout.col#bambinoMenuDesktopFirstColumn",
+      "flex-layout.col#bambinoMenuDesktopSecondColumn",
+      "flex-layout.col#bambinoMenuDesktopThirdColumn"
+    ]
+  },
+
+  "flex-layout.col#bambinoMenuDesktopFirstColumn":{
+    "props": {
+      "blockClass": "bambinoMenuDesktopFirstColumn"
+    },
+    "children": [
+      "menu-item#guarda-tutti-bambino",
+      "menu-item#0-18-mesi-bambino",
+      "menu-item#6-36mesi-bambino",
+      "menu-item#3-8anni-bambino",
+      "menu-item#9-16anni-bambino",
+      "menu-item#guida-alle-taglie-bambino"
+    ]
+  },
+
+  "menu-item#guarda-tutti-bambino": {
+    "props": {
+      "id": "menu-item-guarda-tutti-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/bambino/",
+        "noFollow": false,
+        "tagTitle": "Guarda Tutti",
+        "text": "Guarda tutti"
+      }
+    }
+  },
+
+  "menu-item#0-18-mesi-bambino": {
+    "props": {
+      "id": "menu-item-0-18-mesi-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tutti-i-prodotti?__bindingAddress=www.ido.it/it&map=c,c,specificationFilter_27&query=/Tutti-i-Prodotti/bambino/0 - 18 Mesi",
+        "noFollow": false,
+        "tagTitle": "0 - 18 mesi",
+        "text": "0 - 18 Mesi"
+      }
+    }
+  },
+
+  "menu-item#6-36mesi-bambino": {
+    "props": {
+      "id": "menu-item-6-36-mesi-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tutti-i-prodotti?__bindingAddress=www.ido.it/it&map=c,c,specificationFilter_27&query=/Tutti-i-Prodotti/bambino/6 - 36 Mesi",
+        "noFollow": false,
+        "tagTitle": "6 - 36 mesi",
+        "text": "6 - 36 Mesi"
+      }
+    }
+  },
+
+  "menu-item#3-8anni-bambino": {
+    "props": {
+      "id": "menu-item-3-16-anni-accesori-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tutti-i-prodotti?__bindingAddress=www.ido.it/it&map=c,c,specificationFilter_27&query=/Tutti-i-Prodotti/bambino/3 - 8 Anni",
+        "noFollow": false,
+        "tagTitle": "3 - 8 anni",
+        "text": "3 - 8 Anni"
+      }
+    }
+  },
+
+  "menu-item#9-16anni-bambino": {
+    "props": {
+      "id": "menu-item-9-16-anni-accesori-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tutti-i-prodotti?__bindingAddress=www.ido.it/it&map=c,c,specificationFilter_27&query=/Tutti-i-Prodotti/bambino/9 - 16 Anni",
+        "noFollow": false,
+        "tagTitle": "9 - 16 anni",
+        "text": "9 - 16 Anni"
+      }
+    }
+  },
+
+  "menu-item#guida-alle-taglie-bambino": {
+    "props": {
+      "id": "menu-item-guida-alle-taglie-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/guida-alle-taglie",
+        "noFollow": false,
+        "tagTitle": "Guida alle taglie",
+        "text": "Guida alle taglie"
+      }
+    }
+  },
+
+  "flex-layout.col#bambinoMenuDesktopSecondColumn":{
+    "props": {
+      "blockClass": "bambinoMenuDesktopSecondColumn"
+    },
+    "children": [
+      "menu-item#pantaloni-bambino",
+      "menu-item#accesori-bambino",
+      "menu-item#maglie-e-felpe-bambino",
+      "menu-item#abiti-e-gonne-bambino",
+      "menu-item#giubbotti-e-giacche-bambino",
+      "menu-item#t-shit-polo-e-camicie-bambino"
+    ]
+  },
+
+
+  "flex-layout.col#bambinoMenuDesktopThirdColumn":{
+    "props": {
+      "blockClass": "bambinoMenuDesktopThirdColumn"
+    },
+    "children": [
+      "menu-item#glam-bambino",
+      "menu-item#ido-mini-bambino",
+      "menu-item#tempo-libero-bambino",
+      "menu-item#back-to-school-bambino"
+    ]
+  },
+
+  "menu-item#un-ido-per-ogni-occasioni-bambino": {
+    "props": {
+      "id": "menu-item-un-id-per-ogni-occasione-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/bambino/",
+        "noFollow": false,
+        "tagTitle": "Un iDO per ogni occasione",
+        "text": "Un iDO per ogni occasione"
+      }
+    }
+  },
+
+  "menu-item#glam-bambino": {
+    "props": {
+      "id": "menu-item-glam-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/bambino/",
+        "noFollow": false,
+        "tagTitle": "Glam",
+        "text": "Glam"
+      }
+    }
+  },
+
+  "menu-item#ido-mini-bambino": {
+    "props": {
+      "id": "menu-item-ido-mini-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/bambino/",
+        "noFollow": false,
+        "tagTitle": "iDO mini",
+        "text": "iDO mini"
+      }
+    }
+  },
+
+  "menu-item#tempo-libero-bambino": {
+    "props": {
+      "id": "menu-item-tempo-libero-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/bambino/",
+        "noFollow": false,
+        "tagTitle": "Tempo libero",
+        "text": "Tempo libero"
+      }
+    }
+  },
+
+  "menu-item#back-to-school-bambino": {
+    "props": {
+      "id": "menu-item-back-to-school-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/bambino/",
+        "noFollow": false,
+        "tagTitle": "Back to school",
+        "text": "Back to school"
+      }
+    }
+  },
+
+
+  "flex-layout.col#bambinoMenuDesktopFourthColumn":{
+    "props": {
+      "blockClass": "bambinoMenuDesktopFourthColumn"
+    },
+    "children": [
+      "menu-item#so-comfortable-bambino",
+      "menu-item#newborn-selection-bambino",
+      "menu-item#christmas-style-bambino",
+      "menu-item#we-care-bambino"
+    ]
+  },
+
+
+  "menu-item#so-comfortable-bambino": {
+    "props": {
+      "id": "menu-item-so-comfortable-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/bambino/",
+        "noFollow": false,
+        "tagTitle": "So comfortable",
+        "text": "So comfortable"
+      }
+    }
+  },
+
+  "menu-item#newborn-selection-bambino": {
+    "props": {
+      "id": "menu-item-newborn-selection-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/bambino/",
+        "noFollow": false,
+        "tagTitle": "Newborn selection",
+        "text": "Newborn selection"
+      }
+    }
+  },
+
+  "menu-item#christmas-style-bambino": {
+    "props": {
+      "id": "menu-item-christmas-style-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/bambino/",
+        "noFollow": false,
+        "tagTitle": "Christmas Style",
+        "text": "Christmas Style"
+      }
+    }
+  },
+
+  "menu-item#we-care-bambino": {
+    "props": {
+      "id": "menu-item-we-care-bambino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/bambino/",
+        "noFollow": false,
+        "tagTitle": "We care",
+        "text": "We care"
+      }
+    }
+  }
+}

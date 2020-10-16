@@ -16,7 +16,13 @@
   font-size: 35px;
   line-height: 29px;
   font-weight: 900;
-  margin-left: 135px;
+}
+
+.container--shelfTitle {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 0px;
+  margin-bottom: 50px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--footerRich) {

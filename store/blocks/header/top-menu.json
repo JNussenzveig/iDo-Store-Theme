@@ -23,6 +23,7 @@
 
   "vtex.menu@2.x:menu#institutional": {
     "children": [
+      "search-bar",
       "menu-item#vtex-search",
       "menu-item#vtex-location",
       "minicart.v2",
