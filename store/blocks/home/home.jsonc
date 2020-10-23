@@ -19,8 +19,7 @@
         "info-card#colours",
         "info-card#store-locator",
         "info-card#teddy",
-        "flex-layout.row#newsletterBanner",
-        "info-card#newsletter"
+        "flex-layout.row#newsletterBanner"
       ]
     },
 
@@ -587,18 +586,7 @@
              "text": "<a class='vtex-newsletterButtonBanner' href='http://www.google.com'>ISCRIVITI",
              "blockClass": "newsletterButtonBanner"
            }
-        }
-
-
-
-/*    "newsletter#desktop": {
-      "props": {
-        "blockClass": "newsletter-desktop",
-        "label": "Iscriviti alla newsletter",
-        "placeholder": "Inserisci la tua email",
-        "hideLabel": false
-      }
-    },
+        },
 
   "info-card#newsletter": {
     "props": {
@@ -610,8 +598,20 @@
       "callToActionUrl": "/iscriviti-alla-newsletter",
       "blockClass": "newsletter-desktop",
       "textAlignment": "center"
+      }
     }
-<<<<<<< HEAD
+
+/*    "newsletter#desktop": {
+      "props": {
+        "blockClass": "newsletter-desktop",
+        "label": "Iscriviti alla newsletter",
+        "placeholder": "Inserisci la tua email",
+        "hideLabel": false
+      }
+    }, /*
+
+
+
 /*  "info-card#newsletter": {
     "props": {
       "id": "info-car",
