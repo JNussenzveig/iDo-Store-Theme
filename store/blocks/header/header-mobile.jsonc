@@ -1,0 +1,33 @@
+{
+ /* mobile*/
+  "header-layout.mobile": {
+    "children": ["sticky-layout#1-mobile"]
+  },
+
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#bambina-category-header",
+      "menu-item#bambino-category-header",
+      "menu-item#armocromia-category-header",
+      "modal-trigger#modal-login-button"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "width": "70"
+    }
+  }
+
+
+}

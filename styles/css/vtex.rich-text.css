@@ -18,15 +18,21 @@
   font-weight: 900;
 }
 
-.container--shelfTitle {
-  max-width: 1520px;
+:global(.vtex-rich-text-0-x-container--shelfTitle) {
+  max-width: 1250px;
   margin: 0 auto;
   padding: 0px;
-  margin-bottom: 50px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--footerRich) {
-  color: gray;
+  color: #ffffff;
+  font-family: "Avenir Book";
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: -0.46px;
+  line-height: 17px;
+  text-align: left;
 }
 
 :global(.vtex-rich-text-iframe-inside) {
@@ -317,25 +323,26 @@
   padding-top: 45px;
 }
 
-:global(.vtex-rich-text-0-x-wrapper--Vuoilavorare) {
-  margin-top: 50px;
-  width: 1250px;
-  height: 139px;
-  background-color: #001930;
-}
 
 :global(.vtex-rich-text-0-x-paragraph--Vuoilavorare) {
   color: #ffffff;
   font-family: "MuseoJHSans900";
-  font-size: 25px;
+  font-size: 35px;
+  font-style: normal;
+  letter-spacing: normal;
   line-height: 29px;
-  width: 39%;
-  text-align: center;
-  padding-top: 25px;
-  padding-left: 40px;
+  text-align: left;
 }
 
-
+:global(.vtex-rich-text-0-x-paragraph--newsletter) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 35px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+}
 
 :global(.vtex-store-components-3-x-imageElement--imageIscrivitiNewslatter) {
   padding-top: 25px;
@@ -378,6 +385,46 @@
 
 :global(.vtex-rich-text-0-x-container--Vuoilavorare) {
   width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+:global(.vtex-rich-text-0-x-container--newsletter) {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--newsletter) {
+  margin-top: 26px;
+}
+
+
+:global(.vtex-newsletterButtonBanner) {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 22px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  bottom: 5px;
+  position: relative;
+  left: 46px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--newsletterButtonBanner) {
+  width: 190px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #001930;
+}
+
+:global(.vtex-rich-text-0-x-container--newsletterButtonBanner) {
+  align-items: center;
+  justify-content: center;
 }
 
 /*AZIENDA-FRANCHISING*/
@@ -3692,4 +3739,62 @@
 
 :global(.vtex-menu-2-x-submenuAccordion--submenu-guida-alle-taglie-images) {
   padding-left: unset;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-Seguici-sui-nostri-social) {
+  color: #001930;
+  font-family: "MuseoJHSans700";
+  font-size: 35px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-consegna-spedizione-reso-pagamenti-title) {
+  color: #001930;
+  font-size: 14px;
+  text-align: left;
+  font-family: "MuseoJHSans700";
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-consegna-spedizione-reso-pagamenti-content) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 17px;
+  text-align: left;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-Hai-bisogno-di-aiuto) {
+  color: #001930;
+  font-family: "MuseoJHSans700";
+  font-size: 25px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-contatti) {
+  color: #001930;
+  font-family: "MuseoJHSans700";
+  font-size: 25px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+:global(.vtex-rich-text-0-x-link--footer-consegna-spedizione-reso-pagamenti-content) {
+  text-decoration: none;
+  color: #001930;
 }

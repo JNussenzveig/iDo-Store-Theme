@@ -9,6 +9,7 @@
     "responsive-layout.desktop#azienda": {
       "children": [
         "flex-layout.row#azienda"
+
       ]
     },
 
@@ -28,14 +29,6 @@
        }
    },
 
-   "flex-layout.row#vuoilavorare": {
-        "children": [
-        "flex-layout.col#vuoilavorare"
-        ],
-        "props": {
-        "blockClass": "flex-row-vuoilavorare"
-        }
-   },
 
    "flex-layout.row#newsletter": {
         "children": [
@@ -154,7 +147,7 @@
           "props": {
             "blockClass": "titleSiamo",
             "text":
-            "La nostra storia comincia molto prima di iDO"
+            "Una storia che nasce da lontano "
           }
       },
       "rich-text#contentSiamo1": {
@@ -184,49 +177,6 @@
              "blockClass": "imageChiSiamo"
            }
        },
-
-       "flex-layout.col#vuoilavorare": {
-                 "children": [
-                   "info-card#contentVuoilavorare"
-
-                 ],
-                 "props": {
-                   "preventVerticalStretch": true,
-                   "blockClass": "vuoilavorare"
-                 }
-       },
-
-
-
-
-       "rich-text#contentVuoilavorare": {
-            "props": {
-              "blockClass": "Vuoilavorare",
-              "text":
-              "Vuoi lavorare con noi?"
-            }
-       },
-
-       "rich-text#cvTextButton": {
-           "props": {
-             "text": "<a class='vtex-linkCvDesktop' href='http://www.google.com'>Lascia il tuo CV",
-             "blockClass": "cvButton"
-           }
-        },
-
-        "info-card#contentVuoilavorare": {
-            "props": {
-              "id": "info-card-Vuoilavorare",
-              "isFullModeStyle": false,
-              "textPosition": "left",
-              "imageUrl": "",
-              "headline": "Vuoi lavorare con noi?",
-              "callToActionText": "Lascia il tuo CV",
-              "callToActionUrl": "http://www.google.com",
-              "blockClass": "info-card-Vuoilavorare",
-              "textAlignment": "center"
-            }
-          },
 
 
 
@@ -310,9 +260,9 @@
       "rich-text#about-title1",
       "rich-text#about-contentFranchising1",
       "image#about-us",
+      "flex-layout.col#contentCosaCerchiamo",
+      "flex-layout.col#contentCosaOffriamo",
       "flex-layout.row#franchisingStorePhotos",
-      "rich-text#about-title3",
-      "rich-text#about-contentFranchising3",
       "rich-text#about-title4",
       "rich-text#about-title5",
       "flex-layout.row#franchisingCandidatura"
@@ -372,13 +322,6 @@
 
 
 
-  "flex-layout.row#franchisingStorePhotos": {
-    "children": ["flex-layout.col#contentCosaCerchiamo", "flex-layout.col#photo-store-desktop"],
-    "props": {
-      "preventHorizontalStretch": true,
-      "fullWidth": true
-    }
-  },
 
   "flex-layout.col#contentCosaCerchiamo": {
     "children": [
@@ -401,11 +344,29 @@
   "rich-text#about-contentFranchising2": {
     "props": {
       "blockClass": "contentFranchising2",
-      "text":  "a <div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Superficie consigliata da 60 a 140 mq di area vendita netta con<br>15-20mq di magazzino</span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>La posizione ottimale è quella in centri storici di almeno 20.000<br> abitanti o centri commerciali </span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Fee d'ingresso: NO </span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Royalties: NO </span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Investimento iniziale sostenibile sulla base della fatturazione </span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Polizza assicurativa sulla merce </span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Contratto della durata di 5 anni rinnovabile </span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Fideiussione bancaria €30.000 (Riduzione a €15.000 con utilizzo di<br> POS o conto BNL)</span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Contapersone ed Hardware: €3.200 una tantum</span></div>"
+      "text":  "a <div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Superficie consigliata da 60 a 140 mq di area vendita netta con 15-20mq di magazzino</span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>La posizione ottimale è quella in centri storici di almeno 20.000 abitanti o centri commerciali </span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Fee d'ingresso: NO </span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Royalties: NO </span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Investimento iniziale sostenibile sulla base della fatturazione </span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Polizza assicurativa sulla merce </span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Contratto della durata di 5 anni rinnovabile </span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Fideiussione bancaria €30.000 (Riduzione a €15.000 con utilizzo di POS o conto BNL)</span></div><div class='vtex-special-p'><div class='vtex-static-page-checkmark'></div><span class='vtex-special-p-content'>Contapersone ed Hardware: €3.200 una tantum</span></div>"
+    }
+  },
+
+  "flex-layout.col#contentCosaOffriamo": {
+    "children": [
+      "rich-text#about-title3",
+      "rich-text#about-contentFranchising3"
+    ],
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true
     }
   },
 
 
+  "flex-layout.row#franchisingStorePhotos": {
+    "children": ["flex-layout.col#photo-store-desktop"],
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  },
 
              "flex-layout.col#photo-store-desktop": {
                "children": [
@@ -449,7 +410,7 @@
             },
             "image#photo-store-2": {
               "props": {
-                "src": "/arquivos/photo-store-2.png"
+                "src": "/arquivos/iDO-Milano-3-1280x720.jpg"
               }
             },
 
@@ -2312,7 +2273,7 @@
           },
             "flex-layout.row#invia-candidatura-Button": {
               "children": [
-              "rich-text#invia-candidatura-Button"
+              "flex-layout.col#invia-candidatura-Button"
               ],
               "props": {
                 "preventHorizontalStretch": true,
@@ -2321,13 +2282,27 @@
               }
             },
 
-
-            "rich-text#invia-candidatura-Button": {
-              "props": {
-                "text": "<a class='vtex-invia-candidatura-Button' href='http://web.miniconf.it/RecruitSelection'>Invia la tua candidatura",
-                "blockClass": "invia-candidatura-Button"
-              }
+         "flex-layout.col#invia-candidatura-Button": {
+            "children": [
+              "upload-button#Vuoilavorare"
+            ],
+            "props": {
+              "preventVerticalStretch": true,
+              "blockClass": "linvia-candidatura-Button"
             }
+          },
+
+      "upload-button#Vuoilavorare": {
+        "props": {
+          "environment": "storeido",
+          "entity": "CV",
+          "fieldName": "cv",
+          "text": "Lascia il tuo CV",
+          "successMessage": "File uploaded",
+          "errorMessage": "Error",
+          "singleUpload": false
+      }
+    }
 
 }
 

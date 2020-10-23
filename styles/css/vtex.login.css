@@ -676,8 +676,7 @@
 
 :global(.vtex-login-2-x-container) {
   position: relative;
-  bottom: 3.5rem;
-  display: none;
+  bottom: 10rem;
 }
 
 :global(.vtex-login-2-x-container .vtex-button) {
@@ -728,3 +727,6 @@
   font-weight: bold;
 }
 
+:global(.vtex-login-2-x-profile) {
+  display: none;
+}

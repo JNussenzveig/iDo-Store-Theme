@@ -76,9 +76,9 @@
 
   "flex-layout.row#social-networks-mobile": {
     "children": [
-      "image#facebook",
-      "image#instagram",
-      "image#youtube"
+      "image#facebookHeader",
+      "image#instagramHeader",
+      "image#youtubeHeader"
     ],
     "props": {
       "blockClass": "row-networks-mobile",

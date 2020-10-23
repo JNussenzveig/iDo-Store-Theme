@@ -59,7 +59,18 @@
   font-family: "MuseoJHSans500";
   font-size: 24px;
   color: #001930;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 19px;
+  text-align: left!important;
 }
+
+:global(.vtex-product-summary-2-x-nameContainer) {
+  justify-content: left;
+}
+
+
+
 .productBrand—-search-mobile :global(.vtex-product-summary-2-x-priceContainer) {
   text-align: left;
 }
