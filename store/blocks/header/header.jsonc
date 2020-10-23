@@ -10,24 +10,13 @@
     ]
   },
 
-  "sticky-layout#header": {
-
+ "sticky-layout#header": {
   "children": [
    "flex-layout.row#level1-top-menu",
     "flex-layout.row#level2-notification-bar",
     "flex-layout.row#level3-second-menu-bambina-bambino-armocromia"
-     ],
-    "props": {
-      "blockClass":"header-main-container"
-    },
-    "children": [
-    "CustomHandles",
-    "flex-layout.row#3-desktop",
-    "flex-layout.row#2-desktop",
-    "flex-layout.row#4-desktop"
-       ]
+     ]
   },
-
 
 /*level 1 header*/
 
