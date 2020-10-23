@@ -259,7 +259,7 @@
       "imageUrl": "/arquivos/teddymobilefinal.png",
       "headline": "Scopri l’outlet",
       "callToActionText": "SCOPRI",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "https://www.miniconfshop.it/",
       "blockClass": "info-card-teddy-mobile",
       "textAlignment": "center"
     }

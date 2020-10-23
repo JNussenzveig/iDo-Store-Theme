@@ -83,7 +83,7 @@
 }
 
 .locatorInputWrapper {
-  margin-right: 50px;
+  display: none;
 }
 
 .locatorButtonWrapper {

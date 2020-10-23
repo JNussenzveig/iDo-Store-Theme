@@ -8,7 +8,7 @@
     "responsive-layout.desktop#home": {
       "children": [
         "slider-layout#andrei-images",
-        "shelf#radu",
+        "list-context.product-list#radu",
         "rich-text#shelf-title-backToSchool",
         "info-card#backToSchool",
         "rich-text#question",
@@ -17,9 +17,9 @@
         "info-card#dimentica",
         "rich-text#shelf-title-armocromia",
         "info-card#colours",
-        "flex-layout.row#store-locator#ido",
+        "info-card#store-locator",
         "info-card#teddy",
-        "newsletter#desktop"
+        "flex-layout.row#newsletterBanner"
       ]
     },
 
@@ -34,9 +34,8 @@
         "info-card#dimenticaMobile",
         "rich-text#shelf-title-armocromiaMobile",
         "info-card#coloursMobile",
-        "flex-layout.row#store-locator-mobile",
-        "info-card#teddyMobile",
-        "newsletter#mobile"
+        "info-card#store-locator",
+        "info-card#teddyMobile"
       ]
     },
       "slider-layout#andrei-images": {
@@ -52,7 +51,10 @@
           },
           "infinite": true,
           "fullWidth": true,
-          "showNavigationArrows": "always",
+          "showNavigationArrows": "never",
+          "autoplay": { "stopOnHover": false, "timeout": 4000},
+          "navigationStep": 1,
+          "slideTransition": { "speed": 1200, "delay": 0, "timing": "" },
           "blockClass": "hatSlider"
         }
       },
@@ -126,26 +128,13 @@
            }
      },
 
+  "list-context.product-list#radu": {
+    "blocks": ["product-summary.shelf#radu"],
+    "children": ["slider-layout#shelf-desktop"]
+  },
 
-  "shelf#radu": {
-      "blocks": ["product-summary.shelf#radu"],
-      "props": {
-        "blockClass": "shelf-radu",
-        "category": 2,
-        "orderBy": "OrderByTopSaleDESC",
-        "paginationDotsVisibility": "desktopOnly",
-        "productList": {
-          "maxItems": 7,
-          "itemsPerPage": 3.5,
-          "minItemsPerPage": 1,
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": ""
-        }
-      }
-    },
 
-   "product-summary#radu": {
+   "product-summary.shelf#radu": {
     "props": {
       "isOneClickBuy": false,
       "showBadge": false,
@@ -159,6 +148,45 @@
       "showDiscount" : false
     }
   },
+
+
+  "slider-layout#shelf-desktop": {
+    "children": [
+      "shelf#radu"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf",
+      "showNavigationArrows": "never",
+      "autoplay": { "stopOnHover": false, "timeout": 4000},
+      "slideTransition": { "speed": 1500, "delay": 0, "timing": "" }
+    }
+  },
+
+  "shelf#radu": {
+      "blocks": ["product-summary.shelf#radu"],
+      "props": {
+        "blockClass": "shelf-radu",
+        "category": 2,
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "desktopOnly",
+        "productList": {
+          "maxItems": 7,
+          "itemsPerPage": 3,
+          "minItemsPerPage": 1,
+          "scroll": "BY_PAGE",
+          "arrows": true,
+          "titleText": ""
+        }
+      }
+    },
+
 
    "info-card#1": {
      "props": {
@@ -320,7 +348,8 @@
        "info-card#category-back-to-school",
        "info-card#category-denim-time",
        "info-card#category-every-day-style",
-       "info-card#category-special-events"
+       "info-card#category-special-events",
+       "info-card#category-back-to-school"
     ],
     "props": {
       "itemsPerPage": {
@@ -328,10 +357,12 @@
         "tablet": 2,
         "phone": 1
       },
-      "infinite": false,
-      "fullWidth": false,
+      "infinite": true,
+      "fullWidth": true,
       "blockClass": "shelf",
-      "showNavigationArrows": "never"
+      "showNavigationArrows": "never",
+      "autoplay": { "stopOnHover": false, "timeout": 4000},
+      "slideTransition": { "speed": 1500, "delay": 0, "timing": "" }
     }
   },
 
@@ -462,6 +493,19 @@
     }
   },
 
+  "info-card#store-locator": {
+    "props": {
+      "id": "info-card-fidelity-card",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "headline": "Trova il negozio iDO più vicino a te",
+      "callToActionText": "SCOPRI",
+      "callToActionUrl": "/our-stores",
+      "blockClass": "store-locator-desktop",
+      "textAlignment": "center"
+    }
+  },
+
   "flex-layout.row#store-locator#ido": {
       "props": {
         "blockClass": "store-locator-home"
@@ -495,7 +539,7 @@
       "imageUrl": "/arquivos/Schermata_2019-11-27_alle_14.27.20.png",
       "headline": "Scopri l’outlet",
       "callToActionText": "SCOPRI",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "https://www.miniconfshop.it/",
       "blockClass": "info-card-domentica",
       "textAlignment": "center"
     }
@@ -515,7 +559,36 @@
     }
   },
 
-    "newsletter#desktop": {
+       "flex-layout.row#newsletterBanner": {
+                 "children": [
+                   "rich-text#contentNewsletter",
+                   "rich-text#newsletterButtonBanner"
+
+                 ],
+                 "props": {
+                   "preventVerticalStretch": true,
+                   "blockClass": "newsletter"
+                 }
+       },
+
+       "rich-text#contentNewsletter": {
+            "props": {
+              "blockClass": "newsletter",
+              "text":
+              "Iscriviti alla newsletter"
+            }
+       },
+
+       "rich-text#newsletterButtonBanner": {
+           "props": {
+             "text": "<a class='vtex-newsletterButtonBanner' href='http://www.google.com'>ISCRIVITI",
+             "blockClass": "newsletterButtonBanner"
+           }
+        }
+
+
+
+/*    "newsletter#desktop": {
       "props": {
         "blockClass": "newsletter-desktop",
         "label": "Iscriviti alla newsletter",
@@ -523,4 +596,18 @@
         "hideLabel": false
       }
     }
+/*  "info-card#newsletter": {
+    "props": {
+      "id": "info-car",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "headline": "Iscriviti alla newsletter",
+      "callToActionText": "Iscriviti",
+      "callToActionUrl": "/iscriviti-alla-newsletter",
+      "blockClass": "newsletter-desktop",
+      "textAlignment": "center"
+    }
+  }
+*/
+
 }

@@ -1,0 +1,983 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#level1-Seguici-sui-nostri-social",
+      "flex-layout.row#level2-Hai-bisogno-di-aiuto",
+      "flex-layout.row#level3-image-consegna-spedizione-reso-pagamenti",
+      "flex-layout.row#level4-title-consegna-spedizione-reso-pagamenti",
+      "flex-layout.row#level5-content-consegna-spedizione-reso-pagamenti",
+      "flex-layout.row#level6-contatti",
+      "flex-layout.row#level7-title-vendita-negozi-impresa",
+      "flex-layout.row#level8-content-vendita-negozi-impresa",
+      "flex-layout.row#level9-azienda-servizio-termini-store-partener",
+      "flex-layout.row#level10-credits"
+    ]
+  },
+
+/*level 1 footer Seguici-sui-nostri-social*/
+
+  "flex-layout.row#level1-Seguici-sui-nostri-social": {
+    "children": [
+      "flex-layout.col#Seguici-sui-nostri-social",
+      "flex-layout.row#footer-social-networks-footer"
+    ],
+    "props": {
+      "blockClass": "level1-Seguici-sui-nostri-social"
+    }
+  },
+
+  "flex-layout.col#Seguici-sui-nostri-social": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "footerWhite"
+    },
+    "children": ["rich-text#Seguici-sui-nostri-social"]
+  },
+
+  "rich-text#Seguici-sui-nostri-social": {
+    "props": {
+      "text": "Seguici sui nostri social",
+      "blockClass": "footer-Seguici-sui-nostri-social"
+    }
+  },
+
+  "flex-layout.row#footer-social-networks-footer": {
+  "children": [
+  "flex-layout.col#footer-social-networks-footer"
+  ],
+  "props": {
+    "blockClass": "menu-social-networks-footer"
+  }
+},
+
+  "flex-layout.col#footer-social-networks-footer": {
+    "props": {
+      "blockClass": "footer-social-networks-footer"
+    },
+    "children": ["image#facebookFooter","image#instagramFooter","image#youtubeFooter"]
+  },
+
+  "image#facebookFooter": {
+    "props": {
+      "blockClass": "facebookFooter",
+      "src": "/arquivos/Icon_facebook@4x.png",
+      "maxHeight": 51,
+      "maxWidth": 51,
+      "alt": "facebook.com",
+      "title": "facebook.com",
+      "link": {
+        "newTab": true,
+        "url": "https://it-it.facebook.com/iDO.kidswear"
+      }
+    }
+  },
+
+
+  "image#instagramFooter": {
+    "props": {
+      "blockClass": "instagramFooter",
+      "src": "/arquivos/Icon_instagram@4x.png",
+      "maxHeight": 51,
+      "maxWidth": 51,
+      "alt": "instagram.com",
+      "title": "instagram.com",
+      "link": {
+        "newTab": true,
+        "url": "https://www.instagram.com/idokidswear/"
+      }
+    }
+  },
+
+
+  "image#youtubeFooter": {
+    "props": {
+      "blockClass": "youtubeFooter",
+      "src": "/arquivos/Icon_youtube@4x.png",
+      "maxHeight": 45,
+      "maxWidth": 61,
+      "alt": "youtube.com",
+      "title": "youtube.com",
+      "link": {
+        "newTab": true,
+        "url": "https://www.youtube.com/user/idokidswear?feature=results_main"
+      }
+    }
+  },
+
+/* level 2 footer HAI BISOGNO DI AIUTO? */
+
+  "flex-layout.row#level2-Hai-bisogno-di-aiuto": {
+    "children": [
+      "rich-text#level2-Hai-bisogno-di-aiuto"
+    ],
+    "props": {
+      "blockClass": "menu-level2-Hai-bisogno-di-aiuto"
+    }
+  },
+
+  "rich-text#level2-Hai-bisogno-di-aiuto": {
+    "props": {
+      "text": "HAI BISOGNO DI AIUTO?",
+      "blockClass": "footer-Hai-bisogno-di-aiuto"
+    }
+  },
+
+/*level 3 footer images */
+
+  "flex-layout.row#level3-image-consegna-spedizione-reso-pagamenti": {
+    "props": {
+      "blockClass": "image-consegna-spedizione-reso-pagamenti"
+    },
+    "children": [
+    "flex-layout.col#level3-image-consegna",
+    "flex-layout.col#level3-image-spedizione",
+    "flex-layout.col#level3-image-reso",
+    "flex-layout.col#level3-image-pagamenti"
+    ]
+  },
+
+
+  "flex-layout.col#level3-image-consegna": {
+    "props": {
+      "blockClass": "image-consegna-spedizione-reso-pagamenti"
+    },
+    "children": ["image#footer-consegna"]
+  },
+
+  "image#footer-consegna": {
+    "props": {
+      "blockClass": "footer-image-consegna",
+      "src": "/arquivos/icon_consegna@4x.png",
+      "maxHeight": 60,
+      "maxWidth": 100
+      }
+  },
+
+  "flex-layout.col#level3-image-spedizione": {
+    "props": {
+      "blockClass": "image-consegna-spedizione-reso-pagamenti"
+    },
+    "children": ["image#footer-spedizione"]
+  },
+
+  "image#footer-spedizione": {
+    "props": {
+      "blockClass": "footer-image-spedizione",
+      "src": "/arquivos/icon_spedizione@4x.png",
+      "maxHeight": 60,
+      "maxWidth": 100
+      }
+  },
+
+  "flex-layout.col#level3-image-reso": {
+    "props": {
+      "blockClass": "image-consegna-spedizione-reso-pagamenti"
+    },
+    "children": ["image#footer-reso"]
+  },
+
+  "image#footer-reso": {
+    "props": {
+      "blockClass": "footer-image-reso",
+      "src": "/arquivos/icon_reso@4x.png",
+      "maxHeight": 60,
+      "maxWidth": 100
+      }
+  },
+
+  "flex-layout.col#level3-image-pagamenti": {
+    "props": {
+      "blockClass": "image-consegna-spedizione-reso-pagamenti"
+    },
+    "children": ["image#footer-pagamenti"]
+  },
+  "image#footer-pagamenti": {
+    "props": {
+      "blockClass": "footer-image-pagamenti",
+      "src": "/arquivos/icon_pagamneto@4x.png",
+      "maxHeight": 60,
+      "maxWidth": 100
+      }
+  },
+
+/* level 4 title consegna*/
+
+  "flex-layout.row#level4-title-consegna-spedizione-reso-pagamenti": {
+    "props": {
+      "blockClass": "title-consegna-spedizione-reso-pagamenti"
+    },
+    "children": [
+    "flex-layout.col#level4-title-consegna",
+    "flex-layout.col#level4-title-spedizione",
+    "flex-layout.col#level4-title-reso",
+    "flex-layout.col#level4-title-pagamenti"
+    ]
+  },
+
+
+  "flex-layout.col#level4-title-consegna": {
+    "props": {
+      "blockClass": "title-consegna-spedizione-reso-pagamenti"
+    },
+    "children": ["rich-text#footer-consegna-title"]
+  },
+
+  "rich-text#footer-consegna-title": {
+    "props": {
+      "text": "Consegna rapida",
+      "blockClass": "footer-consegna-spedizione-reso-pagamenti-title"
+    }
+  },
+  "flex-layout.col#level4-title-spedizione": {
+    "props": {
+      "blockClass": "title-consegna-spedizione-reso-pagamenti"
+    },
+    "children": ["rich-text#footer-spedizione-title"]
+  },
+
+
+  "rich-text#footer-spedizione-title": {
+    "props": {
+      "text": "Spedizione Gratuita",
+      "blockClass": "footer-consegna-spedizione-reso-pagamenti-title"
+    }
+  },
+
+  "flex-layout.col#level4-title-reso": {
+    "props": {
+      "blockClass": "title-consegna-spedizione-reso-pagamenti"
+    },
+    "children": ["rich-text#footer-reso-title"]
+  },
+
+  "rich-text#footer-reso-title": {
+    "props": {
+      "text": "Reso entro 14 giorni",
+      "blockClass": "footer-consegna-spedizione-reso-pagamenti-title"
+    }
+  },
+
+  "flex-layout.col#level4-title-pagamenti": {
+    "props": {
+      "blockClass": "title-consegna-spedizione-reso-pagamenti"
+    },
+    "children": ["rich-text#footer-pagamenti-title"]
+  },
+
+  "rich-text#footer-pagamenti-title": {
+    "props": {
+      "text": "Pagamenti Sicuri",
+      "blockClass": "footer-consegna-spedizione-reso-pagamenti-title"
+    }
+  },
+
+/*level 5 content*/
+
+  "flex-layout.row#level5-content-consegna-spedizione-reso-pagamenti": {
+    "props": {
+      "blockClass": "content-consegna-spedizione-reso-pagamenti"
+    },
+    "children": [
+    "flex-layout.col#level5-content-consegna",
+    "flex-layout.col#level5-content-spedizione",
+    "flex-layout.col#level5-content-reso",
+    "flex-layout.col#level5-content-pagamenti"
+    ]
+  },
+
+
+  "flex-layout.col#level5-content-consegna": {
+    "props": {
+      "blockClass": "content-consegna-spedizione-reso-pagamenti"
+    },
+    "children": ["rich-text#footer-consegna-content"]
+  },
+
+  "rich-text#footer-consegna-content": {
+    "props": {
+      "text": "Entro 3 giorni lavorativi",
+      "blockClass": "footer-consegna-spedizione-reso-pagamenti-content"
+    }
+  },
+  "flex-layout.col#level5-content-spedizione": {
+    "props": {
+      "blockClass": "content-consegna-spedizione-reso-pagamenti"
+    },
+    "children": ["rich-text#footer-spedizione-content"]
+  },
+
+  "rich-text#footer-spedizione-content": {
+    "props": {
+      "text": "Entro 3 giorni lavorativi",
+      "blockClass": "footer-consegna-spedizione-reso-pagamenti-content"
+    }
+  },
+  "flex-layout.col#level5-content-reso": {
+    "props": {
+      "blockClass": "content-consegna-spedizione-reso-pagamenti"
+    },
+    "children": ["rich-text#footer-reso-content"]
+  },
+
+  "rich-text#footer-reso-content": {
+    "props": {
+      "text": "Reso gratuito per i clienti myiDO",
+      "blockClass": "footer-consegna-spedizione-reso-pagamenti-content"
+    }
+  },
+  "flex-layout.col#level5-content-pagamenti": {
+    "props": {
+      "blockClass": "content-consegna-spedizione-reso-pagamenti"
+    },
+    "children": ["rich-text#footer-pagamenti-content"]
+  },
+
+  "rich-text#footer-pagamenti-content": {
+    "props": {
+      "text": "Ogni transazione è sicura e crittografata",
+      "blockClass": "footer-consegna-spedizione-reso-pagamenti-content"
+    }
+  },
+
+
+/* level 6 contatti */
+
+
+  "flex-layout.row#level6-contatti": {
+    "children": [
+      "rich-text#level6-contatti"
+    ],
+    "props": {
+      "blockClass": "menu-level6-contatti"
+    }
+  },
+
+  "rich-text#level6-contatti": {
+    "props": {
+      "text": "CONTATTI",
+      "blockClass": "footer-contatti"
+    }
+  },
+
+
+/* level 7 vendita-negozi-impresa title*/
+
+  "flex-layout.row#level7-title-vendita-negozi-impresa": {
+    "props": {
+      "blockClass": "title-vendita-negozi-impresa"
+    },
+    "children": [
+    "flex-layout.col#level7-title-vendita",
+    "flex-layout.col#level7-title-negozi",
+    "flex-layout.col#level7-title-impresa",
+    "flex-layout.col#level7-title-spacer"
+    ]
+  },
+
+
+  "flex-layout.col#level7-title-vendita": {
+    "props": {
+      "blockClass": "title-vendita-negozi-impresa"
+    },
+    "children": ["rich-text#footer-vendita-title"]
+  },
+
+  "rich-text#footer-vendita-title": {
+    "props": {
+      "text": "Vendita Online",
+      "blockClass": "footer-consegna-spedizione-reso-pagamenti-title"
+    }
+  },
+  "flex-layout.col#level7-title-negozi": {
+    "props": {
+      "blockClass": "title-consegna-spedizione-reso-pagamenti"
+    },
+    "children": ["rich-text#footer-negozi-title"]
+  },
+
+
+  "rich-text#footer-negozi-title": {
+    "props": {
+      "text": "Negozi",
+      "blockClass": "footer-consegna-spedizione-reso-pagamenti-title"
+    }
+  },
+
+  "flex-layout.col#level7-title-impresa": {
+    "props": {
+      "blockClass": "title-consegna-spedizione-reso-pagamenti"
+    },
+    "children": ["rich-text#footer-impresa-title"]
+  },
+
+  "rich-text#footer-impresa-title": {
+    "props": {
+      "text": "Impresa",
+      "blockClass": "footer-consegna-spedizione-reso-pagamenti-title"
+    }
+  },
+
+  "flex-layout.col#level7-title-spacer": {
+    "props": {
+      "blockClass": "title-consegna-spedizione-reso-pagamenti"
+    },
+    "children": ["rich-text#footer-spacer-title"]
+  },
+
+  "rich-text#footer-spacer-title": {
+    "props": {
+      "text": "",
+      "blockClass": "footer-consegna-spedizione-reso-pagamenti-title"
+    }
+  },
+
+/*level 8 vendita-negozi-impresa content*/
+
+  "flex-layout.row#level8-content-vendita-negozi-impresa": {
+    "props": {
+      "blockClass": "content-vendita-negozi-impresa"
+    },
+    "children": [
+    "flex-layout.col#level8-content-vendita",
+    "flex-layout.col#level8-content-negozi",
+    "flex-layout.col#level8-content-impresa",
+    "flex-layout.col#level8-content-spacer"
+    ]
+  },
+
+
+  "flex-layout.col#level8-content-vendita": {
+    "props": {
+      "blockClass": "content-vendita-negozi-impresa"
+    },
+    "children": ["rich-text#footer-vendita-content"]
+  },
+
+  "rich-text#footer-vendita-content": {
+    "props": {
+      "text": "customerservice@ido.it - 0575 533444<br>Dal lunedì al venerdì dalle 8:30<br>alle 11:00 e dalle 13:00 alle 15:00",
+      "blockClass": "footer-consegna-spedizione-reso-pagamenti-content"
+    }
+  },
+  "flex-layout.col#level8-content-negozi": {
+    "props": {
+      "blockClass": "content-vendita-negozi-impresa"
+    },
+    "children": ["rich-text#footer-negozi-content"]
+  },
+
+  "rich-text#footer-negozi-content": {
+    "props": {
+      "text": "assistenzaclienti@miniconf.it<br>0575 533248<br>Dal lunedì al venerdì dalle 8:30 alle 18:00",
+      "blockClass": "footer-consegna-spedizione-reso-pagamenti-content"
+    }
+  },
+  "flex-layout.col#level8-content-impresa": {
+    "props": {
+      "blockClass": "content-vendita-negozi-impresa"
+    },
+    "children": ["rich-text#footer-impresa-content"]
+  },
+
+  "rich-text#footer-impresa-content": {
+    "props": {
+      "text": "info@ido.it - 0575 5331<br>Dal lunedì al venerdì dalle 8:30<br>alle 18:00",
+      "blockClass": "footer-consegna-spedizione-reso-pagamenti-content"
+    }
+  },
+  "flex-layout.col#level8-content-spacer": {
+    "props": {
+      "blockClass": "content-consegna-spedizione-reso-pagamenti"
+    },
+    "children": ["rich-text#footer-spacer-content"]
+  },
+
+  "rich-text#footer-spacer-content": {
+    "props": {
+      "text": "",
+      "blockClass": "footer-consegna-spedizione-reso-pagamenti-content"
+    }
+  },
+
+/* level 9 azienda-servizio-termini-store-partener" */
+
+
+  "flex-layout.row#level9-azienda-servizio-termini-store-partener": {
+    "children": [
+    "flex-layout.col#level9-azienda-servizio-termini-store-partener"
+    ],
+    "props": {
+      "blockClass": "menu-row"
+    }
+  },
+
+  "flex-layout.col#level9-azienda-servizio-termini-store-partener": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-Azienda",
+      "vtex.menu@2.x:menu#footer-ServizioClienti",
+      "vtex.menu@2.x:menu#footer-TerminiCondizioni",
+      "vtex.menu@2.x:menu#footer-StoreLocator",
+      "vtex.menu@2.x:menu#footer-PartenerLab"
+    ],
+    "props": {
+      "blockClass": "menu-row"
+    }
+  },
+
+
+/*footer azienda*/
+
+  "vtex.menu@2.x:menu#footer-Azienda": {
+    "props": {
+      "blockClass": "menu-row-azienda-footer",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#azienda",
+      "menu-item#Siamo",
+      "menu-item#nostroimpegno",
+      "menu-item#franchising",
+      "menu-item#vendita",
+      "menu-item#lavora"
+    ]
+  },
+  "menu-item#azienda": {
+    "props": {
+      "id": "menu-item-azienda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Azienda",
+        "text": "AZIENDA"
+      }
+    }
+  },
+  "menu-item#Siamo": {
+    "props": {
+      "id": "menu-item-siamo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/azienda?activeTab=tab-wrapper*siamo",
+        "noFollow": false,
+        "tagTitle": "Chi Siamo",
+        "text": "Chi Siamo"
+      }
+    }
+  },
+  "menu-item#nostroimpegno": {
+    "props": {
+      "id": "menu-item-nostroimpegno",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/azienda?activeTab=tab-wrapper*impegno",
+        "noFollow": false,
+        "tagTitle": "Il nostro impegno",
+        "text": "Il nostro impegno"
+      }
+    }
+  },
+  "menu-item#franchising": {
+    "props": {
+      "id": "menu-item-franchising",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/azienda?activeTab=tab-wrapper*aprireFranchising",
+        "noFollow": false,
+        "tagTitle": "Vuoi aprire un franchising iDO?",
+        "text": "Vuoi aprire un franchising iDO?"
+      }
+    }
+  },
+  "menu-item#vendita": {
+    "props": {
+      "id": "menu-item-vendita",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/azienda?activeTab=tab-wrapper*reteVendita",
+        "noFollow": false,
+        "tagTitle": "Rete vendita iDO",
+        "text": "Rete vendita iDO"
+      }
+    }
+  },
+
+  "menu-item#lavora": {
+    "props": {
+      "id": "menu-item-lavora",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/azienda?activeTab=tab-wrapper*lavoraConNoi",
+        "noFollow": false,
+        "tagTitle": "Lavora con noi",
+        "text": "Lavora con noi"
+      }
+    }
+  },
+
+/* servizio clienti footer*/
+
+  "vtex.menu@2.x:menu#footer-ServizioClienti": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#servizio",
+      "menu-item#guida",
+      "menu-item#tempi",
+      "menu-item#resi",
+      "menu-item#order",
+      "menu-item#contattaci",
+      "menu-item#iscritivi"
+    ]
+  },
+
+  "menu-item#servizio": {
+    "props": {
+      "id": "menu-item-category-servizio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "SERVIZIO CLIENTI ",
+        "text": "SERVIZIO CLIENTI "
+      }
+    }
+  },
+
+  "menu-item#guida": {
+    "props": {
+      "id": "menu-item-guida",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/guida-alle-taglie?__bindingAddress=www.ido.it/it",
+        "noFollow": false,
+        "tagTitle": "Guida alle taglie",
+        "text": "Guida alle taglie"
+      }
+    }
+  },
+
+  "menu-item#tempi": {
+    "props": {
+      "id": "menu-item-tempi",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tempi-di-consegna?__bindingAddress=www.ido.it/it",
+        "noFollow": false,
+        "tagTitle": "Tempi di consegna",
+        "text": "Tempi di consegna"
+      }
+    }
+  },
+
+  "menu-item#resi": {
+    "props": {
+      "id": "menu-item-resi",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/reso-e-cambi?__bindingAddress=www.ido.it/it",
+        "noFollow": false,
+        "tagTitle": "Resi e cambi",
+        "text": "Resi e cambi"
+      }
+    }
+  },
+
+  "menu-item#order": {
+    "props": {
+      "id": "menu-item-order",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/order-processing?__bindingAddress=www.ido.it/it",
+        "noFollow": false,
+        "tagTitle": "Order processing",
+        "text": "Order processing"
+      }
+    }
+  },
+
+  "menu-item#contattaci": {
+    "props": {
+      "id": "menu-item-contattaci",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contattaci?__bindingAddress=www.ido.it/it",
+        "noFollow": false,
+        "tagTitle": "Contattaci",
+        "text": "Contattaci"
+      }
+    }
+  },
+  "menu-item#iscritivi": {
+    "props": {
+      "id": "menu-item-iscriviti",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/iscriviti-alla-newsletter?__bindingAddress=www.ido.it/it",
+        "noFollow": false,
+        "tagTitle": "Iscriviti Alla Newsletter",
+        "text": "Iscriviti Alla Newsletter"
+      }
+    }
+  },
+
+/*termini condizionii */
+
+  "vtex.menu@2.x:menu#footer-TerminiCondizioni": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#termini",
+      "menu-item#conditione",
+      "menu-item#regolamento",
+      "menu-item#diritto",
+      "menu-item#privacy",
+      "menu-item#trattamento",
+      "menu-item#cookie"
+    ]
+  },
+
+  "menu-item#termini": {
+    "props": {
+      "id": "menu-item-termini",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bags/d",
+        "noFollow": true,
+        "tagTitle": "TERMINI E CONDIZIONI ",
+        "text": "TERMINI E CONDIZIONI "
+      }
+    }
+  },
+
+  "menu-item#conditione": {
+    "props": {
+      "id": "menu-item-conditione",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/condizioni-generali-di-vendita?__bindingAddress=www.ido.it/it",
+        "noFollow": true,
+        "tagTitle": "Condizioni di vendita",
+        "text": "Condizioni di vendita"
+      }
+    }
+  },
+
+  "menu-item#regolamento": {
+    "props": {
+      "id": "menu-item-regolamento",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/regolamento?__bindingAddress=www.ido.it/it",
+        "noFollow": true,
+        "tagTitle": "Regolamento",
+        "text": "Regolamento"
+      }
+    }
+  },
+  "menu-item#diritto": {
+    "props": {
+      "id": "menu-item-diritto",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/diritto-di-recesso?__bindingAddress=www.ido.it/it",
+        "noFollow": true,
+        "tagTitle": "Diritto di reso",
+        "text": "Diritto di reso"
+      }
+    }
+  },
+  "menu-item#privacy": {
+    "props": {
+      "id": "menu-item-privacy",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/privacy-and-policy?__bindingAddress=www.ido.it/it",
+        "noFollow": true,
+        "tagTitle": "Privacy Policy",
+        "text": "Privacy Policy"
+      }
+    }
+  },
+  "menu-item#trattamento": {
+    "props": {
+      "id": "menu-item-trattamento",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/trattamento-dati?__bindingAddress=www.ido.it/it",
+        "noFollow": true,
+        "tagTitle": "Trattamento Dati",
+        "text": "Trattamento Dati"
+      }
+    }
+  },
+  "menu-item#cookie": {
+    "props": {
+      "id": "menu-item-cookie",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cookie-policy?__bindingAddress=www.ido.it/it",
+        "noFollow": true,
+        "tagTitle": "Cookie Policy",
+        "text": "Cookie Policy"
+      }
+    }
+  },
+
+/* store locator*/
+
+ "vtex.menu@2.x:menu#footer-StoreLocator": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#myido",
+      "menu-item#scopri"
+    ]
+  },
+
+  "menu-item#myido": {
+    "props": {
+      "id": "menu-item-myido",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account/#/profile",
+        "noFollow": true,
+        "tagTitle": "STORE LOCATOR",
+        "text": "STORE LOCATOR"
+      }
+    }
+  },
+
+
+  "menu-item#scopri": {
+    "props": {
+      "id": "menu-item-scopri",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/our-stores",
+        "noFollow": true,
+        "tagTitle": "Scopri i negozi iDO",
+        "text": "Scopri i negozi iDO"
+      }
+    }
+  },
+
+/*partener lab*/
+
+ "vtex.menu@2.x:menu#footer-PartenerLab": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#partenerlab"
+    ]
+  },
+
+  "menu-item#partenerlab": {
+    "props": {
+      "id": "menu-item-myido",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://partnerlab.miniconf.app/partnerlab/client/index.html",
+        "noFollow": true,
+        "tagTitle": "PARTENER LAB",
+        "text": "PARTENER LAB"
+      }
+    }
+  },
+
+/* level 10 credits*/
+
+  "flex-layout.row#level10-credits": {
+    "children": ["rich-text#footer"],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "iDO è un marchio Miniconf Spa\nSede Legale: Via Provinciale 1/A, 52010 Ortignano Raggiolo, Arezzo | Tel. +39.0575.5331 | miniconf @pec.miniconf.it\nP.IVA e CF 00249390519 | REA AR 64978 | Cap. Soc. € 3.000.000 | Soggetta all’attività di direzione e coordinamento di MINFIN s.r.l.",
+      "blockClass": "footerRich"
+    }
+  }
+
+}
+
+
+
+

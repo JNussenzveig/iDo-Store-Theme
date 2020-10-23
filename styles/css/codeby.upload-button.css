@@ -1,0 +1,22 @@
+.uploadButtonWrapper {
+  position: relative;
+  width: 335px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+}
+
+.uploadLabel {
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+

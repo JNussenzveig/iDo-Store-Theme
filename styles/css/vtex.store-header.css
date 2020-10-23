@@ -19,8 +19,8 @@
 
 /* main header desktop has a bigger padding when not stuck */
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: unset;
+  padding-bottom: unset;
 }
 
 /* add a box-shadow to desktop/mobile header when stuck */
@@ -94,7 +94,6 @@
 }
 
 :global(.vtex-locale-switcher-0-x-button) {
-  width: 69px;
   height: 19px;
   color: #001930;
   font-family: "MuseoJHSans500";
@@ -124,6 +123,7 @@
   font-family: "MuseoJHSans900";
   font-size: 14px;
   line-height: 19px;
+  justify-content: unset;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--ido-logo-class-desktop-login) {
@@ -344,8 +344,6 @@
   padding-left: 30px;
 }
 
-:global(.vtex-menu-2-x-menuItem--ido-logo-class-desktop) {
-  margin-right: 40px;
-}
+
 
 

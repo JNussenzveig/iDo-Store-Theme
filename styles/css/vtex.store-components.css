@@ -42,8 +42,8 @@
   max-width: 208px;
 }
 
-.infoCardContainer--info-card-domentica {
-  max-width: 1520px;
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-domentica) {
+  max-width: 1250px;
   margin: 0 auto;
   background-color: #e6f1e6;
   height: 500px!important;
@@ -57,19 +57,17 @@
   width: 750px!important;
 }
 
-.infoCardContainer--info-card-domentica-homepage {
-  max-width: 1520px;
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-domentica-homepage) {
+  max-width: 1250px;
   margin: 0 auto;
   background-color: #e6f1e6;
   height: 500px!important;
   padding: 0px;
   margin-bottom: 50px;
+  margin-top: 120px;
 }
 
-.infoCardContainer--info-card-domentica-homepage {
-  margin-top: 120px;
-  max-width: 1500px;
-}
+
 
 
 .infoCardContainer--info-card-domentica-homepage :global(.vtex-button) {
@@ -1482,4 +1480,239 @@
 
 .searchBarIcon--search {
   display: none;
+}
+/*
+Store locator desktop version final*/
+@media screen and (min-width: 1024px) {
+
+  :global(.vtex-store-components-3-x-infoCardContainer--store-locator-desktop) {
+    max-width: 1250px;
+    margin: 0 auto;
+    background-color: #001930;
+    height: 139px !important;
+    padding: 0px;
+    margin-bottom: 50px;
+    position: relative;
+  }
+
+  .infoCardContainer--store-locator-desktop :global(.vtex-button) {
+    border-color: white;
+    width: auto;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    color: black;
+    transition: .3s;
+  }
+
+  .infoCardContainer--store-locator-desktop :global(.vtex-button__label) {
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "MuseoJHSans900";
+  }
+
+  .infoCardTextContainer--store-locator-desktop {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .infoCardHeadline--store-locator-desktop {
+    height: 138px;
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 35px;
+    margin-top: 0 !important;
+    display: flex;
+    align-items: center;
+  }
+
+  .infoCardCallActionContainer--store-locator-desktop {
+    height: 138px;
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 35px;
+    margin-top: 0 !important;
+    display: flex;
+    align-items: center;
+  }
+
+  :global(.vtex-store-components-3-x-infoCardContainer--newsletter-desktop) {
+    max-width: 1250px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 139px !important;
+    padding: 0px;
+    margin-bottom: 50px;
+    position: relative;
+  }
+
+  .infoCardContainer--newsletter-desktop :global(.vtex-button) {
+    border-color: white;
+    width: auto;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #001930;
+    color: black;
+    transition: .3s;
+    text-decoration: inherit;
+  }
+
+  .infoCardContainer--newsletter-desktop :global(.vtex-button__label) {
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "MuseoJHSans300";
+  }
+
+  .infoCardTextContainer--newsletter-desktop {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .infoCardHeadline--newsletter-desktop {
+    height: 138px;
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 35px;
+    margin-top: 0 !important;
+    display: flex;
+    align-items: center;
+  }
+
+  .infoCardCallActionContainer--newsletter-desktop {
+    height: 138px;
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 35px;
+    margin-top: 0 !important;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+
+  .infoCardContainer--store-locator-desktop {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #001930;
+    height: 164px !important;
+    padding: 0px;
+    margin-bottom: 50px;
+    position: relative;
+  }
+
+  .infoCardHeadline--store-locator-desktop {
+    width: 248px;
+    height: 57px;
+    color: #ffffff;
+    font-family: "MuseoJHSans900";
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 29px;
+    text-align: left;
+  }
+
+  .infoCardContainer--store-locator-desktop :global(.vtex-button) {
+    border-color: white;
+    width: auto;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    color: black;
+    transition: .3s;
+  }
+
+  .infoCardContainer--store-locator-desktop :global(.vtex-button__label) {
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "MuseoJHSans900";
+  }
+
+  .infoCardContainer--newsletter-desktop {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 164px !important;
+    padding: 0px;
+    margin-bottom: 50px;
+    position: relative;
+  }
+
+  .infoCardHeadline--newsletter-desktop {
+    width: 248px;
+    height: 57px;
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 25px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 29px;
+    text-align: left;
+  }
+
+  .infoCardContainer--newsletter-desktop :global(.vtex-button) {
+    border-color: white;
+    width: auto;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #001930;
+    color: black;
+    transition: .3s;
+  }
+
+  .infoCardContainer--newsletter-desktop :global(.vtex-button__label) {
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "MuseoJHSans300";
+  }
+}
+/*
+store locator mobile version final */
+
+.productImagesGallerySlide--productImageDesktop {
+  width: 730px;
+}
+
+:global(.vtex-store-components-3-x-sizeDesktop) {
+  padding: unset;
+}
+
+:global(.vtex-store-components-3-x-logoLink) {
+  margin-left: 100px;
+}
+
+
+
+:global(.vtex-menu-2-x-menuContainerNav) {
+  margin-right: 100px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--menu-social-networks-header) {
+  margin-right: 60px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--menu-social-networks-header) {
+  margin-top: 7px;
+}
+
+:global(.vtex-store-components-3-x-logoImage) {
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
