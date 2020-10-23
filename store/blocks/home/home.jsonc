@@ -19,7 +19,8 @@
         "info-card#colours",
         "info-card#store-locator",
         "info-card#teddy",
-        "flex-layout.row#newsletterBanner"
+        "flex-layout.row#newsletterBanner",
+        "info-card#newsletter"
       ]
     },
 
@@ -35,7 +36,9 @@
         "rich-text#shelf-title-armocromiaMobile",
         "info-card#coloursMobile",
         "info-card#store-locator",
-        "info-card#teddyMobile"
+        "info-card#teddyMobile",
+        "info-card#teddyMobile",
+        "info-card#newsletter"
       ]
     },
       "slider-layout#andrei-images": {
@@ -595,7 +598,20 @@
         "placeholder": "Inserisci la tua email",
         "hideLabel": false
       }
+    },
+
+  "info-card#newsletter": {
+    "props": {
+      "id": "info-car",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "headline": "Iscriviti alla newsletter",
+      "callToActionText": "Iscriviti",
+      "callToActionUrl": "/iscriviti-alla-newsletter",
+      "blockClass": "newsletter-desktop",
+      "textAlignment": "center"
     }
+<<<<<<< HEAD
 /*  "info-card#newsletter": {
     "props": {
       "id": "info-car",

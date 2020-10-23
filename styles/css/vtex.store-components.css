@@ -1485,8 +1485,13 @@
 Store locator desktop version final*/
 @media screen and (min-width: 1024px) {
 
+<<<<<<< HEAD
   :global(.vtex-store-components-3-x-infoCardContainer--store-locator-desktop) {
     max-width: 1250px;
+=======
+  .infoCardContainer--store-locator-desktop {
+    max-width: 1520px;
+>>>>>>> 37077bdc304f45e261866258d959e07ff4700cc1
     margin: 0 auto;
     background-color: #001930;
     height: 139px !important;
@@ -1542,8 +1547,13 @@ Store locator desktop version final*/
     align-items: center;
   }
 
+<<<<<<< HEAD
   :global(.vtex-store-components-3-x-infoCardContainer--newsletter-desktop) {
     max-width: 1250px;
+=======
+  .infoCardContainer--newsletter-desktop {
+    max-width: 1520px;
+>>>>>>> 37077bdc304f45e261866258d959e07ff4700cc1
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.1);
     height: 139px !important;
@@ -1689,6 +1699,7 @@ store locator mobile version final */
 .productImagesGallerySlide--productImageDesktop {
   width: 730px;
 }
+<<<<<<< HEAD
 
 :global(.vtex-store-components-3-x-sizeDesktop) {
   padding: unset;
@@ -1716,3 +1727,5 @@ store locator mobile version final */
   margin-top: 12px;
   margin-bottom: 12px;
 }
+=======
+>>>>>>> 37077bdc304f45e261866258d959e07ff4700cc1

@@ -35,8 +35,12 @@
 }
 
 .flexRowContent--menu-link {
+<<<<<<< HEAD
 /*  background-color: #DCDCDC!important;*/
   background-color: white;
+=======
+  background-color: #DCDCDC!important;
+>>>>>>> 37077bdc304f45e261866258d959e07ff4700cc1
   color: #00263a;
   height: 50px;
 }
@@ -1278,6 +1282,7 @@
     width: 100%!important;
   }*/
 }
+<<<<<<< HEAD
 
 /*menu header menu item NAV */
 
@@ -1559,3 +1564,5 @@
 :global(.vtex-menu-2-x-menuContainerNav--menu-row-azienda-footer) {
   margin-left: 0px;
 }
+=======
+>>>>>>> 37077bdc304f45e261866258d959e07ff4700cc1
