@@ -99,19 +99,12 @@
 }
 
 .footerLayout :global(.vtex-flex-layout-0-x-flexRowContent--menu-bisogno) {
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
-  color: red;
+  height: 1px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .footerLayout :global(.vtex-rich-text-0-x-container--footerRich) {
-  color: #ffffff !important;
-  font-family: "Avenir Book";
-  font-size: 12px;
-  font-weight: 300;
-  letter-spacing: -0.46px;
-  line-height: 17px;
-  margin-left: 22px;
+  margin-left: unset;
 }
 
 /*Mobile version styling begins here*/
@@ -120,9 +113,6 @@
   background-color: white;
 }
 
-:global(.vtex-flex-layout-0-x-flexCol--footerWhite) {
-  margin-left: 20px;
-}
 
 :global(.vtex-flex-layout-0-x-flexRow--row-1-mobile) {
   background-color: white;
@@ -153,10 +143,17 @@
 
 
 :global(.vtex-menu-2-x-styledLinkContent--bisogno-text-mobile) {
-  font-weight: bold;
-  font-family: "MuseoJHSans900";
-  font-size: 25px;
   color: #001930;
+  font-family: "MuseoJHSans700";
+  font-size: 25px;
+  font-style: normal;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--bisogno-text) {
+  color: #001930;
+  font-family: "MuseoJHSans700";
+  font-size: 25px;
+  font-style: normal;
 }
 
 
@@ -239,3 +236,29 @@
   display: none;
 }
 
+
+:global(.vtex-menu-2-x-styledLinkContainer--textBold) {
+  margin-left: unset;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--textSimpleLast) {
+  margin-left: unset;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--textSimple) {
+  margin-left: unset;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--textBoldSimple) {
+  margin-left: unset;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer) {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-text) {
+  padding-top: unset;
+  margin-top: 30px;
+}

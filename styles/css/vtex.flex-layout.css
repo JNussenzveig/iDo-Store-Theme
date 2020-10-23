@@ -35,8 +35,7 @@
 }
 
 .flexRowContent--menu-link {
-  background-color: #00263a!important;
-  opacity: 0.05;
+  background-color: white;
   color: #00263a;
   height: 50px;
 }
@@ -57,7 +56,6 @@
   height: 19px;
   color: #001930;
   font-family: "MuseoJHSans500";
-  font-size: 14px;
   line-height: 19px;
 }
 
@@ -219,8 +217,14 @@
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
-  color: #727273;
+  color: #001930;
+  font-family: "MuseoJHSans500";
   font-size: 14px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
 }
 .flexRow--deals {
   background-color: white;
@@ -1373,4 +1377,285 @@
     position: relative;
   }
 
+}
+
+/*menu header menu item NAV */
+
+
+
+:global(.vtex-minicart-2-x-openIconContainer) {
+  padding: unset;
+}
+
+:global(.vtex-menu-2-x-styledLinkIcon--cart-icon-ido) {
+  margin-left: unset;
+  margin-right: unset;
+}
+
+:global(.vtex-shelf-1-x-sliderContainer--shelf-radu) {
+  max-width: 1250px;
+}
+
+:global(.vtex-shelf-1-x-arrowLeft--shelf-radu) {
+  display: none;
+}
+
+:global(.vtex-shelf-1-x-arrowRight--shelf-radu) {
+  display: none;
+}
+
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  justify-content: space-between;
+}
+
+
+
+
+:global(.vtex-flex-layout-0-x-flexRow--flex-row-azienda) {
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
+}
+
+:global(.vtex-search-result-3-x-searchResultContainer) {
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+:global(.vtex-account) {
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--vuoilavorare) {
+  height: 141px;
+  background-color: #001930;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--newsletter) {
+  height: 141px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) {
+  max-width: 1250px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--newsletter) {
+  max-width: 1250px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--menu-social-networks-header) {
+  flex-direction: row;
+  margin-left: 100px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--nav-menu-header) {
+  height: 46px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--header-top-menu) {
+  flex-direction: row;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer) {
+  width: unset;
+}
+
+:global(.vtex-menu-2-x-styledLinkIcon--search-logo-class) {
+  position: relative;
+  top: 14px;
+}
+
+:global(.vtex-menu-2-x-styledLinkIcon--heart-logo-class) {
+  position: relative;
+  top: 14px;
+}
+
+:global(.vtex-menu-2-x-styledLinkIcon--location-logo-class) {
+  position: relative;
+  top: 14px;
+}
+
+:global(.vtex-menu-2-x-menuItem--ido-logo-class-desktop-notLogin) {
+  position: relative;
+  margin-top: 14px;
+}
+
+:global(.vtex-menu-2-x-menuItem--ido-logo-class-desktop-login) {
+  position: relative;
+  margin-top: 14px;
+}
+
+:global(.vtex-menu-2-x-styledLinkIcon--ido-logo-class-desktop-notLogin) {
+  margin-right: 34px;
+}
+
+:global(.vtex-menu-2-x-styledLinkIcon--ido-logo-class-desktop-login) {
+  margin-right: 34px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--header-top-menu) {
+  margin-right: 100px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--vuoilavorare) {
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--category-menu-header) {
+  flex-direction: row;
+  align-items: center;
+  margin-right: 100px;
+}
+
+:global(.vtex-store-components-3-x-imageElementLink) {
+  max-width: unset;
+  max-height: unset;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--level1-Seguici-sui-nostri-social) {
+  height: 168px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-social-networks-footer) {
+  position: relative;
+  top: 63px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--footer-social-networks-footer) {
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--footer-social-networks-footer) {
+  margin-left: 40px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-level2-Hai-bisogno-di-aiuto) {
+  height: 57px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--bisogno-text) {
+  margin: unset!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--level3-consegna-spedizione-reso-pagamenti) {
+  margin-top: 28px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--footer-consegna) {
+  margin-bottom: 23px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--footer-spedizione) {
+  margin-bottom: 23px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--footer-reso) {
+  margin-bottom: 23px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--footer-pagamenti) {
+  margin-bottom: 23px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--image-consegna-spedizione-reso-pagamenti) {
+  flex-direction: row;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--title-consegna-spedizione-reso-pagamenti) {
+  flex-direction: row;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--content-consegna-spedizione-reso-pagamenti) {
+  flex-direction: row;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--image-consegna-spedizione-reso-pagamenti) {
+  margin-top: 28px;
+  margin-bottom: 23px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-consegna-spedizione-reso-pagamenti-title) {
+  margin-bottom: unset;
+  margin-top: unset;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-consegna-spedizione-reso-pagamenti-content) {
+  margin-top: unset;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--menu-level6-contatti) {
+  height: 57px;
+}
+
+:global(.vtex-rich-text-0-x-container--footer-contatti) {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--content-vendita-negozi-impresa) {
+  margin-bottom: 46px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--title-vendita-negozi-impresa) {
+  margin-top: 33px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-level6-contatti) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 57px;
+}
+
+:global(.vtex-rich-text-0-x-container--footer-contatti) {
+  align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--content-consegna-spedizione-reso-pagamenti) {
+  margin-bottom: 20px;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav) {
+  margin-top: 45px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) {
+  margin-top: 25px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--invia-candidatura-Button) {
+  justify-content: center;
+  margin-top: 30px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--menu-row) {
+  flex-direction: row;
+}
+
+.flexColChild--menu-row :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin-left: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--menu-row) {
+  justify-content: space-between;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav--menu-row-azienda-footer) {
+  margin-left: 0px;
 }

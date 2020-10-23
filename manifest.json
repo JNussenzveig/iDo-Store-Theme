@@ -66,7 +66,8 @@
     "codeby.custom-state-handles": "0.x",
     "codeby.menu-tabs": "0.x",
     "acupula.kitlook": "0.x",
-    "vtex.wish-list": "1.x"
+    "vtex.wish-list": "1.x",
+    "codeby.upload-button": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

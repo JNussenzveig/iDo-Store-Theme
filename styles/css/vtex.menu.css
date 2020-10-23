@@ -6,9 +6,7 @@
   margin-bottom: 50px;
 }
 
-.footerLayout :global(.vtex-flex-layout-0-x-flexRow--menu-row) {
-  color: #ffffff!important;
-}
+
 
 :global(.vtex-flex-layout-0-x-flexRow--main-header) .menuContainer {
   align-items: center;
@@ -22,8 +20,13 @@
 /*footer text styling */
 
 :global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRow--menu-row) .styledLinkContent {
-  color: white !important;
+  color: white;
   font-family: "MuseoJHSans300";
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 15px;
+  text-align: left;
 }
 
 
@@ -134,4 +137,10 @@
 }
 .menuItem--cart-icon-ido {
   margin-bottom: 0!important;
+}
+
+
+:global(.vtex-menu-2-x-styledLinkContainer--ido-logo-class-desktop-notLogin) {
+  margin-left: unset;
+  margin-right: unset;
 }
