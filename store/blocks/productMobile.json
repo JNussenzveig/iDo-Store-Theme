@@ -38,7 +38,8 @@
   "sku-selector#mobile": {
     "props": {
       "blockClass": "selector-mobile",
-      "thumbnailImage": "color"
+      "thumbnailImage": "color",
+      "maxItems": 99
     }
   },
 

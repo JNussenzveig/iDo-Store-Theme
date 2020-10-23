@@ -35,7 +35,8 @@
 }
 
 .flexRowContent--menu-link {
-  background-color: #DCDCDC!important;
+  background-color: #00263a!important;
+  opacity: 0.05;
   color: #00263a;
   height: 50px;
 }
@@ -1263,12 +1264,113 @@
 }
 
 @media screen and (min-width: 1024px) {
-/*
-  .flexRowContent--product-main-container-ido {
-    display: flex;
-    flex-direction: column;
+  .flexRowContent--product-image-secondary-container .stretchChildrenWidth {
+    justify-content: start;
   }
-  .flexRowContent--product-main-container-ido .stretchChildrenWidth {
-    width: 100%!important;
-  }*/
+
+}
+
+@media screen and (min-width: 1400px) {
+
+  .flexColChild--stack-product-ido :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+    position: absolute;
+    top: 10px;
+    right: 170px;
+    z-index: 2;
+  }
+
+  .flexCol--stack-product-ido {
+    position: relative;
+  }
+
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 1200px)  {
+
+  .flexColChild--stack-product-ido :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+    position: absolute;
+    top: 10px;
+    right: 150px;
+    z-index: 2;
+  }
+
+  .flexCol--stack-product-ido {
+    position: relative;
+  }
+
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 1000px)  {
+
+  .flexColChild--stack-product-ido :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+    position: absolute;
+    top: 10px;
+    right: 75px;
+    z-index: 2;
+  }
+
+  .flexCol--stack-product-ido {
+    position: relative;
+  }
+
+}
+
+@media only screen and (max-width: 999px) and (min-width: 850px)  {
+
+  .flexColChild--stack-product-ido :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+    position: absolute;
+    top: 10px;
+    right: 75px;
+    z-index: 2;
+  }
+
+  .flexCol--stack-product-ido {
+    position: relative;
+  }
+
+}
+
+@media only screen and (max-width: 849px) and (min-width: 751px)  {
+
+  .flexColChild--stack-product-ido :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+    position: absolute;
+    top: 10px;
+    right: 75px;
+    z-index: 2;
+  }
+
+  .flexCol--stack-product-ido {
+    position: relative;
+  }
+
+}
+
+@media only screen and (max-width: 750px) and (min-width: 640px)  {
+
+  .flexColChild--stack-product-ido :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+    position: absolute;
+    top: 10px;
+    right: 75px;
+    z-index: 2;
+  }
+
+  .flexCol--stack-product-ido {
+    position: relative;
+  }
+
+}
+
+@media only screen and (max-width: 639px)  {
+
+  .flexColChild--stack-product-ido :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+  }
+
+  .flexCol--stack-product-ido {
+    position: relative;
+  }
+
 }

@@ -184,18 +184,27 @@
     ]
   },
   "IsLogged#custom": {
+    "props": {
+      "blockClass": "login-container"
+    },
     "blocks": [
       "IsLogged.logged#logged-content",
       "IsLogged.not-logged#not-logged-content"
     ]
   },
   "IsLogged.logged#logged-content": {
+    "props": {
+      "blockClass": "login-container-logged"
+    },
     "children": [
       "menu-item#vtex-myIdoGreen",
       "login#custom-login"
     ]
   },
   "IsLogged.not-logged#not-logged-content": {
+    "props": {
+      "blockClass": "login-container-not-logged"
+    },
     "children": [
       "menu-item#vtex-myIdoGrey",
       "modal-trigger#modal-login-button"

@@ -149,7 +149,8 @@
     "children": ["stack-layout", "add-to-list-btn"],
     "props": {
       "rowGap": 0,
-      "width": "60%"
+      "width": "60%",
+      "blockClass": "stack-product-ido"
     }
   },
   "flex-layout.row#product-image": {
@@ -157,6 +158,9 @@
   },
 
   "flex-layout.row#product-imageSecondary": {
+    "props": {
+      "blockClass": "product-image-secondary-container"
+    },
     "children": ["product-images#desktopVersionSecondary"]
   },
   "product-images#desktopVersion": {
@@ -165,7 +169,8 @@
       "displayThumbnailsArrows": false,
       "showNavigationArrows": false,
       "thumbnailsOrientation": "horizontal",
-      "thumbnailAspectRatio": "1:1"
+      "thumbnailAspectRatio": "1:1",
+      "hiddenImages" : "color"
     }
   },
 
@@ -209,8 +214,7 @@
       "blockClass": "product-name-price-section-top"
     },
     "children": [
-      "vtex.store-components:product-name",
-      "product-price#product-details"
+      "vtex.store-components:product-name"
     ]
   },
 
@@ -218,7 +222,8 @@
     "props": {
       "blockClass": "colors-selector",
       "thumbnailImage": "color",
-      "showVariationsLabels": true
+      "showVariationsLabels": true,
+      "maxItems": 99
     }
 },
 

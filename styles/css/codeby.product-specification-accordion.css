@@ -51,4 +51,10 @@
   width: 100%;
 }
 
+.product-specification-accordion-1-x-itemContentActive :global(.vtex-washing-subcontainer) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 

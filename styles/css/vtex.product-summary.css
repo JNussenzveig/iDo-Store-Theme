@@ -109,3 +109,10 @@
   width: 370px;
 }
 */
+
+.containerNormal--shelf-radu2  :global(.vtex-wish-list-1-x-wishlistIconContainer){
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  z-index: 2;
+}

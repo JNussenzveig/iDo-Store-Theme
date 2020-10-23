@@ -1,1 +1,7 @@
+.slide--showMobile :global(.vtex-wish-list-1-x-wishlistIconContainer){
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  z-index: 2;
+}
 

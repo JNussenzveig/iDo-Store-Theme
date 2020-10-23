@@ -125,7 +125,8 @@
     width: 0%;
   }
 
-  :global(.vtex-button) {
+
+  .stackItem--firstStackWithImage :global(.vtex-button) {
     background-color: white;
     border-color: white;
     width: 150px;
@@ -139,7 +140,28 @@
     transition: .3s;
   }
 
-  :global(.vtex-button) :hover {
+  .stackItem--firstStackWithImage :global(.vtex-button) :hover {
+    background-color: #001930;
+    border-color: #001930;
+    color: white;
+    border-radius: 50px;
+  }
+
+  .stackItem--secondLayerMobile :global(.vtex-button) {
+    background-color: white;
+    border-color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    color: #002c50;
+    font-family: "MuseoJHSans900";
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: .3s;
+  }
+
+  .stackItem--secondLayerMobile :global(.vtex-button) :hover {
     background-color: #001930;
     border-color: #001930;
     color: white;
