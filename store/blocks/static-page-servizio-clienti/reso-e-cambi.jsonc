@@ -9,56 +9,53 @@
 
   "responsive-layout.desktop#reso-e-cambi": {
     "children": [
-      "flex-layout.row#reso-e-cambi",
-      "flex-layout.row#newsletter"
+      "flex-layout.row#reso-e-cambi"
     ]
   },
 
   "responsive-layout.mobile#reso-e-cambi": {
     "children": [
-      "flex-layout.row#reso-e-cambi-mobile",
-      "newsletter#banner-mobile"
+      "flex-layout.row#reso-e-cambi-mobile"
     ]
   },
 
-
-   "flex-layout.row#reso-e-cambi": {
+  "flex-layout.row#reso-e-cambi": {
        "children": [
-         "tabs-container#reso-e-cambi"
+         "flex-layout.col#reso-e-cambi-menu",
+         "flex-layout.col#reso-e-cambi-content"
        ],
        "props": {
-       "blockClass": "flex-row-reso-e-cambi"
+       "blockClass": "flex-row-all-static-pages"
        }
    },
 
-  "tabs-container#reso-e-cambi": {
+   "flex-layout.col#reso-e-cambi-menu": {
+       "children": [
+         "rich-text#reso-e-cambi-category",
+         "rich-text#reso-e-cambi-title"
+       ],
+       "props": {
+       "blockClass": "flex-col-all-static-pages",
+       "width": "20%"
+       }
+   },
+
+  "rich-text#reso-e-cambi-category": {
     "props": {
-      "orientation": "horizontal",
-      "menuTitle": "Servizio clienti",
-      "tabs": [
-        {
-          "title": "Reso e cambi",
-          "id": "tab-wrapper#reso-e-cambi"
-        }
-      ]
-    },
-    "children": [
-      "tab-wrapper#reso-e-cambi"
-    ]
+      "text": "Servizio clienti",
+      "blockClass": "static-pages-category-title"
+    }
+  },
+  "rich-text#reso-e-cambi-title": {
+    "props": {
+      "text": "Reso e cambi",
+      "blockClass": "static-pages-category-subtitle"
+    }
   },
 
-  "tab-wrapper#reso-e-cambi": {
-    "props": {
-      "title": "Test 2"
-    },
-    "children": [
-      "flex-layout.col#reso-e-cambi"
-    ]
-  },
-
-    "flex-layout.col#reso-e-cambi": {
+    "flex-layout.col#reso-e-cambi-content": {
       "children": [
-        "rich-text#reso-e-cambi-title",
+        "rich-text#reso-e-cambi-content-title",
         "rich-text#reso-e-cambi"
       ],
       "props": {
@@ -67,7 +64,7 @@
       }
     },
 
-    "rich-text#reso-e-cambi-title": {
+    "rich-text#reso-e-cambi-content-title": {
         "props": {
           "blockClass": "reso-e-cambi-title",
           "text":

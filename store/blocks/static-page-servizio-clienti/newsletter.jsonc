@@ -19,45 +19,41 @@
     },
 
 
-
-
-   "flex-layout.row#newsletter-form": {
+  "flex-layout.row#newsletter-form": {
        "children": [
-         "tabs-container#newsletter-form"
+         "flex-layout.col#newsletter-form-menu",
+         "flex-layout.col#newsletter-form-content"
        ],
        "props": {
-       "blockClass": "newsletter-form"
+       "blockClass": "flex-row-all-static-pages"
        }
    },
 
-  "tabs-container#newsletter-form": {
+   "flex-layout.col#newsletter-form-menu": {
+       "children": [
+         "rich-text#newsletter-form-category",
+         "rich-text#newsletter-form-title"
+       ],
+       "props": {
+       "blockClass": "flex-col-all-static-pages",
+       "width": "20%"
+       }
+   },
+
+  "rich-text#newsletter-form-category": {
     "props": {
-      "orientation": "horizontal",
-      "menuTitle": "Servizio clienti",
-      "tabs": [
-        {
-          "title": "Newsletter",
-          "id": "tab-wrapper#newsletter-form"
-        }
-      ]
-    },
-    "children": [
-      "tab-wrapper#newsletter-form"
-    ]
+      "text": "Servizio clienti",
+      "blockClass": "static-pages-category-title"
+    }
+  },
+  "rich-text#newsletter-form-title": {
+    "props": {
+      "text": "Newsletter",
+      "blockClass": "static-pages-category-subtitle"
+    }
   },
 
-  "tab-wrapper#newsletter-form": {
-    "props": {
-      "title": "Test 2"
-    },
-    "children": [
-      "flex-layout.col#newsletter-form"
-    ]
-  },
-
-
-
-    "flex-layout.col#newsletter-form": {
+    "flex-layout.col#newsletter-form-content": {
       "children": [
         "rich-text#newsletter-form-title1",
         "rich-text#newsletter-form-title2",

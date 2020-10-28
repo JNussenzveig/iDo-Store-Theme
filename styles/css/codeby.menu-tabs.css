@@ -1,12 +1,13 @@
 /*Azienda*/
 
 .tabsButtonsContainer {
-  width: 25%;
+  width: 20%;
+  margin-right: 50px;
 }
 
 
 .tabContentContainer {
-  width: 75%;
+  width: 80%;
 
 }
 
@@ -18,7 +19,6 @@
   font-size: 25px;
   line-height: 29px;
   padding-bottom: 14px;
-  padding-left: 30px;
   padding-top: 26px;
 }
 
@@ -114,6 +114,9 @@
   padding-left: 0px;
 }
 
+/* guida alle taglie desktoo*/
+
+
 :global(.vtex-flex-layout-0-x-flexRow--flex-row-guida-alle-taglie) .tabButtonTitle {
   width: 339px;
   height: 21px;
@@ -166,7 +169,6 @@
   line-height: 21px;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 30px;
 }
 
 .tabButton--tab-wrappersiamo:hover {
@@ -183,7 +185,6 @@
   line-height: 21px;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 30px;
 }
 .tabButton--tab-wrapperimpegno:hover {
   color: black;
@@ -199,7 +200,6 @@
   line-height: 21px;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 30px;
 }
 
 .tabButton--tab-wrapperaprireFranchising:hover {
@@ -215,7 +215,6 @@
   line-height: 21px;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 30px;
 }
 
 .tabButton--tab-wrapperreteVendita:hover {
@@ -233,7 +232,6 @@
   line-height: 21px;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 30px;
 }
 
 .tabButton--tab-wrapperlavoraConNoi:hover {

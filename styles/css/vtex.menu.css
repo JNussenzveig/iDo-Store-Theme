@@ -1,6 +1,8 @@
 .menuContainer .menuItem:first-child {
   margin-bottom: 10px;
+  cursor: default;
 }
+
 
 .menuContainer .menuItem:last-child {
   margin-bottom: 50px;

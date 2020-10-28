@@ -2,6 +2,8 @@
   "footer": {
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
+
+
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#level1-Seguici-sui-nostri-social",
@@ -516,450 +518,266 @@
 
   "flex-layout.col#level9-azienda-servizio-termini-store-partener": {
     "children": [
-      "vtex.menu@2.x:menu#footer-Azienda",
-      "vtex.menu@2.x:menu#footer-ServizioClienti",
-      "vtex.menu@2.x:menu#footer-TerminiCondizioni",
-      "vtex.menu@2.x:menu#footer-StoreLocator",
-      "vtex.menu@2.x:menu#footer-PartenerLab"
+      "flex-layout.row#category-menu-footer"
     ],
     "props": {
-      "blockClass": "menu-row"
+      "blockClass": "menu-col-category-footer"
     }
   },
 
 
-/*footer azienda*/
-
-  "vtex.menu@2.x:menu#footer-Azienda": {
-    "props": {
-      "blockClass": "menu-row-azienda-footer",
-      "orientation": "vertical"
-    },
+  "flex-layout.row#category-menu-footer": {
     "children": [
-      "menu-item#azienda",
-      "menu-item#Siamo",
-      "menu-item#nostroimpegno",
-      "menu-item#franchising",
-      "menu-item#vendita",
-      "menu-item#lavora"
-    ]
-  },
-  "menu-item#azienda": {
+      "flex-layout.col#category-menu-azienda-footer",
+      "flex-layout.col#category-menu-servizio-clienti-footer",
+      "flex-layout.col#category-menu-termini-e-condizioni-footer",
+      "flex-layout.col#category-menu-store-locator-footer",
+      "flex-layout.col#category-menu-partener-lab-footer"
+    ],
     "props": {
-      "id": "menu-item-azienda",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Azienda",
-        "text": "AZIENDA"
-      }
-    }
-  },
-  "menu-item#Siamo": {
-    "props": {
-      "id": "menu-item-siamo",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/azienda?activeTab=tab-wrapper*siamo",
-        "noFollow": false,
-        "tagTitle": "Chi Siamo",
-        "text": "Chi Siamo"
-      }
-    }
-  },
-  "menu-item#nostroimpegno": {
-    "props": {
-      "id": "menu-item-nostroimpegno",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/azienda?activeTab=tab-wrapper*impegno",
-        "noFollow": false,
-        "tagTitle": "Il nostro impegno",
-        "text": "Il nostro impegno"
-      }
-    }
-  },
-  "menu-item#franchising": {
-    "props": {
-      "id": "menu-item-franchising",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/azienda?activeTab=tab-wrapper*aprireFranchising",
-        "noFollow": false,
-        "tagTitle": "Vuoi aprire un franchising iDO?",
-        "text": "Vuoi aprire un franchising iDO?"
-      }
-    }
-  },
-  "menu-item#vendita": {
-    "props": {
-      "id": "menu-item-vendita",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/azienda?activeTab=tab-wrapper*reteVendita",
-        "noFollow": false,
-        "tagTitle": "Rete vendita iDO",
-        "text": "Rete vendita iDO"
-      }
+      "blockClass": "category-menu-footer"
     }
   },
 
-  "menu-item#lavora": {
-    "props": {
-      "id": "menu-item-lavora",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/azienda?activeTab=tab-wrapper*lavoraConNoi",
-        "noFollow": false,
-        "tagTitle": "Lavora con noi",
-        "text": "Lavora con noi"
-      }
-    }
-  },
+/* azienda footer menu*/
 
-/* servizio clienti footer*/
 
-  "vtex.menu@2.x:menu#footer-ServizioClienti": {
-    "props": {
-      "orientation": "vertical"
-    },
+  "flex-layout.col#category-menu-azienda-footer": {
     "children": [
-      "menu-item#servizio",
-      "menu-item#guida",
-      "menu-item#tempi",
-      "menu-item#resi",
-      "menu-item#order",
-      "menu-item#contattaci",
-      "menu-item#iscritivi"
-    ]
-  },
-
-  "menu-item#servizio": {
+      "rich-text#category-menu-azienda-footer",
+      "rich-text#category-menu-chi-siamo-footer",
+      "rich-text#category-menu-il-nostro-impegno-footer",
+      "rich-text#category-menu-vuoi-aprire-un-franchising-iDO-footer",
+      "rich-text#category-menu-rete-vendita-iDO-footer",
+      "rich-text#category-menu-lavora-con-noi-footer",
+      "rich-text#category-menu-spacer-footer"
+    ],
     "props": {
-      "id": "menu-item-category-servizio",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "SERVIZIO CLIENTI ",
-        "text": "SERVIZIO CLIENTI "
-      }
+      "blockClass": "menu-col-category-footer"
     }
   },
 
-  "menu-item#guida": {
-    "props": {
-      "id": "menu-item-guida",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/guida-alle-taglie?__bindingAddress=www.ido.it/it",
-        "noFollow": false,
-        "tagTitle": "Guida alle taglie",
-        "text": "Guida alle taglie"
-      }
-    }
-  },
+       "rich-text#category-menu-azienda-footer": {
+           "props": {
+             "text": "AZIENDA",
+             "blockClass": "category-menu-footer"
+           }
+        },
+       "rich-text#category-menu-chi-siamo-footer": {
+           "props": {
+             "text": "<a class='vtex-subcategory-menu-footer' href='/azienda?activeTab=tab-wrapper*siamo'>Chi Siamo",
+             "blockClass": "subcategory-menu-footer"
+           }
+        },
+       "rich-text#category-menu-il-nostro-impegno-footer": {
+           "props": {
+             "text": "<a class='vtex-subcategory-menu-footer' href='/azienda?activeTab=tab-wrapper*impegno'>Il nostro impegno",
+             "blockClass": "subcategory-menu-footer"
+           }
+        },
 
-  "menu-item#tempi": {
-    "props": {
-      "id": "menu-item-tempi",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tempi-di-consegna?__bindingAddress=www.ido.it/it",
-        "noFollow": false,
-        "tagTitle": "Tempi di consegna",
-        "text": "Tempi di consegna"
-      }
-    }
-  },
+       "rich-text#category-menu-vuoi-aprire-un-franchising-iDO-footer": {
+           "props": {
+             "text": "<a class='vtex-subcategory-menu-footer' href='/azienda?activeTab=tab-wrapper*aprireFranchising'>Vuoi aprire un franchising iDO?",
+             "blockClass": "subcategory-menu-footer"
+           }
+        },
+       "rich-text#category-menu-rete-vendita-iDO-footer": {
+           "props": {
+             "text": "<a class='vtex-subcategory-menu-footer' href='/azienda?activeTab=tab-wrapper*reteVendita'>Rete vendita iDO",
+             "blockClass": "subcategory-menu-footer"
+           }
+        },
+       "rich-text#category-menu-lavora-con-noi-footer": {
+           "props": {
+             "text": "<a class='vtex-subcategory-menu-footer' href='/azienda?activeTab=tab-wrapper*lavoraConNoi'>Lavora con noi",
+             "blockClass": "subcategory-menu-footer"
+           }
+        },
+       "rich-text#category-menu-spacer-footer": {
+           "props": {
+             "text": "",
+             "blockClass": "subcategory-menu-spacer-footer"
+           }
+        },
 
-  "menu-item#resi": {
-    "props": {
-      "id": "menu-item-resi",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/reso-e-cambi?__bindingAddress=www.ido.it/it",
-        "noFollow": false,
-        "tagTitle": "Resi e cambi",
-        "text": "Resi e cambi"
-      }
-    }
-  },
+/* servizio clienti footer menu*/
 
-  "menu-item#order": {
-    "props": {
-      "id": "menu-item-order",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/order-processing?__bindingAddress=www.ido.it/it",
-        "noFollow": false,
-        "tagTitle": "Order processing",
-        "text": "Order processing"
-      }
-    }
-  },
 
-  "menu-item#contattaci": {
-    "props": {
-      "id": "menu-item-contattaci",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/contattaci?__bindingAddress=www.ido.it/it",
-        "noFollow": false,
-        "tagTitle": "Contattaci",
-        "text": "Contattaci"
-      }
-    }
-  },
-  "menu-item#iscritivi": {
-    "props": {
-      "id": "menu-item-iscriviti",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/iscriviti-alla-newsletter?__bindingAddress=www.ido.it/it",
-        "noFollow": false,
-        "tagTitle": "Iscriviti Alla Newsletter",
-        "text": "Iscriviti Alla Newsletter"
-      }
-    }
-  },
-
-/*termini condizionii */
-
-  "vtex.menu@2.x:menu#footer-TerminiCondizioni": {
-    "props": {
-      "orientation": "vertical"
-    },
+  "flex-layout.col#category-menu-servizio-clienti-footer": {
     "children": [
-      "menu-item#termini",
-      "menu-item#conditione",
-      "menu-item#regolamento",
-      "menu-item#diritto",
-      "menu-item#privacy",
-      "menu-item#trattamento",
-      "menu-item#cookie"
-    ]
-  },
-
-  "menu-item#termini": {
+      "rich-text#category-menu-servizio-clienti-footer",
+      "rich-text#category-menu-guida-alle-taglie-footer",
+      "rich-text#category-menu-tempi-di-consegna-footer",
+      "rich-text#category-menu-resi-e-cambi-footer",
+      "rich-text#category-menu-order-processing-footer",
+      "rich-text#category-menu-contattaci-footer",
+      "rich-text#category-menu-iscriviti-alla-newsletter-footer"
+    ],
     "props": {
-      "id": "menu-item-termini",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/bags/d",
-        "noFollow": true,
-        "tagTitle": "TERMINI E CONDIZIONI ",
-        "text": "TERMINI E CONDIZIONI "
-      }
+      "blockClass": "menu-col-category-footer"
     }
   },
 
-  "menu-item#conditione": {
-    "props": {
-      "id": "menu-item-conditione",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/condizioni-generali-di-vendita?__bindingAddress=www.ido.it/it",
-        "noFollow": true,
-        "tagTitle": "Condizioni di vendita",
-        "text": "Condizioni di vendita"
-      }
-    }
-  },
+       "rich-text#category-menu-servizio-clienti-footer": {
+           "props": {
+             "text": "SERVIZIO CLIENTI",
+             "blockClass": "category-menu-footer"
+           }
+        },
+       "rich-text#category-menu-guida-alle-taglie-footer": {
+           "props": {
+             "text": "<a class='vtex-subcategory-menu-footer' href='/guida-alle-taglie?__bindingAddress=www.ido.it/it'>Guida alle taglie",
+             "blockClass": "subcategory-menu-footer"
+           }
+        },
+       "rich-text#category-menu-tempi-di-consegna-footer": {
+           "props": {
+             "text": "<a class='vtex-subcategory-menu-footer' href='/tempi-di-consegna?__bindingAddress=www.ido.it/it'>Tempi di consegna",
+             "blockClass": "subcategory-menu-footer"
+           }
+        },
 
-  "menu-item#regolamento": {
-    "props": {
-      "id": "menu-item-regolamento",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/regolamento?__bindingAddress=www.ido.it/it",
-        "noFollow": true,
-        "tagTitle": "Regolamento",
-        "text": "Regolamento"
-      }
-    }
-  },
-  "menu-item#diritto": {
-    "props": {
-      "id": "menu-item-diritto",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/diritto-di-recesso?__bindingAddress=www.ido.it/it",
-        "noFollow": true,
-        "tagTitle": "Diritto di reso",
-        "text": "Diritto di reso"
-      }
-    }
-  },
-  "menu-item#privacy": {
-    "props": {
-      "id": "menu-item-privacy",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/privacy-and-policy?__bindingAddress=www.ido.it/it",
-        "noFollow": true,
-        "tagTitle": "Privacy Policy",
-        "text": "Privacy Policy"
-      }
-    }
-  },
-  "menu-item#trattamento": {
-    "props": {
-      "id": "menu-item-trattamento",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/trattamento-dati?__bindingAddress=www.ido.it/it",
-        "noFollow": true,
-        "tagTitle": "Trattamento Dati",
-        "text": "Trattamento Dati"
-      }
-    }
-  },
-  "menu-item#cookie": {
-    "props": {
-      "id": "menu-item-cookie",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/cookie-policy?__bindingAddress=www.ido.it/it",
-        "noFollow": true,
-        "tagTitle": "Cookie Policy",
-        "text": "Cookie Policy"
-      }
-    }
-  },
+       "rich-text#category-menu-resi-e-cambi-footer": {
+           "props": {
+             "text": "<a class='vtex-subcategory-menu-footer' href='/reso-e-cambi?__bindingAddress=www.ido.it/it'>Resi e cambi",
+             "blockClass": "subcategory-menu-footer"
+           }
+        },
+       "rich-text#category-menu-order-processing-footer": {
+           "props": {
+             "text": "<a class='vtex-subcategory-menu-footer' href='/order-processing?__bindingAddress=www.ido.it/it'>Order processing",
+             "blockClass": "subcategory-menu-footer"
+           }
+        },
+       "rich-text#category-menu-contattaci-footer": {
+           "props": {
+             "text": "<a class='vtex-subcategory-menu-footer' href='/contattaci?__bindingAddress=www.ido.it/it'>Contattaci",
+             "blockClass": "subcategory-menu-footer"
+           }
+        },
+       "rich-text#category-menu-iscriviti-alla-newsletter-footer": {
+           "props": {
+             "text": "<a class='vtex-subcategory-menu-footer' href='/iscriviti-alla-newsletter?__bindingAddress=www.ido.it/it'>Iscriviti Alla Newsletter",
+             "blockClass": "subcategory-menu-footer"
+           }
+        },
 
-/* store locator*/
 
- "vtex.menu@2.x:menu#footer-StoreLocator": {
-    "props": {
-      "orientation": "vertical"
-    },
+/* TERMINI E CONDIZIONI  footer menu*/
+
+
+  "flex-layout.col#category-menu-termini-e-condizioni-footer": {
     "children": [
-      "menu-item#myido",
-      "menu-item#scopri"
-    ]
-  },
-
-  "menu-item#myido": {
+      "rich-text#category-menu-termini-e-condizioni-footer",
+      "rich-text#category-menu-condizioni-di-vendita-footer",
+      "rich-text#category-menu-regolamento-footer",
+      "rich-text#category-menu-diritto-di-reso-footer",
+      "rich-text#category-menu-privacy-policy-footer",
+      "rich-text#category-menu-trattamento-dati-footer",
+      "rich-text#category-menu-cookie-policy-footer"
+    ],
     "props": {
-      "id": "menu-item-myido",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/account/#/profile",
-        "noFollow": true,
-        "tagTitle": "STORE LOCATOR",
-        "text": "STORE LOCATOR"
-      }
+      "blockClass": "menu-col-category-footer"
     }
   },
 
+       "rich-text#category-menu-termini-e-condizioni-footer": {
+           "props": {
+             "text": "TERMINI E CONDIZIONI ",
+             "blockClass": "category-menu-footer"
+           }
+        },
+       "rich-text#category-menu-condizioni-di-vendita-footer": {
+           "props": {
+             "text": "<a class='vtex-subcategory-menu-footer' href='/condizioni-generali-di-vendita?__bindingAddress=www.ido.it/it'>Condizioni di vendita",
+             "blockClass": "subcategory-menu-footer"
+           }
+        },
+       "rich-text#category-menu-regolamento-footer": {
+           "props": {
+             "text": "<a class='vtex-subcategory-menu-footer' href='/regolamento?__bindingAddress=www.ido.it/it'>Regolamento",
+             "blockClass": "subcategory-menu-footer"
+           }
+        },
 
-  "menu-item#scopri": {
-    "props": {
-      "id": "menu-item-scopri",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/our-stores",
-        "noFollow": true,
-        "tagTitle": "Scopri i negozi iDO",
-        "text": "Scopri i negozi iDO"
-      }
-    }
-  },
+       "rich-text#category-menu-diritto-di-reso-footer": {
+           "props": {
+             "text": "<a class='vtex-subcategory-menu-footer' href='/diritto-di-recesso?__bindingAddress=www.ido.it/it'>Diritto di reso",
+             "blockClass": "subcategory-menu-footer"
+           }
+        },
+       "rich-text#category-menu-privacy-policy-footer": {
+           "props": {
+             "text": "<a class='vtex-subcategory-menu-footer' href='/privacy-and-policy?__bindingAddress=www.ido.it/it'>Privacy Policy",
+             "blockClass": "subcategory-menu-footer"
+           }
+        },
+       "rich-text#category-menu-trattamento-dati-footer": {
+           "props": {
+             "text": "<a class='vtex-subcategory-menu-footer' href='/trattamento-dati?__bindingAddress=www.ido.it/it'>Trattamento Dati",
+             "blockClass": "subcategory-menu-footer"
+           }
+        },
+       "rich-text#category-menu-cookie-policy-footer": {
+           "props": {
+             "text": "<a class='vtex-subcategory-menu-footer' href='/cookie-policy?__bindingAddress=www.ido.it/it'>Cookie Policy",
+             "blockClass": "subcategory-menu-footer"
+           }
+        },
 
-/*partener lab*/
 
- "vtex.menu@2.x:menu#footer-PartenerLab": {
-    "props": {
-      "orientation": "vertical"
-    },
+
+/* store locator  footer menu*/
+
+
+  "flex-layout.col#category-menu-store-locator-footer": {
     "children": [
-      "menu-item#partenerlab"
-    ]
-  },
-
-  "menu-item#partenerlab": {
+      "rich-text#category-menu-store-locator-footer",
+      "rich-text#category-menu-scopri-i-negozi-iDO-footer",
+      "rich-text#category-menu-spacer-footer",
+      "rich-text#category-menu-spacer-footer",
+      "rich-text#category-menu-spacer-footer",
+      "rich-text#category-menu-spacer-footer"
+    ],
     "props": {
-      "id": "menu-item-myido",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "external",
-        "href": "https://partnerlab.miniconf.app/partnerlab/client/index.html",
-        "noFollow": true,
-        "tagTitle": "PARTENER LAB",
-        "text": "PARTENER LAB"
-      }
+      "blockClass": "menu-col-category-footer"
     }
   },
+
+       "rich-text#category-menu-store-locator-footer": {
+           "props": {
+             "text": "STORE LOCATOR",
+             "blockClass": "category-menu-footer"
+           }
+        },
+       "rich-text#category-menu-scopri-i-negozi-iDO-footer": {
+           "props": {
+             "text": "<a class='vtex-subcategory-menu-footer' href='/our-stores'>Scopri i negozi iDO",
+             "blockClass": "subcategory-menu-footer"
+           }
+        },
+
+
+/* partener lab  footer menu*/
+
+
+  "flex-layout.col#category-menu-partener-lab-footer": {
+    "children": [
+      "rich-text#category-menu-partener-lab-footer"
+    ],
+    "props": {
+      "blockClass": "menu-col-category-footer"
+    }
+  },
+
+       "rich-text#category-menu-partener-lab-footer": {
+           "props": {
+             "text": "<a class='vtex-subcategory-menu-footer' href='https://partnerlab.miniconf.app/partnerlab/client/index.html'>PARTENER LAB",
+             "blockClass": "category-menu-partener-lab-footer"
+           }
+        },
+
 
 /* level 10 credits*/
 

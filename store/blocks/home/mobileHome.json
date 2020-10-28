@@ -263,14 +263,5 @@
       "blockClass": "info-card-teddy-mobile",
       "textAlignment": "center"
     }
-  },
-
-  "newsletter#mobile": {
-    "props": {
-      "blockClass": "newsletter-mobile",
-      "label": "Iscriviti alla newsletter",
-      "placeholder": "Inserisci la tua email",
-      "hideLabel": false
-    }
   }
 }

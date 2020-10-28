@@ -4,7 +4,7 @@
 }
 :global(.vtex-checkbox__line-container) {
   font-family: MuseoJHSans500;
-  text-align: center;
+  text-align: left;
 }
 
 :global(.vtex-search-result-3-x-filterTemplateOverflow) {
