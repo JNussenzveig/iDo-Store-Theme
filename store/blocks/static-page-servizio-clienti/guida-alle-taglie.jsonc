@@ -8,93 +8,55 @@
     },
     "responsive-layout.desktop#guida-alle-taglie": {
       "children": [
-        "flex-layout.row#guida-alle-taglie",
-        "flex-layout.row#aprirefranchising",
-        "flex-layout.row#newsletter"
+        "flex-layout.row#guida-alle-taglie"
       ]
     },
 
     "responsive-layout.mobile#guida-alle-taglie": {
       "children": [
-        "flex-layout.row#guida-alle-taglie-mobile",
-        "info-card#aprire-franchising-banner-mobile",
-        "newsletter#banner-mobile"
+        "flex-layout.row#guida-alle-taglie-mobile"
       ]
     },
-
 
    "flex-layout.row#guida-alle-taglie": {
        "children": [
-         "tabs-container#guida-alle-taglie"
+         "flex-layout.col#guida-alle-taglie-menu",
+         "flex-layout.col#guida-alle-taglie-content"
        ],
        "props": {
-       "blockClass": "flex-row-guida-alle-taglie"
+       "blockClass": "flex-row-all-static-pages"
        }
    },
 
-   "flex-layout.row#aprirefranchising": {
-      "children": [
-       "flex-layout.col#aprirefranchising"
-       ],
-       "props": {
-       "blockClass": "flex-row-aprirefranchising"
-       }
-   },
-
-   "flex-layout.col#aprirefranchising": {
+   "flex-layout.col#guida-alle-taglie-menu": {
        "children": [
-       "info-card#contentaprirefranchising"
+         "rich-text#guida-alle-taglie-category",
+         "rich-text#guida-alle-taglie-title"
        ],
        "props": {
-       "preventVerticalStretch": true,
-       "blockClass": "aprirefranchising"
+       "blockClass": "flex-col-all-static-pages",
+       "width": "20%"
        }
    },
 
-   "info-card#contentaprirefranchising": {
-        "props": {
-        "id": "info-card-aprirefranchising",
-        "isFullModeStyle": false,
-        "textPosition": "left",
-        "imageUrl": "",
-        "headline": "Apri un franchising iDO",
-        "callToActionText": "Compila il form",
-        "callToActionUrl": "http://www.google.com",
-        "blockClass": "info-card-aprirefranchising",
-        "textAlignment": "center"
-        }
-   },
-
-
-  "tabs-container#guida-alle-taglie": {
+  "rich-text#guida-alle-taglie-category": {
     "props": {
-      "menuTitle": "Servizio clienti",
-      "orientation": "horizontal",
-      "blockClass": "menu",
-      "tabs": [
-        {
-          "title": "Guida alle taglie",
-          "id": "tab-wrapper#guida-alle-taglie"
-        }
-      ]
-    },
-    "children": [
-      "tab-wrapper#guida-alle-taglie"
-    ]
+      "text": "Servizio clienti",
+      "blockClass": "static-pages-category-title"
+    }
+  },
+  "rich-text#guida-alle-taglie-title": {
+    "props": {
+      "text": "Guida alle taglie",
+      "blockClass": "static-pages-category-subtitle"
+    }
   },
 
-  "tab-wrapper#guida-alle-taglie": {
-    "props": {
-      "title": "Test 2"
-    },
-    "children": [
-      "flex-layout.col#guida-alle-taglie"
-    ]
-  },
+
 
 /*desktop*/
 
-    "flex-layout.col#guida-alle-taglie": {
+    "flex-layout.col#guida-alle-taglie-content": {
       "children": [
         "vtex.menu@2.x:menu#guida-alle-taglie"
       ],
@@ -280,12 +242,7 @@
 
        "vtex.menu@2.x:submenu.accordion#Neonato0-18mesi": {
              "children": [
-                "image#neonato-mesi",
-                "image#neonato-altezza",
-                "image#neonato-torace",
-                "image#neonato-vita",
-                "image#neonato-fianchi",
-                "image#neonato-peso"
+                "image#neonato-mesi"
                 ],
                 "props": {
                 "blockClass": "submenu-guida-alle-taglie-images"
@@ -309,58 +266,15 @@
 
       "image#neonato-mesi": {
                   "props": {
-                    "src": "/arquivos/neonato0-18mesi-desktop-eta@4x.png",
+                    "src": "/arquivos/neonato_0_18_mesi_desktop@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
 
-       "image#neonato-altezza": {
-                   "props": {
-                    "src": "/arquivos/neonato0-18mesi-desktop-altezza@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-       "image#neonato-torace": {
-                    "props": {
-                    "src": "/arquivos/neonato0-18mesi-desktop-torace@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-       "image#neonato-vita": {
-                    "props": {
-                    "src": "/arquivos/neonato0-18mesi-desktop-vita@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-       "image#neonato-fianchi": {
-                    "props": {
-                    "src": "/arquivos/neonato0-18mesi-desktop-fianchi@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-       "image#neonato-peso": {
-                    "props": {
-                    "src": "/arquivos/neonato0-18mesi-desktop-peso@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-
-
-
 
        "vtex.menu@2.x:submenu.accordion#Bambina6-36mesi": {
               "children": [
-                "image#bambina636-eta",
-                "image#bambina636-altezza",
-                "image#bambina636-torace",
-                "image#bambina636-vita",
-                "image#bambina636-fianchi",
-                "image#bambina636-peso"
+                "image#bambina636-eta"
               ],
               "props": {
               "blockClass": "submenu-guida-alle-taglie-images"
@@ -384,55 +298,15 @@
 
       "image#bambina636-eta": {
                   "props": {
-                    "src": "/arquivos/Bambina6_36mesi_desktop_eta@4x.png",
+                    "src": "/arquivos/bambina_3_16_anni@4x.png",
                     "blockClass": "imageTaglie"
                   }
-       },
-
-       "image#bambina636-altezza": {
-                   "props": {
-                    "src": "/arquivos/Bambina6_36mesi_desktop_altezza@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-       "image#bambina636-torace": {
-                    "props": {
-                    "src": "/arquivos/Bambina6_36mesi_desktop_torace@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-       "image#bambina636-vita": {
-                    "props": {
-                    "src": "/arquivos/Bambina6_36mesi_desktop_vita@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-       "image#bambina636-fianchi": {
-                    "props": {
-                    "src": "/arquivos/Bambina6_36mesi_desktop_fianchi@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-       "image#bambina636-peso": {
-                    "props": {
-                    "src": "/arquivos/Bambina6_36mesi_desktop_peso@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
        },
 
 
        "vtex.menu@2.x:submenu.accordion#Bambino6-36mesi": {
               "children": [
-               "image#bambino636-eta",
-                "image#bambino636-altezza",
-                "image#bambino636-torace",
-                "image#bambino636-vita",
-                "image#bambino636-fianchi",
-                "image#bambino636-peso"
+               "image#bambino636-eta"
               ],
               "props": {
               "blockClass": "submenu-guida-alle-taglie-images"
@@ -456,59 +330,14 @@
 
       "image#bambino636-eta": {
                   "props": {
-                    "src": "/arquivos/Bambina6_36mesi_desktop_eta@4x.png",
+                    "src": "/arquivos/bambina_3_16_anni@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
 
-       "image#bambino636-altezza": {
-                   "props": {
-                    "src": "/arquivos/Bambina6_36mesi_desktop_altezza@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-       "image#bambino636-torace": {
-                    "props": {
-                    "src": "/arquivos/Bambina6_36mesi_desktop_torace@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-       "image#bambino636-vita": {
-                    "props": {
-                    "src": "/arquivos/Bambina6_36mesi_desktop_vita@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-       "image#bambino636-fianchi": {
-                    "props": {
-                    "src": "/arquivos/Bambina6_36mesi_desktop_fianchi@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-       "image#bambino636-peso": {
-                    "props": {
-                    "src": "/arquivos/Bambina6_36mesi_desktop_peso@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-
-
-
-
-
        "vtex.menu@2.x:submenu.accordion#Bambina3-16anni": {
               "children": [
-                "image#bambina316-eta",
-                "image#bambina316-altezza",
-                "image#bambina316-torace",
-                "image#bambina316-vita",
-                "image#bambina316-fianchi",
-                "image#bambina316-gamba"
+                "image#bambina316-eta"
               ],
               "props": {
               "blockClass": "submenu-guida-alle-taglie-images"
@@ -532,59 +361,16 @@
 
       "image#bambina316-eta": {
                   "props": {
-                    "src": "/arquivos/Bambina3_16anni_desktop_eta@4x.png",
+                    "src": "/arquivos/bambina_3_16_anni@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
-
-       "image#bambina316-altezza": {
-                   "props": {
-                    "src": "/arquivos/Bambina3_16anni_desktop_altezza@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-       "image#bambina316-torace": {
-                    "props": {
-                    "src": "/arquivos/Bambina3_16anni_desktop_torace@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-       "image#bambina316-vita": {
-                    "props": {
-                    "src": "/arquivos/Bambina3_16anni_desktop_vita@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-       "image#bambina316-fianchi": {
-                    "props": {
-                    "src": "/arquivos/Bambina3_16anni_desktop_fianchi@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-       "image#bambina316-gamba": {
-                    "props": {
-                    "src": "/arquivos/Bambina3_16anni_desktop_gamba@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-
-
 
 
 
         "vtex.menu@2.x:submenu.accordion#Bambino3-16anni": {
                "children": [
-               "image#bambino316-eta",
-                "image#bambino316-altezza",
-                "image#bambino316-torace",
-                "image#bambino316-vita",
-                "image#bambino316-fianchi",
-                "image#bambino316-gamba"
+               "image#bambino316-eta"
                ],
                "props": {
                "blockClass": "submenu-guida-alle-taglie-images"
@@ -608,47 +394,10 @@
 
       "image#bambino316-eta": {
                   "props": {
-                    "src": "/arquivos/Bambina3_16anni_desktop_eta@4x.png",
+                    "src": "/arquivos/bambino_3_16_anni@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
-
-       "image#bambino316-altezza": {
-                   "props": {
-                    "src": "/arquivos/Bambina3_16anni_desktop_altezza@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-       "image#bambino316-torace": {
-                    "props": {
-                    "src": "/arquivos/Bambina3_16anni_desktop_torace@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-       "image#bambino316-vita": {
-                    "props": {
-                    "src": "/arquivos/Bambina3_16anni_desktop_vita@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-       "image#bambino316-fianchi": {
-                    "props": {
-                    "src": "/arquivos/Bambina3_16anni_desktop_fianchi@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-       "image#bambino316-gamba": {
-                    "props": {
-                    "src": "/arquivos/Bambina3_16anni_desktop_gamba@4x.png",
-                    "blockClass": "imageTaglie"
-                    }
-       },
-
-
 
 
          "vtex.menu@2.x:submenu.accordion#Accessori": {
@@ -729,12 +478,7 @@
 
        "vtex.menu@2.x:submenu.accordion#Scarpette": {
            "children": [
-                "image#Scarpette-numero15",
-                "image#Scarpette-numero16",
-                "image#Scarpette-numero17",
-                "image#Scarpette-numero18",
-                "image#Scarpette-numero19",
-                "image#Scarpette-numero20"
+                "image#Scarpette-numero15"
            ],
            "props": {
            "blockClass": "submenu-guida-alle-taglie-images"
@@ -757,37 +501,7 @@
        },
       "image#Scarpette-numero15": {
                   "props": {
-                    "src": "/arquivos/Scarpette_desktop_numero15@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#Scarpette-numero16": {
-                  "props": {
-                    "src": "/arquivos/Scarpette_desktop_numero16@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#Scarpette-numero17": {
-                  "props": {
-                    "src": "/arquivos/Scarpette_desktop_numero17@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#Scarpette-numero18": {
-                  "props": {
-                    "src": "/arquivos/Scarpette_desktop_numero18@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#Scarpette-numero19": {
-                  "props": {
-                    "src": "/arquivos/Scarpette_desktop_numero19@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#Scarpette-numero20": {
-                  "props": {
-                    "src": "/arquivos/Scarpette_desktop_numero20@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
@@ -816,12 +530,7 @@
 
        "vtex.menu@2.x:submenu.accordion#CalzamagliaNeonato0-18mesi": {
            "children": [
-                "image#CalzamagliaNeonato0-18mesi-eta",
-                "image#CalzamagliaNeonato0-18mesi-altezza",
-                "image#CalzamagliaNeonato0-18mesi-vita",
-                "image#CalzamagliaNeonato0-18mesi-fianchi",
-                "image#CalzamagliaNeonato0-18mesi-peso",
-                "image#CalzamagliaNeonato0-18mesi-lunghezza-piede"
+                "image#CalzamagliaNeonato0-18mesi-eta"
            ],
            "props": {
            "blockClass": "submenu-guida-alle-taglie-images"
@@ -844,37 +553,7 @@
        },
       "image#CalzamagliaNeonato0-18mesi-eta": {
                   "props": {
-                    "src": "/arquivos/Calzamaglia_Neonato_0_18_mesi_desktop-eta@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#CalzamagliaNeonato0-18mesi-altezza": {
-                  "props": {
-                    "src": "/arquivos/Calzamaglia_Neonato_0_18_mesi_desktop-altezza@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#CalzamagliaNeonato0-18mesi-vita": {
-                  "props": {
-                    "src": "/arquivos/Calzamaglia_Neonato_0_18_mesi_desktop-vita@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#CalzamagliaNeonato0-18mesi-fianchi": {
-                  "props": {
-                    "src": "/arquivos/Calzamaglia_Neonato_0_18_mesi_desktop-fianchi@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#CalzamagliaNeonato0-18mesi-peso": {
-                  "props": {
-                    "src": "/arquivos/Calzamaglia_Neonato_0_18_mesi_desktop-peso@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#CalzamagliaNeonato0-18mesi-lunghezza-piede": {
-                  "props": {
-                    "src": "/arquivos/Calzamaglia_Neonato_0_18_mesi_desktop-lunghezza_piede@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
@@ -902,13 +581,7 @@
 
        "vtex.menu@2.x:submenu.accordion#CalzamagliaBambino-a6-36mesi": {
            "children": [
-                "image#CalzamagliaBambino-a6-36mesi-eta",
-                "image#CalzamagliaBambino-a6-36mesi-altezza",
-                "image#CalzamagliaBambino-a6-36mesi-vita",
-                "image#CalzamagliaBambino-a6-36mesi-fianchi",
-                "image#CalzamagliaBambino-a6-36mesi-peso",
-                "image#CalzamagliaBambino-a6-36mesi-lunghezza-piede"
-
+                "image#CalzamagliaBambino-a6-36mesi-eta"
            ],
            "props": {
            "blockClass": "submenu-guida-alle-taglie-images"
@@ -931,37 +604,7 @@
        },
       "image#CalzamagliaBambino-a6-36mesi-eta": {
                   "props": {
-                    "src": "/arquivos/Calzamaglia_Bambina6-36mesi_desktop-eta@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#CalzamagliaBambino-a6-36mesi-altezza": {
-                  "props": {
-                    "src": "/arquivos/Calzamaglia_Bambina6-36mesi_desktop-altezza@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#CalzamagliaBambino-a6-36mesi-vita": {
-                  "props": {
-                    "src": "/arquivos/Calzamaglia_Bambina6-36mesi_desktop-vita@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#CalzamagliaBambino-a6-36mesi-fianchi": {
-                  "props": {
-                    "src": "/arquivos/Calzamaglia_Bambina6-36mesi_desktop-fianchi@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#CalzamagliaBambino-a6-36mesi-peso": {
-                  "props": {
-                    "src": "/arquivos/Calzamaglia_Bambina6-36mesi_desktop-peso@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#CalzamagliaBambino-a6-36mesi-lunghezza-piede": {
-                  "props": {
-                    "src": "/arquivos/Calzamaglia_Bambina6-36mesi_desktop-lunghezza_piede@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
@@ -990,12 +633,7 @@
 
        "vtex.menu@2.x:submenu.accordion#CalzamagliaBambino-a3-16anni": {
            "children": [
-                "image#CalzamagliaBambino-a3-16anni-eta",
-                "image#CalzamagliaBambino-a3-16anni-altezza",
-                "image#CalzamagliaBambino-a3-16anni-vita",
-                "image#CalzamagliaBambino-a3-16anni-fianchi",
-                "image#CalzamagliaBambino-a3-16anni-altezza-gamba",
-                "image#CalzamagliaBambino-a3-16anni-lunghezza-piede"
+                "image#CalzamagliaBambino-a3-16anni-eta"
            ],
            "props": {
            "blockClass": "submenu-guida-alle-taglie-images"
@@ -1018,40 +656,11 @@
        },
       "image#CalzamagliaBambino-a3-16anni-eta": {
                   "props": {
-                    "src": "/arquivos/Calzamaglia_Bambina3-16anni_desktop-eta@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
-      "image#CalzamagliaBambino-a3-16anni-altezza": {
-                  "props": {
-                    "src": "/arquivos/Calzamaglia_Bambina3-16anni_desktop-altezza@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#CalzamagliaBambino-a3-16anni-vita": {
-                  "props": {
-                    "src": "/arquivos/Calzamaglia_Bambina3-16anni_desktop-vita2@4x.png@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#CalzamagliaBambino-a3-16anni-fianchi": {
-                  "props": {
-                    "src": "/arquivos/Calzamaglia_Bambina3-16anni_desktop-fianchi@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#CalzamagliaBambino-a3-16anni-altezza-gamba": {
-                  "props": {
-                    "src": "/arquivos/Calzamaglia_Bambina3-16anni_desktop-gamba@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#CalzamagliaBambino-a3-16anni-lunghezza-piede": {
-                  "props": {
-                    "src": "/arquivos/Calzamaglia_Bambina3-16anni_desktop-lunghezza_piede@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
+
 /*Calzino Neonato 0-18 mesi */
 
      "menu-item#CalzinoNeonato0-18mesi": {
@@ -1075,10 +684,7 @@
 
        "vtex.menu@2.x:submenu.accordion#CalzinoNeonato0-18mesi": {
            "children": [
-                "image#CalzinoNeonato0-18mesi-eta",
-                "image#CalzinoNeonato0-18mesi-altezza",
-                "image#CalzinoNeonato0-18mesi-peso",
-                "image#CalzinoNeonato0-18mesi-lunghezza-piede"
+                "image#CalzinoNeonato0-18mesi-eta"
            ],
            "props": {
            "blockClass": "submenu-guida-alle-taglie-images"
@@ -1101,28 +707,11 @@
        },
       "image#CalzinoNeonato0-18mesi-eta": {
                   "props": {
-                    "src": "/arquivos/Calzino__Neonato0_18_mesi_desktop_eta@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
-      "image#CalzinoNeonato0-18mesi-altezza": {
-                  "props": {
-                    "src": "/arquivos/Calzino__Neonato0_18_mesi_desktop_altezza@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#CalzinoNeonato0-18mesi-peso": {
-                  "props": {
-                    "src": "/arquivos/Calzino__Neonato0_18_mesi_desktop_peso@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#CalzinoNeonato0-18mesi-lunghezza-piede": {
-                  "props": {
-                    "src": "/arquivos/Calzino__Neonato0_18_mesi_desktop_lunghezza_piede@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
+
 /*Calzino 6-36 mesi */
 
      "menu-item#Calzino6-36mesi": {
@@ -1146,10 +735,7 @@
 
        "vtex.menu@2.x:submenu.accordion#Calzino6-36mesi": {
            "children": [
-                "image#Calzino6-36mesi-eta",
-                "image#Calzino6-36mesi-altezza",
-                "image#Calzino6-36mesi-peso",
-                "image#Calzino6-36mesi-lunghezza-piede"
+                "image#Calzino6-36mesi-eta"
            ],
            "props": {
            "blockClass": "submenu-guida-alle-taglie-images"
@@ -1172,28 +758,11 @@
        },
       "image#Calzino6-36mesi-eta": {
                   "props": {
-                    "src": "/arquivos/Calzino_6_36_mesi_desktop_eta@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
-      "image#Calzino6-36mesi-altezza": {
-                  "props": {
-                    "src": "/arquivos/Calzino_6_36_mesi_desktop_altezza@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#Calzino6-36mesi-peso": {
-                  "props": {
-                    "src": "/arquivos/Calzino_6_36_mesi_desktop_peso@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#Calzino6-36mesi-lunghezza-piede": {
-                  "props": {
-                    "src": "/arquivos/Calzino_6_36_mesi_desktop_lunghezza_piede@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
+
 /*Calzino Bambino/a 3-16 anni */
 
      "menu-item#CalzinoBambino-a3-16anni": {
@@ -1217,9 +786,7 @@
 
        "vtex.menu@2.x:submenu.accordion#CalzinoBambino-a3-16anni": {
            "children": [
-                "image#CalzinoBambino-a3-16anni-eta",
-                "image#CalzinoBambino-a3-16anni-altezza",
-                "image#CalzinoBambino-a3-16anni-lunghezza-piede"
+                "image#CalzinoBambino-a3-16anni-eta"
            ],
            "props": {
            "blockClass": "submenu-guida-alle-taglie-images"
@@ -1242,19 +809,7 @@
        },
       "image#CalzinoBambino-a3-16anni-eta": {
                   "props": {
-                    "src": "/arquivos/Calzino_Bambino-a_3-16_anni_desktop_eta@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#CalzinoBambino-a3-16anni-altezza": {
-                  "props": {
-                    "src": "/arquivos/Calzino_Bambino-a_3-16_anni_desktop_altezza@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#CalzinoBambino-a3-16anni-lunghezza-piede": {
-                  "props": {
-                    "src": "/arquivos/Calzino_Bambino-a_3-16_anni_desktop_lunghezza_piede@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
@@ -1283,8 +838,7 @@
 
        "vtex.menu@2.x:submenu.accordion#CappelliNeonato0-18mesi-tessutononelastico": {
            "children": [
-                "image#CappelliNeonato0-18mesi-tessutononelastico-eta",
-                "image#CappelliNeonato0-18mesi-tessutononelastico-circonferenza-testa"
+                "image#CappelliNeonato0-18mesi-tessutononelastico-eta"
            ],
            "props": {
            "blockClass": "submenu-guida-alle-taglie-images"
@@ -1307,16 +861,11 @@
        },
       "image#CappelliNeonato0-18mesi-tessutononelastico-eta": {
                   "props": {
-                    "src": "/arquivos/Cappelli_Neonato_0-18_mesi_tessuto_non_elastico_desktop_eta@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
-      "image#CappelliNeonato0-18mesi-tessutononelastico-circonferenza-testa": {
-                  "props": {
-                    "src": "/arquivos/Cappelli_Neonato_0-18_mesi_tessuto_non_elastico_desktop_testa@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
+
 
 /*Cappelli 6-36 mesi - tessuto non elastico */
 
@@ -1342,8 +891,7 @@
 
        "vtex.menu@2.x:submenu.accordion#Cappelli6-36mesi-tessutononelastico": {
            "children": [
-                "image#Cappelli6-36mesi-tessutononelastico-eta",
-                "image#Cappelli6-36mesi-tessutononelastico-circonferenza-testa"
+                "image#Cappelli6-36mesi-tessutononelastico-eta"
            ],
            "props": {
            "blockClass": "submenu-guida-alle-taglie-images"
@@ -1366,16 +914,11 @@
        },
       "image#Cappelli6-36mesi-tessutononelastico-eta": {
                   "props": {
-                    "src": "/arquivos/Cappelli_6-36_mesi_tessuto_non_elastico_desktop_eta@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
-      "image#Cappelli6-36mesi-tessutononelastico-circonferenza-testa": {
-                  "props": {
-                    "src": "/arquivos/Cappelli_6-36_mesi_tessuto_non_elastico_desktop_testa@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
+
 /*Cappelli Bambino/a 3-16 anni - tessuto non elastico - mobile*/
 
      "menu-item#CappelliBambino-a3-16anni-tessutononelastico": {
@@ -1399,8 +942,7 @@
 
        "vtex.menu@2.x:submenu.accordion#CappelliBambino-a3-16anni-tessutononelastico": {
            "children": [
-                "image#CappelliBambino-a3-16anni-tessutononelastico-eta",
-                "image#CappelliBambino-a3-16anni-tessutononelastico-circonferenza-testa"
+                "image#CappelliBambino-a3-16anni-tessutononelastico-eta"
            ],
            "props": {
            "blockClass": "submenu-guida-alle-taglie-images"
@@ -1423,13 +965,7 @@
        },
       "image#CappelliBambino-a3-16anni-tessutononelastico-eta": {
                   "props": {
-                    "src": "/arquivos/Cappelli_Bambino-a_3-16_anni_tessuto_non_elastico_desktop_eta@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#CappelliBambino-a3-16anni-tessutononelastico-circonferenza-testa": {
-                  "props": {
-                    "src": "/arquivos/Cappelli_Bambino-a_3-16_anni_tessuto_non_elastico_desktop_testa@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
@@ -1458,8 +994,7 @@
 
        "vtex.menu@2.x:submenu.accordion#CappelliNeonato0-18mesi-tessutoelastico": {
            "children": [
-                "image#CappelliNeonato0-18mesi-tessutoelastico-eta",
-                "image#CappelliNeonato0-18mesi-tessutoelastico-circonferenza-testa"
+                "image#CappelliNeonato0-18mesi-tessutoelastico-eta"
            ],
            "props": {
            "blockClass": "submenu-guida-alle-taglie-images"
@@ -1482,16 +1017,11 @@
        },
       "image#CappelliNeonato0-18mesi-tessutoelastico-eta": {
                   "props": {
-                    "src": "/arquivos/Cappelli_Neonato_0-18_mesi_tessuto_elastico_desktop_eta@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
-      "image#CappelliNeonato0-18mesi-tessutoelastico-circonferenza-testa": {
-                  "props": {
-                    "src": "/arquivos/Cappelli_Neonato_0-18_mesi_tessuto_elastico_desktop_testa@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
+
 /*Cappelli Bambino/a 6-36 mesi - tessuto elastico */
 
      "menu-item#Cappelli6-36mesi-tessutoelastico": {
@@ -1515,8 +1045,7 @@
 
        "vtex.menu@2.x:submenu.accordion#Cappelli6-36mesi-tessutoelastico": {
            "children": [
-                "image#Cappelli6-36mesi-tessutoelastico-eta",
-                "image#Cappelli6-36mesi-tessutoelastico-circonferenza-testa"
+                "image#Cappelli6-36mesi-tessutoelastico-eta"
            ],
            "props": {
            "blockClass": "submenu-guida-alle-taglie-images"
@@ -1539,16 +1068,11 @@
        },
       "image#Cappelli6-36mesi-tessutoelastico-eta": {
                   "props": {
-                    "src": "/arquivos/Cappelli_6-36_mesi_tessuto_elastico_desktop_eta@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
-      "image#Cappelli6-36mesi-tessutoelastico-circonferenza-testa": {
-                  "props": {
-                    "src": "/arquivos/Cappelli_6-36_mesi_tessuto_elastico_desktop_testa@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
+
 
 /*Cappelli Bambino/a 3-16 anni - tessuto elastico */
 
@@ -1573,8 +1097,7 @@
 
        "vtex.menu@2.x:submenu.accordion#CappelliBambino-a3-16anni-tessutoelastico": {
            "children": [
-                "image#CappelliBambino-a3-16anni-tessutoelastico-eta",
-                "image#CappelliBambino-a3-16anni-tessutoelastico-circonferenza-testa"
+                "image#CappelliBambino-a3-16anni-tessutoelastico-eta"
            ],
            "props": {
            "blockClass": "submenu-guida-alle-taglie-images"
@@ -1597,16 +1120,11 @@
        },
       "image#CappelliBambino-a3-16anni-tessutoelastico-eta": {
                   "props": {
-                    "src": "/arquivos/Cappelli_Bambino-a_3-16_anni_tessuto_elastico_desktop_eta@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
-      "image#CappelliBambino-a3-16anni-tessutoelastico-circonferenza-testa": {
-                  "props": {
-                    "src": "/arquivos/Cappelli_Bambino-a_3-16_anni_tessuto_elastico_desktop_testa@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
+
 /*Cinture 6-36 mesi */
 
      "menu-item#Cinture6-36mesi": {
@@ -1630,8 +1148,7 @@
 
        "vtex.menu@2.x:submenu.accordion#Cinture6-36mesi": {
            "children": [
-                "image#Cinture6-36mesi-eta",
-                "image#Cinture6-36mesi-vita"
+                "image#Cinture6-36mesi-eta"
            ],
            "props": {
            "blockClass": "submenu-guida-alle-taglie-images"
@@ -1654,13 +1171,7 @@
        },
       "image#Cinture6-36mesi-eta": {
                   "props": {
-                    "src": "/arquivos/Cinture_6-36_mesi_desktop_eta@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-      "image#Cinture6-36mesi-vita": {
-                  "props": {
-                    "src": "/arquivos/Cinture_6-36_mesi_desktop_testa@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
@@ -1688,8 +1199,7 @@
 
        "vtex.menu@2.x:submenu.accordion#CintureBambino-a3-16anni": {
            "children": [
-                "image#CintureBambino-a3-16anni-eta",
-                "image#CintureBambino-a3-16anni-vita"
+                "image#CintureBambino-a3-16anni-eta"
            ],
            "props": {
            "blockClass": "submenu-guida-alle-taglie-images"
@@ -1712,16 +1222,11 @@
        },
       "image#CintureBambino-a3-16anni-eta": {
                   "props": {
-                    "src": "/arquivos/Cinture_Bambino-a_3-16_anni_desktop_eta@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
-      "image#CintureBambino-a3-16anni-vita": {
-                  "props": {
-                    "src": "/arquivos/Cinture_Bambino-a_3-16_anni_desktop_vita@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
+
 
 
 /* Cravatte-Papillon-Sciarpe Neonato 0-18 mesi */
@@ -1770,7 +1275,7 @@
        },
       "image#Cravatte-Papillon-SciarpeNeonato0-18mesi": {
                   "props": {
-                    "src": "/arquivos/Cravatte-Papillon-Sciarpe_Neonato_0-18_mesi_desktop_eta@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
@@ -1798,8 +1303,7 @@
 
        "vtex.menu@2.x:submenu.accordion#Cravatte-Papillon-Sciarpe6-36mesi": {
            "children": [
-                "image#Cravatte-Papillon-Sciarpe6-36mesi-eta",
-                "image#Cravatte-Papillon-Sciarpe6-36mesi-circonferenza-collo"
+                "image#Cravatte-Papillon-Sciarpe6-36mesi-eta"
            ],
            "props": {
            "blockClass": "submenu-guida-alle-taglie-images"
@@ -1822,16 +1326,11 @@
        },
       "image#Cravatte-Papillon-Sciarpe6-36mesi-eta": {
                   "props": {
-                    "src": "/arquivos/Cravatte-Papillon-Sciarpe_Neonato_6-36_mesi_desktop_eta@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
-      "image#Cravatte-Papillon-Sciarpe6-36mesi-circonferenza-collo": {
-                  "props": {
-                    "src": "/arquivos/Cravatte-Papillon-Sciarpe_Neonato_6-36_mesi_desktop_collo@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
+
 
 /*Cravatte-Papillon-Sciarpe 3-16 anni */
 
@@ -1856,8 +1355,7 @@
 
        "vtex.menu@2.x:submenu.accordion#Cravatte-Papillon-Sciarpe3-16anni": {
            "children": [
-                "image#Cravatte-Papillon-Sciarpe3-16anni-eta",
-                "image#Cravatte-Papillon-Sciarpe3-16anni-longhezza"
+                "image#Cravatte-Papillon-Sciarpe3-16anni-eta"
            ],
            "props": {
            "blockClass": "submenu-guida-alle-taglie-images"
@@ -1880,16 +1378,11 @@
        },
       "image#Cravatte-Papillon-Sciarpe3-16anni-eta": {
                   "props": {
-                    "src": "/arquivos/Cravatte-Papillon-Sciarpe_3-16_anni_desktop_eta@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
-      "image#Cravatte-Papillon-Sciarpe3-16anni-longhezza": {
-                  "props": {
-                    "src": "/arquivos/Cravatte-Papillon-Sciarpe_3-16_anni_desktop_lunghezza@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
+
 /*Sciarpe 6-36 mesi */
 
 
@@ -1937,7 +1430,7 @@
        },
       "image#Sciarpe6-36mesi": {
                   "props": {
-                    "src": "/arquivos/Sciarpe_6-36_mesi_desktop@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
@@ -1988,7 +1481,7 @@
        },
       "image#Sciarpe3-16anni": {
                   "props": {
-                    "src": "/arquivos/Sciarpe_3-16_anni_desktop@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
@@ -2040,7 +1533,7 @@
        },
       "image#Foulard6-36mesi": {
                   "props": {
-                    "src": "/arquivos/Foulard_6-36_mesi_desktop@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
@@ -2091,7 +1584,7 @@
        },
       "image#Foulard3-16anni": {
                   "props": {
-                    "src": "/arquivos/Foulard_3-16_anni_desktop@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
@@ -2119,8 +1612,7 @@
 
        "vtex.menu@2.x:submenu.accordion#Papillon6-36mesi": {
            "children": [
-                "image#Papillon6-36mesi-taglia",
-                "image#Papillon6-36mesi-circonferenza-collo"
+                "image#Papillon6-36mesi-taglia"
            ],
            "props": {
            "blockClass": "submenu-guida-alle-taglie-images"
@@ -2143,16 +1635,11 @@
        },
       "image#Papillon6-36mesi-taglia": {
                   "props": {
-                    "src": "/arquivos/Papillon_6-36_mesi_desktop_taglia@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
-      "image#Papillon6-36mesi-circonferenza-collo": {
-                  "props": {
-                    "src": "/arquivos/Papillon_6-36_mesi_desktop_collo@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
+
 
 /*Papillon 3-16 anni */
 
@@ -2177,8 +1664,7 @@
 
        "vtex.menu@2.x:submenu.accordion#Papillon3-16anni": {
            "children": [
-                "image#Papillon3-16anni-taglia",
-                "image#Papillon3-16anni-circonferenza-collo"
+                "image#Papillon3-16anni-taglia"
            ],
            "props": {
            "blockClass": "submenu-guida-alle-taglie-images"
@@ -2201,17 +1687,10 @@
        },
       "image#Papillon3-16anni-taglia": {
                   "props": {
-                    "src": "/arquivos/Papillon_3-16_anni_desktop_taglia@4x.png",
+                    "src": "/arquivos/scarpete@4x.png",
                     "blockClass": "imageTaglie"
                   }
        },
-      "image#Papillon3-16anni-circonferenza-collo": {
-                  "props": {
-                    "src": "/arquivos/Papillon_3-16_anni_desktop_collo@4x.png",
-                    "blockClass": "imageTaglie"
-                  }
-       },
-
 
 
 

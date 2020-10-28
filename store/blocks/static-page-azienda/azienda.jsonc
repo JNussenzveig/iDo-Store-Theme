@@ -98,8 +98,7 @@
       "title": "franchising"
     },
     "children": [
-      "flex-layout.col#aprireFranchising",
-      "flex-layout.row#modal-aprire-un-franchising-form"
+      "flex-layout.col#aprireFranchising"
     ]
   },
   "tab-wrapper#reteVendita": {
@@ -132,10 +131,10 @@
 
      "flex-layout.col#chiSiamo": {
         "children": [
-          "rich-text#titleSiamo",
-          "rich-text#contentSiamo1",
-          "rich-text#contentSiamo2",
-          "rich-text#contentSiamo3",
+          "rich-text#titleSiamoazienda",
+          "rich-text#contentSiamo1azienda",
+          "rich-text#contentSiamo2azienda",
+          "rich-text#contentSiamo3azienda",
           "image#chi-siamo"
         ],
         "props": {
@@ -143,32 +142,32 @@
           "blockClass": "chiSiamo"
         }
       },
-      "rich-text#titleSiamo": {
+      "rich-text#titleSiamoazienda": {
           "props": {
             "blockClass": "titleSiamo",
             "text":
-            "Una storia che nasce da lontano "
+            "Una storia che nasce da lontano"
           }
       },
-      "rich-text#contentSiamo1": {
+      "rich-text#contentSiamo1azienda": {
          "props": {
            "blockClass": "contentSiamo1",
            "text":
-           "iDO è l'ultimo nato di Miniconf, azienda dedicata all'abbigliamento per l'infanzia, che nasce nel 1973 da un'ispirazione del suo attuale presidente, Giovanni Basagni.<br>Il luogo di nascita è già di per sè ricco di magia: Ortignano, nel cuore della valle del Casentino, nella parte orientale della Toscana, tra montagne ricoperte di faggi e abeti, colline orlate da querce e castagni e improvvisi precipizi a valle dove scorre il primo tratto dell'Arno.<br>Oggi Miniconf è un'azienda leader nel settore, grazie ai suoi brand Sarabanda, Dodipetto e iDO e al fatto di aver puntato su una distribuzione multicanale, sull'attenzione alle nuove tecnologie, su una logistica all'avanguardia, su una capacità di ascolto del mercato e dei consumatori davvero unica."
-         }
+           "iDO è l’ultimo brand nato in casa Miniconf, azienda internazionale fondata nel 1973 e dedicata al kidswear.<br><br>Nonostante il respiro globale del brand, iDO è fortemente radicata nel proprio contesto territoriale: la valle del Casentino, in provincia di Arezzo, nella parte orientale della Toscana. "
+           }
        },
-       "rich-text#contentSiamo2": {
+       "rich-text#contentSiamo2azienda": {
           "props": {
              "blockClass": "contentSiamo2",
              "text":
-             "Nel 2013 l'azienda ha festeggiato i suoi primi 40 anni e ha voluto raccontare la sua storia ripercorrendo gli stili e le tendenze che hanno fatto moda dagli anni '70 fino ad oggi. Perchè da 40 anni i bambini di tutto il mondo ci ispirano, i valori ci guidano. E da 40 anni la moda bambino cresce con noi! Sfoglia la brochure del 40ennale.<br>Nell'aprile del 2015 Miniconf ha ottenuto il prestigioso certificato ELITE di Borsa Italiana (Gruppo London Stock Exchange)."
+             "Le proposte kidswear di iDO si caratterizzano per la versatilità delle occasioni d’uso. Tutte le collezioni sono pensate con lo specifico intento di accompagnare i bambini nel loro quotidiano con stile.<br><br>L’obiettivo principale di iDO è quello di offrire capi che sappiano combinare lo stile e la versatilità delle diverse collezioni con la durevolezza, il comfort e la massima attenzione alle tematiche di sostenibilità ambientale.<br><br>Questo è possibile grazie all’impegno che il brand impiega quotidianamente a partire dalla scelta dei tessuti fino ad arrivare ai metodi e ai processi produttivi, quotidianamente testati per rispettare e superare gli standard del settore."
               }
        },
-       "rich-text#contentSiamo3": {
+       "rich-text#contentSiamo3azienda": {
            "props": {
               "blockClass": "contentSiamo3",
               "text":
-              "Per tre volte Miniconf ha ottenuto il riconoscimento di 'Company to watch' da Databank, multinazionale specializzata in ricerche di marketing."
+              "Oltre al focus sulla progettazione e produzione, iDO punta anche su una distribuzione multicanale, sull'attenzione alle nuove tecnologie, sulla logistica efficiente e all'avanguardia e su una capacità unica di ascolto dei consumatori e del mercato."
               }
        },
        "image#chi-siamo": {
@@ -265,7 +264,8 @@
       "flex-layout.row#franchisingStorePhotos",
       "rich-text#about-title4",
       "rich-text#about-title5",
-      "flex-layout.row#franchisingCandidatura"
+      "flex-layout.row#franchisingCandidatura",
+      "flex-layout.row#modal-aprire-un-franchising-form"
     ],
     "props": {
       "preventVerticalStretch": true,
@@ -405,7 +405,7 @@
 
             "image#photo-store-1": {
               "props": {
-                "src": "/arquivos/photo_store_1.png"
+                "src": "/arquivos/iDO-Milano-3-1280x720.jpg"
               }
             },
             "image#photo-store-2": {
@@ -413,14 +413,6 @@
                 "src": "/arquivos/iDO-Milano-3-1280x720.jpg"
               }
             },
-
-
-
-
-
-
-
-
 
 
   "flex-layout.row#franchisingCandidatura": {
@@ -434,13 +426,14 @@
 
   "flex-layout.col#faq": {
     "children": [
-      "info-card#photoFaq",
+      "image#photoFaq",
       "rich-text#faq",
       "modal-trigger#modal-faq-button"
     ],
     "props": {
       "width": "grow",
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "blockClass":"flex-col-faq"
     }
   },
 
@@ -574,17 +567,20 @@
              }
        },
 
-
-
-
-
-
-  "info-card#photoFaq": {
+/*  "info-card#photoFaq": {
     "props": {
       "imageUrl": "/arquivos/faq_franchising.png",
       "blockClass": "imageFaq"
     }
-  },
+  },*/
+
+       "image#photoFaq": {
+           "props": {
+             "src": "/arquivos/faq_franchising.png",
+             "blockClass": "imageFaq"
+           }
+       },
+
 
   "rich-text#faq": {
     "props": {
@@ -596,13 +592,14 @@
 
   "flex-layout.col#pdf": {
     "children": [
-      "info-card#photoPdf",
+      "image#photoPdf",
       "rich-text#pdf",
       "modal-trigger#modal-pdf-button"
     ],
     "props": {
       "width": "grow",
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "blockClass":"flex-col-pdf"
     }
   },
 
@@ -638,16 +635,19 @@
            }
      },
 
-
-
-
-
-  "info-card#photoPdf": {
+/*  "info-card#photoPdf": {
     "props": {
       "imageUrl": "/arquivos/pdfFranchising.png",
       "blockClass": "imagePdf"
     }
-  },
+  },*/
+
+       "image#photoPdf": {
+           "props": {
+             "src": "/arquivos/pdfFranchising.png",
+             "blockClass": "imagePdf"
+           }
+       },
 
   "rich-text#pdf": {
     "props": {
@@ -658,18 +658,12 @@
 
 
 
-  "modal-trigger#modal-franchising-button": {
+ /* "modal-trigger#modal-franchising-button": {
     "children": [
       "rich-text#franchisingTextButton"
     ]
-  },
+  },*/
 
-  "rich-text#franchisingTextButton": {
-    "props": {
-      "text": "<a class='vtex-linkFranchisingDesktop' href='/azienda'>Apri un franchising iDO",
-      "blockClass": "franchisingButton"
-    }
-  },
 
     "flex-layout.row#modal-aprire-un-franchising-form": {
         "children": [
@@ -679,15 +673,23 @@
           "blockClass": "modal-aprire-un-franchising-form"
          }
       },
+
   "modal-trigger#modal-aprire-un-franchising-form": {
       "children": [
-        "rich-text#franchisingTextButton",
+      "rich-text#franchisingTextButton",
         "modal-layout#modal-aprire-un-franchising-form"
       ],
       "props": {
             "blockClass": "modal-trigger-aprire-un-franchising-form"
           }
     },
+
+"rich-text#franchisingTextButton": {
+    "props": {
+      "text": "Apri un franchising iDO",
+      "blockClass": "franchisingButton"
+    }
+  },
 
   "modal-layout#modal-aprire-un-franchising-form": {
          "children": [

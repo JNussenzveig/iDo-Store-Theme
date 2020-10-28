@@ -9,55 +9,51 @@
     },
     "responsive-layout.desktop#condizioni-generali-di-vendita": {
       "children": [
-        "flex-layout.row#condizioni-generali-di-vendita",
-        "flex-layout.row#newsletter"
+        "flex-layout.row#condizioni-generali-di-vendita"
       ]
     },
 
     "responsive-layout.mobile#condizioni-generali-di-vendita": {
       "children": [
-        "flex-layout.row#condizioni-generali-di-vendita-mobile",
-        "newsletter#banner-mobile"
+        "flex-layout.row#condizioni-generali-di-vendita-mobile"
       ]
     },
-
 
    "flex-layout.row#condizioni-generali-di-vendita": {
        "children": [
-         "tabs-container#condizioni-generali-di-vendita"
+         "flex-layout.col#condizioni-generali-di-vendita-menu",
+         "flex-layout.col#condizioni-generali-di-vendita-content"
        ],
        "props": {
-       "blockClass": "flex-row-condizioni-generali-di-vendita"
+       "blockClass": "flex-row-all-static-pages"
        }
    },
 
-  "tabs-container#condizioni-generali-di-vendita": {
+   "flex-layout.col#condizioni-generali-di-vendita-menu": {
+       "children": [
+         "rich-text#condizioni-generali-di-vendita-category",
+         "rich-text#condizioni-generali-di-vendita-title"
+       ],
+       "props": {
+       "blockClass": "flex-col-all-static-pages",
+       "width": "20%"
+       }
+   },
+
+  "rich-text#condizioni-generali-di-vendita-category": {
     "props": {
-      "menuTitle": "Termini e condizioni",
-      "orientation": "horizontal",
-      "tabs": [
-        {
-          "title": "Condizioni generali di vendita",
-          "id": "tab-wrapper#condizioni-generali-di-vendita"
-        }
-      ]
-    },
-    "children": [
-      "tab-wrapper#condizioni-generali-di-vendita"
-    ]
+      "text": "Termini e condizioni",
+      "blockClass": "static-pages-category-title"
+    }
+  },
+  "rich-text#condizioni-generali-di-vendita-title": {
+    "props": {
+      "text": "Condizioni generali di vendita",
+      "blockClass": "static-pages-category-subtitle"
+    }
   },
 
-  "tab-wrapper#condizioni-generali-di-vendita": {
-    "props": {
-      "title": "Test 2"
-    },
-    "children": [
-      "flex-layout.col#condizioni-generali-di-vendita"
-    ]
-  },
-
-
-    "flex-layout.col#condizioni-generali-di-vendita": {
+    "flex-layout.col#condizioni-generali-di-vendita-content": {
       "children": [
         "rich-text#condizioni-generali-di-vendita-title1",
         "rich-text#condizioni-generali-di-vendita-content1",

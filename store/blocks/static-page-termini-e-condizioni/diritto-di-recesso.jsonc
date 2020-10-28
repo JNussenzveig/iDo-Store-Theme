@@ -9,54 +9,52 @@
     },
     "responsive-layout.desktop#diritto-di-recesso": {
       "children": [
-        "flex-layout.row#diritto-di-recesso",
-        "flex-layout.row#newsletter"
+        "flex-layout.row#diritto-di-recesso"
       ]
     },
 
     "responsive-layout.mobile#diritto-di-recesso": {
       "children": [
-        "flex-layout.row#diritto-di-recesso-mobile",
-        "newsletter#banner-mobile"
+        "flex-layout.row#diritto-di-recesso-mobile"
       ]
     },
 
-   "flex-layout.row#diritto-di-recesso": {
+  "flex-layout.row#diritto-di-recesso": {
        "children": [
-         "tabs-container#diritto-di-recesso"
+         "flex-layout.col#diritto-di-recesso-menu",
+         "flex-layout.col#diritto-di-recesso-content"
        ],
        "props": {
-       "blockClass": "flex-row-diritto-di-recesso"
+       "blockClass": "flex-row-all-static-pages"
        }
    },
 
-  "tabs-container#diritto-di-recesso": {
+   "flex-layout.col#diritto-di-recesso-menu": {
+       "children": [
+         "rich-text#diritto-di-recesso-category",
+         "rich-text#diritto-di-recesso-title"
+       ],
+       "props": {
+       "blockClass": "flex-col-all-static-pages",
+       "width": "20%"
+       }
+   },
+
+  "rich-text#diritto-di-recesso-category": {
     "props": {
-      "menuTitle": "Termini e condizioni",
-      "orientation": "horizontal",
-      "tabs": [
-        {
-          "title": "Diritto di recesso",
-          "id": "tab-wrapper#diritto-di-recesso"
-        }
-      ]
-    },
-    "children": [
-      "tab-wrapper#diritto-di-recesso"
-    ]
+      "text": "Termini e condizioni",
+      "blockClass": "static-pages-category-title"
+    }
+  },
+  "rich-text#diritto-di-recesso-title": {
+    "props": {
+      "text": "Diritto di recesso",
+      "blockClass": "static-pages-category-subtitle"
+    }
   },
 
-  "tab-wrapper#diritto-di-recesso": {
-    "props": {
-      "title": "Test 2"
-    },
-    "children": [
-      "flex-layout.col#diritto-di-recesso"
-    ]
-  },
 
-
-    "flex-layout.col#diritto-di-recesso": {
+    "flex-layout.col#diritto-di-recesso-content": {
       "children": [
         "rich-text#diritto-di-recesso-content1",
         "rich-text#diritto-di-recesso-title1",

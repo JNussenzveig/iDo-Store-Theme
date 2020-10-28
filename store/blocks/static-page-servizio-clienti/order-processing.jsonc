@@ -8,56 +8,55 @@
     },
     "responsive-layout.desktop#order-processing": {
       "children": [
-        "flex-layout.row#order-processing",
-        "flex-layout.row#newsletter"
+        "flex-layout.row#order-processing"
       ]
     },
 
     "responsive-layout.mobile#order-processing": {
       "children": [
-        "flex-layout.row#order-processing-mobile",
-        "newsletter#banner-mobile"
+        "flex-layout.row#order-processing-mobile"
       ]
     },
-   "flex-layout.row#order-processing": {
+
+
+
+  "flex-layout.row#order-processing": {
        "children": [
-         "tabs-container#order-processing"
+         "flex-layout.col#order-processing-menu",
+         "flex-layout.col#order-processing-content"
        ],
        "props": {
-       "blockClass": "flex-row-order-processing"
+       "blockClass": "flex-row-all-static-pages"
        }
    },
 
-  "tabs-container#order-processing": {
+   "flex-layout.col#order-processing-menu": {
+       "children": [
+         "rich-text#order-processing-category",
+         "rich-text#order-processing-title"
+       ],
+       "props": {
+       "blockClass": "flex-col-all-static-pages",
+       "width": "20%"
+       }
+   },
+
+  "rich-text#order-processing-category": {
     "props": {
-      "menuTitle": "Servizio clienti",
-      "orientation": "horizontal",
-      "tabs": [
-        {
-          "title": "Order processing",
-          "id": "tab-wrapper#order-processing"
-        }
-      ]
-    },
-    "children": [
-      "tab-wrapper#order-processing"
-    ]
+      "text": "Servizio clienti",
+      "blockClass": "static-pages-category-title"
+    }
+  },
+  "rich-text#order-processing-title": {
+    "props": {
+      "text": "Order processing",
+      "blockClass": "static-pages-category-subtitle"
+    }
   },
 
-  "tab-wrapper#order-processing": {
-    "props": {
-      "title": "Test 2"
-    },
-    "children": [
-      "flex-layout.col#order-processing"
-    ]
-  },
-
-
-
-    "flex-layout.col#order-processing": {
+    "flex-layout.col#order-processing-content": {
       "children": [
-        "rich-text#order-processing-title",
+        "rich-text#order-processing-content-title",
         "rich-text#order-processing"
       ],
       "props": {
@@ -66,7 +65,7 @@
       }
     },
 
-    "rich-text#order-processing-title": {
+    "rich-text#order-processing-content-title": {
         "props": {
           "blockClass": "order-processing-title",
           "text":

@@ -504,7 +504,7 @@
 
   "vtex.menu@2.x:submenu#bambina-category-header": {
     "props": {
-      "width": "auto",
+      "width": "100%",
       "blockClass": "bambina-desktop-main-container-submenu"
     },
     "children": [
@@ -890,7 +890,7 @@
 
   "vtex.menu@2.x:submenu#bambino-category-header": {
     "props": {
-      "width": "auto",
+      "width": "100%",
       "blockClass": "bambino-desktop-main-container-submenu"
     },
     "children": [
@@ -1161,9 +1161,6 @@
   },
 
 
-
-
-
   "flex-layout.col#bambinoMenuDesktopThirdColumn":{
     "props": {
       "blockClass": "bambinoMenuDesktopThirdColumn"
@@ -1279,7 +1276,7 @@
 
   "vtex.menu@2.x:submenu#armocromia-category-header": {
     "props": {
-      "width": "auto",
+      "width": "100%",
       "blockClass": "bambina-desktop-main-container-submenu"
     },
     "children": [
