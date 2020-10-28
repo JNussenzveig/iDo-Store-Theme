@@ -35,7 +35,7 @@
 }
 
 .flexRowContent--menu-link {
-  background-color: white;
+  background-color: #F2F2F2;
   color: #00263a;
   height: 50px;
 }
@@ -100,8 +100,6 @@
 :global(.vtex-modal-layout-0-x-triggerContainer) {
   position: relative;
   color: transparent;
-  bottom: 68px;
-  left: 20px;
 }
 
 :global(.vtex-rich-text-0-x-container) {
@@ -448,9 +446,7 @@
 }
 
 
-:global(.vtex-flex-layout-0-x-flexCol--guida-alle-taglie) {
-  width: 64%;
-}
+
 
 :global(.vtex-flex-layout-0-x-flexCol--condizioni-generali-di-vendita) {
   padding-top: 12px;
@@ -782,6 +778,7 @@
 
 .flexRowContent--contattaci-form-submit :global(.vtex-store-form-0-x-formSubmitContainer) {
   margin-left: 0px;
+  justify-content: flex-start;
 }
 
 /*iscriviti alla newsletter*/
@@ -830,6 +827,7 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--name-surname-newsletter-form) {
   margin-bottom: 30px;
   margin-top: 50px;
+  width: 768px;
 }
 
 
@@ -855,6 +853,7 @@
 
 .flexRowContent--newsletter-form-submit :global(.vtex-store-form-0-x-formSubmitContainer) {
   margin-left: 0px;
+  justify-content: flex-start;
 }
 
 .flexRowContent--newsletter-form :global(.vtex-input__label) {
@@ -1262,10 +1261,6 @@
 
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--modal-aprire-un-franchising-form) {
-  margin-top: 50px;
-  margin-left: 25%;
-}
 
 @media screen and (min-width: 1024px) {
   .flexRowContent--product-image-secondary-container .stretchChildrenWidth {
@@ -1414,11 +1409,22 @@
 
 
 :global(.vtex-flex-layout-0-x-flexRow--flex-row-azienda) {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+
+.flexRow--flex-row-azienda :global(.vtex-store-components-3-x-container) {
   max-width: 1250px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 72px;
 }
+
+:global(.vtex-flex-layout-0-x-flexColChild--flex-col-faq) {
+  margin-right: 20px;
+}
+
 
 :global(.vtex-search-result-3-x-searchResultContainer) {
   max-width: 1250px;
@@ -1458,7 +1464,6 @@
 
 :global(.vtex-flex-layout-0-x-flexCol--menu-social-networks-header) {
   flex-direction: row;
-  margin-left: 100px;
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--nav-menu-header) {
@@ -1506,9 +1511,7 @@
   margin-right: 34px;
 }
 
-:global(.vtex-flex-layout-0-x-flexCol--header-top-menu) {
-  margin-right: 100px;
-}
+
 
 :global(.vtex-flex-layout-0-x-flexRowContent--vuoilavorare) {
   max-width: 1250px;
@@ -1519,7 +1522,7 @@
 :global(.vtex-flex-layout-0-x-flexCol--category-menu-header) {
   flex-direction: row;
   align-items: center;
-  margin-right: 100px;
+  margin-right: 75px;
 }
 
 :global(.vtex-store-components-3-x-imageElementLink) {
@@ -1658,4 +1661,237 @@
 
 :global(.vtex-menu-2-x-menuContainerNav--menu-row-azienda-footer) {
   margin-left: 0px;
+}
+
+/*ALL STATIC PAGES desktop*/
+
+.flexRow--flex-row-all-static-pages :global(.vtex-store-components-3-x-container) {
+  max-width: 100%;
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--flex-row-all-static-pages) {
+  max-width: 1250px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--flex-col-all-static-pages) {
+  height: unset!important;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--static-pages-category-subtitle) {
+  margin-top: unset;
+}
+
+/* guida alle taglie new design*/
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-guida-alle-taglie) {
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav--menu-guida-alle-taglie) {
+  margin-top: 0px;
+}
+
+/*contattaci*/
+
+:global(.vtex-flex-layout-0-x-flexRow--name-surname-contattaci-form) {
+  width: 725px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--email-phone-contattaci-form) {
+  width: 725px;
+}
+
+.flexRowContent--contattaci-form-submit :global(.vtex-button) {
+  width: 159px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+}
+
+/*newsletter*/
+
+.flexRowContent--newsletter-form-submit :global(.vtex-button) {
+  width: 159px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+}
+
+/*footer resize*/
+
+:global(.vtex-flex-layout-0-x-flexRow--level1-Seguici-sui-nostri-social) {
+  margin-left: 75px;
+  margin-right: 75px;
+  max-width: unset;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--menu-level2-Hai-bisogno-di-aiuto) {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--image-consegna-spedizione-reso-pagamenti) {
+  margin-left: 75px;
+  margin-right: 75px;
+  width: 100%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--title-consegna-spedizione-reso-pagamenti) {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--content-consegna-spedizione-reso-pagamenti) {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--menu-level6-contatti) {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--title-vendita-negozi-impresa) {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--content-vendita-negozi-impresa) {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.flexRow--category-menu-footer :global(.vtex-store-components-3-x-container) {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.flexRow--credits :global(.vtex-store-components-3-x-container) {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.menuContainerNav--menu-row-azienda-footer :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin-left: unset;
+}
+
+.flexRow--level1-Seguici-sui-nostri-social :global(.vtex-store-components-3-x-container) {
+  margin-left: unset;
+  margin-right: unset;
+  max-width: 100%;
+}
+
+.flexRow--menu-level2-Hai-bisogno-di-aiuto :global(.vtex-store-components-3-x-container) {
+  margin-left: unset;
+  margin-right: unset;
+  max-width: 100%;
+}
+
+.flexRow--image-consegna-spedizione-reso-pagamenti :global(.vtex-store-components-3-x-container) {
+  margin-left: unset;
+  margin-right: unset;
+  max-width: 100%;
+}
+
+.flexRow--title-consegna-spedizione-reso-pagamenti :global(.vtex-store-components-3-x-container) {
+  margin-left: unset;
+  margin-right: unset;
+  max-width: 100%;
+}
+
+.flexRow--content-consegna-spedizione-reso-pagamenti :global(.vtex-store-components-3-x-container) {
+  margin-left: unset;
+  margin-right: unset;
+  max-width: 100%;
+}
+
+.flexRow--menu-level6-contatti :global(.vtex-store-components-3-x-container) {
+  margin-left: unset;
+  margin-right: unset;
+  max-width: 100%;
+}
+
+.flexRow--menu-row :global(.vtex-store-components-3-x-container) {
+  margin-left: unset;
+  margin-right: unset;
+  max-width: 100%;
+}
+
+.flexRow--credits :global(.vtex-store-components-3-x-container) {
+  margin-left: unset;
+  margin-right: unset;
+  max-width: 100%;
+}
+
+.flexRow--title-vendita-negozi-impresa :global(.vtex-store-components-3-x-container) {
+  margin-left: unset;
+  margin-right: unset;
+  max-width: 100%;
+}
+
+.flexRow--content-vendita-negozi-impresa :global(.vtex-store-components-3-x-container) {
+  margin-left: unset;
+  margin-right: unset;
+  max-width: 100%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--category-menu-footer) {
+  margin-bottom: 75px;
+  margin-top: 45px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--category-menu-footer) {
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--menu-link) {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--menu-social-networks-header) {
+  margin-left: 75px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--header-top-menu) {
+  margin-right: 75px;
+}
+
+/*static pages resize*/
+
+:global(.vtex-modal-layout-0-x-triggerContainer--faqButton) {
+  position: relative;
+  color: transparent;
+  bottom: 0px;
+  left: 0px;
+}
+
+:global(.vtex-modal-layout-0-x-triggerContainer--pdfButton) {
+  position: relative;
+  color: transparent;
+  bottom: 0px;
+  left: 0px;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexCol--flex-col-all-static-pages) {
+  margin-right: 20px;
+}
+
+:global(.vtex-modal-layout-0-x-triggerContainer--modal-trigger-aprire-un-franchising-form) {
+  width: 467px!important;
+  height: 60px;
+  border-radius: 35px;
+  background-color: #aeca3b;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--modal-aprire-un-franchising-form) {
+  margin-top: 40px;
 }

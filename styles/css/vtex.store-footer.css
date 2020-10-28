@@ -12,7 +12,7 @@
 
 
 
-.footerLayout :global(.vtex-flex-layout-0-x-flexRowContent--menu-row) {
+.footerLayout :global(.vtex-flex-layout-0-x-flexRow--category-menu-footer) {
   border-bottom: 1px solid #fff;
 }
 
@@ -47,6 +47,10 @@
 :global(.vtex-flex-layout-0-x-flexRow--menu-row) {
   background-color: #001930;
 }
+
+
+
+
 
 :global(.vtex-flex-layout-0-x-flexRow--credits) {
   background-color: #001930;

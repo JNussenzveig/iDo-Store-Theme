@@ -25,6 +25,7 @@
 }
 
 :global(.vtex-rich-text-0-x-paragraph--footerRich) {
+  margin-left: 75px;
   color: #ffffff;
   font-family: "Avenir Book";
   font-size: 12px;
@@ -628,18 +629,19 @@
   text-decoration: none;
 }
 
-:global(.vtex-rich-text-0-x-wrapper--franchisingButton) {
-  width: 467px;
-  height: 60px;
-  border-radius: 35px;
-  background-color: #aeca3b;
-  position: relative;
-}
+
 
 :global(.vtex-rich-text-0-x-paragraph--franchisingButton) {
   justify-content: center;
   position: relative;
   margin-top: 19px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: center;
 }
 
 
@@ -1514,7 +1516,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--tempiDiConsegna) {
-  padding-top: 68px;
+  padding-top: 64px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--tempiDiConsegna) {
@@ -1582,7 +1584,7 @@
   line-height: 25px;
   margin-bottom: 0px;
   position: relative;
-  margin-top: 4px;
+  margin-top: 16px;
 }
 
 /*TERMINI E CONDIZIONI - condizioni generali di vendita */
@@ -1971,7 +1973,6 @@
 
 :global(.vtex-menu-2-x-menuContainer--menu-rete-vendite) {
   flex-direction: column;
-  width: 60%;
   margin-top: 15px;
 }
 
@@ -2037,8 +2038,8 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContainer--menu-item-rete-vendite) {
-  padding: unset;
-  margin: unset;
+  padding: 0px!important;
+  margin-left: 0px!important;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--rete-vendita-contact-phone) {
@@ -2352,10 +2353,7 @@
   margin: unset;
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--franchisingButtonmobile) {
-  margin-top: 50px;
-  margin-bottom: 30px;
-}
+
 
 :global(.vtex-store-components-3-x-infoCardImageContainer--imageFaqmobile) {
   margin-top: unset;
@@ -3795,6 +3793,125 @@
 }
 
 :global(.vtex-rich-text-0-x-link--footer-consegna-spedizione-reso-pagamenti-content) {
-  text-decoration: none;
+  text-decoration: underline;
   color: #001930;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--category-menu-footer) {
+  color: #ffffff;
+  font-family: "Avenir Light";
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 15px;
+  text-align: left;
+  cursor: default;
+}
+
+:global(.vtex-subcategory-menu-footer) {
+  color: #ffffff;
+  font-family: "Avenir Light";
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 15px;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--category-menu-partener-lab-footer) {
+  color: #ffffff;
+  font-family: "Avenir Light";
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 15px;
+  text-align: left;
+  cursor: pointer;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--subcategory-menu-footer) {
+  margin: unset;
+}
+
+:global(.vtex-rich-text-0-x-container--footer-Seguici-sui-nostri-social) {
+  cursor: default;
+}
+
+:global(.vtex-rich-text-0-x-container--footer-Hai-bisogno-di-aiuto) {
+  cursor: default;
+}
+
+:global(.vtex-rich-text-0-x-container--footer-contatti) {
+  cursor: default;
+}
+
+:global(.vtex-rich-text-0-x-container--footer-consegna-spedizione-reso-pagamenti-title) {
+  cursor: default;
+}
+
+:global(.vtex-rich-text-0-x-container--footer-consegna-spedizione-reso-pagamenti-content) {
+  cursor: default;
+}
+
+:global(.vtex-rich-text-0-x-container--subcategory-menu-footer) {
+  cursor: default;
+}
+
+:global(.vtex-rich-text-0-x-container--footerRich) {
+  cursor: default;
+}
+
+:global(.vtex-rich-text-0-x-container--footerRich) {
+  margin-top: 27px;
+  margin-bottom: 55px;
+}
+
+/*guida alle taglie desktop new design*/
+
+:global(.vtex-rich-text-0-x-paragraph--static-pages-category-title) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--static-pages-category-subtitle) {
+  color: #001930;
+  font-family: "MuseoJHSans700";
+  font-size: 25px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--larmocromia-category-subtitle) {
+  color: #001930;
+  font-family: "MuseoJHSans700";
+  font-size: 25px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+  margin-top: 22px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--textFaq) {
+  height: 80px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--textPdf) {
+  height: 80px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--franchisingButton) {
+  width: 467px;
 }

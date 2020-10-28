@@ -9,54 +9,51 @@
     },
     "responsive-layout.desktop#cookie-policy": {
       "children": [
-        "flex-layout.row#cookie-policy",
-        "flex-layout.row#newsletter"
+        "flex-layout.row#cookie-policy"
       ]
     },
 
     "responsive-layout.mobile#cookie-policy": {
       "children": [
-        "flex-layout.row#cookie-policy-mobile",
-        "newsletter#banner-mobile"
+        "flex-layout.row#cookie-policy-mobile"
       ]
     },
 
-   "flex-layout.row#cookie-policy": {
+  "flex-layout.row#cookie-policy": {
        "children": [
-         "tabs-container#cookie-policy"
+         "flex-layout.col#cookie-policy-menu",
+         "flex-layout.col#cookie-policy-content"
        ],
        "props": {
-       "blockClass": "flex-row-cookie-policy"
+       "blockClass": "flex-row-all-static-pages"
        }
    },
 
-  "tabs-container#cookie-policy": {
+   "flex-layout.col#cookie-policy-menu": {
+       "children": [
+         "rich-text#cookie-policy-category",
+         "rich-text#cookie-policy-title"
+       ],
+       "props": {
+       "blockClass": "flex-col-all-static-pages",
+       "width": "20%"
+       }
+   },
+
+  "rich-text#cookie-policy-category": {
     "props": {
-      "menuTitle": "Termini e condizioni",
-      "orientation": "horizontal",
-      "tabs": [
-        {
-          "title": "Cookie Policy",
-          "id": "tab-wrapper#cookie-policy"
-        }
-      ]
-    },
-    "children": [
-      "tab-wrapper#cookie-policy"
-    ]
+      "text": "Termini e condizioni",
+      "blockClass": "static-pages-category-title"
+    }
+  },
+  "rich-text#cookie-policy-title": {
+    "props": {
+      "text": "Cookie Policy",
+      "blockClass": "static-pages-category-subtitle"
+    }
   },
 
-  "tab-wrapper#cookie-policy": {
-    "props": {
-      "title": "Test 2"
-    },
-    "children": [
-      "flex-layout.col#cookie-policy"
-    ]
-  },
-
-
-    "flex-layout.col#cookie-policy": {
+    "flex-layout.col#cookie-policy-content": {
       "children": [
         "rich-text#cookie-policy-title5",
         "rich-text#cookie-policy-content5"

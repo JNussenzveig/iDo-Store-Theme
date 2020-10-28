@@ -10,8 +10,8 @@
       "children": [
         "flex-layout.row#larmocromia",
         "rich-text#scorpi-tutti-i-prodotti-text-button",
-        "flex-layout.row#larocromiaaprirefranchising",
-        "flex-layout.row#newsletter"
+        "flex-layout.row#store-locator-home-page",
+        "flex-layout.row#newslwtter-banner-hp"
       ]
     },
 
@@ -23,80 +23,48 @@
       ]
     },
 
-   "flex-layout.row#larmocromia": {
+  "flex-layout.row#larmocromia": {
        "children": [
-         "tabs-container#larmocromia"
+         "flex-layout.col#larmocromia-menu",
+         "flex-layout.col#larmocromia-content"
        ],
        "props": {
-       "blockClass": "flex-row-larmocromia"
+       "blockClass": "flex-row-all-static-pages"
        }
    },
 
-   "flex-layout.row#larocromiaaprirefranchising": {
-      "children": [
-       "flex-layout.col#larocromiaaprirefranchising"
-       ],
-       "props": {
-       "blockClass": "flex-row-larocromiaaprirefranchising"
-       }
-   },
-
-   "flex-layout.col#larocromiaaprirefranchising": {
+   "flex-layout.col#larmocromia-menu": {
        "children": [
-       "info-card#contentlarocromiaaprirefranchising"
+         "rich-text#larmocromia-title"
        ],
        "props": {
-       "preventVerticalStretch": true,
-       "blockClass": "aprirefranchisingdesktop"
+       "blockClass": "flex-col-all-static-pages",
+       "width": "20%"
        }
    },
 
-   "info-card#contentlarocromiaaprirefranchising": {
-        "props": {
-        "id": "info-card-larocromiaaprirefranchising-desktop",
-        "isFullModeStyle": false,
-        "textPosition": "left",
-        "imageUrl": "",
-        "headline": "Trova il negozio iDO più vicino a te",
-        "callToActionText": "Inserisci indirizzo",
-        "callToActionUrl": "http://www.google.com",
-        "blockClass": "info-card-larocromiaaprirefranchising-desktop",
-        "textAlignment": "center"
-        }
-   },
-
-
-
-
-
-  "tabs-container#larmocromia": {
+  "rich-text#larmocromia-title": {
     "props": {
-      "menuTitle": "",
-      "orientation": "horizontal",
-      "blockClass": "menu",
-      "tabs": [
-        {
-          "title": "L’armocromia",
-          "id": "tab-wrapper#larmocromia"
-        }
-      ]
-    },
-    "children": [
-      "tab-wrapper#larmocromia"
-    ]
+      "text": "L’armocromia",
+      "blockClass": "larmocromia-category-subtitle"
+    }
   },
 
-  "tab-wrapper#larmocromia": {
-    "props": {
-      "title": "Test 2"
-    },
-    "children": [
+
+
+   "flex-layout.col#larmocromia-content": {
+       "children": [
       "rich-text#larmocromia-title1",
       "rich-text#larmocromia-content1",
       "rich-text#larmocromia-title2",
       "flex-layout.col#larmocromia"
-    ]
-  },
+       ],
+       "props": {
+       "blockClass": "flex-col-all-static-pages",
+       "width": "80%"
+       }
+   },
+
 
   "rich-text#larmocromia-title1": {
           "props": {
@@ -500,6 +468,39 @@
              "blockClass": "scorpi-tutti-i-prodotti-button"
            }
          },
+
+   "flex-layout.row#larocromiaaprirefranchising": {
+      "children": [
+       "flex-layout.col#larocromiaaprirefranchising"
+       ],
+       "props": {
+       "blockClass": "flex-row-larocromiaaprirefranchising"
+       }
+   },
+
+   "flex-layout.col#larocromiaaprirefranchising": {
+       "children": [
+       "info-card#contentlarocromiaaprirefranchising"
+       ],
+       "props": {
+       "preventVerticalStretch": true,
+       "blockClass": "aprirefranchisingdesktop"
+       }
+   },
+
+   "info-card#contentlarocromiaaprirefranchising": {
+        "props": {
+        "id": "info-card-larocromiaaprirefranchising-desktop",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "",
+        "headline": "Trova il negozio iDO più vicino a te",
+        "callToActionText": "Inserisci indirizzo",
+        "callToActionUrl": "http://www.google.com",
+        "blockClass": "info-card-larocromiaaprirefranchising-desktop",
+        "textAlignment": "center"
+        }
+   },
 
 
 /*mobile*/
