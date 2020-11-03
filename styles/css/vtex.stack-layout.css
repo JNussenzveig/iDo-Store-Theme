@@ -87,7 +87,7 @@
   }
 
   .stackContainer--hatSliderStack :global(.vtex-button__label) {
-    color: black !important;
+    color: #001930;
   }
 
   .stackContainer--hatSliderStack :global(.vtex-button__label):hover {
@@ -202,7 +202,7 @@
 }
 
 .stackContainer :global(.vtex-button__label) {
-  color: black!important;
+  color: #001930!important;
 }
 
 .stackContainer :global(.vtex-button__label):hover {
@@ -237,4 +237,63 @@
 }
 
 
-/* top slider ENDS here */
+  :global(.vtex-store-components-3-x-infoCardHeadline--secondLayer-mobile) {
+    position: absolute;
+    top: 0%;
+    width: 780px;
+    max-width: 780px!important;
+    height: 191px;
+    color: #ffffff;
+    font-family: "MuseoJHSans900"!important;
+    font-size: 36px;
+    text-transform: uppercase;
+    left: 17px;
+  }
+  :global(.vtex-store-components-3-x-infoCardHeadline--firstLayer-mobile) {
+    position: absolute;
+    top: 84px;
+    left: 19px;
+    font-size: 20px;
+    font-family: "MuseoJHSans900"!important;
+    color: #ffffff;
+  }
+
+  .stackContainer--hatSliderStack-mobile {
+    width: 1900px;
+    height: 670px;
+  }
+
+
+  .stackContainer--hatSliderStack-mobile :global(.vtex-store-components-3-x-infoCardContainer) {
+    height: 670px;
+    display: flex;
+  }
+
+
+  .stackContainer--hatSliderStack-mobile :global(.vtex-store-components-3-x-infoCardTextContainer) {
+    align-content: flex-start;
+    display: inherit;
+    align-self: flex-end;
+    margin-bottom: 35px;
+    width: 17%;
+  }
+
+  .stackContainer--hatSliderStack-mobile :global(.vtex-button) {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #001930;
+    font-family: "MuseoJHSans900";
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    border-color: white;
+    font-weight: bold;
+    transition: .3s;
+  }
+
+

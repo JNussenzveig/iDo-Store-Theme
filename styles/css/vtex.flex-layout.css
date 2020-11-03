@@ -14,14 +14,14 @@
   }
 }
 
-.flexRowContent--menu-link,
+/*.flexRowContent--menu-link,
 .flexRowContent--main-header {
   padding: 0 0.5rem;
-}
+}*/
 
 
 
-@media screen and (min-width: 40em) {
+/*@media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
     padding: 0 1rem;
@@ -32,7 +32,7 @@
   .flexRowContent--main-header {
     padding: 0 0.25rem;
   }
-}
+}*/
 
 .flexRowContent--menu-link {
   background-color: #F2F2F2;
@@ -46,7 +46,6 @@
 
 .flexRowContent--main-header-mobile {
   align-items: center;
-  padding: 0.625rem 0.5rem;
   background-color: #f0f0f0;
 }
 
@@ -62,7 +61,7 @@
 .flexRowContent--menu-social-networks-header {
   width: 150px;
   height: 100%;
-  padding: 0;
+  padding: 0px;
   margin-top: 12px;
   margin-left: 20px;
 }
@@ -94,7 +93,7 @@
 }
 
 :global(.vtex-rich-text-0-x-container) {
-  cursor: pointer;
+  cursor: default;
 }
 
 :global(.vtex-modal-layout-0-x-triggerContainer) {
@@ -993,12 +992,12 @@
   background-color: #001930;
 }
 
-:global(.vtex-button__label) {
+/*:global(.vtex-button__label) {
   color: #ffffff;
   font-family: "MuseoJHSans900";
   font-size: 18px;
   text-transform: uppercase;
-}
+}*/
 
 :global(.vtex-flex-layout-0-x-flexRowContent--franchisingformsubmitmobile) {
   margin-top: 23px;
@@ -1450,11 +1449,7 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) {
-  max-width: 1250px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 
 :global(.vtex-flex-layout-0-x-flexRowContent--newsletter) {
   max-width: 1250px;
@@ -1634,13 +1629,10 @@
   margin-bottom: 20px;
 }
 
-:global(.vtex-menu-2-x-menuContainerNav) {
+/*:global(.vtex-menu-2-x-menuContainerNav) {
   margin-top: 45px;
-}
+}*/
 
-:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) {
-  margin-top: 25px;
-}
 
 :global(.vtex-flex-layout-0-x-flexRowContent--invia-candidatura-Button) {
   justify-content: center;
@@ -1669,6 +1661,19 @@
   max-width: 100%;
   margin-right: 75px;
   margin-left: 75px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--flex-row-all-static-pages-slider-ogni-occasione) {
+  max-width: 100%;
+  margin-right: 75px;
+  margin-left: 75px;
+  margin-bottom: 39px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--flex-row-all-static-pages-slider-ogni-occasione) {
+  max-width: 1250px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--flex-row-all-static-pages) {
@@ -1856,12 +1861,121 @@
   margin-left: auto;
 }
 
+:global(.vtex-flex-layout-0-x-flexRow--main-header) {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+
+.flexRowContent--menu-link :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: unset!important;
+}
+
+.flexRowContent--menu-social-networks-header :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: unset!important;
+}
+
 :global(.vtex-flex-layout-0-x-flexCol--menu-social-networks-header) {
   margin-left: 75px;
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--header-top-menu) {
   margin-right: 75px;
+}
+
+/* footer mobile */
+
+
+
+:global(.vtex-flex-layout-0-x-flexCol--menu-social-networks-footer-mobile) {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--facebookFooter-mobile) {
+  margin-left: 41px;
+  margin-bottom: 63px;
+  margin-top: 27px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--instagramFooter-mobile) {
+  margin-bottom: 63px;
+  margin-top: 27px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--youtubeFooter-mobile) {
+  margin-bottom: 63px;
+  margin-top: 27px;
+  margin-right: 41px;
+}
+
+
+/* shelf home page DESKTOP*/
+
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf-tutti-i-prodotti) {
+  max-width: 1250px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 26px;
+  margin-bottom: 121px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf-tutti-i-prodotti-mobile) {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDotsContainer--shelf-tutti-i-prodotti-mobile) {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDotsContainer--slider-ogni-occasione-mobile) {
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--shelf-tutti-i-prodotti) {
+  height: 3px !important;
+  width: auto !important;
+  max-width: 100px !important;
+  padding: 0px;
+  flex: 1;
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--slider-ogni-occasione) {
+  height: 3px !important;
+  width: 150px !important;
+  max-width: 150px !important;
+  padding: 0px;
+  flex: 1;
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--shelf-tutti-i-prodotti--isActive) {
+  background-color: #001930;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--slider-ogni-occasione--isActive) {
+  background-color: #001930;
+}
+
+:global(.vtex-slider-layout-0-x-sliderTrackContainer--slider-ogni-occasione) {
+  margin-bottom: 40px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderTrackContainer--shelf-tutti-i-prodotti) {
+  margin-bottom: 40px;
 }
 
 /*static pages resize*/
@@ -1894,4 +2008,285 @@
 
 :global(.vtex-flex-layout-0-x-flexRowContent--modal-aprire-un-franchising-form) {
   margin-top: 40px;
+}
+
+.flexCol--logo-desktop :global(.vtex-store-components-3-x-logoLink) {
+  margin-left: 75px;
+}
+
+.flexCol--logo-mobile :global(.vtex-store-components-3-x-logoLink) {
+  width: unset;
+}
+
+.flexCol--logo-mobile :global(.vtex-store-components-3-x-sizeMobile) {
+  padding: 0px;
+}
+
+.flexCol--logo-mobile :global(.vtex-store-components-3-x-logoImage) {
+  margin: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--header-top-menu-mobile) {
+  margin-top: 63px;
+  margin-bottom: 18px;
+  margin-left: 21px;
+  margin-right: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexCol--logo-mobile) {
+  width: unset;
+}
+
+.flexColChild--nav-menu-header-mobile :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--header-nav-menu-mobile) {
+  flex-direction: row;
+  align-items: center;
+  height: unset;
+}
+
+
+.flexRowContent--level2-notification-bar-mobile :global(.vtex-store-components-3-x-notificationContent) {
+  color: #ffffff;
+  font-family: "MuseoJHSans700";
+  font-size: 15px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*ALL STATIC PAGES mobile*/
+
+.flexRow--flex-row-all-static-pages-mobile :global(.vtex-store-components-3-x-container) {
+  max-width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.flexRow--flex-row-all-static-pages-slider-ogni-occasione-mobile :global(.vtex-store-components-3-x-container) {
+  max-width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--flex-row-all-static-pages-mobile) {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--flex-col-all-static-pages-mobile) {
+  height: auto;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--static-pages-category-subtitle) {
+  margin-top: unset;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--menu-link-mobile) {
+  background-color: white;
+  color: #00263a;
+  transition: background 0.3s ease;
+  will-change: padding,background;
+}
+
+.flex-row-all-static-pages-mobile :global(.vtex-store-components-3-x-container) {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+:global(.vtex-store-components-3-x-container) {
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--shelf-tutti-i-prodotti-mobile) {
+  height: 3px !important;
+  min-width: 60px!important;
+  max-width: 333px!important;
+  padding: 0px;
+  flex: 1;
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--shelf-tutti-i-prodotti-mobile--isActive) {
+  background-color: #001930;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--slider-ogni-occasione-mobile--isActive) {
+  background-color: #001930;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--slider-ogni-occasione-mobile) {
+  height: 3px !important;
+  width: 60px !important;
+  max-width: 333px !important;
+  padding: 0px;
+  flex: 1;
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--flex-row-all-static-pages-slider-ogni-occasione-mobile) {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--image-description-consegna-mobile) {
+  flex-direction: row;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--image-description-spedizione-mobile) {
+  flex-direction: row;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--image-description-reso-mobile) {
+  flex-direction: row;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--image-description-pagamenti-mobile) {
+  flex-direction: row;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--image-footer-consegna-mobile) {
+  margin-left: 18px;
+  margin-right: 9px;
+  width: unset!important;
+  height: unset!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--image-footer-spedizione-mobile) {
+  margin-left: 21px;
+  margin-right: 11px;
+  width: unset!important;
+  height: unset!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--image-footer-reso-mobile) {
+  margin-left: 32px;
+  margin-right: 23px;
+  width: unset!important;
+  height: unset!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--image-footer-pagamenti-mobile) {
+  margin-left: 31px;
+  margin-right: 22px;
+  width: unset!important;
+  height: unset!important;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexCol--image-description-consegna-mobile) {
+  margin-top: 44px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--image-description-reso-mobile) {
+  margin-top: 44px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--image-description-spedizione-mobile) {
+  margin-top: 44px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--image-description-pagamenti-mobile) {
+  margin-top: 44px;
+  margin-right: 52px;
+}
+
+:global(.vtex-rich-text-0-x-container--footer-Hai-bisogno-di-aiuto-mobile) {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-rich-text-0-x-container--footer-contatti-mobile) {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 45px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--title-subtitle-consegna-spedizione-reso-pagamenti-mobile) {
+  height: unset!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--title-subtitle-vendita-negozi-impresa-mobile) {
+  margin-left: 20px;
+  margin-top: 36px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  width: unset;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--title-subtitle-vendita-mobile) {
+  margin-right: 10px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--title-subtitle-vendita-mobile) {
+  height: unset!important;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--title-subtitle-negozi-mobile) {
+  height: unset!important;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--title-subtitle-impresa-mobile) {
+  height: unset!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--footer-credits-mobile) {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-footer-category-title-mobile) {
+  color: #001930;
+  text-align: left;
+  font-family: "MuseoJHSans500";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--menu-item-footer-subcategory-title-mobile-submenu) {
+  color: #001930;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--menu-footer-mobile) {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-menu-2-x-menuItem--menu-footer-category-title-mobile) {
+  width: 100%;
+  margin-bottom: unset!important;
+}
+
+:global(.vtex-menu-2-x-menuItem--menu-item-footer-subcategory-title-mobile-submenu) {
+  margin-bottom: 0px!important;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--menu-item-footer-subcategory-title-mobile-submenu) {
+  padding-top: 17px;
+  padding-bottom: 0px;
+}
+
+:global(.vtex-menu-2-x-submenuAccordion--submenu-footer-mobile) {
+  margin-bottom: 13px!important;
 }

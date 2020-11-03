@@ -753,7 +753,7 @@
         },
        "rich-text#category-menu-scopri-i-negozi-iDO-footer": {
            "props": {
-             "text": "<a class='vtex-subcategory-menu-footer' href='/our-stores'>Scopri i negozi iDO",
+             "text": "<a class='vtex-subcategory-menu-footer' href='/our-stores?__bindingAddress=www.ido.it/it'>Scopri i negozi iDO",
              "blockClass": "subcategory-menu-footer"
            }
         },

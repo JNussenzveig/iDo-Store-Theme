@@ -30,16 +30,6 @@
    },
 
 
-   "flex-layout.row#newsletter": {
-        "children": [
-        "newsletter#chiSiamoDesktop"
-        ],
-        "props": {
-        "blockClass": "flex-row-newsletter"
-        }
-
-   },
-
   "tabs-container#azienda": {
     "props": {
       "menuTitle": "Azienda",
@@ -383,7 +373,12 @@
              "slider-layout#photo-store-desktop": {
                "children": [
                  "image#photo-store-1",
-                 "image#photo-store-2"
+                 "image#photo-store-2",
+                 "image#photo-store-3",
+                 "image#photo-store-4",
+                 "image#photo-store-5",
+                 "image#photo-store-6",
+                 "image#photo-store-7"
 
                ],
                "props": {
@@ -396,23 +391,53 @@
                  "fullWidth": true,
                  "showNavigationArrows": "never",
                  "showPaginationDots": "never",
-                 "autoplay": { "stopOnHover": false, "timeout": 3000},
+                 "autoplay": { "stopOnHover": false, "timeout": 4000},
                  "navigationStep": 1,
-                 "slideTransition": { "speed": 400, "delay": 0, "timing": "" },
+                 "slideTransition": { "speed": 1200, "delay": 0, "timing": "" },
                  "blockClass": "photozerofee"
                }
              },
 
             "image#photo-store-1": {
               "props": {
-                "src": "/arquivos/iDO-Milano-3-1280x720.jpg"
+                "src": "/arquivos/franchising_420x405_0000__MG_4103.jpg"
               }
             },
             "image#photo-store-2": {
               "props": {
-                "src": "/arquivos/iDO-Milano-3-1280x720.jpg"
+                "src": "/arquivos/franchising_420x405_0001__MG_4105.jpg"
               }
             },
+
+            "image#photo-store-3": {
+              "props": {
+                "src": "/arquivos/franchising_420x405_0002__MG_4108.jpg"
+              }
+            },
+
+            "image#photo-store-4": {
+              "props": {
+                "src": "/arquivos/franchising_420x405_0003__MG_4113.jpg"
+              }
+            },
+
+            "image#photo-store-5": {
+              "props": {
+                "src": "/arquivos/franchising_420x405_0004__MG_4121.jpg"
+              }
+            },
+
+            "image#photo-store-6": {
+               "props": {
+                 "src": "/arquivos/franchising_420x405_0005__MG_4127.jpg"
+               }
+             },
+
+            "image#photo-store-7": {
+               "props": {
+                 "src": "/arquivos/franchising_420x405_0006__MG_4160.jpg"
+               }
+             },
 
 
   "flex-layout.row#franchisingCandidatura": {
@@ -484,7 +509,7 @@
       },
       "rich-text#faq-modal-subtitle": {
           "props": {
-          "text": "Se hai domande frequenti lorem ipsum dolor sit",
+          "text": "Se hai domande frequenti",
           "blockClass": "faq-modal-subtitle"
           }
       },
@@ -567,12 +592,6 @@
              }
        },
 
-/*  "info-card#photoFaq": {
-    "props": {
-      "imageUrl": "/arquivos/faq_franchising.png",
-      "blockClass": "imageFaq"
-    }
-  },*/
 
        "image#photoFaq": {
            "props": {
@@ -584,7 +603,7 @@
 
   "rich-text#faq": {
     "props": {
-      "text": "FAQ<br>Domande frequenti lorem",
+      "text": "FAQ<br>Domande frequenti",
       "blockClass": "textFaq"
     }
   },
@@ -635,12 +654,6 @@
            }
      },
 
-/*  "info-card#photoPdf": {
-    "props": {
-      "imageUrl": "/arquivos/pdfFranchising.png",
-      "blockClass": "imagePdf"
-    }
-  },*/
 
        "image#photoPdf": {
            "props": {
@@ -656,13 +669,6 @@
     }
   },
 
-
-
- /* "modal-trigger#modal-franchising-button": {
-    "children": [
-      "rich-text#franchisingTextButton"
-    ]
-  },*/
 
 
     "flex-layout.row#modal-aprire-un-franchising-form": {
@@ -936,14 +942,6 @@
       },
 
 
-  "newsletter#chiSiamoDesktop": {
-               "props": {
-                 "blockClass": "newsletterSiamoDesktop",
-                 "label": "Iscriviti alla newsletter",
-                 "placeholder": "Inserisci la tua email",
-                 "hideLabel": false
-               }
-        },
 
 /*rete vendite*/
 
@@ -2259,7 +2257,7 @@
          "flex-layout.col#lavora-con-noi": {
             "children": [
               "rich-text#lavora-con-noi-content",
-              "flex-layout.row#invia-candidatura-Button"
+              "rich-text#lavora-con-noi-link"
             ],
             "props": {
               "preventVerticalStretch": true,
@@ -2273,38 +2271,13 @@
             "blockClass": "lavora-con-noi-content"
             }
           },
-            "flex-layout.row#invia-candidatura-Button": {
-              "children": [
-              "flex-layout.col#invia-candidatura-Button"
-              ],
-              "props": {
-                "preventHorizontalStretch": true,
-                "fullWidth": true,
-                "blockClass": "invia-candidatura-Button"
-              }
-            },
 
-         "flex-layout.col#invia-candidatura-Button": {
-            "children": [
-              "upload-button#Vuoilavorare"
-            ],
-            "props": {
-              "preventVerticalStretch": true,
-              "blockClass": "linvia-candidatura-Button"
-            }
-          },
-
-      "upload-button#Vuoilavorare": {
-        "props": {
-          "environment": "storeido",
-          "entity": "CV",
-          "fieldName": "cv",
-          "text": "Lascia il tuo CV",
-          "successMessage": "File uploaded",
-          "errorMessage": "Error",
-          "singleUpload": false
-      }
-    }
+           "rich-text#lavora-con-noi-link": {
+             "props": {
+             "text": "<a class='vtex-lavora-con-noi-link' href='http://web.miniconf.it/RecruitSelection/servlet/hvse_bstart?Theme=SpTheme_ZIP&Parameter=PARAMDEFSE&Company=000001&Idcompany=000000&Language=ITA&pProcedure=hvse_welcome&pLogin=&pFreeappl=S&Idchannel=&Idjobarea=0000000001'>web.miniconf.it/RecruitSelection",
+             "blockClass": "lavora-con-noi-link"
+             }
+           }
 
 }
 

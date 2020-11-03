@@ -10,13 +10,17 @@
   text-align: center;
 }
 
-.headingLevel2--shelfTitle {
+
+:global(.vtex-rich-text-0-x-headingLevel2--title-banners-home-page) {
   color: #001930;
   font-family: "MuseoJHSans900";
   font-size: 35px;
+  font-style: normal;
+  letter-spacing: normal;
   line-height: 29px;
-  font-weight: 900;
+  text-align: left;
 }
+
 
 :global(.vtex-rich-text-0-x-container--shelfTitle) {
   max-width: 1250px;
@@ -69,7 +73,7 @@
   justify-content: center;
 }
 
-.container--question {
+/*.container--question {
   justify-content: center;
 }
 
@@ -79,9 +83,9 @@
 
 .container--question .paragraph {
   max-width: 1528px;
-}
+}*/
 
-:global(.vtex-rich-text-wrapper) {
+/*:global(.vtex-rich-text-wrapper) {
   width: 1520px;
   background-repeat: no-repeat;
   position: relative;
@@ -95,7 +99,7 @@
   flex-direction: column;
 }
 
-:global(.vtex-rich-text-title) {
+/*:global(.vtex-rich-text-title) {
   position: absolute;
   top: 400px;
   left: 50px;
@@ -120,9 +124,9 @@
   width: 190px;
   height: 50px;
   display: flex;
-}
+}*/
 
-:global(.vtex-rich-text-href) {
+/*:global(.vtex-rich-text-href) {
   text-decoration: none;
   color: white;
   margin-left: 50px;
@@ -137,13 +141,13 @@
 :global(.vtex-rich-text-image) {
   width: 100%;
 }
+*/
 
-
-.container--question .strong {
+/*.container--question .strong {
   font-size: 32px;
   line-height: 2rem;
   font-weight: 700;
-}
+}*/
 
 .container--link .paragraph {
   max-width: 540px;
@@ -172,7 +176,7 @@
   font-weight: 700;
 }
 
-@media only screen and (min-width: 640px) {
+/*@media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
     line-height: 3rem;
@@ -192,7 +196,7 @@
   .container--title .paragraph {
     line-height: 1.3em;
   }
-}
+}*/
 
 /*Mobile version styling begins here */
 
@@ -1992,7 +1996,6 @@
   font-size: 20px;
   line-height: 21px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-
 }
 
 :global(.vtex-menu-2-x-accordionIcon--menu-item-rete-vendite--isOpen)::after {
@@ -2844,23 +2847,7 @@
   margin-top: 30px;
 }
 
-:global(.vtex-rich-text-0-x-paragraph--invia-candidatura-Button) {
-  width: 335px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: #001930;
-}
 
-:global(.vtex-invia-candidatura-Button) {
-  color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 18px;
-  line-height: 21px;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  padding-top: 8px;
-}
 
 /*iscrivitti alla newsletter mobile*/
 
@@ -3797,6 +3784,11 @@
   color: #001930;
 }
 
+:global(.vtex-rich-text-0-x-link--footer-consegna-spedizione-reso-pagamenti-content-mobile) {
+  text-decoration: underline;
+  color: #001930;
+}
+
 :global(.vtex-rich-text-0-x-paragraph--category-menu-footer) {
   color: #ffffff;
   font-family: "Avenir Light";
@@ -3914,4 +3906,220 @@
 
 :global(.vtex-rich-text-0-x-wrapper--franchisingButton) {
   width: 467px;
+}
+
+:global(.vtex-rich-text-0-x-heading--shelfTitle-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+  margin-left: 18px;
+  margin-top: 61px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--linvia-candidatura-Button) {
+  width: 335px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+}
+
+:global(.vtex-rich-text-0-x-heading--shelfTitle-ogniOccasioni) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+}
+
+
+/* slider ogni occasione desktop*/
+
+:global(.vtex-title-slider-ogni-occasione) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+  margin-left: 32px;
+  text-decoration: none;
+}
+
+:global(.vtex-title-slider-ogni-occasione-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+:global(.vtex-rich-text-0-x-container--title-slider-ogni-occasione-mobile) {
+  margin-bottom: 20px;
+}
+
+:global(.vtex-lavora-con-noi-link) {
+  font-family: "MuseoJHSans900";
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  text-decoration: underline;
+  color: #001930;
+}
+
+/* footer mobile */
+
+:global(.vtex-rich-text-0-x-paragraph--footer-Seguici-sui-nostri-social-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans700";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: center;
+  margin-left: 24px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-Hai-bisogno-di-aiuto-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans700";
+  font-size: 25px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-contatti-mobile) {
+  color: #001930;
+  font-family: "MuseoJHSans700";
+  font-size: 25px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: center;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-consegna-spedizione-reso-pagamenti-title-mobile) {
+  color: #001930;
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-family: "MuseoJHSans700";
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-consegna-spedizione-reso-pagamenti-content-mobile) {
+  color: #001930;
+  font-size: 18px;
+  text-align: left;
+  font-family: "MuseoJHSans300";
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--footer-contatti-mobile) {
+  width: 100%;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--content-vendita-negozi-impresa-mobile) {
+  margin-bottom: 32px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-title-credits-mobile) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans300";
+  font-size: 12px;
+  font-style: normal;
+  letter-spacing: -0.46px;
+  line-height: 11px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: unset!important;
+  margin-bottom: unset!important;
+}
+
+:global(.vtex-rich-text-0-x-link--footer-subtitle-credits-mobile) {
+  color: #5a5a5a;
+  text-decoration: none;
+}
+
+:global(.vtex-rich-text-0-x-container--footer-title-credits-mobile) {
+  justify-content: center;
+  margin-top: 28px;
+}
+
+:global(.vtex-rich-text-0-x-container--footer-subtitle-credits-mobile) {
+  justify-content: center;
+  margin-top: 29px;
+  margin-bottom: 21px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-subtitle-credits-mobile) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans300";
+  font-size: 8px;
+  font-style: normal;
+  letter-spacing: -0.31px;
+  line-height: 11px;
+  text-align: center;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-footer-category-title-mobile--isOpen)::after {
+  content: "";
+  width: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 8px;
+  background-image: url(/arquivos/arrowup.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-footer-category-title-mobile--isClosed)::after {
+  content: "";
+  width: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 8px;
+  background-image: url(/arquivos/arrowdown.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+:global(.vtex-menu-2-x-accordionIcon--menu-footer-category-title-mobile--isOpen) {
+  color: transparent;
+}
+:global(.vtex-menu-2-x-accordionIcon--menu-footer-category-title-mobile--isClosed) {
+  color: transparent;
+}
+
+:global(.vtex-rich-text-0-x-container--login-text-class) {
+  bottom: 45px;
+  position: relative;
+  left: 27px;
+  cursor: pointer;
 }
