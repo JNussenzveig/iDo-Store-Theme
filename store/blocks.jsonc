@@ -105,5 +105,10 @@
       "text": "**PAGE NOT FOUND**",
       "font": "t-heading-1"
     }
-  }
+  },
+
+   "store.custom#our-stores": {
+      "children": ["our-stores"]
+    }
+
 }

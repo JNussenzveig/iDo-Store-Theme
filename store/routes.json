@@ -1,8 +1,12 @@
 {
-    "store.custom#about-us": {
+  "store.custom#about-us": {
     "path": "/about-us"
   },
   "store.custom#stores": {
     "path": "/stores"
+  },
+
+  "store.custom#our-stores": {
+    "path": "/our-stores"
   }
 }
