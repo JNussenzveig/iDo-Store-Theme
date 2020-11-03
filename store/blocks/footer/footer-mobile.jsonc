@@ -1,115 +1,1213 @@
 {
-
-
-/*
-
-  "vtex.menu@2.x:menu#footer-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
-      "menu-item#sale-mobile"
-    ]
-  },
-
-  "menu-item#clothing-mobile": {
-    "props": {
-      "id": "menu-item-category-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/d",
-        "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
-  },
-  "vtex.menu@2.x:submenu.accordion#clothing": {
-    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
-  },
-
-  "vtex.menu@2.x:menu#clothing-accordion": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#guida",
-      "menu-item#tempi",
-      "menu-item#resi",
-      "menu-item#order",
-      "menu-item#contattaci",
-      "menu-item#iscritivi"
-    ]
-  },
-
-  "menu-item#decoration-mobile": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Decoration",
-        "text": "Decoration"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
-  },
-  "vtex.menu@2.x:submenu.accordion#decoration": {
-    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
-  },
-
-  "vtex.menu@2.x:menu#footer-decoration-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#myido",
-      "menu-item#scopri"
-    ]
-  },
-
-  "menu-item#sale-mobile": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Sale",
-        "text": "Sale"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
-  },
-  "vtex.menu@2.x:submenu.accordion#sale": {
-    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
-  },
-
-  "vtex.menu@2.x:menu#footer-sale-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#myido",
-      "menu-item#scopri"
-    ]
-  },
-
-
-
-
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#footer-0-mobile",
-      "flex-layout.row#footer-1-mobile",
-      "flex-layout.row#footer-2-mobile",
-      "flex-layout.row#footer-3-mobile",
-      "flex-layout.row#footer-6-mobile",
-      "flex-layout.row#footer-4-mobile",
-      "flex-layout.row#footer-5-mobile"
+      "flex-layout.row#level1-Seguici-sui-nostri-social-mobile",
+      "flex-layout.row#level2-Hai-bisogno-di-aiuto-mobile",
+      "flex-layout.row#level3-image-title-subtitle-consegna-spedizione-reso-pagamenti-mobile",
+      "flex-layout.row#level6-contatti-mobile",
+      "flex-layout.row#level7-title-subtitle-vendita-negozi-impresa-mobile",
+      "flex-layout.row#menu-footer-azienda-mobile",
+      "flex-layout.row#menu-footer-servizio-clienti-mobile",
+      "flex-layout.row#menu-footer-termini-e-condizioni-mobile",
+      "flex-layout.row#menu-footer-store-locator-mobile",
+      "flex-layout.row#menu-footer-partener-lab-mobile",
+      "flex-layout.row#footer-credits-mobile"
     ]
-  }
+  },
 
-*/
+  /*level 1 footer Seguici-sui-nostri-social-mobile*/
+
+    "flex-layout.row#level1-Seguici-sui-nostri-social-mobile": {
+      "children": [
+        "flex-layout.row#Seguici-sui-nostri-social-mobile",
+        "flex-layout.row#footer-social-networks-footer-mobile"
+      ],
+      "props": {
+        "blockClass": "level1-Seguici-sui-nostri-social-mobile"
+      }
+    },
+
+    "flex-layout.row#Seguici-sui-nostri-social-mobile": {
+      "props": {
+        "verticalAlign": "middle",
+        "blockClass": "footerWhite-mobile"
+      },
+      "children": ["rich-text#Seguici-sui-nostri-social-mobile"]
+    },
+
+    "rich-text#Seguici-sui-nostri-social-mobile": {
+      "props": {
+        "text": "Seguici sui nostri social",
+        "blockClass": "footer-Seguici-sui-nostri-social-mobile"
+      }
+    },
+
+    "flex-layout.row#footer-social-networks-footer-mobile": {
+    "children": [
+      "flex-layout.col#footer-social-networks-footer-mobile"
+    ],
+    "props": {
+      "blockClass": "menu-social-networks-footer-mobile"
+    }
+  },
 
 
+    "flex-layout.col#footer-social-networks-footer-mobile": {
+    "children": [
+    "flex-layout.col#facebookFooter-mobile",
+    "flex-layout.col#instagramFooter-mobile",
+    "flex-layout.col#youtubeFooter-mobile"
+    ],
+    "props": {
+      "blockClass": "menu-social-networks-footer-mobile"
+    }
+  },
+
+    "flex-layout.col#facebookFooter-mobile": {
+       "children": [
+         "image#facebookFooter-mobile"
+       ],
+       "props": {
+         "blockClass": "facebookFooter-mobile"
+       }
+    },
+
+    "image#facebookFooter-mobile": {
+      "props": {
+        "src": "/arquivos/Icon_facebook@4x.png",
+        "maxHeight": 51,
+        "maxWidth": 51,
+        "link": {
+          "newTab": true,
+          "url": "https://it-it.facebook.com/iDO.kidswear"
+        }
+      }
+    },
+
+    "flex-layout.col#instagramFooter-mobile": {
+       "children": [
+         "image#instagramFooter-mobile"
+       ],
+       "props": {
+         "blockClass": "instagramFooter-mobile"
+       }
+    },
+
+    "image#instagramFooter-mobile": {
+      "props": {
+        "src": "/arquivos/Icon_instagram@4x.png",
+        "maxHeight": 51,
+        "maxWidth": 51,
+        "alt": "instagram.com",
+        "title": "instagram.com",
+        "link": {
+          "newTab": true,
+          "url": "https://www.instagram.com/idokidswear/"
+        }
+      }
+    },
+
+    "flex-layout.col#youtubeFooter-mobile": {
+       "children": [
+         "image#youtubeFooter-mobile"
+       ],
+       "props": {
+         "blockClass": "youtubeFooter-mobile"
+       }
+    },
+
+    "image#youtubeFooter-mobile": {
+      "props": {
+        "src": "/arquivos/Icon_youtube@4x.png",
+        "maxHeight": 45,
+        "maxWidth": 61,
+        "alt": "youtube.com",
+        "title": "youtube.com",
+        "link": {
+          "newTab": true,
+          "url": "https://www.youtube.com/user/idokidswear?feature=results_main"
+        }
+      }
+    },
+
+  /* level 2 footer HAI BISOGNO DI AIUTO? */
+
+    "flex-layout.row#level2-Hai-bisogno-di-aiuto-mobile": {
+      "children": [
+        "rich-text#level2-Hai-bisogno-di-aiuto-mobile"
+      ],
+      "props": {
+        "blockClass": "menu-level2-Hai-bisogno-di-aiuto-mobile"
+      }
+    },
+
+    "rich-text#level2-Hai-bisogno-di-aiuto-mobile": {
+      "props": {
+        "text": "HAI BISOGNO DI AIUTO?",
+        "blockClass": "footer-Hai-bisogno-di-aiuto-mobile"
+      }
+    },
+
+  /*level 3 footer images */
+
+    "flex-layout.row#level3-image-title-subtitle-consegna-spedizione-reso-pagamenti-mobile": {
+      "props": {
+        "blockClass": "image-title-subtitle-consegna-spedizione-reso-pagamenti-mobile"
+      },
+      "children": [
+      "flex-layout.col#image-description-consegna-mobile",
+      "flex-layout.col#image-description-spedizione-mobile",
+      "flex-layout.col#image-description-reso-mobile",
+      "flex-layout.col#image-description-pagamenti-mobile"
+      ]
+    },
+
+/*footer consegna*/
+
+    "flex-layout.col#image-description-consegna-mobile": {
+      "props": {
+        "blockClass": "image-description-consegna-mobile"
+      },
+      "children": [
+      "flex-layout.col#image-consegna-mobile",
+      "flex-layout.col#title-subtitle-consegna-mobile"
+      ]
+    },
+
+    "flex-layout.col#image-consegna-mobile": {
+      "props": {
+        "blockClass": "image-footer-consegna-mobile"
+      },
+      "children": ["image#footer-consegna-mobile"]
+    },
+
+    "image#footer-consegna-mobile": {
+      "props": {
+        "blockClass": "footer-image-consegna-mobile",
+        "src": "/arquivos/consegna_mobile@4x.png",
+        "maxHeight": 46,
+        "maxWidth": 77
+        }
+    },
+
+    "flex-layout.col#title-subtitle-consegna-mobile": {
+      "props": {
+        "blockClass": "title-subtitle-consegna-spedizione-reso-pagamenti-mobile"
+      },
+      "children": [
+      "flex-layout.col#title-consegna-mobile",
+      "flex-layout.col#content-consegna-mobile"
+      ]
+    },
+
+
+
+    "flex-layout.col#title-consegna-mobile": {
+      "props": {
+        "blockClass": "title-consegna-spedizione-reso-pagamenti-mobile"
+      },
+      "children": ["rich-text#footer-consegna-title-mobile"]
+    },
+
+    "rich-text#footer-consegna-title-mobile": {
+      "props": {
+        "text": "Consegna rapida",
+        "blockClass": "footer-consegna-spedizione-reso-pagamenti-title-mobile"
+      }
+    },
+
+
+    "flex-layout.col#content-consegna-mobile": {
+      "props": {
+        "blockClass": "content-consegna-spedizione-reso-pagamenti-mobile"
+      },
+      "children": ["rich-text#footer-consegna-content-mobile"]
+    },
+
+    "rich-text#footer-consegna-content-mobile": {
+      "props": {
+        "text": "Entro 3 giorni lavorativi",
+        "blockClass": "footer-consegna-spedizione-reso-pagamenti-content-mobile"
+      }
+    },
+
+/* footer spedizione*/
+
+    "flex-layout.col#image-description-spedizione-mobile": {
+      "props": {
+        "blockClass": "image-description-spedizione-mobile"
+      },
+      "children": [
+      "flex-layout.col#image-spedizione-mobile",
+      "flex-layout.col#title-subtitle-spedizione-mobile"
+      ]
+    },
+
+    "flex-layout.col#image-spedizione-mobile": {
+      "props": {
+        "blockClass": "image-footer-spedizione-mobile"
+      },
+      "children": ["image#footer-spedizione-mobile"]
+    },
+
+    "image#footer-spedizione-mobile": {
+      "props": {
+        "blockClass": "footer-image-spedizione-mobile",
+        "src": "/arquivos/spedizione_mobile@4x.png",
+        "maxHeight": 44,
+        "maxWidth": 72
+        }
+    },
+
+    "flex-layout.col#title-subtitle-spedizione-mobile": {
+      "props": {
+        "blockClass": "title-subtitle-consegna-spedizione-reso-pagamenti-mobile"
+      },
+      "children": [
+      "flex-layout.col#title-spedizione-mobile",
+      "flex-layout.col#content-spedizione-mobile"
+      ]
+    },
+
+
+
+    "flex-layout.col#title-spedizione-mobile": {
+      "props": {
+        "blockClass": "title-consegna-spedizione-reso-pagamenti-mobile"
+      },
+      "children": ["rich-text#footer-spedizione-title-mobile"]
+    },
+
+    "rich-text#footer-spedizione-title-mobile": {
+      "props": {
+        "text": "Spedizione Gratuita",
+        "blockClass": "footer-consegna-spedizione-reso-pagamenti-title-mobile"
+      }
+    },
+
+
+    "flex-layout.col#content-spedizione-mobile": {
+      "props": {
+        "blockClass": "content-consegna-spedizione-reso-pagamenti-mobile"
+      },
+      "children": ["rich-text#footer-spedizione-content-mobile"]
+    },
+
+    "rich-text#footer-spedizione-content-mobile": {
+      "props": {
+        "text": "Per ordini superiori a 70€ o per consegna nei negozi myiDO",
+        "blockClass": "footer-consegna-spedizione-reso-pagamenti-content-mobile"
+      }
+    },
+
+/* footer reso*/
+
+    "flex-layout.col#image-description-reso-mobile": {
+      "props": {
+        "blockClass": "image-description-reso-mobile"
+      },
+      "children": [
+      "flex-layout.col#image-reso-mobile",
+      "flex-layout.col#title-subtitle-reso-mobile"
+      ]
+    },
+
+    "flex-layout.col#image-reso-mobile": {
+      "props": {
+        "blockClass": "image-footer-reso-mobile"
+      },
+      "children": ["image#footer-reso-mobile"]
+    },
+
+    "image#footer-reso-mobile": {
+      "props": {
+        "blockClass": "footer-image-reso-mobile",
+        "src": "/arquivos/reso_mobile@4x.png",
+        "maxHeight": 49,
+        "maxWidth": 49
+        }
+    },
+
+    "flex-layout.col#title-subtitle-reso-mobile": {
+      "props": {
+        "blockClass": "title-subtitle-consegna-spedizione-reso-pagamenti-mobile"
+      },
+      "children": [
+      "flex-layout.col#title-reso-mobile",
+      "flex-layout.col#content-reso-mobile"
+      ]
+    },
+
+
+
+    "flex-layout.col#title-reso-mobile": {
+      "props": {
+        "blockClass": "title-consegna-spedizione-reso-pagamenti-mobile"
+      },
+      "children": ["rich-text#footer-reso-title-mobile"]
+    },
+
+    "rich-text#footer-reso-title-mobile": {
+      "props": {
+        "text": "Reso entro 14 giorni",
+        "blockClass": "footer-consegna-spedizione-reso-pagamenti-title-mobile"
+      }
+    },
+
+
+    "flex-layout.col#content-reso-mobile": {
+      "props": {
+        "blockClass": "content-consegna-spedizione-reso-pagamenti-mobile"
+      },
+      "children": ["rich-text#footer-reso-content-mobile"]
+    },
+
+    "rich-text#footer-reso-content-mobile": {
+      "props": {
+        "text": "Reso gratuito per i clienti<br>myiDO",
+        "blockClass": "footer-consegna-spedizione-reso-pagamenti-content-mobile"
+      }
+    },
+
+
+/* footer pagamenti*/
+
+    "flex-layout.col#image-description-pagamenti-mobile": {
+      "props": {
+        "blockClass": "image-description-pagamenti-mobile"
+      },
+      "children": [
+      "flex-layout.col#image-pagamenti-mobile",
+      "flex-layout.col#title-subtitle-pagamenti-mobile"
+      ]
+    },
+
+    "flex-layout.col#image-pagamenti-mobile": {
+      "props": {
+        "blockClass": "image-footer-pagamenti-mobile"
+      },
+      "children": ["image#footer-pagamenti-mobile"]
+    },
+
+    "image#footer-pagamenti-mobile": {
+      "props": {
+        "blockClass": "footer-image-pagamenti-mobile",
+        "src": "/arquivos/pagamneti_mobile@4x.png",
+        "maxHeight": 42,
+        "maxWidth": 51
+        }
+    },
+
+    "flex-layout.col#title-subtitle-pagamenti-mobile": {
+      "props": {
+        "blockClass": "title-subtitle-consegna-spedizione-reso-pagamenti-mobile"
+      },
+      "children": [
+      "flex-layout.col#title-pagamenti-mobile",
+      "flex-layout.col#content-pagamenti-mobile"
+      ]
+    },
+
+
+
+    "flex-layout.col#title-pagamenti-mobile": {
+      "props": {
+        "blockClass": "title-consegna-spedizione-reso-pagamenti-mobile"
+      },
+      "children": ["rich-text#footer-pagamenti-title-mobile"]
+    },
+
+    "rich-text#footer-pagamenti-title-mobile": {
+      "props": {
+        "text": "Pagamenti Sicuri",
+        "blockClass": "footer-consegna-spedizione-reso-pagamenti-title-mobile"
+      }
+    },
+
+
+    "flex-layout.col#content-pagamenti-mobile": {
+      "props": {
+        "blockClass": "content-consegna-spedizione-reso-pagamenti-mobile"
+      },
+      "children": ["rich-text#footer-pagamenti-content-mobile"]
+    },
+
+    "rich-text#footer-pagamenti-content-mobile": {
+      "props": {
+        "text": "Ogni transazione è sicura e crittografata",
+        "blockClass": "footer-consegna-spedizione-reso-pagamenti-content-mobile"
+      }
+    },
+
+
+  /* level 6 contatti */
+
+
+    "flex-layout.row#level6-contatti-mobile": {
+      "children": [
+        "rich-text#level6-contatti-mobile"
+      ],
+      "props": {
+        "blockClass": "menu-level6-contatti-mobile"
+      }
+    },
+
+    "rich-text#level6-contatti-mobile": {
+      "props": {
+        "text": "CONTATTI",
+        "blockClass": "footer-contatti-mobile"
+      }
+    },
+
+
+  /* level 7 vendita-negozi-impresa title*/
+
+    "flex-layout.row#level7-title-subtitle-vendita-negozi-impresa-mobile": {
+      "props": {
+        "blockClass": "title-subtitle-vendita-negozi-impresa-mobile"
+      },
+      "children": [
+      "flex-layout.col#title-subtitle-vendita-mobile",
+      "flex-layout.col#title-subtitle-negozi-mobile",
+      "flex-layout.col#title-subtitle-impresa-mobile"
+      ]
+    },
+
+/*vendita*/
+
+    "flex-layout.col#title-subtitle-vendita-mobile": {
+      "props": {
+        "blockClass": "title-subtitle-vendita-mobile"
+      },
+      "children": [
+      "flex-layout.col#title-vendita-mobile",
+      "flex-layout.col#level8-content-vendita-mobile"
+      ]
+    },
+
+
+    "flex-layout.col#title-vendita-mobile": {
+      "props": {
+        "blockClass": "title-vendita-negozi-impresa-mobile"
+      },
+      "children": ["rich-text#footer-vendita-title-mobile"]
+    },
+
+    "rich-text#footer-vendita-title-mobile": {
+      "props": {
+        "text": "Vendita Online",
+        "blockClass": "footer-consegna-spedizione-reso-pagamenti-title-mobile"
+      }
+    },
+
+    "flex-layout.col#level8-content-vendita-mobile": {
+      "props": {
+        "blockClass": "content-vendita-negozi-impresa-mobile"
+      },
+      "children": ["rich-text#footer-vendita-content-mobile"]
+    },
+
+    "rich-text#footer-vendita-content-mobile": {
+      "props": {
+        "text": "customerservice@ido.it - 0575 533444<br>Dal lunedì al venerdì dalle 8:30<br>alle 11:00 e dalle 13:00 alle 15:00",
+        "blockClass": "footer-consegna-spedizione-reso-pagamenti-content-mobile"
+      }
+    },
+
+/* negozi*/
+
+    "flex-layout.col#title-subtitle-negozi-mobile": {
+      "props": {
+        "blockClass": "title-subtitle-negozi-mobile"
+      },
+      "children": [
+      "flex-layout.col#title-negozi-mobile",
+      "flex-layout.col#content-negozi-mobile"
+      ]
+    },
+
+    "flex-layout.col#title-negozi-mobile": {
+      "props": {
+        "blockClass": "title-consegna-spedizione-reso-pagamenti-mobile"
+      },
+      "children": ["rich-text#footer-negozi-title-mobile"]
+    },
+
+
+    "rich-text#footer-negozi-title-mobile": {
+      "props": {
+        "text": "Negozi",
+        "blockClass": "footer-consegna-spedizione-reso-pagamenti-title-mobile"
+      }
+    },
+
+    "flex-layout.col#content-negozi-mobile": {
+      "props": {
+        "blockClass": "content-vendita-negozi-impresa-mobile"
+      },
+      "children": ["rich-text#footer-negozi-content-mobile"]
+    },
+
+    "rich-text#footer-negozi-content-mobile": {
+      "props": {
+        "text": "assistenzaclienti@miniconf.it<br>0575 533248<br>Dal lunedì al venerdì dalle 8:30 alle 18:00",
+        "blockClass": "footer-consegna-spedizione-reso-pagamenti-content-mobile"
+      }
+    },
+
+
+/*impresa*/
+
+    "flex-layout.col#title-subtitle-impresa-mobile": {
+      "props": {
+        "blockClass": "title-subtitle-impresa-mobile"
+      },
+      "children": [
+      "flex-layout.col#title-impresa-mobile",
+      "flex-layout.col#content-impresa-mobile"
+      ]
+    },
+
+    "flex-layout.col#title-impresa-mobile": {
+      "props": {
+        "blockClass": "title-consegna-spedizione-reso-pagamenti-mobile"
+      },
+      "children": ["rich-text#footer-impresa-title-mobile"]
+    },
+
+    "rich-text#footer-impresa-title-mobile": {
+      "props": {
+        "text": "Impresa",
+        "blockClass": "footer-consegna-spedizione-reso-pagamenti-title-mobile"
+      }
+    },
+
+   "flex-layout.col#content-impresa-mobile": {
+      "props": {
+        "blockClass": "content-vendita-negozi-impresa-mobile"
+      },
+      "children": ["rich-text#footer-impresa-content-mobile"]
+    },
+
+    "rich-text#footer-impresa-content-mobile": {
+      "props": {
+        "text": "info@ido.it - 0575 5331<br>Dal lunedì al venerdì dalle 8:30<br>alle 18:00",
+        "blockClass": "footer-consegna-spedizione-reso-pagamenti-content-mobile"
+      }
+    },
+
+/* azienda footer mobile*/
+
+    "flex-layout.row#menu-footer-azienda-mobile": {
+      "children": [
+        "flex-layout.col#menu-footer-azienda-mobile"
+      ],
+      "props": {
+        "blockClass": "menu-footer-mobile"
+      }
+    },
+
+   "flex-layout.col#menu-footer-azienda-mobile": {
+      "children": [
+        "vtex.menu@2.x:menu#menu-footer-azienda-mobile"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "menu-footer-azienda-mobile"
+      }
+    },
+
+    "vtex.menu@2.x:menu#menu-footer-azienda-mobile": {
+        "props": {
+          "blockClass": "menu-footer-azienda-mobile"
+        },
+        "children": [
+      "menu-item#menu-footer-azienda-mobile"
+        ]
+      },
+
+        "menu-item#menu-footer-azienda-mobile": {
+            "props": {
+              "id": "menu-footer-category-title-mobile",
+              "type": "custom",
+              "highlight": false,
+              "blockClass": "menu-footer-category-title-mobile",
+              "itemProps": {
+                "type": "internal",
+                "href": "/azienda?activeTab=tab-wrapper*siamo&__bindingAddress=www.ido.it/it",
+                "noFollow": false,
+                "tagTitle": "Azienda",
+                "text": "Azienda"
+              }
+            }
+          },
+
+ /*      "vtex.menu@2.x:submenu.accordion#menu-footer-azienda-mobile": {
+           "children": [
+             "menu-item#submenu-footer-azienda-chi-siamo-mobile",
+             "menu-item#submenu-footer-azienda-il-nostro-impegno-mobile",
+             "menu-item#submenu-footer-azienda-aprire-franchising-mobile",
+             "menu-item#submenu-footer-azienda-rete-vendita-mobile",
+             "menu-item#submenu-footer-azienda-lavora-con-noi-mobile"
+           ],
+           "props": {
+           "blockClass": "submenu-footer-mobile",
+           "preventVerticalStretch": true
+           }
+         },
+
+           "menu-item#submenu-footer-azienda-chi-siamo-mobile": {
+           "props": {
+           "blockClass": "menu-item-footer-subcategory-title-mobile-submenu",
+           "id": "menu-item-footer-azienda-chi-siamo-mobile-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "/chi-siamo?__bindingAddress=www.ido.it/it",
+           "noFollow": false,
+           "tagTitle": "Chi siamo",
+           "text": "Chi siamo"
+           }
+         }
+       },
+
+           "menu-item#submenu-footer-azienda-il-nostro-impegno-mobile": {
+           "props": {
+           "blockClass": "menu-item-footer-subcategory-title-mobile-submenu",
+           "id": "menu-item-footer-azienda-il-nostro-impegno-mobile-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "/azienda?activeTab=tab-wrapper*impegno",
+           "noFollow": false,
+           "tagTitle": "Il nostro impegno",
+           "text": "Il nostro impegno"
+           }
+         }
+       },
+
+
+           "menu-item#submenu-footer-azienda-aprire-franchising-mobile": {
+           "props": {
+           "blockClass": "menu-item-footer-subcategory-title-mobile-submenu",
+           "id": "menu-item-footer-azienda-aprire-franchising-mobile-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "/azienda?activeTab=tab-wrapper*siamo&__bindingAddress=www.ido.it/it",
+           "noFollow": false,
+           "tagTitle": "Vuoi aprire un franchising iDO?",
+           "text": "Vuoi aprire un franchising iDO?"
+           }
+         }
+       },
+
+
+           "menu-item#submenu-footer-azienda-rete-vendita-mobile": {
+           "props": {
+           "blockClass": "menu-item-footer-subcategory-title-mobile-submenu",
+           "id": "menu-item-footer-azienda-rete-vendita-mobile-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "/azienda?activeTab=tab-wrapper*siamo&__bindingAddress=www.ido.it/it",
+           "noFollow": false,
+           "tagTitle": "Rete vendita iDO",
+           "text": "Rete vendita iDO"
+           }
+         }
+       },
+
+
+           "menu-item#submenu-footer-azienda-lavora-con-noi-mobile": {
+           "props": {
+           "blockClass": "menu-item-footer-subcategory-title-mobile-submenu",
+           "id": "menu-item-footer-azienda-lavora-con-noi-mobile-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "/azienda?activeTab=tab-wrapper*siamo&__bindingAddress=www.ido.it/it",
+           "noFollow": false,
+           "tagTitle": "Lavora con noi",
+           "text": "Lavora con noi"
+           }
+         }
+       }, */
+
+/* aservizio clienti footer mobile*/
+
+    "flex-layout.row#menu-footer-servizio-clienti-mobile": {
+      "children": [
+        "flex-layout.col#menu-footer-servizio-clienti-mobile"
+      ],
+      "props": {
+        "blockClass": "menu-footer-mobile"
+      }
+    },
+
+   "flex-layout.col#menu-footer-servizio-clienti-mobile": {
+      "children": [
+        "vtex.menu@2.x:menu#menu-footer-servizio-clienti-mobile"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "menu-footer-servizio-clienti-mobile"
+      }
+    },
+
+    "vtex.menu@2.x:menu#menu-footer-servizio-clienti-mobile": {
+        "props": {
+          "blockClass": "menu-footer-servizio-clienti-mobile"
+        },
+        "children": [
+      "menu-item#menu-footer-servizio-clienti-mobile"
+        ]
+      },
+
+        "menu-item#menu-footer-servizio-clienti-mobile": {
+            "props": {
+              "id": "menu-footer-category-title-mobile",
+              "type": "custom",
+              "highlight": false,
+              "blockClass": "menu-footer-category-title-mobile",
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Servizio Clienti",
+                "text": "Servizio Clienti"
+              },
+
+              "iconToTheRight": true
+            },
+            "blocks": ["vtex.menu@2.x:submenu.accordion#menu-footer-servizio-clienti-mobile"]
+          },
+
+       "vtex.menu@2.x:submenu.accordion#menu-footer-servizio-clienti-mobile": {
+           "children": [
+             "menu-item#submenu-footer-servizio-clienti-guida-alle-taglie-mobile",
+             "menu-item#submenu-footer-servizio-clienti-tempi-di-consegna-mobile",
+             "menu-item#submenu-footer-servizio-clienti-resi-e-cambi-mobile",
+             "menu-item#submenu-footer-servizio-clienti-order-processing-mobile",
+             "menu-item#submenu-footer-servizio-clienti-contattaci-mobile",
+             "menu-item#submenu-footer-servizio-clienti-iscriviti-alla-newsletter-mobile"
+           ],
+           "props": {
+           "blockClass": "submenu-footer-mobile"
+           }
+         },
+
+           "menu-item#submenu-footer-servizio-clienti-guida-alle-taglie-mobile": {
+           "props": {
+           "blockClass": "menu-item-footer-subcategory-title-mobile-submenu",
+           "id": "menu-item-footer-servizio-clienti-guida-alle-taglie-mobile-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "/guida-alle-taglie?__bindingAddress=www.ido.it/it",
+           "noFollow": false,
+           "tagTitle": "Guida alle taglie",
+           "text": "Guida alle taglie"
+           }
+         }
+       },
+
+           "menu-item#submenu-footer-servizio-clienti-tempi-di-consegna-mobile": {
+           "props": {
+           "blockClass": "menu-item-footer-subcategory-title-mobile-submenu",
+           "id": "menu-item-footer-servizio-clienti-tempi-di-consegna-mobile-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "/tempi-di-consegna?__bindingAddress=www.ido.it/it",
+           "noFollow": false,
+           "tagTitle": "Tempi di consegna",
+           "text": "Tempi di consegna"
+           }
+         }
+       },
+
+
+           "menu-item#submenu-footer-servizio-clienti-resi-e-cambi-mobile": {
+           "props": {
+           "blockClass": "menu-item-footer-subcategory-title-mobile-submenu",
+           "id": "menu-item-footer-servizio-clienti-resi-e-cambi-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "/reso-e-cambi?__bindingAddress=www.ido.it/it",
+           "noFollow": false,
+           "tagTitle": "Resi e cambi",
+           "text": "Resi e cambi"
+           }
+         }
+       },
+
+
+           "menu-item#submenu-footer-servizio-clienti-order-processing-mobile": {
+           "props": {
+           "blockClass": "menu-item-footer-subcategory-title-mobile-submenu",
+           "id": "menu-item-footer-servizio-clienti-order-processing-mobile-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "/order-processing?__bindingAddress=www.ido.it/it",
+           "noFollow": false,
+           "tagTitle": "Order processing",
+           "text": "Order processing"
+           }
+         }
+       },
+
+
+           "menu-item#submenu-footer-servizio-clienti-contattaci-mobile": {
+           "props": {
+           "blockClass": "menu-item-footer-subcategory-title-mobile-submenu",
+           "id": "menu-item-footer-servizio-clienti-contattaci-mobile-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "/contattaci?__bindingAddress=www.ido.it/it",
+           "noFollow": false,
+           "tagTitle": "Contattaci",
+           "text": "Contattaci"
+           }
+         }
+       },
+
+           "menu-item#submenu-footer-servizio-clienti-iscriviti-alla-newsletter-mobile": {
+           "props": {
+           "blockClass": "menu-item-footer-subcategory-title-mobile-submenu",
+           "id": "menu-item-footer-servizio-clienti-iscriviti-alla-newsletter-mobile-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "/iscriviti-alla-newsletter?__bindingAddress=www.ido.it/it",
+           "noFollow": false,
+           "tagTitle": "Iscriviti Alla Newsletter",
+           "text": "Iscriviti Alla Newsletter"
+           }
+         }
+       },
+
+/* termini e condizioni footer mobile*/
+
+    "flex-layout.row#menu-footer-termini-e-condizioni-mobile": {
+      "children": [
+        "flex-layout.col#menu-footer-termini-e-condizioni-mobile"
+      ],
+      "props": {
+        "blockClass": "menu-footer-mobile"
+      }
+    },
+
+   "flex-layout.col#menu-footer-termini-e-condizioni-mobile": {
+      "children": [
+        "vtex.menu@2.x:menu#menu-footer-termini-e-condizioni-mobile"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "menu-footer-termini-e-condizioni-mobile"
+      }
+    },
+
+    "vtex.menu@2.x:menu#menu-footer-termini-e-condizioni-mobile": {
+        "props": {
+          "blockClass": "menu-footer-termini-e-condizioni-mobile"
+        },
+        "children": [
+      "menu-item#menu-footer-termini-e-condizioni-mobile"
+        ]
+      },
+
+        "menu-item#menu-footer-termini-e-condizioni-mobile": {
+            "props": {
+              "id": "menu-footer-category-title-mobile",
+              "type": "custom",
+              "highlight": false,
+              "blockClass": "menu-footer-category-title-mobile",
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Termini e condizioni",
+                "text": "Termini e condizioni"
+              },
+
+              "iconToTheRight": true
+            },
+            "blocks": ["vtex.menu@2.x:submenu.accordion#menu-footer-termini-e-condizioni-mobile"]
+          },
+
+       "vtex.menu@2.x:submenu.accordion#menu-footer-termini-e-condizioni-mobile": {
+           "children": [
+             "menu-item#submenu-footer-termini-e-condizioni-condizioni-di-vendita-mobile",
+             "menu-item#submenu-footer-termini-e-condizioni-regolamento-mobile",
+             "menu-item#submenu-footer-termini-e-condizioni-diritto-di-reso-mobile",
+             "menu-item#submenu-footer-termini-e-condizioni-privacy-policy-mobile",
+             "menu-item#submenu-footer-termini-e-condizioni-trattamento-dati-mobile",
+             "menu-item#submenu-footer-termini-e-condizioni-cookie-policy-mobile"
+           ],
+           "props": {
+           "blockClass": "submenu-footer-mobile"
+           }
+         },
+
+           "menu-item#submenu-footer-termini-e-condizioni-condizioni-di-vendita-mobile": {
+           "props": {
+           "blockClass": "menu-item-footer-subcategory-title-mobile-submenu",
+           "id": "menu-item-footer-termini-e-condizioni-condizioni-di-vendita-mobile-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "/condizioni-generali-di-vendita?__bindingAddress=www.ido.it/it",
+           "noFollow": false,
+           "tagTitle": "Condizioni di vendita",
+           "text": "Condizioni di vendita"
+           }
+         }
+       },
+
+
+           "menu-item#submenu-footer-termini-e-condizioni-regolamento-mobile": {
+           "props": {
+           "blockClass": "menu-item-footer-subcategory-title-mobile-submenu",
+           "id": "menu-item-footer-termini-e-condizioni-regolamento-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "/regolamento?__bindingAddress=www.ido.it/it",
+           "noFollow": false,
+           "tagTitle": "Regolamento",
+           "text": "Regolamento"
+           }
+         }
+       },
+
+
+           "menu-item#submenu-footer-termini-e-condizioni-diritto-di-reso-mobile": {
+           "props": {
+           "blockClass": "menu-item-footer-subcategory-title-mobile-submenu",
+           "id": "menu-item-footer-termini-e-condizioni-diritto-di-reso-mobile-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "/diritto-di-recesso?__bindingAddress=www.ido.it/it",
+           "noFollow": false,
+           "tagTitle": "Diritto di reso",
+           "text": "Diritto di reso"
+           }
+         }
+       },
+
+
+           "menu-item#submenu-footer-termini-e-condizioni-privacy-policy-mobile": {
+           "props": {
+           "blockClass": "menu-item-footer-subcategory-title-mobile-submenu",
+           "id": "menu-item-footer-termini-e-condizioni-privacy-policy-mobile-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "/privacy-and-policy?__bindingAddress=www.ido.it/it",
+           "noFollow": false,
+           "tagTitle": "Privacy Policy",
+           "text": "Privacy Policy"
+           }
+         }
+       },
+
+           "menu-item#submenu-footer-termini-e-condizioni-trattamento-dati-mobile": {
+           "props": {
+           "blockClass": "menu-item-footer-subcategory-title-mobile-submenu",
+           "id": "menu-item-footer-servizio-clienti-trattamento-dati-mobile-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "/trattamento-dati?__bindingAddress=www.ido.it/it",
+           "noFollow": false,
+           "tagTitle": "Trattamento Dati",
+           "text": "Trattamento Dati"
+           }
+         }
+       },
+
+           "menu-item#submenu-footer-termini-e-condizioni-cookie-policy-mobile": {
+           "props": {
+           "blockClass": "menu-item-footer-subcategory-title-mobile-submenu",
+           "id": "menu-item-footer-servizio-clienti-cookie-policy-mobile-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "/cookie-policy?__bindingAddress=www.ido.it/it",
+           "noFollow": false,
+           "tagTitle": "Cookie Policy",
+           "text": "Cookie Policy"
+           }
+         }
+       },
+
+/* store locator footer mobile*/
+
+    "flex-layout.row#menu-footer-store-locator-mobile": {
+      "children": [
+        "flex-layout.col#menu-footer-store-locator-mobile"
+      ],
+      "props": {
+        "blockClass": "menu-footer-mobile"
+      }
+    },
+
+   "flex-layout.col#menu-footer-store-locator-mobile": {
+      "children": [
+        "vtex.menu@2.x:menu#menu-footer-store-locator-mobile"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "menu-footer-store-locator-mobile"
+      }
+    },
+
+    "vtex.menu@2.x:menu#menu-footer-store-locator-mobile": {
+        "props": {
+          "blockClass": "menu-footer-store-locator-mobile"
+        },
+        "children": [
+      "menu-item#menu-footer-store-locator-mobile"
+        ]
+      },
+
+        "menu-item#menu-footer-store-locator-mobile": {
+            "props": {
+              "id": "menu-footer-category-title-mobile",
+              "type": "custom",
+              "highlight": false,
+              "blockClass": "menu-footer-category-title-mobile",
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "STORE LOCATOR",
+                "text": "STORE LOCATOR"
+              },
+
+              "iconToTheRight": true
+            },
+            "blocks": ["vtex.menu@2.x:submenu.accordion#menu-footer-store-locator-mobile"]
+          },
+
+       "vtex.menu@2.x:submenu.accordion#menu-footer-store-locator-mobile": {
+           "children": [
+             "menu-item#submenu-footer-store-locator-scopri-i-negozi-iDO-mobile"
+           ],
+           "props": {
+           "blockClass": "submenu-footer-mobile"
+           }
+         },
+
+           "menu-item#submenu-footer-store-locator-scopri-i-negozi-iDO-mobile": {
+           "props": {
+           "blockClass": "menu-item-footer-subcategory-title-mobile-submenu",
+           "id": "menu-item-footer-store-locator-scopri-i-negozi-iDO-mobile-submenu",
+           "type": "custom",
+           "highlight": false,
+           "itemProps": {
+           "type": "internal",
+           "href": "/our-stores?__bindingAddress=www.ido.it/it",
+           "noFollow": false,
+           "tagTitle": "Scopri i negozi iDO",
+           "text": "Scopri i negozi iDO"
+           }
+         }
+       },
+
+/* partener lab footer mobile*/
+
+    "flex-layout.row#menu-footer-partener-lab-mobile": {
+      "children": [
+        "flex-layout.col#menu-footer-partener-lab-mobile"
+      ],
+      "props": {
+        "blockClass": "menu-footer-mobile"
+      }
+    },
+
+   "flex-layout.col#menu-footer-partener-lab-mobile": {
+      "children": [
+        "vtex.menu@2.x:menu#menu-footer-partener-lab-mobile"
+      ],
+      "props": {
+        "preventVerticalStretch": true,
+        "blockClass": "menu-footer-partener-lab-mobile"
+      }
+    },
+
+    "vtex.menu@2.x:menu#menu-footer-partener-lab-mobile": {
+        "props": {
+          "blockClass": "menu-footer-partener-lab-mobile"
+        },
+        "children": [
+      "menu-item#menu-footer-partener-lab-mobile"
+        ]
+      },
+
+        "menu-item#menu-footer-partener-lab-mobile": {
+            "props": {
+              "id": "menu-footer-category-title-mobile",
+              "type": "custom",
+              "highlight": false,
+              "blockClass": "menu-footer-category-title-mobile",
+              "itemProps": {
+                "type": "external",
+                "href": "https://partnerlab.miniconf.app/partnerlab/client/index.html",
+                "noFollow": false,
+                "tagTitle": "PARTENER LAB",
+                "text": "PARTENER LAB"
+              },
+              "iconToTheRight": false
+            }
+          },
+
+
+
+
+  /* level 10 credits*/
+
+    "flex-layout.row#footer-credits-mobile": {
+      "children": [
+      "rich-text#footer-title-credits-mobile",
+      "rich-text#footer-subtitle-credits-mobile"
+      ],
+      "props": {
+        "blockClass": "footer-credits-mobile"
+      }
+    },
+    "rich-text#footer-title-credits-mobile": {
+      "props": {
+        "text": "PRIVACY & POLICY",
+        "blockClass": "footer-title-credits-mobile"
+      }
+    },
+    "rich-text#footer-subtitle-credits-mobile": {
+      "props": {
+        "text": "iDO è un marchio Miniconf Spa | Sede Legale: Via Provinciale 1/A, 52010 Ortignano Raggiolo,<br>Arezzo | Tel. +39.0575.5331 | miniconf@pec.miniconf.it<br>P.IVA e CF 00249390519 | REA AR 64978 | Cap. Soc. € 3.000.000 <br>Soggetta all’attività di direzione e coordinamento di MINFIN s.r.l.",
+        "blockClass": "footer-subtitle-credits-mobile"
+      }
+    }
 }

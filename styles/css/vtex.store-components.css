@@ -7,7 +7,6 @@
   }
 }
 
-
 :global(.vtex-locale-switcher-0-x-container) {
   justify-content: space-around;
   margin-bottom: 14px;
@@ -42,117 +41,6 @@
   max-width: 208px;
 }
 
-:global(.vtex-store-components-3-x-infoCardContainer--info-card-domentica) {
-  max-width: 1250px;
-  margin: 0 auto;
-  background-color: #e6f1e6;
-  height: 500px!important;
-  padding: 0px;
-  margin-bottom: 50px;
-}
-
-.infoCardTextContainer--info-card-domentica {
-  margin-top: 250px;
-  max-width: 1500px;
-  width: 750px!important;
-}
-
-:global(.vtex-store-components-3-x-infoCardContainer--info-card-domentica-homepage) {
-  max-width: 1250px;
-  margin: 0 auto;
-  background-color: #e6f1e6;
-  height: 500px!important;
-  padding: 0px;
-  margin-top: 120px;
-}
-
-
-
-
-.infoCardContainer--info-card-domentica-homepage :global(.vtex-button) {
-  border-radius: 25px;
-  width: 190px;
-  height: 50px;
-  color: white;
-  background-color: transparent;
-  border-color: white;
-}
-
-.infoCardContainer--info-card-domentica :global(.vtex-button) {
-  border-radius: 25px;
-  width: 190px;
-  height: 50px;
-  color: white;
-  background-color: transparent;
-  border-color: white;
-}
-
-.infoCardContainer--info-card-fidelity-card {
-  max-width: 1520px;
-  margin: 0 auto;
-  background-color: #e6f1e6;
-  height: 139px!important;
-  padding: 0px;
-  margin-bottom: 50px;
-}
-.infoCardContainer--info-card-fidelity-card :global(.vtex-button) {
-  border-radius: 25px;
-  width: 139px;
-  height: 50px;
-  color: #001930;
-  background-color: white;
-  border-color: white;
-}
-.infoCardTextContainer--info-card-fidelity-card {
-  color: white;
-  font-size: 35px;
-  line-height: 29px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100% !important;
-  flex-direction: row;
-}
-.infoCardHeadline--info-card-fidelity-card {
-  margin-top: 0px;
-  color: #001930;
-  font-family: "MuseoJHSans900";
-  font-size: 35px;
-}
-
-.infoCardHeadline--info-card-domentica {
-  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
-  color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 45px;
-}
-.infoCardHeadline--info-card-domentica-homepage {
-  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
-  color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 45px;
-  position: absolute;
-  width: 700px;
-}
-
-.newsletter--newsletter-desktop {
-  background-color: rgba(0, 0, 0, 0.1)!important;
-  max-width: 1520px;
-  width: 100%;
-  margin: 0 auto;
-  height: 139px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px!important;
-}
-
-.newsletter--newsletter-desktop .container {
-  padding: 0px!important;
-  max-width: 100%!important;
-  width: 100%;
-}
-
 .form {
   display: flex;
   justify-content: space-between;
@@ -161,7 +49,6 @@
   width: 100%;
   max-width: 100%;
 }
-
 
 .buttonContainer :global(.vtex-button__label) {
   font-size: 0px;
@@ -334,129 +221,12 @@
   align-items: flex-end;
 }
 
-:global(.vtex-store-components-3-x-infoCardHeadline--info-card-dimentica-mobile) {
-  text-shadow: 0 2px 20px rgba(135, 135, 135, 0.5);
-  color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 30px;
-  line-height: 32px;
-}
-
-.infoCardContainer--info-card-dimentica-mobile {
-  margin-bottom: 60px;
-  height: 375px;
-  display: flex;
-  align-items: flex-end;
-}
-
-:global(.vtex-store-components-3-x-infoCardHeadline--info-card-dimentica-mobile-homepage) {
-  text-shadow: 0 2px 20px rgba(135, 135, 135, 0.5);
-  color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 30px;
-  line-height: 32px;
-}
-
-.infoCardContainer--info-card-dimentica-mobile-homepage {
-  margin-bottom: 60px;
-  height: 375px;
-  display: flex;
-  align-items: flex-end;
-}
-
-.infoCardContainer--info-card-dimentica-mobile :global(.vtex-button){
-  background-color: transparent;
-  border-color: white;
-  border-radius: 50px;
-  border: solid 1px;
-  color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 18px;
-  text-transform: uppercase;
-}
-
-
-.infoCardHeadline--info-card-fidelity-card-mobile {
-  color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 25px;
-  line-height: 29px;
-}
-
-.infoCardContainer--info-card-fidelity-card-mobile :global(.vtex-button){
-  background-color: white;
-  border-color: white;
-  border-radius: 50px;
-  height: 40px;
-  width: 150px;
-}
-
-.infoCardContainer--info-card-fidelity-card-mobile :global(.vtex-button__label){
-  color: #001930;
-  font-family: "MuseoJHSans900";
-  font-size: 18px;
-  text-transform: uppercase;
-}
-
-.infoCardHeadline--info-card-colours-mobile {
-  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
-  color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 30px;
-  line-height: 32px
-}
-
-.infoCardContainer--info-card-colours-mobile :global(.vtex-button){
-  background-color: transparent;
-  border-color: white;
-  border-radius: 50px;
-  border: solid 1px;
-  color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 18px;
-  text-transform: uppercase;
-}
-
-.infoCardContainer--info-card-colours-mobile {
-  height: 375px;
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: 60px;
-}
-
-:global(.vtex-store-components-3-x-infoCardHeadline--info-card-teddy-mobile) {
-  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
-  color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 30px;
-  line-height: 32px;
-}
-
-.infoCardContainer--info-card-teddy-mobile :global(.vtex-button){
-  background-color: transparent;
-  border-color: white;
-  border-radius: 50px;
-  border: solid 1px;
-  color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 18px;
-  text-transform: uppercase;
-}
 
 
 .newsletter--newsletter-mobile {
   margin-bottom: 60px;
   background-color: #ffffff!important;
 }
-
-
-.infoCardContainer--info-card-teddy-mobile {
- margin-bottom: 60px;
-  height: 375px;
-  display: flex;
-  align-items: flex-end;
-}
-
 
 .infoCardTextContainer--firstStackWithImage {
   align-content: flex-start;
@@ -675,6 +445,7 @@
 .price_savingsContainer--top-price-section-discount {
   display: none;
 }
+
 /* Product Page mobile version styling BEGINS here */
 
 .discountInsideContainer::after {
@@ -736,6 +507,7 @@
 
 
 /* Product Page mobile version styling ENDS here */
+
 
 /* name of the product styling */
 
@@ -842,186 +614,6 @@
     display: flex;
   }
 }
-/* chi siamo newsletter button */
-
-:global(.vtex-store-components-3-x-newsletter--newsletterSiamoDesktop) {
-  position: relative;
-}
-
-:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-Vuoilavorare) {
-  display: block;
-}
-
-:global(.vtex-store-components-3-x-form--newsletterSiamoDesktop) {
-  background-color: rgba(0, 0, 0, 0.1);
-  height: 139px;
-}
-
-:global(.vtex-store-components-3-x-container--newsletterSiamoDesktop) {
-  padding-top: 26px;
-}
-
-:global(.vtex-store-components-3-x-label--newsletterSiamoDesktop) {
-  color: #001930;
-  font-family: "MuseoJHSans900";
-  font-size: 25px;
-  line-height: 29px;
-  margin-left: 41px;
-  width: 32%;
-  text-align: left;
-}
-
-:global(.vtex-store-components-3-x-inputGroup--newsletterSiamoDesktop) {
-  width: 468px;
-  height: 50px;
-  border-radius: 25px;
-  position: absolute;
-  right: 0px;
-}
-
-.inputGroup--newsletterSiamoDesktop :global(.vtex-input-prefix__group) {
-  margin-right: 0px;
-}
-
-.inputGroup--newsletterSiamoDesktop :global(.vtex-input) {
-  position: relative;
-  height: 46px;
-  bottom: 14px;
-}
-
-.inputGroup--newsletterSiamoDesktop :global(.vtex-store-components-3-x-buttonContainer--newsletterSiamoDesktop) {
-  position: relative;
-  bottom: 14px;
-  right: 85px;
-}
-
-:global(.vtex-store-components-3-x-infoCardContainer--info-card-Vuoilavorare) {
-  margin-top: 72px;
-  position: relative;
-  height: 141px;
-  background-color: #001930;
-}
-
-:global(.vtex-store-components-3-x-infoCardHeadline--info-card-Vuoilavorare) {
-  width: 32%;
-  text-align: left;
-  height: 29px;
-  color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 25px;
-  line-height: 29px;
-  margin-top: unset;
-}
-
-:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-Vuoilavorare) {
-  justify-content: center;
-  padding-left: 40px;
-  padding-right: 0px;
-  position: relative;
-  width: 100%;
-}
-
-:global(.vtex-store-components-3-x-infoCardImageContainer--info-card-Vuoilavorare) {
-  display: none;
-}
-
-:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-Vuoilavorare) {
-  position: absolute;
-  right: 0px;
-}
-
-.infoCardCallActionContainer--info-card-Vuoilavorare :global(.vtex-button) {
-  width: 340px;
-  height: 50px;
-  border-radius: 25px;
-  background-color: #ffffff;
-  bottom: 63px;
-  right: 85px;
-  border-width: unset;
-  border-color: unset;
-  outline: none;
-}
-
-.infoCardCallActionContainer--info-card-Vuoilavorare :global(.vtex-button__label) {
-  color: #5a5a5a;
-  font-family: "MuseoJHSans300";
-  font-size: 20px;
-  line-height: 21px;
-  position: relative;
-  text-transform: capitalize;
-  padding: 0px;
-}
-/* apri un franchising ido info card*/
-
-:global(.vtex-store-components-3-x-infoCardContainer--info-card-aprirefranchising) {
-  margin-top: 57px;
-  margin-bottom: 31px;
-  position: relative;
-  height: 141px;
-  background-color: #001930;
-}
-
-:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-aprirefranchising) {
-  justify-content: center;
-  padding-left: 40px;
-  padding-right: 0px;
-  position: relative;
-  width: 100%;
-}
-
-:global(.vtex-store-components-3-x-infoCardHeadline--info-card-aprirefranchising) {
-  width: 32%;
-  text-align: left;
-  height: 29px;
-  color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 25px;
-  line-height: 29px;
-  margin-top: unset;
-}
-
-:global(.vtex-store-components-3-x-infoCardImageContainer--info-card-aprirefranchising) {
-  display: none;
-}
-
-:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-aprirefranchising) {
-  display: block;
-}
-
-:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-aprirefranchising) {
-  justify-content: center;
-  padding-left: 40px;
-  padding-right: 0px;
-  position: relative;
-  width: 100%;
-}
-
-:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-aprirefranchising) {
-  position: absolute;
-  right: 0px;
-}
-
-.infoCardCallActionContainer--info-card-aprirefranchising :global(.vtex-button) {
-  width: 340px;
-  height: 50px;
-  border-radius: 25px;
-  background-color: #ffffff;
-  bottom: 63px;
-  right: 85px;
-  border-width: unset;
-  border-color: unset;
-  outline: none;
-}
-
-.infoCardCallActionContainer--info-card-aprirefranchising :global(.vtex-button__label) {
-  color: #5a5a5a;
-  font-family: "MuseoJHSans300";
-  font-size: 20px;
-  line-height: 21px;
-  position: relative;
-  text-transform: capitalize;
-  padding: 0px;
-}
 
 :global(.vtex-store-components-3-x-imageElement--imageTaglie) {
   margin-top: 18px;
@@ -1031,171 +623,11 @@
   max-width: 100%;
 }
 
-/* lacromonia trova il negozzio*/
-
-
-:global(.vtex-store-components-3-x-infoCardContainer--info-card-larocromiaaprirefranchising-desktop) {
-  margin-top: 57px;
-  margin-bottom: 31px;
-  position: relative;
-  height: 141px;
-  background-color: #001930;
-}
-
-:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-larocromiaaprirefranchising-desktop) {
-  justify-content: center;
-  padding-left: 40px;
-  padding-right: 0px;
-  position: relative;
-  width: 100%;
-}
-
-:global(.vtex-store-components-3-x-infoCardHeadline--info-card-larocromiaaprirefranchising-desktop) {
-  width: 40%;
-  text-align: left;
-  height: 29px;
-  color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 25px;
-  line-height: 29px;
-  margin-top: unset;
-}
-
-:global(.vtex-store-components-3-x-infoCardImageContainer--info-card-larocromiaaprirefranchising-desktop) {
-  display: none;
-}
-
-:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-larocromiaaprirefranchising-desktop) {
-  display: block;
-}
-
-:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-larocromiaaprirefranchising-desktop) {
-  justify-content: center;
-  padding-left: 40px;
-  padding-right: 0px;
-  position: relative;
-  width: 100%;
-}
-
-:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-larocromiaaprirefranchising-desktop) {
-  position: absolute;
-  right: 0px;
-}
-
-.infoCardCallActionContainer--info-card-larocromiaaprirefranchising-desktop :global(.vtex-button) {
-  width: 340px;
-  height: 50px;
-  border-radius: 25px;
-  background-color: #ffffff;
-  bottom: 63px;
-  right: 85px;
-  border-width: unset;
-  border-color: unset;
-  outline: none;
-}
-
-.infoCardCallActionContainer--info-card-larocromiaaprirefranchising-desktop :global(.vtex-button__label) {
-  color: #5a5a5a;
-  font-family: "MuseoJHSans300";
-  font-size: 20px;
-  line-height: 21px;
-  position: relative;
-  text-transform: capitalize;
-  justify-content: left;
-  padding-left: 20px;
-}
-
-.infoCardCallActionContainer--info-card-larocromiaaprirefranchising-desktop :global(.vtex-button)::after {
-  content: "";
-  position: absolute;
-/*  background-image: url(/arquivos/zoom.png);*/
-  width: 18px;
-  height: 18px;
-  left: 89%;
-  bottom: 12px;
-}
-
-
 /*larmocromia mobile*/
 
 :global(.vtex-menu-2-x-menuContainer--menu-larmocromia-mobile) {
   flex-direction: column;
 }
-
-
-/* tempi di consegna newsletter button */
-
-:global(.vtex-store-components-3-x-form--newslettertempiDiConsegna) {
-  background-color: rgba(0, 0, 0, 0.1);
-  position: relative;
-  width: 939px;
-  height: 106px;
-}
-
-:global(.vtex-store-components-3-x-label--newslettertempiDiConsegna) {
-  color: #001930!important;
-  font-size: 26px;
-  font-family: "MuseoJHSans900";
-  line-height: 29px;
-  height: 29px;
-  margin-left: 27px;
-}
-
-:global(.vtex-store-components-3-x-inputGroup--newslettertempiDiConsegna) {
-  position: relative;
-  width: 450px;
-  height: 60px;
-  background-color: rgba(0, 0, 0, 0.0);
-  padding-top: 5px;
-}
-
-/* reso e cambi newsletter button */
-
-:global(.vtex-store-components-3-x-form--newsletterresoEcambi) {
-  background-color: rgba(0, 0, 0, 0.1);
-  position: relative;
-  width: 939px;
-  height: 106px;
-}
-
-:global(.vtex-store-components-3-x-label--newsletterresoEcambi) {
-  color: #001930!important;
-  font-size: 26px;
-  font-family: "MuseoJHSans900";
-  line-height: 29px;
-  height: 29px;
-  margin-left: 27px;
-}
-
-:global(.vtex-store-components-3-x-inputGroup--newsletterresoEcambi) {
-  position: relative;
-  width: 450px;
-  height: 60px;
-  background-color: rgba(0, 0, 0, 0.0);
-  padding-top: 5px;
-}
-
-/*aprire franchising banner mobile*/
-
-.infoCardTextContainer--info-card-aprire-franchising-banner-mobile :global(.vtex-button) {
-  width: 340px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: #ffffff;
-}
-.infoCardTextContainer--info-card-aprire-franchising-banner-mobile :global(.vtex-button__label) {
-  color: #5a5a5a;
-  font-family: "MuseoJHSans300";
-  font-size: 18px;
-  line-height: 21px;
-}
-
-:global(.vtex-store-components-3-x-form--banner-mobile) {
-  display: block!important;
-}
-
-
-
 
 /* desktop mobile version ENDS here */
 :global(.vtex-flex-layout-0-x-flexRowContent) .seeMoreButton :global(.vtex-button) {
@@ -1285,177 +717,6 @@
   }
 }
 
-.infoCardCallActionContainer--info-card-domentica-homepage {
-  display: none;
-}
-
-.infoCardCallActionContainer--info-card-dimentica-mobile-homepage {
-  display: none;
-}
-
-/*ogni occasioni desktop */
-.infoCardCallActionContainer--info-card-category-baby-special :global(.vtex-button) {
-  display: none;
-}
-
-.infoCardCallActionContainer--info-card-category-back-to-school :global(.vtex-button) {
-  display: none;
-}
-
-.infoCardCallActionContainer--info-card-category-denim-time :global(.vtex-button) {
-  display: none;
-}
-
-.infoCardCallActionContainer--info-card-category-every-day-style :global(.vtex-button) {
-  display: none;
-}
-
-.infoCardCallActionContainer--info-card-category-special-events :global(.vtex-button) {
-  display: none;
-}
-
-:global(.vtex-store-components-3-x-infoCardHeadline--info-card-category-baby-special) {
-  color: #001930;
-  font-family: "MuseoJHSans500";
-  font-size: 30px;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 29px;
-  text-align: left;
-}
-
-:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-category-baby-special) {
-  position: fixed;
-  bottom: 3%;
-}
-
-:global(.vtex-store-components-3-x-infoCardHeadline--info-card-category-back-to-school) {
-  color: #001930;
-  font-family: "MuseoJHSans500";
-  font-size: 30px;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 29px;
-  text-align: left;
-}
-
-:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-category-back-to-school) {
-  position: fixed;
-  bottom: 3%;
-}
-
-:global(.vtex-store-components-3-x-infoCardHeadline--info-card-category-denim-time) {
-  color: #001930;
-  font-family: "MuseoJHSans500";
-  font-size: 30px;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 29px;
-  text-align: left;
-}
-
-:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-category-denim-time) {
-  position: fixed;
-  bottom: 3%;
-}
-
-:global(.vtex-store-components-3-x-infoCardHeadline--info-card-category-every-day-style) {
-  color: #001930;
-  font-family: "MuseoJHSans500";
-  font-size: 30px;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 29px;
-  text-align: left;
-}
-
-:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-category-every-day-style) {
-  position: fixed;
-  bottom: 3%;
-}
-
-:global(.vtex-store-components-3-x-infoCardHeadline--info-card-category-special-events) {
-  color: #001930;
-  font-family: "MuseoJHSans500";
-  font-size: 30px;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 29px;
-  text-align: left;
-}
-
-:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-category-special-events) {
-  position: fixed;
-  bottom: 3%;
-}
-
-/* ogni occasioni mobile version */
-
-.infoCardTextContainer--info-card-category-baby-special-mobile {
-  position: relative;
-  top: 67%;
-}
-.infoCardHeadline--info-card-category-baby-special-mobile {
-  color: #001930;
-  font-family: "MuseoJHSans500";
-  font-size: 20px;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 29px;
-}
-
-.infoCardTextContainer--info-card-category-back-to-school-mobile {
-  position: relative;
-  top: 67%;
-}
-.infoCardHeadline--info-card-category-back-to-school-mobile {
-  color: #001930;
-  font-family: "MuseoJHSans500";
-  font-size: 20px;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 29px;
-}
-
-.infoCardTextContainer--info-card-category-denim-time-mobile {
-  position: relative;
-  top: 67%;
-}
-.infoCardHeadline--info-card-category-denim-time-mobile {
-  color: #001930;
-  font-family: "MuseoJHSans500";
-  font-size: 20px;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 29px;
-}
-
-.infoCardTextContainer--info-card-category-every-day-style-mobile {
-  position: relative;
-  top: 67%;
-}
-.infoCardHeadline--info-card-category-every-day-style-mobile {
-  color: #001930;
-  font-family: "MuseoJHSans500";
-  font-size: 20px;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 29px;
-}
-
-.infoCardTextContainer--info-card-category-special-events-mobile {
-  position: relative;
-  top: 67%;
-}
-.infoCardHeadline--info-card-category-special-events-mobile {
-  color: #001930;
-  font-family: "MuseoJHSans500";
-  font-size: 20px;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 29px;
-}
-
 .skuSelectorItem--colors-selector--selected {
   border: solid 1px black;
 }
@@ -1483,7 +744,8 @@ Store locator desktop version final*/
     background-color: #001930;
     height: 139px !important;
     padding: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 67px;
+    margin-top: 17px;
     position: relative;
   }
 
@@ -1503,7 +765,7 @@ Store locator desktop version final*/
     color: black;
     font-size: 22px;
     font-weight: bold;
-    font-family: "MuseoJHSans700";
+    font-family: "MuseoJHSans900";
   }
 
   .infoCardTextContainer--store-locator-desktop {
@@ -1534,6 +796,7 @@ Store locator desktop version final*/
     align-items: center;
   }
 
+
   .infoCardContainer--newsletter-desktop {
     max-width: 1250px;
     margin: 0 auto;
@@ -1542,6 +805,7 @@ Store locator desktop version final*/
     padding: 0px;
     margin-bottom: 50px;
     position: relative;
+    margin-top: 17px;
   }
 
   .infoCardContainer--newsletter-desktop :global(.vtex-button) {
@@ -1561,7 +825,7 @@ Store locator desktop version final*/
     color: #ffffff;
     font-size: 22px;
     font-weight: bold;
-    font-family: "MuseoJHSans700";
+    font-family: "MuseoJHSans900";
   }
 
   .infoCardTextContainer--newsletter-desktop {
@@ -1691,10 +955,7 @@ store locator mobile version final */
   padding: unset;
 }
 
-:global(.vtex-store-components-3-x-logoLink) {
-  margin-left: 75px;
-}
-
+/* header menu home page */
 
 :global(.vtex-flex-layout-0-x-flexColChild--menu-social-networks-header) {
   margin-right: 60px;
@@ -1708,5 +969,567 @@ store locator mobile version final */
   margin-top: 12px;
   margin-bottom: 12px;
 }
+
+
+/* info cards home page DESKTOP*/
+
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-domentica) {
+  max-width: 1250px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  height: 500px!important;
+  padding: 0px;
+  margin-bottom: 50px;
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-domentica-ricomincia) {
+  max-width: 1250px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  height: 500px!important;
+  padding: 0px;
+  margin-bottom: 113px;
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-dimentica-i-capi) {
+  max-width: 1250px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  height: 500px!important;
+  padding: 0px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-dimentica-i-capi) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-domentica) {
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 45px;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-domentica-ricomincia) {
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 45px;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-dimentica-i-capi) {
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 45px;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-domentica) {
+  margin-top: 250px;
+  max-width: 1500px;
+  width: 750px!important;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-domentica-ricomincia) {
+  margin-top: 250px;
+  max-width: 1500px;
+  width: 750px!important;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-dimentica-i-capi) {
+  margin-top: 250px;
+  max-width: 1500px;
+  width: 750px!important;
+}
+
+.infoCardContainer--info-card-domentica :global(.vtex-button) {
+  border-radius: 25px;
+  width: 190px;
+  height: 50px;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+
+.infoCardContainer--info-card-domentica-ricomincia :global(.vtex-button) {
+  border-radius: 25px;
+  width: 190px;
+  height: 50px;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+
+
+
+.infoCardCallActionContainer--info-card-domentica :global(.vtex-button):hover {
+  background-color: #001930;
+  border-color: white;
+  color: white;
+}
+
+.infoCardCallActionContainer--info-card-domentica-ricomincia :global(.vtex-button):hover {
+  background-color: #001930;
+  border-color: white;
+  color: white;
+}
+
+.infoCardCallActionContainer--info-card-domentica :global(.vtex-button__label):hover {
+  color: white;
+}
+
+.infoCardCallActionContainer--info-card-domentica-ricomincia :global(.vtex-button__label):hover {
+  color: white;
+}
+
+.infoCardCallActionContainer--info-card-domentica-ricomincia :global(.vtex-button__label) {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 22px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.infoCardCallActionContainer--info-card-domentica :global(.vtex-button__label) {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 22px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
+/*ogni occasioni desktop */
+
+
+.infoCardCallActionContainer--info-card-category-baby-special :global(.vtex-button) {
+  display: none;
+}
+
+.infoCardCallActionContainer--info-card-category-back-to-school :global(.vtex-button) {
+  display: none;
+}
+
+.infoCardCallActionContainer--info-card-category-denim-time :global(.vtex-button) {
+  display: none;
+}
+
+.infoCardCallActionContainer--info-card-category-every-day-style :global(.vtex-button) {
+  display: none;
+}
+
+.infoCardCallActionContainer--info-card-category-special-events :global(.vtex-button) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-category-baby-special) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-category-baby-special) {
+  position: fixed;
+  bottom: 3%;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-category-back-to-school) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-category-back-to-school) {
+  position: fixed;
+  bottom: 3%;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-category-denim-time) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-category-denim-time) {
+  position: fixed;
+  bottom: 3%;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-category-every-day-style) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-category-every-day-style) {
+  position: fixed;
+  bottom: 3%;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-category-special-events) {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-category-special-events) {
+  position: fixed;
+  bottom: 3%;
+}
+
+/* apri un franchising ido info card*/
+
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-aprirefranchising) {
+  margin-top: 57px;
+  margin-bottom: 31px;
+  position: relative;
+  height: 141px;
+  background-color: #001930;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-aprirefranchising) {
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 0px;
+  position: relative;
+  width: 100%;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-aprirefranchising) {
+  width: 32%;
+  text-align: left;
+  height: 29px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 25px;
+  line-height: 29px;
+  margin-top: unset;
+}
+
+:global(.vtex-store-components-3-x-infoCardImageContainer--info-card-aprirefranchising) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-aprirefranchising) {
+  display: block;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-aprirefranchising) {
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 0px;
+  position: relative;
+  width: 100%;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-aprirefranchising) {
+  position: absolute;
+  right: 0px;
+}
+
+.infoCardCallActionContainer--info-card-aprirefranchising :global(.vtex-button) {
+  width: 340px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  bottom: 63px;
+  right: 85px;
+  border-width: unset;
+  border-color: unset;
+  outline: none;
+}
+
+.infoCardCallActionContainer--info-card-aprirefranchising :global(.vtex-button__label) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans300";
+  font-size: 20px;
+  line-height: 21px;
+  position: relative;
+  text-transform: capitalize;
+  padding: 0px;
+}
+
+/*    MOBILE    */
+
+/* info cards home page MOBILE */
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-domentica-mobile) {
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 32px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-dimentica-i-capi-mobile) {
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 32px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-dimentica-i-capi-mobile) {
+  display: none;
+}
+
+.infoCardContainer--info-card-domentica-mobile :global(.vtex-button) {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  margin-left: 20px;
+}
+
+.infoCardTextContainer--info-card-domentica-mobile {
+  margin-top: 250px;
+  max-width: 1500px;
+  width: 750px!important;
+}
+
+.infoCardTextContainer--info-card-dimentica-i-capi-mobile {
+  margin-top: 250px;
+  max-width: 1500px;
+  width: 750px!important;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-dimentica-i-capi-mobile) {
+  text-shadow: 0 2px 20px rgba(135, 135, 135, 0.5);
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 32px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+
+
+/* ogni occasioni mobile version */
+
+.infoCardTextContainer--info-card-category-baby-special-mobile {
+  position: relative;
+  top: 67%;
+}
+.infoCardHeadline--info-card-category-baby-special-mobile {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+}
+
+.infoCardTextContainer--info-card-category-back-to-school-mobile {
+  position: relative;
+  top: 67%;
+}
+.infoCardHeadline--info-card-category-back-to-school-mobile {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+}
+
+.infoCardTextContainer--info-card-category-denim-time-mobile {
+  position: relative;
+  top: 67%;
+}
+.infoCardHeadline--info-card-category-denim-time-mobile {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+}
+
+.infoCardTextContainer--info-card-category-every-day-style-mobile {
+  position: relative;
+  top: 67%;
+}
+.infoCardHeadline--info-card-category-every-day-style-mobile {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+}
+
+.infoCardTextContainer--info-card-category-special-events-mobile {
+  position: relative;
+  top: 67%;
+}
+.infoCardHeadline--info-card-category-special-events-mobile {
+  color: #001930;
+  font-family: "MuseoJHSans500";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+}
+
+/*aprire franchising banner mobile*/
+
+.infoCardTextContainer--info-card-aprire-franchising-banner-mobile :global(.vtex-button) {
+  width: 340px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+.infoCardTextContainer--info-card-aprire-franchising-banner-mobile :global(.vtex-button__label) {
+  color: #5a5a5a;
+  font-family: "MuseoJHSans300";
+  font-size: 18px;
+  line-height: 21px;
+}
+
+:global(.vtex-store-components-3-x-form--banner-mobile) {
+  display: block!important;
+}
+
+/*trova il negozio banner mobile*/
+
+:global(.vtex-store-components-3-x-infoCardContainer--store-locator-mobile) {
+  margin: 0 auto;
+  padding: 0px;
+  margin-bottom: 57px;
+  margin-top: 61px;
+  position: relative;
+  width: 375px;
+  height: 132px;
+  background-color: #001930;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--store-locator-mobile) {
+  color: #ffffff;
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+  margin-left: 20px;
+  width: 100%;
+}
+
+.infoCardTextContainer--store-locator-mobile :global(.vtex-button) {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border-color: unset!important;
+  margin-left: 20px;
+}
+
+.infoCardTextContainer--store-locator-mobile :global(.vtex-button__label) {
+  color: #001930;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*newsletter banner mobile*/
+
+:global(.vtex-store-components-3-x-infoCardContainer--newsletter--mobile) {
+  margin: 0 auto;
+  padding: 0px;
+  margin-bottom: 57px;
+  margin-top: 61px;
+  position: relative;
+  width: 375px;
+  height: 132px;
+  background-color: #ffffff;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--newsletter--mobile) {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "MuseoJHSans500";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.infoCardTextContainer--newsletter--mobile :global(.vtex-button) {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+  border-color: unset!important;
+  margin-left: 20px;
+}
+
+.infoCardTextContainer--newsletter--mobile :global(.vtex-button__label) {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.infoCardTextContainer--info-card-domentica-mobile :global(.vtex-button__label) {
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 
 

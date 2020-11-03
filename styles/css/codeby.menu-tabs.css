@@ -174,7 +174,7 @@
 .tabButton--tab-wrappersiamo:hover {
   color: black;
   font-weight: bolder;
-  cursor: grab;
+  cursor: default;
 }
 
 
@@ -189,7 +189,7 @@
 .tabButton--tab-wrapperimpegno:hover {
   color: black;
   font-weight: bolder;
-  cursor: grab;
+  cursor: default;
 }
 
 
@@ -205,7 +205,7 @@
 .tabButton--tab-wrapperaprireFranchising:hover {
   color: black;
   font-weight: bolder;
-  cursor: grab;
+  cursor: default;
 }
 
 .tabButton--tab-wrapperreteVendita {
@@ -220,7 +220,7 @@
 .tabButton--tab-wrapperreteVendita:hover {
   color: black;
   font-weight: bolder;
-  cursor: grab;
+  cursor: default;
 }
 
 
@@ -237,7 +237,7 @@
 .tabButton--tab-wrapperlavoraConNoi:hover {
   color: black;
   font-weight: bolder;
-  cursor: grab;
+  cursor: default;
 }
 
 /*SERVIZIO CLIENTI*/

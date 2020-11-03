@@ -10,6 +10,7 @@
   "responsive-layout.desktop#reso-e-cambi": {
     "children": [
       "flex-layout.row#reso-e-cambi"
+
     ]
   },
 
@@ -23,6 +24,7 @@
        "children": [
          "flex-layout.col#reso-e-cambi-menu",
          "flex-layout.col#reso-e-cambi-content"
+
        ],
        "props": {
        "blockClass": "flex-row-all-static-pages"
@@ -80,14 +82,6 @@
         }
    },
 
-    "newsletter#resoEcambiDesktop": {
-           "props": {
-           "blockClass": "newsletterresoEcambi",
-           "label": "Iscriviti alla newsletter",
-           "placeholder": "Inserisci la tua email",
-           "hideLabel": false
-           }
-    },
 
 /*mobile*/
 

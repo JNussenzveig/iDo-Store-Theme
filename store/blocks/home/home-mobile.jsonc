@@ -1,0 +1,616 @@
+{
+     "slider-layout#andrei-images-mobile": {
+        "children": [
+        "stack-layout#firstSlide-mobile",
+        "stack-layout#secondSlide-mobile",
+        "stack-layout#thirdSlide-mobile"
+        ],
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": true,
+          "showNavigationArrows": "never",
+          "autoplay": { "stopOnHover": false, "timeout": 4000},
+          "navigationStep": 1,
+          "slideTransition": { "speed": 1200, "delay": 0, "timing": "" },
+          "blockClass": "hatSlider"
+        }
+      },
+
+     "stack-layout#firstSlide-mobile": {
+           "props": {
+            "blockClass": "hatSliderStack-mobile"
+           },
+            "children": [
+            "info-card#hat1-mobile",
+            "info-card#hat2-mobile"
+            ]
+          },
+        "info-card#hat1-mobile": {
+          "props": {
+            "imageUrl": "/arquivos/hp_375x610_slider_01.jpg",
+            "isFullModeStyle": true,
+            "callToActionText": "Shop Boy",
+            "callToActionUrl": "/Tutti-i-Prodotti/Bambino",
+            "textPosition": "right",
+            "headline": "Eleganza e stile per i tuoi bimbi",
+            "zIndexOffset": 1,
+            "blockClass": "firstLayer-mobile"
+          }
+        },
+         "info-card#hat2-mobile": {
+           "props": {
+             "imageUrl": "",
+             "isFullModeStyle": true,
+             "callToActionText": "Shop Girl",
+             "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
+             "textPosition": "left",
+             "zIndexOffset": 1,
+             "headline": "Glam<br>collection",
+              "blockClass": "secondLayer-mobile"
+           }
+     },
+
+
+     "stack-layout#secondSlide-mobile": {
+           "props": {
+            "blockClass": "hatSliderStack-mobile"
+           },
+            "children": [
+            "info-card#hat3-mobile",
+            "info-card#hat4-mobile"
+            ]
+          },
+        "info-card#hat3-mobile": {
+          "props": {
+            "imageUrl": "/arquivos/hp_375x610_slider_02.jpg",
+            "isFullModeStyle": true,
+            "textPosition": "right",
+           "callToActionMode": "",
+            "headline": "Capi pratici e comodi",
+            "zIndexOffset": 1,
+            "blockClass": "firstLayer-mobile"
+          }
+        },
+         "info-card#hat4-mobile": {
+           "props": {
+             "imageUrl": "",
+             "isFullModeStyle": true,
+             "callToActionText": "Scoprila subito!",
+             "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
+             "textPosition": "left",
+             "zIndexOffset": 1,
+             "headline": "È arrivata la line<br>Sport Time",
+              "blockClass": "secondLayer-mobile"
+           }
+     },
+
+     "stack-layout#thirdSlide-mobile": {
+           "props": {
+            "blockClass": "hatSliderStack-mobile"
+           },
+            "children": [
+            "info-card#hat5-mobile",
+            "info-card#hat6-mobile"
+            ]
+          },
+        "info-card#hat5-mobile": {
+          "props": {
+            "imageUrl": "/arquivos/hp_375x610_slider_03.jpg",
+            "isFullModeStyle": true,
+            "callToActionText": "Shop boy",
+            "callToActionUrl": "/Tutti-i-Prodotti/Bambino",
+            "textPosition": "right",
+            "headline": "Giubbotti reversibili e animal free",
+            "zIndexOffset": 1,
+            "blockClass": "firstLayer-mobile"
+          }
+        },
+         "info-card#hat6-mobile": {
+           "props": {
+             "imageUrl": "",
+             "isFullModeStyle": true,
+             "callToActionText": "Shop Girl",
+             "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
+             "textPosition": "left",
+             "zIndexOffset": 1,
+             "headline": "Tutti al caldo con<br>iDO",
+              "blockClass": "secondLayer-mobile"
+           }
+     },
+
+/* shelf home page*/
+
+   "flex-layout.row#list-context-mobile": {
+       "children": [
+        "list-context.product-list#shelf-tutti-i-prodotti-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages-mobile"
+       }
+   },
+
+  "list-context.product-list#shelf-tutti-i-prodotti-mobile": {
+    "blocks": ["product-summary.shelf#tutti-i-prodotti-mobile"],
+    "children": ["slider-layout#shelf-tutti-i-prodotti-mobile"]
+  },
+
+  "slider-layout#shelf-tutti-i-prodotti-mobile": {
+    "children": [
+      "shelf#tutti-i-prodotti-mobile"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf-tutti-i-prodotti-mobile",
+      "showNavigationArrows": "never",
+      "autoplay": { "stopOnHover": false, "timeout": 4000},
+      "slideTransition": { "speed": 1200, "delay": 0, "timing": "" }
+    }
+  },
+
+  "shelf#tutti-i-prodotti-mobile": {
+      "blocks": ["product-summary.shelf#tutti-i-prodotti-mobile"],
+      "props": {
+        "blockClass": "shelf-tutti-i-prodotti-mobile",
+        "category": 2,
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "desktopOnly",
+        "productList": {
+          "maxItems": 7,
+          "itemsPerPage": 3,
+          "minItemsPerPage": 1,
+          "scroll": "BY_PAGE",
+          "arrows": true,
+          "titleText": ""
+        }
+      }
+    },
+  "product-summary.shelf#tutti-i-prodotti-mobile": {
+    "props": {
+      "isOneClickBuy": false,
+      "showBadge": false,
+      "badgeText": "ON",
+      "displayBuyButton": "displayButtonHover",
+      "showCollections": false,
+      "showListPrice": false,
+      "showLabels": false,
+      "showInstallments": false,
+      "showSavings": false,
+      "showDiscount" : false
+    },
+        "children": [
+          "product-summary-image",
+          "product-summary-name",
+          "product-summary-price",
+          "add-to-list-btn"
+        ]
+  },
+
+
+/*   "flex-layout.row#list-context-mobile": {
+       "children": [
+        "list-context.product-list#radu-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages-mobile"
+       }
+   },
+
+  "list-context.product-list#radu-mobile": {
+    "blocks": ["product-summary.shelf#radu-mobile"],
+    "children": ["slider-layout#shelf-mobile"]
+  },
+
+
+   "product-summary.shelf#radu-mobile": {
+    "props": {
+      "isOneClickBuy": false,
+      "showBadge": false,
+      "badgeText": "ON",
+      "displayBuyButton": "displayButtonHover",
+      "showCollections": false,
+      "showListPrice": false,
+      "showLabels": false,
+      "showInstallments": false,
+      "showSavings": false,
+      "showDiscount" : false
+    }
+  },
+
+
+  "slider-layout#shelf-mobile": {
+    "children": [
+      "shelf#radu-mobile"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf",
+      "showNavigationArrows": "never",
+      "autoplay": { "stopOnHover": false, "timeout": 4000},
+      "slideTransition": { "speed": 1500, "delay": 0, "timing": "" }
+    }
+  },
+
+  "shelf#radu-mobile": {
+      "blocks": ["product-summary.shelf#radu-mobile"],
+      "props": {
+        "blockClass": "shelf-radu",
+        "category": 2,
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "desktopOnly",
+        "productList": {
+          "maxItems": 7,
+          "itemsPerPage": 3,
+          "minItemsPerPage": 1,
+          "scroll": "BY_PAGE",
+          "arrows": true,
+          "titleText": ""
+        }
+      }
+    },
+
+
+
+  "product-summary.shelf#radu-mobile": {
+  "props": {
+        "blockClass": "shelf-radu2",
+        "isOneClickBuy": true,
+        "showBadge": true,
+        "badgeText": "ON",
+        "displayBuyButton": "displayButtonNone",
+        "showCollections": true,
+        "showListPrice": false,
+        "showLabels": false,
+        "showInstallments": false,
+        "showSavings": false
+      },
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "add-to-list-btn"
+    ]
+  },
+
+*/
+/*look book title*/
+
+   "flex-layout.row#title-Look-Book-mobile": {
+       "children": [
+        "rich-text#title-Look-Book-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages-mobile"
+       }
+   },
+
+  "rich-text#title-Look-Book-mobile": {
+    "props": {
+      "text": "## Look Book",
+      "blockClass": "shelfTitle-mobile"
+    }
+  },
+
+/*back to school banner - look book*/
+
+   "flex-layout.row#backToSchool-mobile": {
+       "children": [
+        "info-card#backToSchool-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages-mobile"
+       }
+   },
+    "info-card#backToSchool-mobile": {
+      "props": {
+        "id": "info-card-backToSchool-mobile",
+        "isFullModeStyle": true,
+        "textPosition": "left",
+        "imageUrl": "/arquivos/ricominicabanner_mobile@4x.jpg",
+        "headline": "Ricomincia<br>l'avventura<br>con l'outfit giusto",
+        "callToActionText": "ACQUISTA",
+        "callToActionUrl": "/Tutti-i-Prodotti/testkitlook",
+        "blockClass": "info-card-domentica-mobile",
+        "textAlignment": "center"
+      }
+     },
+
+/*Un iDO per ogni occasione title*/
+
+   "flex-layout.row#shelf-title-category-mobile": {
+       "children": [
+        "rich-text#shelf-title-category-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages-mobile"
+       }
+   },
+
+  "rich-text#shelf-title-category-mobile": {
+    "props": {
+      "text": "## Un ido è per sempre",
+      "blockClass": "shelfTitle-mobile"
+    }
+  },
+
+
+/*shelf 2 un ido per occasione*/
+
+   "flex-layout.row#Un-iDO-per-ogni-occasione-mobile": {
+       "children": [
+        "slider-layout#Un-iDO-per-ogni-occasione-mobile"
+       ],
+       "props": {
+       "infinite": true,
+       "fullWidth": true,
+       "showNavigationArrows": "never",
+       "showPaginationDots": true,
+       "autoplay": { "stopOnHover": false, "timeout": 4000},
+       "navigationStep": 1,
+       "slideTransition": { "speed": 1200, "delay": 0, "timing": "" },
+       "blockClass": "flex-row-all-static-pages-slider-ogni-occasione-mobile"
+       }
+   },
+
+  "slider-layout#Un-iDO-per-ogni-occasione-mobile": {
+    "children": [
+      "flex-layout.col#category-iDO-mini-mobile",
+      "flex-layout.col#category-sport-time-mobile",
+      "flex-layout.col#category-glam-collection-mobile",
+      "flex-layout.col#category-iDO-mini-mobile",
+      "flex-layout.col#category-sport-time-mobile",
+      "flex-layout.col#category-glam-collection-mobile"
+
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "slider-ogni-occasione-mobile",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "always",
+      "navigationStep": 1,
+      "autoplay": { "stopOnHover": false, "timeout": 4000},
+      "slideTransition": { "speed": 1500, "delay": 0, "timing": "" }
+    }
+  },
+
+    "flex-layout.col#category-iDO-mini-mobile": {
+       "children": [
+         "image#category-iDO-mini-mobile",
+         "rich-text#category-iDO-mini-mobile"
+       ],
+       "props": {
+         "preventVerticalStretch": true,
+         "blockClass": "category-baby-special-mobile"
+       }
+    },
+
+    "image#category-iDO-mini-mobile": {
+       "props": {
+        "src": "/arquivos/banner-iDO-mini-ido.jpg",
+        "blockClass": "image-category-baby-special"
+        }
+    },
+    "rich-text#category-iDO-mini-mobile": {
+        "props": {
+        "text": "<a class='vtex-title-slider-ogni-occasione-mobile' href='/Tutti-i-Prodotti/Baby%20special'>iDO mini</a>",
+        "blockClass": "title-slider-ogni-occasione-mobile"
+        }
+    },
+
+    "flex-layout.col#category-sport-time-mobile": {
+       "children": [
+         "image#category-sport-time-mobile",
+         "rich-text#category-sport-time-mobile"
+       ],
+       "props": {
+         "preventVerticalStretch": true,
+         "blockClass": "category-back-to-school"
+       }
+    },
+
+    "image#category-sport-time-mobile": {
+       "props": {
+        "src": "/arquivos/banner-iDO-sport time.jpg",
+        "blockClass": "image-category-back-to-school"
+        }
+    },
+    "rich-text#category-sport-time-mobile": {
+        "props": {
+        "text": "<a class='vtex-title-slider-ogni-occasione-mobile' href='/Tutti-i-Prodotti/Ready%20for%20school'>Sport time</a>",
+        "blockClass": "title-slider-ogni-occasione-mobile"
+        }
+    },
+
+
+    "flex-layout.col#category-glam-collection-mobile": {
+       "children": [
+         "image#category-glam-collection-mobile",
+         "rich-text#category-glam-collection-mobile"
+       ],
+       "props": {
+         "preventVerticalStretch": true,
+         "blockClass": "category-special-events"
+       }
+    },
+
+    "image#category-glam-collection-mobile": {
+       "props": {
+        "src": "/arquivos/banner-iDO-glam-collection.jpg",
+        "blockClass": "image-category-special-events"
+        }
+    },
+    "rich-text#category-glam-collection-mobile": {
+        "props": {
+        "text": "<a class='vtex-title-slider-ogni-occasione-mobile' href='/Tutti-i-Prodotti/Special%20events'>Glam collection</a>",
+        "blockClass": "title-slider-ogni-occasione-mobile"
+        }
+    },
+
+
+/* dimentica capi banner*/
+
+
+   "flex-layout.row#dimentica-i-capi-mobile": {
+       "children": [
+        "info-card#dimentica-i-capi-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages-mobile"
+       }
+   },
+
+  "info-card#dimentica-i-capi-mobile": {
+    "props": {
+      "id": "info-card-dimentica-i-capi-mobile",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/hp_375x375_capi_02.jpg",
+      "headline": "Dimentica i capi che si rovinano dopo un lavaggio: un iDO è per sempre.",
+      "callToActionText": "SCOPRI",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-dimentica-i-capi-mobile",
+      "textAlignment": "center"
+    }
+  },
+
+/*armocromia title*/
+
+   "flex-layout.row#shelf-title-armocromia-mobile": {
+       "children": [
+        "rich-text#shelf-title-armocromia-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages-mobile"
+       }
+   },
+
+  "rich-text#shelf-title-armocromia-mobile": {
+    "props": {
+      "text": "## L’armocromia",
+      "blockClass": "shelfTitle-mobile"
+    }
+  },
+
+
+/* armocromia banner*/
+
+   "flex-layout.row#colours-mobile": {
+       "children": [
+        "info-card#colours-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages-mobile"
+       }
+   },
+
+  "info-card#colours-mobile": {
+    "props": {
+      "id": "info-card-domentica-mobile",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/hp_375x375_armocromia_02.jpg",
+      "headline": "Quali colori stanno meglio al tuo bambino?",
+      "callToActionText": "SCOPRI",
+      "callToActionUrl": "/larmocromia",
+      "blockClass": "info-card-domentica-mobile",
+      "textAlignment": "center"
+    }
+  },
+
+/* store locator banner*/
+
+   "flex-layout.row#store-locator-home-page-mobile": {
+       "children": [
+        "info-card#store-locator-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages-mobile"
+       }
+   },
+
+  "info-card#store-locator-mobile": {
+    "props": {
+      "id": "info-card-fidelity-card-mobile",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "headline": "Trova il negozio iDO più vicino a te",
+      "callToActionText": "SCOPRI",
+      "callToActionUrl": "/our-stores",
+      "blockClass": "store-locator-mobile",
+      "textAlignment": "center"
+    }
+  },
+
+
+/* outlet banner*/
+
+   "flex-layout.row#outlet-home-page-mobile": {
+       "children": [
+        "info-card#teddy-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages-mobile"
+       }
+   },
+
+  "info-card#teddy-mobile": {
+    "props": {
+      "id": "info-card-domentica-mobile",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/hp_375x375_outlet_02.jpg",
+      "headline": "Scopri l’outlet",
+      "callToActionText": "SCOPRI",
+      "callToActionUrl": "https://www.miniconfshop.it/",
+      "blockClass": "info-card-domentica-mobile",
+      "textAlignment": "center"
+    }
+  },
+
+
+/* newsletter banner*/
+
+   "flex-layout.row#newslwtter-banner-hp-mobile": {
+       "children": [
+        "info-card#newslwtter-banner-hp-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages-mobile"
+       }
+   },
+
+  "info-card#newslwtter-banner-hp-mobile": {
+    "props": {
+      "id": "info-card-fidelity-card-mobile",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "headline": "Iscriviti alla newsletter",
+      "callToActionText": "ISCRIVITI",
+      "callToActionUrl": "/iscriviti-alla-newsletter?__bindingAddress=www.ido.it/it",
+      "blockClass": "newsletter--mobile",
+      "textAlignment": "center"
+    }
+  }
+}

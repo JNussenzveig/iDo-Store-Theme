@@ -197,9 +197,9 @@
   max-width: 33%!important;
 }
 
-.gallery--mobile-search-gallery :global(.vtex-store-components-3-x-discountContainer) {
+/*.gallery--mobile-search-gallery :global(.vtex-store-components-3-x-discountContainer) {
   height: 27px;
-}
+}*/
 
 .gallery--mobile-search-gallery :global(.vtex-store-components-3-x-discountInsideContainer ) {
   display: flex;
