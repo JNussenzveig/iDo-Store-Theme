@@ -215,6 +215,7 @@
   display: flex;
   flex-direction: column;
   width: 268px;
+  margin-top: 20px;
 }
 
 .filter__container--title {
@@ -244,9 +245,7 @@
 
 
 .filterMessage {
-  color: #001930;
-  font-family: "MuseoJHSans900";
-  font-size: 18px;
+  display: none;
 }
 
 .filterTitle {
@@ -1290,3 +1289,4 @@
   }
 
 }
+

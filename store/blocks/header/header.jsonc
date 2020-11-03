@@ -232,12 +232,6 @@
   },
 
 
-  "minicart.v2": {
-    "props": {
-      "MinicartIcon": "menu-item#minicart-icon"
-    }
-  },
-
   "menu-item#minicart-icon": {
     "props": {
       "blockClass": "minicart-logo-class",

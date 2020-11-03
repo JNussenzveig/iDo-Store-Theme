@@ -15,7 +15,7 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 10,
+        "maxItemsPerPage": 50,
         "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "skip"
       }
@@ -104,7 +104,8 @@
   "filter-navigator.v3": {
     "props": {
        "initiallyCollapsed": false,
-       "layout": "responsive"
+       "layout": "responsive",
+       "hiddenFacets": "Marche"
     }
   },
   "flex-layout.col#content": {
