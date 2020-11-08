@@ -1,4 +1,8 @@
 {
+
+
+
+
   "flex-layout.row#product-breadcrumb-mobile": {
     "props": {
       "marginTop": 10,
@@ -31,7 +35,8 @@
       "displayThumbnailsArrows": false,
       "showNavigationArrows": false,
       "thumbnailsOrientation": "horizontal",
-      "thumbnailAspectRatio": "1:1"
+      "thumbnailAspectRatio": "1:1",
+      "hiddenImages" : "color"
     }
   },
 

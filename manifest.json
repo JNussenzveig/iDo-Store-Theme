@@ -57,7 +57,8 @@
     "vtex.address-locator": "2.x",
     "codeby.logged-conditional": "0.x",
     "vtex.store-form": "0.x",
-    "vtex.disclosure-layout": "1.x"
+    "vtex.disclosure-layout": "1.x",
+    "vtex.condition-layout": "2.x"
   },
   "peerDependencies": {
     "acupula.store-locator": "0.x",

@@ -1273,12 +1273,13 @@
   .flexColChild--stack-product-ido :global(.vtex-wish-list-1-x-wishlistIconContainer) {
     position: absolute;
     top: 10px;
-    right: 170px;
+    right: 45px;
     z-index: 2;
   }
 
   .flexCol--stack-product-ido {
     position: relative;
+    margin-right: 50px;
   }
 
 }
@@ -1288,12 +1289,13 @@
   .flexColChild--stack-product-ido :global(.vtex-wish-list-1-x-wishlistIconContainer) {
     position: absolute;
     top: 10px;
-    right: 150px;
+    right: 20px;
     z-index: 2;
   }
 
   .flexCol--stack-product-ido {
     position: relative;
+    margin-right: 50px;
   }
 
 }
@@ -1303,12 +1305,13 @@
   .flexColChild--stack-product-ido :global(.vtex-wish-list-1-x-wishlistIconContainer) {
     position: absolute;
     top: 10px;
-    right: 75px;
+    right: 0px;
     z-index: 2;
   }
 
   .flexCol--stack-product-ido {
     position: relative;
+    margin-right: 50px;
   }
 
 }
@@ -1318,12 +1321,13 @@
   .flexColChild--stack-product-ido :global(.vtex-wish-list-1-x-wishlistIconContainer) {
     position: absolute;
     top: 10px;
-    right: 75px;
+    right: 0px;
     z-index: 2;
   }
 
   .flexCol--stack-product-ido {
     position: relative;
+    margin-right: 50px;
   }
 
 }
@@ -1333,12 +1337,13 @@
   .flexColChild--stack-product-ido :global(.vtex-wish-list-1-x-wishlistIconContainer) {
     position: absolute;
     top: 10px;
-    right: 75px;
+    right: 0px;
     z-index: 2;
   }
 
   .flexCol--stack-product-ido {
     position: relative;
+    margin-right: 50px;
   }
 
 }
@@ -1348,12 +1353,13 @@
   .flexColChild--stack-product-ido :global(.vtex-wish-list-1-x-wishlistIconContainer) {
     position: absolute;
     top: 10px;
-    right: 75px;
+    right: 0px;
     z-index: 2;
   }
 
   .flexCol--stack-product-ido {
     position: relative;
+    margin-right: 50px;
   }
 
 }
@@ -1362,7 +1368,7 @@
 
   .flexColChild--stack-product-ido :global(.vtex-wish-list-1-x-wishlistIconContainer) {
     position: absolute;
-    top: 0;
+    top: 175px;
     right: 0;
     z-index: 2;
   }
@@ -2289,4 +2295,45 @@
 
 :global(.vtex-menu-2-x-submenuAccordion--submenu-footer-mobile) {
   margin-bottom: 13px!important;
+}
+
+
+@media screen and (min-width: 640px){
+
+  .flexRow--product-main-container-ido {
+    max-width: 100%;
+    margin-right: 75px;
+    margin-left: 75px;
+  }
+
+  .flexRow--breadcrumbs-mobile-top-container {
+    display: none;
+  }
+
+  .flexRowContent--breadcrumb-and-image-container .stretchChildrenWidth {
+    width: 100% !important;
+  }
+
+
+  .flexRow--product-main-container-ido :global(.vtex-store-components-3-x-container) {
+    max-width: 1250px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}
+
+@media screen and (min-width: 640px) and (max-width: 740px){
+
+  .flexCol--stack-product-ido {
+    margin-right: 100px;
+  }
+
+}
+@media screen and (min-width: 740px) and (max-width: 840px){
+
+  .flexCol--stack-product-ido {
+    margin-right: 100px;
+  }
+
 }

@@ -2,9 +2,18 @@
 
 }
 
-.storeLocatorContainer {
-  flex-direction: row-reverse!important;
+@media screen and (min-width: 640px) {
+  .storeLocatorContainer {
+    flex-direction: row-reverse!important;
+  }
 }
+
+@media screen and (max-width: 639px) {
+  .storeLocatorContainer {
+    flex-direction: column-reverse!important;
+  }
+}
+
 
 .storeLocatorContainer :global(.vtex-button) {
   width: 335px;
