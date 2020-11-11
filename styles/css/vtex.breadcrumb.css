@@ -45,8 +45,13 @@
 
   .term {
     color: #001930;
+<<<<<<< HEAD
     font-family: "MuseoSans_700";
     font-size: 25px;
+=======
+    font-family: "MuseoJHSans900";
+    font-size: 19px;
+>>>>>>> 75b719cb5fd75666c393533bbeef9d2423a01ced
     line-height: 29px;
   }
 

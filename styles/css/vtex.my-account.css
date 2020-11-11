@@ -65,7 +65,7 @@
 
   :global(.vtex-pageHeader-link__container) {
     position: absolute;
-    right: 200px;
+    right: 600px;
   }
 
   :global(.vtex-pageHeader-link__container .vtex-button) {
@@ -195,8 +195,13 @@
 
 
   .profileBoxContainer .boxContainerFooter :global(.vtex-button) {
+<<<<<<< HEAD
     color: #001930;
     font-family: "MuseoSans_700";
+=======
+    color: white;
+    font-family: "MuseoJHSans900";
+>>>>>>> 75b719cb5fd75666c393533bbeef9d2423a01ced
     font-size: 16px;
     line-height: 21px;
     text-transform: none;
@@ -230,8 +235,13 @@
   }
 
   .passwordBoxContainer .boxContainerFooter :global(.vtex-button) {
+<<<<<<< HEAD
     color: #001930;
     font-family: "MuseoSans_700";
+=======
+    color: white;
+    font-family: "MuseoJHSans900";
+>>>>>>> 75b719cb5fd75666c393533bbeef9d2423a01ced
     font-size: 16px;
     line-height: 21px;
     text-transform: none;
@@ -351,17 +361,17 @@
   }
 
   /* INDIRIZZI STYLING */
-  :global(.vtex-account__page) {
+/*  :global(.vtex-account__page) {
     position: relative;
-  }
+  }*/
 
   .addressList {
   }
-
-  /*.addressBox .boxContainer {
+/*
+  .addressBox .boxContainer {
     border: none;
     position: relative;
-  }
+  }*/
 
   .addressBox .boxContainerFooter {
     padding: 0px;
@@ -384,13 +394,12 @@
     padding: 0px;
     text-transform: none;
   }
-*/
-  :global(.vtex-pageHeader__children) {
+/*  :global(.vtex-pageHeader__children) {
     position: absolute;
     top: 12rem;
     right: 35%;
     z-index: 999;
-  }
+  }*/
 
   :global(.vtex-pageHeader__children .vtex-button) {
     color: #001930;
@@ -438,6 +447,16 @@
 
   .addressBox .boxContainerFooter :global(.vtex-button) {
     background-color: transparent!important;
+  }
+
+  .boxContainerBody :global(.vtex-button) {
+    color: white;
+    font-family: "MuseoJHSans900";
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: none;
+    border-radius: 20px;
+    background-color: #002c50;
   }
 
 

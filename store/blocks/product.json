@@ -2,33 +2,18 @@
   "store.product.kitlook": {
     "children": [
       "kitlook-layout",
-      "responsive-layout.mobile#product"
-    ]
-  },
-
-  "responsive-layout.desktop#product": {
-    "children": [
-      "flex-layout.row#product-main"
-    ]
-  },
-
-  "responsive-layout.mobile#product": {
-    "children": [
-      "flex-layout.row#product-breadcrumb-mobile",
-      "product-images#mobileVersion"  ,
-      "sku-selector#mobile",
-      "product-quantity#mobile",
-      "flex-layout.row#productNamePriceSecondaryMobile",
-      "flex-layout.row#buy-button-mobile",
-      "custom-accordion#specification-description",
-      "custom-accordion#specification-1",
-      "custom-accordion#specification-2",
-      "custom-accordion#specification-3",
-      "custom-accordion#specification-4",
+      "shelf.relatedProducts#dekstop-product",
       "shelf.relatedProducts#mobile-product"
     ]
   },
 
+
+  "kitlook-layout": {
+    "children": [
+      "flex-layout.row#product-main",
+      "flex-layout.row#kitlook"
+    ]
+  },
 
 
 
@@ -98,7 +83,7 @@
         "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": false,
-        "titleText": ""
+        "titleText": "Potrebbero piacerti anche"
       }
     },
     "blocks": [
@@ -108,6 +93,9 @@
 
 
   "product-summary.shelf#related-desktop": {
+    "props": {
+      "gap": "ph7"
+    },
     "children": [
       "product-summary-image",
       "product-summary-name",
@@ -154,7 +142,10 @@
     }
   },
   "flex-layout.row#product-image": {
-    "children": ["product-images#desktopVersion"]
+    "props": {
+      "blockClass": "breadcrumb-and-image-container"
+    },
+    "children": [ "flex-layout.row#product-breadcrumb-mobile","product-images#desktopVersion"]
   },
 
   "flex-layout.row#product-imageSecondary": {
@@ -178,7 +169,8 @@
     "props": {
       "thumbnailsOrientation": "horizontal",
       "thumbnailAspectRatio": "1:1",
-      "blockClass": "image-to-hide"
+      "blockClass": "image-to-hide",
+      "hiddenImages" : "color"
     }
   },
 
@@ -204,9 +196,37 @@
       "custom-accordion#specification-2",
       "custom-accordion#specification-3",
       "custom-accordion#specification-4",
-      "availability-subscriber"
+      "availability-subscriber",
+      "condition-layout.product#cond1"
 
     ]
+  },
+
+  "condition-layout.product#cond1": {
+    "props": {
+       "conditions": [
+         {
+          "subject": "isProductAvailable"
+
+       }
+     ],
+     "Then": "rich-text#product-conditionalempty",
+     "Else": "rich-text#product-conditional"
+   }
+ },
+
+  "rich-text#product-conditionalempty": {
+    "props": {
+      "text": "",
+      "blockClass": "scegli-taglia-richtext"
+    }
+  },
+
+  "rich-text#product-conditional": {
+    "props": {
+      "text": "this is conditioned by status",
+      "blockClass": "scegli-taglia-richtext"
+    }
   },
 
   "flex-layout.row#productNamePrice": {
@@ -286,8 +306,7 @@
       "blockClass": "product-name-price-rich-text"
     },
     "children": [
-      "rich-text#discount",
-      "rich-text#discount-sub-text"
+      "rich-text#discount"
     ]
   },
 
@@ -425,14 +444,6 @@
     }
   },
 
-  "kitlook-layout": {
-    "children": [
-      "flex-layout.row#product-main",
-      "shelf.relatedProducts#dekstop-product",
-      "shelf.relatedProducts#mobile-product",
-      "flex-layout.row#kitlook"
-    ]
-  },
 
   "flex-layout.row#kitlook": {
     "props": {

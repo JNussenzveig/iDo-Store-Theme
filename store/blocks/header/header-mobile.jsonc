@@ -134,7 +134,7 @@
 
   "flex-layout.col#minicart-mobile": {
     "children": [
-      "minicart.v2#mobile"
+      "minicart.v2"
     ],
     "props": {
       "preventVerticalStretch": true,
@@ -144,9 +144,6 @@
 
 
   "minicart.v2#mobile": {
-    "props": {
-      "MinicartIcon": "menu-item#minicart-icon-mobile"
-    }
   },
 
   "menu-item#minicart-icon-mobile": {
