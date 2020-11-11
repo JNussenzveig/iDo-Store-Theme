@@ -134,7 +134,7 @@
   },
 
   "flex-layout.col#stack": {
-    "children": ["stack-layout", "add-to-list-btn"],
+    "children": ["stack-layout"],
     "props": {
       "rowGap": 0,
       "width": "60%",
@@ -145,7 +145,7 @@
     "props": {
       "blockClass": "breadcrumb-and-image-container"
     },
-    "children": [ "flex-layout.row#product-breadcrumb-mobile","product-images#desktopVersion"]
+    "children": [ "flex-layout.row#product-breadcrumb-mobile","product-images#desktopVersion","add-to-list-btn"]
   },
 
   "flex-layout.row#product-imageSecondary": {
@@ -191,15 +191,28 @@
       "product-assembly-options",
       "flex-layout.row#productNamePriceSecondary",
       "flex-layout.row#buy-button",
+      "condition-layout.product#cond1",
+      "share#productPage",
       "custom-accordion#specification-description",
       "custom-accordion#specification-1",
       "custom-accordion#specification-2",
       "custom-accordion#specification-3",
       "custom-accordion#specification-4",
-      "availability-subscriber",
-      "condition-layout.product#cond1"
+      "availability-subscriber"
 
     ]
+  },
+
+  "share#productPage": {
+    "props": {
+      "blockClass": "share-product-social",
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": true,
+        "Pinterest": false
+      }
+    }
   },
 
   "condition-layout.product#cond1": {
@@ -211,7 +224,7 @@
        }
      ],
      "Then": "rich-text#product-conditionalempty",
-     "Else": "rich-text#product-conditional"
+     "Else": "flex-layout.row#OutOfStockSL"
    }
  },
 
@@ -221,11 +234,19 @@
       "blockClass": "scegli-taglia-richtext"
     }
   },
-
+  "flex-layout.row#OutOfStockSL": {
+    "props": {
+      "blockClass": "out-of-stock-redirect-container"
+    },
+    "children": [
+      "rich-text#product-conditional",
+      "menu-item#vtex-location"
+    ]
+  },
   "rich-text#product-conditional": {
     "props": {
-      "text": "this is conditioned by status",
-      "blockClass": "scegli-taglia-richtext"
+      "text": "<a class='vtex-conditional-product-SL' href='https://storeido.myvtex.com/our-stores'>Trova l’articolo in un’altro store</a>",
+      "blockClass": "out-of-stock-store-locator"
     }
   },
 
@@ -432,17 +453,6 @@
     }
   },
 
-
-  "share#default": {
-    "props": {
-      "social": {
-        "Facebook": true,
-        "WhatsApp": true,
-        "Twitter": false,
-        "Pinterest": true
-      }
-    }
-  },
 
 
   "flex-layout.row#kitlook": {

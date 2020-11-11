@@ -1549,3 +1549,40 @@ store locator mobile version final */
 .productImageTag--productImageDesktop--main {
   max-height: unset!important;
 }
+
+.shareSocialButton:first-child {
+  background-image: url("/arquivos/facebookshare.png");
+  width: 13px;
+  height: 25px;
+}
+
+.shareButtons {
+  display: flex;
+  justify-content: space-evenly;
+  height: 60px;
+}
+
+.shareSocialIcon {
+  display: none;
+}
+
+.shareSocialButton:nth-child(even) {
+  background-image: url("/arquivos/twittershare.png");
+  width: 31px;
+  height: 24px;
+}
+
+.shareSocialButton:last-child {
+  background-image: url("/arquivos/whatsappshare.png");
+  width: 25px;
+  height: 25px;
+}
+
+.shareLabel {
+  display: none;
+}
+
+.productImage--productImageDesktop {
+  border: 1px solid black;
+}
+
