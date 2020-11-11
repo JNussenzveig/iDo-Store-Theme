@@ -24,3 +24,42 @@
   border: 1px solid lightgray!important;
   background-color: white!important;
 }
+
+.KitLookItem :global(.vtex-button) {
+  width: 327px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+}
+
+.KitLookItem :global(.vtex-button__label) {
+  height: 22px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.productKitBuyButtonWrapper :global(.vtex-button){
+  width: 327px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+}
+
+
+.productKitBuyButtonWrapper :global(.vtex-button__label){
+  height: 22px;
+  color: #ffffff;
+  font-family: "MuseoJHSans900";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}

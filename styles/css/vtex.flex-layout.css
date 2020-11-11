@@ -1630,13 +1630,13 @@
   }
 
 }
-
+/*
 @media screen and (min-width: 1400px) {
 
   .flexColChild--stack-product-ido :global(.vtex-wish-list-1-x-wishlistIconContainer) {
     position: absolute;
     top: 10px;
-    right: 45px;
+    right: 0px;
     z-index: 2;
   }
 
@@ -1652,7 +1652,7 @@
   .flexColChild--stack-product-ido :global(.vtex-wish-list-1-x-wishlistIconContainer) {
     position: absolute;
     top: 10px;
-    right: 20px;
+    right: 0px;
     z-index: 2;
   }
 
@@ -1725,7 +1725,7 @@
     margin-right: 50px;
   }
 
-}
+}*/
 
 @media only screen and (max-width: 639px)  {
 
@@ -2793,4 +2793,104 @@
     margin-right: 100px;
   }
 
+}
+
+.flexRowContent--out-of-stock-redirect-container {
+  display: flex;
+  position: relative;
+}
+
+.flexRowContent--out-of-stock-redirect-container .stretchChildrenWidth:first-child {
+  width: 100%!important;
+}
+
+
+@media only screen and (min-width: 1300px) {
+  .flexRowContent--out-of-stock-redirect-container .stretchChildrenWidth:last-child {
+    position: absolute;
+    right: 70px;
+    width: unset!important;
+  }
+
+}
+
+@media only screen and (min-width: 401px) and (max-width: 599px) {
+  .flexRowContent--out-of-stock-redirect-container .stretchChildrenWidth:last-child {
+    position: absolute;
+    right: 30px;
+    width: unset!important;
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+  .flexRowContent--out-of-stock-redirect-container .stretchChildrenWidth:last-child {
+    display: none;
+  }
+
+}
+
+@media  only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .flexRowContent--out-of-stock-redirect-container .stretchChildrenWidth:last-child {
+    position: absolute;
+    right: 30px;
+    width: unset!important;
+  }
+
+}
+
+@media  only screen  and (min-width: 600px) and (max-width: 1099px) {
+  .flexRowContent--out-of-stock-redirect-container .stretchChildrenWidth:last-child {
+    position: absolute;
+    right: 0px;
+    width: unset!important;
+  }
+
+}
+
+.flexRowContent--confirmationButtons .flexColChild:first-child {
+  display: none;
+}
+
+.flexRowContent--breadcrumb-and-image-container {
+  position: relative;
+}
+
+.flexRowContent--breadcrumb-and-image-container :global(.vtex-wish-list-1-x-wishlistIcon) {
+  display: none;
+}
+
+.flexRowContent--breadcrumb-and-image-container .stretchChildrenWidth:last-child {
+  position: absolute;
+  z-index: 2;
+  border: solid 1px black;
+  border-radius: 59px;
+  width: 35px!important;
+  height: 32px;
+  background-color: white;
+  left: 15px;
+  top: -13px;
+}
+
+
+
+.flexRowContent--breadcrumb-and-image-container :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+  background-image: url("/arquivos/heart_green@4x.png");
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+  background-color: #ffffff;
+  margin-top: 5px;
+}
+
+.flexRowContent--breadcrumb-and-image-container :global(.vtex-button) {
+  background-color: transparent;
+  outline: none;
 }
