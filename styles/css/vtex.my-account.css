@@ -31,7 +31,7 @@
 
   :global(.vtex-addresses .vtex-button) {
     color: #ffffff;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 14px;
     letter-spacing: -0.4px;
     line-height: 21px;
@@ -49,7 +49,7 @@
 
   :global(.vtex-pageHeader__title) {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 25px;
     line-height: 27px;
   }
@@ -94,7 +94,7 @@
     border-radius: 20px;
     background-color: #002c50;
     color: #ffffff;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 18px;
     letter-spacing: -0.4px;
     line-height: 21px;
@@ -196,7 +196,7 @@
 
   .profileBoxContainer .boxContainerFooter :global(.vtex-button) {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 16px;
     line-height: 21px;
     text-transform: none;
@@ -231,7 +231,7 @@
 
   .passwordBoxContainer .boxContainerFooter :global(.vtex-button) {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 16px;
     line-height: 21px;
     text-transform: none;
@@ -256,7 +256,7 @@
 
   .passwordBoxContainer .boxContainerBody :global(.vtex-button__label) {
     color: #ffffff;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 18px;
     line-height: 21px;
     text-transform: uppercase;
@@ -378,7 +378,7 @@
 
   .addressBox :global(.vtex-button__label) {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 16px;
     line-height: 21px;
     padding: 0px;
@@ -394,7 +394,7 @@
 
   :global(.vtex-pageHeader__children .vtex-button) {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 16px;
     line-height: 21px;
     background-color: rgba(0, 44, 80, 0.1);
@@ -407,7 +407,7 @@
 
   .addressBox .boxContainerFooter :global(.vtex-button__label) {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 14px;
     line-height: 21px;
     text-transform: none;
@@ -416,7 +416,7 @@
     border-radius: 20px;
     background-color: #962a1a!important;
     color: #ffffff;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 18px;
     line-height: 21px;
     text-transform: uppercase;
@@ -425,7 +425,7 @@
 
   :global(.vtex-addresses .vtex-button) {
     color: #ffffff;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 14px;
     letter-spacing: -0.4px;
     line-height: 21px;
@@ -483,14 +483,14 @@
 
   :global(.vtex-my-orders-app-3-x-orderId) {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 20px;
     line-height: 21px;
   }
 
   :global(.vtex-my-orders-app-3-x-orderHeaderValue) {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 20px;
     line-height: 21px;
   }
@@ -511,7 +511,7 @@
 
   :global(.vtex-my-orders-app-3-x-font) {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 18px;
     line-height: 21px;
     text-decoration: underline;
@@ -519,7 +519,7 @@
 
   :global(.vtex-my-orders-app-3-x-orderProductShipping) {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 18px;
     line-height: 21px;
     margin-top: 40px;
@@ -646,7 +646,7 @@
 
   .profileBoxContainer .boxContainerFooter :global(.vtex-button) {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 15px;
     line-height: 21px;
     width: auto;
@@ -669,7 +669,7 @@
 
   .passwordBoxContainer .boxContainerFooter :global(.vtex-button) {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 15px;
     line-height: 21px;
     width: auto;
@@ -715,7 +715,7 @@
 
   .profileFormBoxContainer :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper .vtex-button) {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 13px;
     line-height: 21px;
     text-transform: uppercase;
@@ -726,7 +726,7 @@
 
   .profileFormBoxContainer :global(.vtex-button) {
     color: #ffffff;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 14px;
     letter-spacing: -0.4px;
     line-height: 21px;
@@ -766,7 +766,7 @@
     border-radius: 20px;
     background-color: #002c50;
     color: #ffffff;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 18px;
     line-height: 21px;
     text-transform: uppercase;
@@ -786,7 +786,7 @@
 
   :global(.vtex-pageHeader__children .vtex-button) {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 16px;
     line-height: 21px;
     text-transform: none;
@@ -795,7 +795,7 @@
 
   .addressList .boxContainerFooter :global(.vtex-button) {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 14px;
     line-height: 21px;
     width: auto;
@@ -841,14 +841,14 @@
 
   :global(.vtex-my-orders-app-3-x-orderId) {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 12px;
     line-height: 21px;
   }
 
   :global(.vtex-my-orders-app-3-x-orderHeaderValue) {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 14px;
     line-height: 21px;
   }
@@ -869,7 +869,7 @@
 
   :global(.vtex-my-orders-app-3-x-font) {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 13px;
     line-height: 21px;
     text-decoration: underline;
@@ -877,7 +877,7 @@
 
   :global(.vtex-my-orders-app-3-x-orderProductShipping) {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 13px;
     line-height: 21px;
   }
@@ -893,7 +893,7 @@
     border-radius: 20px;
     background-color: #962a1a!important;
     color: #ffffff;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 18px;
     line-height: 21px;
     text-transform: uppercase;
@@ -902,7 +902,7 @@
 
   :global(.vtex-addresses .vtex-button) {
     color: #ffffff;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 14px;
     letter-spacing: -0.4px;
     line-height: 21px;
@@ -926,7 +926,7 @@
     padding-left: 0px;
     border-width: 0px;
     color: #001930;
-    font-family: "MuseoJHSans300";
+    font-family: "MuseoSans_300";
     font-size: 20px;
     line-height: 25px;
   }
@@ -935,7 +935,7 @@
     padding-left: 0px;
     border-width: 0px;
     color: #001930;
-    font-family: "MuseoJHSans300";
+    font-family: "MuseoSans_300";
     font-size: 20px;
     line-height: 25px;
   }

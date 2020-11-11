@@ -391,51 +391,51 @@
                  "fullWidth": true,
                  "showNavigationArrows": "never",
                  "showPaginationDots": "never",
-                 "autoplay": { "stopOnHover": false, "timeout": 4000},
+                 "autoplay": { "stopOnHover": false, "timeout": 1000},
                  "navigationStep": 1,
-                 "slideTransition": { "speed": 1200, "delay": 0, "timing": "" },
+                 "slideTransition": { "speed": 1500, "delay": 0, "timing": "" },
                  "blockClass": "photozerofee"
                }
              },
 
             "image#photo-store-1": {
               "props": {
-                "src": "/arquivos/franchising_420x405_0000__MG_4103.jpg"
+                "src": "/arquivos/franchising_1280x720px_0006__MG_4103.jpg"
               }
             },
             "image#photo-store-2": {
               "props": {
-                "src": "/arquivos/franchising_420x405_0001__MG_4105.jpg"
+                "src": "/arquivos/franchising_1280x720px_0005__MG_4105.jpg"
               }
             },
 
             "image#photo-store-3": {
               "props": {
-                "src": "/arquivos/franchising_420x405_0002__MG_4108.jpg"
+                "src": "/arquivos/franchising_1280x720px_0004__MG_4108.jpg"
               }
             },
 
             "image#photo-store-4": {
               "props": {
-                "src": "/arquivos/franchising_420x405_0003__MG_4113.jpg"
+                "src": "/arquivos/franchising_1280x720px_0003__MG_4113.jpg"
               }
             },
 
             "image#photo-store-5": {
               "props": {
-                "src": "/arquivos/franchising_420x405_0004__MG_4121.jpg"
+                "src": "/arquivos/franchising_1280x720px_0002__MG_4121.jpg"
               }
             },
 
             "image#photo-store-6": {
                "props": {
-                 "src": "/arquivos/franchising_420x405_0005__MG_4127.jpg"
+                 "src": "/arquivos/franchising_1280x720px_0001__MG_4127.jpg"
                }
              },
 
             "image#photo-store-7": {
                "props": {
-                 "src": "/arquivos/franchising_420x405_0006__MG_4160.jpg"
+                 "src": "/arquivos/franchising_1280x720px_0000__MG_4160.jpg"
                }
              },
 
@@ -683,17 +683,17 @@
   "modal-trigger#modal-aprire-un-franchising-form": {
       "children": [
       "rich-text#franchisingTextButton",
-        "modal-layout#modal-aprire-un-franchising-form"
+      "modal-layout#modal-aprire-un-franchising-form"
       ],
       "props": {
             "blockClass": "modal-trigger-aprire-un-franchising-form"
           }
     },
 
-"rich-text#franchisingTextButton": {
+    "rich-text#franchisingTextButton": {
     "props": {
       "text": "Apri un franchising iDO",
-      "blockClass": "franchisingButton"
+      "blockClass": "franchisingTextButton"
     }
   },
 

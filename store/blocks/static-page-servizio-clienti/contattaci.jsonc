@@ -366,7 +366,7 @@
          "flex-layout.col#contattaci-form-mobile"
        ],
        "props": {
-       "blockClass": "contattaci-form-mobile"
+       "blockClass": "flex-row-all-static-pages-mobile"
        }
    },
 

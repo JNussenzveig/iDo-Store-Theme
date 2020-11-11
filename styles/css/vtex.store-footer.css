@@ -85,7 +85,7 @@
 .footerLayout :global(.vtex-menu-2-x-styledLink--textSimple) {
   width: 290px;
   height: 227px;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 17px;
   color: #001930 !important;
@@ -96,7 +96,7 @@
 .footerLayout :global(.vtex-menu-2-x-styledLink--textSimpleLast) {
   width: 290px;
   height: 227px;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 17px;
   color: #001930 !important;
@@ -135,7 +135,7 @@
 :global(.vtex-menu-2-x-styledLinkContent--textBoldMobile) {
   font-weight: bold;
   display: flex;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   text-transform: uppercase;
   align-self: center;
@@ -148,14 +148,14 @@
 
 :global(.vtex-menu-2-x-styledLinkContent--bisogno-text-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans700";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   font-style: normal;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--bisogno-text) {
   color: #001930;
-  font-family: "MuseoJHSans700";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   font-style: normal;
 }
@@ -265,4 +265,8 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--menu-text) {
   padding-top: unset;
   margin-top: 30px;
+}
+
+.footerLayout {
+  overflow-x: hidden;
 }

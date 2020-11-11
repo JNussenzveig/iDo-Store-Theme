@@ -1,3 +1,404 @@
+@media screen and (max-width: 1900px) {
+  .flexRowContent--menu-link {
+    max-width: 1400px;
+    height: 46px;
+    background-color: #F2F2F2;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+
+  .flexRowContent--flex-row-shelf-home-page {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flexRowContent--level1-Seguici-sui-nostri-social {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--menu-level2-Hai-bisogno-di-aiuto {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--image-consegna-spedizione-reso-pagamenti {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--title-consegna-spedizione-reso-pagamenti {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--content-consegna-spedizione-reso-pagamenti {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--menu-level6-contatti {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--title-vendita-negozi-impresa {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--content-vendita-negozi-impresa {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--menu-row {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--credits {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--flex-row-all-static-pages {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--flex-row-azienda {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .flexRowContent--menu-link {
+    max-width: 1250px;
+    height: 46px;
+    background-color: #F2F2F2;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+
+  .flexRowContent--flex-row-shelf-home-page {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flexRow--main-header {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flexRowContent--level1-Seguici-sui-nostri-social {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--menu-level2-Hai-bisogno-di-aiuto {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--image-consegna-spedizione-reso-pagamenti {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--title-consegna-spedizione-reso-pagamenti {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--content-consegna-spedizione-reso-pagamenti {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--menu-level6-contatti {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--title-vendita-negozi-impresa {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--content-vendita-negozi-impresa {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--menu-row {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--credits {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexColChild--category-back-to-school {
+    width: 100%;
+    height: 100%;
+  }
+  .flexColChild--category-baby-special {
+    width: 100%;
+    height: 100%;
+  }
+  .flexColChild--category-special-events {
+    width: 100%;
+    height: 100%;
+  }
+  .flexRow--flex-row-all-static-pages {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRow--flex-row-all-static-pages-slider-ogni-occasione {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--flex-row-azienda {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 1350px) {
+  .flexRowContent--menu-link {
+    max-width: 1025px;
+    height: 46px;
+    background-color: #F2F2F2;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+
+  .flexRowContent--flex-row-shelf-home-page {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flexRow--main-header {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flexRowContent--level1-Seguici-sui-nostri-social {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--menu-level2-Hai-bisogno-di-aiuto {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--image-consegna-spedizione-reso-pagamenti {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--title-consegna-spedizione-reso-pagamenti {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--content-consegna-spedizione-reso-pagamenti {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--menu-level6-contatti {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--title-vendita-negozi-impresa {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--content-vendita-negozi-impresa {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--menu-row {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--credits {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexColChild--category-back-to-school {
+    width: 50%;
+    height: 50%;
+  }
+  .flexColChild--category-baby-special {
+    width: 50%;
+    height: 50%;
+  }
+  .flexColChild--category-special-events {
+    width: 50%;
+    height: 50%;
+  }
+  .flexRow--flex-row-all-static-pages {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRow--flex-row-all-static-pages-slider-ogni-occasione {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--flex-row-azienda {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* HEADER DESKTOP */
+
+
+:global(.vtex-flex-layout-0-x-flexRow--menu-link) {
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #F2F2F2;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--main-header) {
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--menu-social-networks-header) {
+  flex-direction: row;
+  align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--menu-social-networks-header) {
+  width: unset;
+  height: unset!important;
+  margin-right: 60px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--header-top-menu) {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  max-width: 1400px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+
+:global(.vtex-menu-2-x-submenu--bambina-desktop-main-container-submenu) {
+  justify-content: flex-end;
+  padding-right: 12%;
+}
+
+:global(.vtex-menu-2-x-submenu--bambino-desktop-main-container-submenu) {
+  justify-content: flex-end;
+  padding-right: 12%;
+}
+
+
+
+:global(.vtex-flex-layout-0-x-flexColChild--bambinaMenuDesktopFirstColumn) {
+  width: 170px!important;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--bambinaMenuDesktopSecondColumn) {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  width: 170px!important;
+  margin-left: 20px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--bambinaMenuDesktopThirdColumn) {
+  width: 170px!important;
+  margin-left: 40px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--bambinaMenuDesktopFirstColumn) {
+  width: 100%;
+  height: unset!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--bambinaMenuDesktopSecondColumn) {
+  width: 100%;
+  height: unset!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--bambinaMenuDesktopThirdColumn) {
+  width: 100%;
+  height: unset!important;
+}
+
+.flexColChild--category-menu-header :global(.vtex-menu-2-x-styledLinkContent) {
+  color: #001930!important;
+  font-family: "MuseoSans_500";
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.flexColChild--category-menu-header :global(.vtex-menu-2-x-styledLinkContent):hover {
+  font-weight: bolder;
+}
+
+.flexColChild--category-menu-header :global(.vtex-header-top-menu-list):hover {
+  font-weight: bolder;
+}
+
+
+
+
+
 @media screen and (max-width: 1025px) {
   .flexRow--azienda-mobile .flexRowContent--azienda-mobile {
     flex-direction: column;
@@ -14,39 +415,13 @@
   }
 }
 
-/*.flexRowContent--menu-link,
-.flexRowContent--main-header {
-  padding: 0 0.5rem;
-}*/
-
-
-
-/*@media screen and (min-width: 40em) {
-  .flexRowContent--menu-link,
-  .flexRowContent--main-header {
-    padding: 0 1rem;
-  }
-}
-@media screen and (min-width: 80rem) {
-  .flexRowContent--menu-link,
-  .flexRowContent--main-header {
-    padding: 0 0.25rem;
-  }
-}*/
-
-.flexRowContent--menu-link {
-  background-color: #F2F2F2;
-  color: #00263a;
-  height: 50px;
-}
-
-.flexRowContent--main-header {
+.flexRow--main-header {
   background-color: white;
 }
 
 .flexRowContent--main-header-mobile {
   align-items: center;
-  background-color: #f0f0f0;
+  background-color: white;
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
@@ -54,7 +429,7 @@
   width: 81px;
   height: 19px;
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   line-height: 19px;
 }
 
@@ -76,14 +451,14 @@
 
 
 
-:global(.vtex-flex-layout-0-x-flexRowContent--menu-link) :global(.vtex-locale-switcher-0-x-relativeContainer) {
+/*:global(.vtex-flex-layout-0-x-flexRowContent--menu-link) :global(.vtex-locale-switcher-0-x-relativeContainer) {
   position: unset;
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+}*/
 
 :global(.vtex-locale-switcher-0-x-container) {
   height: 50px;
@@ -117,7 +492,7 @@
 
 .flexCol--orderByColDesktop :global(.vtex-search-result-3-x-orderByText) {
   color: #001930!important;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   line-height: 21px;
   text-transform: none;
@@ -162,7 +537,7 @@
 
 .flexCol--orderByColDesktop :global(.vtex-search-result-3-x-orderByOptionItem) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   text-transform: capitalize;
 }
@@ -175,7 +550,7 @@
 
 .flexCol--orderByMobileCol :global(.vtex-search-result-3-x-orderByText) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   text-transform: none;
 }
@@ -193,7 +568,7 @@
 
 .flexCol--orderByMobileCol :global(.vtex-search-result-3-x-orderByOptionItem) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   text-transform: capitalize;
 }
@@ -215,7 +590,7 @@
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   font-style: normal;
   letter-spacing: normal;
@@ -276,7 +651,7 @@
 
 :global(.vtex-store-components-3-x-price_sellingPrice) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
 }
@@ -304,7 +679,7 @@
 
 :global(.vtex-store-components-3-x-productNameContainer) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   font-weight: bold;
@@ -345,7 +720,7 @@
 
 .flexRowContent--product-buy-button :global(.vtex-button__label) {
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
@@ -361,7 +736,7 @@
   width: 803px;
   height: 34px;
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 35px;
   line-height: 29px;
   top: 0px;
@@ -404,10 +779,7 @@
 
 
 
-.flexRowContent--menu-link {
-  display: flex;
-  justify-content: space-between;
-}
+
 
 .flexRowContent--row-networks-mobile {
   display: flex
@@ -482,7 +854,7 @@
 
 .flexRowContent--franchisingform :global(.vtex-input__label) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   line-height: 21px;
   margin-left: 33px;
@@ -490,7 +862,7 @@
 
 .flexRowContent--franchisingform :global(.vtex-dropdown__label) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   line-height: 21px;
   margin-left: 33px;
@@ -498,7 +870,7 @@
 
 .flexRowContent--franchisingform :global(.vtex-checkbox__label) {
   color: rgba(0, 0, 0, 0.65);
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 12px;
   font-weight: 300;
   line-height: 15px;
@@ -531,7 +903,7 @@
 
 .flexRowContent--franchisingformsubmit :global(.vtex-button__label) {
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -693,7 +1065,7 @@
 
 .flexRowContent--contattaci-form :global(.vtex-input__label) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   line-height: 21px;
 }
@@ -702,21 +1074,21 @@
   width: 319px;
   height: 38px;
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 24px;
   line-height: 25px;
 }
 
 .flexRowContent--contattaci-form :global(.vtex-dropdown__label) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   line-height: 21px;
 }
 
 .flexRowContent--contattaci-form :global(.vtex-checkbox__label) {
   color: rgba(0, 0, 0, 0.65);
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 12px;
   font-weight: 300;
   line-height: 15px;
@@ -738,7 +1110,7 @@
 
 .flexRow--contattaci-form-submit :global(.vtex-button__label) {
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -816,7 +1188,7 @@
 
 .flexRow--newsletter-form-submit :global(.vtex-button__label) {
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -857,7 +1229,7 @@
 
 .flexRowContent--newsletter-form :global(.vtex-input__label) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   line-height: 21px;
 }
@@ -866,14 +1238,14 @@
   width: 319px;
   height: 38px;
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 24px;
   line-height: 25px;
 }
 
 .flexRowContent--newsletter-form :global(.vtex-checkbox__label) {
   color: rgba(0, 0, 0, 0.65);
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 12px;
   font-weight: 300;
   line-height: 15px;
@@ -947,7 +1319,7 @@
 
 .flexColChild--franchisingformmobile :global(.vtex-input__label) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   line-height: 21px;
   margin-top: 25px;
@@ -955,7 +1327,7 @@
 
 .flexColChild--franchisingformmobile :global(.vtex-dropdown__label) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   line-height: 21px;
   margin-top: 25px;
@@ -963,7 +1335,7 @@
 
 .flexColChild--franchisingformmobile :global(.vtex-checkbox__label) {
   color: rgba(0, 0, 0, 0.65);
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 12px;
   font-weight: 300;
   line-height: 15px;
@@ -994,7 +1366,7 @@
 
 /*:global(.vtex-button__label) {
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
   text-transform: uppercase;
 }*/
@@ -1079,7 +1451,7 @@
 
 .flexRowContent--name-contattaci-form-mobile :global(.vtex-input__label) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   line-height: 21px;
   margin-top: 51px;
@@ -1087,7 +1459,7 @@
 
 .flexRowContent--surname-contattaci-form-mobile :global(.vtex-input__label) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   line-height: 21px;
   margin-top: 25px;
@@ -1095,7 +1467,7 @@
 
 .flexRowContent--email-contattaci-form-mobile :global(.vtex-input__label) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   line-height: 21px;
   margin-top: 25px;
@@ -1103,7 +1475,7 @@
 
 .flexRowContent--phone-contattaci-form-mobile :global(.vtex-input__label) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   line-height: 21px;
   margin-top: 25px;
@@ -1111,7 +1483,7 @@
 
 .flexRowContent--contattaci-form-message-mobile :global(.vtex-input__label) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   line-height: 21px;
   margin-top: 25px;
@@ -1119,7 +1491,7 @@
 
 .flexRowContent--location-contattaci-form-mobile :global(.vtex-dropdown__label) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   line-height: 21px;
   margin-top: 25px;
@@ -1127,7 +1499,7 @@
 
 .flexRowContent--contattaci-form-privacy-mobile :global(.vtex-checkbox__label) {
   color: rgba(0, 0, 0, 0.65);
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 12px;
   font-weight: 300;
   line-height: 15px;
@@ -1149,7 +1521,7 @@
 
 .flexRow--contattaci-form-submit-mobile :global(.vtex-button__label) {
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -1200,7 +1572,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--campi-obbligatori-contattaci-form-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 12px;
   line-height: 21px;
 }
@@ -1399,22 +1771,19 @@
 }
 
 
-
-:global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--hatSlider) {
   justify-content: space-between;
+  max-width: 1400px;
+  background-color: #F2F2F2;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex
 }
 
-
-
-
-:global(.vtex-flex-layout-0-x-flexRow--flex-row-azienda) {
-  margin-left: 75px;
-  margin-right: 75px;
-}
 
 
 .flexRow--flex-row-azienda :global(.vtex-store-components-3-x-container) {
-  max-width: 1250px;
+  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 72px;
@@ -1424,13 +1793,31 @@
   margin-right: 20px;
 }
 
-
-:global(.vtex-search-result-3-x-searchResultContainer) {
-  max-width: 1250px;
-  margin-left: auto;
-  margin-right: auto;
+:global(.vtex-flex-layout-0-x-flexRow--product-main-container-ido) {
+  max-width: 100%;
 }
 
+
+:global(.vtex-flex-layout-0-x-flexCol--product-page-se) {
+  max-width: 1250px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--product-page-secondary-container-ido) {
+  max-width: 100%;
+}
+
+
+:global(.vtex-search-result-3-x-searchResultContainer) {
+  max-width: 100%;
+}
+
+:global(.vtex-search-result-3-x-container--layout) {
+  max-width: 1250px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 
 :global(.vtex-account) {
@@ -1457,17 +1844,13 @@
   margin-left: auto;
 }
 
-:global(.vtex-flex-layout-0-x-flexCol--menu-social-networks-header) {
-  flex-direction: row;
-}
+
 
 :global(.vtex-flex-layout-0-x-flexCol--nav-menu-header) {
   height: 46px;
 }
 
-:global(.vtex-flex-layout-0-x-flexCol--header-top-menu) {
-  flex-direction: row;
-}
+
 
 :global(.vtex-store-components-3-x-searchBarContainer) {
   width: unset;
@@ -1498,13 +1881,6 @@
   margin-top: 14px;
 }
 
-:global(.vtex-menu-2-x-styledLinkIcon--ido-logo-class-desktop-notLogin) {
-  margin-right: 34px;
-}
-
-:global(.vtex-menu-2-x-styledLinkIcon--ido-logo-class-desktop-login) {
-  margin-right: 34px;
-}
 
 
 
@@ -1517,7 +1893,6 @@
 :global(.vtex-flex-layout-0-x-flexCol--category-menu-header) {
   flex-direction: row;
   align-items: center;
-  margin-right: 75px;
 }
 
 :global(.vtex-store-components-3-x-imageElementLink) {
@@ -1526,12 +1901,13 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--level1-Seguici-sui-nostri-social) {
-  height: 168px;
+  height: 100%;
+  align-items: center;
+  margin-top: 50px;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--menu-social-networks-footer) {
   position: relative;
-  top: 63px;
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--footer-social-networks-footer) {
@@ -1539,9 +1915,6 @@
   flex-direction: row;
 }
 
-:global(.vtex-flex-layout-0-x-flexColChild--footer-social-networks-footer) {
-  margin-left: 40px;
-}
 
 :global(.vtex-flex-layout-0-x-flexRowContent--menu-level2-Hai-bisogno-di-aiuto) {
   height: 57px;
@@ -1657,27 +2030,15 @@
 
 /*ALL STATIC PAGES desktop*/
 
-.flexRow--flex-row-all-static-pages :global(.vtex-store-components-3-x-container) {
-  max-width: 100%;
-  margin-right: 75px;
-  margin-left: 75px;
-}
-
-:global(.vtex-flex-layout-0-x-flexRow--flex-row-all-static-pages-slider-ogni-occasione) {
-  max-width: 100%;
-  margin-right: 75px;
-  margin-left: 75px;
-  margin-bottom: 39px;
-}
 
 :global(.vtex-flex-layout-0-x-flexRowContent--flex-row-all-static-pages-slider-ogni-occasione) {
-  max-width: 1250px;
+  max-width: 1400px;
   margin-right: auto;
   margin-left: auto;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--flex-row-all-static-pages) {
-  max-width: 1250px;
+  max-width: 1400px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -1730,56 +2091,17 @@
 /*footer resize*/
 
 :global(.vtex-flex-layout-0-x-flexRow--level1-Seguici-sui-nostri-social) {
-  margin-left: 75px;
-  margin-right: 75px;
   max-width: unset;
+  margin-top: 100px;
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--menu-level2-Hai-bisogno-di-aiuto) {
-  margin-left: 75px;
-  margin-right: 75px;
-}
 
 :global(.vtex-flex-layout-0-x-flexRow--image-consegna-spedizione-reso-pagamenti) {
-  margin-left: 75px;
-  margin-right: 75px;
-  width: 100%;
+  max-width: 100%;
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--title-consegna-spedizione-reso-pagamenti) {
-  margin-left: 75px;
-  margin-right: 75px;
-}
 
-:global(.vtex-flex-layout-0-x-flexRow--content-consegna-spedizione-reso-pagamenti) {
-  margin-left: 75px;
-  margin-right: 75px;
-}
 
-:global(.vtex-flex-layout-0-x-flexRow--menu-level6-contatti) {
-  margin-left: 75px;
-  margin-right: 75px;
-}
-
-:global(.vtex-flex-layout-0-x-flexRow--title-vendita-negozi-impresa) {
-  margin-left: 75px;
-  margin-right: 75px;
-}
-
-:global(.vtex-flex-layout-0-x-flexRow--content-vendita-negozi-impresa) {
-  margin-left: 75px;
-  margin-right: 75px;
-}
-
-.flexRow--category-menu-footer :global(.vtex-store-components-3-x-container) {
-  margin-left: 75px;
-  margin-right: 75px;
-}
-
-.flexRow--credits :global(.vtex-store-components-3-x-container) {
-  margin-left: 75px;
-  margin-right: 75px;
-}
 
 .menuContainerNav--menu-row-azienda-footer :global(.vtex-menu-2-x-styledLinkContainer) {
   margin-left: unset;
@@ -1850,41 +2172,8 @@
   margin-top: 45px;
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--category-menu-footer) {
-  margin-right: 75px;
-  margin-left: 75px;
-}
-
-:global(.vtex-flex-layout-0-x-flexRow--menu-link) {
-  max-width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-:global(.vtex-flex-layout-0-x-flexRow--main-header) {
-  max-width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-}
 
 
-
-
-.flexRowContent--menu-link :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-  width: unset!important;
-}
-
-.flexRowContent--menu-social-networks-header :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-  width: unset!important;
-}
-
-:global(.vtex-flex-layout-0-x-flexCol--menu-social-networks-header) {
-  margin-left: 75px;
-}
-
-:global(.vtex-flex-layout-0-x-flexCol--header-top-menu) {
-  margin-right: 75px;
-}
 
 /* footer mobile */
 
@@ -1917,10 +2206,9 @@
 
 
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf-tutti-i-prodotti) {
-  max-width: 1250px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 26px;
+  margin-top: 70px;
   margin-bottom: 121px;
 }
 
@@ -1940,35 +2228,56 @@
 
 }
 
+
+
+
+
+
 :global(.vtex-slider-layout-0-x-paginationDot--shelf-tutti-i-prodotti) {
-  height: 3px !important;
+  height: 2px !important;
   width: auto !important;
   max-width: 100px !important;
   padding: 0px;
   flex: 1;
   border-radius: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 3px;
+  margin-right: 3px;
+  background-color: #cacbcc;
 }
 
+
 :global(.vtex-slider-layout-0-x-paginationDot--slider-ogni-occasione) {
-  height: 3px !important;
-  width: 150px !important;
-  max-width: 150px !important;
+  height: 2px !important;
+  width: auto !important;
+  max-width: 80px !important;
   padding: 0px;
   flex: 1;
   border-radius: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: grey;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--slider-ogni-occasione--isActive) {
+  background-color: #001930;
+  height: 2px !important;
+  width: auto !important;
+  max-width: 80px !important;
+  padding: 0px;
+  flex: 1;
+  border-radius: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDotsContainer--slider-ogni-occasione) {
+  top: 560px;
 }
 
 :global(.vtex-slider-layout-0-x-paginationDot--shelf-tutti-i-prodotti--isActive) {
   background-color: #001930;
 }
 
-:global(.vtex-slider-layout-0-x-paginationDot--slider-ogni-occasione--isActive) {
-  background-color: #001930;
-}
 
 :global(.vtex-slider-layout-0-x-sliderTrackContainer--slider-ogni-occasione) {
   margin-bottom: 40px;
@@ -1976,6 +2285,7 @@
 
 :global(.vtex-slider-layout-0-x-sliderTrackContainer--shelf-tutti-i-prodotti) {
   margin-bottom: 40px;
+  height: 410px!important;
 }
 
 /*static pages resize*/
@@ -1999,20 +2309,13 @@
   margin-right: 20px;
 }
 
-:global(.vtex-modal-layout-0-x-triggerContainer--modal-trigger-aprire-un-franchising-form) {
-  width: 467px!important;
-  height: 60px;
-  border-radius: 35px;
-  background-color: #aeca3b;
-}
+
 
 :global(.vtex-flex-layout-0-x-flexRowContent--modal-aprire-un-franchising-form) {
   margin-top: 40px;
 }
 
-.flexCol--logo-desktop :global(.vtex-store-components-3-x-logoLink) {
-  margin-left: 75px;
-}
+
 
 .flexCol--logo-mobile :global(.vtex-store-components-3-x-logoLink) {
   width: unset;
@@ -2053,7 +2356,7 @@
 
 .flexRowContent--level2-notification-bar-mobile :global(.vtex-store-components-3-x-notificationContent) {
   color: #ffffff;
-  font-family: "MuseoJHSans700";
+  font-family: "MuseoSans_700";
   font-size: 15px;
   font-style: normal;
   letter-spacing: normal;
@@ -2251,7 +2554,7 @@
 :global(.vtex-menu-2-x-styledLinkContent--menu-footer-category-title-mobile) {
   color: #001930;
   text-align: left;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 20px;
   font-style: normal;
   letter-spacing: normal;
@@ -2261,7 +2564,7 @@
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-footer-subcategory-title-mobile-submenu) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   font-style: normal;
   letter-spacing: normal;
@@ -2289,4 +2592,168 @@
 
 :global(.vtex-menu-2-x-submenuAccordion--submenu-footer-mobile) {
   margin-bottom: 13px!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--flex-row-all-static-pages-mobile) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+:global(.vtex-rich-text-0-x-container--guida-alle-taglie-category-title) {
+  justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--content-vendita-negozi-impresa) {
+  height: unset!important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--content-vendita-negozi-impresa-mobile) {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--footer-vendita-negozi-impresa-content-email-mobile) {
+  align-items: flex-start;
+}
+
+/* newsletter mobile*/
+
+.flexColChild--newsletter-form-name-mobile :global(.vtex-input__label) {
+  color: #001930;
+  font-family: "MuseoSans_300";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+  margin-top: 74px;
+}
+
+.flexColChild--newsletter-form-surname-mobile :global(.vtex-input__label) {
+  color: #001930;
+  font-family: "MuseoSans_300";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.flexColChild--newsletter-form-email-mobile :global(.vtex-input__label) {
+  color: #001930;
+  font-family: "MuseoSans_300";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.flexRowContent--newsletter-form-privacy-mobile :global(.vtex-checkbox__label) {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "Avenir Book";
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 15px;
+  text-align: left;
+}
+
+.flexCol--newsletter-form-name-mobile :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #001930;
+}
+
+.flexCol--newsletter-form-surname-mobile :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #001930;
+}
+
+.flexCol--newsletter-form-email-mobile :global(.vtex-input-prefix__group) {
+  width: 335px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #001930;
+}
+
+.flexRowContent--newsletter-form-privacy-mobile :global(.vtex-checkbox__box) {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #5a5a5a;
+  border-radius: 50%;
+}
+
+.flexRowContent--newsletter-form-privacy-mobile :global(.vtex__icon-check) {
+  color: #001930;
+}
+
+.flexRowContent--newsletter-form-submit-mobile :global(.vtex-button) {
+  width: 159px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+}
+
+.flexRowContent--newsletter-form-submit-mobile :global(.vtex-button__label) {
+  color: #ffffff;
+  font-family: "MuseoSans_700";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--newsletter-form-submit-mobile) {
+  margin-top: 23px;
+  margin-bottom: 134px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--newsletter-form-privacy-mobile) {
+  margin-top: 25px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--image-category-baby-special) {
+  max-width: 445px;
+  max-height: 461px;
+  width: 445px;
+  height: 461px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--image-category-special-events) {
+  max-width: 445px;
+  max-height: 461px;
+  width: 445px;
+  height: 461px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--image-category-back-to-school) {
+  max-width: 445px;
+  max-height: 461px;
+  width: 445px;
+  height: 461px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--logo-desktop) {
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.flexColChild--category-menu-header :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin-right: 0px;
+  margin-left: 80px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--search-bar-header) {
+  justify-content: center;
 }

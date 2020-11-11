@@ -510,7 +510,7 @@
        "flex-layout.col#larmocromia-page-mobile"
        ],
        "props": {
-       "blockClass": "flex-row-larmocromia-mobile"
+       "blockClass": "flex-row-all-static-pages-mobile"
        }
    },
 

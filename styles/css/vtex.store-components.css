@@ -1,3 +1,32 @@
+
+/* HEADER DESKTOP */
+
+:global(.vtex-store-components-3-x-notificationBarContainer) {
+  background-color: #aeca3b;
+  height: 30px;
+}
+
+:global(.vtex-store-components-3-x-notificationBarInner) {
+  min-height: auto!important;
+  height: 100%;
+}
+
+:global(.vtex-store-components-3-x-notificationContent) {
+  color: #ffffff;
+  font-family: "MuseoSans_700";
+  font-size: 15px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+:global(.vtex-menu-2-x-submenuWrapper--bambina-desktop-main-container-submenu--isOpen) {
+  max-width: 100%;
+}
+
+
 @media screen and (max-width: 1025px) {
   .infoCardImageContainer--info-card-aprire-franchising-banner-mobile {
     display: none !important;
@@ -11,31 +40,15 @@
   justify-content: space-around;
   margin-bottom: 14px;
 }
-.notificationBarContainer {
-  background-color: #aeca3b;
-  width: 358px;
-  height: 30px;
-  font-family: "MuseoJHSans700";
-  font-size: 15px;
-  line-height: 21px;
-  text-transform: uppercase;
-  align-content: center;
 
-}
 
 .item {
   display: none;
 }
 
-.notificationContent {
-  font-family: "MuseoJHSans700";
-  color: #ffffff;
-}
 
-.notificationBarInner {
-  min-height: auto!important;
-  height: 100%;
-}
+
+
 
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
   max-width: 208px;
@@ -88,7 +101,7 @@
   color: #001930!important;
   font-size: 26px;
   margin-left: 20px;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 35px;
   line-height: 29px;
   height: 29px;
@@ -111,7 +124,7 @@
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
   color: #ffffff;
   font-size: 16px;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
   width: 184px;
@@ -199,7 +212,7 @@
 :global(.vtex-store-components-3-x-infoCardHeadline--info-card-backtoschool-mobile) {
   text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 30px;
   line-height: 32px;
 }
@@ -210,7 +223,7 @@
   border-radius: 50px;
   border: solid 1px;
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -269,7 +282,7 @@
 /* newsletter mobile desktop */
 .label--newsletter-mobile {
   color: rgba(0, 0, 0, 0.65);
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   line-height: 21px;
   margin-bottom: 40px;
@@ -339,7 +352,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
 }
 
 .price_className--top-price-section-discount {
@@ -426,7 +439,7 @@
 
 .discountInsideContainer {
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 16px;
   line-height: 19px;
   text-transform: uppercase;
@@ -485,7 +498,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
 }
 
 .price_sellingPriceContainer--mobile-price-without-discount {
@@ -512,7 +525,7 @@
 /* name of the product styling */
 
 .productBrand {
-  font-family: 'MuseoJHSans900';
+  font-family: 'MuseoSans_700';
   height: 100%;
   color: #001930;
   font-size: 25px;
@@ -642,7 +655,7 @@
   text-decoration: none;
   color: black;
   font-size: 16px;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   margin-top: 4px;
 }
 
@@ -665,7 +678,7 @@
 
   .infoCardContainer--info-card-shop-by-look :global(.vtex-button__label){
     color: #ffffff;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 18px;
     text-transform: uppercase;
   }
@@ -690,7 +703,7 @@
     width: 100%;
     height: 22px;
     color: #ffffff;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 18px;
     text-transform: uppercase;
   }
@@ -739,33 +752,44 @@ Store locator desktop version final*/
 
 
   .infoCardContainer--store-locator-desktop {
-    max-width: 1250px;
     margin: 0 auto;
     background-color: #001930;
     height: 139px !important;
     padding: 0px;
-    margin-bottom: 67px;
-    margin-top: 17px;
+    margin-bottom: 50px;
     position: relative;
   }
 
   .infoCardContainer--store-locator-desktop :global(.vtex-button) {
     border-color: white;
     width: 190px;
-    height: 50px;
+    height: 40px;
     border-radius: 25px;
     background-color: #ffffff;
-    color: black;
     transition: .3s;
   }
 
+  .infoCardContainer--store-locator-desktop :global(.vtex-button):hover {
+    background-color: #001930;
+    border-color: white;
+  }
+
+  .infoCardContainer--store-locator-desktop :global(.vtex-button__label):hover {
+    color: white;
+  }
+
+
   .infoCardContainer--store-locator-desktop :global(.vtex-button__label) {
-    width: 100%;
-    height: 100%;
-    color: black;
-    font-size: 22px;
-    font-weight: bold;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
+    color: #001930;
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    justify-content: center;
   }
 
   .infoCardTextContainer--store-locator-desktop {
@@ -774,58 +798,64 @@ Store locator desktop version final*/
     width: 100%;
     justify-content: space-between;
     height: 100%;
+    align-items: center;
+    margin-left: 75px;
+    margin-right: 75px;
   }
 
   .infoCardHeadline--store-locator-desktop {
-    height: 138px;
+    height: 141px;
     color: #ffffff;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 35px;
     margin-top: 0 !important;
     display: flex;
     align-items: center;
-  }
-
-  .infoCardCallActionContainer--store-locator-desktop {
-    height: 138px;
-    color: #ffffff;
-    font-family: "MuseoJHSans900";
-    font-size: 35px;
-    margin-top: 0 !important;
-    display: flex;
-    align-items: center;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
   }
 
 
   .infoCardContainer--newsletter-desktop {
-    max-width: 1250px;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.1);
     height: 139px !important;
     padding: 0px;
-    margin-bottom: 50px;
     position: relative;
-    margin-top: 17px;
+    margin-top: 9px;
   }
 
   .infoCardContainer--newsletter-desktop :global(.vtex-button) {
-    border-color: white;
     width: 190px;
-    height: 50px;
+    height: 40px;
     border-radius: 25px;
     background-color: #001930;
-    color: black;
-    transition: .3s;
-    text-decoration: inherit;
+    text-decoration: none;
+  }
+
+  .infoCardContainer--newsletter-desktop :global(.vtex-button):hover {
+    background-color: white;
+    border-color: #001930;
+    text-decoration: none;
+  }
+
+  .infoCardContainer--newsletter-desktop :global(.vtex-button__label):hover {
+    color: #001930;
   }
 
   .infoCardContainer--newsletter-desktop :global(.vtex-button__label) {
     width: 100%;
     height: 100%;
     color: #ffffff;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
   }
 
   .infoCardTextContainer--newsletter-desktop {
@@ -834,26 +864,33 @@ Store locator desktop version final*/
     width: 100%;
     justify-content: space-between;
     height: 100%;
+    margin-right: 75px;
+    margin-left: 75px;
+    align-items: center;
   }
 
   .infoCardHeadline--newsletter-desktop {
-    height: 138px;
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 35px;
     margin-top: 0 !important;
     display: flex;
     align-items: center;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
   }
 
   .infoCardCallActionContainer--newsletter-desktop {
     height: 138px;
     color: #ffffff;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 35px;
     margin-top: 0 !important;
     display: flex;
     align-items: center;
+    margin-bottom: 0px;
+    text-decoration: none;
   }
 }
 
@@ -873,7 +910,7 @@ Store locator desktop version final*/
     width: 248px;
     height: 57px;
     color: #ffffff;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 25px;
     font-style: normal;
     letter-spacing: normal;
@@ -895,9 +932,9 @@ Store locator desktop version final*/
     width: 100%;
     height: 100%;
     color: black;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
   }
 
   .infoCardContainer--newsletter-desktop {
@@ -914,7 +951,7 @@ Store locator desktop version final*/
     width: 248px;
     height: 57px;
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 25px;
     font-style: normal;
     letter-spacing: normal;
@@ -936,8 +973,8 @@ Store locator desktop version final*/
     width: 100%;
     height: 100%;
     color: #ffffff;
-    font-size: 20px;
-    font-family: "MuseoJHSans300";
+    font-size: 18px;
+    font-family: "MuseoSans_300";
   }
 }
 /*
@@ -957,13 +994,8 @@ store locator mobile version final */
 
 /* header menu home page */
 
-:global(.vtex-flex-layout-0-x-flexColChild--menu-social-networks-header) {
-  margin-right: 60px;
-}
 
-:global(.vtex-flex-layout-0-x-flexCol--menu-social-networks-header) {
-  margin-top: 7px;
-}
+
 
 :global(.vtex-store-components-3-x-logoImage) {
   margin-top: 12px;
@@ -974,7 +1006,7 @@ store locator mobile version final */
 /* info cards home page DESKTOP*/
 
 :global(.vtex-store-components-3-x-infoCardContainer--info-card-domentica) {
-  max-width: 1250px;
+  max-width: 1400px;
   margin: 0 auto;
   background-color: #e6f1e6;
   height: 500px!important;
@@ -982,17 +1014,10 @@ store locator mobile version final */
   margin-bottom: 50px;
 }
 
-:global(.vtex-store-components-3-x-infoCardContainer--info-card-domentica-ricomincia) {
-  max-width: 1250px;
-  margin: 0 auto;
-  background-color: #e6f1e6;
-  height: 500px!important;
-  padding: 0px;
-  margin-bottom: 113px;
-}
+
 
 :global(.vtex-store-components-3-x-infoCardContainer--info-card-dimentica-i-capi) {
-  max-width: 1250px;
+  max-width: 1400px;
   margin: 0 auto;
   background-color: #e6f1e6;
   height: 500px!important;
@@ -1008,60 +1033,62 @@ store locator mobile version final */
 :global(.vtex-store-components-3-x-infoCardHeadline--info-card-domentica) {
   text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 45px;
 }
 
-:global(.vtex-store-components-3-x-infoCardHeadline--info-card-domentica-ricomincia) {
-  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
-  color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 45px;
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-dimentica-i-capi) {
+  width: 100%;
+  margin-left: 75px;
+  margin-right: 0px;
+  position: relative;
+  top: 156px;
 }
 
 :global(.vtex-store-components-3-x-infoCardHeadline--info-card-dimentica-i-capi) {
-  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
+  font-family: "MuseoSans_700";
+  text-shadow: 0 2px 20px rgba(135, 135, 135, 0.5);
   color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 45px;
+  font-size: 35px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
 }
 
 :global(.vtex-store-components-3-x-infoCardTextContainer--info-card-domentica) {
-  margin-top: 250px;
-  max-width: 1500px;
-  width: 750px!important;
+  width: 100%;
+  margin-left: 75px;
+  margin-right: 0px;
+  position: relative;
+  margin-bottom: 0px;
+  top: 108px;
 }
 
-:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-domentica-ricomincia) {
-  margin-top: 250px;
-  max-width: 1500px;
-  width: 750px!important;
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-domentica) {
+  font-family: "MuseoSans_700";
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-size: 35px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
 }
 
-:global(.vtex-store-components-3-x-infoCardTextContainer--info-card-dimentica-i-capi) {
-  margin-top: 250px;
-  max-width: 1500px;
-  width: 750px!important;
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-domentica) {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .infoCardContainer--info-card-domentica :global(.vtex-button) {
   border-radius: 25px;
   width: 190px;
-  height: 50px;
+  height: 40px;
   color: white;
   background-color: transparent;
-  border-color: white;
+  border: 1px solid #ffffff;
+  margin-top: 38px;
 }
-
-.infoCardContainer--info-card-domentica-ricomincia :global(.vtex-button) {
-  border-radius: 25px;
-  width: 190px;
-  height: 50px;
-  color: white;
-  background-color: transparent;
-  border-color: white;
-}
-
 
 
 .infoCardCallActionContainer--info-card-domentica :global(.vtex-button):hover {
@@ -1070,35 +1097,19 @@ store locator mobile version final */
   color: white;
 }
 
-.infoCardCallActionContainer--info-card-domentica-ricomincia :global(.vtex-button):hover {
-  background-color: #001930;
-  border-color: white;
-  color: white;
-}
 
 .infoCardCallActionContainer--info-card-domentica :global(.vtex-button__label):hover {
   color: white;
 }
 
-.infoCardCallActionContainer--info-card-domentica-ricomincia :global(.vtex-button__label):hover {
-  color: white;
-}
 
-.infoCardCallActionContainer--info-card-domentica-ricomincia :global(.vtex-button__label) {
-  color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 22px;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
-  text-align: center;
-  text-transform: uppercase;
-}
+
+
 
 .infoCardCallActionContainer--info-card-domentica :global(.vtex-button__label) {
+  font-family: "MuseoSans_700";
   color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 22px;
+  font-size: 18px;
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
@@ -1133,7 +1144,7 @@ store locator mobile version final */
 
 :global(.vtex-store-components-3-x-infoCardHeadline--info-card-category-baby-special) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 30px;
   font-style: normal;
   letter-spacing: normal;
@@ -1148,7 +1159,7 @@ store locator mobile version final */
 
 :global(.vtex-store-components-3-x-infoCardHeadline--info-card-category-back-to-school) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 30px;
   font-style: normal;
   letter-spacing: normal;
@@ -1163,7 +1174,7 @@ store locator mobile version final */
 
 :global(.vtex-store-components-3-x-infoCardHeadline--info-card-category-denim-time) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 30px;
   font-style: normal;
   letter-spacing: normal;
@@ -1178,7 +1189,7 @@ store locator mobile version final */
 
 :global(.vtex-store-components-3-x-infoCardHeadline--info-card-category-every-day-style) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 30px;
   font-style: normal;
   letter-spacing: normal;
@@ -1193,7 +1204,7 @@ store locator mobile version final */
 
 :global(.vtex-store-components-3-x-infoCardHeadline--info-card-category-special-events) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 30px;
   font-style: normal;
   letter-spacing: normal;
@@ -1229,7 +1240,7 @@ store locator mobile version final */
   text-align: left;
   height: 29px;
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   margin-top: unset;
@@ -1270,8 +1281,8 @@ store locator mobile version final */
 
 .infoCardCallActionContainer--info-card-aprirefranchising :global(.vtex-button__label) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans300";
-  font-size: 20px;
+  font-family: "MuseoSans_300";
+  font-size: 18px;
   line-height: 21px;
   position: relative;
   text-transform: capitalize;
@@ -1285,7 +1296,7 @@ store locator mobile version final */
 :global(.vtex-store-components-3-x-infoCardHeadline--info-card-domentica-mobile) {
   text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 30px;
   font-style: normal;
   letter-spacing: normal;
@@ -1297,7 +1308,7 @@ store locator mobile version final */
 :global(.vtex-store-components-3-x-infoCardHeadline--info-card-dimentica-i-capi-mobile) {
   text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 30px;
   font-style: normal;
   letter-spacing: normal;
@@ -1334,7 +1345,7 @@ store locator mobile version final */
 :global(.vtex-store-components-3-x-infoCardTextContainer--info-card-dimentica-i-capi-mobile) {
   text-shadow: 0 2px 20px rgba(135, 135, 135, 0.5);
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 30px;
   font-style: normal;
   letter-spacing: normal;
@@ -1353,7 +1364,7 @@ store locator mobile version final */
 }
 .infoCardHeadline--info-card-category-baby-special-mobile {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 20px;
   font-style: normal;
   letter-spacing: normal;
@@ -1366,7 +1377,7 @@ store locator mobile version final */
 }
 .infoCardHeadline--info-card-category-back-to-school-mobile {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 20px;
   font-style: normal;
   letter-spacing: normal;
@@ -1379,7 +1390,7 @@ store locator mobile version final */
 }
 .infoCardHeadline--info-card-category-denim-time-mobile {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 20px;
   font-style: normal;
   letter-spacing: normal;
@@ -1392,7 +1403,7 @@ store locator mobile version final */
 }
 .infoCardHeadline--info-card-category-every-day-style-mobile {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 20px;
   font-style: normal;
   letter-spacing: normal;
@@ -1405,7 +1416,7 @@ store locator mobile version final */
 }
 .infoCardHeadline--info-card-category-special-events-mobile {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 20px;
   font-style: normal;
   letter-spacing: normal;
@@ -1422,7 +1433,7 @@ store locator mobile version final */
 }
 .infoCardTextContainer--info-card-aprire-franchising-banner-mobile :global(.vtex-button__label) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   line-height: 21px;
 }
@@ -1446,7 +1457,7 @@ store locator mobile version final */
 
 :global(.vtex-store-components-3-x-infoCardHeadline--store-locator-mobile) {
   color: #ffffff;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   font-style: normal;
   letter-spacing: normal;
@@ -1467,7 +1478,7 @@ store locator mobile version final */
 
 .infoCardTextContainer--store-locator-mobile :global(.vtex-button__label) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
   font-style: normal;
   letter-spacing: normal;
@@ -1491,7 +1502,7 @@ store locator mobile version final */
 
 :global(.vtex-store-components-3-x-infoCardHeadline--newsletter--mobile) {
   color: rgba(0, 0, 0, 0.65);
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   font-style: normal;
   letter-spacing: normal;
@@ -1511,7 +1522,7 @@ store locator mobile version final */
 
 .infoCardTextContainer--newsletter--mobile :global(.vtex-button__label) {
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
   font-style: normal;
   letter-spacing: normal;
@@ -1522,7 +1533,7 @@ store locator mobile version final */
 
 .infoCardTextContainer--info-card-domentica-mobile :global(.vtex-button__label) {
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
   font-style: normal;
   letter-spacing: normal;
@@ -1531,5 +1542,46 @@ store locator mobile version final */
   text-transform: uppercase;
 }
 
+:global(.vtex-modal-layout-0-x-triggerContainer--modal-trigger-aprire-un-franchising-form) {
+  width: 337px!important;
+  height: 40px;
+  border-radius: 25px;
+  background-color: #001930;
+}
 
 
+
+:global(.vtex-rich-text-0-x-paragraph--franchisingTextButton) {
+  width: 337px!important;
+  height: 40px;
+  color: #ffffff;
+  font-family: "MuseoSans_700";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  margin-top: 9px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+:global(.vtex-store-components-3-x-imageElementLink--instagramFooter) {
+  margin-left: 85px;
+  margin-right: 77px;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  height: 35px;
+  border-radius: 35px;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer) {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: inherit;
+}
+
+:global(.vtex-store-components-3-x-imageElement--youtubeFooter) {
+  position: relative;
+  top: 4px;
+}

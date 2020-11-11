@@ -18,7 +18,7 @@
 .storeLocatorContainer :global(.vtex-button__label) {
   height: 21px;
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
   line-height: 21px;
   text-transform: none;
@@ -26,7 +26,7 @@
 
 .storeItemAddress {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   text-transform: uppercase;
@@ -34,7 +34,7 @@
 
 .storeItemName {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 20px;
   line-height: 29px;
   text-transform: uppercase;
@@ -50,7 +50,7 @@
 
 .storeLocatorContainer :global(.vtex-styleguide-9-x-jsFocusVisible) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }

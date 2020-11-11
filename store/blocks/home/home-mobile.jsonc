@@ -130,7 +130,7 @@
         "list-context.product-list#shelf-tutti-i-prodotti-mobile"
        ],
        "props": {
-       "blockClass": "flex-row-all-static-pages-mobile"
+       "blockClass": "flex-row-home-page-mobile"
        }
    },
 
@@ -296,7 +296,7 @@
         "rich-text#title-Look-Book-mobile"
        ],
        "props": {
-       "blockClass": "flex-row-all-static-pages-mobile"
+       "blockClass": "flex-row-home-page-mobile"
        }
    },
 
@@ -314,7 +314,7 @@
         "info-card#backToSchool-mobile"
        ],
        "props": {
-       "blockClass": "flex-row-all-static-pages-mobile"
+       "blockClass": "flex-row-home-page-mobile"
        }
    },
     "info-card#backToSchool-mobile": {
@@ -338,7 +338,7 @@
         "rich-text#shelf-title-category-mobile"
        ],
        "props": {
-       "blockClass": "flex-row-all-static-pages-mobile"
+       "blockClass": "flex-row-home-page-mobile"
        }
    },
 
@@ -385,7 +385,7 @@
         "phone": 1
       },
       "infinite": true,
-      "fullWidth": true,
+      "fullWidth": false,
       "blockClass": "slider-ogni-occasione-mobile",
       "showNavigationArrows": "never",
       "showPaginationDots": "always",
@@ -477,7 +477,7 @@
         "info-card#dimentica-i-capi-mobile"
        ],
        "props": {
-       "blockClass": "flex-row-all-static-pages-mobile"
+       "blockClass": "flex-row-home-page-mobile"
        }
    },
 
@@ -502,7 +502,7 @@
         "rich-text#shelf-title-armocromia-mobile"
        ],
        "props": {
-       "blockClass": "flex-row-all-static-pages-mobile"
+       "blockClass": "flex-row-home-page-mobile"
        }
    },
 
@@ -521,7 +521,7 @@
         "info-card#colours-mobile"
        ],
        "props": {
-       "blockClass": "flex-row-all-static-pages-mobile"
+       "blockClass": "flex-row-home-page-mobile"
        }
    },
 
@@ -546,7 +546,7 @@
         "info-card#store-locator-mobile"
        ],
        "props": {
-       "blockClass": "flex-row-all-static-pages-mobile"
+       "blockClass": "flex-row-home-page-mobile"
        }
    },
 
@@ -571,7 +571,7 @@
         "info-card#teddy-mobile"
        ],
        "props": {
-       "blockClass": "flex-row-all-static-pages-mobile"
+       "blockClass": "flex-row-home-page-mobile"
        }
    },
 
@@ -597,7 +597,7 @@
         "info-card#newslwtter-banner-hp-mobile"
        ],
        "props": {
-       "blockClass": "flex-row-all-static-pages-mobile"
+       "blockClass": "flex-row-home-page-mobile"
        }
    },
 

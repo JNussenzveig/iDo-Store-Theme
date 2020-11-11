@@ -1,19 +1,20 @@
-:global(.vtex-shelf-1-x-container) .imageContainer {
+/*:global(.vtex-shelf-1-x-container) .imageContainer {
   width: 370px;
   height: 400px;
 }
-:global(.vtex-shelf-1-x-container) .imageNormal { max-height: unset!important; max-width: 100%!important; height: auto!important; width: 100%!important;}
+/*:global(.vtex-shelf-1-x-container) .imageNormal {max-height: unset!important; max-width: 100%!important; height: auto!important; width: 100%!important;}
 .containerNormal {
   max-width: unset!important;
-}
-.clearLink :global(.vtex-button){
+}*/
+
+.clearLink :global(.vtex-button) {
   display: none
 }
 .information {
   justify-content: flex-end;
 }
 
-@media screen and (max-width: 1025px) {
+/*@media screen and (max-width: 1025px) {
   .imageContainer {
     width: auto !important;
     height: auto !important;
@@ -38,7 +39,7 @@
 }
 
 .price_listPrice--search-mobile {
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px!important;
   text-align: left;
   width: 100%;
@@ -51,13 +52,13 @@
 
 
 :global(.vtex-product-summary-2-x-productBrand--search-mobile) {
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px!important;
   color: #001930;
 }
 :global(.vtex-product-summary-2-x-productBrand) {
-  font-family: "MuseoJHSans500";
-  font-size: 24px;
+  font-family: "MuseoSans_500";
+  font-size: 18px;
   color: #001930;
   font-style: normal;
   letter-spacing: normal;
@@ -78,31 +79,33 @@
 
 
 :global(.vtex-product-summary-2-x-price_sellingPrice--search-mobile) {
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px!important;
   color: #001930;
 }
 
 
 :global(.vtex-store-components-3-x-sellingPrice) {
-  font-family: "MuseoJHSans900";
-  font-size: 24px;
+  font-family: "MuseoSans_700";
   color: #001930;
+  position: fixed;
+  text-align: left;
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
 }
 
-:global(.vtex-store-components-3-x-sellingPrice) {
-  font-family: "MuseoJHSans900";
-  font-size: 24px;
-  color: #001930;
+:global(.vtex-product-summary-2-x-priceContainer) {
+  align-items: flex-start;
+  padding: 0px;
 }
-
 
 /* mobile search page END */
-.element--shelf-radu2 .nameContainer {
+/*.element--shelf-radu2 .nameContainer {
   height: 110px;
 }
 
-/*
+
 
 .element--shelf-radu2 .priceContainer {
   align-self: end;
@@ -119,11 +122,87 @@
 .element--shelf-radu2 {
   width: 370px;
 }
-*/
+
 
 .containerNormal--shelf-radu2  :global(.vtex-wish-list-1-x-wishlistIconContainer){
   position: absolute;
   top: 10px;
   right: 40px;
   z-index: 2;
+}*/
+
+
+
+/*.element--shelf-tutti-i-prodotti-radu :global(.vtex-button__label) {
+  background-image: url("/arquivos/heart_green_desktop_shelf.png");
+  position: relative;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+  width: 17px;
+  height: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}*/
+
+.element--shelf-tutti-i-prodotti-radu :global(.vtex-button) {
+  outline: none;
+  bottom: 369px;
+  right: 96px;
+  position: relative;
+  border-radius: 25px!important;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff!important;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+  border: 0.5px solid #001930;
+  min-height: unset!important;
 }
+
+
+
+/*.element--shelf-tutti-i-prodotti-radu :global(.vtex-button):hover {
+  background-color: transparent;
+  color: transparent;
+}*/
+
+.element--shelf-tutti-i-prodotti-radu :global(.vtex-button__label) {
+  background-image: url("/arquivos/heart_green@4x.png");
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 17px;
+  height: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+  background-color: #ffffff;
+  top: 6px;
+  left: 5px;
+  position: relative;
+}
+
+.element--shelf-tutti-i-prodotti-radu :global(.vtex-product-summary-2-x-image) {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover!important;
+  max-height: unset!important;
+  max-width: 220px!important;
+  border: 0.5px solid #cacbcc!important;
+}
+
+:global(.vtex-slider-layout-0-x-sliderTrack--shelf-tutti-i-prodotti) {
+    cursor: default;
+    will-change: transform!important;
+}
+
+.element--shelf-tutti-i-prodotti-radu :global(.vtex-wish-list-1-x-iconSize) {
+  display: inline-block;
+  width: unset!important;
+  height: unset!important;
+}
+
+

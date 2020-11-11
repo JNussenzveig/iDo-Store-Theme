@@ -1,3 +1,19 @@
+@media only screen and (max-width: 1600px) {
+  .sliderLayoutContainer--hatSlider {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .sliderLayoutContainer--hatSlider {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .sliderLayoutContainer {
   justify-content: center;
 }
@@ -5,9 +21,7 @@
   background-color: #F0F0F0;
 }
 
-:global(.vtex-slider-layout-0-x-sliderTrackContainer) {
-  max-width: 1903px;
-}
+
 
 .paginationDotsContainer {
   margin-top: .5rem;
@@ -47,7 +61,7 @@
   border: none;
   height: 49px;
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 30px;
   line-height: 29px;
   margin-left: 15px;
@@ -78,10 +92,6 @@
   padding-bottom: 45px;
 }
 
-:global(.vtex-slider-layout-0-x-paginationDot--shelf--isActive) {
-  width: 500px;
-  background-color: #001930;
-}
 
 
 
@@ -117,26 +127,40 @@
 }
 
 
-.paginationDotsContainer--hatSlider {
-  bottom: 15px;
+:global(.vtex-slider-layout-0-x-paginationDotsContainer--hatSlider) {
+  bottom: 41px;
 }
 
 
-.paginationDot--hatSlider {
-  height: 3px !important;
+:global(.vtex-slider-layout-0-x-paginationDot--hatSlider) {
+  height: 2px !important;
   width: auto !important;
-  max-width: 100px !important;
+  max-width: 80px !important;
   padding: 0px;
   flex: 1;
   border-radius: 0px;
-  margin-left: 3px;
-  margin-right: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
   background-color: white;
 }
 
-.paginationDot--hatSlider--isActive {
+:global(.vtex-slider-layout-0-x-paginationDot--hatSlider--isActive) {
+  background-color: #001930;
+  height: 2px !important;
+  width: auto !important;
+  max-width: 80px !important;
+  padding: 0px;
+  flex: 1;
+  border-radius: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDot--shelf--isActive) {
+  width: 500px;
   background-color: #001930;
 }
+
 
 /* mobile styling begins here */
 
@@ -172,7 +196,7 @@
   border: none;
   height: 49px;
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 30px;
   line-height: 29px;
   margin-left: 15px;
@@ -235,3 +259,61 @@
 .sliderLayoutContainer--shelf {
   margin-bottom: 50px;
 }
+
+/*new design wishlist*/
+
+
+.slide--shelf-tutti-i-prodotti :global(.vtex-product-summary-2-x-imageContainer) {
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 245px;
+  height: 265px;
+}
+
+:global(.vtex-slider-layout-0-x-slide--shelf-tutti-i-prodotti-radu) {
+  margin: 0 35px;
+}
+
+.slide--shelf-tutti-i-prodotti :global(.vtex-product-summary-2-x-nameContainer) {
+  width: 245px;
+  height: 90px;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  color: #001930;
+  font-family: "MuseoSans_500";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.slide--shelf-tutti-i-prodotti :global(.vtex-product-summary-2-x-productNameContainer) {
+  font-family: "MuseoSans_500";
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin-left: 11px;
+}
+
+.slide--shelf-tutti-i-prodotti :global(.vtex-product-summary-2-x-price_sellingPrice) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  padding-left: 0px!important;
+  padding-top: 0px!important;
+  margin-left: 11px!important;
+}
+
+:global(.vtex-product-summary-2-x-containerNormal--shelf-tutti-i-prodotti-radu) {
+  width: 245px;
+  margin-left: 0px;
+  margin-right: unset;
+}
+
+:global(.vtex-product-summary-2-x-element--shelf-tutti-i-prodotti-radu) {
+  padding-top: 20px;
+}
+

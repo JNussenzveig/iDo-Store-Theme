@@ -1,12 +1,12 @@
 
   .stackContainer--hatSliderStack {
-    width: 1900px;
-    height: 670px;
+    width: 1400px;
+    height: 610px;
   }
 
 
   .stackContainer--hatSliderStack :global(.vtex-store-components-3-x-infoCardContainer) {
-    height: 670px;
+    height: 610px;
     display: flex;
   }
 
@@ -19,66 +19,6 @@
     margin-bottom: 35px;
     width: 60%;
   }
-
-  .stackContainer--hatSliderStack :global(.vtex-button) {
-    background-color: white;
-    border-color: white;
-    width: 155px;
-    height: 50px;
-    border-radius: 25px;
-    background-color: #ffffff;
-    color: black;
-    font-size: 22px;
-    font-weight: bold;
-    font-family: "MuseoJHSans900";
-    transition: .3s;
-  }
-
-  :global(.vtex-store-components-3-x-infoCardHeadline--secondLayer) {
-    position: absolute;
-    top: 70px;
-    width: 780px;
-    max-width: 780px !important;
-    height: 191px;
-    color: #ffffff;
-    font-family: "MuseoJHSans900" !important;
-    font-size: 5vw !important;
-    text-transform: uppercase;
-    margin-left: 0px;
-  }
-
- /* :global(.vtex-store-components-3-x-infoCardHeadline--firstLayer) {
-    position: absolute;
-    top: 100px;
-    width: 643px;
-    max-width: 660px !important;
-    height: 191px;
-    color: #ffffff;
-    font-family: "MuseoJHSans900";
-    font-size: 70px !important;
-    text-transform: uppercase;
-  }
-
-  :global(.vtex-store-components-3-x-infoCardHeadline--secondLayerMobile) {
-    position: absolute;
-    top: 30px;
-    width: 643px;
-    max-width: 660px !important;
-    height: 191px;
-    color: #ffffff;
-    font-family: "MuseoJHSans900";
-    font-size: 70px !important;
-    text-transform: uppercase;
-    margin-left: -75px;
-  }
-
-  :global(.vtex-store-components-3-x-infoCardHeadline--firstLayer) {
-    position: absolute;
-    top: 100px;
-    font-size: 100px !important;
-    font-family: "MuseoJHSans900";
-    left: 60px;
-  }*/
 
   .stackContainer--hatSliderStack :global(.vtex-button):hover {
     background-color: #001930;
@@ -131,7 +71,7 @@
     border-radius: 25px;
     background-color: #ffffff;
     color: #002c50;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 18px;
     text-transform: uppercase;
     transition: .3s;
@@ -152,7 +92,7 @@
     border-radius: 25px;
     background-color: #ffffff;
     color: #002c50;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 18px;
     text-transform: uppercase;
     transition: .3s;
@@ -181,7 +121,7 @@
 
 :global(.vtex-store-components-3-x-infoCardHeadline--secondLayerMobile) {
   color: #ffffff;
-  font-family: "MuseoJHSans900"!important;
+  font-family: "MuseoSans_700"!important;
   font-size: 7vw!important;
   text-transform: uppercase;
   margin-left: 20px;
@@ -191,7 +131,7 @@
   position: absolute;
   top: 50px;
   font-size: 12vw;
-  font-family: "MuseoJHSans900"!important;
+  font-family: "MuseoSans_700"!important;
   left: 21px;
   color: #ffffff;
 }
@@ -211,25 +151,68 @@
 
 /*desktop*/
 :global(.vtex-store-components-3-x-infoCardHeadline--secondLayer) {
+  color: #001930;
+  font-size: 65px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
   position: absolute;
-  top: 30px;
+  top: 56px;
   width: 780px;
   max-width: 780px!important;
   height: 191px;
-  color: #ffffff;
-  font-family: "MuseoJHSans900"!important;
-  font-size: 4vw!important;
-  text-transform: uppercase;
-  margin-left: 0px;
+  font-family: "MuseoSans_700"!important;
+  margin-left: 25px;
+  margin-top: 0px;
+  text-shadow: 0 2px 30px rgba(0,0,0,0.5);
 }
-:global(.vtex-store-components-3-x-infoCardHeadline--firstLayer) {
+
+  :global(.vtex-store-components-3-x-infoCardHeadline--firstLayer) {
+    color: #001930;
+    font-size: 30px;
+    text-align: left;
+    position: absolute;
+    top: 206px;
+    font-family: "MuseoSans_700";
+    left: 73px;
+    text-shadow: 0 2px 30px rgba(0,0,0,0.5);
+    margin-top: 0px!important;
+  }
+
+.stackItem--hatSliderStack--secondLayer :global(.vtex-button) {
+  border-color: white;
+  width: 155px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  color: #001930;
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: "MuseoSans_700";
+  transition: .3s;
+  top: 327px;
+  margin-left: 27px;
   position: absolute;
-  top: 250px;
-  font-size: 2vw!important;
-  font-family: "MuseoJHSans900"!important;
-  color: #ffffff;
-  left: 50px!important;
 }
+
+  .stackItem--hatSliderStack--firstLayer :global(.vtex-button) {
+    border-color: white;
+    width: 155px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    color: #001930;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: "MuseoSans_700";
+    transition: .3s;
+    top: 327px;
+    left: 278px;
+    position: absolute;
+  }
+
+
 .stackContainer--hatSliderStack :global(.vtex-button):hover {
   background-color: #001930;
   border-color: #001930;
@@ -238,13 +221,13 @@
 
 
   :global(.vtex-store-components-3-x-infoCardHeadline--secondLayer-mobile) {
-    position: absolute;
+   position: absolute;
     top: 0%;
     width: 780px;
     max-width: 780px!important;
     height: 191px;
     color: #ffffff;
-    font-family: "MuseoJHSans900"!important;
+    font-family: "MuseoSans_700"!important;
     font-size: 36px;
     text-transform: uppercase;
     left: 17px;
@@ -254,18 +237,18 @@
     top: 84px;
     left: 19px;
     font-size: 20px;
-    font-family: "MuseoJHSans900"!important;
+    font-family: "MuseoSans_700"!important;
     color: #ffffff;
   }
 
   .stackContainer--hatSliderStack-mobile {
-    width: 1900px;
-    height: 670px;
+    width: 1400px;
+    height: 610px;
   }
 
 
   .stackContainer--hatSliderStack-mobile :global(.vtex-store-components-3-x-infoCardContainer) {
-    height: 670px;
+    height: 610px;
     display: flex;
   }
 
@@ -284,7 +267,7 @@
     border-radius: 20px;
     background-color: #ffffff;
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 18px;
     font-style: normal;
     letter-spacing: normal;
@@ -295,5 +278,13 @@
     font-weight: bold;
     transition: .3s;
   }
+
+
+
+
+
+
+
+
 
 
