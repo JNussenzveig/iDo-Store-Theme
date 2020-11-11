@@ -391,9 +391,8 @@
                  "fullWidth": true,
                  "showNavigationArrows": "never",
                  "showPaginationDots": "never",
-                 "autoplay": { "stopOnHover": false, "timeout": 1000},
-                 "navigationStep": 1,
-                 "slideTransition": { "speed": 1500, "delay": 0, "timing": "" },
+                 "autoplay": { "stopOnHover": true, "timeout": 1300},
+                 "slideTransition": { "speed": 400, "delay": 0, "timing": "" },
                  "blockClass": "photozerofee"
                }
              },

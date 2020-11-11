@@ -85,7 +85,7 @@
 }
 
 
-:global(.vtex-store-components-3-x-sellingPrice) {
+/*:global(.vtex-store-components-3-x-sellingPrice) {
   font-family: "MuseoSans_700";
   color: #001930;
   position: fixed;
@@ -93,7 +93,7 @@
   font-size: 20px;
   font-style: normal;
   letter-spacing: normal;
-}
+}*/
 
 :global(.vtex-product-summary-2-x-priceContainer) {
   align-items: flex-start;
@@ -147,7 +147,7 @@
 
 .element--shelf-tutti-i-prodotti-radu :global(.vtex-button) {
   outline: none;
-  bottom: 369px;
+  bottom: 400px;
   right: 96px;
   position: relative;
   border-radius: 25px!important;
