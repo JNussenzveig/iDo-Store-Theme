@@ -87,7 +87,7 @@
 
 /* form returns*/
 
-    "form#returns-form": {
+/*    "form#returns-form": {
              "props": {
                "entity": "RT",
                "schema": "reso"
@@ -185,7 +185,7 @@
 
 
 
-
+*/
 
 
 
