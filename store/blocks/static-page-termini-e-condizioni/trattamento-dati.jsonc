@@ -270,7 +270,7 @@
           "flex-layout.col#trattamento-dati-mobile"
         ],
         "props": {
-        "blockClass": "flex-row-order-processing-mobile"
+        "blockClass": "flex-row-all-static-pages-mobile"
         }
     },
 

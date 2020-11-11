@@ -15,7 +15,7 @@
 
 .content--emailAndPassword :global(.vtex-login-2-x-formTitle) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   text-align: unset;
@@ -54,7 +54,7 @@
 }
 
 .content--emailAndPassword .formFooter :global(.t-small) {
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
 }
 
@@ -93,7 +93,7 @@
 
 .content--emailAndPassword .forgotPasswordLink {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 12px;
   position: relative;
   top: 25px;
@@ -162,7 +162,7 @@
 
 
 .label {
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
   color: white!important;
   padding: unset;
@@ -184,7 +184,7 @@
   position: relative;
   bottom: 10px;
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
 }
 
@@ -197,7 +197,7 @@
   position: absolute;
   top: 203px;
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 12px;
   text-align: center;
 }
@@ -207,7 +207,7 @@
   position: relative;
   bottom: 10px;
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   text-align: left;
 }
@@ -218,7 +218,7 @@
   display: flex;
   padding-top: 27px;
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px!important;
 }
 
@@ -242,7 +242,7 @@
   display: flex;
   padding-top: 31px;
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px!important;
 }
 
@@ -287,7 +287,7 @@
   width: 85px;
   height: 22px;
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -309,7 +309,7 @@
   content: 'ACCEDI';
   font-size: 18px;
   color: white;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   text-transform: uppercase;
 }
 
@@ -327,7 +327,7 @@
   content: 'CONTINUA';
   font-size: 18px;
   color: white;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   text-transform: uppercase;
 }
 
@@ -355,7 +355,7 @@
   content: 'Ricevi il codice di accesso via email';
   display: flex;
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   width: 355px;
   height: 29px;
   font-size: 18px!important;
@@ -374,7 +374,7 @@
 
 .content--emailVerification :global(.vtex-login-2-x-formTitle) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px!important;
   line-height: 29px;
   text-align: left;
@@ -394,7 +394,7 @@
   position: relative;
   bottom: 50px;
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
 }
 
@@ -414,7 +414,7 @@
   color: white;
   position: relative;
   right: 107px;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   outline: none;
 }
 
@@ -423,7 +423,7 @@
 }
 
 .content--emailVerification .formFooter :global(.t-small) {
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
 }
 
@@ -438,7 +438,7 @@
   position: absolute;
   top: 224px;
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 12px;
   text-align: center;
 }
@@ -464,7 +464,7 @@
   content: 'SALVA';
   font-size: 18px;
   color: white;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   text-transform: uppercase;
 }
 
@@ -508,7 +508,7 @@
   position: relative;
   bottom: 24px;
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   text-align: left;
 }
@@ -532,7 +532,7 @@
   color: white;
   position: relative;
   right: 118px;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   outline: none;
 }
 
@@ -541,7 +541,7 @@
 }
 
 .content--recoveryPassword .formFooter :global(.t-small) {
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
 }
 
@@ -551,7 +551,7 @@
   position: relative;
   bottom: 25px;
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   text-align: left;
 }
@@ -564,7 +564,7 @@
 .content--recoveryPassword :global(.vtex-login-2-x-formTitle::before) {
   content: 'MyiDO';
   display: flex;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   padding-bottom: 40px;
   padding-left: 0px;
   letter-spacing: -0.11px;
@@ -577,7 +577,7 @@
 
 .content--recoveryPassword :global(.vtex-login-2-x-formTitle) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   text-align: left;
   padding-left: 0px;
   height: 21px;
@@ -591,7 +591,7 @@
   position: absolute;
   top: 107px;
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 12px;
   text-align: center;
   width: 335px;
@@ -613,7 +613,7 @@
     position: absolute;
     top: 196px;
     color: #001930;
-    font-family: "MuseoJHSans300";
+    font-family: "MuseoSans_300";
     font-size: 12px;
     text-align: center;
   }
@@ -628,7 +628,7 @@
     color: white;
     position: relative;
     right: 131px;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     outline: none;
   }
   .content--emailVerification :global(.vtex-login-2-x-contentFormVisible) {
@@ -656,7 +656,7 @@
 }
 
 :global(.vtex-login-2-x-content--emailAndPassword .vtex-login-2-x-formFooter .t-small) {
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
   color: white!important;
   padding: unset;
@@ -686,34 +686,34 @@
 
 :global(.vtex-login-2-x-my-account-profile-link--login-desktop) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 14px;
   line-height: 21px;
 }
 :global(.vtex-login-2-x-my-account-addresses-link--login-desktop) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 14px;
   line-height: 21px;
 }
 
 :global(.vtex-login-2-x-my-account-orders-link--login-desktop) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 14px;
   line-height: 21px;
 }
 
 :global(.vtex-login-2-x-my-account-creditCards-link--login-desktop) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 14px;
   line-height: 21px;
 }
 
 :global(.vtex-login-2-x-logoutButton) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 21px;
   font-weight: bold;
@@ -721,7 +721,7 @@
 
 :global(.vtex-login-2-x-accountOptionsSectionTitle) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 21px;
   font-weight: bold;

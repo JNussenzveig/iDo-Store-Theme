@@ -43,7 +43,8 @@
         "children": [
         "stack-layout#firstSlide",
         "stack-layout#secondSlide",
-        "stack-layout#thirdSlide"
+        "stack-layout#thirdSlide",
+        "stack-layout#fourdSlide"
         ],
         "props": {
           "itemsPerPage": {
@@ -51,10 +52,11 @@
             "tablet": 1,
             "phone": 1
           },
-          "infinite": true,
+          "infinite": false,
           "fullWidth": true,
+          "pauseOnHover": true,
           "showNavigationArrows": "never",
-          "autoplay": { "stopOnHover": false, "timeout": 4000},
+          "autoplay": { "stopOnHover": true, "timeout": 4000},
           "navigationStep": 1,
           "slideTransition": { "speed": 1200, "delay": 0, "timing": "" },
           "blockClass": "hatSlider"
@@ -76,8 +78,8 @@
             "isFullModeStyle": true,
             "callToActionText": "Shop Boy",
             "callToActionUrl": "/Tutti-i-Prodotti/Bambino",
-            "textPosition": "center",
-            "headline": "Eleganza e stile per i tuoi bimbi",
+            "textPosition": "left",
+            "headline": "Dimentica i capi che si rovinano dopo<br>un lavaggio: un iDO è per sempre.",
             "zIndexOffset": 1,
             "blockClass": "firstLayer"
           }
@@ -163,6 +165,36 @@
            }
      },
 
+     "stack-layout#fourdSlide": {
+           "props": {
+            "blockClass": "hatSliderStack"
+           },
+            "children": [
+            "flex-layout.row#category-video-ido"
+            ]
+          },
+
+/*video ido*/
+
+   "flex-layout.row#category-video-ido": {
+       "children": [
+         "rich-text#link"
+       ],
+       "props": {
+         "preventVerticalStretch": true,
+         "width": "100%",
+         "blockClass": "flex-row-video-ido"
+       }
+    },
+
+  "rich-text#link": {
+    "props": {
+      "text": "​<div class='vtex-iframe-ido-video'> <iframe class='vtex-iframe-ido-video-inside' height='610' src='https://www.youtube.com/embed/f4WyNrrJzz4?playlist=f4WyNrrJzz4&loop=1&autoplay=1&mute=1' frameborder='0' style = 'width: 100%' allow='accelerometer;  autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>",
+      "blockClass": "vtex-iframe-ido-video"
+    }
+  },
+
+
 /* shelf home page*/
 
    "flex-layout.row#list-context": {
@@ -170,7 +202,7 @@
         "list-context.product-list#shelf-tutti-i-prodotti"
        ],
        "props": {
-       "blockClass": "flex-row-all-static-pages"
+       "blockClass": "flex-row-shelf-home-page"
        }
    },
 
@@ -185,7 +217,7 @@
     ],
     "props": {
       "itemsPerPage": {
-        "desktop": 3,
+        "desktop": 4,
         "tablet": 2,
         "phone": 1
       },
@@ -193,7 +225,7 @@
       "fullWidth": true,
       "blockClass": "shelf-tutti-i-prodotti",
       "showNavigationArrows": "never",
-      "autoplay": { "stopOnHover": false, "timeout": 4000},
+      "autoplay": { "stopOnHover": true, "timeout": 4000},
       "slideTransition": { "speed": 1200, "delay": 0, "timing": "" }
     }
   },
@@ -201,13 +233,13 @@
   "shelf#tutti-i-prodotti": {
       "blocks": ["product-summary.shelf#tutti-i-prodotti"],
       "props": {
-        "blockClass": "shelf-tutti-i-prodotti",
-        "category": 2,
+        "blockClass": "shelf-tutti-i-prodotti-radu",
+        "category":2 ,
         "orderBy": "OrderByTopSaleDESC",
         "paginationDotsVisibility": "desktopOnly",
         "productList": {
-          "maxItems": 7,
-          "itemsPerPage": 3,
+          "maxItems": 4,
+          "itemsPerPage": 4,
           "minItemsPerPage": 1,
           "scroll": "BY_PAGE",
           "arrows": true,
@@ -217,6 +249,7 @@
     },
   "product-summary.shelf#tutti-i-prodotti": {
     "props": {
+      "blockClass": "shelf-tutti-i-prodotti-radu",
       "isOneClickBuy": false,
       "showBadge": false,
       "badgeText": "ON",
@@ -258,6 +291,7 @@
   },*/
 
 
+
 /*look book title*/
 
    "flex-layout.row#title-Look-Book": {
@@ -275,6 +309,7 @@
       "blockClass": "title-banners-home-page"
     }
   },
+
 
 /*back to school banner - look book*/
 
@@ -295,7 +330,7 @@
         "headline": "Ricomincia l'avventura <br>con l'outfit giusto",
         "callToActionText": "ACQUISTA",
         "callToActionUrl": "/Tutti-i-Prodotti/testkitlook",
-        "blockClass": "info-card-domentica-ricomincia",
+        "blockClass": "info-card-domentica",
         "textAlignment": "center"
       }
     },
@@ -313,7 +348,7 @@
 
   "rich-text#shelf-title-category": {
     "props": {
-      "text": "## Un ido è per sempre",
+      "text": "## Gli Imperdibili",
       "blockClass": "title-banners-home-page"
     }
   },
@@ -330,7 +365,7 @@
        "fullWidth": true,
        "showNavigationArrows": "never",
        "showPaginationDots": true,
-       "autoplay": { "stopOnHover": false, "timeout": 4000},
+       "autoplay": { "stopOnHover": true, "timeout": 4000},
        "navigationStep": 1,
        "slideTransition": { "speed": 1200, "delay": 0, "timing": "" },
        "blockClass": "flex-row-all-static-pages-slider-ogni-occasione"
@@ -345,7 +380,6 @@
       "flex-layout.col#category-iDO-mini",
       "flex-layout.col#category-sport-time",
       "flex-layout.col#category-glam-collection"
-
     ],
     "props": {
       "itemsPerPage": {
@@ -359,7 +393,7 @@
       "showNavigationArrows": "never",
       "showPaginationDots": "always",
       "navigationStep": 1,
-      "autoplay": { "stopOnHover": false, "timeout": 4000},
+      "autoplay": { "stopOnHover": true, "timeout": 4000},
       "slideTransition": { "speed": 1500, "delay": 0, "timing": "" }
     }
   },
@@ -455,11 +489,11 @@
       "isFullModeStyle": true,
       "textPosition": "left",
       "imageUrl": "/arquivos/hp_1250x500_capi_02.jpg",
-      "headline": "Dimentica i capi che si rovinano dopo un lavaggio: un iDO è per sempre.",
+      "headline": "Dimentica i capi che si rovinano dopo<br>un lavaggio: un iDO è per sempre.",
       "callToActionText": "SCOPRI",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-dimentica-i-capi",
-      "textAlignment": "center"
+      "textAlignment": "left"
     }
   },
 
@@ -499,11 +533,11 @@
       "isFullModeStyle": true,
       "textPosition": "left",
       "imageUrl": "/arquivos/hp_1250x500_armocromia_02.jpg",
-      "headline": "Quali colori stanno meglio al tuo bambino?",
+      "headline": "Quali colori stanno meglio<br>al tuo bambino?",
       "callToActionText": "SCOPRI",
       "callToActionUrl": "/larmocromia",
       "blockClass": "info-card-domentica",
-      "textAlignment": "center"
+      "textAlignment": "left"
     }
   },
 

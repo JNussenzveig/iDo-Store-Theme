@@ -4,7 +4,7 @@
     border-color: #5fb00a;
     background-color: #5fb00a;
     color: white;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 19px;
     line-height: 27px;
     width: 250px;
@@ -26,35 +26,35 @@
 
   .minicartProductListContainer :global(.vtex-product-list-0-x-productName) {
     color: #001930;
-    font-family: "MuseoJHSans500";
+    font-family: "MuseoSans_500";
     font-size: 19px;
     line-height: 27px;
   }
 
   .minicartProductListContainer :global(.vtex-product-list-0-x-productBrandName) {
     color: #001930;
-    font-family: "MuseoJHSans300";
+    font-family: "MuseoSans_300";
     font-size: 13px;
     line-height: 27px;
   }
 
   .minicartProductListContainer :global(.vtex-product-list-0-x-productVariationsContainer) {
     color: #001930;
-    font-family: "MuseoJHSans300";
+    font-family: "MuseoSans_300";
     font-size: 13px;
     line-height: 27px;
   }
 
   .minicartProductListContainer :global(.vtex-product-list-0-x-availabilityMessageTextContainer) {
     color: #001930;
-    font-family: "MuseoJHSans300";
+    font-family: "MuseoSans_300";
     font-size: 13px;
     line-height: 27px;
   }
 
   :global(.vtex-product-list-0-x-productListUnavailableItemsMessage) {
     color: #001930;
-    font-family: "MuseoJHSans500";
+    font-family: "MuseoSans_500";
     font-size: 19px;
     line-height: 27px;
   }
@@ -104,20 +104,20 @@
 
   :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
     color: #001930;
-    font-family: "MuseoJHSans500";
+    font-family: "MuseoSans_500";
     font-size: 18px;
     line-height: 27px;
   }
 
   :global(.vtex-checkout-summary-0-x-price) {
-    font-family: "MuseoJHSans700";
+    font-family: "MuseoSans_700";
     font-size: 18px;
     line-height: 27px;
   }
 
   :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
     color: #001930;
-    font-family: "MuseoJHSans300";
+    font-family: "MuseoSans_300";
     font-size: 15px;
     line-height: 27px;
   }
@@ -129,4 +129,12 @@
 
 .minicartQuantityBadge {
   right: -0.2rem;
+}
+
+
+
+:global(.vtex-minicart-2-x-minicartIconContainer) {
+  background-image: url("/arquivos/minicart_header.png");
+  width: 16px;
+  height: 16px;
 }

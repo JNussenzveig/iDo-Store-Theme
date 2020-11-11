@@ -9,7 +9,7 @@
 
   :global(.vtex-order-placed-back-button) {
     color: #ffffff;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: unset;
@@ -28,7 +28,7 @@
 
   .section--confirmation :global(.vtex-button__label) {
     color: #ffffff;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: unset;
@@ -36,14 +36,14 @@
 
   .confirmationMessage {
     color: #001930;
-    font-family: "MuseoJHSans500";
+    font-family: "MuseoSans_500";
     font-size: 18px;
     line-height: 29px;
   }
 
   .confirmationTitle {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 25px;
     line-height: 29px;
   }
@@ -69,7 +69,7 @@
 
   .section--confirmation :global(.vtex-button__label) {
     color: #ffffff;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: unset;
@@ -77,14 +77,14 @@
 
   .confirmationMessage {
     color: #001930;
-    font-family: "MuseoJHSans500";
+    font-family: "MuseoSans_500";
     font-size: 18px;
     line-height: 29px;
   }
 
   .confirmationTitle {
     color: #001930;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 25px;
     line-height: 29px;
   }
@@ -99,7 +99,7 @@
 
   :global(.vtex-order-placed-back-button) {
     color: #ffffff;
-    font-family: "MuseoJHSans900";
+    font-family: "MuseoSans_700";
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: unset;

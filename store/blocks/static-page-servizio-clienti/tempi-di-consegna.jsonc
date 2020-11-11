@@ -234,7 +234,7 @@
          "flex-layout.col#tempiDiConsegna-mobile"
        ],
        "props": {
-       "blockClass": "flex-row-tempi-di-consegna-mobile"
+       "blockClass": "flex-row-all-static-pages-mobile"
        }
    },
 

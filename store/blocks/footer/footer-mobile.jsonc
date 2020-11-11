@@ -5,7 +5,9 @@
       "flex-layout.row#level2-Hai-bisogno-di-aiuto-mobile",
       "flex-layout.row#level3-image-title-subtitle-consegna-spedizione-reso-pagamenti-mobile",
       "flex-layout.row#level6-contatti-mobile",
-      "flex-layout.row#level7-title-subtitle-vendita-negozi-impresa-mobile",
+      "flex-layout.row#content-vendita-mobile",
+      "flex-layout.row#content-negozi-mobile",
+      "flex-layout.row#content-impresa-mobile",
       "flex-layout.row#menu-footer-azienda-mobile",
       "flex-layout.row#menu-footer-servizio-clienti-mobile",
       "flex-layout.row#menu-footer-termini-e-condizioni-mobile",
@@ -462,36 +464,29 @@
 
   /* level 7 vendita-negozi-impresa title*/
 
-    "flex-layout.row#level7-title-subtitle-vendita-negozi-impresa-mobile": {
-      "props": {
-        "blockClass": "title-subtitle-vendita-negozi-impresa-mobile"
-      },
-      "children": [
-      "flex-layout.col#title-subtitle-vendita-mobile",
-      "flex-layout.col#title-subtitle-negozi-mobile",
-      "flex-layout.col#title-subtitle-impresa-mobile"
-      ]
+
+
+  "flex-layout.row#content-vendita-mobile": {
+    "props": {
+      "blockClass": "content-vendita-negozi-impresa-mobile"
     },
+    "children": [
+    "flex-layout.col#footer-vendita-title-mobile",
+    "flex-layout.col#footer-vendita-content-email-mobile",
+    "flex-layout.col#footer-vendita-content-phone-mobile",
+    "flex-layout.col#footer-vendita-content-program-mobile"
+    ]
+  },
 
-/*vendita*/
-
-    "flex-layout.col#title-subtitle-vendita-mobile": {
-      "props": {
-        "blockClass": "title-subtitle-vendita-mobile"
-      },
-      "children": [
-      "flex-layout.col#title-vendita-mobile",
-      "flex-layout.col#level8-content-vendita-mobile"
-      ]
+  "flex-layout.col#footer-vendita-title-mobile": {
+    "props": {
+      "width": "18%",
+      "blockClass": "footer-consegna-spedizione-reso-pagamenti-title-mobile"
     },
-
-
-    "flex-layout.col#title-vendita-mobile": {
-      "props": {
-        "blockClass": "title-vendita-negozi-impresa-mobile"
-      },
-      "children": ["rich-text#footer-vendita-title-mobile"]
-    },
+    "children": [
+        "rich-text#footer-vendita-title-mobile"
+    ]
+  },
 
     "rich-text#footer-vendita-title-mobile": {
       "props": {
@@ -500,39 +495,91 @@
       }
     },
 
-    "flex-layout.col#level8-content-vendita-mobile": {
-      "props": {
-        "blockClass": "content-vendita-negozi-impresa-mobile"
-      },
-      "children": ["rich-text#footer-vendita-content-mobile"]
-    },
 
-    "rich-text#footer-vendita-content-mobile": {
+
+  "flex-layout.col#footer-vendita-content-email-mobile": {
+    "props": {
+      "width": "40%",
+      "blockClass": "footer-vendita-negozi-impresa-content-email-mobile"
+    },
+    "children": [
+        "rich-text#footer-vendita-content-email-mobile"
+    ]
+  },
+
+    "rich-text#footer-vendita-content-email-mobile": {
       "props": {
-        "text": "customerservice@ido.it - 0575 533444<br>Dal lunedì al venerdì dalle 8:30<br>alle 11:00 e dalle 13:00 alle 15:00",
-        "blockClass": "footer-consegna-spedizione-reso-pagamenti-content-mobile"
+        "text": "customerservice@ido.it",
+        "blockClass": "footer-vendita-negozi-impresa-content-email-mobile"
       }
     },
 
-/* negozi*/
 
-    "flex-layout.col#title-subtitle-negozi-mobile": {
+
+  "flex-layout.col#footer-vendita-content-phone-mobile": {
+    "props": {
+      "width": "20%",
+      "blockClass": "footer-vendita-negozi-impresa-content-phone-mobile"
+    },
+    "children": [
+        "rich-text#footer-vendita-content-phone-mobile"
+    ]
+  },
+
+  "rich-text#footer-vendita-content-phone-mobile": {
+    "props": {
+      "text": "0575 533444",
+      "blockClass": "footer-vendita-negozi-impresa-content-phone-mobile"
+    }
+  },
+
+
+
+  "flex-layout.col#footer-vendita-content-program-mobile": {
+    "props": {
+      "width": "22%",
+      "blockClass": "footer-vendita-negozi-impresa-content-program-mobile"
+    },
+    "children": [
+        "rich-text#footer-vendita-content-program-mobile"
+    ]
+  },
+
+    "rich-text#footer-vendita-content-program-mobile": {
       "props": {
-        "blockClass": "title-subtitle-negozi-mobile"
-      },
-      "children": [
-      "flex-layout.col#title-negozi-mobile",
-      "flex-layout.col#content-negozi-mobile"
-      ]
+        "text": "Dal lunedì al venerdì dalle 8:30 alle 11:00 e dalle 13:00 alle 15:00",
+        "blockClass": "footer-vendita-negozi-impresa-content-program-mobile"
+      }
     },
 
-    "flex-layout.col#title-negozi-mobile": {
-      "props": {
-        "blockClass": "title-consegna-spedizione-reso-pagamenti-mobile"
-      },
-      "children": ["rich-text#footer-negozi-title-mobile"]
-    },
 
+
+
+
+
+
+  "flex-layout.row#content-negozi-mobile": {
+    "props": {
+      "blockClass": "content-vendita-negozi-impresa-mobile"
+    },
+    "children": [
+    "flex-layout.col#footer-negozi-title-mobile",
+    "flex-layout.col#footer-negozi-content-email-mobile",
+    "flex-layout.col#footer-negozi-content-phone-mobile",
+    "flex-layout.col#footer-negozi-content-program-mobile"
+
+    ]
+  },
+
+  "flex-layout.col#footer-negozi-title-mobile": {
+    "props": {
+      "width": "18%",
+      "blockClass": "footer-consegna-spedizione-reso-pagamenti-title-mobile"
+    },
+    "children": [
+        "rich-text#footer-negozi-title-mobile"
+    ]
+  },
 
     "rich-text#footer-negozi-title-mobile": {
       "props": {
@@ -541,39 +588,88 @@
       }
     },
 
-    "flex-layout.col#content-negozi-mobile": {
-      "props": {
-        "blockClass": "content-vendita-negozi-impresa-mobile"
-      },
-      "children": ["rich-text#footer-negozi-content-mobile"]
+
+  "flex-layout.col#footer-negozi-content-email-mobile": {
+    "props": {
+      "width": "40%",
+      "blockClass": "footer-vendita-negozi-impresa-content-email-mobile"
     },
+    "children": [
+        "rich-text#footer-negozi-content-email-mobile"
+    ]
+  },
 
-    "rich-text#footer-negozi-content-mobile": {
-      "props": {
-        "text": "assistenzaclienti@miniconf.it<br>0575 533248<br>Dal lunedì al venerdì dalle 8:30 alle 18:00",
-        "blockClass": "footer-consegna-spedizione-reso-pagamenti-content-mobile"
-      }
+  "rich-text#footer-negozi-content-email-mobile": {
+    "props": {
+      "text": "assistenzaclienti@miniconf.it",
+      "blockClass": "footer-vendita-negozi-impresa-content-email-mobile"
+    }
+  },
+
+
+
+  "flex-layout.col#footer-negozi-content-phone-mobile": {
+    "props": {
+      "width": "20%",
+      "blockClass": "footer-vendita-negozi-impresa-content-phone-mobile"
     },
+    "children": [
+        "rich-text#footer-negozi-content-phone-mobile"
+    ]
+  },
+
+  "rich-text#footer-negozi-content-phone-mobile": {
+    "props": {
+      "text": "0575 533248",
+      "blockClass": "footer-vendita-negozi-impresa-content-phone-mobile"
+    }
+  },
 
 
-/*impresa*/
 
-    "flex-layout.col#title-subtitle-impresa-mobile": {
-      "props": {
-        "blockClass": "title-subtitle-impresa-mobile"
-      },
-      "children": [
-      "flex-layout.col#title-impresa-mobile",
-      "flex-layout.col#content-impresa-mobile"
-      ]
+  "flex-layout.col#footer-negozi-content-program-mobile": {
+    "props": {
+    "width": "22%",
+      "blockClass": "footer-negozi-content-program-mobile"
     },
+    "children": [
+        "rich-text#footer-negozi-content-program-mobile"
+    ]
+  },
+  "rich-text#footer-negozi-content-program-mobile": {
+    "props": {
+      "text": "Dal lunedì al venerdì dalle 8:30 alle 18:00",
+      "blockClass": "footer-vendita-negozi-impresa-content-program-mobile"
+    }
+  },
 
-    "flex-layout.col#title-impresa-mobile": {
-      "props": {
-        "blockClass": "title-consegna-spedizione-reso-pagamenti-mobile"
-      },
-      "children": ["rich-text#footer-impresa-title-mobile"]
+
+
+
+
+
+  "flex-layout.row#content-impresa-mobile": {
+    "props": {
+      "blockClass": "content-vendita-negozi-impresa-mobile"
     },
+    "children": [
+    "flex-layout.col#footer-impresa-title-mobile",
+    "flex-layout.col#footer-impresa-content-email-mobile",
+    "flex-layout.col#footer-impresa-content-phone-mobile",
+    "flex-layout.col#footer-impresa-content-program-mobile"
+
+    ]
+  },
+
+  "flex-layout.col#footer-impresa-title-mobile": {
+    "props": {
+      "width": "18%",
+      "blockClass": "footer-consegna-spedizione-reso-pagamenti-title-mobile"
+    },
+    "children": [
+        "rich-text#footer-impresa-title-mobile"
+    ]
+  },
 
     "rich-text#footer-impresa-title-mobile": {
       "props": {
@@ -582,19 +678,57 @@
       }
     },
 
-   "flex-layout.col#content-impresa-mobile": {
-      "props": {
-        "blockClass": "content-vendita-negozi-impresa-mobile"
-      },
-      "children": ["rich-text#footer-impresa-content-mobile"]
+  "flex-layout.col#footer-impresa-content-email-mobile": {
+    "props": {
+      "width": "40%",
+      "blockClass": "footer-vendita-negozi-impresa-content-email-mobile"
     },
+    "children": [
+        "rich-text#footer-impresa-content-email-mobile"
+    ]
+  },
+  "rich-text#footer-impresa-content-email-mobile": {
+    "props": {
+      "text": "info@ido.it",
+      "blockClass": "footer-vendita-negozi-impresa-content-email-mobile"
+    }
+  },
 
-    "rich-text#footer-impresa-content-mobile": {
-      "props": {
-        "text": "info@ido.it - 0575 5331<br>Dal lunedì al venerdì dalle 8:30<br>alle 18:00",
-        "blockClass": "footer-consegna-spedizione-reso-pagamenti-content-mobile"
-      }
+
+  "flex-layout.col#footer-impresa-content-phone-mobile": {
+    "props": {
+      "width": "20%",
+      "blockClass": "footer-vendita-negozi-impresa-content-phone-mobile"
     },
+    "children": [
+        "rich-text#footer-impresa-content-phone-mobile"
+    ]
+  },
+  "rich-text#footer-impresa-content-phone-mobile": {
+    "props": {
+      "text": "0575 5331",
+      "blockClass": "footer-vendita-negozi-impresa-content-phone-mobile"
+    }
+  },
+
+
+  "flex-layout.col#footer-impresa-content-program-mobile": {
+    "props": {
+    "width": "22%",
+      "blockClass": "footer-negozi-content-program-mobile"
+    },
+    "children": [
+        "rich-text#footer-negozi-content-program-mobile"
+    ]
+  },
+
+  "rich-text#footer-impresa-content-program-mobile": {
+    "props": {
+      "text": "Dal lunedì al venerdì dalle 8:30 alle 18:00",
+      "blockClass": "footer-vendita-negozi-impresa-content-program-mobile"
+    }
+  },
+
 
 /* azienda footer mobile*/
 

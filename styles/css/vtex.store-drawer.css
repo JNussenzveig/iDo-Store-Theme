@@ -11,7 +11,7 @@
 
 .drawerContent :global(.vtex-menu-2-x-styledLinkContent) {
   justify-content: flex-end;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
 }
 

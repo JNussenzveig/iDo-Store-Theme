@@ -4,26 +4,18 @@
 }
 
 
-.menuContainer .menuItem:last-child {
+/*.menuContainer .menuItem:last-child {
   margin-bottom: 50px;
-}
+}*/
 
 
 
-:global(.vtex-flex-layout-0-x-flexRow--main-header) .menuContainer {
-  align-items: center;
-}
-:global(.vtex-flex-layout-0-x-flexRow--main-header) .menuItem:first-child,
-:global(.vtex-flex-layout-0-x-flexRow--main-header) .menuItem:last-child {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 
 /*footer text styling */
 
 :global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-flex-layout-0-x-flexRow--menu-row) .styledLinkContent {
   color: white;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 14px;
   font-style: normal;
   letter-spacing: normal;
@@ -53,7 +45,7 @@
   width: 81px;
   height: 19px;
   color: grey;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   font-weight: bold;
@@ -119,17 +111,7 @@
   width: 100%;
 }
 
-.submenu--bambina-desktop-main-container-submenu {
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 40px;
-}
 
-.submenu--bambino-desktop-main-container-submenu {
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 40px;
-}
 
 .styledLinkContainer--cart-icon-ido {
   width: 19px;
@@ -144,5 +126,12 @@
 
 :global(.vtex-menu-2-x-styledLinkContainer--ido-logo-class-desktop-notLogin) {
   margin-left: unset;
-  margin-right: unset;
+  margin-right: 0px!important;
 }
+
+:global(.vtex-menu-2-x-styledLinkContainer--ido-logo-class-desktop-Login) {
+  margin-left: unset;
+  margin-right: 0px!important;
+}
+
+

@@ -220,7 +220,7 @@
          "flex-layout.col#newsletter-form-mobile"
        ],
        "props": {
-       "blockClass": "newsletter-form-mobile"
+       "blockClass": "flex-row-all-static-pages-mobile"
        }
    },
 

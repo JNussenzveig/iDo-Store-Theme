@@ -54,6 +54,7 @@
     "image#youtubeHeader"
   ],
   "props": {
+    "width": "20%",
     "blockClass": "menu-social-networks-header"
   }
 },
@@ -62,9 +63,9 @@
   "image#facebookHeader": {
     "props": {
       "blockClass": "facebookHeader",
-      "src": "/arquivos/Icon_facebook@4x.png",
-      "maxHeight": 35,
-      "maxWidth": 35,
+      "src": "/arquivos/facebook@4x.png",
+      "maxHeight": 25,
+      "maxWidth": 12,
       "alt": "facebook.com",
       "title": "facebook.com",
       "link": {
@@ -78,9 +79,9 @@
   "image#instagramHeader": {
     "props": {
       "blockClass": "instagramHeader",
-      "src": "/arquivos/Icon_instagram@4x.png",
-      "maxHeight": 35,
-      "maxWidth": 35,
+      "src": "/arquivos/instagram_new_design@4x.png",
+      "maxHeight": 24,
+      "maxWidth": 23,
       "alt": "instagram.com",
       "title": "instagram.com",
       "link": {
@@ -94,9 +95,9 @@
   "image#youtubeHeader": {
     "props": {
       "blockClass": "youtubeHeader",
-      "src": "/arquivos/Icon_youtube@4x.png",
-      "maxHeight": 35,
-      "maxWidth": 61,
+      "src": "/arquivos/you_tube_icon_new_design@4x.png",
+      "maxHeight": 16,
+      "maxWidth": 24,
       "alt": "youtube.com",
       "title": "youtube.com",
       "link": {
@@ -112,11 +113,12 @@
       "flex-layout.col#search",
       "flex-layout.col#heart",
       "flex-layout.col#location",
-      "flex-layout.col#minicart",
+     "flex-layout.col#minicart",
       "flex-layout.col#login",
       "flex-layout.col#switcher"
   ],
   "props": {
+    "width": "80%",
     "blockClass": "header-top-menu"
   }
 },
@@ -232,7 +234,7 @@
   },
 
 
-  "menu-item#minicart-icon": {
+   "menu-item#minicart-icon": {
     "props": {
       "blockClass": "minicart-logo-class",
       "id": "menu-item-minicart-icon",
@@ -298,7 +300,7 @@
       "iconProps": {
         "id": "hpa-profile",
         "iconPosition": "center",
-        "size": 22,
+        "size": 20,
         "viewBox": "0 0 18 22",
         "blockClass": "ido-logo-color-grey"
       },
@@ -464,13 +466,26 @@
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu-header"
+      "flex-layout.col#col1-menu-bambina-bambino-armocromia",
+      "flex-layout.col#col2-menu-bambina-bambino-armocromia"
     ]
   },
+
+
+
+  "flex-layout.col#col1-menu-bambina-bambino-armocromia": {
+    "props": {
+      "width": "100%",
+      "blockClass": "logo-desktop"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop"
+    ]
+  },
+
+
   "flex-layout.col#logo-desktop": {
     "props": {
-      "verticalAlign": "middle",
       "blockClass": "logo-desktop"
     },
     "children": ["logo#desktop"]
@@ -486,11 +501,20 @@
     }
   },
 
+  "flex-layout.col#col2-menu-bambina-bambino-armocromia": {
+    "props": {
+      "width": "100%",
+      "blockClass": "logo-desktop"
+    },
+    "children": [
+      "flex-layout.col#category-menu-header"
+    ]
+  },
 
   "flex-layout.col#category-menu-header": {
     "props": {
     "blockClass": "category-menu-header",
-      "verticalAlign": "middle"
+      "verticalAlign": "center"
     },
     "children": ["menu-item#bambina-category-header", "menu-item#bambino-category-header","menu-item#armocromia-category-header"]
   },
@@ -519,7 +543,6 @@
 
   "vtex.menu@2.x:submenu#bambina-category-header": {
     "props": {
-      "width": "100%",
       "blockClass": "bambina-desktop-main-container-submenu"
     },
     "children": [
@@ -540,7 +563,7 @@
 
   "flex-layout.row#bambinaMenuDesktop":{
     "props": {
-      "text": "## L’armocromia",
+      "width": "100%",
       "blockClass": "shelfTitle"
     },
     "children": [
@@ -550,337 +573,182 @@
     ]
   },
 
+
+
+
   "flex-layout.col#bambinaMenuDesktopFirstColumn":{
     "props": {
+      "width": "33%",
       "blockClass": "bambinaMenuDesktopFirstColumn"
     },
     "children": [
-      "menu-item#guarda-tutti-bambina",
-      "menu-item#0-18-mesi-bambina",
-      "menu-item#6-36mesi-bambina",
-      "menu-item#3-8anni-bambina",
-      "menu-item#9-16anni-bambina",
-      "menu-item#guida-alle-taglie-bambina"
+      "rich-text#header-top-menu-list-Guarda-tutti",
+      "rich-text#header-top-menu-list-0-18-mesi",
+      "rich-text#header-top-menu-list-6-36-mesi",
+      "rich-text#header-top-menu-list-3-8-anni",
+      "rich-text#header-top-menu-list-9-16-anni",
+      "rich-text#header-top-menu-list-Guida-alle-taglie"
     ]
   },
 
-  "menu-item#guarda-tutti-bambina": {
-    "props": {
-      "id": "menu-item-guarda-tutti-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambina/",
-        "noFollow": false,
-        "tagTitle": "Guarda Tutti",
-        "text": "Guarda tutti"
+
+  "rich-text#header-top-menu-list-Guarda-tutti": {
+     "props": {
+     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/'>Guarda tutti",
+     "blockClass": "header-top-menu-list"
       }
-    }
   },
 
-  "menu-item#0-18-mesi-bambina": {
-    "props": {
-      "id": "menu-item-0-18-mesi-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tutti-i-prodotti?__bindingAddress=www.ido.it/it&map=c,c,specificationFilter_27&query=/Tutti-i-Prodotti/Bambina/0 - 18 Mesi",
-        "noFollow": false,
-        "tagTitle": "0 - 18 mesi",
-        "text": "0 - 18 Mesi"
+  "rich-text#header-top-menu-list-spacer": {
+     "props": {
+     "text": "spacer",
+     "blockClass": "header-top-menu-list"
       }
-    }
+  },
+  "rich-text#header-top-menu-list-0-18-mesi": {
+     "props": {
+     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/0 - 18 Mesi'>0 - 18 mesi",
+     "blockClass": "header-top-menu-list"
+      }
   },
 
-  "menu-item#6-36mesi-bambina": {
-    "props": {
-      "id": "menu-item-6-36-mesi-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tutti-i-prodotti?__bindingAddress=www.ido.it/it&map=c,c,specificationFilter_27&query=/Tutti-i-Prodotti/Bambina/6 - 36 Mesi",
-        "noFollow": false,
-        "tagTitle": "6 - 36 mesi",
-        "text": "6 - 36 Mesi"
+  "rich-text#header-top-menu-list-6-36-mesi": {
+     "props": {
+     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/6 - 36 Mesi'>6 - 36 mesi",
+     "blockClass": "header-top-menu-list"
       }
-    }
   },
 
-  "menu-item#3-8anni-bambina": {
-    "props": {
-      "id": "menu-item-3-16-anni-accesori-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tutti-i-prodotti?__bindingAddress=www.ido.it/it&map=c,c,specificationFilter_27&query=/Tutti-i-Prodotti/Bambina/3 - 8 Anni",
-        "noFollow": false,
-        "tagTitle": "3 - 8 anni",
-        "text": "3 - 8 Anni"
+  "rich-text#header-top-menu-list-3-8-anni": {
+     "props": {
+     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/6 - 36 Mesi'>3 - 8 anni",
+     "blockClass": "header-top-menu-list"
       }
-    }
   },
 
-  "menu-item#9-16anni-bambina": {
-    "props": {
-      "id": "menu-item-9-16-anni-accesori-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tutti-i-prodotti?__bindingAddress=www.ido.it/it&map=c,c,specificationFilter_27&query=/Tutti-i-Prodotti/Bambina/9 - 16 Anni",
-        "noFollow": false,
-        "tagTitle": "9 - 16 anni",
-        "text": "9 - 16 Anni"
+  "rich-text#header-top-menu-list-9-16-anni": {
+     "props": {
+     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/6 - 36 Mesi'>9 - 16 anni",
+     "blockClass": "header-top-menu-list"
       }
-    }
   },
 
-  "menu-item#guida-alle-taglie-bambina": {
-    "props": {
-      "id": "menu-item-guida-alle-taglie-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/guida-alle-taglie",
-        "noFollow": false,
-        "tagTitle": "Guida alle taglie",
-        "text": "Guida alle taglie"
+  "rich-text#header-top-menu-list-Guida-alle-taglie": {
+     "props": {
+     "text": "<a class='vtex-header-top-menu-list' href='/guida-alle-taglie/'>Guida alle taglie",
+     "blockClass": "header-top-menu-list"
       }
-    }
   },
+
+
+
+
+
 
   "flex-layout.col#bambinaMenuDesktopSecondColumn":{
     "props": {
+      "width": "33%",
       "blockClass": "bambinaMenuDesktopSecondColumn"
     },
     "children": [
-      "menu-item#pantaloni-bambina",
-      "menu-item#accesori-bambina",
-      "menu-item#maglie-e-felpe-bambina",
-      "menu-item#abiti-e-gonne-bambina",
-      "menu-item#giubbotti-e-giacche-bambina",
-      "menu-item#t-shit-polo-e-camicie-bambina"
+      "rich-text#header-top-menu-list-Pantaloni",
+      "rich-text#header-top-menu-list-Accessori",
+      "rich-text#header-top-menu-list-Maglie-e-felpe",
+      "rich-text#header-top-menu-list-Abiti-e-gonne",
+      "rich-text#header-top-menu-list-Giubbotti-e-giacche",
+      "rich-text#header-top-menu-list-Camicie"
+
     ]
   },
 
-  "menu-item#pantaloni-bambina": {
-    "props": {
-      "id": "menu-item-category-pantaloni-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambina/pantaloni",
-        "noFollow": false,
-        "tagTitle": "Pantaloni",
-        "text": "Pantaloni"
+  "rich-text#header-top-menu-list-Pantaloni": {
+     "props": {
+     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/pantaloni'>Pantaloni",
+     "blockClass": "header-top-menu-list"
       }
-    }
   },
 
-  "menu-item#accesori-bambina": {
-    "props": {
-      "id": "menu-item-category-accesori-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambina/Accessori",
-        "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+  "rich-text#header-top-menu-list-Accessori": {
+     "props": {
+     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/Accessori'>Accessori",
+     "blockClass": "header-top-menu-list"
       }
-    }
   },
 
-  "menu-item#maglie-e-felpe-bambina": {
-    "props": {
-      "id": "menu-item-category-maglie-e-felpe-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambina/Maglie-E-Felpe",
-        "noFollow": false,
-        "tagTitle": "Maglie E Felpe",
-        "text": "Maglie E Felpe"
+  "rich-text#header-top-menu-list-Maglie-e-felpe": {
+     "props": {
+     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/Maglie-E-Felpe'>Maglie e felpe",
+     "blockClass": "header-top-menu-list"
       }
-    }
   },
 
-  "menu-item#tute-e-completi-bambina": {
-    "props": {
-      "id": "menu-item-categorytute-e-completi-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambina/Tute-E-Completi",
-        "noFollow": false,
-        "tagTitle": "Tute E Completi",
-        "text": "Tute E Completi"
+  "rich-text#header-top-menu-list-Abiti-e-gonne": {
+     "props": {
+     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/Abiti-E-Gonne'>Abiti e gonne",
+     "blockClass": "header-top-menu-list"
       }
-    }
   },
 
-
-  "menu-item#giubbotti-e-giacche-bambina": {
-    "props": {
-      "id": "menu-item-category-giubbotti-e-giacche-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambina/Giubbotti-E-Giacche",
-        "noFollow": false,
-        "tagTitle": "Giubbotti E Giacche",
-        "text": "Giubbotti E Giacche"
+  "rich-text#header-top-menu-list-Giubbotti-e-giacche": {
+     "props": {
+     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/Giubbotti-E-Giacche'>Giubbotti e giacche",
+     "blockClass": "header-top-menu-list"
       }
-    }
   },
 
-
-  "menu-item#t-shit-polo-e-camicie-bambina": {
-    "props": {
-      "id": "menu-item-category-t-shit-polo-e-camicie-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambina/T-Shirt-Polo-E-Camicie",
-        "noFollow": false,
-        "tagTitle": "T-shirt, Polo E Camicie",
-        "text": "T-shirt, Polo E Camicie"
+  "rich-text#header-top-menu-list-Camicie": {
+     "props": {
+     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/T-Shirt-Polo-E-Camicie'>T-shirt, Polo, Camicie",
+     "blockClass": "header-top-menu-list"
       }
-    }
-  },
-
-
-  "menu-item#abiti-e-gonne-bambina": {
-    "props": {
-      "id": "menu-item-category-abiti-e-gonne-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambina/Abiti-E-Gonne",
-        "noFollow": false,
-        "tagTitle": "Abiti E Gonne",
-        "text": "Abiti E Gonne"
-      }
-    }
   },
 
 
   "flex-layout.col#bambinaMenuDesktopThirdColumn":{
     "props": {
+      "width": "33%",
       "blockClass": "bambinaMenuDesktopThirdColumn"
     },
     "children": [
-      "menu-item#glam-bambina",
-      "menu-item#ido-mini-bambina",
-      "menu-item#tempo-libero-bambina",
-      "menu-item#back-to-school-bambina"
+      "rich-text#header-top-menu-list-Un-iDO-per-ogni-occasione",
+      "rich-text#header-top-menu-list-Glam",
+      "rich-text#header-top-menu-list-iDO-mini",
+      "rich-text#header-top-menu-list-Sport-time"
+
     ]
   },
 
-  "menu-item#un-ido-per-ogni-occasioni-bambina": {
-    "props": {
-      "id": "menu-item-un-id-per-ogni-occasione-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambina/",
-        "noFollow": false,
-        "tagTitle": "Un iDO per ogni occasione",
-        "text": "Un iDO per ogni occasione"
+
+ "rich-text#header-top-menu-list-Un-iDO-per-ogni-occasione": {
+     "props": {
+     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/'>Gli Imperdibili",
+     "blockClass": "header-top-menu-list-Un-iDO-per-ogni-occasione"
       }
-    }
   },
 
-  "menu-item#glam-bambina": {
-    "props": {
-      "id": "menu-item-glam-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambina/",
-        "noFollow": false,
-        "tagTitle": "Glam",
-        "text": "Glam"
+  "rich-text#header-top-menu-list-Glam": {
+     "props": {
+     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/'>Glam collection",
+     "blockClass": "header-top-menu-list"
       }
-    }
   },
 
-  "menu-item#ido-mini-bambina": {
-    "props": {
-      "id": "menu-item-ido-mini-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambina/",
-        "noFollow": false,
-        "tagTitle": "iDO mini",
-        "text": "iDO mini"
+  "rich-text#header-top-menu-list-iDO-mini": {
+     "props": {
+     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/'>iDO mini",
+     "blockClass": "header-top-menu-list"
       }
-    }
   },
 
-  "menu-item#tempo-libero-bambina": {
-    "props": {
-      "id": "menu-item-tempo-libero-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambina/",
-        "noFollow": false,
-        "tagTitle": "Tempo libero",
-        "text": "Tempo libero"
+  "rich-text#header-top-menu-list-Sport-time": {
+     "props": {
+     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/'>Sport time",
+     "blockClass": "header-top-menu-list"
       }
-    }
   },
 
-  "menu-item#back-to-school-bambina": {
-    "props": {
-      "id": "menu-item-back-to-school-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambina/",
-        "noFollow": false,
-        "tagTitle": "Back to school",
-        "text": "Back to school"
-      }
-    }
-  },
+
+
 
 /* bambino header menu*/
 
@@ -913,8 +781,6 @@
     ]
   },
 
-
-
   "vtex.menu@2.x:menu#bambino-category-header": {
     "props": {
       "orientation": "vertical",
@@ -925,348 +791,7 @@
     ]
   },
 
-  "flex-layout.row#bambinoMenuDesktop":{
-    "props": {
-      "text": "## L’armocromia",
-      "blockClass": "shelfTitle"
-    },
-    "children": [
-      "flex-layout.col#bambinoMenuDesktopFirstColumn",
-      "flex-layout.col#bambinoMenuDesktopSecondColumn",
-      "flex-layout.col#bambinoMenuDesktopThirdColumn"
-    ]
-  },
 
-  "flex-layout.col#bambinoMenuDesktopFirstColumn":{
-    "props": {
-      "blockClass": "bambinoMenuDesktopFirstColumn"
-    },
-    "children": [
-      "menu-item#guarda-tutti-bambino",
-      "menu-item#0-18-mesi-bambino",
-      "menu-item#6-36mesi-bambino",
-      "menu-item#3-8anni-bambino",
-      "menu-item#9-16anni-bambino",
-      "menu-item#guida-alle-taglie-bambino"
-    ]
-  },
-
-  "menu-item#guarda-tutti-bambino": {
-    "props": {
-      "id": "menu-item-guarda-tutti-bambino",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/bambino/",
-        "noFollow": false,
-        "tagTitle": "Guarda Tutti",
-        "text": "Guarda tutti"
-      }
-    }
-  },
-
-  "menu-item#0-18-mesi-bambino": {
-    "props": {
-      "id": "menu-item-0-18-mesi-bambino",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tutti-i-prodotti?__bindingAddress=www.ido.it/it&map=c,c,specificationFilter_27&query=/Tutti-i-Prodotti/bambino/0 - 18 Mesi",
-        "noFollow": false,
-        "tagTitle": "0 - 18 mesi",
-        "text": "0 - 18 Mesi"
-      }
-    }
-  },
-
-  "menu-item#6-36mesi-bambino": {
-    "props": {
-      "id": "menu-item-6-36-mesi-bambino",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tutti-i-prodotti?__bindingAddress=www.ido.it/it&map=c,c,specificationFilter_27&query=/Tutti-i-Prodotti/bambino/6 - 36 Mesi",
-        "noFollow": false,
-        "tagTitle": "6 - 36 mesi",
-        "text": "6 - 36 Mesi"
-      }
-    }
-  },
-
-  "menu-item#3-8anni-bambino": {
-    "props": {
-      "id": "menu-item-3-16-anni-accesori-bambino",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tutti-i-prodotti?__bindingAddress=www.ido.it/it&map=c,c,specificationFilter_27&query=/Tutti-i-Prodotti/bambino/3 - 8 Anni",
-        "noFollow": false,
-        "tagTitle": "3 - 8 anni",
-        "text": "3 - 8 Anni"
-      }
-    }
-  },
-
-  "menu-item#9-16anni-bambino": {
-    "props": {
-      "id": "menu-item-9-16-anni-accesori-bambino",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tutti-i-prodotti?__bindingAddress=www.ido.it/it&map=c,c,specificationFilter_27&query=/Tutti-i-Prodotti/bambino/9 - 16 Anni",
-        "noFollow": false,
-        "tagTitle": "9 - 16 anni",
-        "text": "9 - 16 Anni"
-      }
-    }
-  },
-
-  "menu-item#guida-alle-taglie-bambino": {
-    "props": {
-      "id": "menu-item-guida-alle-taglie-bambino",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/guida-alle-taglie",
-        "noFollow": false,
-        "tagTitle": "Guida alle taglie",
-        "text": "Guida alle taglie"
-      }
-    }
-  },
-
-  "flex-layout.col#bambinoMenuDesktopSecondColumn":{
-    "props": {
-      "blockClass": "bambinoMenuDesktopSecondColumn"
-    },
-    "children": [
-      "menu-item#pantaloni-bambino",
-      "menu-item#accesori-bambino",
-      "menu-item#maglie-e-felpe-bambino",
-      "menu-item#abiti-e-gonne-bambino",
-      "menu-item#giubbotti-e-giacche-bambino",
-      "menu-item#t-shit-polo-e-camicie-bambino"
-    ]
-  },
-
-  "menu-item#pantaloni-bambino": {
-    "props": {
-      "id": "menu-item-category-pantaloni-bambino",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambino/pantaloni",
-        "noFollow": false,
-        "tagTitle": "Pantaloni",
-        "text": "Pantaloni"
-      }
-    }
-  },
-  "menu-item#accesori-bambino": {
-    "props": {
-      "id": "menu-item-category-accesori-bambino",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambino/Accessori",
-        "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
-      }
-    }
-  },
-
-  "menu-item#maglie-e-felpe-bambino": {
-    "props": {
-      "id": "menu-item-category-maglie-e-felpe-bambino",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambino/Maglie-E-Felpe",
-        "noFollow": false,
-        "tagTitle": "Maglie E Felpe",
-        "text": "Maglie E Felpe"
-      }
-    }
-  },
-
-  "menu-item#tute-e-completi-bambino": {
-    "props": {
-      "id": "menu-item-categorytute-e-completi-bambino",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambino/Tute-E-Completi",
-        "noFollow": false,
-        "tagTitle": "Tute E Completi",
-        "text": "Tute E Completi"
-      }
-    }
-  },
-
-
-  "menu-item#giubbotti-e-giacche-bambino": {
-    "props": {
-      "id": "menu-item-category-giubbotti-e-giacche-bambino",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambino/Giubbotti-E-Giacche",
-        "noFollow": false,
-        "tagTitle": "Giubbotti E Giacche",
-        "text": "Giubbotti E Giacche"
-      }
-    }
-  },
-
-
-  "menu-item#t-shit-polo-e-camicie-bambino": {
-    "props": {
-      "id": "menu-item-category-t-shit-polo-e-camicie-bambino",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambino/T-Shirt-Polo-E-Camicie",
-        "noFollow": false,
-        "tagTitle": "T-shirt, Polo E Camicie",
-        "text": "T-shirt, Polo E Camicie"
-      }
-    }
-  },
-
-
-  "menu-item#abiti-e-gonne-bambino": {
-    "props": {
-      "id": "menu-item-category-abiti-e-gonne-bambino",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambino/Abiti-E-Gonne",
-        "noFollow": false,
-        "tagTitle": "Abiti E Gonne",
-        "text": "Abiti E Gonne"
-      }
-    }
-  },
-
-
-  "flex-layout.col#bambinoMenuDesktopThirdColumn":{
-    "props": {
-      "blockClass": "bambinoMenuDesktopThirdColumn"
-    },
-    "children": [
-      "menu-item#glam-bambino",
-      "menu-item#ido-mini-bambino",
-      "menu-item#tempo-libero-bambino",
-      "menu-item#back-to-school-bambino"
-    ]
-  },
-
-  "menu-item#un-ido-per-ogni-occasioni-bambino": {
-    "props": {
-      "id": "menu-item-un-id-per-ogni-occasione-bambino",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/bambino/",
-        "noFollow": false,
-        "tagTitle": "Un iDO per ogni occasione",
-        "text": "Un iDO per ogni occasione"
-      }
-    }
-  },
-
-  "menu-item#glam-bambino": {
-    "props": {
-      "id": "menu-item-glam-bambino",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/bambino/",
-        "noFollow": false,
-        "tagTitle": "Glam",
-        "text": "Glam"
-      }
-    }
-  },
-
-  "menu-item#ido-mini-bambino": {
-    "props": {
-      "id": "menu-item-ido-mini-bambino",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/bambino/",
-        "noFollow": false,
-        "tagTitle": "iDO mini",
-        "text": "iDO mini"
-      }
-    }
-  },
-
-  "menu-item#tempo-libero-bambino": {
-    "props": {
-      "id": "menu-item-tempo-libero-bambino",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/bambino/",
-        "noFollow": false,
-        "tagTitle": "Tempo libero",
-        "text": "Tempo libero"
-      }
-    }
-  },
-
-  "menu-item#back-to-school-bambino": {
-    "props": {
-      "id": "menu-item-back-to-school-bambino",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/bambino/",
-        "noFollow": false,
-        "tagTitle": "Back to school",
-        "text": "Back to school"
-      }
-    }
-  },
 
 /* armocromia header menu*/
 
@@ -1330,161 +855,3 @@
 
 
 
-/* level 4 special category*/
-
-/*  "flex-layout.col#bambinaMenuDesktopFourthColumn":{
-    "props": {
-      "blockClass": "bambinaMenuDesktopFourthColumn"
-    },
-    "children": [
-      "menu-item#so-comfortable-bambina",
-      "menu-item#newborn-selection-bambina",
-      "menu-item#christmas-style-bambina",
-      "menu-item#we-care-bambina"
-    ]
-  },
-
-
-  "menu-item#so-comfortable-bambina": {
-    "props": {
-      "id": "menu-item-so-comfortable-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambina/",
-        "noFollow": false,
-        "tagTitle": "So comfortable",
-        "text": "So comfortable"
-      }
-    }
-  },
-
-  "menu-item#newborn-selection-bambina": {
-    "props": {
-      "id": "menu-item-newborn-selection-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambina/",
-        "noFollow": false,
-        "tagTitle": "Newborn selection",
-        "text": "Newborn selection"
-      }
-    }
-  },
-
-  "menu-item#christmas-style-bambina": {
-    "props": {
-      "id": "menu-item-christmas-style-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambina/",
-        "noFollow": false,
-        "tagTitle": "Christmas Style",
-        "text": "Christmas Style"
-      }
-    }
-  },
-
-  "menu-item#we-care-bambina": {
-    "props": {
-      "id": "menu-item-we-care-bambina",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambina/",
-        "noFollow": false,
-        "tagTitle": "We care",
-        "text": "We care"
-      }
-    }
-  },
-
-    "flex-layout.col#bambinoMenuDesktopFourthColumn":{
-      "props": {
-        "blockClass": "bambinoMenuDesktopFourthColumn"
-      },
-      "children": [
-        "menu-item#so-comfortable-bambino",
-        "menu-item#newborn-selection-bambino",
-        "menu-item#christmas-style-bambino",
-        "menu-item#we-care-bambino"
-      ]
-    },
-
-
-    "menu-item#so-comfortable-bambino": {
-      "props": {
-        "id": "menu-item-so-comfortable-bambino",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/Tutti-i-Prodotti/bambino/",
-          "noFollow": false,
-          "tagTitle": "So comfortable",
-          "text": "So comfortable"
-        }
-      }
-    },
-
-    "menu-item#newborn-selection-bambino": {
-      "props": {
-        "id": "menu-item-newborn-selection-bambino",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/Tutti-i-Prodotti/bambino/",
-          "noFollow": false,
-          "tagTitle": "Newborn selection",
-          "text": "Newborn selection"
-        }
-      }
-    },
-
-    "menu-item#christmas-style-bambino": {
-      "props": {
-        "id": "menu-item-christmas-style-bambino",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/Tutti-i-Prodotti/bambino/",
-          "noFollow": false,
-          "tagTitle": "Christmas Style",
-          "text": "Christmas Style"
-        }
-      }
-    },
-
-    "menu-item#we-care-bambino": {
-      "props": {
-        "id": "menu-item-we-care-bambino",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/Tutti-i-Prodotti/bambino/",
-          "noFollow": false,
-          "tagTitle": "We care",
-          "text": "We care"
-        }
-      }
-    }
-
-
-/*

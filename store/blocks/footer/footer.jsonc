@@ -65,9 +65,9 @@
   "image#facebookFooter": {
     "props": {
       "blockClass": "facebookFooter",
-      "src": "/arquivos/Icon_facebook@4x.png",
-      "maxHeight": 51,
-      "maxWidth": 51,
+      "src": "/arquivos/facebook_icon_footer@4x.png",
+      "maxHeight": 34,
+      "maxWidth": 18,
       "alt": "facebook.com",
       "title": "facebook.com",
       "link": {
@@ -81,9 +81,9 @@
   "image#instagramFooter": {
     "props": {
       "blockClass": "instagramFooter",
-      "src": "/arquivos/Icon_instagram@4x.png",
-      "maxHeight": 51,
-      "maxWidth": 51,
+      "src": "/arquivos/instagram_new_design@4x.png",
+      "maxHeight": 32,
+      "maxWidth": 32,
       "alt": "instagram.com",
       "title": "instagram.com",
       "link": {
@@ -97,9 +97,9 @@
   "image#youtubeFooter": {
     "props": {
       "blockClass": "youtubeFooter",
-      "src": "/arquivos/Icon_youtube@4x.png",
-      "maxHeight": 45,
-      "maxWidth": 61,
+      "src": "/arquivos/you_tube_icon_new_design@4x.png",
+      "maxHeight": 24,
+      "maxWidth": 34,
       "alt": "youtube.com",
       "title": "youtube.com",
       "link": {
@@ -374,8 +374,7 @@
     "children": [
     "flex-layout.col#level7-title-vendita",
     "flex-layout.col#level7-title-negozi",
-    "flex-layout.col#level7-title-impresa",
-    "flex-layout.col#level7-title-spacer"
+    "flex-layout.col#level7-title-impresa"
     ]
   },
 
@@ -422,19 +421,7 @@
     }
   },
 
-  "flex-layout.col#level7-title-spacer": {
-    "props": {
-      "blockClass": "title-consegna-spedizione-reso-pagamenti"
-    },
-    "children": ["rich-text#footer-spacer-title"]
-  },
 
-  "rich-text#footer-spacer-title": {
-    "props": {
-      "text": "",
-      "blockClass": "footer-consegna-spedizione-reso-pagamenti-title"
-    }
-  },
 
 /*level 8 vendita-negozi-impresa content*/
 
@@ -445,8 +432,7 @@
     "children": [
     "flex-layout.col#level8-content-vendita",
     "flex-layout.col#level8-content-negozi",
-    "flex-layout.col#level8-content-impresa",
-    "flex-layout.col#level8-content-spacer"
+    "flex-layout.col#level8-content-impresa"
     ]
   },
 
@@ -455,54 +441,100 @@
     "props": {
       "blockClass": "content-vendita-negozi-impresa"
     },
-    "children": ["rich-text#footer-vendita-content"]
+    "children": [
+    "rich-text#footer-vendita-content-email",
+    "rich-text#footer-vendita-content-phone",
+    "rich-text#footer-vendita-content-program"
+    ]
   },
 
-  "rich-text#footer-vendita-content": {
+
+    "rich-text#footer-vendita-content-email": {
+      "props": {
+        "text": "customerservice@ido.it",
+        "blockClass": "footer-vendita-negozi-impresa-content-email"
+      }
+    },
+  "rich-text#footer-vendita-content-phone": {
     "props": {
-      "text": "customerservice@ido.it - 0575 533444<br>Dal lunedì al venerdì dalle 8:30<br>alle 11:00 e dalle 13:00 alle 15:00",
-      "blockClass": "footer-consegna-spedizione-reso-pagamenti-content"
+      "text": "0575 533444",
+      "blockClass": "footer-vendita-negozi-impresa-content-phone"
     }
   },
+    "rich-text#footer-vendita-content-program": {
+      "props": {
+        "text": "Dal lunedì al venerdì dalle 8:30 alle 11:00<br>e dalle 13:00 alle 15:00",
+        "blockClass": "footer-vendita-negozi-impresa-content-program"
+      }
+    },
+
+
   "flex-layout.col#level8-content-negozi": {
     "props": {
       "blockClass": "content-vendita-negozi-impresa"
     },
-    "children": ["rich-text#footer-negozi-content"]
+    "children": [
+    "rich-text#footer-negozi-content-email",
+    "rich-text#footer-negozi-content-phone",
+    "rich-text#footer-negozi-content-program"
+    ]
   },
 
-  "rich-text#footer-negozi-content": {
+  "rich-text#footer-negozi-content-email": {
     "props": {
-      "text": "assistenzaclienti@miniconf.it<br>0575 533248<br>Dal lunedì al venerdì dalle 8:30 alle 18:00",
-      "blockClass": "footer-consegna-spedizione-reso-pagamenti-content"
+      "text": "assistenzaclienti@miniconf.it",
+      "blockClass": "footer-vendita-negozi-impresa-content-email"
     }
   },
+
+  "rich-text#footer-negozi-content-phone": {
+    "props": {
+      "text": "0575 533248",
+      "blockClass": "footer-vendita-negozi-impresa-content-phone"
+    }
+  },
+
+  "rich-text#footer-negozi-content-program": {
+    "props": {
+      "text": "Dal lunedì al venerdì dalle 8:30 alle 18:00",
+      "blockClass": "footer-vendita-negozi-impresa-content-program"
+    }
+  },
+
+
   "flex-layout.col#level8-content-impresa": {
     "props": {
       "blockClass": "content-vendita-negozi-impresa"
     },
-    "children": ["rich-text#footer-impresa-content"]
+    "children": [
+    "rich-text#footer-impresa-content-email",
+    "rich-text#footer-impresa-content-phone",
+    "rich-text#footer-impresa-content-program"
+    ]
   },
 
-  "rich-text#footer-impresa-content": {
+  "rich-text#footer-impresa-content-email": {
     "props": {
-      "text": "info@ido.it - 0575 5331<br>Dal lunedì al venerdì dalle 8:30<br>alle 18:00",
-      "blockClass": "footer-consegna-spedizione-reso-pagamenti-content"
+      "text": "info@ido.it",
+      "blockClass": "footer-vendita-negozi-impresa-content-email"
     }
-  },
-  "flex-layout.col#level8-content-spacer": {
-    "props": {
-      "blockClass": "content-consegna-spedizione-reso-pagamenti"
-    },
-    "children": ["rich-text#footer-spacer-content"]
   },
 
-  "rich-text#footer-spacer-content": {
+  "rich-text#footer-impresa-content-phone": {
     "props": {
-      "text": "",
-      "blockClass": "footer-consegna-spedizione-reso-pagamenti-content"
+      "text": "0575 5331",
+      "blockClass": "footer-vendita-negozi-impresa-content-phone"
     }
   },
+
+  "rich-text#footer-impresa-content-program": {
+    "props": {
+      "text": "Dal lunedì al venerdì dalle 8:30 alle 18:00",
+      "blockClass": "footer-vendita-negozi-impresa-content-program"
+    }
+  },
+
+
 
 /* level 9 azienda-servizio-termini-store-partener" */
 
@@ -773,7 +805,7 @@
 
        "rich-text#category-menu-partener-lab-footer": {
            "props": {
-             "text": "<a class='vtex-subcategory-menu-footer' href='https://partnerlab.miniconf.app/partnerlab/client/index.html'>PARTENER LAB",
+             "text": "<a class='vtex-subcategory-menu-footer' href='https://partnerlab.miniconf.app/partnerlab/client/index.html'>PARTNER LAB",
              "blockClass": "category-menu-partener-lab-footer"
            }
         },

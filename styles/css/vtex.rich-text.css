@@ -13,12 +13,14 @@
 
 :global(.vtex-rich-text-0-x-headingLevel2--title-banners-home-page) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 35px;
   font-style: normal;
   letter-spacing: normal;
   line-height: 29px;
   text-align: left;
+  margin-bottom: 25px;
+  margin-top: 0px;
 }
 
 
@@ -29,15 +31,12 @@
 }
 
 :global(.vtex-rich-text-0-x-paragraph--footerRich) {
-  margin-left: 75px;
   color: #ffffff;
-  font-family: "Avenir Book";
+  text-align: left;
+  font-family: "MuseoSans_500";
   font-size: 12px;
-  font-weight: 300;
   font-style: normal;
   letter-spacing: -0.46px;
-  line-height: 17px;
-  text-align: left;
 }
 
 :global(.vtex-rich-text-iframe-inside) {
@@ -54,7 +53,7 @@
 
 .headingLevel2--category-shelf-mobile {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   margin-left: 20px;
@@ -62,7 +61,7 @@
 
 .headingLevel2--rich-text-backtoschoolMobile {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   margin-left: 20px;
@@ -108,7 +107,7 @@
   height: 42px;
   text-shadow: 0 2px 30px #000000;
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 45px;
   line-height: 32px;
 
@@ -133,7 +132,7 @@
   display: inherit;
   justify-content: center;
   align-items: center;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 22px;
   text-transform: uppercase;
 }
@@ -207,7 +206,7 @@
 
 .headingLevel2--armocromia-mobile {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   margin-left: 20px;
@@ -233,7 +232,7 @@
   width: 613px;
   height: 34px;
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 35px;
   line-height: 29px;
   margin-top: 56px;
@@ -251,7 +250,7 @@
   width: 146px;
   height: 21px;
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   line-height: 19px;
 }
@@ -264,7 +263,7 @@
 
 .paragraph--Prezzo {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   line-height: 19px;
 }
@@ -283,7 +282,7 @@
 
 .paragraph--partire {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
@@ -295,28 +294,28 @@
 
 :global(.vtex-rich-text-0-x-container--titleSiamo) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 24px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--contentSiamo1) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
-  font-size: 14px;
+  font-family: "MuseoSans_500";
+  font-size: 16px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--contentSiamo2) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
-  font-size: 14px;
+  font-family: "MuseoSans_500";
+  font-size: 16px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--contentSiamo3) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
-  font-size: 14px;
+  font-family: "MuseoSans_500";
+  font-size: 16px;
   line-height: 19px;
 }
 
@@ -331,7 +330,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--Vuoilavorare) {
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 35px;
   font-style: normal;
   letter-spacing: normal;
@@ -341,7 +340,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--newsletter) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 35px;
   font-style: normal;
   letter-spacing: normal;
@@ -366,10 +365,9 @@
   width: 140px;
   height: 21px;
   color: #5a5a5a;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
-  text-decoration: none;
   position: relative;
   left: 80px;
   text-decoration: none;
@@ -407,7 +405,7 @@
 
 :global(.vtex-newsletterButtonBanner) {
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 22px;
   font-style: normal;
   letter-spacing: normal;
@@ -436,63 +434,64 @@
 
 :global(.vtex-rich-text-0-x-heading--franchising-title1) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 24px;
   line-height: 29px;
 }
 :global(.vtex-rich-text-0-x-wrapper--contentFranchising1) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_500";
   font-size: 24px;
   line-height: 29px;
 }
 
 :global(.vtex-rich-text-0-x-container--about-titleCosaCerchiamo) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_500";
   font-size: 24px;
   line-height: 27px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--contentFranchising2) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
-  font-size: 14px;
+  font-family: "MuseoSans_500";
+  font-size: 16px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-wrapper--about-title3) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_500";
   font-size: 24px;
   line-height: 27px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--contentFranchising3) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
-  font-size: 14px;
+  font-family: "MuseoSans_500";
+  font-size: 16px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--about-title4) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
   line-height: 24px;
 }
 
 :global(.vtex-rich-text-0-x-link--about-title4) {
   color: #001930;
-  font-family: "MuseoJHSans900";
-  font-size: 18px;
-  line-height: 24px;
-  text-decoration: none;
+  font-family: "MuseoSans_700";
+  color: rgba(0,25,48,0.5);
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: underline;
 }
 
 :global(.vtex-rich-text-0-x-container--about-title5) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 24px;
   line-height: 29px;
 }
@@ -560,8 +559,8 @@
 
 :global(.vtex-special-p) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
-  font-size: 14px;
+  font-family: "MuseoSans_500";
+  font-size: 16px;
   line-height: 19px;
 }
 :global(.vtex-rich-text-0-x-paragraph--contentFranchising2) {
@@ -572,7 +571,7 @@
   width: 304px;
   height: 77px;
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 24px;
   line-height: 29px;
 }
@@ -581,7 +580,7 @@
   width: 304px;
   height: 77px;
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 24px;
   line-height: 29px;
 }
@@ -605,7 +604,7 @@
   width: 184px;
   height: 19px;
   color: rgba(0, 25, 48, 0.5);
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   text-decoration: underline;
@@ -617,7 +616,7 @@
   width: 184px;
   height: 19px;
   color: rgba(0, 25, 48, 0.5);
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   text-decoration: underline;
@@ -627,7 +626,7 @@
 
 :global(.vtex-linkFranchisingDesktop) {
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 30px;
   line-height: 21px;
   text-decoration: none;
@@ -638,10 +637,10 @@
 :global(.vtex-rich-text-0-x-paragraph--franchisingButton) {
   justify-content: center;
   position: relative;
-  margin-top: 19px;
+  margin-top: 15px;
   color: #ffffff;
-  font-family: "MuseoJHSans900";
-  font-size: 30px;
+  font-family: "MuseoSans_700";
+  font-size: 18px;
   font-style: normal;
   letter-spacing: normal;
   line-height: 21px;
@@ -683,7 +682,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--textFaqModal) {
   color: rgba(0, 25, 48, 0.5);
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   text-decoration: underline;
@@ -691,7 +690,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--textPdfModal) {
   color: rgba(0, 25, 48, 0.5);
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   text-decoration: underline;
@@ -712,7 +711,7 @@
 
 :global(.vtex-rich-text-0-x-container--faq-modal-title) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 27px;
   text-transform: uppercase;
@@ -722,14 +721,14 @@
 
 :global(.vtex-rich-text-0-x-wrapper--faq-modal-subtitle) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 24px;
   line-height: 27px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--faq-modal-question) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 14px;
   line-height: 19px;
 }
@@ -737,7 +736,7 @@
 
 :global(.vtex-rich-text-0-x-wrapper--faq-modal-answer) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
@@ -771,7 +770,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--compila-form-aprire-franchising) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 24px;
   line-height: 25px;
   margin-bottom: 37px;
@@ -782,7 +781,7 @@
   width: 107px;
   height: 21px;
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 12px;
   line-height: 21px;
   margin-left: 33px;
@@ -801,7 +800,7 @@
   width: 339px;
   height: 21px;
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   line-height: 21px;
   margin-left: 81px;
@@ -863,7 +862,7 @@
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-con-carnagione-scura)::before {
   background-image: url(/arquivos/moro_con_carnagione_scura.png);
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
   background-position: center;
@@ -880,7 +879,7 @@
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-castano-con-carnagione-chiara)::before {
   background-image: url(/arquivos/Castano_con_carnagione_chiara.png);
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
   background-position: center;
@@ -898,7 +897,7 @@
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-biondo-con-carnagione-chiara)::before {
   background-image: url(/arquivos/Biondo_con_carnagione_chiaras.png);
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
   background-position: center;
@@ -916,7 +915,7 @@
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-rosso)::before {
   background-image: url(/arquivos/primavera.png);
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
   background-position: center;
@@ -939,7 +938,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 87px;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 23px;
   line-height: 26px;
   position: relative;
@@ -951,7 +950,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 87px;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 23px;
   line-height: 26px;
   position: relative;
@@ -963,7 +962,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 87px;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 23px;
   line-height: 26px;
   position: relative;
@@ -975,7 +974,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 87px;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 23px;
   line-height: 26px;
   position: relative;
@@ -987,7 +986,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 87px;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 23px;
   line-height: 26px;
   position: relative;
@@ -999,7 +998,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 87px;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 23px;
   line-height: 26px;
   position: relative;
@@ -1011,7 +1010,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 87px;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 23px;
   line-height: 26px;
   position: relative;
@@ -1023,7 +1022,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 87px;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 23px;
   line-height: 26px;
   position: relative;
@@ -1036,7 +1035,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 87px;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 23px;
   line-height: 26px;
   position: relative;
@@ -1047,7 +1046,7 @@
 :global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-moro-con-carnagione-chiara--isClosed) {
   font-size: 40px;
   color: #000000;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   position: absolute;
   right: 0px;
 }
@@ -1065,7 +1064,7 @@
 :global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-moro-con-carnagione-scura--isClosed) {
   font-size: 40px;
   color: #000000;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   position: absolute;
   right: 0px;
 }
@@ -1083,7 +1082,7 @@
 :global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-moro--isClosed) {
   font-size: 40px;
   color: #000000;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   position: absolute;
   right: 0px;
 }
@@ -1099,7 +1098,7 @@
 :global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-castano-con-carnagione-chiara--isClosed) {
   font-size: 40px;
   color: #000000;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   position: absolute;
   right: 0px;
 }
@@ -1115,7 +1114,7 @@
 :global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-castano-con-carnagione-scura--isClosed) {
   font-size: 40px;
   color: #000000;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   position: absolute;
   right: 0px;
 }
@@ -1131,7 +1130,7 @@
 :global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-biondo-con-carnagione-chiara--isClosed) {
   font-size: 40px;
   color: #000000;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   position: absolute;
   right: 0px;
 }
@@ -1147,7 +1146,7 @@
 :global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-biondo-con-carnagione-scura--isClosed) {
   font-size: 40px;
   color: #000000;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   position: absolute;
   right: 0px;
 }
@@ -1163,7 +1162,7 @@
 :global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-rosso--isClosed) {
   font-size: 40px;
   color: #000000;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   position: absolute;
   right: 0px;
 }
@@ -1179,7 +1178,7 @@
 :global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-albino--isClosed) {
   font-size: 40px;
   color: #000000;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   position: absolute;
   right: 0px;
 }
@@ -1197,28 +1196,28 @@
 
 :global(.vtex-rich-text-0-x-paragraph--larmocromia-title1) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 24px;
   line-height: 24px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--larmocromia-content1) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   line-height: 24px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--larmocromia-title2) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   line-height: 21px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--larmocromia-title3) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   text-transform: uppercase;
@@ -1226,14 +1225,14 @@
 
 :global(.vtex-rich-text-0-x-paragraph--larmocromia-content3) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--larmocromia-title4) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   text-transform: uppercase;
@@ -1241,7 +1240,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--larmocromia-content4) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
@@ -1317,7 +1316,7 @@
   width: 236px;
   height: 22px;
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
   text-transform: uppercase;
   text-decoration: none;
@@ -1351,7 +1350,7 @@
   text-align: left;
   height: 29px;
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   margin-top: unset;
@@ -1374,7 +1373,7 @@
   width: 339px;
   height: 21px;
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   line-height: 21px;
   margin-left: 81px;
@@ -1390,7 +1389,7 @@
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   width: 100%;
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
   justify-content: flex-start;
@@ -1507,14 +1506,14 @@
 
 :global(.vtex-rich-text-0-x-container--tempiDiConsegna) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-container--capTempiDiConsegna) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 14px;
   line-height: 19px;
 }
@@ -1542,7 +1541,7 @@
 
 :global(.vtex-rich-text-0-x-container--reso-e-cambi) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
@@ -1551,7 +1550,7 @@
   width: 704px;
   height: 39px;
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 25px;
 }
@@ -1574,7 +1573,7 @@
 
 :global(.vtex-rich-text-0-x-container--order-processing) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
@@ -1583,7 +1582,7 @@
   width: 704px;
   height: 39px;
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 25px;
   margin-bottom: 0px;
@@ -1595,14 +1594,14 @@
 
 :global(.vtex-rich-text-0-x-paragraph--condizioni-generali-di-vendita-title) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 14px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-container--condizioni-generali-di-vendita-content) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
@@ -1621,14 +1620,14 @@
 
 :global(.vtex-rich-text-0-x-paragraph--regolamento-title) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 14px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-container--regolamento-content) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
@@ -1647,14 +1646,14 @@
 
 :global(.vtex-rich-text-0-x-paragraph--diritto-di-recesso-title) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 14px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-container--diritto-di-recesso-content) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
@@ -1673,14 +1672,14 @@
 
 :global(.vtex-rich-text-0-x-paragraph--privacy-policy-title) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 14px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-container--privacy-policy-content) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
@@ -1699,14 +1698,14 @@
 
 :global(.vtex-rich-text-0-x-paragraph--trattamento-dati-title) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 14px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-container--trattamento-dati-content) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
@@ -1725,7 +1724,7 @@
   width: 704px;
   height: 39px;
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 25px;
 }
@@ -1734,14 +1733,14 @@
 
 :global(.vtex-rich-text-0-x-paragraph--cookie-policy-title) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 14px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-container--cookie-policy-content) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
@@ -1760,7 +1759,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--newsletter-form-title1) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 24px;
   line-height: 25px;
   margin-bottom: 0px;
@@ -1768,14 +1767,14 @@
 
 :global(.vtex-rich-text-0-x-paragraph--newsletter-form-title2) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 24px;
   line-height: 25px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--campi-obbligatori-newsletter-form) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 12px;
   line-height: 21px;
 }
@@ -1784,70 +1783,70 @@
 
 :global(.vtex-rich-text-0-x-paragraph--contattaci-form-title) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 24px;
   line-height: 25px;
 }
 
 :global(.vtex-rich-text-0-x-container--contattaci-form-content1) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-container--contattaci-form-content2) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-container--contattaci-form-content3) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-container--contattaci-form-content4) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-container--contattaci-form-content5) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-container--contattaci-form-content6) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-container--contattaci-form-content7) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-container--contattaci-form-content8) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-container--contattaci-form-content9) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
@@ -1872,7 +1871,7 @@
   width: 22px;
   height: 24px;
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 19px;
   margin-right: 13px;
@@ -1885,7 +1884,7 @@
   width: 22px;
   height: 24px;
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 19px;
   margin-right: 13px;
@@ -1898,7 +1897,7 @@
   width: 22px;
   height: 24px;
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 19px;
   margin-right: 13px;
@@ -1966,7 +1965,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--campi-obbligatori-contattaci-form) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 12px;
   line-height: 21px;
 }
@@ -1992,7 +1991,7 @@
   position: relative;
   height: 50px;
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -2033,7 +2032,7 @@
 }
 
 :global(.vtex-rich-text-0-x-paragraph--rete-vendita-contact-title) {
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   line-height: 19px;
   color: #001930;
   font-size: 18px;
@@ -2047,7 +2046,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--rete-vendita-contact-phone) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   margin: unset;
@@ -2078,7 +2077,7 @@
 :global(.vtex-rich-text-0-x-link--rete-vendita-contact-email) {
   text-decoration: none;
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
@@ -2090,7 +2089,7 @@
   width: 22px;
   height: 24px;
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 19px;
   margin-right: 13px;
@@ -2112,7 +2111,7 @@
   width: 343px;
   height: 31px;
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
 }
@@ -2121,7 +2120,7 @@
   width: 306px;
   height: 20px;
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   line-height: 19px;
 }
@@ -2129,7 +2128,7 @@
 :global(.vtex-rich-text-0-x-paragraph--maggiori-informazioni-contact-phone) {
   width: 204px;
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   margin-top: unset;
@@ -2153,7 +2152,7 @@
 
 :global(.vtex-rich-text-0-x-container--azienda-title-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   margin-left: 1.5rem;
@@ -2161,7 +2160,7 @@
 
 /*:global(.vtex-menu-2-x-styledLinkContent--menu-item-azienda-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
 }
@@ -2169,7 +2168,7 @@
 */
 :global(.vtex-rich-text-0-x-paragraph--chi-siamo-mobile-content) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
@@ -2177,7 +2176,7 @@
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-azienda-mobile-submenu) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
 }
@@ -2199,7 +2198,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--lavora-con-noi-mobile-content) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
@@ -2208,7 +2207,7 @@
 
 :global(.vtex-rich-text-0-x-headingLevel1--franchising-title1mobile) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   letter-spacing: -0.3px;
   line-height: 29px;
@@ -2216,14 +2215,14 @@
 
 :global(.vtex-rich-text-0-x-paragraph--contentFranchising1mobile) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 27px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--about-titleCosaCerchiamomobile) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 24px;
   line-height: 27px;
 }
@@ -2238,14 +2237,14 @@
 
 :global(.vtex-rich-text-0-x-paragraph--about-title3mobile) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 24px;
   line-height: 27px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--about-title4mobile) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
   line-height: 24px;
 }
@@ -2256,14 +2255,14 @@
 
 :global(.vtex-rich-text-0-x-paragraph--about-title5mobile) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 24px;
   line-height: 29px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--textFaqmobile) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 24px;
   line-height: 29px;
   margin-bottom: unset;
@@ -2295,7 +2294,7 @@
 
 :global(.vtex-textPaginaFaqmobile) {
   color: rgba(0, 25, 48, 0.5);
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   text-decoration: underline;
@@ -2310,7 +2309,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--textPdfmobile) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 24px;
   line-height: 29px;
   margin-bottom: unset;
@@ -2327,7 +2326,7 @@
 
 :global(.vtex-franchisingButtonmobile) {
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 21px;
   text-decoration: none;
@@ -2338,7 +2337,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--textpdfModalmobile) {
   color: rgba(0, 25, 48, 0.5);
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   text-decoration: underline;
@@ -2349,7 +2348,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--textScaricaPdfmobile) {
   color: rgba(0, 25, 48, 0.5);
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   text-decoration: underline;
@@ -2371,7 +2370,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--aprire-franchisingmobile) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   margin-right: 20px;
@@ -2380,7 +2379,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--compila-form-aprire-franchisingmobile) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 25px;
   margin-bottom: unset;
@@ -2388,7 +2387,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--campi-obbligatori-franchising-form-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 12px;
   line-height: 21px;
   margin-bottom: unset;
@@ -2398,7 +2397,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--faq-mobile-title) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   margin-right: 60px;
@@ -2407,7 +2406,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--faq-mobile-subtitle) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
 }
@@ -2416,12 +2415,12 @@
   font-size: 14px;
   line-height: 19px;
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
 }
 
 :global(.vtex-rich-text-0-x-paragraph--faq-mobile-answer) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
@@ -2432,7 +2431,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--faq-mobile-subtitle) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 24px;
   line-height: 27px;
 }
@@ -2441,7 +2440,7 @@
   font-size: 14px;
   line-height: 19px;
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   text-decoration: none;
 }
 
@@ -2456,7 +2455,7 @@
 
 :global(.vtex-invia-candidatura-Buttonmobile) {
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
   line-height: 21px;
   left: 60px;
@@ -2512,7 +2511,7 @@
 
 :global(.vtex-store-components-3-x-infoCardHeadline--info-card-aprire-franchising-banner-mobile) {
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
 }
@@ -2526,7 +2525,7 @@
 
 :global(.vtex-store-components-3-x-label--banner-mobile) {
   color: rgba(0, 0, 0, 0.65);
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   line-height: 21px;
   margin-left: 10px;
@@ -2536,14 +2535,14 @@
 
 :global(.vtex-rich-text-0-x-paragraph--servizioClienti-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   line-height: 21px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--contattaci-form-titlebig-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   margin-top: unset;
@@ -2551,14 +2550,14 @@
 
 :global(.vtex-rich-text-0-x-paragraph--contattaci-form-title-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
 }
 
 :global(.vtex-rich-text-0-x-link--contattaci-form-content1-mobile) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   text-decoration: none;
@@ -2566,7 +2565,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--contattaci-form-content2-mobile) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   margin-top: unset;
@@ -2574,7 +2573,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--contattaci-form-content3-mobile) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   margin-left: 35px;
@@ -2583,7 +2582,7 @@
 
 :global(.vtex-rich-text-0-x-link--contattaci-form-content4-mobile) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   text-decoration: none;
@@ -2591,7 +2590,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--contattaci-form-content5-mobile) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   margin-top: unset;
@@ -2599,7 +2598,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--contattaci-form-content6-mobile) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   margin-left: 35px;
@@ -2608,7 +2607,7 @@
 
 :global(.vtex-rich-text-0-x-link--contattaci-form-content7-mobile) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   text-decoration: none;
@@ -2616,7 +2615,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--contattaci-form-content8-mobile) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   margin-top: unset;
@@ -2624,7 +2623,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--contattaci-form-content9-mobile) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   margin-left: 35px;
@@ -2638,7 +2637,7 @@
   width: 22px;
   height: 24px;
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 19px;
   margin-right: 13px;
@@ -2651,7 +2650,7 @@
   width: 22px;
   height: 24px;
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 19px;
   margin-right: 13px;
@@ -2664,7 +2663,7 @@
   width: 22px;
   height: 24px;
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 19px;
   margin-right: 13px;
@@ -2710,14 +2709,14 @@
 
 :global(.vtex-rich-text-0-x-paragraph--tempiDiConsegna-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   line-height: 21px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--tempiDiConsegna-titlebig-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   margin-top: 0px;
@@ -2727,21 +2726,21 @@
 
 :global(.vtex-rich-text-0-x-paragraph--reso-e-cambi-mobile) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--reso-e-cambi-mobile-title) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   line-height: 21px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--reso-e-cambi-titlebig-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   margin-top: 0px;
@@ -2749,7 +2748,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--reso-e-cambi-title-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 25px;
 }
@@ -2763,21 +2762,21 @@
 
 :global(.vtex-rich-text-0-x-paragraph--order-processing-title-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 25px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--order-processing-mobile-title) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   line-height: 21px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--order-processing-titlebig-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   margin-top: 0px;
@@ -2785,7 +2784,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--order-processing-mobile) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
@@ -2794,14 +2793,14 @@
 
 :global(.vtex-rich-text-0-x-paragraph--guida-alle-taglie-mobile-title) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   line-height: 21px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--guida-alle-taglie-titlebig-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   margin-top: 0px;
@@ -2811,29 +2810,29 @@
 
 :global(.vtex-rich-text-0-x-paragraph--titleil-nostro-impegno) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 24px;
 }
 :global(.vtex-rich-text-0-x-paragraph--contentil-nostro-impegno) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
-  font-size: 14px;
+  font-family: "MuseoSans_500";
+  font-size: 16px;
   line-height: 19px;
 }
 /* il nostro impegno mobile*/
 
 :global(.vtex-rich-text-0-x-paragraph--titleil-nostro-impegno-mobile) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
-  font-size: 14px;
+  font-family: "MuseoSans_500";
+  font-size: 16px;
   line-height: 19px;
   text-transform: uppercase;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--contentil-nostro-impegno-mobile) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
-  font-size: 14px;
+  font-family: "MuseoSans_500";
+  font-size: 16px;
   line-height: 19px;
 }
 
@@ -2841,8 +2840,8 @@
 
 :global(.vtex-rich-text-0-x-paragraph--lavora-con-noi-content) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
-  font-size: 14px;
+  font-family: "MuseoSans_500";
+  font-size: 16px;
   line-height: 19px;
   margin-top: 30px;
 }
@@ -2853,14 +2852,14 @@
 
 :global(.vtex-rich-text-0-x-paragraph--iscriviti-alla-newsletter-mobile-title) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   line-height: 21px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--iscriviti-alla-newsletter-titlebig-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   margin-top: 0px;
@@ -2868,21 +2867,21 @@
 
 :global(.vtex-rich-text-0-x-paragraph--newsletter-form-title1-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 25px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--newsletter-form-title2-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   line-height: 21px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--campi-obbligatori-newsletter-form-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 12px;
   line-height: 21px;
 }
@@ -2891,27 +2890,27 @@
 
 :global(.vtex-rich-text-0-x-paragraph--larmocromia-title-menu-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--larmocromia-title1-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   line-height: 21px;
 }
 :global(.vtex-rich-text-0-x-paragraph--larmocromia-content1-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   line-height: 21px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--larmocromia-title2-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   line-height: 21px;
 }
@@ -2964,7 +2963,7 @@
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-con-carnagione-chiara-mobile)::before {
   background-image: url(/arquivos/moro_con_carnagione_chiara.png);
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
   background-position: center;
@@ -2980,7 +2979,7 @@
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-con-carnagione-scura-mobile)::before {
   background-image: url(/arquivos/moro_con_carnagione_scura.png);
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
   background-position: center;
@@ -2996,7 +2995,7 @@
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-moro-mobile)::before {
   background-image: url(/arquivos/moro.png);
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
   background-position: center;
@@ -3012,7 +3011,7 @@
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-castano-con-carnagione-chiara-mobile)::before {
   background-image: url(/arquivos/Castano_con_carnagione_chiara.png);
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
   background-position: center;
@@ -3028,7 +3027,7 @@
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-castano-con-carnagione-scura-mobile)::before {
   background-image: url(/arquivos/Castano_con_carnagione_scura.png);
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
   background-position: center;
@@ -3044,7 +3043,7 @@
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-biondo-con-carnagione-chiara-mobile)::before {
   background-image: url(/arquivos/Biondo_con_carnagione_chiaras.png);
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
   background-position: center;
@@ -3060,7 +3059,7 @@
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-biondo-con-carnagione-scura-mobile)::before {
   background-image: url(/arquivos/Biondo_con_carnagione_scura.png);
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
   background-position: center;
@@ -3076,7 +3075,7 @@
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-rosso-mobile)::before {
   background-image: url(/arquivos/Rosso.png);
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
   background-position: center;
@@ -3092,7 +3091,7 @@
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-larmocromia-albino-mobile)::before {
   background-image: url(/arquivos/Albino.png);
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
   background-position: center;
@@ -3110,7 +3109,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 87px;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 23px;
   line-height: 26px;
   position: relative;
@@ -3122,7 +3121,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 87px;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 23px;
   line-height: 26px;
   position: relative;
@@ -3134,7 +3133,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 87px;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 23px;
   line-height: 26px;
   position: relative;
@@ -3146,7 +3145,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 87px;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 23px;
   line-height: 26px;
   position: relative;
@@ -3158,7 +3157,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 87px;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 23px;
   line-height: 26px;
   position: relative;
@@ -3170,7 +3169,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 87px;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 23px;
   line-height: 26px;
   position: relative;
@@ -3182,7 +3181,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 87px;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 23px;
   line-height: 26px;
   position: relative;
@@ -3194,7 +3193,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 87px;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 23px;
   line-height: 26px;
   position: relative;
@@ -3207,7 +3206,7 @@
   justify-content: flex-start;
   align-items: center;
   height: 87px;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 23px;
   line-height: 26px;
   position: relative;
@@ -3217,7 +3216,7 @@
 :global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-moro-con-carnagione-chiara-mobile--isClosed) {
   font-size: 35px;
   color: #000000;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   position: absolute;
   right: 0px;
 }
@@ -3235,7 +3234,7 @@
 :global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-moro-con-carnagione-scura-mobile--isClosed) {
   font-size: 35px;
   color: #000000;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   position: absolute;
   right: 0px;
 }
@@ -3253,7 +3252,7 @@
 :global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-moro-mobile--isClosed) {
   font-size: 35px;
   color: #000000;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   position: absolute;
   right: 0px;
 }
@@ -3269,7 +3268,7 @@
 :global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-castano-con-carnagione-chiara-mobile--isClosed) {
   font-size: 35px;
   color: #000000;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   position: absolute;
   right: 0px;
 }
@@ -3285,7 +3284,7 @@
 :global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-castano-con-carnagione-scura-mobile--isClosed) {
   font-size: 35px;
   color: #000000;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   position: absolute;
   right: 0px;
 }
@@ -3301,7 +3300,7 @@
 :global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-biondo-con-carnagione-chiara-mobile--isClosed) {
   font-size: 35px;
   color: #000000;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   position: absolute;
   right: 0px;
 }
@@ -3317,7 +3316,7 @@
 :global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-biondo-con-carnagione-scura-mobile--isClosed) {
   font-size: 35px;
   color: #000000;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   position: absolute;
   right: 0px;
 }
@@ -3333,7 +3332,7 @@
 :global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-rosso-mobile--isClosed) {
   font-size: 35px;
   color: #000000;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   position: absolute;
   right: 0px;
 }
@@ -3349,7 +3348,7 @@
 :global(.vtex-menu-2-x-accordionIcon--menu-item-larmocromia-albino-mobile--isClosed) {
   font-size: 35px;
   color: #000000;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   position: absolute;
   right: 0px;
 }
@@ -3365,7 +3364,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--larmocromia-title3-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   text-transform: uppercase;
@@ -3373,14 +3372,14 @@
 
 :global(.vtex-rich-text-0-x-paragraph--larmocromia-content3-mobile) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--larmocromia-title4-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   text-transform: uppercase;
@@ -3388,7 +3387,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--larmocromia-content4-mobile) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
 }
@@ -3414,7 +3413,7 @@
   width: 236px;
   height: 22px;
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 18px;
   text-transform: uppercase;
   text-decoration: none;
@@ -3444,7 +3443,7 @@
   text-align: center;
   height: 29px;
   color: #ffffff;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   margin-top: 22px;
@@ -3459,7 +3458,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--termini-e-condizioni-title-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   margin-left: 1.5rem;
@@ -3471,7 +3470,7 @@
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-termini-e-condizioni-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
 }
@@ -3538,7 +3537,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--servizio-clienti-title-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   margin-left: 1.5rem;
@@ -3550,7 +3549,7 @@
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-servizio-clienti-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
 }
@@ -3617,14 +3616,14 @@
 
 :global(.vtex-rich-text-0-x-paragraph--condizioni-generali-di-vendita-mobile-title) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   line-height: 21px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--condizioni-generali-di-vendita-titlebig-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   line-height: 29px;
   margin-top: 0px;
@@ -3694,7 +3693,7 @@
 
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-guida-alle-taglie-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 18px;
   line-height: 21px;
 }
@@ -3702,7 +3701,7 @@
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-guida-alle-taglie-mobile) {
   width: 100%;
   color: #001930;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 20px;
   line-height: 21px;
   justify-content: space-between;
@@ -3728,38 +3727,29 @@
 
 :global(.vtex-rich-text-0-x-paragraph--footer-Seguici-sui-nostri-social) {
   color: #001930;
-  font-family: "MuseoJHSans700";
-  font-size: 35px;
+  font-family: "MuseoSans_700";
   font-style: normal;
   letter-spacing: normal;
-  line-height: 29px;
   text-align: left;
+  font-size: 25px;
+  text-transform: uppercase;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--footer-consegna-spedizione-reso-pagamenti-title) {
   color: #001930;
   font-size: 14px;
   text-align: left;
-  font-family: "MuseoJHSans700";
+  font-family: "MuseoSans_700";
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
   text-transform: uppercase;
 }
 
-:global(.vtex-rich-text-0-x-paragraph--footer-consegna-spedizione-reso-pagamenti-content) {
-  color: #001930;
-  font-family: "MuseoJHSans300";
-  font-size: 14px;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 17px;
-  text-align: left;
-}
 
 :global(.vtex-rich-text-0-x-paragraph--footer-Hai-bisogno-di-aiuto) {
   color: #001930;
-  font-family: "MuseoJHSans700";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   font-style: normal;
   letter-spacing: normal;
@@ -3770,7 +3760,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--footer-contatti) {
   color: #001930;
-  font-family: "MuseoJHSans700";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   font-style: normal;
   letter-spacing: normal;
@@ -3779,10 +3769,7 @@
   text-transform: uppercase;
 }
 
-:global(.vtex-rich-text-0-x-link--footer-consegna-spedizione-reso-pagamenti-content) {
-  text-decoration: underline;
-  color: #001930;
-}
+
 
 :global(.vtex-rich-text-0-x-link--footer-consegna-spedizione-reso-pagamenti-content-mobile) {
   text-decoration: underline;
@@ -3790,40 +3777,37 @@
 }
 
 :global(.vtex-rich-text-0-x-paragraph--category-menu-footer) {
+  cursor: default;
   color: #ffffff;
-  font-family: "Avenir Light";
+  font-family: "MuseoSans_300";
   font-size: 14px;
-  font-weight: 300;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 15px;
   text-align: left;
-  cursor: default;
+  text-transform: uppercase;
 }
 
 :global(.vtex-subcategory-menu-footer) {
   color: #ffffff;
-  font-family: "Avenir Light";
   font-size: 14px;
-  font-weight: 300;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 15px;
   text-align: left;
   text-decoration: none;
   cursor: pointer;
+  font-family: "MuseoSans_300";
+
 }
 
 :global(.vtex-rich-text-0-x-paragraph--category-menu-partener-lab-footer) {
   color: #ffffff;
-  font-family: "Avenir Light";
   font-size: 14px;
-  font-weight: 300;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 15px;
   text-align: left;
   cursor: pointer;
+  font-family: "MuseoSans_300";
+  text-transform: uppercase;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--subcategory-menu-footer) {
@@ -3856,6 +3840,7 @@
 
 :global(.vtex-rich-text-0-x-container--footerRich) {
   cursor: default;
+  height: auto;
 }
 
 :global(.vtex-rich-text-0-x-container--footerRich) {
@@ -3867,7 +3852,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--static-pages-category-title) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 18px;
   font-style: normal;
   letter-spacing: normal;
@@ -3877,7 +3862,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--static-pages-category-subtitle) {
   color: #001930;
-  font-family: "MuseoJHSans700";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   font-style: normal;
   letter-spacing: normal;
@@ -3887,7 +3872,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--larmocromia-category-subtitle) {
   color: #001930;
-  font-family: "MuseoJHSans700";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   font-style: normal;
   letter-spacing: normal;
@@ -3910,7 +3895,7 @@
 
 :global(.vtex-rich-text-0-x-heading--shelfTitle-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   font-style: normal;
   letter-spacing: normal;
@@ -3929,7 +3914,7 @@
 
 :global(.vtex-rich-text-0-x-heading--shelfTitle-ogniOccasioni) {
   color: #001930;
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   font-style: normal;
   letter-spacing: normal;
@@ -3942,19 +3927,22 @@
 
 :global(.vtex-title-slider-ogni-occasione) {
   color: #001930;
-  font-family: "MuseoJHSans500";
-  font-size: 30px;
+  font-family: "MuseoSans_500";
+  font-size: 35px;
   font-style: normal;
   letter-spacing: normal;
   line-height: 29px;
   text-align: left;
-  margin-left: 32px;
   text-decoration: none;
+}
+
+:global(.vtex-title-slider-ogni-occasione):hover {
+  font-weight: bold;
 }
 
 :global(.vtex-title-slider-ogni-occasione-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans500";
+  font-family: "MuseoSans_500";
   font-size: 20px;
   font-style: normal;
   letter-spacing: normal;
@@ -3969,7 +3957,7 @@
 }
 
 :global(.vtex-lavora-con-noi-link) {
-  font-family: "MuseoJHSans900";
+  font-family: "MuseoSans_700";
   font-size: 16px;
   font-style: normal;
   letter-spacing: normal;
@@ -3983,7 +3971,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--footer-Seguici-sui-nostri-social-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans700";
+  font-family: "MuseoSans_700";
   font-size: 30px;
   font-style: normal;
   letter-spacing: normal;
@@ -3994,7 +3982,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--footer-Hai-bisogno-di-aiuto-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans700";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   font-style: normal;
   letter-spacing: normal;
@@ -4005,7 +3993,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--footer-contatti-mobile) {
   color: #001930;
-  font-family: "MuseoJHSans700";
+  font-family: "MuseoSans_700";
   font-size: 25px;
   font-style: normal;
   letter-spacing: normal;
@@ -4016,26 +4004,15 @@
 :global(.vtex-rich-text-0-x-paragraph--footer-consegna-spedizione-reso-pagamenti-title-mobile) {
   color: #001930;
   font-size: 18px;
+  text-align: left;
+  font-family: "MuseoSans_700";
   font-style: normal;
   letter-spacing: normal;
-  text-align: left;
-  font-family: "MuseoJHSans700";
   line-height: normal;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-:global(.vtex-rich-text-0-x-paragraph--footer-consegna-spedizione-reso-pagamenti-content-mobile) {
-  color: #001930;
-  font-size: 18px;
-  text-align: left;
-  font-family: "MuseoJHSans300";
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 
 :global(.vtex-rich-text-0-x-wrapper--footer-contatti-mobile) {
   width: 100%;
@@ -4043,11 +4020,12 @@
 
 :global(.vtex-flex-layout-0-x-flexCol--content-vendita-negozi-impresa-mobile) {
   margin-bottom: 32px;
+  margin-right: 10px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--footer-title-credits-mobile) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 12px;
   font-style: normal;
   letter-spacing: -0.46px;
@@ -4076,7 +4054,7 @@
 
 :global(.vtex-rich-text-0-x-paragraph--footer-subtitle-credits-mobile) {
   color: #5a5a5a;
-  font-family: "MuseoJHSans300";
+  font-family: "MuseoSans_300";
   font-size: 8px;
   font-style: normal;
   letter-spacing: -0.31px;
@@ -4124,8 +4102,317 @@
   cursor: pointer;
 }
 
-.container--Prezzo {
-  margin-bottom: 15px;
+/* guida alee taglie new design one single page*/
+
+:global(.vtex-rich-text-0-x-paragraph--guida-alle-taglie-category-title) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--guida-alle-taglie-subcategory-title) {
+  color: #001930;
+  font-family: "MuseoSans_500";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-vendita-negozi-impresa-content-email) {
+  color: #001930;
+  font-family: "MuseoSans_300";
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 23px;
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-vendita-negozi-impresa-content-phone) {
+  color: #001930;
+  font-family: "MuseoSans_300";
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 23px;
+  text-align: left;
+  margin-bottom: 6px;
+  margin-top: 0px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-vendita-negozi-impresa-content-program) {
+  color: #001930;
+  font-family: "MuseoSans_300";
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 23px;
+  text-align: left;
+  margin-bottom: 6px;
+  margin-left: 13px;
+  margin-top: 0px;
+}
+
+
+
+:global(.vtex-rich-text-0-x-link--footer-vendita-negozi-impresa-content-email) {
+  text-decoration: underline;
+  color: #001930;
+}
+
+
+:global(.vtex-rich-text-0-x-container--footer-vendita-negozi-impresa-content-email)::before {
+  content: "@";
+  justify-content: space-between;
+  width: 15px;
+  height: 15px;
+  color: #001930;
+  font-family: "MuseoSans_700";
+  line-height: 19px;
+  margin-right: 13px;
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+:global(.vtex-rich-text-0-x-container--footer-vendita-negozi-impresa-content-phone)::before {
+  background-image: url(/arquivos/Fill_1@4x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  margin-right: 13px;
+  font-size: 20px;
+  display: inline-flex;
+  justify-content: center;
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+  margin-top: 3px;
+}
+
+:global(.vtex-rich-text-0-x-container--footer-vendita-negozi-impresa-content-program)::before {
+  background-image: url(/arquivos/program_icon@4x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  min-width: 15px;
+  height: 15px;
+  font-size: 20px;
+  display: inline-flex;
+  justify-content: center;
+  background-size: cover;
+  margin-top: 3px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--footer-vendita-negozi-impresa-content) {
+  color: #001930;
+  font-family: "MuseoSans_300";
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 17px;
+  text-align: left;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-consegna-spedizione-reso-pagamenti-content) {
+  color: #001930;
+  font-family: "MuseoSans_300";
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 17px;
+  text-align: left;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--footer-vendita-negozi-impresa-content-mobile) {
+  color: #001930;
+  font-family: "MuseoSans_300";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+}
+
+
+
+:global(.vtex-rich-text-0-x-paragraph--footer-consegna-spedizione-reso-pagamenti-content-mobile) {
+  color: #001930;
+  font-family: "MuseoSans_300";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-vendita-negozi-impresa-content-email-mobile) {
+  color: #001930;
+  font-family: "MuseoSans_300";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+:global(.vtex-rich-text-0-x-paragraph--footer-vendita-negozi-impresa-content-phone-mobile) {
+  color: #001930;
+  font-family: "MuseoSans_300";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-vendita-negozi-impresa-content-program-mobile) {
+  color: #001930;
+  font-family: "MuseoSans_300";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-vendita-negozi-impresa-content-email-mobile)::before {
+  content: "@";
+  justify-content: space-between;
+  width: 15px;
+  height: 15px;
+  color: #001930;
+  font-family: "MuseoSans_700";
+  line-height: 20px;
+  margin-right: 13px;
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--footer-vendita-negozi-impresa-content-phone-mobile)::before {
+  background-image: url(/arquivos/Fill_1@4x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  margin-right: 13px;
+  font-size: 20px;
+  display: inline-flex;
+  justify-content: center;
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+  margin-top: 3px;
+}
+
+:global(.vtex-rich-text-0-x-container--footer-vendita-negozi-impresa-content-program-mobile)::before {
+  background-image: url(/arquivos/program_icon@4x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  min-width: 15px;
+  height: 15px;
+  font-size: 20px;
+  display: inline-flex;
+  justify-content: center;
+  background-size: cover;
+  margin-top: 3px;
+  margin-right: 13px;
+}
+
+
+
+:global(.vtex-rich-text-0-x-link--footer-vendita-negozi-impresa-content-email-mobile) {
+  color: #001930;
+  text-decoration: none;
+}
+
+:global(.vtex-rich-text-0-x-container--footer-consegna-spedizione-reso-pagamenti-title-mobile) {
+  align-items: flex-start;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--vtex-iframe-ido-video) {
+  width: 100%;
+  height: 100%;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--vtex-iframe-ido-video) {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  line-height: 0px;
+}
+
+:global(.vtex-header-top-menu-list) {
+  color: #001930;
+  font-family: "MuseoSans_500";
+  font-size: 12px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 19px;
+  text-align: left;
+  text-decoration: none;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--subcategory-menu-footer) {
+  padding: 0px;
+  margin: 0px;
+}
+
+:global(.vtex-rich-text-0-x-container--header-top-menu-list) {
+  padding: 0px;
+  margin: 0px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--header-top-menu-list) {
+  margin: 0px!important;
+  padding: 0px!important;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--header-top-menu-list) {
+  width: 100%;
+}
+
+:global(.vtex-rich-text-0-x-container--title-slider-ogni-occasione) {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--title-slider-ogni-occasione) {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--header-top-menu-list-Un-iDO-per-ogni-occasione) {
+  margin-top: 0px;
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 12px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-weight: bolder;
 }
 
 .wrapper--out-of-stock-store-locator {
