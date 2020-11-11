@@ -4102,7 +4102,6 @@
   cursor: pointer;
 }
 
-<<<<<<< HEAD
 /* guida alee taglie new design one single page*/
 
 :global(.vtex-rich-text-0-x-paragraph--guida-alle-taglie-category-title) {
@@ -4414,8 +4413,4 @@
   letter-spacing: normal;
   text-align: left;
   font-weight: bolder;
-=======
-.container--Prezzo {
-  margin-bottom: 15px;
->>>>>>> 75b719cb5fd75666c393533bbeef9d2423a01ced
 }

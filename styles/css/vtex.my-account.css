@@ -195,13 +195,8 @@
 
 
   .profileBoxContainer .boxContainerFooter :global(.vtex-button) {
-<<<<<<< HEAD
     color: #001930;
     font-family: "MuseoSans_700";
-=======
-    color: white;
-    font-family: "MuseoJHSans900";
->>>>>>> 75b719cb5fd75666c393533bbeef9d2423a01ced
     font-size: 16px;
     line-height: 21px;
     text-transform: none;
@@ -235,13 +230,8 @@
   }
 
   .passwordBoxContainer .boxContainerFooter :global(.vtex-button) {
-<<<<<<< HEAD
     color: #001930;
     font-family: "MuseoSans_700";
-=======
-    color: white;
-    font-family: "MuseoJHSans900";
->>>>>>> 75b719cb5fd75666c393533bbeef9d2423a01ced
     font-size: 16px;
     line-height: 21px;
     text-transform: none;
@@ -365,8 +355,7 @@
     position: relative;
   }*/
 
-  .addressList {
-  }
+  
 /*
   .addressBox .boxContainer {
     border: none;
