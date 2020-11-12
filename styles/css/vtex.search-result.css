@@ -1293,3 +1293,27 @@
 .filter__container--b {
   display: none;
 }
+
+@media screen and (max-width: 1900px) {
+  .container--layout {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .container--layout {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .container--layout {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

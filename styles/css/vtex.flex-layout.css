@@ -8,6 +8,18 @@
     display: flex;
   }
 
+  .flexRow--product-main-container-ido {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flexRowContent--main-header {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .flexRowContent--flex-row-shelf-home-page {
     max-width: 1400px;
     margin-left: auto;
@@ -86,13 +98,19 @@
     display: flex;
   }
 
-  .flexRowContent--flex-row-shelf-home-page {
+  .flexRow--product-main-container-ido {
     max-width: 1250px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .flexRow--main-header {
+  .flexRowContent--main-header {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .flexRowContent--flex-row-shelf-home-page {
     max-width: 1250px;
     margin-left: auto;
     margin-right: auto;
@@ -190,13 +208,19 @@
     display: flex;
   }
 
+  .flexRow--product-main-container-ido {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .flexRowContent--flex-row-shelf-home-page {
     max-width: 1025px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .flexRow--main-header {
+  .flexRowContent--main-header {
     max-width: 1025px;
     margin-left: auto;
     margin-right: auto;
@@ -316,10 +340,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
-  max-width: 1400px;
   justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
 }
 
@@ -1790,9 +1811,7 @@
   margin-right: 20px;
 }
 
-:global(.vtex-flex-layout-0-x-flexRow--product-main-container-ido) {
-  max-width: 100%;
-}
+
 
 
 :global(.vtex-flex-layout-0-x-flexCol--product-page-se) {
@@ -2757,11 +2776,7 @@
 
 @media screen and (min-width: 640px){
 
-  .flexRow--product-main-container-ido {
-    max-width: 100%;
-    margin-right: 75px;
-    margin-left: 75px;
-  }
+
 
   .flexRow--breadcrumbs-mobile-top-container {
     display: none;
@@ -2773,7 +2788,6 @@
 
 
   .flexRow--product-main-container-ido :global(.vtex-store-components-3-x-container) {
-    max-width: 1250px;
     margin-right: auto;
     margin-left: auto;
   }
