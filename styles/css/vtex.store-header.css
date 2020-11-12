@@ -10,6 +10,7 @@
 }
 
 
+
 /* desktop/mobile main header padding and background transitions */
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
 :global(.vtex-flex-layout-0-x-flexRow--main-header),
@@ -28,8 +29,9 @@
 /* add a box-shadow to desktop/mobile header when stuck */
 :global(.vtex-sticky-layout-0-x-wrapper--stuck)
 :global(.vtex-flex-layout-0-x-flexRow--main-header),
-:global(.vtex-sticky-layout-0-x-wrapper--stuck) {
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0);
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  box-shadow: 0px 3px 0px rgba(0, 0, 0, 0);
 }
 
 /*
@@ -45,19 +47,18 @@
 }
 
 /* if supported add some translucency to the desktop/mobile header background */
-@supports (backdrop-filter: blur(8px)) {
+@supports (backdrop-filter: blur(5px)) {
   :global(.vtex-sticky-layout-0-x-wrapper--stuck)
-  :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
-  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header)
   :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(5px);
   }
 
   /* header background when stuck and not hovered */
   :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
-  :global(.vtex-flex-layout-0-x-flexRow--main-header),
-  :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
-  :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  :global(.vtex-flex-layout-0-x-flexRow--main-header):not(:hover)
+/*  :global(.vtex-flex-layout-0-x-flexRowContent--main-header):not(:hover),
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile):not(:hover)*/ {
     background: rgba(240, 240, 240, 0.8);
   }
 }
@@ -79,9 +80,7 @@
   :global(.vtex-sticky-layout-0-x-container)
   :global(.vtex-minicart-2-x-openIconContainer),
   :global(.vtex-sticky-layout-0-x-container)
-  :global(.vtex-store-components-3-x-searchBarContainer),
-  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
-  :global(.vtex-flex-layout-0-x-flexRow--main-header) {
+  :global(.vtex-store-components-3-x-searchBarContainer) {
     transition: none;
   }
 }
