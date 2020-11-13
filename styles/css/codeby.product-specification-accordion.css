@@ -14,6 +14,7 @@
 .arrowRight .itemTitle--meeting-class {
   font-size: 18px;
   padding-bottom: 20px;
+  font-family: "MuseoSans_500";
 }
 
 .itemContainer--sgeli-accordion .itemTitle.itemContentActive::after {

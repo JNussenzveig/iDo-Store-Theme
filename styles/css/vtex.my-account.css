@@ -191,6 +191,8 @@
 
   .profileBoxContainer .boxContainerFooter :global(.vtex-button__label) {
     padding: 0px;
+    color: #ffffff;
+    font-family: "MuseoSans_700";
   }
 
 
@@ -222,6 +224,8 @@
 
   .passwordBoxContainer :global(.vtex-button__label) {
     padding: 0px;
+    font-family: "MuseoSans_700";
+    color: white;
   }
 
   .passwordBoxContainer .boxContainerFooter {
@@ -355,7 +359,7 @@
     position: relative;
   }*/
 
-  
+
 /*
   .addressBox .boxContainer {
     border: none;
@@ -391,15 +395,16 @@
   }*/
 
   :global(.vtex-pageHeader__children .vtex-button) {
-    color: #001930;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #002c50;
+  }
+
+  :global(.vtex-pageHeader__children .vtex-button__label) {
+    color: #ffffff;
     font-family: "MuseoSans_700";
     font-size: 16px;
     line-height: 21px;
-    background-color: rgba(0, 44, 80, 0.1);
-    text-transform: none;
-    outline: none;
-    border-radius: 20px;
-    border: none;
   }
 
 
@@ -793,12 +798,14 @@
   }
 
   :global(.vtex-pageHeader__children .vtex-button) {
-    color: #001930;
+    color: white;
     font-family: "MuseoSans_700";
     font-size: 16px;
     line-height: 21px;
     text-transform: none;
-    width: auto;
+    border-radius: 20px;
+    background-color: #002c50;
+    width: 150px;
   }
 
   .addressList .boxContainerFooter :global(.vtex-button) {
@@ -978,3 +985,6 @@
 
 }
 
+.userInfo {
+  width: 300px;
+}
