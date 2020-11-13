@@ -1563,6 +1563,7 @@ store locator mobile version final */
   text-align: center;
 }
 
+
 :global(.vtex-store-components-3-x-imageElementLink--instagramFooter) {
   margin-left: 85px;
   margin-right: 77px;
@@ -1641,5 +1642,58 @@ store locator mobile version final */
   border: .5px solid #cacbcc;
 }
 
+/* TEMPLATE*/
+
+.infoCardCallActionContainer--template-info-card1 :global(.vtex-button) {
+  width: 190px;
+  height: 40px;
+  border-radius: 25px;
+  border: 1px solid #001930;
+  background-color: white;
+}
+
+.infoCardCallActionContainer--template-info-card1 :global(.vtex-button__label) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.infoCardCallActionContainer--template-info-card1 :global(.vtex-button):hover {
+  background-color: #001930;
+}
+
+.infoCardCallActionContainer--template-info-card1 :global(.vtex-button__label):hover {
+  color: white;
+}
 
 
+
+.infoCardCallActionContainer--template-info-card2 :global(.vtex-button) {
+  width: 190px;
+  height: 40px;
+  border-radius: 25px;
+  border: 1px solid #001930;
+  background-color: white;
+}
+
+.infoCardCallActionContainer--template-info-card2 :global(.vtex-button__label) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.infoCardCallActionContainer--template-info-card2 :global(.vtex-button):hover {
+  background-color: #001930;
+}
+
+.infoCardCallActionContainer--template-info-card2 :global(.vtex-button__label):hover {
+  color: white;
+}

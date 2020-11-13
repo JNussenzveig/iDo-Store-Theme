@@ -1,0 +1,306 @@
+{
+  "store.custom#template": {
+      "blocks": [
+        "responsive-layout.desktop#template",
+        "responsive-layout.mobile#template"
+      ]
+    },
+    "responsive-layout.desktop#template": {
+      "children": [
+        "flex-layout.row#slider",
+        "flex-layout.row#template-title",
+        "flex-layout.row#template-content",
+        "flex-layout.row#template-info-card1",
+        "flex-layout.row#template-info-card2",
+        "flex-layout.row#list-context-template",
+        "flex-layout.row#newslwtter-banner-template"
+      ]
+    },
+
+    "responsive-layout.mobile#template": {
+      "children": [
+        "flex-layout.row#slider"
+      ]
+    },
+
+  "flex-layout.row#slider": {
+       "children": [
+         "slider-layout#template"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages"
+       }
+   },
+
+      "slider-layout#template": {
+        "children": [
+        "stack-layout#templateFirst",
+        "stack-layout#templateSecond"
+        ],
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": false,
+          "fullWidth": true,
+          "pauseOnHover": true,
+          "showNavigationArrows": "never",
+          "autoplay": { "stopOnHover": true, "timeout": 4000},
+          "navigationStep": 1,
+          "slideTransition": { "speed": 1200, "delay": 0, "timing": "" },
+          "blockClass": "hatSlider"
+        }
+      },
+
+     "stack-layout#templateFirst": {
+           "props": {
+            "blockClass": "hatSliderStack"
+           },
+            "children": [
+            "info-card#template1",
+            "info-card#template2"
+            ]
+          },
+        "info-card#template1": {
+          "props": {
+            "imageUrl": "/arquivos/template_slider.png",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "callToActionMode": "",
+            "headline": "Lorem ipsum dolor sit<br>amet lorem ipsum dolor",
+            "zIndexOffset": 1,
+            "blockClass": "firstLayer"
+          }
+        },
+         "info-card#template2": {
+           "props": {
+             "imageUrl": "",
+             "isFullModeStyle": true,
+             "callToActionText": "SCOPRI",
+             "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
+             "textPosition": "left",
+             "zIndexOffset": 1,
+             "headline": "BACK<br>TO SCHOOL",
+              "blockClass": "secondLayer"
+           }
+     },
+         "stack-layout#templateSecond": {
+                "props": {
+                 "blockClass": "hatSliderStack"
+                },
+                 "children": [
+                 "info-card#template3",
+                 "info-card#template4"
+                 ]
+               },
+             "info-card#template3": {
+               "props": {
+                 "imageUrl": "/arquivos/template_slider.png",
+                 "isFullModeStyle": true,
+                 "textPosition": "center",
+                 "callToActionMode": "",
+                 "headline": "Lorem ipsum dolor sit<br>amet lorem ipsum dolor",
+                 "zIndexOffset": 1,
+                 "blockClass": "firstLayer"
+               }
+             },
+              "info-card#template4": {
+                "props": {
+                  "imageUrl": "",
+                  "isFullModeStyle": true,
+                  "callToActionText": "SCOPRI",
+                  "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
+                  "textPosition": "left",
+                  "zIndexOffset": 1,
+                  "headline": "BACK<br>TO SCHOOL",
+                   "blockClass": "secondLayer"
+                }
+          },
+
+  "flex-layout.row#template-title": {
+       "children": [
+         "rich-text#template-title"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages"
+       }
+   },
+
+    "rich-text#template-title": {
+        "props": {
+          "blockClass": "template-title",
+          "text":
+          "Lorem ipsum dolor sit amet"
+        }
+    },
+
+  "flex-layout.row#template-content": {
+       "children": [
+         "rich-text#template-content"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages"
+       }
+   },
+    "rich-text#template-content": {
+        "props": {
+          "blockClass": "template-content",
+            "text":
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,<br>eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam<br>voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione<br>voluptatem sequi nesciunt."
+        }
+   },
+
+/* INFO CARD 1*/
+
+    "flex-layout.row#template-info-card1": {
+       "children": [
+         "info-card#template-info-card1"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages"
+       }
+    },
+
+   "info-card#template-info-card1": {
+       "props": {
+         "id": "template-info-card1",
+         "isFullModeStyle": false,
+         "textPosition": "right",
+         "imageUrl": "/arquivos/info_card_1.png",
+         "headline": "Ricomincia l'avventura<br>con l'outfit giusto",
+         "subhead": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem.",
+         "callToActionText": "ACQUISTA",
+         "callToActionUrl": "/sale/d",
+         "blockClass": "template-info-card1",
+         "textAlignment": "left"
+       }
+     },
+
+/* INFO CARD 2*/
+
+    "flex-layout.row#template-info-card2": {
+       "children": [
+         "info-card#template-info-card2"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages"
+       }
+    },
+
+   "info-card#template-info-card2": {
+       "props": {
+         "id": "template-info-card2",
+         "isFullModeStyle": false,
+         "textPosition": "left",
+         "imageUrl": "/arquivos/info_card_2.png",
+         "headline": "Ricomincia l'avventura<br>con l'outfit giusto",
+         "subhead": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem.",
+         "callToActionText": "ACQUISTA",
+         "callToActionUrl": "/sale/d",
+         "blockClass": "template-info-card2",
+         "textAlignment": "left"
+       }
+     },
+
+/* SHELF TEMPLATE*/
+
+  "flex-layout.row#list-context-template": {
+       "children": [
+        "list-context.product-list#shelf-tutti-i-prodotti-template"
+       ],
+       "props": {
+       "blockClass": "flex-row-shelf-home-page"
+       }
+   },
+
+  "list-context.product-list#shelf-tutti-i-prodotti-template": {
+    "blocks": ["product-summary.shelf#tutti-i-prodotti"],
+    "children": ["slider-layout#shelf-tutti-i-prodotti"]
+  },
+
+  "slider-layout#shelf-tutti-i-prodotti": {
+    "children": [
+      "shelf#tutti-i-prodotti"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf-tutti-i-prodotti",
+      "showNavigationArrows": "never",
+      "autoplay": { "stopOnHover": true, "timeout": 4000},
+      "slideTransition": { "speed": 1200, "delay": 0, "timing": "" }
+    }
+  },
+
+  "shelf#tutti-i-prodotti": {
+      "blocks": ["product-summary.shelf#tutti-i-prodotti"],
+      "props": {
+        "blockClass": "shelf-tutti-i-prodotti-radu",
+        "category":2 ,
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "desktopOnly",
+        "productList": {
+          "maxItems": 4,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1,
+          "scroll": "BY_PAGE",
+          "arrows": true,
+          "titleText": ""
+        }
+      }
+    },
+  "product-summary.shelf#tutti-i-prodotti": {
+    "props": {
+      "blockClass": "shelf-tutti-i-prodotti-radu",
+      "isOneClickBuy": false,
+      "showBadge": false,
+      "badgeText": "ON",
+      "displayBuyButton": "displayButtonHover",
+      "showCollections": false,
+      "showListPrice": false,
+      "showLabels": false,
+      "showInstallments": false,
+      "showSavings": false,
+      "showDiscount" : false
+    },
+        "children": [
+          "product-summary-image",
+          "product-summary-name",
+          "product-summary-price",
+          "add-to-list-btn"
+        ]
+  },
+
+/* newsletter template*/
+
+   "flex-layout.row#newslwtter-banner-template": {
+       "children": [
+        "info-card#newslwtter-banner-hp"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages"
+       }
+   },
+
+  "info-card#newslwtter-banner-template": {
+    "props": {
+      "id": "info-card-fidelity-card",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "headline": "Iscriviti alla newsletter",
+      "callToActionText": "ISCRIVITI",
+      "callToActionUrl": "/iscriviti-alla-newsletter?__bindingAddress=www.ido.it/it",
+      "blockClass": "newsletter-desktop",
+      "textAlignment": "center"
+    }
+  }
+
+
+}

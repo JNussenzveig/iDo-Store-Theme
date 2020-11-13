@@ -2273,10 +2273,11 @@
 
            "rich-text#lavora-con-noi-link": {
              "props": {
-             "text": "<a class='vtex-lavora-con-noi-link' href='http://web.miniconf.it/RecruitSelection/servlet/hvse_bstart?Theme=SpTheme_ZIP&Parameter=PARAMDEFSE&Company=000001&Idcompany=000000&Language=ITA&pProcedure=hvse_welcome&pLogin=&pFreeappl=S&Idchannel=&Idjobarea=0000000001'>web.miniconf.it/RecruitSelection",
+             "text": "<a class='vtex-lavora-con-noi-link' href='http://web.miniconf.it/RecruitSelection/servlet/hvse_bstart?Theme=SpTheme_ZIP&Parameter=PARAMDEFSE&Company=000001&Idcompany=000000&Language=ITA&pProcedure=hvse_welcome&pLogin=&pFreeappl=S&Idchannel=&Idjobarea=0000000001' target='_blank'>Candidati",
              "blockClass": "lavora-con-noi-link"
              }
            }
+
 
 }
 

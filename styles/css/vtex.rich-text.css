@@ -441,7 +441,7 @@
 :global(.vtex-rich-text-0-x-wrapper--contentFranchising1) {
   color: #001930;
   font-family: "MuseoSans_500";
-  font-size: 24px;
+  font-size: 16px;
   line-height: 29px;
 }
 
@@ -4442,3 +4442,146 @@
 .container--out-of-stock-store-locator :global(.vtex-conditional-product-SL) {
   color: #aeca3b!important;
 }
+
+:global(.vtex-lavora-con-noi-link) {
+  color: #ffffff;
+  font-family: "MuseoSans_700";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-decoration: none;
+  top: 7px;
+  left: 33px;
+  position: relative;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--lavora-con-noi-link) {
+  width: 149px!important;
+  height: 40px;
+  border-radius: 25px;
+  background-color: #001930;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+:global(.vtex-rich-text-0-x-container--lavora-con-noi-link) {
+  justify-content: center;
+  margin-top: 27px;
+}
+
+
+/* TEMPLATE */
+
+:global(.vtex-rich-text-0-x-paragraph--template-title) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 24px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--template-content) {
+  color: #5a5a5a;
+  font-family: "MuseoSans_500";
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+:global(.vtex-rich-text-0-x-container--template-title) {
+  justify-content: center;
+  margin-top: 69px;
+}
+
+:global(.vtex-rich-text-0-x-container--template-content) {
+  justify-content: center;
+  margin-top: 53px;
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--template-info-card1) {
+  margin-top: 90px;
+}
+
+:global(.vtex-store-components-3-x-infoCardImage--template-info-card1) {
+  border: 1px solid #b7b7b7;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--template-info-card1) {
+  margin-top: 17px;
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 24px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  height: 53px;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--template-info-card1) {
+  height: 100%;
+}
+
+:global(.vtex-store-components-3-x-infoCardSubhead--template-info-card1) {
+  color: #5a5a5a;
+  font-family: "MuseoSans_500";
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin-top: 28px;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--template-info-card1) {
+  margin-top: 42px;
+  margin-bottom: 0px;
+}
+
+
+
+
+:global(.vtex-store-components-3-x-infoCardContainer--template-info-card2) {
+  margin-top: 90px;
+}
+
+:global(.vtex-store-components-3-x-infoCardImage--template-info-card2) {
+  border: 1px solid #b7b7b7;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--template-info-card2) {
+  margin-top: 17px;
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 24px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  height: 53px;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--template-info-card2) {
+  height: 100%;
+}
+
+:global(.vtex-store-components-3-x-infoCardSubhead--template-info-card2) {
+  color: #5a5a5a;
+  font-family: "MuseoSans_500";
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin-top: 28px;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--template-info-card2) {
+  margin-top: 42px;
+  margin-bottom: 0px;
+}
+
