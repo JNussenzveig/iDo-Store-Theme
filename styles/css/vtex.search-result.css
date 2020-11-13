@@ -1236,84 +1236,56 @@
   position: relative;
 }
 
-.galleryItem--desktop-search-gallery--normal :global(.vtex-wish-list-1-x-wishlistIconContainer){
+.galleryItem--desktop-search-gallery--normal :global(.vtex-product-summary-2-x-nameWrapper) {
+  text-align: left;
+}
+
+.galleryItem--desktop-search-gallery--normal :global(.vtex-product-summary-2-x-imageStackContainer) {
+  border: .5px solid #cacbcc;
+}
+
+
+
+.galleryItem--desktop-search-gallery--normal :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button__label) {
+  background-image: url("/arquivos/heart_green@4x.png");
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 17px;
+  height: 15px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+  margin-top: 5px;
   position: absolute;
-  top: 10px;
-  right: 0px;
-  z-index: 2;
+  top: -3px;
+  left: -8px;
 }
 
-
-
-@media screen and (min-width: 500px) and (max-width: 1024px) {
-  .galleryItem--mobile-search-gallery--small :global(.vtex-product-summary-2-x-clearLink) {
-    position: relative;
-  }
-
-  .galleryItem--mobile-search-gallery--small :global(.vtex-wish-list-1-x-wishlistIconContainer){
-    position: absolute;
-    top: 10px;
-    right: 0px;
-    z-index: 2;
-  }
-
-}
-
-
-@media screen and (min-width: 400px) and (max-width: 499px) {
-  .galleryItem--mobile-search-gallery--small :global(.vtex-product-summary-2-x-clearLink) {
-    position: relative;
-  }
-
-  .galleryItem--mobile-search-gallery--small :global(.vtex-wish-list-1-x-wishlistIconContainer){
-    position: absolute;
-    top: 30px;
-    right: 0px;
-    z-index: 2;
-  }
-
-}
-
-
-
-@media screen and (max-width: 399px) {
-  .galleryItem--mobile-search-gallery--small :global(.vtex-product-summary-2-x-clearLink) {
-    position: relative;
-  }
-
-  .galleryItem--mobile-search-gallery--small :global(.vtex-wish-list-1-x-wishlistIconContainer){
-    position: absolute;
-    top: 40px;
-    right: 0px;
-    z-index: 2;
-  }
-
-}
-
-.filter__container--b {
+.galleryItem--desktop-search-gallery--normal :global(.vtex-wish-list-1-x-wishlistIcon) {
   display: none;
 }
 
-@media screen and (max-width: 1900px) {
-  .container--layout {
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
+.galleryItem--desktop-search-gallery--normal :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+  position: absolute;
+  left: 36px;
+  background-color: white;
+  border: .5px solid #cacbcc;
+  width: 23px;
+  height: 23px;
+  display: flex;
+  place-content: center;
+  border-radius: 100px;
+  top: 0px;
+  z-index: 3;
+}
+
+@media only screen and (min-width: 920px) and (max-width: 1200px) {
+  .galleryItem--desktop-search-gallery--normal :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+    left: 0px!important;
   }
 }
 
-@media only screen and (max-width: 1600px) {
-  .container--layout {
-    max-width: 1250px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 
-@media only screen and (max-width: 1350px) {
-  .container--layout {
-    max-width: 1025px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
