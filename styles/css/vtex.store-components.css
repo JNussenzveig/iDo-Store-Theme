@@ -323,7 +323,7 @@
 
 
 .skuSelectorSubcontainer--color .skuSelectorItem--colors-selector--selected {
-  border: 1px solid;
+  border: .5px solid #cacbcc;
   width: 27px!important;
   height: 27px!important;
 }
@@ -1638,7 +1638,7 @@ store locator mobile version final */
 }
 
 .productImage--productImageDesktop {
-  border: 1px solid black;
+  border: .5px solid #cacbcc;
 }
 
 
