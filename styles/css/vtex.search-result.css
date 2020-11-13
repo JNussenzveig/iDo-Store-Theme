@@ -237,7 +237,7 @@
   order: 7;
 }
 .filter__container--b {
-  order: 8;
+  display: none;
 }
 .filter__container--specificationFilter_28 {
   order: 9;
@@ -1264,6 +1264,12 @@
   left: -8px;
 }
 
+
+.galleryItem--desktop-search-gallery--normal :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button) {
+  outline: none;
+  background-color: transparent;
+}
+
 .galleryItem--desktop-search-gallery--normal :global(.vtex-wish-list-1-x-wishlistIcon) {
   display: none;
 }
@@ -1273,7 +1279,7 @@
   left: 36px;
   background-color: white;
   border: .5px solid #cacbcc;
-  width: 23px;
+  width: 25px;
   height: 23px;
   display: flex;
   place-content: center;
@@ -1289,3 +1295,16 @@
 }
 
 
+:global(.vtex-account) :global(.vtex-slider-layout-0-x-slide--shelf) {
+  width: 25%!important;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+:global(.vtex-account) :global(.vtex-slider-layout-0-x-sliderArrows--shelf) {
+  display: none;
+}
+
+:global(.vtex-account) :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+  display: none;
+}
