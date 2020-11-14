@@ -1,4 +1,4 @@
-@media screen and (max-width: 1900px) {
+@media screen and (max-width: 2500px) {
   .flexRowContent--menu-link {
     max-width: 1400px;
     height: 46px;
@@ -97,6 +97,7 @@
     margin-right: auto;
     display: flex;
   }
+
 
   .flexRow--product-main-container-ido {
     max-width: 1250px;
@@ -207,6 +208,7 @@
     margin-right: auto;
     display: flex;
   }
+
 
   .flexRow--product-main-container-ido {
     max-width: 1025px;
@@ -1791,7 +1793,7 @@
 
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--hatSlider) {
   justify-content: space-between;
-  max-width: 1400px;
+  max-width: 2000px;
   background-color: #F2F2F2;
   margin-left: auto;
   margin-right: auto;
@@ -1815,7 +1817,7 @@
 
 
 :global(.vtex-flex-layout-0-x-flexCol--product-page-se) {
-  max-width: 1250px;
+/*  max-width: 1250px;*/
   margin-right: auto;
   margin-left: auto;
 }
@@ -1829,11 +1831,7 @@
   max-width: 100%;
 }
 
-:global(.vtex-search-result-3-x-container--layout) {
-  max-width: 1250px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 
 
 :global(.vtex-account) {
@@ -2921,3 +2919,16 @@
 .flexCol--product-name-price-section {
   margin-top: 10px;
 }
+
+.flexRow--flex-row-slider-home-page :global(.vtex-store-components-3-x-container) {
+  max-width: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--flex-row-slider-home-page) {
+  height: 610px;
+  width: 100%;
+}
+
+

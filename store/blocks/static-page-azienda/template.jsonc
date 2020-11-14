@@ -7,7 +7,7 @@
     },
     "responsive-layout.desktop#template": {
       "children": [
-        "flex-layout.row#slider",
+        "slider-layout#template",
         "flex-layout.row#template-title",
         "flex-layout.row#template-content",
         "flex-layout.row#template-info-card1",
@@ -19,23 +19,20 @@
 
     "responsive-layout.mobile#template": {
       "children": [
-        "flex-layout.row#slider"
+       "slider-layout#template",
+        "flex-layout.row#template-title",
+        "flex-layout.row#template-content",
+        "flex-layout.row#template-info-card1",
+        "flex-layout.row#template-info-card2",
+        "flex-layout.row#list-context-template",
+        "flex-layout.row#newslwtter-banner-template"
       ]
     },
 
-  "flex-layout.row#slider": {
-       "children": [
-         "slider-layout#template"
-       ],
-       "props": {
-       "blockClass": "flex-row-all-static-pages"
-       }
-   },
-
       "slider-layout#template": {
         "children": [
-        "stack-layout#templateFirst",
-        "stack-layout#templateSecond"
+        "flex-layout.row#slider-template-info-card-1",
+        "flex-layout.row#slider-template-info-card-4"
         ],
         "props": {
           "itemsPerPage": {
@@ -54,70 +51,78 @@
         }
       },
 
-     "stack-layout#templateFirst": {
+
+
+    "flex-layout.row#slider-template-info-card-1": {
+       "children": [
+         "stack-layout#slider-template-info-card-1"
+       ],
+       "props": {
+       "blockClass": "flex-row-slider-home-page"
+       }
+    },
+
+    "stack-layout#slider-template-info-card-1": {
            "props": {
-            "blockClass": "hatSliderStack"
+            "blockClass": "flex-row-slider-home-page"
            },
             "children": [
-            "info-card#template1",
-            "info-card#template2"
+            "info-card#slider-template-info-card-1"
+
             ]
           },
-        "info-card#template1": {
-          "props": {
-            "imageUrl": "/arquivos/template_slider.png",
-            "isFullModeStyle": true,
-            "textPosition": "center",
-            "callToActionMode": "",
-            "headline": "Lorem ipsum dolor sit<br>amet lorem ipsum dolor",
-            "zIndexOffset": 1,
-            "blockClass": "firstLayer"
-          }
-        },
-         "info-card#template2": {
-           "props": {
-             "imageUrl": "",
-             "isFullModeStyle": true,
-             "callToActionText": "SCOPRI",
-             "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
-             "textPosition": "left",
-             "zIndexOffset": 1,
-             "headline": "BACK<br>TO SCHOOL",
-              "blockClass": "secondLayer"
-           }
+
+   "info-card#slider-template-info-card-1": {
+       "props": {
+         "id": "slider-home-page-info-card-1",
+         "isFullModeStyle": true,
+         "textPosition": "left",
+         "imageUrl": "/arquivos/template_slider.png",
+         "headline": "BACK<br>TO SCHOOL",
+         "subhead": "Lorem ipsum dolor sit<br>amet lorem ipsum dolor",
+         "callToActionText": "SCOPRI",
+         "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
+         "blockClass": "slider-home-page-info-card-1",
+         "textAlignment": "left"
+       }
      },
-         "stack-layout#templateSecond": {
-                "props": {
-                 "blockClass": "hatSliderStack"
-                },
-                 "children": [
-                 "info-card#template3",
-                 "info-card#template4"
-                 ]
-               },
-             "info-card#template3": {
-               "props": {
-                 "imageUrl": "/arquivos/template_slider.png",
-                 "isFullModeStyle": true,
-                 "textPosition": "center",
-                 "callToActionMode": "",
-                 "headline": "Lorem ipsum dolor sit<br>amet lorem ipsum dolor",
-                 "zIndexOffset": 1,
-                 "blockClass": "firstLayer"
-               }
-             },
-              "info-card#template4": {
-                "props": {
-                  "imageUrl": "",
-                  "isFullModeStyle": true,
-                  "callToActionText": "SCOPRI",
-                  "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
-                  "textPosition": "left",
-                  "zIndexOffset": 1,
-                  "headline": "BACK<br>TO SCHOOL",
-                   "blockClass": "secondLayer"
-                }
+
+
+    "flex-layout.row#slider-template-info-card-4": {
+       "children": [
+         "stack-layout#slider-template-info-card-4"
+       ],
+       "props": {
+       "blockClass": "flex-row-slider-home-page"
+       }
+    },
+
+    "stack-layout#slider-template-info-card-4": {
+           "props": {
+            "blockClass": "flex-row-slider-home-page"
+           },
+            "children": [
+            "info-card#slider-template-info-card-4"
+
+            ]
           },
+
+   "info-card#slider-template-info-card-4": {
+       "props": {
+         "id": "slider-home-page-info-card-1",
+         "isFullModeStyle": true,
+         "textPosition": "left",
+         "imageUrl": "/arquivos/template_slider.png",
+         "headline": "BACK<br>TO SCHOOL",
+         "subhead": "Lorem ipsum dolor sit<br>amet lorem ipsum dolor",
+         "callToActionText": "SCOPRI",
+         "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
+         "blockClass": "slider-home-page-info-card-1",
+         "textAlignment": "left"
+       }
+     },
+
+
 
   "flex-layout.row#template-title": {
        "children": [
@@ -216,11 +221,11 @@
    },
 
   "list-context.product-list#shelf-tutti-i-prodotti-template": {
-    "blocks": ["product-summary.shelf#tutti-i-prodotti"],
-    "children": ["slider-layout#shelf-tutti-i-prodotti"]
+    "blocks": ["product-summary.shelf#tutti-i-prodotti-template"],
+    "children": ["slider-layout#shelf-tutti-i-prodotti-template"]
   },
 
-  "slider-layout#shelf-tutti-i-prodotti": {
+  "slider-layout#shelf-tutti-i-prodotti-template": {
     "children": [
       "shelf#tutti-i-prodotti"
     ],
@@ -239,7 +244,7 @@
     }
   },
 
-  "shelf#tutti-i-prodotti": {
+  "shelf#tutti-i-prodotti-template": {
       "blocks": ["product-summary.shelf#tutti-i-prodotti"],
       "props": {
         "blockClass": "shelf-tutti-i-prodotti-radu",
@@ -256,7 +261,7 @@
         }
       }
     },
-  "product-summary.shelf#tutti-i-prodotti": {
+  "product-summary.shelf#tutti-i-prodotti-template": {
     "props": {
       "blockClass": "shelf-tutti-i-prodotti-radu",
       "isOneClickBuy": false,

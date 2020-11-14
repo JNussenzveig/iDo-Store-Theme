@@ -1,6 +1,6 @@
 
   .stackContainer--hatSliderStack {
-    width: 1400px;
+    width: 2000px!important;
     height: 610px;
   }
 
@@ -8,6 +8,8 @@
   .stackContainer--hatSliderStack :global(.vtex-store-components-3-x-infoCardContainer) {
     height: 610px;
     display: flex;
+    width: 2000px;
+    justify-content: unset;
   }
 
 
@@ -159,8 +161,6 @@
   text-transform: uppercase;
   position: absolute;
   top: 56px;
-  width: 780px;
-  max-width: 780px!important;
   height: 191px;
   font-family: "MuseoSans_700"!important;
   margin-left: 25px;
@@ -280,10 +280,13 @@
   }
 
 
+/* new slider home page*/
 
 
-
-
+:global(.vtex-store-components-3-x-infoCardContainer--slider-home-page-info-card-1-second-button) {
+  background-color: transparent;
+  padding: 0px;
+}
 
 
 
