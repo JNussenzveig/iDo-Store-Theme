@@ -1,5 +1,6 @@
 .wishlistIconContainer :global(.vtex-button) {
   display: inline-flex!important;
+  outline: none;
 }
 
 

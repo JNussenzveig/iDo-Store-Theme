@@ -125,6 +125,7 @@
 
 .minicartContainer :global(.vtex-button) {
   width: auto!important;
+  outline: none;
 }
 
 .minicartQuantityBadge {

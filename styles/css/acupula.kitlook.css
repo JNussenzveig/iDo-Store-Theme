@@ -30,6 +30,7 @@
   height: 40px;
   border-radius: 20px;
   background-color: #001930;
+  outline: none;
 }
 
 .KitLookItem :global(.vtex-button__label) {
@@ -49,6 +50,7 @@
   height: 40px;
   border-radius: 20px;
   background-color: #001930;
+  outline: none;
 }
 
 
