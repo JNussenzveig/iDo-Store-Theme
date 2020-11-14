@@ -728,6 +728,7 @@
   border-color: #001930;
   border-radius: 20px;
   width: 336px;
+  outline: none;
 }
 
 .flexRowContent--product-buy-button :global(.vtex-button__label) {
@@ -1118,6 +1119,7 @@
   height: 40px;
   border-radius: 20px;
   background-color: #001930;
+  outline: none;
 }
 
 .flexRow--contattaci-form-submit :global(.vtex-button__label) {
@@ -1196,6 +1198,7 @@
   height: 40px;
   border-radius: 20px;
   background-color: #001930;
+  outline: none;
 }
 
 .flexRow--newsletter-form-submit :global(.vtex-button__label) {
@@ -1374,6 +1377,7 @@
   height: 40px;
   border-radius: 20px;
   background-color: #001930;
+  outline: none;
 }
 
 /*:global(.vtex-button__label) {
@@ -1529,6 +1533,7 @@
   height: 40px;
   border-radius: 20px;
   background-color: #001930;
+  outline: none;
 }
 
 .flexRow--contattaci-form-submit-mobile :global(.vtex-button__label) {
@@ -2093,6 +2098,7 @@
   height: 40px;
   border-radius: 20px;
   background-color: #001930;
+  outline: none;
 }
 
 /*newsletter*/

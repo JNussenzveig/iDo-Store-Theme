@@ -75,6 +75,7 @@
     font-family: "MuseoJHSans700";
     font-size: 14px;
     line-height: 19px;
+    outline: none;
   }
 
   :global(.vtex-profile-form-3-x-styleguideInput .border-box) {
@@ -205,6 +206,7 @@
     border-radius: 20px;
     background-color: #002c50;
     width: 150px;
+    outline: none;
   }
 
 
@@ -242,6 +244,7 @@
     border-radius: 20px;
     background-color: #002c50;
     width: 300px;
+    outline: none;
   }
 
   .passwordBoxContainer :global(.vtex-input-prefix__group) {
@@ -256,6 +259,7 @@
     height: 40px;
     border-radius: 20px;
     background-color: #002c50;
+    outline: none;
   }
 
   .passwordBoxContainer .boxContainerBody :global(.vtex-button__label) {
@@ -398,6 +402,8 @@
     width: 100%;
     border-radius: 20px;
     background-color: #002c50;
+    outline: none;
+    border-color: #002c50;
   }
 
   :global(.vtex-pageHeader__children .vtex-button__label) {
@@ -424,6 +430,7 @@
     line-height: 21px;
     text-transform: uppercase;
     width: 100%;
+    outline: none;
   }
 
   :global(.vtex-addresses .vtex-button) {
@@ -806,6 +813,7 @@
     border-radius: 20px;
     background-color: #002c50;
     width: 150px;
+    border-color: #002c50;
   }
 
   .addressList .boxContainerFooter :global(.vtex-button) {
