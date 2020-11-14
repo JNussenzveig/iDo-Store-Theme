@@ -15,6 +15,7 @@
   font-size: 18px;
   padding-bottom: 20px;
   font-family: "MuseoSans_500";
+  color: #001930;
 }
 
 .itemContainer--sgeli-accordion .itemTitle.itemContentActive::after {

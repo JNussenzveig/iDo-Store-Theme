@@ -2877,8 +2877,8 @@
   z-index: 2;
   border: .5px solid #cacbcc;
   border-radius: 59px;
-  width: 31px!important;
-  height: 27px;
+  width: 30px!important;
+  height: 30px;
   background-color: white;
   left: 33px;
   top: -13px;
@@ -2899,7 +2899,7 @@
   padding-left: 0px!important;
   padding-right: 0px!important;
   background-color: #ffffff;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 
 .flexRowContent--breadcrumb-and-image-container :global(.vtex-button) {
@@ -2931,4 +2931,38 @@
   width: 100%;
 }
 
+
+.flexRowContent--product-page-secondary-container-ido :global(.vtex-washing-image) {
+  margin-right: 20px;
+}
+
+
+.flexRowContent--product-page-secondary-container-ido :global(.vtex-specs-guida) {
+  color: #5a5a5a;
+  font-size: 16px;
+  font-family: MuseoSans_500;
+}
+
+
+
+.flexRowContent--product-page-secondary-container-ido :global(.vtex-specs-compozitione) {
+  color: #5a5a5a;
+  font-size: 16px;
+  font-family: MuseoSans_500;
+}
+
+
+
+.flexRowContent--product-page-secondary-container-ido :global(.vtex-specs-resi) {
+  color: #5a5a5a;
+  font-size: 16px;
+  font-family: MuseoSans_500;
+}
+
+
+.flexRowContent--product-page-secondary-container-ido :global(.vtex-specs-description) {
+  color: #5a5a5a;
+  font-size: 16px;
+  font-family: MuseoSans_500;
+}
 
