@@ -1,4 +1,5 @@
 
+
 /* HEADER DESKTOP */
 
 :global(.vtex-store-components-3-x-notificationBarContainer) {
@@ -1707,6 +1708,269 @@ store locator mobile version final */
 }
 
 
+@media screen and (max-width: 2500px) {
+  .infoCardTextContainer--slider-home-page-info-card-1 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+  }
+  .infoCardTextContainer--slider-home-page-info-card-1-second-button {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+  }
+  .infoCardTextContainer--slider-home-page-info-card-2 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+  }
+  .infoCardTextContainer--slider-template-info-card-1 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .infoCardTextContainer--slider-home-page-info-card-1 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1250px;
+  }
+  .infoCardTextContainer--slider-home-page-info-card-1-second-button {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1250px;
+  }
+  .infoCardTextContainer--slider-home-page-info-card-2 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1250px;
+  }
+  .infoCardTextContainer--slider-template-info-card-1 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1250px;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .infoCardTextContainer--slider-home-page-info-card-1 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1025px;
+  }
+  .infoCardTextContainer--slider-home-page-info-card-1-second-button {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1025px;
+  }
+  .infoCardTextContainer--slider-home-page-info-card-2 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1025px;
+  }
+  .infoCardTextContainer--slider-template-info-card-1 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1025px;
+  }
+}
+
+.flexRowContent--flex-row-slider-home-page :global(.vtex-store-components-3-x-container) {
+  max-width: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--flex-row-slider-home-page) {
+  max-width: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--slider-home-page-info-card-1) {
+  height: 610px;
+  width: 100% !important;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--slider-home-page-info-card-2) {
+  height: 610px;
+  width: 100% !important;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--slider-home-page-info-card-1) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 65px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 66px;
+  text-shadow: 0 2px 30px rgba(0,0,0,0.5);
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--slider-home-page-info-card-2) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 65px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 66px;
+  text-shadow: 0 2px 30px rgba(0,0,0,0.5);
+}
+
+:global(.vtex-store-components-3-x-infoCardSubhead--slider-home-page-info-card-1) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin-top: 26px;
+  text-shadow: 0 2px 30px rgba(0,0,0,0.5);
+}
+
+:global(.vtex-store-components-3-x-infoCardSubhead--slider-home-page-info-card-2) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin-top: 26px;
+  text-shadow: 0 2px 30px rgba(0,0,0,0.5);
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-1 :global(.vtex-button) {
+  width: 168px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  border-color: unset;
+  border: none;
+  z-index: 9999999;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-2 :global(.vtex-button) {
+  width: 250px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  border-color: unset;
+  border: none;
+  z-index: 9999999;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-1 :global(.vtex-button):hover {
+  background-color: #001930;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-2 :global(.vtex-button):hover {
+  background-color: #001930;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-1 :global(.vtex-button__label) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-2 :global(.vtex-button__label) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-1 :global(.vtex-button__label):hover {
+  color: #ffffff;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-2 :global(.vtex-button__label):hover {
+  color: #ffffff;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--slider-home-page-info-card-1) {
+  margin-top: 57px;
+}
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--slider-home-page-info-card-2) {
+  margin-top: 57px;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-1-second-button :global(.vtex-button) {
+  width: 168px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  border-color: unset;
+  border: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-1-second-button :global(.vtex-button):hover {
+  background-color: #001930;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-1-second-button :global(.vtex-button__label) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-1-second-button :global(.vtex-button__label):hover {
+  color: #ffffff;
+}
+
+:global(.vtex-stack-layout-0-x-stackItem--slider-home-page-info-card-1-second-button) {
+  width: 100%;
+  top: 341px;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--slider-home-page-info-card-1-second-button) {
+  width: 100%;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--slider-home-page-info-card-1-second-button) {
+  left: 203px;
+  position: relative;
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--slider-home-page-info-card-1-second-button) {
+  border: none;
+}
+
+:global(.vtex-store-components-3-x-infoCardSubhead--slider-home-page-info-card-1) {
+  height: 70px;
+}
+
+:global(.vtex-store-components-3-x-infoCardSubhead--slider-home-page-info-card-2) {
+  height: 70px;
+}
+
+
+
+
 .productImagesGallerySwiperContainer--productImageDesktop .swiperBullet {
   height: 3px !important;
   width: 50% !important;
@@ -1717,3 +1981,4 @@ store locator mobile version final */
   margin-left: 0px;
   margin-right: 0px;
 }
+

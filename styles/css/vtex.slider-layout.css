@@ -134,7 +134,7 @@
 
 
 :global(.vtex-slider-layout-0-x-paginationDotsContainer--hatSlider) {
-  bottom: 41px;
+  bottom: 50px;
 }
 
 
@@ -322,6 +322,11 @@
 
 :global(.vtex-product-summary-2-x-element--shelf-tutti-i-prodotti-radu) {
   padding-top: 20px;
+}
+
+
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--hatSlider) {
+  justify-content: unset;
 }
 
 

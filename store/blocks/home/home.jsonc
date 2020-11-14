@@ -41,9 +41,9 @@
 
       "slider-layout#andrei-images": {
         "children": [
-        "stack-layout#firstSlide",
-        "stack-layout#secondSlide",
-        "stack-layout#thirdSlide",
+        "flex-layout.row#slider-home-page-info-card-1",
+        "flex-layout.row#slider-home-page-info-card-2",
+        "flex-layout.row#slider-home-page-info-card-3",
         "stack-layout#fourdSlide"
         ],
         "props": {
@@ -63,107 +63,148 @@
         }
       },
 
-     "stack-layout#firstSlide": {
+
+
+    "flex-layout.row#slider-home-page-info-card-1": {
+       "children": [
+         "stack-layout#slider-home-page-info-card-1"
+       ],
+       "props": {
+       "blockClass": "flex-row-slider-home-page"
+       }
+    },
+
+    "stack-layout#slider-home-page-info-card-1": {
            "props": {
-            "blockClass": "hatSliderStack"
+            "blockClass": "flex-row-slider-home-page"
            },
             "children": [
-            "info-card#hat1",
-            "info-card#hat2"
+            "info-card#slider-home-page-info-card-1",
+            "info-card#slider-home-page-info-card-1-second-button"
+
             ]
           },
-        "info-card#hat1": {
-          "props": {
-            "imageUrl": "/arquivos/hp_1250x570_slider_01.jpg",
-            "isFullModeStyle": true,
-            "callToActionText": "Shop Boy",
-            "callToActionUrl": "/Tutti-i-Prodotti/Bambino",
-            "textPosition": "left",
-            "headline": "Dimentica i capi che si rovinano dopo<br>un lavaggio: un iDO è per sempre.",
-            "zIndexOffset": 1,
-            "blockClass": "firstLayer"
-          }
-        },
-         "info-card#hat2": {
+
+   "info-card#slider-home-page-info-card-1": {
+       "props": {
+         "id": "slider-home-page-info-card-1",
+         "isFullModeStyle": true,
+         "textPosition": "left",
+         "imageUrl": "/arquivos/slider_01.jpg",
+         "headline": "Glam<br>collection",
+         "subhead": "Dimentica i capi che si rovinano dopo<br>un lavaggio: un iDO è per sempre.",
+         "callToActionText": "Shop Girl",
+         "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
+         "blockClass": "slider-home-page-info-card-1",
+         "textAlignment": "left"
+       }
+     },
+
+   "info-card#slider-home-page-info-card-1-second-button": {
+       "props": {
+         "id": "slider-home-page-info-card-1-second-button",
+         "isFullModeStyle": true,
+         "textPosition": "left",
+         "imageUrl": "",
+         "headline": "",
+         "subhead": "",
+         "callToActionText": "Shop Boy",
+         "callToActionUrl": "/Tutti-i-Prodotti/Bambino",
+         "blockClass": "slider-home-page-info-card-1-second-button",
+         "textAlignment": "left"
+       }
+    },
+
+
+
+    "flex-layout.row#slider-home-page-info-card-2": {
+       "children": [
+         "stack-layout#slider-home-page-info-card-2"
+       ],
+       "props": {
+       "blockClass": "flex-row-slider-home-page"
+       }
+    },
+
+
+   "stack-layout#slider-home-page-info-card-2": {
            "props": {
-             "imageUrl": "",
-             "isFullModeStyle": true,
-             "callToActionText": "Shop Girl",
-             "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
-             "textPosition": "left",
-             "zIndexOffset": 1,
-             "headline": "Glam<br>collection",
-              "blockClass": "secondLayer"
-           }
+            "blockClass": "flex-row-slider-home-page"
+           },
+            "children": [
+            "info-card#slider-home-page-info-card-2"
+
+            ]
+          },
+
+   "info-card#slider-home-page-info-card-2": {
+       "props": {
+         "id": "slider-home-page-info-card-2",
+         "isFullModeStyle": true,
+         "textPosition": "left",
+         "imageUrl": "/arquivos/slider_02.jpg",
+         "headline": "È arrivata la<br>linea Sport Time",
+         "subhead": "Capi pratici e comodi",
+         "callToActionText": "Scoprila subito!",
+         "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
+         "blockClass": "slider-home-page-info-card-2",
+         "textAlignment": "left"
+       }
      },
 
 
-     "stack-layout#secondSlide": {
+
+
+    "flex-layout.row#slider-home-page-info-card-3": {
+       "children": [
+         "stack-layout#slider-home-page-info-card-3"
+       ],
+       "props": {
+       "blockClass": "flex-row-slider-home-page"
+       }
+    },
+
+    "stack-layout#slider-home-page-info-card-3": {
            "props": {
-            "blockClass": "hatSliderStack"
+            "blockClass": "flex-row-slider-home-page"
            },
             "children": [
-            "info-card#hat3",
-            "info-card#hat4"
+            "info-card#slider-home-page-info-card-3",
+            "info-card#slider-home-page-info-card-3-second-button"
+
             ]
           },
-        "info-card#hat3": {
-          "props": {
-            "imageUrl": "/arquivos/hp_1250x570_slider_02.jpg",
-            "isFullModeStyle": true,
-            "textPosition": "center",
-            "callToActionMode": "",
-            "headline": "Capi pratici e comodi",
-            "zIndexOffset": 1,
-            "blockClass": "firstLayer"
-          }
-        },
-         "info-card#hat4": {
-           "props": {
-             "imageUrl": "",
-             "isFullModeStyle": true,
-             "callToActionText": "Scoprila subito!",
-             "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
-             "textPosition": "left",
-             "zIndexOffset": 1,
-             "headline": "È arrivata la<br>linea Sport Time",
-              "blockClass": "secondLayer"
-           }
+
+   "info-card#slider-home-page-info-card-3": {
+       "props": {
+         "id": "slider-home-page-info-card-1",
+         "isFullModeStyle": true,
+         "textPosition": "left",
+         "imageUrl": "/arquivos/slider_03.jpg",
+         "headline": "Tutti al caldo<br>con iDO",
+         "subhead": "Giubbotti reversibili e animal free",
+         "callToActionText": "Shop Girl",
+         "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
+         "blockClass": "slider-home-page-info-card-1",
+         "textAlignment": "left"
+       }
      },
 
-     "stack-layout#thirdSlide": {
-           "props": {
-            "blockClass": "hatSliderStack"
-           },
-            "children": [
-            "info-card#hat5",
-            "info-card#hat6"
-            ]
-          },
-        "info-card#hat5": {
-          "props": {
-            "imageUrl": "/arquivos/hp_1250x570_slider_03.jpg",
-            "isFullModeStyle": true,
-            "callToActionText": "Shop boy",
-            "callToActionUrl": "/Tutti-i-Prodotti/Bambino",
-            "textPosition": "center",
-            "headline": "Giubbotti reversibili e animal free",
-            "zIndexOffset": 1,
-            "blockClass": "firstLayer"
-          }
-        },
-         "info-card#hat6": {
-           "props": {
-             "imageUrl": "",
-             "isFullModeStyle": true,
-             "callToActionText": "Shop Girl",
-             "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
-             "textPosition": "left",
-             "zIndexOffset": 1,
-             "headline": "Tutti al caldo<br>con iDO",
-              "blockClass": "secondLayer"
-           }
-     },
+   "info-card#slider-home-page-info-card-3-second-button": {
+       "props": {
+         "id": "slider-home-page-info-card-1-second-button",
+         "isFullModeStyle": true,
+         "textPosition": "left",
+         "imageUrl": "",
+         "headline": "",
+         "subhead": "",
+         "callToActionText": "Shop Boy",
+         "callToActionUrl": "/Tutti-i-Prodotti/Bambino",
+         "blockClass": "slider-home-page-info-card-1-second-button",
+         "textAlignment": "left"
+       }
+    },
+
 
      "stack-layout#fourdSlide": {
            "props": {
@@ -183,7 +224,7 @@
        "props": {
          "preventVerticalStretch": true,
          "width": "100%",
-         "blockClass": "flex-row-video-ido"
+         "blockClass": "flex-row-slider-home-page"
        }
     },
 
