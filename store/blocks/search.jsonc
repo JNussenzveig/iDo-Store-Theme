@@ -181,7 +181,7 @@
 "gallery": {
     "blocks": ["product-summary.shelf#searchDekstop"],
     "props": {
-      "blockClass":"desktop-search-gallery"
+      "blockClass":"desktop-search-gallery-wishlist"
     }
   },
 
@@ -205,7 +205,7 @@
         "showLabels": true,
         "showInstallments": true,
         "showSavings": true,
-        "blockClass": "search-desktop"
+        "blockClass": "search-desktop-wishlist"
       }
     }
 }

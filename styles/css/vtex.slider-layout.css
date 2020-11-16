@@ -273,8 +273,6 @@
 .slide--shelf-tutti-i-prodotti :global(.vtex-product-summary-2-x-imageContainer) {
   margin-right: 0px;
   margin-left: 0px;
-  width: 245px;
-  height: 265px;
 }
 
 :global(.vtex-slider-layout-0-x-slide--shelf-tutti-i-prodotti-radu) {
@@ -282,7 +280,7 @@
 }
 
 .slide--shelf-tutti-i-prodotti :global(.vtex-product-summary-2-x-nameContainer) {
-  width: 245px;
+  width: 100%;
   height: 90px;
   padding-top: 20px;
   padding-bottom: 16px;
@@ -300,7 +298,8 @@
   font-style: normal;
   letter-spacing: normal;
   text-align: left;
-  margin-left: 11px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .slide--shelf-tutti-i-prodotti :global(.vtex-product-summary-2-x-price_sellingPrice) {
@@ -311,23 +310,26 @@
   letter-spacing: normal;
   padding-left: 0px!important;
   padding-top: 0px!important;
-  margin-left: 11px!important;
+  margin-left: 16px!important;
+  margin-right: 16px!important;
 }
 
-:global(.vtex-product-summary-2-x-containerNormal--shelf-tutti-i-prodotti-radu) {
-  width: 245px;
+/*:global(.vtex-product-summary-2-x-containerNormal--shelf-tutti-i-prodotti-radu) {
   margin-left: 0px;
   margin-right: unset;
-}
+}*/
 
 :global(.vtex-product-summary-2-x-element--shelf-tutti-i-prodotti-radu) {
   padding-top: 20px;
+  padding-right: 2px;
+  padding-left: 2px;
 }
 
 
 :global(.vtex-slider-layout-0-x-slideChildrenContainer--hatSlider) {
   justify-content: unset;
 }
+
 
 
 .slideChildrenContainer--wishlist-page-shelf :global(.vtex-product-summary-2-x-image) {
@@ -375,4 +377,5 @@
 .sliderTrackContainer--wishlist-page-shelf {
   margin-bottom: 30px;
 }
+
 

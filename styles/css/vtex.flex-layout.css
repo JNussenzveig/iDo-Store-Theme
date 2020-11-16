@@ -593,7 +593,7 @@
 
 
 /*Order by mobile version styling ENDS here */
-.flexCol--filterCol { max-width: 230px!important; min-width: 230px!important; }
+/*.flexCol--filterCol { max-width: 230px!important; min-width: 230px!important; }*/
 
 /* Store loator css */
 
@@ -625,10 +625,10 @@
   align-items: center;
 }
 
-.flexCol--filterCol {
+/*.flexCol--filterCol {
   max-width: 500px;
   min-width: 230px;
-}
+}*/
 
 .flexCol--productCountCol {
   align-items: flex-start;
@@ -774,9 +774,9 @@
 }
 
 /* all products page */
-:global(.vtex-flex-layout-0-x-flexCol--filterCol) {
+/*:global(.vtex-flex-layout-0-x-flexCol--filterCol) {
   width: 300px!important;
-}
+}*/
 /* all products page  END*/
 
 
@@ -2305,7 +2305,6 @@
 
 :global(.vtex-slider-layout-0-x-sliderTrackContainer--shelf-tutti-i-prodotti) {
   margin-bottom: 40px;
-  height: 410px!important;
 }
 
 /*static pages resize*/
@@ -2878,7 +2877,7 @@
   display: none;
 }
 
-.flexRowContent--breadcrumb-and-image-container .stretchChildrenWidth:last-child {
+/*.flexRowContent--breadcrumb-and-image-container .stretchChildrenWidth:last-child {
   position: absolute;
   z-index: 2;
   border: .5px solid #cacbcc;
@@ -2889,10 +2888,10 @@
   left: 33px;
   top: -13px;
 }
+*/
 
 
-
-.flexRowContent--breadcrumb-and-image-container :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+/*.flexRowContent--breadcrumb-and-image-container :global(.vtex-wish-list-1-x-wishlistIconContainer) {
   background-image: url("/arquivos/heart_green@4x.png");
   display: inline-flex;
   justify-content: center;
@@ -2906,7 +2905,7 @@
   padding-right: 0px!important;
   background-color: #ffffff;
   margin-top: 7px;
-}
+}*/
 
 .flexRowContent--breadcrumb-and-image-container :global(.vtex-button) {
   background-color: transparent;
@@ -2970,5 +2969,47 @@
   color: #5a5a5a;
   font-size: 16px;
   font-family: MuseoSans_500;
+}
+
+
+
+
+  /* wishlist product page*/
+
+.flexRowContent--breadcrumb-and-image-container :global(.vtex-button) {
+  outline: none;
+  top: 19px;
+  right: 79px;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+  min-height: unset!important;
+  z-index: 999999;
+}
+
+
+.flexRowContent--breadcrumb-and-image-container :global(.vtex-button__label) {
+  background-image: url(/arquivos/black_heart@4x.png);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 17px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+  padding-top: 0px!important;
+  padding-bottom: 0px!important;
+  background-color: transparent;
+  position: relative;
+}
+
+.flexRowContent--breadcrumb-and-image-container :global(.vtex-button__label):hover {
+  background-image: url(/arquivos/heart_green@4x.png);
 }
 

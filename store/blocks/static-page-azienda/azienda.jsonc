@@ -331,6 +331,8 @@
       "Cosa cerchiamo"
     }
   },
+
+
   "rich-text#about-contentFranchising2": {
     "props": {
       "blockClass": "contentFranchising2",

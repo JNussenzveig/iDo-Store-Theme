@@ -404,8 +404,6 @@
 .filter__container--specificationFilter_18 :global(.vtex__icon-check) {
   width: 0px;
   height: 0px;
- width: 0px;
- height: 0px;
 }
 .filter__container--specificationFilter_26 :global(.vtex-checkbox__box) {
   position: static;
@@ -1320,24 +1318,190 @@
     margin-left: auto;
     margin-right: auto;
   }
-:global(.vtex-account) :global(.vtex-slider-layout-0-x-slide--shelf) {
-  width: 25%!important;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
-:global(.vtex-account) :global(.vtex-slider-layout-0-x-sliderArrows--shelf) {
-  display: none;
-}
+  :global(.vtex-account) :global(.vtex-slider-layout-0-x-slide--shelf) {
+    width: 25% !important;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
-:global(.vtex-account) :global(.vtex-product-summary-2-x-nameWrapper) {
-  text-align: left;
-}
+  :global(.vtex-account) :global(.vtex-slider-layout-0-x-sliderArrows--shelf) {
+    display: none;
+  }
+
+  :global(.vtex-account) :global(.vtex-product-summary-2-x-nameWrapper) {
+    text-align: left;
+  }
 
 
 
 :global(.vtex-account) :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) {
   margin-bottom: 0px!important;
   margin-top: 0px!important;
+
+)
+
+/* seach page with wishlist and border*/
+
+.galleryItem--desktop-search-gallery--normal :global(.vtex-product-summary-2-x-imageContainer) {
+  margin-right: 0px;
+  margin-left: 0px;
 }
+
+.galleryItem--desktop-search-gallery--normal :global(.vtex-product-summary-2-x-nameContainer) {
+  width: 100%;
+  height: 90px;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  color: #001930;
+  font-family: "MuseoSans_500";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.galleryItem--desktop-search-gallery--normal :global(.vtex-product-summary-2-x-productNameContainer) {
+  font-family: "MuseoSans_500";
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.galleryItem--desktop-search-gallery--normal :global(.vtex-product-summary-2-x-price_sellingPrice) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  padding-left: 0px!important;
+  padding-top: 0px!important;
+  margin-left: 16px!important;
+  margin-right: 16px!important;
+}
+
+/* search page wishlist*/
+
+
+.galleryItem--desktop-search-gallery-wishlist--normal :global(.vtex-button) {
+  outline: none;
+  bottom: 402px;
+  left: 112px;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+  min-height: unset!important;
+}
+
+
+.galleryItem--desktop-search-gallery-wishlist--normal :global(.vtex-button__label) {
+  background-image: url(/arquivos/black_heart@4x.png);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 17px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+  padding-top: 0px!important;
+  padding-bottom: 0px!important;
+  background-color: transparent;
+  position: relative;
+}
+
+.galleryItem--desktop-search-gallery-wishlist--normal :global(.vtex-button__label):hover {
+  background-image: url(/arquivos/heart_green@4x.png);
+}
+
+.galleryItem--desktop-search-gallery-wishlist--normal :global(.vtex-product-summary-2-x-image) {
+  object-fit: cover!important;
+  border: 0.1px solid #cacbcc!important;
+  height: 285px!important;
+}
+
+:global(.vtex-slider-layout-0-x-sliderTrack--shelf-tutti-i-prodotti) {
+  cursor: default;
+  will-change: transform!important;
+}
+
+.galleryItem--desktop-search-gallery-wishlist--normal :global(.vtex-wish-list-1-x-iconSize) {
+  display: inline-block;
+  width: unset!important;
+  height: unset!important;
+}
+
+
+.galleryItem--desktop-search-gallery-wishlist--normal :global(.vtex-product-summary-2-x-imageContainer) {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+:global(.vtex-slider-layout-0-x-slide--shelf-tutti-i-prodotti-radu) {
+  margin: 0 35px;
+}
+
+.galleryItem--desktop-search-gallery-wishlist--normal :global(.vtex-product-summary-2-x-nameContainer) {
+  width: 100%;
+  height: 90px;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  color: #001930;
+  font-family: "MuseoSans_500";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.galleryItem--desktop-search-gallery-wishlist--normal :global(.vtex-product-summary-2-x-productNameContainer) {
+  font-family: "MuseoSans_500";
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.galleryItem--desktop-search-gallery-wishlist--normal :global(.vtex-product-summary-2-x-price_sellingPrice) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  padding-left: 0px!important;
+  padding-top: 0px!important;
+  margin-left: 16px!important;
+  margin-right: 16px!important;
+}
+
+.galleryItem--desktop-search-gallery-wishlist--normal {
+  flex-basis: unset!important;
+}
+
+.galleryItem--desktop-search-gallery-wishlist--normal {
+  width: 33%;
+  max-width: 33% !important;
+  padding: 0px!important;
+}
+
+.gallery--desktop-search-gallery-wishlist {
+  padding: 0px!important;
+  margin: 0px!important;
+}
+.galleryItem--desktop-search-gallery-wishlist--normal :global(.vtex-product-summary-2-x-element) {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
 
