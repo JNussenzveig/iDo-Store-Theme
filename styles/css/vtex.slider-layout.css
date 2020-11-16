@@ -330,8 +330,7 @@
   justify-content: unset;
 }
 
-<<<<<<< HEAD
-=======
+
 
 .slideChildrenContainer--wishlist-page-shelf :global(.vtex-product-summary-2-x-image) {
   border: .5px solid #cacbcc;
@@ -379,4 +378,4 @@
   margin-bottom: 30px;
 }
 
->>>>>>> e19ce832a46c4542d182c27046653113f6b2f395
+
