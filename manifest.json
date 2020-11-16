@@ -1,7 +1,7 @@
 {
   "vendor": "storeido",
   "name": "andrei",
-  "version": "7.0.0",
+  "version": "6.0.7",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -59,8 +59,7 @@
     "vtex.store-form": "0.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.condition-layout": "2.x",
-    "storeido.store-locator": "0.x",
-    "storeido.my-account": "0.x"
+    "storeido.store-locator": "0.x"
   },
   "peerDependencies": {
     "codeby.product-specification-accordion": "1.x",
