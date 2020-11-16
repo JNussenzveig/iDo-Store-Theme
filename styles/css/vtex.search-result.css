@@ -267,6 +267,7 @@
   border-radius: 16px;
   border: 1px solid #001930;
   background-color: transparent;
+  outline: none;
 }
 
 .buttonShowMore :global(.vtex-button__label) {
@@ -1329,9 +1330,17 @@
   display: none;
 }
 
-:global(.vtex-account) :global(.vtex-wish-list-1-x-wishlistIconContainer) {
-  display: none;
+:global(.vtex-account) :global(.vtex-product-summary-2-x-nameWrapper) {
+  text-align: left;
 }
+
+
+
+:global(.vtex-account) :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) {
+  margin-bottom: 0px!important;
+  margin-top: 0px!important;
+}
+<<<<<<< HEAD
 }
 
 /* seach page with wishlist and border*/
@@ -1500,3 +1509,6 @@
   padding-left: 2px;
   padding-right: 2px;
 }
+=======
+
+>>>>>>> e19ce832a46c4542d182c27046653113f6b2f395

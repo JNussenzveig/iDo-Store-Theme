@@ -77,6 +77,7 @@
     font-size: 18px;
     text-transform: uppercase;
     transition: .3s;
+    outline: none;
   }
 
   .stackItem--firstStackWithImage :global(.vtex-button) :hover {
@@ -98,6 +99,7 @@
     font-size: 18px;
     text-transform: uppercase;
     transition: .3s;
+    outline: none;
   }
 
   .stackItem--secondLayerMobile :global(.vtex-button) :hover {
@@ -194,6 +196,7 @@
   top: 327px;
   margin-left: 27px;
   position: absolute;
+  outline: none;
 }
 
   .stackItem--hatSliderStack--firstLayer :global(.vtex-button) {
@@ -210,6 +213,7 @@
     top: 327px;
     left: 278px;
     position: absolute;
+    outline: none;
   }
 
 
@@ -277,6 +281,7 @@
     border-color: white;
     font-weight: bold;
     transition: .3s;
+    outline: none;
   }
 
 

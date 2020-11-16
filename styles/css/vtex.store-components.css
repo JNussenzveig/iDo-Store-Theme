@@ -137,6 +137,7 @@
   color: #fff;
   border: none;
   margin-right: -24px;
+  outline: none;
 }
 
 .buttonContainer {
@@ -227,6 +228,7 @@
   font-family: "MuseoSans_700";
   font-size: 18px;
   text-transform: uppercase;
+  outline: none;
 }
 
 .infoCardContainer--info-card-backtoschool-mobile {
@@ -620,6 +622,7 @@
     height: auto!important;
     margin-left: 0px!important;
     font-size: 20px!important;
+    outline: none;
   }
 
   .carouselGaleryThumbs--productImageMobile {
@@ -648,6 +651,7 @@
   border: unset!important;
   height: unset!important;
   width: unset!important;
+  outline: none;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent) .seeMoreButton :global(.vtex-button__label) {
@@ -691,6 +695,7 @@
     position: absolute;
     bottom: 52px;
     left: 39px;
+    outline: none;
   }
 
   .infoCardContainer--info-card-shop-by-look-mobile {
@@ -716,6 +721,7 @@
     position: absolute;
     bottom: 22px;
     left: 22px;
+    outline: none;
   }
 
 
@@ -766,6 +772,7 @@ Store locator desktop version final*/
     border-radius: 25px;
     background-color: #ffffff;
     transition: .3s;
+    outline: none;
   }
 
   .infoCardContainer--store-locator-desktop :global(.vtex-button):hover {
@@ -831,6 +838,7 @@ Store locator desktop version final*/
     border-radius: 25px;
     background-color: #001930;
     text-decoration: none;
+    outline: none;
   }
 
   .infoCardContainer--newsletter-desktop :global(.vtex-button):hover {
@@ -1708,6 +1716,7 @@ store locator mobile version final */
   color: white;
 }
 
+
 @media screen and (max-width: 2500px) {
   .infoCardTextContainer--slider-home-page-info-card-1 {
     margin-left: auto;
@@ -1968,4 +1977,17 @@ store locator mobile version final */
   height: 70px;
 }
 
+
+
+
+.productImagesGallerySwiperContainer--productImageDesktop .swiperBullet {
+  height: 3px !important;
+  width: 50% !important;
+  max-width: 200px !important;
+  padding: 0px;
+  flex: 1;
+  border-radius: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
