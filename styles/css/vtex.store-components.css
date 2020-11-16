@@ -1548,6 +1548,11 @@ store locator mobile version final */
   background-color: #001930;
 }
 
+:global(.vtex-modal-layout-0-x-triggerContainer--modal-trigger-aprire-un-franchising-form):hover {
+  border: 1px solid;
+  border-color: #001930;
+  background-color: #ffffff;
+}
 
 
 :global(.vtex-rich-text-0-x-paragraph--franchisingTextButton) {
@@ -1562,6 +1567,10 @@ store locator mobile version final */
   margin-top: 9px;
   margin-bottom: 0px;
   text-align: center;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--franchisingTextButton):hover {
+  color: #001930;
 }
 
 

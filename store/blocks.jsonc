@@ -79,7 +79,7 @@
 
   "product-summary-image": {
     "props": {
-      "height": 220
+      "width": 260
     }
   },
 

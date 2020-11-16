@@ -558,7 +558,7 @@
 }
 
 :global(.vtex-special-p) {
-  color: #5a5a5a;
+  color: #001930;
   font-family: "MuseoSans_500";
   font-size: 16px;
   line-height: 19px;
@@ -3956,16 +3956,15 @@
   margin-bottom: 20px;
 }
 
-:global(.vtex-lavora-con-noi-link) {
+/*:global(.vtex-lavora-con-noi-link) {
   font-family: "MuseoSans_700";
   font-size: 16px;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 24px;
   text-align: left;
   text-decoration: underline;
   color: #001930;
-}
+}*/
 
 /* footer mobile */
 
@@ -4450,9 +4449,14 @@
   font-style: normal;
   letter-spacing: normal;
   text-decoration: none;
-  top: 7px;
-  left: 33px;
+  top: 6px;
+  left: 32px;
   position: relative;
+}
+
+:global(.vtex-lavora-con-noi-link):hover {
+  color: #001930;
+  padding: 0px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--lavora-con-noi-link) {
@@ -4464,6 +4468,12 @@
   margin-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--lavora-con-noi-link):hover {
+  background-color: #ffffff;
+  border-color: #001930;
+  border-style: solid;
 }
 
 :global(.vtex-rich-text-0-x-container--lavora-con-noi-link) {
@@ -4585,3 +4595,11 @@
   margin-bottom: 0px;
 }
 
+:global(.vtex-rich-text-0-x-listItem--contentFranchising2) {
+  color: #001930;
+  font-family: "MuseoSans_500";
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+}

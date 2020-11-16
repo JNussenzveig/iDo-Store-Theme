@@ -275,11 +275,12 @@
       "blocks": ["product-summary.shelf#tutti-i-prodotti"],
       "props": {
         "blockClass": "shelf-tutti-i-prodotti-radu",
-        "category":2 ,
-        "orderBy": "OrderByTopSaleDESC",
+        "category": 1 ,
+        "orderBy": "OrderByPriceASC",
+        "hideUnavailableItems": true,
         "paginationDotsVisibility": "desktopOnly",
         "productList": {
-          "maxItems": 4,
+          "maxItems": 50,
           "itemsPerPage": 4,
           "minItemsPerPage": 1,
           "scroll": "BY_PAGE",
