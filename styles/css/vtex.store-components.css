@@ -1991,3 +1991,208 @@ store locator mobile version final */
   margin-right: 0px;
 }
 
+/* HOME PAGE MOBILE start here*/
+
+:global(.vtex-store-components-3-x-infoCardContainer--slider-home-page-info-card-1-mobile) {
+  height: 610px;
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--slider-home-page-info-card-2-mobile) {
+  height: 610px;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--slider-home-page-info-card-1-mobile) {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  position: relative;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--slider-home-page-info-card-2-mobile) {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  position: relative;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--slider-home-page-info-card-1-mobile) {
+  margin-top: 0px;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 45px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+  bottom: 179px;
+  position: relative;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--slider-home-page-info-card-2-mobile) {
+  margin-top: 0px;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 45px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+:global(.vtex-store-components-3-x-infoCardSubhead--slider-home-page-info-card-1-mobile) {
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 19px;
+  text-align: left;
+  bottom: 169px;
+  position: relative;
+  margin-top: 0px;
+}
+
+:global(.vtex-store-components-3-x-infoCardSubhead--slider-home-page-info-card-2-mobile) {
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 19px;
+  text-align: left;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-1-mobile :global(.vtex-button) {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--slider-home-page-info-card-1-mobile) {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  position: relative;
+  top: 153px;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-2-mobile :global(.vtex-button) {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-1-mobile :global(.vtex-button__label) {
+  color: #002c50;
+  font-family: "MuseoSans_700";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-2-mobile :global(.vtex-button__label) {
+  color: #002c50;
+  font-family: "MuseoSans_700";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.infoCardCallActionContainer--slider-home-page-info-card-1-second-button-mobile :global(.vtex-button) {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-1-second-button-mobile :global(.vtex-button):hover {
+  background-color: #001930;
+  border: none;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-2-second-button-mobile :global(.vtex-button) {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-2-second-button-mobile :global(.vtex-button):hover {
+  background-color: #001930;
+  border: none;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-1-second-button-mobile :global(.vtex-button__label) {
+  color: #002c50;
+  font-family: "MuseoSans_700";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-1-second-button-mobile :global(.vtex-button__label):hover {
+  color: #ffffff;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-2-second-button-mobile :global(.vtex-button__label) {
+  color: #002c50;
+  font-family: "MuseoSans_700";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-2-second-button-mobile :global(.vtex-button__label) {
+  color: #ffffff;
+}
+
+:global(.vtex-stack-layout-0-x-stackItem--flex-row-slider-home-page-mobile--slider-home-page-info-card-1-second-button-mobile) {
+  width: 100%;
+  top: 516px;
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--slider-home-page-info-card-1-second-button-mobile) {
+  position: relative;
+  border: none;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--slider-home-page-info-card-1-second-button-mobile) {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--slider-home-page-info-card-1-second-button-mobile) {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--home-page-logo-mobile) {
+  width: 65px;
+  height: 38px;
+}

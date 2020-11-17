@@ -404,6 +404,8 @@
 .filter__container--specificationFilter_18 :global(.vtex__icon-check) {
   width: 0px;
   height: 0px;
+ width: 0px;
+ height: 0px;
 }
 .filter__container--specificationFilter_26 :global(.vtex-checkbox__box) {
   position: static;
@@ -1320,27 +1322,28 @@
   }
 }
 
-  :global(.vtex-account) :global(.vtex-slider-layout-0-x-slide--shelf) {
-    width: 25% !important;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+:global(.vtex-account) :global(.vtex-slider-layout-0-x-slide--shelf) {
+  width: 25%!important;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
-  :global(.vtex-account) :global(.vtex-slider-layout-0-x-sliderArrows--shelf) {
-    display: none;
-  }
+:global(.vtex-account) :global(.vtex-slider-layout-0-x-sliderArrows--shelf) {
+  display: none;
+}
 
-  :global(.vtex-account) :global(.vtex-product-summary-2-x-nameWrapper) {
-    text-align: left;
-  }
+:global(.vtex-account) :global(.vtex-product-summary-2-x-nameWrapper) {
+  text-align: left;
+}
 
 
 
 :global(.vtex-account) :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) {
   margin-bottom: 0px!important;
   margin-top: 0px!important;
+}
 
-)
+
 
 /* seach page with wishlist and border*/
 
@@ -1439,6 +1442,11 @@
   width: unset!important;
   height: unset!important;
 }
+
+
+
+
+
 
 
 .galleryItem--desktop-search-gallery-wishlist--normal :global(.vtex-product-summary-2-x-imageContainer) {

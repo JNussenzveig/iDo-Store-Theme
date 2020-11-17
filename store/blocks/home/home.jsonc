@@ -7,7 +7,7 @@
   },
     "responsive-layout.desktop#home": {
       "children": [
-        "slider-layout#andrei-images",
+        "slider-layout#images",
         "flex-layout.row#list-context",
         "flex-layout.row#title-Look-Book",
         "flex-layout.row#backToSchool",
@@ -24,8 +24,8 @@
 
     "responsive-layout.mobile#home": {
       "children": [
-        "slider-layout#andrei-images-mobile",
-        "flex-layout.row#list-context-mobile",
+        "slider-layout#images-mobile"
+ /*       "flex-layout.row#list-context-mobile",
         "flex-layout.row#title-Look-Book-mobile",
         "flex-layout.row#backToSchool-mobile",
         "flex-layout.row#shelf-title-category-mobile",
@@ -35,11 +35,11 @@
         "flex-layout.row#colours-mobile",
         "flex-layout.row#store-locator-home-page-mobile",
         "flex-layout.row#outlet-home-page-mobile",
-        "flex-layout.row#newslwtter-banner-hp-mobile"
+        "flex-layout.row#newslwtter-banner-hp-mobile"*/
       ]
     },
 
-      "slider-layout#andrei-images": {
+      "slider-layout#images": {
         "children": [
         "flex-layout.row#slider-home-page-info-card-1",
         "flex-layout.row#slider-home-page-info-card-2",

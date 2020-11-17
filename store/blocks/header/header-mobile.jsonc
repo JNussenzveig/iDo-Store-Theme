@@ -6,6 +6,7 @@
   "sticky-layout.stack-container#header-mobile": {
     "props": {
       "position": "top"
+
     },
     "children": [
       "sticky-layout#links-menu-mobile",
@@ -14,6 +15,9 @@
   },
 
   "sticky-layout#links-menu-mobile": {
+      "props": {
+        "blockClass": "sticky-layout-menu-link-mobile"
+        },
     "children": ["flex-layout.row#level1-top-menu-mobile"]
   },
   "sticky-layout#notification-bar-mobile": {
@@ -43,13 +47,20 @@
 
   "flex-layout.col#logo-mobile": {
     "props": {
-      "blockClass": "logo-mobile"
+      "blockClass": "home-page-logo-mobile"
     },
-    "children": ["logo#mobile"]
+    "children": ["image#home-page-mobile"]
   },
 
 
-  "logo#mobile": {
+  "image#home-page-mobile": {
+    "props": {
+     "src": "/arquivos/logo_ido_mobile@4x.png",
+     "blockClass": "home-page-logo-mobile"
+      }
+  },
+
+/*  "logo#home-page-mobile": {
     "props": {
       "title": "Logo",
       "href": "/",
@@ -57,7 +68,7 @@
       "width": "72",
       "height": "43"
     }
-  },
+  },*/
 
   "flex-layout.col#header-nav-menu-mobile": {
   "children": [
@@ -170,20 +181,27 @@
 
    "flex-layout.row#level2-notification-bar-mobile": {
        "children": [
-         "notification.bar#home-mobile"
+         "rich-text#notification-bar-mobile"
        ],
        "props": {
        "fullWidth": "true",
-       "display": "false",
        "blockClass": "level2-notification-bar-mobile"
        }
    },
 
-  "notification.bar#home-mobile": {
+  "rich-text#notification-bar-mobile": {
+    "props": {
+      "text": "RITIRO IN NEGOZIO GRATUITO",
+      "blockClass": "notification-bar-mobile"
+    }
+  },
+
+
+ /* "notification.bar#home-mobile": {
     "props": {
       "content": "RITIRO IN NEGOZIO GRATUITO"
     }
-  },
+  },*/
 /*burger menu mobile*/
 
   "flex-layout.col#burger-menu-mobile": {

@@ -204,7 +204,7 @@
     },
     "image#category-Bambino3-16anni": {
        "props": {
-        "src": "/arquivos/",
+        "src": "/arquivos/Bambina3_16_anni@4x.png",
         "blockClass": "guida-alle-taglie-category-images"
         }
     },
@@ -824,6 +824,10 @@
 
 
 
+
+
+
+
 /*mobile*/
 
    "flex-layout.row#guida-alle-taglie-mobile": {
@@ -838,8 +842,8 @@
 
      "flex-layout.col#guida-alle-taglie-content-mobile": {
        "children": [
-         "flex-layout.col#abbigliamento",
-         "flex-layout.col#accessori"
+         "flex-layout.col#abbigliamento-mobile",
+         "flex-layout.col#accessori-mobile"
        ],
        "props": {
          "preventVerticalStretch": true,
@@ -848,14 +852,14 @@
      },
 
 
-     "flex-layout.col#abbigliamento": {
+     "flex-layout.col#abbigliamento-mobile": {
        "children": [
          "rich-text#abbigliamento",
-         "flex-layout.col#category-Neonato0-18mesi",
-         "flex-layout.col#category-Bambina6-36mesi",
-         "flex-layout.col#category-Bambino6-36mesi",
-         "flex-layout.col#category-Bambina3-16anni",
-         "flex-layout.col#category-Bambino3-16anni"
+         "flex-layout.col#category-Neonato0-18mesi-mobile",
+         "flex-layout.col#category-Bambina6-36mesi-mobile",
+         "flex-layout.col#category-Bambino6-36mesi-mobile",
+         "flex-layout.col#category-Bambina3-16anni-mobile",
+         "flex-layout.col#category-Bambino3-16anni-mobile"
        ],
        "props": {
          "preventVerticalStretch": true,
@@ -863,32 +867,32 @@
        }
      },
 
-   "rich-text#abbigliamento": {
+   "rich-text#abbigliamento-mobile": {
      "props": {
        "text": "Abbigliamento",
        "blockClass": "guida-alle-taglie-category-title"
      }
    },
 
-     "flex-layout.col#category-Neonato0-18mesi": {
+     "flex-layout.col#category-Neonato0-18mesi-mobile": {
         "children": [
-         "rich-text#category-Neonato0-18mesi",
-          "image#category-Neonato0-18mesi"
+         "rich-text#category-Neonato0-18mesi-mobile",
+          "image#category-Neonato0-18mesi-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-Neonato0-18mesi": {
+     "rich-text#category-Neonato0-18mesi-mobile": {
          "props": {
          "text": "Neonato      0 - 18 mesi",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-Neonato0-18mesi": {
+     "image#category-Neonato0-18mesi-mobile": {
         "props": {
-         "src": "/arquivos/neonato_0_18_mesi_desktop@4x.png",
+         "src": "/arquivos/Neonato 0-18 mesi.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
@@ -896,128 +900,128 @@
 
 
 
-     "flex-layout.col#category-Bambina6-36mesi": {
+     "flex-layout.col#category-Bambina6-36mesi-mobile": {
         "children": [
-         "rich-text#category-Bambina6-36mesi",
-          "image#category-Bambina6-36mesi"
+         "rich-text#category-Bambina6-36mesi-mobile",
+          "image#category-Bambina6-36mesi-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-Bambina6-36mesi": {
+     "rich-text#category-Bambina6-36mesi-mobile": {
          "props": {
          "text": "Bambina      6 - 36 mesi",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-Bambina6-36mesi": {
+     "image#category-Bambina6-36mesi-mobile": {
         "props": {
-         "src": "/arquivos/bambina3_16mesi@4x.png",
+         "src": "/arquivos/Bambina 6-36 mesi.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
 
-     "flex-layout.col#category-Bambino6-36mesi": {
+     "flex-layout.col#category-Bambino6-36mesi-mobile": {
         "children": [
-         "rich-text#category-Bambino6-36mesi",
-          "image#category-Bambino6-36mesi"
+         "rich-text#category-Bambino6-36mesi-mobile",
+          "image#category-Bambino6-36mesi-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-Bambino6-36mesi": {
+     "rich-text#category-Bambino6-36mesi-mobile": {
          "props": {
          "text": "Bambino      6 - 36 mesi",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-Bambino6-36mesi": {
+     "image#category-Bambino6-36mesi-mobile": {
         "props": {
-         "src": "/arquivos/bambino6_36mesi@4x.png",
+         "src": "/arquivos/Bambino 6-36 mesi.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
-     "flex-layout.col#category-Bambina3-16anni": {
+     "flex-layout.col#category-Bambina3-16anni-mobile": {
         "children": [
-         "rich-text#category-Bambina3-16anni",
-          "image#category-Bambina3-16anni"
+         "rich-text#category-Bambina3-16anni-mobile",
+          "image#category-Bambina3-16anni-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-Bambina3-16anni": {
+     "rich-text#category-Bambina3-16anni-mobile": {
          "props": {
          "text": "Bambina      3 - 16 anni",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-Bambina3-16anni": {
+     "image#category-Bambina3-16anni-mobile": {
         "props": {
-         "src": "/arquivos/Bambina3_16_anni@4x.png",
+         "src": "/arquivos/Bambina 3-16 anni.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
-     "flex-layout.col#category-Bambino3-16anni": {
+     "flex-layout.col#category-Bambino3-16anni-mobile": {
         "children": [
-         "rich-text#category-Bambino3-16anni",
-          "image#category-Bambino3-16anni"
+         "rich-text#category-Bambino3-16anni-mobile",
+          "image#category-Bambino3-16anni-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-Bambino3-16anni": {
+     "rich-text#category-Bambino3-16anni-mobile": {
          "props": {
          "text": "Bambino      3 - 16 anni",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-Bambino3-16anni": {
+     "image#category-Bambino3-16anni-mobile": {
         "props": {
-         "src": "/arquivos/",
+         "src": "/arquivos/Bambino 3-16 anni.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
  /*accessori*/
 
-     "flex-layout.col#accessori": {
+     "flex-layout.col#accessori-mobile": {
        "children": [
-         "rich-text#Accessori",
-         "flex-layout.col#category-Scarpette",
-           "flex-layout.col#category-CalzamagliaNeonato0-18mesi",
-           "flex-layout.col#category-CalzamagliaBambino-a6-36mesi",
-           "flex-layout.col#category-CalzamagliaBambino-a3-16anni",
-           "flex-layout.col#category-CalzinoNeonato0-18mesi",
-           "flex-layout.col#category-Calzino6-36mesi",
-           "flex-layout.col#category-CalzinoBambino-a3-16anni",
-           "flex-layout.col#category-CappelliNeonato0-18mesi-tessutononelastico",
-           "flex-layout.col#category-Cappelli6-36mesi-tessutononelastico",
-           "flex-layout.col#category-CappelliBambino-a3-16anni-tessutononelastico",
-           "flex-layout.col#category-CappelliNeonato0-18mesi-tessutoelastico",
-           "flex-layout.col#category-Cappelli6-36mesi-tessutoelastico",
-           "flex-layout.col#category-CappelliBambino-a3-16anni-tessutoelastico",
-           "flex-layout.col#category-Cinture6-36mesi",
-           "flex-layout.col#category-CintureBambino-a3-16anni",
-           "flex-layout.col#category-Cravatte-Papillon-SciarpeNeonato0-18mesi",
-           "flex-layout.col#category-Cravatte-Papillon-Sciarpe6-36mesi",
-           "flex-layout.col#category-Cravatte-Papillon-Sciarpe3-16anni",
-           "flex-layout.col#category-Sciarpe6-36mesi",
-           "flex-layout.col#category-Sciarpe3-16anni",
-           "flex-layout.col#category-Foulard6-36mesi",
-           "flex-layout.col#category-Foulard3-16anni",
-           "flex-layout.col#category-Papillon6-36mesi",
-           "flex-layout.col#category-Papillon3-16anni"
+         "rich-text#Accessori-mobile",
+         "flex-layout.col#category-Scarpette-mobile",
+           "flex-layout.col#category-CalzamagliaNeonato0-18mesi-mobile",
+           "flex-layout.col#category-CalzamagliaBambino-a6-36mesi-mobile",
+           "flex-layout.col#category-CalzamagliaBambino-a3-16anni-mobile",
+           "flex-layout.col#category-CalzinoNeonato0-18mesi-mobile",
+           "flex-layout.col#category-Calzino6-36mesi-mobile",
+           "flex-layout.col#category-CalzinoBambino-a3-16anni-mobile",
+           "flex-layout.col#category-CappelliNeonato0-18mesi-tessutononelastico-mobile",
+           "flex-layout.col#category-Cappelli6-36mesi-tessutononelastico-mobile",
+           "flex-layout.col#category-CappelliBambino-a3-16anni-tessutononelastico-mobile",
+           "flex-layout.col#category-CappelliNeonato0-18mesi-tessutoelastico-mobile",
+           "flex-layout.col#category-Cappelli6-36mesi-tessutoelastico-mobile",
+           "flex-layout.col#category-CappelliBambino-a3-16anni-tessutoelastico-mobile",
+           "flex-layout.col#category-Cinture6-36mesi-mobile",
+           "flex-layout.col#category-CintureBambino-a3-16anni-mobile",
+           "flex-layout.col#category-Cravatte-Papillon-SciarpeNeonato0-18mesi-mobile",
+           "flex-layout.col#category-Cravatte-Papillon-Sciarpe6-36mesi-mobile",
+           "flex-layout.col#category-Cravatte-Papillon-Sciarpe3-16anni-mobile",
+           "flex-layout.col#category-Sciarpe6-36mesi-mobile",
+           "flex-layout.col#category-Sciarpe3-16anni-mobile",
+           "flex-layout.col#category-Foulard6-36mesi-mobile",
+           "flex-layout.col#category-Foulard3-16anni-mobile",
+           "flex-layout.col#category-Papillon6-36mesi-mobile",
+           "flex-layout.col#category-Papillon3-16anni-mobile"
        ],
        "props": {
          "preventVerticalStretch": true,
@@ -1025,7 +1029,7 @@
        }
      },
 
-   "rich-text#Accessori": {
+   "rich-text#Accessori-mobile": {
      "props": {
        "text": "Accessori",
        "blockClass": "guida-alle-taglie-category-title"
@@ -1034,564 +1038,564 @@
 
 
 
-     "flex-layout.col#category-Scarpette": {
+     "flex-layout.col#category-Scarpette-mobile": {
         "children": [
-         "rich-text#category-Scarpette",
-          "image#category-Scarpette"
+         "rich-text#category-Scarpette-mobile",
+          "image#category-Scarpette-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-Scarpette": {
+     "rich-text#category-Scarpette-mobile": {
          "props": {
          "text": "Scarpette",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-Scarpette": {
+     "image#category-Scarpette-mobile": {
         "props": {
-         "src": "/arquivos/scarpete_cat@4x.png",
+         "src": "/arquivos/Scarpette.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
-     "flex-layout.col#category-CalzamagliaNeonato0-18mesi": {
+     "flex-layout.col#category-CalzamagliaNeonato0-18mesi-mobile": {
         "children": [
-         "rich-text#category-CalzamagliaNeonato0-18mesi",
-          "image#category-CalzamagliaNeonato0-18mesi"
+         "rich-text#category-CalzamagliaNeonato0-18mesi-mobile",
+          "image#category-CalzamagliaNeonato0-18mesi-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-CalzamagliaNeonato0-18mesi": {
+     "rich-text#category-CalzamagliaNeonato0-18mesi-mobile": {
          "props": {
          "text": "Calzamaglia Neonato 0-18 mesi",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-CalzamagliaNeonato0-18mesi": {
+     "image#category-CalzamagliaNeonato0-18mesi-mobile": {
         "props": {
-         "src": "/arquivos/calzamaglia_neonato@4x.png",
+         "src": "/arquivos/Calzamaglia Neonato 0 - 18 mesi.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
-     "flex-layout.col#category-CalzamagliaBambino-a6-36mesi": {
+     "flex-layout.col#category-CalzamagliaBambino-a6-36mesi-mobile": {
         "children": [
-         "rich-text#category-CalzamagliaBambino-a6-36mesi",
-          "image#category-CalzamagliaBambino-a6-36mesi"
+         "rich-text#category-CalzamagliaBambino-a6-36mesi-mobile",
+          "image#category-CalzamagliaBambino-a6-36mesi-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-CalzamagliaBambino-a6-36mesi": {
+     "rich-text#category-CalzamagliaBambino-a6-36mesi-mobile": {
          "props": {
          "text": "Calzamaglia Bambino/a 6-36 mesi",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-CalzamagliaBambino-a6-36mesi": {
+     "image#category-CalzamagliaBambino-a6-36mesi-mobile": {
         "props": {
-         "src": "/arquivos/Calzamaglia_Bambino_a_6-36_mesi@4x.png",
+         "src": "/arquivos/Calzamaglia Bambino 6 - 36 mesi.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
-     "flex-layout.col#category-CalzamagliaBambino-a3-16anni": {
+     "flex-layout.col#category-CalzamagliaBambino-a3-16anni-mobile": {
         "children": [
-         "rich-text#category-CalzamagliaBambino-a3-16anni",
-          "image#category-CalzamagliaBambino-a3-16anni"
+         "rich-text#category-CalzamagliaBambino-a3-16anni-mobile",
+          "image#category-CalzamagliaBambino-a3-16anni-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-CalzamagliaBambino-a3-16anni": {
+     "rich-text#category-CalzamagliaBambino-a3-16anni-mobile": {
          "props": {
          "text": "Calzamaglia Bambino/a 3-16 anni",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-CalzamagliaBambino-a3-16anni": {
+     "image#category-CalzamagliaBambino-a3-16anni-mobile": {
         "props": {
-         "src": "/arquivos/CalzamagliaBambina6_16_anni@4x.png",
+         "src": "/arquivos/Calzamaglia Bambina 6 - 36 mesi.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
 
-     "flex-layout.col#category-CalzinoNeonato0-18mesi": {
+     "flex-layout.col#category-CalzinoNeonato0-18mesi-mobile": {
         "children": [
-         "rich-text#category-CalzinoNeonato0-18mesi",
-          "image#category-CalzinoNeonato0-18mesi"
+         "rich-text#category-CalzinoNeonato0-18mesi-mobile",
+          "image#category-CalzinoNeonato0-18mesi-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-CalzinoNeonato0-18mesi": {
+     "rich-text#category-CalzinoNeonato0-18mesi-mobile": {
          "props": {
          "text": "Calzino Neonato 0-18 mesi",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-CalzinoNeonato0-18mesi": {
+     "image#category-CalzinoNeonato0-18mesi-mobile": {
         "props": {
-         "src": "/arquivos/Calzino_Neonato_0-18_mesi@4x.png",
+         "src": "/arquivos/Calzino Neonato 0 - 18 mesi.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
-     "flex-layout.col#category-Calzino6-36mesi": {
+     "flex-layout.col#category-Calzino6-36mesi-mobile": {
         "children": [
-         "rich-text#category-Calzino6-36mesi",
-          "image#category-Calzino6-36mesi"
+         "rich-text#category-Calzino6-36mesi-mobile",
+          "image#category-Calzino6-36mesi-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-Calzino6-36mesi": {
+     "rich-text#category-Calzino6-36mesi-mobile": {
          "props": {
          "text": "Calzino Bambino/a 6-36 mesi",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-Calzino6-36mesi": {
+     "image#category-Calzino6-36mesi-mobile": {
         "props": {
-         "src": "/arquivos/Calzin__Bambino_a_6_36_mesi@4x.png",
+         "src": "/arquivos/Calzino 6-36 mesi.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
-     "flex-layout.col#category-CalzinoBambino-a3-16anni": {
+     "flex-layout.col#category-CalzinoBambino-a3-16anni-mobile": {
         "children": [
-         "rich-text#category-CalzinoBambino-a3-16anni",
-          "image#category-CalzinoBambino-a3-16anni"
+         "rich-text#category-CalzinoBambino-a3-16anni-mobile",
+          "image#category-CalzinoBambino-a3-16anni-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-CalzinoBambino-a3-16anni": {
+     "rich-text#category-CalzinoBambino-a3-16anni-mobile": {
          "props": {
          "text": "Calzino Bambino/a 3-16 anni",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-CalzinoBambino-a3-16anni": {
+     "image#category-CalzinoBambino-a3-16anni-mobile": {
         "props": {
-         "src": "/arquivos/Calzino_Bambino-a_3-16_anni@4x.png",
+         "src": "/arquivos/Calzino Bambino-a 3-16 anni.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
 
-     "flex-layout.col#category-CappelliNeonato0-18mesi-tessutononelastico": {
+     "flex-layout.col#category-CappelliNeonato0-18mesi-tessutononelastico-mobile": {
         "children": [
-         "rich-text#category-CappelliNeonato0-18mesi-tessutononelastico",
-          "image#category-CappelliNeonato0-18mesi-tessutononelastico"
+         "rich-text#category-CappelliNeonato0-18mesi-tessutononelastico-mobile",
+          "image#category-CappelliNeonato0-18mesi-tessutononelastico-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-CappelliNeonato0-18mesi-tessutononelastico": {
+     "rich-text#category-CappelliNeonato0-18mesi-tessutononelastico-mobile": {
          "props": {
          "text": "Cappelli Neonato 0-18 mesi - tessuto non elastico",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-CappelliNeonato0-18mesi-tessutononelastico": {
+     "image#category-CappelliNeonato0-18mesi-tessutononelastico-mobile": {
         "props": {
-         "src": "/arquivos/CappelliNeonato0-18_mesi_tessuto_non_elastico@4x.png",
+         "src": "/arquivos/Cappelli Neonato 0-18 mesi - non elastico.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
-     "flex-layout.col#category-Cappelli6-36mesi-tessutononelastico": {
+     "flex-layout.col#category-Cappelli6-36mesi-tessutononelastico-mobile": {
         "children": [
-         "rich-text#category-Cappelli6-36mesi-tessutononelastico",
-          "image#category-Cappelli6-36mesi-tessutononelastico"
+         "rich-text#category-Cappelli6-36mesi-tessutononelastico-mobile",
+          "image#category-Cappelli6-36mesi-tessutononelastico-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-Cappelli6-36mesi-tessutononelastico": {
+     "rich-text#category-Cappelli6-36mesi-tessutononelastico-mobile": {
          "props": {
          "text": "Cappelli Bambino/a 6-36 mesi - tessuto non elastico",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-Cappelli6-36mesi-tessutononelastico": {
+     "image#category-Cappelli6-36mesi-tessutononelastico-mobile": {
         "props": {
-         "src": "/arquivos/a_6-36_mesi_-_tessuto_non_elastico@4x.png",
+         "src": "/arquivos/Cappelli 6-36 mesi - tessuto non elastico.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
 
-     "flex-layout.col#category-CappelliBambino-a3-16anni-tessutononelastico": {
+     "flex-layout.col#category-CappelliBambino-a3-16anni-tessutononelastico-mobile": {
         "children": [
-         "rich-text#category-CappelliBambino-a3-16anni-tessutononelastico",
-          "image#category-CappelliBambino-a3-16anni-tessutononelastico"
+         "rich-text#category-CappelliBambino-a3-16anni-tessutononelastico-mobile",
+          "image#category-CappelliBambino-a3-16anni-tessutononelastico-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-CappelliBambino-a3-16anni-tessutononelastico": {
+     "rich-text#category-CappelliBambino-a3-16anni-tessutononelastico-mobile": {
          "props": {
          "text": "Cappelli Bambino/a 3-16 anni - tessuto non elastico",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-CappelliBambino-a3-16anni-tessutononelastico": {
+     "image#category-CappelliBambino-a3-16anni-tessutononelastico-mobile": {
         "props": {
-         "src": "/arquivos/CappelliBambino-a3-16anni-tessutononelasticodesktop@4x.png",
+         "src": "/arquivos/Cappelli Bambino-a 3-16 anni - tessuto non elastico.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
 
-     "flex-layout.col#category-CappelliNeonato0-18mesi-tessutoelastico": {
+     "flex-layout.col#category-CappelliNeonato0-18mesi-tessutoelastico-mobile": {
         "children": [
-         "rich-text#category-CappelliNeonato0-18mesi-tessutoelastico",
-          "image#category-CappelliNeonato0-18mesi-tessutoelastico"
+         "rich-text#category-CappelliNeonato0-18mesi-tessutoelastico-mobile",
+          "image#category-CappelliNeonato0-18mesi-tessutoelastico-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-CappelliNeonato0-18mesi-tessutoelastico": {
+     "rich-text#category-CappelliNeonato0-18mesi-tessutoelastico-mobile": {
          "props": {
          "text": "Cappelli Neonato 0-18 mesi - tessuto elastico",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-CappelliNeonato0-18mesi-tessutoelastico": {
+     "image#category-CappelliNeonato0-18mesi-tessutoelastico-mobile": {
         "props": {
-         "src": "/arquivos/Cappelli_Neonato_0-18_mesi_-_tessuto_elastico@4x.png",
+         "src": "/arquivos/Cappelli Neonato 0-18 mesi - tessuto non elastico.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
-     "flex-layout.col#category-Cappelli6-36mesi-tessutoelastico": {
+     "flex-layout.col#category-Cappelli6-36mesi-tessutoelastico-mobile": {
         "children": [
-         "rich-text#category-Cappelli6-36mesi-tessutoelastico",
-          "image#category-Cappelli6-36mesi-tessutoelastico"
+         "rich-text#category-Cappelli6-36mesi-tessutoelastico-mobile",
+          "image#category-Cappelli6-36mesi-tessutoelastico-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-Cappelli6-36mesi-tessutoelastico": {
+     "rich-text#category-Cappelli6-36mesi-tessutoelastico-mobile": {
          "props": {
          "text": "Cappelli Bambino/a 6-36 mesi - tessuto elastico",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-Cappelli6-36mesi-tessutoelastico": {
+     "image#category-Cappelli6-36mesi-tessutoelastico-mobile": {
         "props": {
-         "src": "/arquivos/category-Cappelli6-36mesi-tessutoelastico@4x.png",
+         "src": "/arquivos/Cappelli 6-36 mesi - tessuto elastico.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
-     "flex-layout.col#category-CappelliBambino-a3-16anni-tessutoelastico": {
+     "flex-layout.col#category-CappelliBambino-a3-16anni-tessutoelastico-mobile": {
         "children": [
-         "rich-text#category-CappelliBambino-a3-16anni-tessutoelastico",
-          "image#category-CappelliBambino-a3-16anni-tessutoelastico"
+         "rich-text#category-CappelliBambino-a3-16anni-tessutoelastico-mobile",
+          "image#category-CappelliBambino-a3-16anni-tessutoelastico-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-CappelliBambino-a3-16anni-tessutoelastico": {
+     "rich-text#category-CappelliBambino-a3-16anni-tessutoelastico-mobile": {
          "props": {
          "text": "Cappelli Bambino/a 3-16 anni - tessuto elastico",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-CappelliBambino-a3-16anni-tessutoelastico": {
+     "image#category-CappelliBambino-a3-16anni-tessutoelastico-mobile": {
         "props": {
-         "src": "/arquivos/Cappelli_Bambinoa_3-16_annitessuto_elastico@4x.png",
+         "src": "/arquivos/Cappelli Bambino-a 3-16 anni - tessuto elastico.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
 
 
-     "flex-layout.col#category-Cinture6-36mesi": {
+     "flex-layout.col#category-Cinture6-36mesi-mobile": {
         "children": [
-         "rich-text#category-Cinture6-36mesi",
-          "image#category-Cinture6-36mesi"
+         "rich-text#category-Cinture6-36mesi-mobile",
+          "image#category-Cinture6-36mesi-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-Cinture6-36mesi": {
+     "rich-text#category-Cinture6-36mesi-mobile": {
          "props": {
          "text": "Cinture 6-24 mesi",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-Cinture6-36mesi": {
+     "image#category-Cinture6-36mesi-mobile": {
         "props": {
-         "src": "/arquivos/category-Cinture6-36mesi@4x.png",
+         "src": "/arquivos/Cinture 6-24 mesi.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
-     "flex-layout.col#category-CintureBambino-a3-16anni": {
+     "flex-layout.col#category-CintureBambino-a3-16anni-mobile": {
         "children": [
-         "rich-text#category-CintureBambino-a3-16anni",
-          "image#category-CintureBambino-a3-16anni"
+         "rich-text#category-CintureBambino-a3-16anni-mobile",
+          "image#category-CintureBambino-a3-16anni-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-CintureBambino-a3-16anni": {
+     "rich-text#category-CintureBambino-a3-16anni-mobile": {
          "props": {
          "text": "Cinture Bambino/a 3-16 anni",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-CintureBambino-a3-16anni": {
+     "image#category-CintureBambino-a3-16anni-mobile": {
         "props": {
-         "src": "/arquivos/category-CintureBambino-a3-16anni@4x.png",
+         "src": "/arquivos/Cinture Bambino-a 3-16 anni.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
 
-     "flex-layout.col#category-Cravatte-Papillon-SciarpeNeonato0-18mesi": {
+     "flex-layout.col#category-Cravatte-Papillon-SciarpeNeonato0-18mesi-mobile": {
         "children": [
-         "rich-text#category-Cravatte-Papillon-SciarpeNeonato0-18mesi",
-          "image#category-Cravatte-Papillon-SciarpeNeonato0-18mesi"
+         "rich-text#category-Cravatte-Papillon-SciarpeNeonato0-18mesi-mobile",
+          "image#category-Cravatte-Papillon-SciarpeNeonato0-18mesi-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-Cravatte-Papillon-SciarpeNeonato0-18mesi": {
+     "rich-text#category-Cravatte-Papillon-SciarpeNeonato0-18mesi-mobile": {
          "props": {
          "text": "Cravatte-Papillon-Sciarpe Neonato 0-18 mesi",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-Cravatte-Papillon-SciarpeNeonato0-18mesi": {
+     "image#category-Cravatte-Papillon-SciarpeNeonato0-18mesi-mobile": {
         "props": {
-         "src": "/arquivos/category-Cravatte-Papillon-SciarpeNeonato0-18mesi@4x.png",
+         "src": "/arquivos/Cravatte-Papillon-Sciarpe Neonato 0-18 mesi.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
 
-     "flex-layout.col#category-Cravatte-Papillon-Sciarpe6-36mesi": {
+     "flex-layout.col#category-Cravatte-Papillon-Sciarpe6-36mesi-mobile": {
         "children": [
-         "rich-text#category-Cravatte-Papillon-Sciarpe6-36mesi",
-          "image#category-Cravatte-Papillon-Sciarpe6-36mesi"
+         "rich-text#category-Cravatte-Papillon-Sciarpe6-36mesi-mobile",
+          "image#category-Cravatte-Papillon-Sciarpe6-36mesi-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-Cravatte-Papillon-Sciarpe6-36mesi": {
+     "rich-text#category-Cravatte-Papillon-Sciarpe6-36mesi-mobile": {
          "props": {
          "text": "Cravatte-Papillon-Sciarpe 6-36 mesi",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-Cravatte-Papillon-Sciarpe6-36mesi": {
+     "image#category-Cravatte-Papillon-Sciarpe6-36mesi-mobile": {
         "props": {
-         "src": "/arquivos/category-Cravatte-Papillon-Sciarpe6-36mesi@4x.png",
+         "src": "/arquivos/Cravatte-Papillon-Sciarpe Neonato 6-36 mesi.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
-    "flex-layout.col#category-Cravatte-Papillon-Sciarpe3-16anni": {
+    "flex-layout.col#category-Cravatte-Papillon-Sciarpe3-16anni-mobile": {
         "children": [
-         "rich-text#category-Cravatte-Papillon-Sciarpe3-16anni",
-          "image#category-Cravatte-Papillon-Sciarpe3-16anni"
+         "rich-text#category-Cravatte-Papillon-Sciarpe3-16anni-mobile",
+          "image#category-Cravatte-Papillon-Sciarpe3-16anni-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-Cravatte-Papillon-Sciarpe3-16anni": {
+     "rich-text#category-Cravatte-Papillon-Sciarpe3-16anni-mobile": {
          "props": {
          "text": "Cravatte-Papillon-Sciarpe 3-16 anni",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-Cravatte-Papillon-Sciarpe3-16anni": {
+     "image#category-Cravatte-Papillon-Sciarpe3-16anni-mobile": {
         "props": {
-         "src": "/arquivos/category-Cravatte-Papillon-Sciarpe3-16anni@4x.png",
+         "src": "/arquivos/Cravatte-Papillon-Sciarpe 3-16 anni.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
-    "flex-layout.col#category-Sciarpe6-36mesi": {
+    "flex-layout.col#category-Sciarpe6-36mesi-mobile": {
         "children": [
-         "rich-text#category-Sciarpe6-36mesi",
-          "image#category-Sciarpe6-36mesi"
+         "rich-text#category-Sciarpe6-36mesi-mobile",
+          "image#category-Sciarpe6-36mesi-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-Sciarpe6-36mesi": {
+     "rich-text#category-Sciarpe6-36mesi-mobile": {
          "props": {
          "text": "Sciarpe 6-36 mesi",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-Sciarpe6-36mesi": {
+     "image#category-Sciarpe6-36mesi-mobile": {
         "props": {
-         "src": "/arquivos/category-Sciarpe6-36mesi@4x.png",
+         "src": "/arquivos/Sciarpe 6-36 mesi.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
-    "flex-layout.col#category-Sciarpe3-16anni": {
+    "flex-layout.col#category-Sciarpe3-16anni-mobile": {
         "children": [
-         "rich-text#category-Sciarpe3-16anni",
-          "image#category-Sciarpe3-16anni"
+         "rich-text#category-Sciarpe3-16anni-mobile",
+          "image#category-Sciarpe3-16anni-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-Sciarpe3-16anni": {
+     "rich-text#category-Sciarpe3-16anni-mobile": {
          "props": {
          "text": "Sciarpe 3-16 anni",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-Sciarpe3-16anni": {
+     "image#category-Sciarpe3-16anni-mobile": {
         "props": {
-         "src": "/arquivos/category-Sciarpe3-16anni@4x.png",
+         "src": "/arquivos/Sciarpe 3-16 anni.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
-    "flex-layout.col#category-Foulard6-36mesi": {
+    "flex-layout.col#category-Foulard6-36mesi-mobile": {
         "children": [
-         "rich-text#category-Foulard6-36mesi",
-          "image#category-Foulard6-36mesi"
+         "rich-text#category-Foulard6-36mesi-mobile",
+          "image#category-Foulard6-36mesi-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-Foulard6-36mesi": {
+     "rich-text#category-Foulard6-36mesi-mobile": {
          "props": {
          "text": "Foulard 6-36 mesi",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-Foulard6-36mesi": {
+     "image#category-Foulard6-36mesi-mobile": {
         "props": {
-         "src": "/arquivos/category-Foulard6-36mesi@4x.png",
+         "src": "/arquivos/Foulard 6-36 mesi.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
 
-    "flex-layout.col#category-Foulard3-16anni": {
+    "flex-layout.col#category-Foulard3-16anni-mobile": {
         "children": [
-         "rich-text#category-Foulard3-16anni",
-          "image#category-Foulard3-16anni"
+         "rich-text#category-Foulard3-16anni-mobile",
+          "image#category-Foulard3-16anni-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-Foulard3-16anni": {
+     "rich-text#category-Foulard3-16anni-mobile": {
          "props": {
          "text": "Foulard 3-16 anni",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-Foulard3-16anni": {
+     "image#category-Foulard3-16anni-mobile": {
         "props": {
-         "src": "/arquivos/category-Foulard3-16anni@4x.png",
+         "src": "/arquivos/Foulard 3-16 anni.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
 
-    "flex-layout.col#category-Papillon6-36mesi": {
+    "flex-layout.col#category-Papillon6-36mesi-mobile": {
         "children": [
-         "rich-text#category-Papillon6-36mesi",
-          "image#category-Papillon6-36mesi"
+         "rich-text#category-Papillon6-36mesi-mobile",
+          "image#category-Papillon6-36mesi-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-Papillon6-36mesi": {
+     "rich-text#category-Papillon6-36mesi-mobile": {
          "props": {
          "text": "Papillon 6-36 mesi",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-Papillon6-36mesi": {
+     "image#category-Papillon6-36mesi-mobile": {
         "props": {
-         "src": "/arquivos/category-Papillon6-36mesi@4x.png",
+         "src": "/arquivos/Papillon 6-36 mesi.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      },
 
-    "flex-layout.col#category-Papillon3-16anni": {
+    "flex-layout.col#category-Papillon3-16anni-mobile": {
         "children": [
-         "rich-text#category-Papillon3-16anni",
-          "image#category-Papillon3-16anni"
+         "rich-text#category-Papillon3-16anni-mobile",
+          "image#category-Papillon3-16anni-mobile"
         ],
         "props": {
           "preventVerticalStretch": true,
           "blockClass": "guida-alle-taglie-category-subtitle-images"
         }
      },
-     "rich-text#category-Papillon3-16anni": {
+     "rich-text#category-Papillon3-16anni-mobile": {
          "props": {
          "text": "Papillon 3-16 anni",
          "blockClass": "guida-alle-taglie-subcategory-title"
          }
      },
-     "image#category-Papillon3-16anni": {
+     "image#category-Papillon3-16anni-mobile": {
         "props": {
-         "src": "/arquivos/category-Papillon3-16anni@4x.png",
+         "src": "/arquivos/Papillon 3-16 anni.png",
          "blockClass": "guida-alle-taglie-category-images"
          }
      }

@@ -2349,8 +2349,8 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--header-top-menu-mobile) {
-  margin-top: 63px;
-  margin-bottom: 18px;
+  margin-top: 10px;
+  margin-bottom: 3px;
   margin-left: 21px;
   margin-right: 20px;
   flex-direction: row;
@@ -2415,8 +2415,6 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--menu-link-mobile) {
   background-color: white;
   color: #00263a;
-  transition: background 0.3s ease;
-  will-change: padding,background;
 }
 
 .flex-row-all-static-pages-mobile :global(.vtex-store-components-3-x-container) {
@@ -2433,8 +2431,6 @@
 
 :global(.vtex-slider-layout-0-x-paginationDot--shelf-tutti-i-prodotti-mobile) {
   height: 3px !important;
-  min-width: 60px!important;
-  max-width: 333px!important;
   padding: 0px;
   flex: 1;
   border-radius: 0px;
@@ -3013,3 +3009,13 @@
   background-image: url(/arquivos/heart_green@4x.png);
 }
 
+/* HOME PAGE MOBILE start here*/
+
+:global(.vtex-flex-layout-0-x-flexRow--flex-row-slider-home-page-mobile) {
+  width: 100%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--level2-notification-bar-mobile) {
+  height: 30px;
+  background-color: #aeca3b;
+}
