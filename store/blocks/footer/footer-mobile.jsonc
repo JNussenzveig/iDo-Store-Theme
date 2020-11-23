@@ -76,9 +76,9 @@
 
     "image#facebookFooter-mobile": {
       "props": {
-        "src": "/arquivos/Icon_facebook@4x.png",
-        "maxHeight": 51,
-        "maxWidth": 51,
+        "src": "/arquivos/facebook_icon_footer@4x.png",
+        "maxHeight": 34,
+        "maxWidth": 18,
         "link": {
           "newTab": true,
           "url": "https://it-it.facebook.com/iDO.kidswear"
@@ -97,9 +97,9 @@
 
     "image#instagramFooter-mobile": {
       "props": {
-        "src": "/arquivos/Icon_instagram@4x.png",
-        "maxHeight": 51,
-        "maxWidth": 51,
+        "src": "/arquivos/instagram_new_design@4x.png",
+        "maxHeight": 33,
+        "maxWidth": 32,
         "alt": "instagram.com",
         "title": "instagram.com",
         "link": {
@@ -120,9 +120,9 @@
 
     "image#youtubeFooter-mobile": {
       "props": {
-        "src": "/arquivos/Icon_youtube@4x.png",
-        "maxHeight": 45,
-        "maxWidth": 61,
+        "src": "/arquivos/you_tube_icon_new_design@4x.png",
+        "maxHeight": 24,
+        "maxWidth": 34,
         "alt": "youtube.com",
         "title": "youtube.com",
         "link": {
@@ -187,8 +187,8 @@
       "props": {
         "blockClass": "footer-image-consegna-mobile",
         "src": "/arquivos/consegna_mobile@4x.png",
-        "maxHeight": 46,
-        "maxWidth": 77
+        "maxHeight": 36,
+        "maxWidth": 67
         }
     },
 
@@ -256,8 +256,8 @@
       "props": {
         "blockClass": "footer-image-spedizione-mobile",
         "src": "/arquivos/spedizione_mobile@4x.png",
-        "maxHeight": 44,
-        "maxWidth": 72
+        "maxHeight": 34,
+        "maxWidth": 62
         }
     },
 
@@ -325,8 +325,8 @@
       "props": {
         "blockClass": "footer-image-reso-mobile",
         "src": "/arquivos/reso_mobile@4x.png",
-        "maxHeight": 49,
-        "maxWidth": 49
+        "maxHeight": 39,
+        "maxWidth": 39
         }
     },
 
@@ -395,8 +395,8 @@
       "props": {
         "blockClass": "footer-image-pagamenti-mobile",
         "src": "/arquivos/pagamneti_mobile@4x.png",
-        "maxHeight": 42,
-        "maxWidth": 51
+        "maxHeight": 32,
+        "maxWidth": 41
         }
     },
 
@@ -457,7 +457,7 @@
     "rich-text#level6-contatti-mobile": {
       "props": {
         "text": "CONTATTI",
-        "blockClass": "footer-contatti-mobile"
+        "blockClass": "footer-Hai-bisogno-di-aiuto-mobile"
       }
     },
 

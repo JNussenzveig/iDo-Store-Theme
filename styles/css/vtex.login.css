@@ -1,40 +1,30 @@
 
-:global(.vtex-modal-layout-0-x-headerContainer) {
-  height: 5px;
-}
+
 
 :global(.vtex-modal-layout-0-x-headerContainer) {
   border: unset;
 }
 
-:global(.vtex-login-2-x-contentInitialScreen) {
-  width: 410px;
-  height: 677px;
-  flex-wrap: wrap-reverse;
-}
+
 
 .content--emailAndPassword :global(.vtex-login-2-x-formTitle) {
   color: #001930;
   font-family: "MuseoSans_700";
   font-size: 25px;
-  line-height: 29px;
   text-align: unset;
   padding: 0px;
-  bottom: 28px;
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 
-.content--emailAndPassword :global(.vtex-login-2-x-contentForm)  {
-  width: 380px;
-  height: 450px;
-}
+
 
 .content--emailAndPassword .inputContainer :global(.vtex-input-prefix__group) {
-  width: 336px;
   height: 40px;
   border-radius: 20px;
   border: 1px solid #001930;
+  width: 336px;
 }
 
 .content--emailAndPassword .contentForm :global(.vtex-login-2-x-inputContainerEmail) {
@@ -44,12 +34,9 @@
 .content--emailAndPassword .sendButton :global(.vtex-button) {
   width: 151px!important;
   height: 40px!important;
-  flex: auto;
   background-color: #001930;
   border-radius: 20px;
   border: none;
-  margin-left: 6rem;
-  top: 25px;
   outline: none;
 }
 
@@ -63,32 +50,26 @@
 }
 
 .content--emailAndPassword .facebookOptionBtn {
-  width: 336px;
   height: 37px;
-  border: 1px solid;
   border-radius: 20px;
 }
 
 
 .content--emailAndPassword .googleOptionBtn {
-  width: 336px;
   height: 37px;
-  border: 1px solid;
   border-radius: 20px;
 }
 
 .content--emailAndPassword .inputContainerEmail {
-  width: 336px;
   height: 37px;
   padding-bottom: 56px;
   padding-top: 0px;
 }
 
 .content--emailAndPassword .inputContainerPassword {
-  width: 336px;
   height: 37px;
   padding-bottom: 40px;
-  padding-top:42px;
+  padding-top:31px;
 }
 
 .content--emailAndPassword .forgotPasswordLink {
@@ -96,11 +77,18 @@
   font-family: "MuseoSans_300";
   font-size: 12px;
   position: relative;
-  top: 25px;
+  bottom: 198px;
+  right: 167px;
+}
+.content--emailVerification {
+  justify-content: center;
+  position: relative;
 }
 
 .content--emailAndPassword .formLinkContainer {
-  justify-content: left;
+  top: 227px;
+  position: relative;
+  margin-bottom: 0.75rem;
 }
 
 .content--emailAndPassword .formFooter {
@@ -112,25 +100,28 @@
 }
 
 .content--emailAndPassword :global(.vtex-login-2-x-facebookOptionBtn) {
-  bottom: 148px;
   position: relative;
   background-image: url("/arquivos/LoginFB-G_04.png");
+  background-repeat: no-repeat;
+  bottom: 148px;
 }
 
 :global(.codeby-custom-state-handles-0-x-languageHandle--en) .facebookOptionBtn {
-  bottom: 148px;
   position: relative;
   background-image: url("/arquivos/LoginFB-G_02.png");
+  background-repeat: no-repeat;
 }
 
 .content--emailAndPassword .optionsSticky :global(.vtex-login-2-x-googleOptionBtn) {
-  bottom: 134px;
   position: relative;
   background-image: url("/arquivos/LoginFB-G_03.png");
+  background-repeat: no-repeat;
+  bottom: 134px;
 }
 
 :global(.codeby-custom-state-handles-0-x-languageHandle--en) .googleOptionBtn {
   background-image: url("/arquivos/LoginFB-G_01.png") !important;
+  background-repeat: no-repeat;
 }
 
 .buttonSocial {
@@ -169,12 +160,10 @@
 }
 
 .formLinkContainer :global(.vtex-login-2-x-dontHaveAccount) {
-  top: 216px;
   position: relative;
   width: 151px;
   height: 40px;
   border-radius: 20px;
-  margin-left: 6.5rem;
   z-index: 9;
   background-repeat: no-repeat;
 }
@@ -182,7 +171,7 @@
 .content--emailAndPassword :global(.vtex-login-2-x-inputContainerEmail label.vtex-input:before) {
   content: 'Indirizzo mail';
   position: relative;
-  bottom: 10px;
+  bottom: 5px;
   color: #001930;
   font-family: "MuseoSans_300";
   font-size: 18px;
@@ -195,7 +184,7 @@
 
 .content--emailAndPassword :global(.vtex-login-2-x-formError) {
   position: absolute;
-  top: 203px;
+  top: 195px;
   color: #001930;
   font-family: "MuseoSans_300";
   font-size: 12px;
@@ -205,21 +194,23 @@
 :global(.vtex-login-2-x-inputContainerPassword label.vtex-input:before) {
   content: 'Password';
   position: relative;
-  bottom: 10px;
+  bottom: 5px;
   color: #001930;
   font-family: "MuseoSans_300";
   font-size: 18px;
   text-align: left;
 }
 
-.formTitle::after {
+.content--emailAndPassword :global(.vtex-login-2-x-formTitle)::after {
   content: 'Hai già un account con noi?';
   font-size: 18px;
   display: flex;
-  padding-top: 27px;
+  padding-top: 41px;
   color: #001930;
   font-family: "MuseoSans_700";
-  font-size: 18px!important;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
 }
 
 :global(.codeby-custom-state-handles-0-x-languageHandle--en) .formTitle::after {
@@ -240,7 +231,7 @@
   content: 'Non sei ancora registrato?';
   font-size: 18px;
   display: flex;
-  padding-top: 31px;
+  padding-top: 21px;
   color: #001930;
   font-family: "MuseoSans_700";
   font-size: 18px!important;
@@ -262,12 +253,10 @@
 
 
 .formLinkContainer .dontHaveAccount {
-  top: 227px;
   position: relative;
   width: 151px;
   height: 40px;
   border-radius: 20px;
-  margin-left: 6.5rem;
   z-index: 9;
   background-repeat: no-repeat;
   background: #001930;
@@ -284,8 +273,6 @@
 .dontHaveAccount::after {
   content: 'ISCRIVITI';
   font-weight: bold;
-  width: 85px;
-  height: 22px;
   color: #ffffff;
   font-family: "MuseoSans_700";
   font-size: 18px;
@@ -335,15 +322,6 @@
   content: 'SEND';
 }
 
-.content--emailVerification {
-  width: 410px;
-  height: 337px;
-}
-
-.content--emailVerification :global(.vtex-login-2-x-contentForm) {
-  width: 410px;
-  height: 337px;
-}
 
 .content--emailVerification :global(.vtex-login-2-x-optionsSticky) {
   display: none;
@@ -356,13 +334,10 @@
   display: flex;
   color: #001930;
   font-family: "MuseoSans_700";
-  width: 355px;
   height: 29px;
   font-size: 18px!important;
   padding-bottom: 40px;
   padding-left: 0px;
-  letter-spacing: -0.11px;
-  line-height: 21px;
 }
 
 :global(.codeby-custom-state-handles-0-x-languageHandle--en .vtex-login-2-x-formTitle::after) {
@@ -376,7 +351,6 @@
   color: #001930;
   font-family: "MuseoSans_700";
   font-size: 25px!important;
-  line-height: 29px;
   text-align: left;
   padding-left: 0px;
 }
@@ -409,11 +383,8 @@
   background-color: #001930;
   border-radius: 20px;
   border: none;
-  margin-left: 6rem;
-  bottom: 25px;
   color: white;
   position: relative;
-  right: 107px;
   font-family: "MuseoSans_700";
   outline: none;
 }
@@ -428,15 +399,15 @@
 }
 
 .content--emailVerification .inputContainer :global(.vtex-input-prefix__group) {
-  width: 335px;
   height: 40px;
   border-radius: 20px;
   border: 1px solid #001930;
+  width: 336px;
 }
 
 .content--emailVerification :global(.vtex-login-2-x-formError) {
   position: absolute;
-  top: 224px;
+  top: 198px;
   color: #001930;
   font-family: "MuseoSans_300";
   font-size: 12px;
@@ -451,7 +422,9 @@
   display: none;
 }
 
-
+.content--emailAndPassword :global(.vtex-login-2-x-formFooter) {
+  padding-top: 1.5rem;
+}
 
 
 /* recovery password*/
@@ -474,8 +447,6 @@
 
 
 .content--recoveryPassword {
-  width: 410px;
-  height: 516px;
   background-color: #ffffff;
 }
 
@@ -493,13 +464,13 @@
 }
 
 .content--recoveryPassword .inputContainer :global(.vtex-input-prefix__group) {
-  width: 335px;
   height: 40px;
   border-radius: 20px;
   border: 1px solid #001930;
   position: relative;
   bottom: 16px;
   margin-bottom:20px;
+  width: 336px;
 }
 
 
@@ -527,11 +498,9 @@
   background-color: #001930;
   border-radius: 20px;
   border: none;
-  margin-left: 6rem;
   bottom: 37px;
   color: white;
   position: relative;
-  right: 118px;
   font-family: "MuseoSans_700";
   outline: none;
 }
@@ -567,12 +536,9 @@
   font-family: "MuseoSans_700";
   padding-bottom: 40px;
   padding-left: 0px;
-  letter-spacing: -0.11px;
-  width: 355px;
   height: 29px;
   color: #001930;
   font-size: 25px;
-  line-height: 29px;
 }
 
 .content--recoveryPassword :global(.vtex-login-2-x-formTitle) {
@@ -582,7 +548,6 @@
   padding-left: 0px;
   height: 21px;
   font-size: 18px;
-  line-height: 21px;
   position: relative;
   bottom: 116px;
 }
@@ -594,7 +559,6 @@
   font-family: "MuseoSans_300";
   font-size: 12px;
   text-align: center;
-  width: 335px;
 }
 
 .content--recoveryPassword :global(.vtex-login-2-x-contentForm) {
@@ -611,7 +575,7 @@
   }
   .content--emailAndPassword :global(.vtex-login-2-x-formError) {
     position: absolute;
-    top: 196px;
+    top: 189px;
     color: #001930;
     font-family: "MuseoSans_300";
     font-size: 12px;
@@ -623,17 +587,20 @@
     background-color: #001930;
     border-radius: 20px;
     border: none;
-    margin-left: 3rem;
-    bottom: 25px;
     color: white;
     position: relative;
-    right: 131px;
     font-family: "MuseoSans_700";
     outline: none;
   }
-  .content--emailVerification :global(.vtex-login-2-x-contentFormVisible) {
-    padding-left: 1.75rem;
-  }
+}
+
+.content--emailAndPassword :global(.vtex-login-2-x-contentFormVisible) {
+  width: 380px;
+  height: 450px;
+}
+
+:global(.vtex-login-2-x-content--recoveryPassword) {
+  width: 100%;
 }
 
 :global(.vtex-rich-text-0-x-container--help-message) {
@@ -644,7 +611,7 @@
 :global(.vtex-rich-text-0-x-link--help-message) {
   position: relative;
   left: 123px;
-  color: transparent;
+  color: red;
 }
 
 :global(.vtex-modal-layout-0-x-triggerContainer) {
@@ -674,14 +641,15 @@
 
 /* login */
 
-:global(.vtex-login-2-x-container) {
+/*:global(.vtex-login-2-x-container) {
   position: relative;
   bottom: 10rem;
-}
+}*/
 
 :global(.vtex-login-2-x-container .vtex-button) {
   background: unset;
   outline: transparent;
+  display: none;
 }
 
 :global(.vtex-login-2-x-my-account-profile-link--login-desktop) {
@@ -730,3 +698,26 @@
 :global(.vtex-login-2-x-profile) {
   display: none;
 }
+
+:global(.vtex-login-2-x-sendButton) {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:global(.vtex-login-2-x-options) {
+  position: relative;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+:global(.vtex-login-2-x-optionsListItem) {
+  margin: 1rem;
+}
+
+
+
+/* old version login*/
+

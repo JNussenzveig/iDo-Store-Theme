@@ -13,5 +13,94 @@
   justify-content: flex-end;
   font-family: "MuseoSans_500";
   font-size: 18px;
+  height: 63px;
+  align-items: center;
+  color: #001930;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
 }
 
+:global(.vtex-menu-2-x-styledLinkContent--burger-bambina-menu) {
+  justify-content: flex-end;
+  font-family: "MuseoSans_500";
+  font-size: 18px;
+  height: 30px!important;
+  align-items: center;
+  color: #001930;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--burger-bambino-menu) {
+  justify-content: flex-end;
+  font-family: "MuseoSans_500";
+  font-size: 18px;
+  height: 30px!important;
+  align-items: center;
+  color: #001930;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--burger-prodotti-menu) {
+  justify-content: flex-end;
+  font-family: "MuseoSans_500";
+  font-size: 18px;
+  height: 30px!important;
+  align-items: center;
+  color: #001930;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--burger-glam-menu) {
+  justify-content: flex-end;
+  font-family: "MuseoSans_500";
+  font-size: 18px;
+  height: 30px!important;
+  align-items: center;
+  color: #001930;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--burger-iDOmini-menu) {
+  justify-content: flex-end;
+  font-family: "MuseoSans_500";
+  font-size: 18px;
+  height: 30px!important;
+  align-items: center;
+  color: #001930;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--burger-sport-menu) {
+  justify-content: flex-end;
+  font-family: "MuseoSans_500";
+  font-size: 18px;
+  height: 30px!important;
+  align-items: center;
+  color: #001930;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+}
+
+:global(.vtex-menu-2-x-styledLinkIcon--burger-lista-menu) {
+  background-image: url(/arquivos/heartgreenwishlist.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 25px;
+  display: inline-flex;
+  justify-content: center;
+  background-size: cover;
+  width: 22px;
+  height: 20px;
+}

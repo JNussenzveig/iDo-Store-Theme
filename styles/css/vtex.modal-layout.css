@@ -1,18 +1,115 @@
 @import url('/files/franchising-fixes.css');
 
 
-.tooltipContainer {
+/*.tooltipContainer {
   z-index: 9999999;
 
 }
-.paperScrollContent {
+/*.paperScrollContent {
   overflow: visible;
-}
+}*/
 
 .paper--modal-aprire-un-franchising-form :global(.vtex-modal-layout-0-x-closeButtonContainer) {
   padding: 30px;
 }
 
-.paperScrollContent {
+/*.paperScrollContent {
   max-height: unset;
+}*/
+
+/*:global(.vtex-modal-layout-0-x-headerContainer) {
+  max-width: 320px;
+  max-height: 600px;
+  width: 100%;
+  height: 100%;
+  overflow: scroll!important;
+  flex-direction: column-reverse;
+}*/
+
+/*:global(.vtex-modal-layout-0-x-paperScrollContent) {
+  max-width: 320px;
+  max-height: 562px;
+  width: 320px;
+  height: 562px;
+  overflow: scroll!important;
+  position: relative;
+}
+
+:global(.vtex-modal-layout-0-x-contentContainer) {
+  padding: 0px;
+  height: 100%;
+  overflow: visible;
+}
+
+
+
+:global(.vtex-modal-layout-0-x-paperNotFullScreen) {
+  margin: 0px;
+}
+
+:global(.vtex-login-2-x-contentInitialScreen) {
+  padding: 0px!important;
+  width: 100%;
+  flex-wrap: wrap-reverse;
+}
+
+:global(.vtex-login-2-x-tooltipContainer) {
+  position: absolute;
+}*/
+:global(.vtex-modal-layout-0-x-contentContainer--modal-login-content) {
+  padding: 0px;
+  width: 410px;
+  height: 678px;
+  flex-wrap: wrap-reverse;
+  overflow: visible;
+  background-color: white;
+}
+
+:global(.vtex-login-2-x-contentInitialScreen) {
+  flex-wrap: wrap-reverse;
+  padding: 0px;
+  height: 677px;
+  align-items: center;
+}
+
+:global(.vtex-modal-layout-0-x-paperScrollContent) {
+  overflow: visible;
+  position: relative;
+  margin: 0px;
+  max-height: calc(102% - 1rem);
+  max-width: calc(100% - 0rem);
+  border-radius: unset;
+  background-color: transparent;
+}
+
+:global(.vtex-login-2-x-tooltipContainer) {
+  z-index: 99999;
+  position: absolute;
+}
+
+:global(.vtex-modal-layout-0-x-container--modal-login-layout) {
+  overflow: scroll;
+}
+
+:global(.vtex-modal-layout-0-x-closeButton--modal-login-header) {
+  width: 100%;
+  height: 1px;
+  z-index: 999999;
+  justify-content: flex-end;
+  position: relative;
+  padding: 1.5rem;
+}
+
+:global(.vtex-login-2-x-tooltipContainerLeft) {
+ z-index: 2147483649!important;
+  position: absolute!important;
+}
+
+:global(.vtex-login-2-x-tooltipContainer) {
+  width: max-content!important;
+}
+
+:global(.vtex-modal-layout-0-x-headerContainer--modal-login-header) {
+  height: 1px;
+  width: 100%;
 }

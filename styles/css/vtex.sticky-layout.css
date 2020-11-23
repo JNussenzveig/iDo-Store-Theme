@@ -24,12 +24,4 @@
   position: fixed;
 }
 
-.wrapper--sticky-layout-menu-link-mobile--stuck :global(.vtex-flex-layout-0-x-flexRow--level2-notification-bar-mobile) {
-  width: 100%;
-  position: fixed;
-}
 
-.wrapper--sticky-layout-menu-link-mobile :global(.vtex-flex-layout-0-x-flexRowContent--level2-notification-bar-mobile) {
-  width: 100%;
-  position: fixed;
-}

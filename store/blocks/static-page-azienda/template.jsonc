@@ -213,15 +213,15 @@
 
   "flex-layout.row#list-context-template": {
        "children": [
-        "list-context.product-list#shelf-tutti-i-prodotti-template"
+       "shelf#tutti-i-prodotti-template"
        ],
        "props": {
        "blockClass": "flex-row-shelf-home-page"
        }
    },
 
-  "list-context.product-list#shelf-tutti-i-prodotti-template": {
-    "blocks": ["product-summary.shelf#tutti-i-prodotti-template"],
+/*  "list-context.product-list#shelf-tutti-i-prodotti-template": {
+    "blocks": ["product-summary.shelf#searchDekstop"],
     "children": ["slider-layout#shelf-tutti-i-prodotti-template"]
   },
 
@@ -242,10 +242,10 @@
       "autoplay": { "stopOnHover": true, "timeout": 4000},
       "slideTransition": { "speed": 1200, "delay": 0, "timing": "" }
     }
-  },
+  },*/
 
   "shelf#tutti-i-prodotti-template": {
-      "blocks": ["product-summary.shelf#tutti-i-prodotti"],
+      "blocks": ["product-summary.shelf#searchDekstop"],
       "props": {
         "blockClass": "shelf-tutti-i-prodotti-radu",
         "category":2 ,

@@ -79,3 +79,148 @@
   right: 0px;
   z-index: 2;
 }
+
+/*new shelf*/
+
+
+.container--shelf-tutti-i-prodotti-radu :global(.vtex-product-summary-2-x-image) {
+  object-fit: cover!important;
+  border: 0.1px solid #cacbcc!important;
+  height: 285px!important;
+}
+
+.container--shelf-tutti-i-prodotti-radu :global(.vtex-button) {
+  outline: none;
+  bottom: 402px;
+  left: 112px;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+  min-height: unset!important;
+}
+
+
+.container--shelf-tutti-i-prodotti-radu :global(.vtex-button__label) {
+  background-image: url(/arquivos/heartTavola_black_heart.png);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 23px;
+  height: 19px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+  padding-top: 0px!important;
+  padding-bottom: 0px!important;
+  background-color: transparent;
+  position: relative;
+}
+
+.container--shelf-tutti-i-prodotti-radu :global(.vtex-button__label):hover {
+  background-image: url(/arquivos/heartgreenwishlist.png);
+}
+
+:global(.vtex-product-summary-2-x-brandName) {
+  width: 100%;
+}
+
+
+.container--shelf-tutti-i-prodotti-radu :global(.vtex-product-summary-2-x-image) {
+  object-fit: cover!important;
+  border: 0.1px solid #cacbcc!important;
+  height: 285px!important;
+}
+
+
+:global(.vtex-slider-layout-0-x-sliderTrack--shelf-tutti-i-prodotti) {
+  cursor: default;
+  will-change: transform!important;
+}
+
+.container--shelf-tutti-i-prodotti-radu :global(.vtex-wish-list-1-x-iconSize) {
+  display: inline-block;
+  width: unset!important;
+  height: unset!important;
+}
+
+
+
+
+
+
+
+
+
+
+/*new design wishlist*/
+
+
+.container--shelf-tutti-i-prodotti-radu :global(.vtex-product-summary-2-x-imageContainer) {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+:global(.vtex-slider-layout-0-x-slide--shelf-tutti-i-prodotti-radu) {
+  margin: 0 35px;
+}
+
+.container--shelf-tutti-i-prodotti-radu :global(.vtex-product-summary-2-x-nameContainer) {
+  width: 100%;
+  height: 90px;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  color: #001930;
+  font-family: "MuseoSans_500";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.container--shelf-tutti-i-prodotti-radu :global(.vtex-product-summary-2-x-productNameContainer) {
+  font-family: "MuseoSans_500";
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.container--shelf-tutti-i-prodotti-radu :global(.vtex-product-summary-2-x-price_sellingPrice) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  padding-left: 0px!important;
+  padding-top: 0px!important;
+  margin-left: 16px!important;
+  margin-right: 16px!important;
+}
+
+/*:global(.vtex-product-summary-2-x-containerNormal--shelf-tutti-i-prodotti-radu) {
+  margin-left: 0px;
+  margin-right: unset;
+}*/
+
+:global(.vtex-product-summary-2-x-element--shelf-tutti-i-prodotti-radu) {
+  padding-top: 20px;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+:global(.vtex-shelf-1-x-arrowRight--shelf-tutti-i-prodotti-radu) {
+  outline: none;
+  top: 35%;
+}
+
+:global(.vtex-shelf-1-x-arrowLeft--shelf-tutti-i-prodotti-radu) {
+  outline: none;
+  top: 35%;
+}
