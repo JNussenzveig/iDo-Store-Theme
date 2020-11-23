@@ -1337,10 +1337,9 @@
 
 
 :global(.vtex-account) :global(.vtex-slider-layout-0-x-sliderLayoutContainer--shelf) {
-  margin-bottom: 0px!important;
-  margin-top: 0px!important;
-
-)
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+}
 
 /* seach page with wishlist and border*/
 
@@ -1505,3 +1504,7 @@
 }
 
 
+
+.filter__container--c .categoryItemName {
+  display: none;
+}
