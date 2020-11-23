@@ -1,5 +1,4 @@
 .menuContainer .menuItem:first-child {
-  margin-bottom: 10px;
   cursor: default;
 }
 
@@ -42,13 +41,9 @@
 }
 
 .styledLinkContent--ido-logo-class-desktop-login {
-  width: 81px;
-  height: 19px;
   color: grey;
   font-family: "MuseoSans_500";
   font-size: 14px;
-  line-height: 19px;
-  font-weight: bold;
 }
 
 
@@ -134,4 +129,23 @@
   margin-right: 0px!important;
 }
 
+:global(.vtex-menu-2-x-styledLinkIcon--location-logo-class-mobile) {
+  margin-left: unset;
+  margin-right: 0px!important;
+}
 
+:global(.vtex-menu-2-x-styledLinkContainer--ido-logo-class-desktop-login) {
+  margin: 0px!important;
+}
+
+:global(.vtex-menu-2-x-styledLinkIcon--ido-logo-class-desktop-login) {
+  margin: 0px!important;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--ido-logo-class-desktop-notLogin) {
+  margin: 0px!important;
+}
+
+:global(.vtex-menu-2-x-styledLinkIcon--ido-logo-class-desktop-notLogin) {
+  margin: 0px!important;
+}

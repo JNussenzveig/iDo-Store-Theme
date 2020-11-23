@@ -3905,6 +3905,18 @@
   margin-top: 61px;
 }
 
+:global(.vtex-rich-text-0-x-headingLevel2--Look-Book-mobile) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 25px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+  margin-left: 18px;
+  margin-top: 0px;
+}
+
 :global(.vtex-rich-text-0-x-paragraph--linvia-candidatura-Button) {
   width: 335px;
   height: 40px;
@@ -3946,7 +3958,6 @@
   font-size: 20px;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 29px;
   text-align: left;
   text-decoration: none;
   margin-left: 20px;
@@ -3971,43 +3982,54 @@
 :global(.vtex-rich-text-0-x-paragraph--footer-Seguici-sui-nostri-social-mobile) {
   color: #001930;
   font-family: "MuseoSans_700";
-  font-size: 30px;
+  font-size: 20px;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 29px;
   text-align: center;
-  margin-left: 24px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
 }
+
+:global(.vtex-rich-text-0-x-wrapper--footer-Seguici-sui-nostri-social-mobile) {
+  width: 100%;
+}
+
 
 :global(.vtex-rich-text-0-x-paragraph--footer-Hai-bisogno-di-aiuto-mobile) {
   color: #001930;
   font-family: "MuseoSans_700";
-  font-size: 25px;
+  font-size: 20px;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 29px;
   text-align: center;
-  margin-left: 40px;
+  text-transform: uppercase;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--footer-Hai-bisogno-di-aiuto-mobile) {
+  width: 100%;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--footer-contatti-mobile) {
   color: #001930;
   font-family: "MuseoSans_700";
-  font-size: 25px;
+  font-size: 20px;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 29px;
   text-align: center;
+  text-transform: uppercase;
+  margin: 0px;
+  height: 47px;
+  align-items: center;
+  justify-content: center;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--footer-consegna-spedizione-reso-pagamenti-title-mobile) {
   color: #001930;
-  font-size: 18px;
+  font-size: 16px;
   text-align: left;
   font-family: "MuseoSans_700";
   font-style: normal;
   letter-spacing: normal;
-  line-height: normal;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -4247,19 +4269,20 @@
 :global(.vtex-rich-text-0-x-paragraph--footer-consegna-spedizione-reso-pagamenti-content-mobile) {
   color: #001930;
   font-family: "MuseoSans_300";
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   letter-spacing: normal;
   line-height: 21px;
   text-align: left;
   margin-bottom: 0px;
   margin-top: 0px;
+  margin-right: 10px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--footer-vendita-negozi-impresa-content-email-mobile) {
   color: #001930;
   font-family: "MuseoSans_300";
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   letter-spacing: normal;
   line-height: 21px;
@@ -4270,7 +4293,7 @@
 :global(.vtex-rich-text-0-x-paragraph--footer-vendita-negozi-impresa-content-phone-mobile) {
   color: #001930;
   font-family: "MuseoSans_300";
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   letter-spacing: normal;
   line-height: 21px;
@@ -4282,7 +4305,7 @@
 :global(.vtex-rich-text-0-x-paragraph--footer-vendita-negozi-impresa-content-program-mobile) {
   color: #001930;
   font-family: "MuseoSans_300";
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   letter-spacing: normal;
   line-height: 21px;
@@ -4603,3 +4626,91 @@
   letter-spacing: normal;
   text-align: left;
 }
+
+/* HOME PAGE MOBILE VERSION*/
+
+:global(.vtex-rich-text-0-x-paragraph--notification-bar-mobile) {
+  margin: 0px;
+  color: #ffffff;
+  font-family: "MuseoSans_700";
+  font-size: 15px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+:global(.vtex-rich-text-0-x-container--notification-bar-mobile) {
+  justify-content: center;
+  align-items: center;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--notification-bar-mobile) {
+  height: unset;
+}
+
+
+
+:global(.vtex-rich-text-0-x-container--titles-burger-menu-mobile) {
+  margin-right: 22px;
+  height: 63px;
+  color: #001930;
+  font-family: "MuseoSans_500";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  margin-top: 0px!important;
+  margin-bottom: 0px!important;
+}
+
+
+
+:global(.vtex-rich-text-0-x-paragraph--titles-burger-menu-mobile-wishlist) {
+  margin-right: 22px;
+  height: 63px;
+  color: #001930;
+  font-family: "MuseoSans_500";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  margin-top: 0px!important;
+  margin-bottom: 0px!important;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--titles-burger-menu-mobile-bambina) {
+  margin-right: 22px;
+  height: 20px;
+  color: #001930;
+  font-family: "MuseoSans_500";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  margin-top: 23px!important;
+  margin-bottom: 0px!important;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--titles-burger-menu-mobile-bambino) {
+  margin-right: 22px;
+  height: 20px;
+  color: #001930;
+  font-family: "MuseoSans_500";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  margin-top: 10px!important;
+  margin-bottom: 10px!important;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--titles-burger-menu-mobile-tutti) {
+  margin-right: 22px;
+  height: 20px;
+  color: #001930;
+  font-family: "MuseoSans_500";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  margin-top: 0px!important;
+  margin-bottom: 23px!important;
+}
+
+

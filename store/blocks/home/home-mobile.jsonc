@@ -1,294 +1,235 @@
 {
-     "slider-layout#andrei-images-mobile": {
+
+    "responsive-layout.mobile#home": {
+      "children": [
+        "slider-layout#images-mobile",
+       "flex-layout.row#list-context-mobile",
+       "flex-layout.row#title-Look-Book-mobile",
+        "flex-layout.row#backToSchool-mobile",
+       "flex-layout.row#shelf-title-category-mobile",
+        "flex-layout.row#Un-iDO-per-ogni-occasione-mobile",
+       "flex-layout.row#dimentica-i-capi-mobile",
+       "flex-layout.row#shelf-title-armocromia-mobile",
+       "flex-layout.row#colours-mobile",
+        "flex-layout.row#store-locator-home-page-mobile",
+        "flex-layout.row#outlet-home-page-mobile",
+        "flex-layout.row#newslwtter-banner-hp-mobile"
+      ]
+    },
+
+       "slider-layout#images-mobile": {
+         "children": [
+         "flex-layout.row#slider-home-page-info-card-1-mobile",
+         "flex-layout.row#slider-home-page-info-card-2-mobile",
+         "flex-layout.row#slider-home-page-info-card-3-mobile",
+         "stack-layout#fourdSlide-mobile"
+         ],
+         "props": {
+           "itemsPerPage": {
+             "desktop": 1,
+             "tablet": 1,
+             "phone": 1
+           },
+           "infinite": false,
+           "fullWidth": true,
+           "pauseOnHover": true,
+           "showNavigationArrows": "never",
+           "showPaginationDots":"never",
+           "autoplay": { "stopOnHover": true, "timeout": 4000},
+           "navigationStep": 1,
+           "slideTransition": { "speed": 1200, "delay": 0, "timing": "" },
+           "blockClass": "hatSlider-mobile"
+         }
+       },
+
+
+
+
+     "flex-layout.row#slider-home-page-info-card-1-mobile": {
         "children": [
-        "stack-layout#firstSlide-mobile",
-        "stack-layout#secondSlide-mobile",
-        "stack-layout#thirdSlide-mobile"
+          "stack-layout#slider-home-page-info-card-1-mobile"
         ],
         "props": {
-          "itemsPerPage": {
-            "desktop": 1,
-            "tablet": 1,
-            "phone": 1
-          },
-          "infinite": true,
-          "fullWidth": true,
-          "showNavigationArrows": "never",
-          "autoplay": { "stopOnHover": false, "timeout": 4000},
-          "navigationStep": 1,
-          "slideTransition": { "speed": 1200, "delay": 0, "timing": "" },
-          "blockClass": "hatSlider"
+        "blockClass": "flex-row-slider-home-page-mobile"
+        }
+     },
+
+     "stack-layout#slider-home-page-info-card-1-mobile": {
+            "props": {
+             "blockClass": "flex-row-slider-home-page-mobile"
+            },
+             "children": [
+             "info-card#slider-home-page-info-card-1-mobile",
+             "info-card#slider-home-page-info-card-1-second-button-mobile"
+
+             ]
+           },
+
+    "info-card#slider-home-page-info-card-1-mobile": {
+        "props": {
+          "id": "slider-home-page-info-card-1-mobile",
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "/arquivos/hp_375x610_slider_01.jpg",
+          "headline": "Glam<br>collection",
+          "subhead": "Dimentica i capi che si rovinano dopo un lavaggio:<br>un iDO è per sempre.",
+          "callToActionText": "Shop Girl",
+          "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
+          "blockClass": "slider-home-page-info-card-1-mobile",
+          "textAlignment": "left"
         }
       },
 
-     "stack-layout#firstSlide-mobile": {
-           "props": {
-            "blockClass": "hatSliderStack-mobile"
-           },
-            "children": [
-            "info-card#hat1-mobile",
-            "info-card#hat2-mobile"
-            ]
-          },
-        "info-card#hat1-mobile": {
-          "props": {
-            "imageUrl": "/arquivos/hp_375x610_slider_01.jpg",
-            "isFullModeStyle": true,
-            "callToActionText": "Shop Boy",
-            "callToActionUrl": "/Tutti-i-Prodotti/Bambino",
-            "textPosition": "right",
-            "headline": "Eleganza e stile per i tuoi bimbi",
-            "zIndexOffset": 1,
-            "blockClass": "firstLayer-mobile"
-          }
-        },
-         "info-card#hat2-mobile": {
-           "props": {
-             "imageUrl": "",
-             "isFullModeStyle": true,
-             "callToActionText": "Shop Girl",
-             "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
-             "textPosition": "left",
-             "zIndexOffset": 1,
-             "headline": "Glam<br>collection",
-              "blockClass": "secondLayer-mobile"
-           }
+    "info-card#slider-home-page-info-card-1-second-button-mobile": {
+        "props": {
+          "id": "slider-home-page-info-card-1-second-button-mobile",
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "",
+          "headline": "",
+          "subhead": "",
+          "callToActionText": "Shop Boy",
+          "callToActionUrl": "/Tutti-i-Prodotti/Bambino",
+          "blockClass": "slider-home-page-info-card-1-second-button-mobile",
+          "textAlignment": "left"
+        }
      },
 
 
-     "stack-layout#secondSlide-mobile": {
-           "props": {
-            "blockClass": "hatSliderStack-mobile"
-           },
-            "children": [
-            "info-card#hat3-mobile",
-            "info-card#hat4-mobile"
-            ]
-          },
-        "info-card#hat3-mobile": {
-          "props": {
-            "imageUrl": "/arquivos/hp_375x610_slider_02.jpg",
-            "isFullModeStyle": true,
-            "textPosition": "right",
-           "callToActionMode": "",
-            "headline": "Capi pratici e comodi",
-            "zIndexOffset": 1,
-            "blockClass": "firstLayer-mobile"
-          }
-        },
-         "info-card#hat4-mobile": {
-           "props": {
-             "imageUrl": "",
-             "isFullModeStyle": true,
-             "callToActionText": "Scoprila subito!",
-             "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
-             "textPosition": "left",
-             "zIndexOffset": 1,
-             "headline": "È arrivata la line<br>Sport Time",
-              "blockClass": "secondLayer-mobile"
-           }
+
+     "flex-layout.row#slider-home-page-info-card-2-mobile": {
+        "children": [
+          "stack-layout#slider-home-page-info-card-2-mobile"
+        ],
+        "props": {
+        "blockClass": "flex-row-slider-home-page-mobile"
+        }
      },
 
-     "stack-layout#thirdSlide-mobile": {
-           "props": {
-            "blockClass": "hatSliderStack-mobile"
+
+    "stack-layout#slider-home-page-info-card-2-mobile": {
+            "props": {
+             "blockClass": "flex-row-slider-home-page-mobile"
+            },
+             "children": [
+             "info-card#slider-home-page-info-card-2-mobile"
+
+             ]
            },
-            "children": [
-            "info-card#hat5-mobile",
-            "info-card#hat6-mobile"
-            ]
-          },
-        "info-card#hat5-mobile": {
-          "props": {
-            "imageUrl": "/arquivos/hp_375x610_slider_03.jpg",
-            "isFullModeStyle": true,
-            "callToActionText": "Shop boy",
-            "callToActionUrl": "/Tutti-i-Prodotti/Bambino",
-            "textPosition": "right",
-            "headline": "Giubbotti reversibili e animal free",
-            "zIndexOffset": 1,
-            "blockClass": "firstLayer-mobile"
-          }
-        },
-         "info-card#hat6-mobile": {
-           "props": {
-             "imageUrl": "",
-             "isFullModeStyle": true,
-             "callToActionText": "Shop Girl",
-             "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
-             "textPosition": "left",
-             "zIndexOffset": 1,
-             "headline": "Tutti al caldo con<br>iDO",
-              "blockClass": "secondLayer-mobile"
-           }
+
+    "info-card#slider-home-page-info-card-2-mobile": {
+        "props": {
+          "id": "slider-home-page-info-card-2-mobile-mobile",
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "/arquivos/hp_375x610_slider_02.jpg",
+          "headline": "È arrivata<br>la linea<br>Sport<br>Time",
+          "subhead": "Capi pratici e comodi",
+          "callToActionText": "Scoprila subito!",
+          "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
+          "blockClass": "slider-home-page-info-card-2-mobile",
+          "textAlignment": "left"
+        }
+      },
+
+
+
+
+     "flex-layout.row#slider-home-page-info-card-3-mobile": {
+        "children": [
+          "stack-layout#slider-home-page-info-card-3-mobile"
+        ],
+        "props": {
+        "blockClass": "flex-row-slider-home-page-mobile"
+        }
      },
+
+     "stack-layout#slider-home-page-info-card-3-mobile": {
+            "props": {
+             "blockClass": "flex-row-slider-home-page-mobile"
+            },
+             "children": [
+             "info-card#slider-home-page-info-card-3-mobile",
+             "info-card#slider-home-page-info-card-3-second-button-mobile"
+
+             ]
+           },
+
+    "info-card#slider-home-page-info-card-3-mobile": {
+        "props": {
+          "id": "slider-home-page-info-card-1-mobile",
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "/arquivos/hp_375x610_slider_03.jpg",
+          "headline": "Tutti al<br>caldo<br>con iDO",
+          "subhead": "Giubbotti reversibili<br>e animal free",
+          "callToActionText": "Shop Girl",
+          "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
+          "blockClass": "slider-home-page-info-card-3-mobile",
+          "textAlignment": "left"
+        }
+      },
+
+    "info-card#slider-home-page-info-card-3-second-button-mobile": {
+        "props": {
+          "id": "slider-home-page-info-card-1-second-button-mobile",
+          "isFullModeStyle": true,
+          "textPosition": "left",
+          "imageUrl": "",
+          "headline": "",
+          "subhead": "",
+          "callToActionText": "Shop Boy",
+          "callToActionUrl": "/Tutti-i-Prodotti/Bambino",
+          "blockClass": "slider-home-page-info-card-1-second-button-mobile",
+          "textAlignment": "left"
+        }
+     },
+
+
+      "stack-layout#fourdSlide-mobile": {
+            "props": {
+             "blockClass": "hatSliderStack-mobile"
+            },
+             "children": [
+             "flex-layout.row#category-video-ido-mobile"
+             ]
+           },
+
+ /*video ido*/
+
+    "flex-layout.row#category-video-ido-mobile": {
+        "children": [
+          "rich-text#link-mobile"
+        ],
+        "props": {
+          "preventVerticalStretch": true,
+          "width": "100%",
+          "blockClass": "flex-row-slider-home-page-mobile"
+        }
+     },
+
+   "rich-text#link-mobile": {
+     "props": {
+       "text": "​<div class='vtex-iframe-ido-video'> <iframe class='vtex-iframe-ido-video-inside' height='610' src='https://www.youtube.com/embed/f4WyNrrJzz4?playlist=f4WyNrrJzz4&loop=1&autoplay=1&mute=1' frameborder='0' style = 'width: 100%' allow='accelerometer;  autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>",
+       "blockClass": "vtex-iframe-ido-video"
+     }
+   },
+
+
+
 
 /* shelf home page*/
 
    "flex-layout.row#list-context-mobile": {
        "children": [
-        "list-context.product-list#shelf-tutti-i-prodotti-mobile"
+        "shelf#tutti-i-prodotti"
        ],
        "props": {
-       "blockClass": "flex-row-home-page-mobile"
+       "blockClass": "list-context-mobile"
        }
    },
 
-  "list-context.product-list#shelf-tutti-i-prodotti-mobile": {
-    "blocks": ["product-summary.shelf#tutti-i-prodotti-mobile"],
-    "children": ["slider-layout#shelf-tutti-i-prodotti-mobile"]
-  },
 
-  "slider-layout#shelf-tutti-i-prodotti-mobile": {
-    "children": [
-      "shelf#tutti-i-prodotti-mobile"
-    ],
-    "props": {
-      "itemsPerPage": {
-        "desktop": 3,
-        "tablet": 2,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": true,
-      "blockClass": "shelf-tutti-i-prodotti-mobile",
-      "showNavigationArrows": "never",
-      "autoplay": { "stopOnHover": false, "timeout": 4000},
-      "slideTransition": { "speed": 1200, "delay": 0, "timing": "" }
-    }
-  },
-
-  "shelf#tutti-i-prodotti-mobile": {
-      "blocks": ["product-summary.shelf#tutti-i-prodotti-mobile"],
-      "props": {
-        "blockClass": "shelf-tutti-i-prodotti-mobile",
-        "category": 2,
-        "orderBy": "OrderByTopSaleDESC",
-        "paginationDotsVisibility": "desktopOnly",
-        "productList": {
-          "maxItems": 7,
-          "itemsPerPage": 3,
-          "minItemsPerPage": 1,
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": ""
-        }
-      }
-    },
-  "product-summary.shelf#tutti-i-prodotti-mobile": {
-    "props": {
-      "isOneClickBuy": false,
-      "showBadge": false,
-      "badgeText": "ON",
-      "displayBuyButton": "displayButtonHover",
-      "showCollections": false,
-      "showListPrice": false,
-      "showLabels": false,
-      "showInstallments": false,
-      "showSavings": false,
-      "showDiscount" : false
-    },
-        "children": [
-          "product-summary-image",
-          "product-summary-name",
-          "product-summary-price",
-          "add-to-list-btn"
-        ]
-  },
-
-
-/*   "flex-layout.row#list-context-mobile": {
-       "children": [
-        "list-context.product-list#radu-mobile"
-       ],
-       "props": {
-       "blockClass": "flex-row-all-static-pages-mobile"
-       }
-   },
-
-  "list-context.product-list#radu-mobile": {
-    "blocks": ["product-summary.shelf#radu-mobile"],
-    "children": ["slider-layout#shelf-mobile"]
-  },
-
-
-   "product-summary.shelf#radu-mobile": {
-    "props": {
-      "isOneClickBuy": false,
-      "showBadge": false,
-      "badgeText": "ON",
-      "displayBuyButton": "displayButtonHover",
-      "showCollections": false,
-      "showListPrice": false,
-      "showLabels": false,
-      "showInstallments": false,
-      "showSavings": false,
-      "showDiscount" : false
-    }
-  },
-
-
-  "slider-layout#shelf-mobile": {
-    "children": [
-      "shelf#radu-mobile"
-    ],
-    "props": {
-      "itemsPerPage": {
-        "desktop": 3,
-        "tablet": 2,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": true,
-      "blockClass": "shelf",
-      "showNavigationArrows": "never",
-      "autoplay": { "stopOnHover": false, "timeout": 4000},
-      "slideTransition": { "speed": 1500, "delay": 0, "timing": "" }
-    }
-  },
-
-  "shelf#radu-mobile": {
-      "blocks": ["product-summary.shelf#radu-mobile"],
-      "props": {
-        "blockClass": "shelf-radu",
-        "category": 2,
-        "orderBy": "OrderByTopSaleDESC",
-        "paginationDotsVisibility": "desktopOnly",
-        "productList": {
-          "maxItems": 7,
-          "itemsPerPage": 3,
-          "minItemsPerPage": 1,
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": ""
-        }
-      }
-    },
-
-
-
-  "product-summary.shelf#radu-mobile": {
-  "props": {
-        "blockClass": "shelf-radu2",
-        "isOneClickBuy": true,
-        "showBadge": true,
-        "badgeText": "ON",
-        "displayBuyButton": "displayButtonNone",
-        "showCollections": true,
-        "showListPrice": false,
-        "showLabels": false,
-        "showInstallments": false,
-        "showSavings": false
-      },
-    "children": [
-      "product-summary-image",
-      "product-summary-name",
-      "product-summary-price",
-      "add-to-list-btn"
-    ]
-  },
-
-*/
 /*look book title*/
 
    "flex-layout.row#title-Look-Book-mobile": {
@@ -303,7 +244,7 @@
   "rich-text#title-Look-Book-mobile": {
     "props": {
       "text": "## Look Book",
-      "blockClass": "shelfTitle-mobile"
+      "blockClass": "Look-Book-mobile"
     }
   },
 
@@ -355,24 +296,11 @@
    "flex-layout.row#Un-iDO-per-ogni-occasione-mobile": {
        "children": [
         "slider-layout#Un-iDO-per-ogni-occasione-mobile"
-       ],
-       "props": {
-       "infinite": true,
-       "fullWidth": true,
-       "showNavigationArrows": "never",
-       "showPaginationDots": true,
-       "autoplay": { "stopOnHover": false, "timeout": 4000},
-       "navigationStep": 1,
-       "slideTransition": { "speed": 1200, "delay": 0, "timing": "" },
-       "blockClass": "flex-row-all-static-pages-slider-ogni-occasione-mobile"
-       }
+       ]
    },
 
   "slider-layout#Un-iDO-per-ogni-occasione-mobile": {
     "children": [
-      "flex-layout.col#category-iDO-mini-mobile",
-      "flex-layout.col#category-sport-time-mobile",
-      "flex-layout.col#category-glam-collection-mobile",
       "flex-layout.col#category-iDO-mini-mobile",
       "flex-layout.col#category-sport-time-mobile",
       "flex-layout.col#category-glam-collection-mobile"
@@ -385,10 +313,10 @@
         "phone": 1
       },
       "infinite": true,
-      "fullWidth": false,
+      "fullWidth": true,
       "blockClass": "slider-ogni-occasione-mobile",
       "showNavigationArrows": "never",
-      "showPaginationDots": "always",
+      "showPaginationDots": "never",
       "navigationStep": 1,
       "autoplay": { "stopOnHover": false, "timeout": 4000},
       "slideTransition": { "speed": 1500, "delay": 0, "timing": "" }
@@ -555,7 +483,7 @@
       "id": "info-card-fidelity-card-mobile",
       "isFullModeStyle": true,
       "textPosition": "left",
-      "headline": "Trova il negozio iDO più vicino a te",
+      "headline": "Trova il negozio iDO<br>più vicino a te",
       "callToActionText": "SCOPRI",
       "callToActionUrl": "/our-stores",
       "blockClass": "store-locator-mobile",

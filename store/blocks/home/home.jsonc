@@ -7,7 +7,7 @@
   },
     "responsive-layout.desktop#home": {
       "children": [
-        "slider-layout#andrei-images",
+        "slider-layout#images",
         "flex-layout.row#list-context",
         "flex-layout.row#title-Look-Book",
         "flex-layout.row#backToSchool",
@@ -22,24 +22,9 @@
       ]
     },
 
-    "responsive-layout.mobile#home": {
-      "children": [
-        "slider-layout#andrei-images-mobile",
-        "flex-layout.row#list-context-mobile",
-        "flex-layout.row#title-Look-Book-mobile",
-        "flex-layout.row#backToSchool-mobile",
-        "flex-layout.row#shelf-title-category-mobile",
-        "flex-layout.row#Un-iDO-per-ogni-occasione-mobile",
-        "flex-layout.row#dimentica-i-capi-mobile",
-        "flex-layout.row#shelf-title-armocromia-mobile",
-        "flex-layout.row#colours-mobile",
-        "flex-layout.row#store-locator-home-page-mobile",
-        "flex-layout.row#outlet-home-page-mobile",
-        "flex-layout.row#newslwtter-banner-hp-mobile"
-      ]
-    },
 
-      "slider-layout#andrei-images": {
+
+      "slider-layout#images": {
         "children": [
         "flex-layout.row#slider-home-page-info-card-1",
         "flex-layout.row#slider-home-page-info-card-2",
@@ -56,6 +41,7 @@
           "fullWidth": true,
           "pauseOnHover": true,
           "showNavigationArrows": "never",
+          "showPaginationDots":"never",
           "autoplay": { "stopOnHover": true, "timeout": 4000},
           "navigationStep": 1,
           "slideTransition": { "speed": 1200, "delay": 0, "timing": "" },
@@ -240,15 +226,14 @@
 
    "flex-layout.row#list-context": {
        "children": [
-        "list-context.product-list#shelf-tutti-i-prodotti"
+        "shelf#tutti-i-prodotti"
        ],
        "props": {
        "blockClass": "flex-row-shelf-home-page"
        }
    },
 
-  "list-context.product-list#shelf-tutti-i-prodotti": {
-    "blocks": ["product-summary.shelf#tutti-i-prodotti"],
+/*  "list-context.product-list#shelf-tutti-i-prodotti": {
     "children": ["slider-layout#shelf-tutti-i-prodotti"]
   },
 
@@ -262,46 +247,70 @@
         "tablet": 2,
         "phone": 1
       },
-      "infinite": true,
+      "infinite": false,
       "fullWidth": true,
       "blockClass": "shelf-tutti-i-prodotti",
       "showNavigationArrows": "never",
-      "autoplay": { "stopOnHover": true, "timeout": 4000},
+      "showPaginationDots":"never"
+     "autoplay": { "stopOnHover": true, "timeout": 4000},
       "slideTransition": { "speed": 1200, "delay": 0, "timing": "" }
     }
-  },
+  },*/
 
   "shelf#tutti-i-prodotti": {
-      "blocks": ["product-summary.shelf#tutti-i-prodotti"],
+      "blocks": ["product-summary.shelf#searchDekstop"],
       "props": {
         "blockClass": "shelf-tutti-i-prodotti-radu",
-        "category": 1 ,
-        "orderBy": "OrderByPriceASC",
-        "hideUnavailableItems": true,
-        "paginationDotsVisibility": "desktopOnly",
+        "orderBy": "OrderByBestDiscountDESC",
+        "hideUnavailableItems": false,
+        "paginationDotsVisibility": "never",
         "productList": {
-          "maxItems": 50,
+          "maxItems": 10,
           "itemsPerPage": 4,
           "minItemsPerPage": 1,
-          "scroll": "BY_PAGE",
+          "scroll": "ONE_BY_ONE",
           "arrows": true,
           "titleText": ""
         }
       }
     },
-  "product-summary.shelf#tutti-i-prodotti": {
+
+      "product-summary.shelf#searchDekstop": {
+        "children": [
+          "product-summary-image",
+          "product-summary-name",
+          "product-summary-price",
+          "add-to-list-btn"
+        ]
+      },
+
+          "product-summary.shelf#searchDesktop": {
+          "props": {
+            "isOneClickBuy": true,
+            "showBadge": true,
+            "badgeText": "ON",
+            "displayBuyButton": "displayButtonHover",
+            "showCollections": true,
+            "showListPrice": true,
+            "showLabels": true,
+            "showInstallments": true,
+            "showSavings": true,
+            "blockClass": "shelf-tutti-i-prodotti-radu"
+          }
+        },
+
+/*  "product-summary.shelf#tutti-i-prodotti": {
     "props": {
       "blockClass": "shelf-tutti-i-prodotti-radu",
-      "isOneClickBuy": false,
-      "showBadge": false,
-      "badgeText": "ON",
-      "displayBuyButton": "displayButtonHover",
-      "showCollections": false,
-      "showListPrice": false,
-      "showLabels": false,
-      "showInstallments": false,
-      "showSavings": false,
-      "showDiscount" : false
+        "isOneClickBuy": true,
+        "showBadge": true,
+        "badgeText": "ON",
+        "displayBuyButton": "displayButtonHover",
+        "showCollections": true,
+        "showListPrice": true,
+        "showLabels": true,
+        "showInstallments": true,
+        "showSavings": true
     },
         "children": [
           "product-summary-image",
@@ -400,18 +409,11 @@
 
    "flex-layout.row#Un-iDO-per-ogni-occasione": {
        "children": [
-        "slider-layout#Un-iDO-per-ogni-occasione"
+       "slider-layout#Un-iDO-per-ogni-occasione"
        ],
-       "props": {
-       "infinite": true,
-       "fullWidth": true,
-       "showNavigationArrows": "never",
-       "showPaginationDots": true,
-       "autoplay": { "stopOnHover": true, "timeout": 4000},
-       "navigationStep": 1,
-       "slideTransition": { "speed": 1200, "delay": 0, "timing": "" },
-       "blockClass": "flex-row-all-static-pages-slider-ogni-occasione"
-       }
+        "props": {
+        "blockClass": "flex-row-all-static-pages"
+      }
    },
 
   "slider-layout#Un-iDO-per-ogni-occasione": {
@@ -433,7 +435,7 @@
       "fullWidth": true,
       "blockClass": "slider-ogni-occasione",
       "showNavigationArrows": "never",
-      "showPaginationDots": "always",
+      "showPaginationDots": "never",
       "navigationStep": 1,
       "autoplay": { "stopOnHover": true, "timeout": 4000},
       "slideTransition": { "speed": 1500, "delay": 0, "timing": "" }

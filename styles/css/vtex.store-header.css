@@ -5,17 +5,17 @@
 :global(.vtex-minicart-2-x-openIconContainer),
 :global(.vtex-sticky-layout-0-x-container)
 :global(.vtex-store-components-3-x-searchBarContainer) {
-  transition: all 0.3s ease;
+  transition: all 0.0s ease;
   display: block;
 }
 
 
 
+
 /* desktop/mobile main header padding and background transitions */
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
-:global(.vtex-flex-layout-0-x-flexRow--main-header),
-:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
-  transition: background 0.1s ease;
+:global(.vtex-flex-layout-0-x-flexRow--main-header) {
+  transition: background 0.0s ease;
   will-change: padding, background;
 }
 
@@ -39,18 +39,21 @@
  * we add a transition only when "stuck" for the "unstick" step seem faster
  */
 :global(.vtex-sticky-layout-0-x-wrapper--stuck)
-:global(.vtex-flex-layout-0-x-flexRow--main-header)
+:global(.vtex-flex-layout-0-x-flexRow--main-header),
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
-  transition: padding 0.1s ease, background 0.1s ease;
+  transition: padding 0.0s ease, background 0.0s ease;
   padding-top: 0;
   padding-bottom: 0;
 }
 
+
+
+
 /* if supported add some translucency to the desktop/mobile header background */
 @supports (backdrop-filter: blur(5px)) {
   :global(.vtex-sticky-layout-0-x-wrapper--stuck)
-  :global(.vtex-flex-layout-0-x-flexRowContent--main-header)
-  :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
     backdrop-filter: blur(5px);
   }
 
@@ -97,12 +100,15 @@
 }
 
 
+
+
 :global(.vtex-locale-switcher-0-x-buttonText) {
   color: #001930;
   font-family: "MuseoSans_500";
   font-size: 14px;
   line-height: 19px;
   text-transform: uppercase;
+  padding: 0px;
 }
 
 :global(.vtex-locale-switcher-0-x-globeIcon) {
@@ -113,19 +119,23 @@
   color: grey;
   font-family: "MuseoSans_700";
   font-size: 14px;
-  line-height: 19px;
-  justify-content: unset;
+  justify-content: stretch;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--ido-logo-class-desktop-notLogin-mobile) {
+  color: #aeca3b;
+  font-family: "MuseoSans_700";
+  font-size: 14px;
+  justify-content: stretch;
 }
 
 
 
 :global(.vtex-menu-2-x-styledLinkContent--ido-logo-class-desktop-login) {
-  width: 69px;
-  height: 19px;
   color: #001930;
   font-family: "MuseoSans_700";
   font-size: 14px;
-  line-height: 19px;
+  justify-content: stretch;
 }
 
 :global(.vtex-menu-2-x-styledLinkIcon--ido-logo-class-desktop-login) {
@@ -142,7 +152,6 @@
 }
 
 :global(.vtex-store-drawer-0-x-drawer) {
-  top: 163px;
   align-items: flex-end;
 
 }
@@ -152,104 +161,70 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-myido-menu) {
-  border-bottom: gray solid 1px;
-  padding-top: 5px;
-  padding-bottom: 20px;
   padding-right: 26px;
   font-weight: bolder;
   font-size: 20px!important;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-lista-menu) {
-  border-bottom: gray solid 1px;
-  padding-top: 20px;
-  padding-bottom: 20px;
   padding-right: 26px;
   position: relative;
-  bottom: 85px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-trova-menu) {
-  border-bottom: gray solid 1px;
-  padding-top: 20px;
-  padding-bottom: 20px;
   padding-right: 26px;
   position: relative;
-  bottom: 86px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-bambina-menu) {
-  padding-top: 20px;
   padding-right: 26px;
   position: relative;
-  bottom: 92px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-bambino-menu) {
   padding-right: 26px;
   position: relative;
-  bottom: 86px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-prodotti-menu) {
-  border-bottom: gray solid 1px;
-  padding-bottom: 20px;
   padding-right: 26px;
   position: relative;
-  bottom: 80px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-occasione-menu) {
-  border-bottom: gray solid 1px;
-  padding-top: 20px;
-  padding-bottom: 20px;
   padding-right: 26px;
   position: relative;
-  bottom: 82px;
 
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-comfortable-menu) {
-  padding-top: 20px;
   padding-right: 26px;
   position: relative;
-  bottom: 85px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-newborn-menu) {
   padding-right: 26px;
   position: relative;
-  bottom: 75px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-christmas-menu) {
   padding-right: 26px;
   position: relative;
-  bottom: 65px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-wecare-menu) {
-  border-bottom: gray solid 1px;
-  padding-bottom: 20px;
   padding-right: 26px;
   position: relative;
-  bottom: 58px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-termini-menu) {
-  border-bottom: gray solid 1px;
-  padding-top: 20px;
-  padding-bottom: 20px;
   padding-right: 26px;
   position: relative;
-  bottom: 58px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--burger-english-menu) {
-  padding-top: 20px;
   padding-right: 26px;
   position: relative;
-  bottom: 65px;
 }
 
 :global(.vtex-menu-2-x-styledLinkContainer--burger-myido-menu) {
@@ -337,7 +312,6 @@
   right: 92px;
   padding-left: 30px;
 }
-
 
 
 

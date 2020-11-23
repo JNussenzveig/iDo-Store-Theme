@@ -39,7 +39,6 @@
 
 :global(.vtex-locale-switcher-0-x-container) {
   justify-content: space-around;
-  margin-bottom: 14px;
 }
 
 
@@ -839,7 +838,7 @@ Store locator desktop version final*/
     background-color: #001930;
     text-decoration: none;
     outline: none;
-    border: #001930;
+    border: none;
   }
 
   .infoCardContainer--newsletter-desktop :global(.vtex-button):hover {
@@ -1330,12 +1329,13 @@ store locator mobile version final */
 }
 
 .infoCardContainer--info-card-domentica-mobile :global(.vtex-button) {
-  width: 150px;
-  height: 40px;
+  width: 120px;
+  height: 35px;
   border-radius: 20px;
   border: 1px solid #ffffff;
   background-color: transparent;
   margin-left: 20px;
+  min-height: unset;
 }
 
 .infoCardTextContainer--info-card-domentica-mobile {
@@ -1453,101 +1453,105 @@ store locator mobile version final */
 /*trova il negozio banner mobile*/
 
 :global(.vtex-store-components-3-x-infoCardContainer--store-locator-mobile) {
-  margin: 0 auto;
+  margin: 0px;
   padding: 0px;
   margin-bottom: 57px;
   margin-top: 61px;
-  position: relative;
-  width: 375px;
-  height: 132px;
   background-color: #001930;
+  border: none;
+  width: 100%;
+  height: 164px;
 }
 
 :global(.vtex-store-components-3-x-infoCardHeadline--store-locator-mobile) {
   color: #ffffff;
   font-family: "MuseoSans_500";
-  font-size: 18px;
+  font-size: 25px;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 21px;
   text-align: left;
   margin-left: 20px;
-  width: 100%;
 }
 
 .infoCardTextContainer--store-locator-mobile :global(.vtex-button) {
-  width: 150px;
-  height: 40px;
+  width: 120px;
+  height: 35px;
   border-radius: 20px;
   background-color: #ffffff;
   border-color: unset!important;
   margin-left: 20px;
+  border: none;
+  min-height: unset;
 }
 
 .infoCardTextContainer--store-locator-mobile :global(.vtex-button__label) {
   color: #001930;
   font-family: "MuseoSans_700";
-  font-size: 18px;
+  font-size: 15px;
   font-style: normal;
   letter-spacing: normal;
-  line-height: normal;
   text-align: center;
   text-transform: uppercase;
+}
+
+.infoCardCallActionContainer--store-locator-mobile {
+  margin-top: 1rem;
 }
 
 /*newsletter banner mobile*/
 
 :global(.vtex-store-components-3-x-infoCardContainer--newsletter--mobile) {
-  margin: 0 auto;
+  margin: 0px;
   padding: 0px;
   margin-bottom: 57px;
   margin-top: 61px;
-  position: relative;
-  width: 375px;
-  height: 132px;
-  background-color: #ffffff;
+  height: 133px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
 }
 
 :global(.vtex-store-components-3-x-infoCardHeadline--newsletter--mobile) {
-  color: rgba(0, 0, 0, 0.65);
-  font-family: "MuseoSans_500";
-  font-size: 18px;
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 25px;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 21px;
   text-align: left;
   margin-left: 20px;
 }
 
 .infoCardTextContainer--newsletter--mobile :global(.vtex-button) {
-  width: 150px;
-  height: 40px;
+  width: 120px;
+  height: 35px;
   border-radius: 20px;
   background-color: #001930;
   border-color: unset!important;
   margin-left: 20px;
+  border: none;
+  min-height: unset;
 }
 
 .infoCardTextContainer--newsletter--mobile :global(.vtex-button__label) {
   color: #ffffff;
   font-family: "MuseoSans_700";
-  font-size: 18px;
+  font-size: 15px;
   font-style: normal;
   letter-spacing: normal;
-  line-height: normal;
   text-align: center;
   text-transform: uppercase;
+  padding: 0px;
 }
 
 .infoCardTextContainer--info-card-domentica-mobile :global(.vtex-button__label) {
   color: #ffffff;
   font-family: "MuseoSans_700";
-  font-size: 18px;
+  font-size: 15px;
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
   text-align: center;
   text-transform: uppercase;
+  padding: 0px;
 }
 
 :global(.vtex-modal-layout-0-x-triggerContainer--modal-trigger-aprire-un-franchising-form) {
@@ -1991,6 +1995,390 @@ store locator mobile version final */
   margin-left: 0px;
   margin-right: 0px;
 }
+
+
+
+
+/* HOME PAGE MOBILE start here*/
+
+:global(.vtex-store-components-3-x-infoCardContainer--slider-home-page-info-card-1-mobile) {
+  height: 610px;
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--slider-home-page-info-card-2-mobile) {
+  height: 610px;
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--slider-home-page-info-card-3-mobile) {
+  height: 610px;
+}
+
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--slider-home-page-info-card-1-mobile) {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  position: absolute;
+  height: 100%;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--slider-home-page-info-card-2-mobile) {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  position: absolute;
+  height: 100%;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--slider-home-page-info-card-3-mobile) {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  position: absolute;
+  height: 100%;
+}
+
+
+
+:global(.vtex-store-components-3-x-infoCardHeadline--slider-home-page-info-card-1-mobile) {
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 35px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+  position: relative;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--slider-home-page-info-card-2-mobile) {
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 35px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+  position: relative;
+  margin-left: 35px;
+  margin-top: 30px;
+  top: 268px;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--slider-home-page-info-card-3-mobile) {
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 35px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+  position: relative;
+  margin-left: 35px;
+  margin-top: 30px;
+  top: 268px;
+}
+
+
+:global(.vtex-store-components-3-x-infoCardSubhead--slider-home-page-info-card-1-mobile) {
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+:global(.vtex-store-components-3-x-infoCardSubhead--slider-home-page-info-card-2-mobile) {
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px;
+  margin-right: 35px;
+  top: 273px;
+}
+
+:global(.vtex-store-components-3-x-infoCardSubhead--slider-home-page-info-card-3-mobile) {
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 35px;
+  margin-right: 35px;
+  top: 273px;
+}
+
+
+
+.infoCardCallActionContainer--slider-home-page-info-card-1-mobile :global(.vtex-button) {
+  width: 120px;
+  height: 35px;
+  min-height: unset;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 35px;
+  z-index: 99999;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-2-mobile :global(.vtex-button) {
+  width: 180px;
+  height: 35px;
+  min-height: unset;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 35px;
+  z-index: 99999;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-3-mobile :global(.vtex-button) {
+  width: 120px;
+  height: 35px;
+  min-height: unset;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 35px;
+  z-index: 99999;
+}
+
+
+.infoCardCallActionContainer--slider-home-page-info-card-1-second-button-mobile :global(.vtex-button) {
+  width: 120px;
+  height: 35px;
+  min-height: unset;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 35px;
+  z-index: 99999;
+}
+
+
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--slider-home-page-info-card-1-mobile) {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  position: absolute;
+  top: 517px;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--slider-home-page-info-card-2-mobile) {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  position: absolute;
+  top: 517px;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--slider-home-page-info-card-3-mobile) {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  position: absolute;
+  top: 517px;
+}
+
+
+
+
+
+.infoCardCallActionContainer--slider-home-page-info-card-2-second-button-mobile :global(.vtex-button) {
+  width: 130px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+
+
+
+
+.infoCardCallActionContainer--slider-home-page-info-card-1-mobile :global(.vtex-button__label) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 15px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 0px!important;
+  padding-bottom: 0px!important;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+
+.infoCardCallActionContainer--slider-home-page-info-card-2-mobile :global(.vtex-button__label) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 15px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 1px!important;
+  padding-bottom: 0px!important;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-3-mobile :global(.vtex-button__label) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 15px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 1px!important;
+  padding-bottom: 0px!important;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-1-second-button-mobile :global(.vtex-button__label) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 15px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 0px!important;
+  padding-bottom: 0px!important;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+.infoCardCallActionContainer--slider-home-page-info-card-2-second-button-mobile :global(.vtex-button__label) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 15px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 0px!important;
+  padding-bottom: 0px!important;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+
+
+:global(.vtex-stack-layout-0-x-stackItem--flex-row-slider-home-page-mobile--slider-home-page-info-card-1-second-button-mobile) {
+  width: 100%;
+  top: 517px;
+  position: absolute;
+}
+
+
+:global(.vtex-stack-layout-0-x-stackItem--flex-row-slider-home-page-mobile--slider-home-page-info-card-2-second-button-mobile) {
+  width: 100%;
+  top: 517px;
+  position: absolute;
+}
+
+
+
+
+
+
+:global(.vtex-store-components-3-x-infoCardContainer--slider-home-page-info-card-1-second-button-mobile) {
+  position: absolute;
+  border: none;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--slider-home-page-info-card-1-second-button-mobile) {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--slider-home-page-info-card-1-second-button-mobile) {
+  margin-right: 0px;
+  margin-left: 0px;
+  width: unset;
+}
+
+
+:global(.vtex-store-components-3-x-infoCardContainer--slider-home-page-info-card-2-mobile) {
+  background-position: unset;
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--slider-home-page-info-card-3-mobile) {
+  background-position: unset;
+}
+
+
+
+
+
+:global(.vtex-store-components-3-x-imageElement--home-page-logo-mobile) {
+  width: 65px;
+  height: 38px;
+}
+
+:global(.vtex-store-components-3-x-logoContainer) {
+  padding: 0px!important;
+  margin: 0px!important;
+}
+
+:global(.vtex-store-components-3-x-logoImage--home-page-logo-mobile) {
+  margin: 0px!important;
+}
+
+:global(.vtex-store-drawer-0-x-closeIconButton) {
+  padding: 0.50rem;
+}
+
+:global(.vtex-my-account-1-x-menu) {
+  padding: 0px!important;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--ido-logo-class-desktop-notLogin) {
+  align-items: center;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--ido-logo-class-desktop-login) {
+  align-items: center;
+}
+
 
 .skuSelectorItem--selected {
   border: .5px solid #cacbcc;

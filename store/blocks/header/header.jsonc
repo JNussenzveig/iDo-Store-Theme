@@ -254,24 +254,16 @@
   },
 
 
-  "modal-trigger#modal-login-button": {
-    "children": [
-      "rich-text#login",
-      "modal-layout#modal-login-content"
-    ]
-  },
 
   "flex-layout.col#login": {
     "children": [
-      "IsLogged#custom",
-      "modal-trigger#modal-login-button"
+      "IsLogged#custom"
     ],
     "props": {
       "preventVerticalStretch": true,
       "blockClass": "nav-menu-header"
     }
   },
-
 
   "IsLogged#custom": {
     "blocks": [
@@ -280,15 +272,25 @@
     ]
   },
   "IsLogged.logged#logged-content": {
+  "props": {
+        "blockClass": "login-button-green"
+        },
     "children": [
-      "menu-item#vtex-myIdoGreen",
-      "login#custom-login"
+     "login#custom-login",
+     "menu-item#vtex-myIdoGreen"
     ]
   },
   "IsLogged.not-logged#not-logged-content": {
     "children": [
-      "menu-item#vtex-myIdoGrey",
       "modal-trigger#modal-login-button"
+    ]
+  },
+
+
+  "modal-trigger#modal-login-button": {
+    "children": [
+      "menu-item#vtex-myIdoGrey",
+      "modal-layout#modal-login-content"
     ]
   },
 
@@ -316,6 +318,54 @@
     }
   },
 
+
+  "modal-layout#modal-login-content": {
+      "props": {
+        "blockClass": "modal-login-layout"
+        },
+    "children": [
+      "modal-content#modal-login-content"
+    ]
+  },
+
+  "modal-content#modal-login-content": {
+        "props": {
+          "blockClass": "modal-login-content"
+          },
+    "children": [
+    "modal-header#modal-login-header",
+    "login-content#custom-login"
+    ]
+  },
+
+  "modal-header#modal-login-header": {
+        "props": {
+          "showCloseButton": true,
+          "iconCloseSize": 30,
+          "blockClass": "modal-login-header"
+          }
+  },
+
+
+  "login-content#custom-login": {
+    "props": {
+      "showIconProfile": false,
+      "hideIconLabel": true,
+      "labelClasses": "logo-button-label",
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "emailAndPasswordTitle": "Accedi a MyIDO",
+      "accessCodeTitle": "MyiDO",
+      "emailPlaceholder": "mariorossi@gmail.it",
+      "passwordPlaceholder": "* * * *",
+      "showPasswordVerificationIntoTooltip": true,
+      "providerPasswordButtonLabel": "ACCEDI",
+      "blockClass": "login-content-desktop"
+    }
+  },
+
+
+
   "menu-item#vtex-myIdoGreen": {
     "props": {
       "id": "menu-item-myIdo",
@@ -330,7 +380,7 @@
       },
       "highlight": false,
       "itemProps": {
-        "blockClass": "ido-logo-class",
+        "blockClass": "ido-logo-class-green",
         "type": "internal",
         "href": "/account",
         "noFollow": true,
@@ -340,39 +390,11 @@
     }
   },
 
-  "rich-text#login": {
-    "props": {
-      "text": "LOGIN MY IDO",
-      "blockClass": "login-text-class"
-    }
-  },
-
-  "modal-layout#modal-login-content": {
-    "children": [
-      "modal-header",
-      "login-content#custom-login"
-    ]
-  },
-
-  "login-content#custom-login": {
-    "props": {
-      "isInitialScreenOptionOnly": false,
-      "defaultOption": 1,
-      "emailAndPasswordTitle": "Accedi a MyIDO",
-      "accessCodeTitle": "MyiDO",
-      "emailPlaceholder": "mariorossi@gmail.it",
-      "passwordPlaceholder": "* * * *",
-      "showPasswordVerificationIntoTooltip": true,
-      "providerPasswordButtonLabel": "ACCEDI",
-      "blockClass": "login-content-desktop"
-    }
-  },
 
   "login#custom-login": {
     "props": {
       "isInitialScreenOptionOnly": true,
       "defaultOption": 1,
-      "iconLabel": "login",
       "blockClass": "login-desktop",
       "accountOptionLinks": [
         {
@@ -414,8 +436,8 @@
     "props": {
       "iconProps": {
         "id": "mpa-angle--down",
-        "size": 1,
-        "viewBox": "0 0 1 1",
+        "size": 20,
+        "viewBox": "0 0 20 20",
         "activeClassName": "red",
         "mutedClassName": "c-action-primary"
       },

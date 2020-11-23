@@ -227,8 +227,8 @@
   :global(.vtex-store-components-3-x-infoCardHeadline--secondLayer-mobile) {
    position: absolute;
     top: 0%;
-    width: 780px;
-    max-width: 780px!important;
+    width: 200px;
+    max-width: 200px!important;
     height: 191px;
     color: #ffffff;
     font-family: "MuseoSans_700"!important;

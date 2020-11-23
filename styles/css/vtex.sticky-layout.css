@@ -13,3 +13,15 @@
     margin-right: auto;
   }
 }
+
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-layout-menu-link-mobile--stuck) {
+  width: 100%;
+  position: fixed;
+}
+
+:global(.vtex-sticky-layout-0-x-container--sticky-layout-menu-link-mobile) {
+  width: 100%;
+  position: fixed;
+}
+
+
