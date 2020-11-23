@@ -31,6 +31,7 @@
   border-radius: 20px;
   background-color: #001930;
   outline: none;
+  border: #001930;
 }
 
 .KitLookItem :global(.vtex-button__label) {
@@ -51,6 +52,7 @@
   border-radius: 20px;
   background-color: #001930;
   outline: none;
+  border: #001930;
 }
 
 

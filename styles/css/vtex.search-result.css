@@ -689,9 +689,6 @@
   margin-top: 5px;
 }
 
-.filter__container--specificationFilter_27 :global(.vtex-checkbox__label) {
-
-}
 
 
 @media screen and (min-width: 1280px) {
@@ -1669,3 +1666,7 @@
 }
 
 
+
+.filter__container--c .categoryItemName {
+  display: none;
+}

@@ -3158,3 +3158,32 @@
   justify-content: flex-end;
 }
 
+
+
+@media screen and (max-width: 2500px) {
+  .flexRow--acupula-desktop-product {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .flexRow--acupula-desktop-product {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1250px;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .flexRow--acupula-desktop-product {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1025px;
+  }
+}
+
+.flexRow--acupula-desktop-product .flexRowContent--breadcrumb-and-image-container .stretchChildrenWidth:first-child {
+  display: none;
+}
