@@ -863,6 +863,7 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--franchisingform) {
   padding: 50px;
   position: relative;
+  background-color: white!important;
 }
 
 
