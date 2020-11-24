@@ -906,7 +906,7 @@
   height: 40px;
   border-radius: 20px;
   background-color: #001930;
-  outline: none;
+  border: none;
 }
 
 .flexColChild--franchising-form-store :global(.vtex-dropdown__button) {

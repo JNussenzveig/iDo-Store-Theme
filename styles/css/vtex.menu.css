@@ -149,3 +149,11 @@
 :global(.vtex-menu-2-x-styledLinkIcon--ido-logo-class-desktop-notLogin) {
   margin: 0px!important;
 }
+
+:global(.vtex-menu-2-x-submenuWrapper--bambina-desktop-main-container-submenu--isClosed) {
+  width: 100%;
+  max-width: 100%;
+}
+:global(.vtex-menu-2-x-submenuWrapper--bambina-desktop-main-container) {
+  max-width: 100%;
+}

@@ -15,7 +15,7 @@
 /* desktop/mobile main header padding and background transitions */
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
 :global(.vtex-flex-layout-0-x-flexRow--main-header) {
-  transition: background 0.0s ease;
+  transition: background 0.1s ease;
   will-change: padding, background;
 }
 
@@ -49,11 +49,10 @@
 
 
 
-
 /* if supported add some translucency to the desktop/mobile header background */
 @supports (backdrop-filter: blur(5px)) {
   :global(.vtex-sticky-layout-0-x-wrapper--stuck)
-  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  :global(.vtex-flex-layout-0-x-flexRow--main-header) {
     backdrop-filter: blur(5px);
   }
 
