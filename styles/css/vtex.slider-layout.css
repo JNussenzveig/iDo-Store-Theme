@@ -41,12 +41,6 @@
   padding-right: .5rem;*/
 }
 
-.sliderLayoutContainer :global(.salesSlider) {
-  background-color: red;
-  height: auto;
-  color: red;
-}
-
 .slide--shelf :global(.vtex-store-components-3-x-infoCardContainer) {
   width: 406px;
   height: 405px;
