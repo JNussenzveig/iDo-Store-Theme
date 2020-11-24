@@ -109,7 +109,11 @@
   width: max-content!important;
 }
 
-:global(.vtex-modal-layout-0-x-headerContainer--modal-login-header) {
+.headerContainer--modal-login-header :global(.vtex-modal-layout-0-x-headerContainer--modal-login-header) {
   height: 1px;
   width: 100%;
+}
+
+.container--modal-aprire-un-franchising-form :global(.vtex-modal-layout-0-x-headerContainer) {
+  background-color: white;
 }
