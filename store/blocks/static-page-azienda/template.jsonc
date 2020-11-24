@@ -213,7 +213,7 @@
 
   "flex-layout.row#list-context-template": {
        "children": [
-       "shelf#tutti-i-prodotti-template"
+       "shelf#tutti-i-prodotti"
        ],
        "props": {
        "blockClass": "flex-row-shelf-home-page"
@@ -244,7 +244,7 @@
     }
   },*/
 
-  "shelf#tutti-i-prodotti-template": {
+/*  "shelf#tutti-i-prodotti-template": {
       "blocks": ["product-summary.shelf#searchDekstop"],
       "props": {
         "blockClass": "shelf-tutti-i-prodotti-radu",
@@ -261,7 +261,7 @@
         }
       }
     },
-  "product-summary.shelf#tutti-i-prodotti-template": {
+ /* "product-summary.shelf#tutti-i-prodotti-template": {
     "props": {
       "blockClass": "shelf-tutti-i-prodotti-radu",
       "isOneClickBuy": false,

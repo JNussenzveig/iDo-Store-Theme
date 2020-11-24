@@ -41,6 +41,7 @@
   padding-right: .5rem;*/
 }
 
+
 .slide--shelf :global(.vtex-store-components-3-x-infoCardContainer) {
   width: 406px;
   height: 405px;
@@ -232,7 +233,7 @@
 }
 
 
-@media screen and (max-width: 1025px) {
+/*@media screen and (max-width: 1025px) {
 
   .sliderTrack--shelf-mobile {
   justify-content: flex-start !important;
@@ -255,10 +256,10 @@
   .slide--shelf-mobile {
     margin-right: 0px;
   }
-}
 
-.sliderLayoutContainer--shelf {
-  margin-bottom: 50px;
+  .sliderLayoutContainer--shelf {
+    margin-bottom: 50px;
+  }
 }
 
 /*new design wishlist*/

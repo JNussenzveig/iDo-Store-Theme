@@ -275,16 +275,16 @@
       }
     },
 
-      "product-summary.shelf#searchDekstop": {
+ /*     "product-summary.shelf#searchDekstop": {
         "children": [
           "product-summary-image",
           "product-summary-name",
           "product-summary-price",
           "add-to-list-btn"
         ]
-      },
+      },*/
 
-          "product-summary.shelf#searchDesktop": {
+  /*        "product-summary.shelf#searchDesktop": {
           "props": {
             "isOneClickBuy": true,
             "showBadge": true,
@@ -296,7 +296,13 @@
             "showInstallments": true,
             "showSavings": true,
             "blockClass": "shelf-tutti-i-prodotti-radu"
-          }
+          },
+                  "children": [
+                    "product-summary-image",
+                    "product-summary-name",
+                    "product-summary-price",
+                    "add-to-list-btn"
+                  ]
         },
 
 /*  "product-summary.shelf#tutti-i-prodotti": {
