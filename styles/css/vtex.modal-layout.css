@@ -9,9 +9,7 @@
   overflow: visible;
 }*/
 
-.paper--modal-aprire-un-franchising-form :global(.vtex-modal-layout-0-x-closeButtonContainer) {
-  padding: 30px;
-}
+
 
 /*.paperScrollContent {
   max-height: unset;
@@ -81,6 +79,18 @@
   border-radius: unset;
   background-color: transparent;
 }
+
+.container--modal-aprire-un-franchising-form :global(.vtex-modal-layout-0-x-paperScrollContent) {
+  overflow: scroll;
+  position: relative;
+  margin: 0px;
+  max-height: calc(102% - 1rem);
+  max-width: calc(100% - 0rem);
+  border-radius: unset;
+  background-color: transparent;
+}
+
+
 
 :global(.vtex-login-2-x-tooltipContainer) {
   z-index: 99999;

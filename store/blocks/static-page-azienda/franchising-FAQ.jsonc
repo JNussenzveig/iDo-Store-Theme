@@ -34,8 +34,7 @@
          "rich-text#faq-mobile-answer5",
          "rich-text#faq-mobile-question6",
          "rich-text#faq-mobile-answer6",
-         "rich-text#faq-mobile-question7",
-         "flex-layout.row#franchisingButtonmobile"
+         "rich-text#faq-mobile-question7"
       ],
       "props": {
         "blockClass": "franchising-faq-mobile"

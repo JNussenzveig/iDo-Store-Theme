@@ -786,13 +786,25 @@
              "pointer": "#/properties/Store",
              "label": "Hai già a disposizione un negozio? *"
            }
+
+
+
+
+
          },
-         "form-input.dropdown#City": {
+         "form-input.text#City": {
            "props": {
              "pointer": "#/properties/City",
              "label": "In quale città vuoi aprire il tuo punto vendita? *"
            }
          },
+
+
+
+
+
+
+
          "form-input.text#Comments": {
            "props": {
              "pointer": "#/properties/Comments",
@@ -908,10 +920,10 @@
         },
        "flex-layout.col#city-franchising-form": {
          "children": [
-                 "form-input.dropdown#City"
+                 "form-input.text#City"
                ],
                "props": {
-                 "blockClass": "franchising-form-city"
+                 "blockClass": "franchising-form-phone"
              }
        },
 
