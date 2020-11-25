@@ -861,7 +861,7 @@
 /*franchising form modal*/
 
 :global(.vtex-flex-layout-0-x-flexRowContent--franchisingform) {
-  padding: 50px;
+  padding: 20px;
   position: relative;
   background-color: white!important;
 }
@@ -871,7 +871,7 @@
 .flexRowContent--franchisingform :global(.vtex-input__label) {
   color: #001930;
   font-family: "MuseoSans_300";
-  font-size: 18px;
+  font-size: 16px;
   line-height: 21px;
   margin-left: 33px;
 }
@@ -879,7 +879,7 @@
 .flexRowContent--franchisingform :global(.vtex-dropdown__label) {
   color: #001930;
   font-family: "MuseoSans_300";
-  font-size: 18px;
+  font-size: 16px;
   line-height: 21px;
   margin-left: 33px;
 }
@@ -906,7 +906,7 @@
   height: 40px;
   border-radius: 20px;
   background-color: #001930;
-  border: none;
+  border: none!important;
 }
 
 .flexColChild--franchising-form-store :global(.vtex-dropdown__button) {
@@ -2314,6 +2314,7 @@
 
 :global(.vtex-flex-layout-0-x-flexRowContent--modal-aprire-un-franchising-form) {
   margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 

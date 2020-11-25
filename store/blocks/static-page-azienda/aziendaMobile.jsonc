@@ -270,7 +270,7 @@
                 "rich-text#about-title5mobile",
                 "flex-layout.col#imagesmobile",
                 "flex-layout.row#franchisingCandidaturamobile",
-                "flex-layout.row#franchisingButtonmobile"
+                "flex-layout.row#modal-aprire-un-franchising-form-mobile"
 
               ],
               "props": {
@@ -578,8 +578,34 @@
                      }
                },
 
+    "flex-layout.row#modal-aprire-un-franchising-form-mobile": {
+        "children": [
+          "modal-trigger#modal-aprire-un-franchising-form-mobile"
+        ],
+        "props": {
+          "blockClass": "modal-aprire-un-franchising-form"
+         }
+      },
 
-            "flex-layout.row#franchisingButtonmobile": {
+  "modal-trigger#modal-aprire-un-franchising-form-mobile": {
+      "children": [
+      "rich-text#franchisingTextButton-mobile",
+      "modal-layout#modal-aprire-un-franchising-form"
+      ],
+      "props": {
+            "blockClass": "modal-trigger-aprire-un-franchising-form"
+          }
+    },
+
+    "rich-text#franchisingTextButton-mobile": {
+    "props": {
+      "text": "Apri un franchising iDO",
+      "blockClass": "franchisingTextButton"
+    }
+  },
+
+
+ /*           "flex-layout.row#franchisingButtonmobile": {
               "children": [
               "rich-text#franchisingTextButtonmobile"
               ],
@@ -597,7 +623,7 @@
                 "blockClass": "franchisingButtonmobile"
               }
             },
-
+*/
           "vtex.menu@2.x:submenu.accordion#rete-vendita-mobile": {
               "children": [
               "flex-layout.col#rete-vendite-mobile"
