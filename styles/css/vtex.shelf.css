@@ -149,6 +149,10 @@
 .sliderContainer--related-mobile :global(.vtex-product-summary-2-x-element) {
   position: relative;
 }
+.sliderContainer--related-desktop :global(.vtex-product-summary-2-x-element) {
+  position: relative;
+}
+
 
 .sliderContainer--related-mobile :global(.vtex-wish-list-1-x-wishlistIconContainer) {
   position: absolute;
