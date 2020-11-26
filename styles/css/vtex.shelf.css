@@ -29,43 +29,120 @@
   }
 }
 
+@media screen and (max-width: 2500px) {
+  .relatedProducts--related-desktop {
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 
+@media only screen and (max-width: 1600px) {
+  .relatedProducts--related-desktop {
+    max-width: 1250px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 
-.sliderContainer--related-desktop :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button__label) {
-  background-image: url("/arquivos/heart_green@4x.png");
+@media only screen and (max-width: 1350px) {
+  .relatedProducts--related-desktop {
+    max-width: 1025px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.sliderContainer--related-mobile :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button__label) {
+  background-image: url(/arquivos/heartTavola_black_heart.png);
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 24px;
-  height: 20px;
+  width: 23px;
+  height: 19px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding-left: 0px!important;
   padding-right: 0px!important;
-  margin-top: 5px;
+  padding-top: 0px!important;
+  padding-bottom: 0px!important;
+  background-color: transparent;
+  position: relative;
+}
+.sliderContainer--related-mobile :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button) {
+  outline: none;
+  top: 0px;
+  right: 0px;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+  min-height: unset!important;
+  z-index: 1;
+}
+
+.sliderContainer--related-mobile :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+  position: absolute;
+  right: 12px;
+  top: 17px;
+}
+
+
+.sliderContainer--related-desktop :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button__label) {
+  background-image: url(/arquivos/heartTavola_black_heart.png);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 23px;
+  height: 19px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+  padding-top: 0px!important;
+  padding-bottom: 0px!important;
+  background-color: transparent;
+  position: relative;
+}
+.sliderContainer--related-desktop :global(.vtex-wish-list-1-x-wishlistIconContainer) :global(.vtex-button) {
+  outline: none;
+  top: 0px;
+  right: 0px;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+  min-height: unset!important;
+  z-index: 1;
 }
 
 .sliderContainer--related-desktop :global(.vtex-wish-list-1-x-wishlistIconContainer) {
   position: absolute;
-  left: 6px;
-  background-color: white;
-  border: .5px solid #cacbcc;
-  width: 35px;
-  height: 34px;
-  display: flex;
-  place-content: center;
-  border-radius: 100px;
-  top: 0px;
-  z-index: 3;
+  right: 12px;
+  top: 17px;
 }
+
+
 
 .sliderContainer--related-desktop :global(.vtex-product-summary-2-x-imageContainer) {
   border: .5px solid #cacbcc;
 }
 
+.sliderContainer--related-mobile :global(.vtex-product-summary-2-x-imageContainer) {
+  border: .5px solid #cacbcc;
+}
+
 
 .sliderContainer--related-desktop :global(.vtex-wish-list-1-x-wishlistIcon) {
+  display: none;
+}
+.sliderContainer--related-mobile :global(.vtex-wish-list-1-x-wishlistIcon) {
   display: none;
 }
 
