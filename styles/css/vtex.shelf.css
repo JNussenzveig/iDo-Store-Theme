@@ -327,3 +327,27 @@
   margin-right: 10px;
 }
 
+:global(.vtex-return-request-0-x-new) {
+  width: 327px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+  outline: none;
+  border: #001930;
+  font-size: 18px;
+  color: white;
+  font-family: "MuseoSans_700";
+  text-transform: uppercase;
+}
+
+:global(.vtex-return-request-0-x-description) {
+  color: #5a5a5a;
+  font-size: 16px;
+  font-family: MuseoSans_500;
+}
+
+:global(.vtex-return-request-0-x-title) {
+  color: #001930;
+  font-family: MuseoSans_500;
+  font-size: 18px;
+}
