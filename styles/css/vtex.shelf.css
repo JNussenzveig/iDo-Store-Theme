@@ -351,3 +351,7 @@
   font-family: MuseoSans_500;
   font-size: 18px;
 }
+
+.pa5 .tc {
+  background: red;
+}
