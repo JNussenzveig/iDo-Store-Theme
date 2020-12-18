@@ -294,3 +294,15 @@
 }
 
 
+:global(.vtex-stack-layout-0-x-stackContainer--flex-row-slider-template) {
+  height: 100%;
+}
+
+:global(.vtex-stack-layout-0-x-stackItem--flex-row-slider-template--slider-template-info-card-1-mobile) {
+  height: 100%;
+}
+
+:global(.vtex-stack-layout-0-x-stackContainer--flex-row-slider-template) {
+  height: 580px;
+  width: 100% !important;
+}

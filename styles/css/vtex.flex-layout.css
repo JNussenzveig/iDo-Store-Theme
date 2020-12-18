@@ -3189,3 +3189,16 @@
 .flexRow--acupula-desktop-product .flexRowContent--breadcrumb-and-image-container .stretchChildrenWidth:first-child {
   display: none;
 }
+
+:global(.vtex-flex-layout-0-x-flexRow--flex-row-slider-template) {
+  width: 100%;
+  height: 100%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--flex-row-template-page) {
+  margin-top: 65px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--newslwtter-banner-template-mobile) {
+  margin-bottom: 58px;
+}
