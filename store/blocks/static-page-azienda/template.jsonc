@@ -19,13 +19,13 @@
 
     "responsive-layout.mobile#template": {
       "children": [
-       "slider-layout#template",
-        "flex-layout.row#template-title",
-        "flex-layout.row#template-content",
-        "flex-layout.row#template-info-card1",
-        "flex-layout.row#template-info-card2",
-        "flex-layout.row#list-context-template",
-        "flex-layout.row#newslwtter-banner-template"
+       "slider-layout#template-mobile",
+        "flex-layout.row#template-title-mobile",
+        "flex-layout.row#template-content-mobile",
+        "flex-layout.row#template-image-boy-mobile",
+        "flex-layout.row#template-image-girl-mobile",
+        "flex-layout.row#list-context-template-mobile",
+        "flex-layout.row#newslwtter-banner-template-mobile"
       ]
     },
 
@@ -44,6 +44,7 @@
           "fullWidth": true,
           "pauseOnHover": true,
           "showNavigationArrows": "never",
+          "showPaginationDots":"never",
           "autoplay": { "stopOnHover": true, "timeout": 4000},
           "navigationStep": 1,
           "slideTransition": { "speed": 1200, "delay": 0, "timing": "" },
@@ -220,68 +221,6 @@
        }
    },
 
-/*  "list-context.product-list#shelf-tutti-i-prodotti-template": {
-    "blocks": ["product-summary.shelf#searchDekstop"],
-    "children": ["slider-layout#shelf-tutti-i-prodotti-template"]
-  },
-
-  "slider-layout#shelf-tutti-i-prodotti-template": {
-    "children": [
-      "shelf#tutti-i-prodotti"
-    ],
-    "props": {
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 2,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": true,
-      "blockClass": "shelf-tutti-i-prodotti",
-      "showNavigationArrows": "never",
-      "autoplay": { "stopOnHover": true, "timeout": 4000},
-      "slideTransition": { "speed": 1200, "delay": 0, "timing": "" }
-    }
-  },*/
-
-/*  "shelf#tutti-i-prodotti-template": {
-      "blocks": ["product-summary.shelf#searchDekstop"],
-      "props": {
-        "blockClass": "shelf-tutti-i-prodotti-radu",
-        "category":2 ,
-        "orderBy": "OrderByTopSaleDESC",
-        "paginationDotsVisibility": "desktopOnly",
-        "productList": {
-          "maxItems": 4,
-          "itemsPerPage": 4,
-          "minItemsPerPage": 1,
-          "scroll": "BY_PAGE",
-          "arrows": true,
-          "titleText": ""
-        }
-      }
-    },
- /* "product-summary.shelf#tutti-i-prodotti-template": {
-    "props": {
-      "blockClass": "shelf-tutti-i-prodotti-radu",
-      "isOneClickBuy": false,
-      "showBadge": false,
-      "badgeText": "ON",
-      "displayBuyButton": "displayButtonHover",
-      "showCollections": false,
-      "showListPrice": false,
-      "showLabels": false,
-      "showInstallments": false,
-      "showSavings": false,
-      "showDiscount" : false
-    },
-        "children": [
-          "product-summary-image",
-          "product-summary-name",
-          "product-summary-price",
-          "add-to-list-btn"
-        ]
-  },
 
 /* newsletter template*/
 
@@ -303,6 +242,340 @@
       "callToActionText": "ISCRIVITI",
       "callToActionUrl": "/iscriviti-alla-newsletter?__bindingAddress=www.ido.it/it",
       "blockClass": "newsletter-desktop",
+      "textAlignment": "center"
+    }
+  },
+
+
+
+/*mobile*/
+
+      "slider-layout#template-mobile": {
+        "children": [
+        "flex-layout.row#slider-template-info-card-1-mobile",
+        "flex-layout.row#slider-template-info-card-4-mobile"
+        ],
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": false,
+          "fullWidth": true,
+          "pauseOnHover": true,
+          "showNavigationArrows": "never",
+          "showPaginationDots":"never",
+          "autoplay": { "stopOnHover": true, "timeout": 4000},
+          "navigationStep": 1,
+          "slideTransition": { "speed": 1200, "delay": 0, "timing": "" },
+          "blockClass": "hatSlider-template"
+        }
+      },
+
+
+
+    "flex-layout.row#slider-template-info-card-1-mobile": {
+       "children": [
+         "stack-layout#slider-template-info-card-1-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-slider-template"
+       }
+    },
+
+    "stack-layout#slider-template-info-card-1-mobile": {
+           "props": {
+            "blockClass": "flex-row-slider-template"
+           },
+            "children": [
+            "info-card#slider-template-info-card-1-mobile"
+
+            ]
+          },
+
+   "info-card#slider-template-info-card-1-mobile": {
+       "props": {
+         "id": "slider-home-page-info-card-1",
+         "isFullModeStyle": true,
+         "textPosition": "left",
+         "imageUrl": "/arquivos/back_to_school_template_mobile@4x.png",
+         "headline": "BACK<br>TO SCHOOL",
+         "subhead": "Lorem ipsum dolor sit<br>amet lorem ipsum dolor",
+         "callToActionText": "SCOPRI",
+         "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
+         "blockClass": "slider-template-info-card-1-mobile",
+         "textAlignment": "left"
+       }
+     },
+
+
+    "flex-layout.row#slider-template-info-card-4-mobile": {
+       "children": [
+         "stack-layout#slider-template-info-card-4-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-slider-template"
+       }
+    },
+
+    "stack-layout#slider-template-info-card-4-mobile": {
+           "props": {
+            "blockClass": "flex-row-slider-template"
+           },
+            "children": [
+            "info-card#slider-template-info-card-4-mobile"
+
+            ]
+          },
+
+   "info-card#slider-template-info-card-4-mobile": {
+       "props": {
+         "id": "slider-home-page-info-card-1",
+         "isFullModeStyle": true,
+         "textPosition": "left",
+         "imageUrl": "/arquivos/back_to_school_template_mobile@4x.png",
+         "headline": "BACK<br>TO SCHOOL",
+         "subhead": "Lorem ipsum dolor sit<br>amet lorem ipsum dolor",
+         "callToActionText": "SCOPRI",
+         "callToActionUrl": "/Tutti-i-Prodotti/Bambina",
+         "blockClass": "slider-template-info-card-1-mobile",
+         "textAlignment": "left"
+       }
+     },
+
+
+
+  "flex-layout.row#template-title-mobile": {
+       "children": [
+         "rich-text#template-title-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages"
+       }
+   },
+
+    "rich-text#template-title-mobile": {
+        "props": {
+          "blockClass": "template-title",
+          "text":
+          "Lorem ipsum dolor sit amet"
+        }
+    },
+
+  "flex-layout.row#template-content-mobile": {
+       "children": [
+         "rich-text#template-content-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages"
+       }
+   },
+    "rich-text#template-content-mobile": {
+        "props": {
+          "blockClass": "template-content",
+            "text":
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+        }
+   },
+
+/* INFO CARD 1-mobile*/
+
+    "flex-layout.row#template-image-boy-mobile": {
+       "children": [
+         "flex-layout.col#template-image-boy-mobile",
+         "flex-layout.col#template-title-boy-mobile",
+         "flex-layout.col#template-content-boy-mobile",
+         "flex-layout.col#template-button-boy-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-template-page"
+       }
+    },
+
+    "flex-layout.col#template-image-boy-mobile": {
+       "children": [
+         "image#template-image-boy-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages"
+       }
+    },
+
+    "image#template-image-boy-mobile": {
+        "props": {
+        "src": "/arquivos/template_boy@4x.png",
+        "blockClass": "template-image-mobile"
+        }
+    },
+
+    "flex-layout.col#template-title-boy-mobile": {
+       "children": [
+         "rich-text#template-title-boy-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages"
+       }
+    },
+
+    "rich-text#template-title-boy-mobile": {
+        "props": {
+          "blockClass": "template-title-boy-mobile",
+          "text":
+          "Ricomincia l'avventura<br>con l'outfit giusto"
+        }
+    },
+
+    "flex-layout.col#template-content-boy-mobile": {
+       "children": [
+         "rich-text#template-content-boy-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages"
+       }
+    },
+
+    "rich-text#template-content-boy-mobile": {
+        "props": {
+          "blockClass": "template-content-boy-mobile",
+          "text":
+          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem."
+        }
+    },
+
+
+    "flex-layout.col#template-button-boy-mobile": {
+       "children": [
+         "rich-text#template-button-boy-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages"
+       }
+    },
+
+    "rich-text#template-button-boy-mobile": {
+        "props": {
+          "blockClass": "template-button-boy-mobile",
+          "text": "<a class='vtex-template-button-boy-mobile' href='/sale/d'>ACQUISTA"
+        }
+    },
+
+
+
+/* INFO CARD 2-mobile*/
+
+    "flex-layout.row#template-image-girl-mobile": {
+       "children": [
+         "flex-layout.col#template-image-girl-mobile",
+         "flex-layout.col#template-title-girl-mobile",
+         "flex-layout.col#template-content-girl-mobile",
+         "flex-layout.col#template-button-girl-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-template-page"
+       }
+    },
+
+    "flex-layout.col#template-image-girl-mobile": {
+       "children": [
+         "image#template-image-girl-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages"
+       }
+    },
+
+    "image#template-image-girl-mobile": {
+        "props": {
+        "src": "/arquivos/template_girl@4x.png",
+        "blockClass": "template-image-mobile"
+        }
+    },
+
+    "flex-layout.col#template-title-girl-mobile": {
+       "children": [
+         "rich-text#template-title-girl-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages"
+       }
+    },
+
+    "rich-text#template-title-girl-mobile": {
+        "props": {
+          "blockClass": "template-title-girl-mobile",
+          "text":
+          "Ricomincia l'avventura<br>con l'outfit giusto"
+        }
+    },
+
+    "flex-layout.col#template-content-girl-mobile": {
+       "children": [
+         "rich-text#template-content-girl-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages"
+       }
+    },
+
+    "rich-text#template-content-girl-mobile": {
+        "props": {
+          "blockClass": "template-content-girl-mobile",
+          "text":
+          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem."
+        }
+    },
+
+    "flex-layout.col#template-button-girl-mobile": {
+       "children": [
+         "rich-text#template-button-girl-mobile"
+       ],
+       "props": {
+       "blockClass": "flex-row-all-static-pages"
+       }
+    },
+
+    "rich-text#template-button-girl-mobile": {
+        "props": {
+          "blockClass": "template-button-girl-mobile",
+          "text": "<a class='vtex-template-button-boy-mobile' href='/sale/d'>ACQUISTA"
+        }
+    },
+
+
+/* SHELF TEMPLATE-mobile*/
+
+  "flex-layout.row#list-context-template-mobile": {
+       "children": [
+       "shelf#tutti-i-prodotti"
+       ],
+       "props": {
+       "blockClass": "flex-row-shelf-template"
+       }
+   },
+
+
+
+/* newsletter template-mobile*/
+
+   "flex-layout.row#newslwtter-banner-template-mobile": {
+       "children": [
+        "info-card#newslwtter-banner-template-mobile"
+       ],
+       "props": {
+       "blockClass": "newslwtter-banner-template-mobile"
+       }
+   },
+
+  "info-card#newslwtter-banner-template-mobile": {
+    "props": {
+      "id": "info-card-fidelity-card",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "headline": "Iscriviti alla newsletter",
+      "callToActionText": "ISCRIVITI",
+      "callToActionUrl": "/iscriviti-alla-newsletter?__bindingAddress=www.ido.it/it",
+      "blockClass": "newslwtter-banner-template-mobile",
       "textAlignment": "center"
     }
   }

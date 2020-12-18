@@ -4531,12 +4531,16 @@
 
 :global(.vtex-rich-text-0-x-container--template-title) {
   justify-content: center;
-  margin-top: 69px;
+  margin-top: 53px;
+  margin-right: 35px;
+  margin-left: 35px;
 }
 
 :global(.vtex-rich-text-0-x-container--template-content) {
   justify-content: center;
-  margin-top: 53px;
+  margin-top: 27px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 :global(.vtex-store-components-3-x-infoCardContainer--template-info-card1) {
@@ -4713,4 +4717,98 @@
   margin-bottom: 23px!important;
 }
 
+:global(.vtex-rich-text-0-x-paragraph--template-title-boy-mobile) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 24px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin-left: 21px;
+  margin-right: 19px;
+}
 
+:global(.vtex-rich-text-0-x-paragraph--template-title-girl-mobile) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 24px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin-left: 21px;
+  margin-right: 19px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--template-content-boy-mobile) {
+  color: #5a5a5a;
+  font-family: "MuseoSans_500";
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 19px;
+  text-align: left;
+  margin-left: 21px;
+  margin-right: 19px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--template-content-girl-mobile) {
+  color: #5a5a5a;
+  font-family: "MuseoSans_500";
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 19px;
+  text-align: left;
+  margin-left: 21px;
+  margin-right: 19px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--template-button-boy-mobile) {
+  width: 190px;
+  height: 40px;
+  border-radius: 25px;
+  border: 1px solid #001930;
+}
+
+:global(.vtex-template-button-boy-mobile) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  left: 50px;
+  top: 6px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--template-button-boy-mobile) {
+  margin-left: 22px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--template-button-girl-mobile) {
+  width: 190px;
+  height: 40px;
+  border-radius: 25px;
+  border: 1px solid #001930;
+}
+
+:global(.vtex-template-button-girl-mobile) {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  left: 50px;
+  top: 6px;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--template-button-girl-mobile) {
+  margin-left: 22px;
+}
