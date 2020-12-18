@@ -1,0 +1,8 @@
+
+.pa5 .tc {
+  background: red;
+}
+
+:global(.vtex-return-request-0-x-new) {
+  background-color: red;
+}
