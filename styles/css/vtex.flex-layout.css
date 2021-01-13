@@ -3202,3 +3202,33 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--newslwtter-banner-template-mobile) {
   margin-bottom: 58px;
 }
+
+.flexRow--acupula-desktop-product :global(.vtex-button) {
+  background-color: #001930;
+  border-color: #001930;
+  border-radius: 20px;
+  width: 336px;
+  outline: none;
+}
+
+
+.flexRow--acupula-desktop-product :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+  display: none;
+}
+
+
+.flexRow--acupula-desktop-product :global(.vtex-checkbox__inner-container) {
+  border-color: #001930;
+  border-radius: 20px;
+}
+
+.flexRow--acupula-desktop-product :global(.vtex-store-components-3-x-swiperCaret) {
+  display: none;
+}
+
+.flexRow--acupula-desktop-product :global(.vtex-store-components-3-x-swiperBullet) {
+  height: 3px!important;
+  width: 45%!important;
+  border-radius: 0px;
+  color: #001930;
+}

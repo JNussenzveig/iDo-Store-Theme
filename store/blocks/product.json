@@ -2,7 +2,11 @@
   "store.product.kitlook": {
     "children": [
       "kitlook-layout",
-      "shelf.relatedProducts#dekstop-product",
+      "shelf.relatedProducts#dekstop-product-similar",
+      "shelf.relatedProducts#dekstop-product-related",
+      "shelf.relatedProducts#dekstop-product-who-saw",
+      "shelf.relatedProducts#dekstop-product-accessories",
+      "shelf.relatedProducts#dekstop-product-who-bought",
       "shelf.relatedProducts#mobile-product"
     ]
   },
@@ -12,6 +16,95 @@
     "children": [
       "flex-layout.row#product-main",
       "flex-layout.row#kitlook"
+    ]
+  },
+  "shelf.relatedProducts#dekstop-product-similar": {
+    "props": {
+      "blockClass": "related-desktop",
+      "title": "shelf-similar",
+      "productList": {
+        "maxItems": 7,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": false,
+        "titleText": "Potrebbero piacerti anche"
+      }
+    },
+    "blocks": [
+      "product-summary.shelf#related-desktop"
+    ]
+  },
+
+  "shelf.relatedProducts#dekstop-product-related": {
+    "props": {
+      "blockClass": "related-desktop",
+      "title": "shelf-related",
+      "productList": {
+        "maxItems": 7,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": false,
+        "titleText": "Potrebbero piacerti anche"
+      }
+    },
+    "blocks": [
+      "product-summary.shelf#related-desktop"
+    ]
+  },
+
+  "shelf.relatedProducts#dekstop-product-who-saw": {
+    "props": {
+      "blockClass": "related-desktop",
+      "title": "shelf-who-saw",
+      "productList": {
+        "maxItems": 7,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": false,
+        "titleText": "Potrebbero piacerti anche"
+      }
+    },
+    "blocks": [
+      "product-summary.shelf#related-desktop"
+    ]
+  },
+
+  "shelf.relatedProducts#dekstop-product-accessories": {
+    "props": {
+      "blockClass": "related-desktop",
+      "title": "shelf-accessories",
+      "productList": {
+        "maxItems": 7,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": false,
+        "titleText": "Potrebbero piacerti anche"
+      }
+    },
+    "blocks": [
+      "product-summary.shelf#related-desktop"
+    ]
+  },
+
+  "shelf.relatedProducts#dekstop-product-who-bought": {
+    "props": {
+      "blockClass": "related-desktop",
+      "title": "shelf-who-bought",
+      "productList": {
+        "maxItems": 7,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": false,
+        "titleText": "Potrebbero piacerti anche"
+      }
+    },
+    "blocks": [
+      "product-summary.shelf#related-desktop"
     ]
   },
 
@@ -74,22 +167,6 @@
       ]
     },
 
-  "shelf.relatedProducts#dekstop-product": {
-    "props": {
-     "blockClass": "related-desktop",
-      "productList": {
-        "maxItems": 7,
-        "itemsPerPage": 4,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": false,
-        "titleText": "Potrebbero piacerti anche"
-      }
-    },
-    "blocks": [
-      "product-summary.shelf#related-desktop"
-    ]
-  },
 
 
   "product-summary.shelf#related-desktop": {
