@@ -2,11 +2,6 @@
   "store.product.kitlook": {
     "children": [
       "kitlook-layout",
-      "shelf.relatedProducts#dekstop-product-similar",
-      "shelf.relatedProducts#dekstop-product-related",
-      "shelf.relatedProducts#dekstop-product-who-saw",
-      "shelf.relatedProducts#dekstop-product-accessories",
-      "shelf.relatedProducts#dekstop-product-who-bought",
       "shelf.relatedProducts#mobile-product"
     ]
   },
@@ -153,7 +148,12 @@
     },
     "children": [
       "flex-layout.row#product-breadcrumb",
-      "flex-layout.row#productPage"
+      "flex-layout.row#productPage",
+      "shelf.relatedProducts#dekstop-product-similar",
+      "shelf.relatedProducts#dekstop-product-related",
+      "shelf.relatedProducts#dekstop-product-who-saw",
+      "shelf.relatedProducts#dekstop-product-accessories",
+      "shelf.relatedProducts#dekstop-product-who-bought"
     ]
   },
 
