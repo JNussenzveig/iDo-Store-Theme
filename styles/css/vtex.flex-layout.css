@@ -3197,6 +3197,9 @@
     margin-right: auto;
     max-width: 1250px;
   }
+
+  .flexRow--acupula-desktop-product :global(.vtex-button) {width: auto!important;}
+
 }
 
 @media only screen and (max-width: 1350px) {
@@ -3205,6 +3208,7 @@
     margin-right: auto;
     max-width: 1025px;
   }
+  .flexRow--acupula-desktop-product :global(.vtex-button) {width: auto!important;}
 }
 
 .flexRow--acupula-desktop-product .flexRowContent--breadcrumb-and-image-container .stretchChildrenWidth:first-child {
@@ -3244,15 +3248,25 @@
   border-radius: 20px;
 }
 
-.flexRow--acupula-desktop-product :global(.vtex-store-components-3-x-swiperCaret) {
-  display: none;
+.flexRowContent--acupula-desktop-product :global(.vtex-store-components-3-x-swiperCaretNext) {
+  color: #001930!important;
 }
 
+.flexRowContent--acupula-desktop-product :global(.vtex-store-components-3-x-swiperCaretPrev) {
+  color: #001930!important;
+}
+
+/*
+.flexRow--acupula-desktop-product :global(.vtex-store-components-3-x-swiperCaret) {
+  display: none;
+}*/
+
 .flexRow--acupula-desktop-product :global(.vtex-store-components-3-x-swiperBullet) {
-  height: 3px!important;
+/*  height: 3px!important;
   width: 45%!important;
   border-radius: 0px;
-  color: #001930;
+  color: #001930;*/
+  display: none;
 }
 
 .flexRowContent--kitlook-row-2 {
