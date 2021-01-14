@@ -4812,3 +4812,95 @@
 :global(.vtex-rich-text-0-x-wrapper--template-button-girl-mobile) {
   margin-left: 22px;
 }
+
+.paragraph--title-kitlook-1-page {
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 65px;
+  line-height: 25px;
+  text-align: left;
+}
+
+.paragraph--3-row-1-element-kitlook-1-page :global(.vtex-href) {
+  width: 445px;
+  height: 50px;
+  color: #001930;
+  font-family: "MuseoSans_500";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+  text-decoration: unset;
+}
+.paragraph--3-row-2-element-kitlook-1-page :global(.vtex-href) {
+  width: 445px;
+  height: 50px;
+  color: #001930;
+  font-family: "MuseoSans_500";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+  text-decoration: unset;
+}
+
+.paragraph--5-row-1-element-kitlook-1-page :global(.vtex-href) {
+  width: 445px;
+  height: 50px;
+  color: #001930;
+  font-family: "MuseoSans_500";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+  text-decoration: unset;
+}
+.paragraph--5-row-2-element-kitlook-1-page :global(.vtex-href) {
+  width: 445px;
+  height: 50px;
+  color: #001930;
+  font-family: "MuseoSans_500";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+  text-decoration: unset;
+}
+.paragraph--7-row-1-element-kitlook-1-page :global(.vtex-href) {
+  width: 445px;
+  height: 50px;
+  color: #001930;
+  font-family: "MuseoSans_500";
+  font-size: 30px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 29px;
+  text-align: left;
+  text-decoration: unset;
+}
+
+.paragraph--title-kitlook-2-page-1 {
+  width: 1040px;
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 65px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin: 0;
+}
+
+.paragraph--title-kitlook-2-page-2 {
+  width: 222px;
+  color: #001930;
+  font-family: "MuseoSans_700";
+  font-size: 45px;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin: 0;
+}

@@ -14,6 +14,12 @@
     margin-right: auto;
   }
 
+  .flexRow--kitlook-row-main {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .flexRow--product-main-container-ido {
     max-width: 1400px;
     margin-left: auto;
@@ -103,6 +109,14 @@
     margin-right: auto;
     display: flex;
   }
+
+
+  .flexRow--kitlook-row-main {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   :global(.vtex-account) {
     max-width: 1250px!important;
     margin-left: auto;
@@ -220,6 +234,13 @@
   }
   :global(.vtex-account) {
     max-width: 1025px!important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .flexRow--kitlook-row-main {
+    max-width: 1025px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -3206,6 +3227,7 @@
 .flexRow--acupula-desktop-product :global(.vtex-button) {
   background-color: #001930;
   border-color: #001930;
+  font-family: "MuseoSans_700";
   border-radius: 20px;
   width: 336px;
   outline: none;
@@ -3232,3 +3254,80 @@
   border-radius: 0px;
   color: #001930;
 }
+
+.flexRowContent--kitlook-row-2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.flexRowContent--kitlook-row-2 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 625px!important;
+  height: 605px!important;
+}
+
+.flexRowContent--kitlook-row-3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.flexRowContent--kitlook-row-3 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 625px!important;
+}
+
+.flexRowContent--kitlook-row-4 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.flexRowContent--kitlook-row-4 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 625px!important;
+  height: 605px!important;
+}
+
+.flexRowContent--kitlook-row-5 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.flexRowContent--kitlook-row-5 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 625px!important;
+}
+
+.flexRowContent--kitlook-row-6 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.flexRowContent--kitlook-row-6 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 625px!important;
+  height: 605px!important;
+}
+
+.flexRowContent--kitlook-row-7 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.flexRowContent--kitlook-row-7 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 625px!important;
+}
+
+.flexRow--kitlook-row-3 {
+  padding-bottom: 20px;
+}
+
+.flexRow--kitlook-row-5 {
+  padding-bottom: 20px;
+}
+
+.flexRow--kitlook-row-7 {
+  padding-bottom: 20px;
+}
+
+

@@ -1,0 +1,250 @@
+{
+  "store.custom#Kitlook-2": {
+    "blocks": [
+      "responsive-layout.desktop#kitlook-2",
+      "responsive-layout.mobile#kitlook-2"
+    ]
+  },
+  "responsive-layout.desktop#kitlook-2": {
+    "props": {
+    },
+    "children": [
+      "flex-layout.row#kitlook-row-main"
+    ]
+  },
+  "flex-layout.row#kitlook-row-main": {
+    "props": {
+      "blockClass": "kitlook-row-main"
+    },
+    "children": [
+      "flex-layout.col#kitlook-col-main"
+    ]
+  },
+  "flex-layout.col#kitlook-col-main": {
+    "props": {
+      "blockClass": "kitlook-col-main"
+    },
+    "children": [
+      "rich-text#title-kitlook-2-page-1",
+      "rich-text#title-kitlook-2-page-2",
+      "flex-layout.row#2-kitlook-info-card1",
+      "flex-layout.row#2-kitlook-info-card2",
+      "flex-layout.row#2-kitlook-info-card3",
+      "flex-layout.row#2-kitlook-info-card4",
+      "flex-layout.row#2-kitlook-info-card5",
+      "flex-layout.row#2-kitlook-info-card6",
+      "flex-layout.row#2-kitlook-info-card7",
+      "flex-layout.row#2-kitlook-info-card8"
+    ]
+  },
+  "rich-text#title-kitlook-2-page-1": {
+    "props": {
+      "text": "Lookbook boy",
+      "blockClass": "title-kitlook-2-page-1"
+    }
+  },
+  "rich-text#title-kitlook-2-page-2": {
+    "props": {
+      "text": "6 - 16 anni",
+      "blockClass": "title-kitlook-2-page-2"
+    }
+  },
+
+  "flex-layout.row#2-kitlook-info-card1": {
+    "children": [
+      "info-card#2-kitlook-info-card1"
+    ],
+    "props": {
+      "blockClass": "flex-row-all-static-pages"
+    }
+  },
+
+  "info-card#2-kitlook-info-card1": {
+    "props": {
+      "id": "template-info-card1",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "/arquivos/minimal.png",
+      "headline": "Minimal look!",
+      "subhead": "Elegante e alla moda, ma anche molto comodo! Questo look abbina camicia in fantasia e giacca in tinta unita con un pantalone di grande tendenza in questa stagione. Il tocco di stile? Il papillon a pois! Un must che i ragazzi iDO non possono lasciarsi sfuggire!",
+      "callToActionText": "ACQUISTA SUBITO",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "template-info-card1",
+      "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#2-kitlook-info-card2": {
+    "children": [
+      "info-card#2-kitlook-info-card2"
+    ],
+    "props": {
+      "blockClass": "flex-row-all-static-pages"
+    }
+  },
+
+  "info-card#2-kitlook-info-card2": {
+    "props": {
+      "id": "template-info-card2",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/eastvillage.png",
+      "headline": "East Village!",
+      "subhead": "La collezione iDO per l'autunno inverno dei nostri ragazzi gioca su nuance delicate e tendenze. Come questa maglia girocollo realizzata in tessuto tricot invernale multicolor con blocchi di colore che toccano il grigio, il beige e l'azzurro.",
+      "callToActionText": "ACQUISTA SUBITO",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "template-info-card2",
+      "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#2-kitlook-info-card3": {
+    "children": [
+      "info-card#2-kitlook-info-card3"
+    ],
+    "props": {
+      "blockClass": "flex-row-all-static-pages"
+    }
+  },
+
+  "info-card#2-kitlook-info-card3": {
+    "props": {
+      "id": "template-info-card1",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "/arquivos/livefast.png",
+      "headline": "Live fast!",
+      "subhead": "Comfort style! Un look sportivo e vivace ideale per un back to school dallo stile urban!",
+      "callToActionText": "ACQUISTA SUBITO",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "template-info-card1",
+      "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#2-kitlook-info-card4": {
+    "children": [
+      "info-card#2-kitlook-info-card4"
+    ],
+    "props": {
+      "blockClass": "flex-row-all-static-pages"
+    }
+  },
+
+  "info-card#2-kitlook-info-card4": {
+    "props": {
+      "id": "template-info-card2",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/urban.png",
+      "headline": "Urban!",
+      "subhead": "Per questo autunno inverno i nostri stilisti iDO hanno progettato un abbigliamento sportivo, comodo e dallo stile casual! Proposte grintose e ricercate che non possono mancare nell'armadio del tuo bambino, pronto per nuove avventure!",
+      "callToActionText": "ACQUISTA SUBITO",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "template-info-card2",
+      "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#2-kitlook-info-card5": {
+    "children": [
+      "info-card#2-kitlook-info-card5"
+    ],
+    "props": {
+      "blockClass": "flex-row-all-static-pages"
+    }
+  },
+
+  "info-card#2-kitlook-info-card5": {
+    "props": {
+      "id": "template-info-card1",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "/arquivos/summerday.png",
+      "headline": "Summer day!",
+      "subhead": "Per questa estate i nostri stilisti iDO hanno progettato un abbigliamento sportivo, comodo e dallo stile casual! Proposte grintose e ricercate che non possono mancare nell'armadio del tuo bambino, pronto per nuove avventure!",
+      "callToActionText": "ACQUISTA SUBITO",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "template-info-card1",
+      "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#2-kitlook-info-card6": {
+    "children": [
+      "info-card#2-kitlook-info-card6"
+    ],
+    "props": {
+      "blockClass": "flex-row-all-static-pages"
+    }
+  },
+
+  "info-card#2-kitlook-info-card6": {
+    "props": {
+      "id": "template-info-card2",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/riskytricks.png",
+      "headline": "Risky tricks!",
+      "subhead": "Camouflage mania! Per questa estate nell'armadio del tuo bambino non può mancare il bermuda nei toni del blu e del verde. Comodo, pratico e davvero di tendenza!",
+      "callToActionText": "ACQUISTA SUBITO",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "template-info-card2",
+      "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#2-kitlook-info-card7": {
+    "children": [
+      "info-card#2-kitlook-info-card7"
+    ],
+    "props": {
+      "blockClass": "flex-row-all-static-pages"
+    }
+  },
+
+  "info-card#2-kitlook-info-card7": {
+    "props": {
+      "id": "template-info-card1",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "/arquivos/goldengate.png",
+      "headline": "Golden gate!",
+      "subhead": "Energia e stile per questa collezione iDO! Colori nuovi, tessuti comodi e capi facilmente abbinabili... ideali per giocare con gli amici, all'aria aperta e anche in spiaggia!",
+      "callToActionText": "ACQUISTA SUBITO",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "template-info-card1",
+      "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#2-kitlook-info-card8": {
+    "children": [
+      "info-card#2-kitlook-info-card8"
+    ],
+    "props": {
+      "blockClass": "flex-row-all-static-pages"
+    }
+  },
+
+  "info-card#2-kitlook-info-card8": {
+    "props": {
+      "id": "template-info-card2",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "/arquivos/beachwear.png",
+      "headline": "Beachwear!",
+      "subhead": "La nuova, colorata e grintosa linea beachwear firmata iDO è arrivata! Adesso i tuoi bambini sono pronti a tuffarsi tra le onde e correre in spiaggia con stile e comodità!",
+      "callToActionText": "ACQUISTA SUBITO",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "template-info-card2",
+      "textAlignment": "left"
+    }
+  },
+
+
+  "responsive-layout.mobile#kitlook-2": {
+    "children": [
+    ]
+  }
+}
