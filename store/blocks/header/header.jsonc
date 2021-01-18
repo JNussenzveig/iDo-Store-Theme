@@ -538,8 +538,40 @@
     "blockClass": "category-menu-header",
       "verticalAlign": "center"
     },
-    "children": ["menu-item#bambina-category-header", "menu-item#bambino-category-header","menu-item#armocromia-category-header"]
+    "children": [
+    "menu-item#bambina-category-header",
+    "menu-item#bambino-category-header",
+    "menu-item#armocromia-category-header"
+    ]
   },
+
+/*   "category-menu#item-1": {
+    "props": {
+      "id" : 1000,
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "departments": [
+      ]
+    }
+  },
+  "category-menu#item-2": {
+    "props": {
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "left",
+      "departments": []
+    }
+  }, *//* *//*
+  "category-menu#item-3": {
+    "props": {
+      "id": "1000",
+      "showAllDepartments": false,
+      "showSubcategories": false,
+      "menuDisposition": "center",
+      "departments": []
+    }
+  },  */
 
 
 /* bambina header menu*/

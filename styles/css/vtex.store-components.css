@@ -2572,3 +2572,110 @@ store locator mobile version final */
 .infoCardCallActionContainer--6-row-1-element-kitlook-1-page :global(.vtex-button) {
   display: none;
 }
+
+
+@media screen and (max-width: 767px) {
+
+  .infoCardContainer--template-info-card1 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 40px;
+  }
+  .infoCardContainer--template-info-card2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .infoCardContainer--template-info-card3 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .infoCardContainer--template-info-card4 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .infoCardContainer--template-info-card5 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .infoCardContainer--template-info-card6 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .infoCardContainer--template-info-card7 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .infoCardContainer--template-info-card8 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  :global(.vtex-rich-text-0-x-paragraph--title-kitlook-2-page-2) {
+    width: 335px;
+    height: 29px;
+    color: #001930;
+    font-family: "MuseoSans_700";
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 14px;
+    text-align: left;
+    margin: 10px 0;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--title-kitlook-2-page-1) {
+    width: 321px;
+    height: 50px;
+    color: #001930;
+    font-family: "MuseoSans_700";
+    font-size: 45px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 50px;
+    text-align: left;
+    margin: 10px 0;
+  }
+  :global(.vtex-rich-text-0-x-paragraph--title-kitlook-1-page) {
+    width: 321px;
+    color: #001930;
+    font-family: "MuseoSans_700";
+    font-size: 45px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 50px;
+    text-align: left;
+  }
+
+  .infoCardTextContainer--2-row-1-element-kitlook-1-page {
+    width: 375px;
+    height: 340px;
+  }
+  .infoCardTextContainer--2-row-2-element-kitlook-1-page {
+    width: 375px;
+    height: 340px;
+  }
+  .infoCardTextContainer--4-row-1-element-kitlook-1-page {
+    width: 375px;
+    height: 340px;
+  }
+  .infoCardTextContainer--4-row-2-element-kitlook-1-page {
+    width: 375px;
+    height: 340px;
+  }
+  .infoCardTextContainer--6-row-1-element-kitlook-1-page {
+    width: 375px;
+    height: 340px;
+  }
+  
+  .infoCardContainer--2-row-2-element-kitlook-1-page {
+    margin-top: 15px;
+  }
+  .infoCardContainer--4-row-1-element-kitlook-1-page {
+    margin-top: 15px;
+  }
+  .infoCardContainer--4-row-2-element-kitlook-1-page {
+    margin-top: 15px;
+  }
+  .infoCardContainer--6-row-1-element-kitlook-1-page {
+    margin-top: 15px;
+  }
+}

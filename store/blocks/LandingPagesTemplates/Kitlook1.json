@@ -142,13 +142,22 @@
       "blockClass": "kitlook-row-6"
     },
     "children": [
-      "info-card#6-row-1-element-kitlook-1-page"
+      "info-card#6-row-1-element-kitlook-1-page",
+      "info-card#6-row-2-element-kitlook-1-page"
     ]
   },
   "info-card#6-row-1-element-kitlook-1-page": {
     "props": {
       "isFullModeStyle": true,
       "imageUrl": "/arquivos/mini18.png",
+      "callToActionUrl": "#",
+      "blockClass": "6-row-1-element-kitlook-1-page"
+    }
+  },
+  "info-card#6-row-2-element-kitlook-1-page": {
+    "props": {
+      "isFullModeStyle": true,
+      "imageUrl": "",
       "callToActionUrl": "#",
       "blockClass": "6-row-1-element-kitlook-1-page"
     }
@@ -171,6 +180,17 @@
 
   "responsive-layout.mobile#kitlook-1": {
     "children": [
+      "rich-text#title-kitlook-1-page",
+      "info-card#2-row-1-element-kitlook-1-page",
+      "rich-text#3-row-1-element-kitlook-1-page",
+      "info-card#2-row-2-element-kitlook-1-page",
+      "rich-text#3-row-2-element-kitlook-1-page",
+      "info-card#4-row-1-element-kitlook-1-page",
+      "rich-text#5-row-1-element-kitlook-1-page",
+      "info-card#4-row-2-element-kitlook-1-page",
+      "rich-text#5-row-2-element-kitlook-1-page",
+      "info-card#6-row-1-element-kitlook-1-page",
+      "rich-text#7-row-1-element-kitlook-1-page"
     ]
   }
 }

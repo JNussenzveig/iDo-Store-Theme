@@ -245,6 +245,16 @@
 
   "responsive-layout.mobile#kitlook-2": {
     "children": [
+      "rich-text#title-kitlook-2-page-1",
+      "rich-text#title-kitlook-2-page-2",
+      "flex-layout.row#2-kitlook-info-card1",
+      "flex-layout.row#2-kitlook-info-card2",
+      "flex-layout.row#2-kitlook-info-card3",
+      "flex-layout.row#2-kitlook-info-card4",
+      "flex-layout.row#2-kitlook-info-card5",
+      "flex-layout.row#2-kitlook-info-card6",
+      "flex-layout.row#2-kitlook-info-card7",
+      "flex-layout.row#2-kitlook-info-card8"
     ]
   }
 }

@@ -3249,11 +3249,11 @@
 }
 
 .flexRowContent--acupula-desktop-product :global(.vtex-store-components-3-x-swiperCaretNext) {
-  color: #001930!important;
+  display: none;
 }
 
 .flexRowContent--acupula-desktop-product :global(.vtex-store-components-3-x-swiperCaretPrev) {
-  color: #001930!important;
+  display: none;
 }
 
 /*
