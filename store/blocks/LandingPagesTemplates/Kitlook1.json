@@ -31,7 +31,8 @@
       "flex-layout.row#kitlook-row-4",
       "flex-layout.row#kitlook-row-5",
       "flex-layout.row#kitlook-row-6",
-      "flex-layout.row#kitlook-row-7"
+      "flex-layout.row#kitlook-row-7",
+      "info-card#newslwtter-banner-template"
     ]
   },
   "rich-text#title-kitlook-1-page": {
@@ -190,7 +191,8 @@
       "info-card#4-row-2-element-kitlook-1-page",
       "rich-text#5-row-2-element-kitlook-1-page",
       "info-card#6-row-1-element-kitlook-1-page",
-      "rich-text#7-row-1-element-kitlook-1-page"
+      "rich-text#7-row-1-element-kitlook-1-page",
+      "info-card#newslwtter-banner-hp-mobile"
     ]
   }
 }

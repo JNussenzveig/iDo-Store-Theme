@@ -14,6 +14,12 @@
     margin-right: auto;
   }
 
+  .flexRowContent--landing-in-store-desktop-row-main {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .flexRow--kitlook-row-main {
     max-width: 1400px;
     margin-left: auto;
@@ -108,6 +114,13 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
+  }
+
+
+  .flexRowContent--landing-in-store-desktop-row-main {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
@@ -238,6 +251,12 @@
     margin-right: auto;
   }
 
+
+  .flexRowContent--landing-in-store-desktop-row-main {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .flexRow--kitlook-row-main {
     max-width: 1025px;

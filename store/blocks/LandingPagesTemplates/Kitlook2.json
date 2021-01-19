@@ -34,7 +34,8 @@
       "flex-layout.row#2-kitlook-info-card5",
       "flex-layout.row#2-kitlook-info-card6",
       "flex-layout.row#2-kitlook-info-card7",
-      "flex-layout.row#2-kitlook-info-card8"
+      "flex-layout.row#2-kitlook-info-card8",
+      "info-card#newslwtter-banner-template"
     ]
   },
   "rich-text#title-kitlook-2-page-1": {
@@ -254,7 +255,8 @@
       "flex-layout.row#2-kitlook-info-card5",
       "flex-layout.row#2-kitlook-info-card6",
       "flex-layout.row#2-kitlook-info-card7",
-      "flex-layout.row#2-kitlook-info-card8"
+      "flex-layout.row#2-kitlook-info-card8",
+      "info-card#newslwtter-banner-hp-mobile"
     ]
   }
 }

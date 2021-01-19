@@ -545,7 +545,7 @@
     ]
   },
 
-/*   "category-menu#item-1": {
+   "category-menu#item-1": {
     "props": {
       "id" : 1000,
       "showAllDepartments": true,
@@ -555,6 +555,7 @@
       ]
     }
   },
+  /*
   "category-menu#item-2": {
     "props": {
       "showAllDepartments": true,

@@ -144,3 +144,11 @@
   }
 
 }
+
+:global (.vtex-flex-layout-0-x-flexColChild--landing-in-store-desktop-col-main) .storesListContainer {
+  height: 625px;
+}
+
+:global (.vtex-flex-layout-0-x-flexColChild--landing-in-store-desktop-col-main) .storeMapContainer {
+  padding-left: 0;
+}

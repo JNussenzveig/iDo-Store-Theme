@@ -1,0 +1,146 @@
+{
+  "store.custom#template-in-store": {
+    "blocks": [
+      "responsive-layout.desktop#landing-in-store-desktop",
+      "responsive-layout.mobile#landing-in-store-mobile"
+    ]
+  },
+  "responsive-layout.desktop#landing-in-store-desktop": {
+    "props": {
+    },
+    "children": [
+      "flex-layout.row#landing-in-store-desktop-row-main"
+    ]
+  },
+  "flex-layout.row#landing-in-store-desktop-row-main": {
+    "props": {
+      "blockClass": "landing-in-store-desktop-row-main"
+    },
+    "children": [
+      "flex-layout.col#landing-in-store-desktop-col-main"
+    ]
+  },
+  "flex-layout.col#landing-in-store-desktop-col-main": {
+    "props": {
+      "blockClass": "landing-in-store-desktop-col-main"
+    },
+    "children": [
+      "flex-layout.row#landing-in-store-desktop-1",
+      "flex-layout.row#landing-in-store-desktop-2",
+      "our-stores",
+      "info-card#newslwtter-banner-hp"
+    ]
+  },
+  "flex-layout.row#landing-in-store-desktop-1": {
+    "children": [
+      "info-card#landing-in-store-desktop-1"
+    ],
+    "props": {
+      "blockClass": "landing-in-store-desktop-1"
+    }
+  },
+  "flex-layout.row#landing-in-store-desktop-2": {
+    "children": [
+      "info-card#landing-in-store-desktop-2"
+    ],
+    "props": {
+      "blockClass": "landing-in-store-desktop-2"
+    }
+  },
+  "info-card#landing-in-store-desktop-1": {
+    "props": {
+      "id": "template-info-card2",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "",
+      "headline": "LOREM IPSUM <br> DOLOR SIT",
+      "subhead": "Lorem ipsum dolor sit <br> amet lorem ipsum dolor",
+      "callToActionText": "",
+      "callToActionUrl": "#",
+      "blockClass": "landing-in-store-desktop-1",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#landing-in-store-desktop-2": {
+    "props": {
+      "id": "template-info-card2",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "",
+      "headline": "Lorem ipsum dolor sit amet",
+      "subhead": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+      "callToActionText": "LOREM IMPSUM DOLOR",
+      "callToActionUrl": "#",
+      "blockClass": "landing-in-store-desktop-2",
+      "textAlignment": "center"
+    }
+  },
+  "responsive-layout.mobile#landing-in-store-mobile": {
+    "children": [
+      "flex-layout.row#landing-in-store-desktop-row-main-mobile"
+    ]
+  },
+  "flex-layout.row#landing-in-store-desktop-row-main-mobile": {
+    "props": {
+      "blockClass": "landing-in-store-desktop-row-main-mobile"
+    },
+    "children": [
+      "flex-layout.col#landing-in-store-desktop-col-main-mobile"
+    ]
+  },
+  "flex-layout.col#landing-in-store-desktop-col-main-mobile": {
+    "props": {
+      "blockClass": "landing-in-store-desktop-col-main-mobile"
+    },
+    "children": [
+      "flex-layout.row#landing-in-store-desktop-1-mobile",
+      "flex-layout.row#landing-in-store-desktop-2-mobile",
+      "our-stores",
+      "info-card#newslwtter-banner-hp-mobile"
+    ]
+  },
+  "flex-layout.row#landing-in-store-desktop-1-mobile": {
+    "children": [
+      "info-card#landing-in-store-desktop-1-mobile"
+    ],
+    "props": {
+      "blockClass": "landing-in-store-desktop-1-mobile"
+    }
+  },
+  "flex-layout.row#landing-in-store-desktop-2-mobile": {
+    "children": [
+      "info-card#landing-in-store-desktop-2-mobile"
+    ],
+    "props": {
+      "blockClass": "landing-in-store-desktop-2-mobile"
+    }
+  },
+  "info-card#landing-in-store-desktop-1-mobile": {
+    "props": {
+      "id": "template-info-card2",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "",
+      "headline": "LOREM IPSUM <br> DOLOR SIT",
+      "subhead": "Lorem ipsum dolor sit <br> amet lorem ipsum dolor",
+      "callToActionText": "",
+      "callToActionUrl": "#",
+      "blockClass": "landing-in-store-desktop-1-mobile",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#landing-in-store-desktop-2-mobile": {
+    "props": {
+      "id": "template-info-card2",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "",
+      "headline": "Lorem ipsum dolor sit amet",
+      "subhead": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+      "callToActionText": "LOREM IMPSUM DOLOR",
+      "callToActionUrl": "#",
+      "blockClass": "landing-in-store-desktop-2-mobile",
+      "textAlignment": "center"
+    }
+  }
+}
