@@ -1,579 +1,512 @@
 {
-
-  "header": {
-    "blocks": ["header-layout.desktop","header-layout.mobile"]
-  },
-  "header.full": {
-    "blocks": ["header-layout.desktop","header-layout.mobile"]
-  },
-  "header-layout.desktop": {
-    "children": ["sticky-layout.stack-container#header"]
-  },
-  "sticky-layout.stack-container#header": {
-    "props": {
-      "position": "top"
-    },
-    "children": [
-      "sticky-layout#links-menu",
-      "sticky-layout#notification-bar",
-      "sticky-layout#main-menu"
-    ]
-  },
-
-  "sticky-layout#links-menu": {
-    "children": ["flex-layout.row#level1-top-menu"]
-  },
-  "sticky-layout#notification-bar": {
-    "children": ["flex-layout.row#level2-notification-bar"]
-  },
-
-  "sticky-layout#main-menu": {
-    "children": ["flex-layout.row#level3-second-menu-bambina-bambino-armocromia"]
-  },
-
-
-
-/*level 1 header*/
-
-  "flex-layout.row#level1-top-menu": {
-    "props": {
-      "blockClass": "menu-link",
-      "horizontalAlign": "center",
-      "fullWidth": true
-    },
-    "children": [
-      "flex-layout.col#header-social-networks",
-      "flex-layout.col#header-top-menu"
-    ]
-  },
-
-  "flex-layout.col#header-social-networks": {
-  "children": [
-    "image#facebookHeader",
-    "image#instagramHeader",
-    "image#youtubeHeader"
-  ],
-  "props": {
-    "width": "20%",
-    "blockClass": "menu-social-networks-header"
-  }
-},
-
-
-  "image#facebookHeader": {
-    "props": {
-      "blockClass": "facebookHeader",
-      "src": "/arquivos/facebook@4x.png",
-      "maxHeight": 25,
-      "maxWidth": 12,
-      "alt": "facebook.com",
-      "title": "facebook.com",
-      "link": {
-        "newTab": true,
-        "url": "https://www.facebook.com/iDOkidswear/"
-      }
-    }
-  },
-
-
-  "image#instagramHeader": {
-    "props": {
-      "blockClass": "instagramHeader",
-      "src": "/arquivos/instagram_new_design@4x.png",
-      "maxHeight": 24,
-      "maxWidth": 23,
-      "alt": "instagram.com",
-      "title": "instagram.com",
-      "link": {
-        "newTab": true,
-        "url": "https://www.instagram.com/idokidswear/"
-      }
-    }
-  },
-
-
-  "image#youtubeHeader": {
-    "props": {
-      "blockClass": "youtubeHeader",
-      "src": "/arquivos/you_tube_icon_new_design@4x.png",
-      "maxHeight": 16,
-      "maxWidth": 24,
-      "alt": "youtube.com",
-      "title": "youtube.com",
-      "link": {
-        "newTab": true,
-        "url": "https://www.youtube.com/user/idokidswear?feature=results_main"
-      }
-    }
-  },
-
-  "flex-layout.col#header-top-menu": {
-  "children": [
-      "flex-layout.col#search-bar",
-      "flex-layout.col#search",
-      "flex-layout.col#heart",
-      "flex-layout.col#location",
-     "flex-layout.col#minicart",
-      "flex-layout.col#login",
-      "flex-layout.col#switcher"
-  ],
-  "props": {
-    "width": "80%",
-    "blockClass": "header-top-menu"
-  }
-},
-
-  "flex-layout.col#search-bar": {
-    "children": [
-      "search-bar"
-    ],
-    "props": {
-      "preventVerticalStretch": true,
-      "blockClass": "search-bar-header"
-    }
-  },
-
-
-  "flex-layout.col#search": {
-    "children": [
-      "menu-item#vtex-search"
-    ],
-    "props": {
-      "preventVerticalStretch": true,
-      "blockClass": "nav-menu-header"
-    }
-  },
-
-  "menu-item#vtex-search": {
-    "props": {
-      "blockClass": "search-logo-class",
-      "id": "vtex-search",
-      "type": "custom",
-      "iconProps": {
-        "id": "hpa-search",
-        "iconPosition": "center",
-        "size": 20,
-        "viewBox": "0 0 20 20"
-      },
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tutti-i-prodotti"
-      }
-    }
-  },
-
-  "flex-layout.col#heart": {
-    "children": [
-      "menu-item#vtex-heart"
-    ],
-    "props": {
-      "preventVerticalStretch": true,
-      "blockClass": "nav-menu-header"
-    }
-  },
-
-
-  "menu-item#vtex-heart": {
-    "props": {
-      "blockClass": "heart-logo-class",
-      "id": "menu-item-heart-icon",
-      "type": "custom",
-      "iconProps": {
-        "id": "mpa-heart",
-        "iconPosition": "center",
-        "size": 20,
-        "viewBox": "0 0 22 20"
-
-      },
-      "itemProps": {
-        "type": "internal",
-        "href": "/wishlist"
-      }
-    }
-  },
-
-
-  "flex-layout.col#location": {
-    "children": [
-      "menu-item#vtex-location"
-    ],
-    "props": {
-      "preventVerticalStretch": true,
-      "blockClass": "nav-menu-header"
-    }
-  },
-
-  "menu-item#vtex-location": {
-    "props": {
-      "blockClass": "location-logo-class",
-      "id": "menu-item-location-icon",
-      "type": "custom",
-      "iconProps": {
-        "id": "hpa-location-marker",
-        "iconPosition": "center",
-        "size": 20,
-        "viewBox": "0 0 20 20"
-
-      },
-      "itemProps": {
-        "type": "internal",
-        "href": "/our-stores"
-      }
-    }
-  },
-
-  "flex-layout.col#minicart": {
-    "children": [
-      "minicart.v2"
-    ],
-    "props": {
-      "preventVerticalStretch": true,
-      "blockClass": "nav-menu-header"
-    }
-  },
-
-
-   "menu-item#minicart-icon": {
-    "props": {
-      "blockClass": "minicart-logo-class",
-      "id": "menu-item-minicart-icon",
-      "type": "custom",
-      "blockClass": "cart-icon-ido",
-      "iconProps": {
-        "id": "mpa-ido-cart",
-        "iconPosition": "center",
-        "size": 20,
-        "viewBox": "0 0 20 20"
-      },
-      "itemProps": {
-        "type": "internal",
-        "href": "#"
-      }
-    }
-  },
-
-
-
-  "flex-layout.col#login": {
-    "children": [
-      "IsLogged#custom"
-    ],
-    "props": {
-      "preventVerticalStretch": true,
-      "blockClass": "nav-menu-header"
-    }
-  },
-
-  "IsLogged#custom": {
-    "blocks": [
-      "IsLogged.logged#logged-content",
-      "IsLogged.not-logged#not-logged-content"
-    ]
-  },
-  "IsLogged.logged#logged-content": {
-  "props": {
-        "blockClass": "login-button-green"
-        },
-    "children": [
-     "login#custom-login",
-     "menu-item#vtex-myIdoGreen"
-    ]
-  },
-  "IsLogged.not-logged#not-logged-content": {
-    "children": [
-      "modal-trigger#modal-login-button"
-    ]
-  },
-
-
-  "modal-trigger#modal-login-button": {
-    "children": [
-      "menu-item#vtex-myIdoGrey",
-      "modal-layout#modal-login-content"
-    ]
-  },
-
-  "menu-item#vtex-myIdoGrey": {
-    "props": {
-      "id": "menu-item-myIdo",
-      "type": "custom",
-      "blockClass": "ido-logo-class-desktop-notLogin",
-      "iconProps": {
-        "id": "hpa-profile",
-        "iconPosition": "center",
-        "size": 20,
-        "viewBox": "0 0 18 22",
-        "blockClass": "ido-logo-color-grey"
-      },
-      "highlight": false,
-      "itemProps": {
-        "blockClass": "ido-logo-class",
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "myIdo",
-        "text": "myiDO"
-      }
-    }
-  },
-
-
-  "modal-layout#modal-login-content": {
-      "props": {
-        "blockClass": "modal-login-layout"
-        },
-    "children": [
-      "modal-content#modal-login-content"
-    ]
-  },
-
-  "modal-content#modal-login-content": {
-        "props": {
-          "blockClass": "modal-login-content"
-          },
-    "children": [
-    "modal-header#modal-login-header",
-    "login-content#custom-login"
-    ]
-  },
-
-  "modal-header#modal-login-header": {
-        "props": {
-          "showCloseButton": true,
-          "iconCloseSize": 30,
-          "blockClass": "modal-login-header"
-          }
-  },
-
-
-  "login-content#custom-login": {
-    "props": {
-      "showIconProfile": false,
-      "hideIconLabel": true,
-      "labelClasses": "logo-button-label",
-      "isInitialScreenOptionOnly": false,
-      "defaultOption": 1,
-      "emailAndPasswordTitle": "Accedi a MyIDO",
-      "accessCodeTitle": "MyiDO",
-      "emailPlaceholder": "mariorossi@gmail.it",
-      "passwordPlaceholder": "* * * *",
-      "showPasswordVerificationIntoTooltip": true,
-      "providerPasswordButtonLabel": "ACCEDI",
-      "blockClass": "login-content-desktop"
-    }
-  },
-
-
-
-  "menu-item#vtex-myIdoGreen": {
-    "props": {
-      "id": "menu-item-myIdo",
-      "type": "custom",
-      "blockClass": "ido-logo-class-desktop-login",
-      "iconProps": {
-        "id": "hpa-profile",
-        "iconPosition": "center",
-        "size": 20,
-        "viewBox": "0 0 18 22",
-        "blockClass": "ido-logo-color-green"
-      },
-      "highlight": false,
-      "itemProps": {
-        "blockClass": "ido-logo-class-green",
-        "type": "internal",
-        "href": "/account",
-        "noFollow": true,
-        "tagTitle": "myIdo",
-        "text": "myiDO"
-      }
-    }
-  },
-
-
-  "login#custom-login": {
-    "props": {
-      "isInitialScreenOptionOnly": true,
-      "defaultOption": 1,
-      "blockClass": "login-desktop",
-      "accountOptionLinks": [
-        {
-          "label": "Profilo",
-          "path": "/account/#/profile",
-          "cssClass": "my-account-profile-link"
-        },
-        {
-          "label": "Indirizzi",
-          "path": "/account/#/addresses",
-          "cssClass": "my-account-addresses-link"
-        },
-        {
-          "label": "Ordini",
-          "path": "/account/#/orders",
-          "cssClass": "my-account-orders-link"
-        },
-        {
-          "label": "Carte di credito",
-          "path": "/account/#/cards",
-          "cssClass": "my-account-creditCards-link"
-        }
-      ]
-    }
-  },
-
-
-  "flex-layout.col#switcher": {
-    "children": [
-      "locale-switcher#vtex-switcher"
-    ],
-    "props": {
-      "preventVerticalStretch": true,
-      "blockClass": "nav-menu-header"
-    }
-  },
-
-  "locale-switcher#vtex-switcher": {
-    "props": {
-      "iconProps": {
-        "id": "mpa-angle--down",
-        "size": 20,
-        "viewBox": "0 0 20 20",
-        "activeClassName": "red",
-        "mutedClassName": "c-action-primary"
-      },
-      "iconPosition": "center",
-      "blockClass": "switcher-logo-class"
-    }
-  },
-
-/* level 2 header*/
-
-  "flex-layout.row#level2-notification-bar": {
-       "children": [
-         "notification.bar#home"
-       ],
-       "props": {
-       "fullWidth": "true",
-       "display": "false",
-       "blockClass": "level2-notification-bar"
-       }
-   },
-
-  "notification.bar#home": {
-    "props": {
-      "content": "RITIRO IN NEGOZIO GRATUITO"
-    }
-  },
-
-
-  "flex-layout.row#7-desktop": {
-    "children": [
-      "store.account"
-    ],
-    "props": {
-      "fullWidth": "true",
-      "display": "false"
-    }
-  },
-
-/* level 3 second menu header bambina bambino armocromia*/
-
-  "flex-layout.row#level3-second-menu-bambina-bambino-armocromia": {
-    "props": {
-      "blockClass": "main-header",
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
-    },
-    "children": [
-      "flex-layout.col#col1-menu-bambina-bambino-armocromia",
-      "flex-layout.col#col2-menu-bambina-bambino-armocromia"
-    ]
-  },
-
-
-
-  "flex-layout.col#col1-menu-bambina-bambino-armocromia": {
-    "props": {
-      "width": "100%",
-      "blockClass": "logo-desktop"
-    },
-    "children": [
-      "flex-layout.col#logo-desktop"
-    ]
-  },
-
-
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "blockClass": "logo-desktop"
-    },
-    "children": ["logo#desktop"]
-  },
-
-  "logo#desktop": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "/arquivos/logo_header_ido@4x.png",
-      "width": "103",
-      "height": "60"
-    }
-  },
-
-  "flex-layout.col#col2-menu-bambina-bambino-armocromia": {
-    "props": {
-      "width": "100%",
-      "blockClass": "logo-desktop"
-    },
-    "children": [
-      "flex-layout.col#category-menu-header"
-    ]
-  },
-
-  "flex-layout.col#category-menu-header": {
-    "props": {
-    "blockClass": "category-menu-header",
-      "verticalAlign": "center"
-    },
-    "children": [
-  "menu-item#bambina-category-header"
-    ]
-  },
-/* delete from here to the end */
-  "category-menu#custom-menu": {
-    "props": {
-      "showAllDepartments": true,
-      "showSubcategories": true,
-      "menuDisposition": "right",
-      "departments": [
-        {
-        "id": 1000
-        }
-      ]
-    }
-  },
-    "category-menu#main-menu": {
-      "props": {
-        "mobileMode": false,
-        "showAllDepartments": true,
-        "showSubcategories": true,
-        "menuDisposition": "center",
-        "departments": [
-        ]
-      }
-    },
-  /*
-  "category-menu#item-2": {
-    "props": {
-      "showAllDepartments": true,
-      "showSubcategories": true,
-      "menuDisposition": "left",
-      "departments": []
-    }
-  }, *//* *//*
+	"header": {
+		"blocks": ["header-layout.desktop", "header-layout.mobile"]
+	},
+	"header.full": {
+		"blocks": ["header-layout.desktop", "header-layout.mobile"]
+	},
+	"header-layout.desktop": {
+		"children": ["sticky-layout.stack-container#header"]
+	},
+	"sticky-layout.stack-container#header": {
+		"props": {
+			"position": "top"
+		},
+		"children": [
+			"sticky-layout#links-menu",
+			"sticky-layout#notification-bar",
+			"sticky-layout#main-menu"
+		]
+	},
+
+	"sticky-layout#links-menu": {
+		"children": ["flex-layout.row#level1-top-menu"]
+	},
+	"sticky-layout#notification-bar": {
+		"children": ["flex-layout.row#level2-notification-bar"]
+	},
+
+	"sticky-layout#main-menu": {
+		"children": [
+			"flex-layout.row#level3-second-menu-bambina-bambino-armocromia"
+		]
+	},
+
+	/*level 1 header*/
+
+	"flex-layout.row#level1-top-menu": {
+		"props": {
+			"blockClass": "menu-link",
+			"horizontalAlign": "center",
+			"fullWidth": true
+		},
+		"children": [
+			"flex-layout.col#header-social-networks",
+			"flex-layout.col#header-top-menu"
+		]
+	},
+
+	"flex-layout.col#header-social-networks": {
+		"children": [
+			"image#facebookHeader",
+			"image#instagramHeader",
+			"image#youtubeHeader"
+		],
+		"props": {
+			"width": "20%",
+			"blockClass": "menu-social-networks-header"
+		}
+	},
+
+	"image#facebookHeader": {
+		"props": {
+			"blockClass": "facebookHeader",
+			"src": "/arquivos/facebook@4x.png",
+			"maxHeight": 25,
+			"maxWidth": 12,
+			"alt": "facebook.com",
+			"title": "facebook.com",
+			"link": {
+				"newTab": true,
+				"url": "https://www.facebook.com/iDOkidswear/"
+			}
+		}
+	},
+
+	"image#instagramHeader": {
+		"props": {
+			"blockClass": "instagramHeader",
+			"src": "/arquivos/instagram_new_design@4x.png",
+			"maxHeight": 24,
+			"maxWidth": 23,
+			"alt": "instagram.com",
+			"title": "instagram.com",
+			"link": {
+				"newTab": true,
+				"url": "https://www.instagram.com/idokidswear/"
+			}
+		}
+	},
+
+	"image#youtubeHeader": {
+		"props": {
+			"blockClass": "youtubeHeader",
+			"src": "/arquivos/you_tube_icon_new_design@4x.png",
+			"maxHeight": 16,
+			"maxWidth": 24,
+			"alt": "youtube.com",
+			"title": "youtube.com",
+			"link": {
+				"newTab": true,
+				"url": "https://www.youtube.com/user/idokidswear?feature=results_main"
+			}
+		}
+	},
+
+	"flex-layout.col#header-top-menu": {
+		"children": [
+			"flex-layout.col#search-bar",
+			"flex-layout.col#search",
+			"flex-layout.col#heart",
+			"flex-layout.col#location",
+			"flex-layout.col#minicart",
+			"flex-layout.col#login",
+			"flex-layout.col#switcher"
+		],
+		"props": {
+			"width": "80%",
+			"blockClass": "header-top-menu"
+		}
+	},
+
+	"flex-layout.col#search-bar": {
+		"children": ["search-bar"],
+		"props": {
+			"preventVerticalStretch": true,
+			"blockClass": "search-bar-header"
+		}
+	},
+
+	"flex-layout.col#search": {
+		"children": ["menu-item#vtex-search"],
+		"props": {
+			"preventVerticalStretch": true,
+			"blockClass": "nav-menu-header"
+		}
+	},
+
+	"menu-item#vtex-search": {
+		"props": {
+			"blockClass": "search-logo-class",
+			"id": "vtex-search",
+			"type": "custom",
+			"iconProps": {
+				"id": "hpa-search",
+				"iconPosition": "center",
+				"size": 20,
+				"viewBox": "0 0 20 20"
+			},
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/tutti-i-prodotti"
+			}
+		}
+	},
+
+	"flex-layout.col#heart": {
+		"children": ["menu-item#vtex-heart"],
+		"props": {
+			"preventVerticalStretch": true,
+			"blockClass": "nav-menu-header"
+		}
+	},
+
+	"menu-item#vtex-heart": {
+		"props": {
+			"blockClass": "heart-logo-class",
+			"id": "menu-item-heart-icon",
+			"type": "custom",
+			"iconProps": {
+				"id": "mpa-heart",
+				"iconPosition": "center",
+				"size": 20,
+				"viewBox": "0 0 22 20"
+			},
+			"itemProps": {
+				"type": "internal",
+				"href": "/wishlist"
+			}
+		}
+	},
+
+	"flex-layout.col#location": {
+		"children": ["menu-item#vtex-location"],
+		"props": {
+			"preventVerticalStretch": true,
+			"blockClass": "nav-menu-header"
+		}
+	},
+
+	"menu-item#vtex-location": {
+		"props": {
+			"blockClass": "location-logo-class",
+			"id": "menu-item-location-icon",
+			"type": "custom",
+			"iconProps": {
+				"id": "hpa-location-marker",
+				"iconPosition": "center",
+				"size": 20,
+				"viewBox": "0 0 20 20"
+			},
+			"itemProps": {
+				"type": "internal",
+				"href": "/our-stores"
+			}
+		}
+	},
+
+	"flex-layout.col#minicart": {
+		"children": ["minicart.v2"],
+		"props": {
+			"preventVerticalStretch": true,
+			"blockClass": "nav-menu-header"
+		}
+	},
+
+	"menu-item#minicart-icon": {
+		"props": {
+			"blockClass": "minicart-logo-class",
+			"id": "menu-item-minicart-icon",
+			"type": "custom",
+			"blockClass": "cart-icon-ido",
+			"iconProps": {
+				"id": "mpa-ido-cart",
+				"iconPosition": "center",
+				"size": 20,
+				"viewBox": "0 0 20 20"
+			},
+			"itemProps": {
+				"type": "internal",
+				"href": "#"
+			}
+		}
+	},
+
+	"flex-layout.col#login": {
+		"children": ["IsLogged#custom"],
+		"props": {
+			"preventVerticalStretch": true,
+			"blockClass": "nav-menu-header"
+		}
+	},
+
+	"IsLogged#custom": {
+		"blocks": [
+			"IsLogged.logged#logged-content",
+			"IsLogged.not-logged#not-logged-content"
+		]
+	},
+	"IsLogged.logged#logged-content": {
+		"props": {
+			"blockClass": "login-button-green"
+		},
+		"children": ["login#custom-login", "menu-item#vtex-myIdoGreen"]
+	},
+	"IsLogged.not-logged#not-logged-content": {
+		"children": ["modal-trigger#modal-login-button"]
+	},
+
+	"modal-trigger#modal-login-button": {
+		"children": ["menu-item#vtex-myIdoGrey", "modal-layout#modal-login-content"]
+	},
+
+	"menu-item#vtex-myIdoGrey": {
+		"props": {
+			"id": "menu-item-myIdo",
+			"type": "custom",
+			"blockClass": "ido-logo-class-desktop-notLogin",
+			"iconProps": {
+				"id": "hpa-profile",
+				"iconPosition": "center",
+				"size": 20,
+				"viewBox": "0 0 18 22",
+				"blockClass": "ido-logo-color-grey"
+			},
+			"highlight": false,
+			"itemProps": {
+				"blockClass": "ido-logo-class",
+				"type": "internal",
+				"href": "#",
+				"noFollow": true,
+				"tagTitle": "myIdo",
+				"text": "myiDO"
+			}
+		}
+	},
+
+	"modal-layout#modal-login-content": {
+		"props": {
+			"blockClass": "modal-login-layout"
+		},
+		"children": ["modal-content#modal-login-content"]
+	},
+
+	"modal-content#modal-login-content": {
+		"props": {
+			"blockClass": "modal-login-content"
+		},
+		"children": [
+			"modal-header#modal-login-header",
+			"login-content#custom-login"
+		]
+	},
+
+	"modal-header#modal-login-header": {
+		"props": {
+			"showCloseButton": true,
+			"iconCloseSize": 30,
+			"blockClass": "modal-login-header"
+		}
+	},
+
+	"login-content#custom-login": {
+		"props": {
+			"showIconProfile": false,
+			"hideIconLabel": true,
+			"labelClasses": "logo-button-label",
+			"isInitialScreenOptionOnly": false,
+			"defaultOption": 1,
+			"emailAndPasswordTitle": "Accedi a MyIDO",
+			"accessCodeTitle": "MyiDO",
+			"emailPlaceholder": "mariorossi@gmail.it",
+			"passwordPlaceholder": "* * * *",
+			"showPasswordVerificationIntoTooltip": true,
+			"providerPasswordButtonLabel": "ACCEDI",
+			"blockClass": "login-content-desktop"
+		}
+	},
+
+	"menu-item#vtex-myIdoGreen": {
+		"props": {
+			"id": "menu-item-myIdo",
+			"type": "custom",
+			"blockClass": "ido-logo-class-desktop-login",
+			"iconProps": {
+				"id": "hpa-profile",
+				"iconPosition": "center",
+				"size": 20,
+				"viewBox": "0 0 18 22",
+				"blockClass": "ido-logo-color-green"
+			},
+			"highlight": false,
+			"itemProps": {
+				"blockClass": "ido-logo-class-green",
+				"type": "internal",
+				"href": "/account",
+				"noFollow": true,
+				"tagTitle": "myIdo",
+				"text": "myiDO"
+			}
+		}
+	},
+
+	"login#custom-login": {
+		"props": {
+			"isInitialScreenOptionOnly": true,
+			"defaultOption": 1,
+			"blockClass": "login-desktop",
+			"accountOptionLinks": [
+				{
+					"label": "Profilo",
+					"path": "/account/#/profile",
+					"cssClass": "my-account-profile-link"
+				},
+				{
+					"label": "Indirizzi",
+					"path": "/account/#/addresses",
+					"cssClass": "my-account-addresses-link"
+				},
+				{
+					"label": "Ordini",
+					"path": "/account/#/orders",
+					"cssClass": "my-account-orders-link"
+				},
+				{
+					"label": "Carte di credito",
+					"path": "/account/#/cards",
+					"cssClass": "my-account-creditCards-link"
+				}
+			]
+		}
+	},
+
+	"flex-layout.col#switcher": {
+		"children": ["locale-switcher#vtex-switcher"],
+		"props": {
+			"preventVerticalStretch": true,
+			"blockClass": "nav-menu-header"
+		}
+	},
+
+	"locale-switcher#vtex-switcher": {
+		"props": {
+			"iconProps": {
+				"id": "mpa-angle--down",
+				"size": 20,
+				"viewBox": "0 0 20 20",
+				"activeClassName": "red",
+				"mutedClassName": "c-action-primary"
+			},
+			"iconPosition": "center",
+			"blockClass": "switcher-logo-class"
+		}
+	},
+
+	/* level 2 header*/
+
+	"flex-layout.row#level2-notification-bar": {
+		"children": ["notification.bar#home"],
+		"props": {
+			"fullWidth": "true",
+			"display": "false",
+			"blockClass": "level2-notification-bar"
+		}
+	},
+
+	"notification.bar#home": {
+		"props": {
+			"content": "RITIRO IN NEGOZIO GRATUITO"
+		}
+	},
+
+	"flex-layout.row#7-desktop": {
+		"children": ["store.account"],
+		"props": {
+			"fullWidth": "true",
+			"display": "false"
+		}
+	},
+
+	/* level 3 second menu header bambina bambino armocromia*/
+
+	"flex-layout.row#level3-second-menu-bambina-bambino-armocromia": {
+		"props": {
+			"blockClass": "main-header",
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true,
+			"fullWidth": true
+		},
+		"children": [
+			"flex-layout.col#col1-menu-bambina-bambino-armocromia",
+			"flex-layout.col#col2-menu-bambina-bambino-armocromia"
+		]
+	},
+
+	"flex-layout.col#col1-menu-bambina-bambino-armocromia": {
+		"props": {
+			"width": "100%",
+			"blockClass": "logo-desktop"
+		},
+		"children": ["flex-layout.col#logo-desktop"]
+	},
+
+	"flex-layout.col#logo-desktop": {
+		"props": {
+			"blockClass": "logo-desktop"
+		},
+		"children": ["logo#desktop"]
+	},
+
+	"logo#desktop": {
+		"props": {
+			"title": "Logo",
+			"href": "/",
+			"url": "/arquivos/logo_header_ido@4x.png",
+			"width": "103",
+			"height": "60"
+		}
+	},
+
+	"flex-layout.col#col2-menu-bambina-bambino-armocromia": {
+		"props": {
+			"width": "100%",
+			"blockClass": "logo-desktop"
+		},
+		"children": ["flex-layout.col#category-menu-header"]
+	},
+
+	"flex-layout.col#category-menu-header": {
+		"props": {
+			"blockClass": "category-menu-header",
+			"verticalAlign": "center"
+		},
+		"children": ["menu-item#bambina-category-header"]
+	},
+	/* delete from here to the end */
+	"category-menu#custom-menu": {
+		"props": {
+			"showAllDepartments": true,
+			"showSubcategories": true,
+			"menuDisposition": "right",
+			"departments": [
+				{
+					"id": 1000
+				}
+			]
+		}
+	},
+	"category-menu#main-menu": {
+		"props": {
+			"mobileMode": false,
+			"showAllDepartments": true,
+			"showSubcategories": true,
+			"menuDisposition": "center",
+			"departments": []
+		}
+	} /* */ /*
   "category-menu#item-3": {
     "props": {
       "id": "1000",
@@ -582,546 +515,560 @@
       "menuDisposition": "center",
       "departments": []
     }
-  },  */
-
-
-/* bambina header menu*/
-
-  "menu-item#bambina-category-header": {
+  },  */,
+	/*
+  "category-menu#item-2": {
     "props": {
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambina",
-        "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "BAMBINA"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#bambina-category-header"
-    ]
-  },
-
-  "vtex.menu@2.x:submenu#bambina-category-header": {
-    "props": {
-      "blockClass": "bambina-desktop-main-container-submenu"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#bambina-category-header"
-    ]
-  },
-
-
-  "vtex.menu@2.x:menu#bambina-category-header": {
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "bambina-desktop-main-container"
-    },
-    "children": [
-        "menu-item#bambina-test"
-    ]
-  },
-
-
-  "menu-item#bambina-test": {
-    "props": {
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/test",
-        "noFollow": false,
-        "tagTitle": "test element",
-        "text": "test element"
-      }
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "left",
+      "departments": []
     }
-  },
-
-  "flex-layout.row#bambinaMenuDesktop":{
-    "props": {
-      "width": "100%",
-      "blockClass": "shelfTitle"
-    },
-    "children": [
-      "flex-layout.col#bambinaMenuDesktopFirstColumn",
-      "flex-layout.col#bambinaMenuDesktopSecondColumn",
-      "flex-layout.col#bambinaMenuDesktopThirdColumn"
-    ]
-  },
-
-
-
-
-  "flex-layout.col#bambinaMenuDesktopFirstColumn":{
-    "props": {
-      "width": "33%",
-      "blockClass": "bambinaMenuDesktopFirstColumn"
-    },
-    "children": [
-      "rich-text#header-top-menu-list-Guarda-tutti",
-      "rich-text#header-top-menu-list-0-18-mesi",
-      "rich-text#header-top-menu-list-6-36-mesi",
-      "rich-text#header-top-menu-list-3-8-anni",
-      "rich-text#header-top-menu-list-9-16-anni",
-      "rich-text#header-top-menu-list-Guida-alle-taglie"
-    ]
-  },
-
-
-  "rich-text#header-top-menu-list-Guarda-tutti": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/'>Guarda tutti",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-spacer": {
-     "props": {
-     "text": "spacer",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-  "rich-text#header-top-menu-list-0-18-mesi": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/0 - 18 Mesi'>0 - 18 mesi",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-6-36-mesi": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/6 - 36 Mesi'>6 - 36 mesi",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-3-8-anni": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/6 - 36 Mesi'>3 - 8 anni",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-9-16-anni": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/6 - 36 Mesi'>9 - 16 anni",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-Guida-alle-taglie": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/guida-alle-taglie/'>Guida alle taglie",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-
-
-
-
-
-  "flex-layout.col#bambinaMenuDesktopSecondColumn":{
-    "props": {
-      "width": "33%",
-      "blockClass": "bambinaMenuDesktopSecondColumn"
-    },
-    "children": [
-      "rich-text#header-top-menu-list-Pantaloni",
-      "rich-text#header-top-menu-list-Accessori",
-      "rich-text#header-top-menu-list-Maglie-e-felpe",
-      "rich-text#header-top-menu-list-Abiti-e-gonne",
-      "rich-text#header-top-menu-list-Giubbotti-e-giacche",
-      "rich-text#header-top-menu-list-Camicie"
-
-    ]
-  },
-
-  "rich-text#header-top-menu-list-Pantaloni": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/pantaloni'>Pantaloni",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-Accessori": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/Accessori'>Accessori",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-Maglie-e-felpe": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/Maglie-E-Felpe'>Maglie e felpe",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-Abiti-e-gonne": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/Abiti-E-Gonne'>Abiti e gonne",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-Giubbotti-e-giacche": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/Giubbotti-E-Giacche'>Giubbotti e giacche",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-Camicie": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/T-Shirt-Polo-E-Camicie'>T-shirt, Polo, Camicie",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-
-  "flex-layout.col#bambinaMenuDesktopThirdColumn":{
-    "props": {
-      "width": "33%",
-      "blockClass": "bambinaMenuDesktopThirdColumn"
-    },
-    "children": [
-      "rich-text#header-top-menu-list-Un-iDO-per-ogni-occasione",
-      "rich-text#header-top-menu-list-Glam",
-      "rich-text#header-top-menu-list-iDO-mini",
-      "rich-text#header-top-menu-list-Sport-time"
-
-    ]
-  },
-
-
- "rich-text#header-top-menu-list-Un-iDO-per-ogni-occasione": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/'>Gli Imperdibili",
-     "blockClass": "header-top-menu-list-Un-iDO-per-ogni-occasione"
-      }
-  },
-
-  "rich-text#header-top-menu-list-Glam": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/'>Glam collection",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-iDO-mini": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/'>iDO mini",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-Sport-time": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/'>Sport time",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-
-
-
-/* bambino header menu*/
-
-  "menu-item#bambino-category-header": {
-    "props": {
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambina",
-        "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "BAMBINO"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#bambino-category-header"
-    ]
-  },
-
-  "vtex.menu@2.x:submenu#bambino-category-header": {
-    "props": {
-      "width": "100%",
-      "blockClass": "bambino-desktop-main-container-submenu"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#bambino-category-header"
-    ]
-  },
-
-  "vtex.menu@2.x:menu#bambino-category-header": {
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "bambino-desktop-main-container"
-    },
-    "children": [
-      "flex-layout.row#bambinoMenuDesktop"
-    ]
-  },
-
- "flex-layout.row#bambinoMenuDesktop":{
-    "props": {
-      "width": "100%",
-      "blockClass": "shelfTitle"
-    },
-    "children": [
-      "flex-layout.col#bambinoMenuDesktopFirstColumn",
-      "flex-layout.col#bambinoMenuDesktopSecondColumn",
-      "flex-layout.col#bambinoMenuDesktopThirdColumn"
-    ]
-  },
-
-
-
-
-  "flex-layout.col#bambinoMenuDesktopFirstColumn":{
-    "props": {
-      "width": "33%",
-      "blockClass": "bambinaMenuDesktopFirstColumn"
-    },
-    "children": [
-      "rich-text#header-top-menu-list-Guarda-tutti-bambino",
-      "rich-text#header-top-menu-list-0-18-mesi-bambino",
-      "rich-text#header-top-menu-list-6-36-mesi-bambino",
-      "rich-text#header-top-menu-list-3-8-anni-bambino",
-      "rich-text#header-top-menu-list-9-16-anni-bambino",
-      "rich-text#header-top-menu-list-Guida-alle-taglie-bambino"
-    ]
-  },
-
-
-  "rich-text#header-top-menu-list-Guarda-tutti-bambino": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/'>Guarda tutti",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-
-  "rich-text#header-top-menu-list-0-18-mesi-bambino": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/0 - 18 Mesi'>0 - 18 mesi",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-6-36-mesi-bambino": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/6 - 36 Mesi'>6 - 36 mesi",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-3-8-anni-bambino": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/6 - 36 Mesi'>3 - 8 anni",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-9-16-anni-bambino": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/6 - 36 Mesi'>9 - 16 anni",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-Guida-alle-taglie-bambino": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/guida-alle-taglie/'>Guida alle taglie",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-
-
-
-
-
-  "flex-layout.col#bambinoMenuDesktopSecondColumn":{
-    "props": {
-      "width": "33%",
-      "blockClass": "bambinaMenuDesktopSecondColumn"
-    },
-    "children": [
-      "rich-text#header-top-menu-list-Pantaloni-bambino",
-      "rich-text#header-top-menu-list-Accessori-bambino",
-      "rich-text#header-top-menu-list-Maglie-e-felpe-bambino",
-      "rich-text#header-top-menu-list-Abiti-e-gonne-bambino",
-      "rich-text#header-top-menu-list-Giubbotti-e-giacche-bambino",
-      "rich-text#header-top-menu-list-Camicie-bambino"
-
-    ]
-  },
-
-  "rich-text#header-top-menu-list-Pantaloni-bambino": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/pantaloni'>Pantaloni",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-Accessori-bambino": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/Accessori'>Accessori",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-Maglie-e-felpe-bambino": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/Maglie-E-Felpe'>Maglie e felpe",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-Abiti-e-gonne-bambino": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/Abiti-E-Gonne'>Abiti e gonne",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-Giubbotti-e-giacche-bambino": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/Giubbotti-E-Giacche'>Giubbotti e giacche",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-Camicie-bambino": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/T-Shirt-Polo-E-Camicie'>T-shirt, Polo, Camicie",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-
-  "flex-layout.col#bambinoMenuDesktopThirdColumn":{
-    "props": {
-      "width": "33%",
-      "blockClass": "bambinaMenuDesktopThirdColumn"
-    },
-    "children": [
-      "rich-text#header-top-menu-list-Un-iDO-per-ogni-occasione-bambino",
-      "rich-text#header-top-menu-list-Glam-bambino",
-      "rich-text#header-top-menu-list-iDO-mini-bambino",
-      "rich-text#header-top-menu-list-Sport-time-bambino"
-
-    ]
-  },
-
-
- "rich-text#header-top-menu-list-Un-iDO-per-ogni-occasione-bambino": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/'>Gli Imperdibili",
-     "blockClass": "header-top-menu-list-Un-iDO-per-ogni-occasione"
-      }
-  },
-
-  "rich-text#header-top-menu-list-Glam-bambino": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/'>Glam collection",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-iDO-mini-bambino": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/'>iDO mini",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-  "rich-text#header-top-menu-list-Sport-time-bambino": {
-     "props": {
-     "text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/'>Sport time",
-     "blockClass": "header-top-menu-list"
-      }
-  },
-
-
-
-
-
-
-
-
-
-
-/* armocromia header menu*/
-
-  "menu-item#armocromia-category-header": {
-    "props": {
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Tutti-i-Prodotti/Bambina",
-        "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "ARMOCROMIA"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#armocromia-category-header"
-    ]
-  },
-
-  "vtex.menu@2.x:submenu#armocromia-category-header": {
-    "props": {
-      "width": "100%",
-      "blockClass": "bambina-desktop-main-container-submenu"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#armocromia-category-header"
-    ]
-  },
-
-
-
-  "vtex.menu@2.x:menu#armocromia-category-header": {
-    "props": {
-      "orientation": "vertical",
-      "blockClass": "armocromia-category-header"
-    },
-    "children": [
-      "menu-item#armocromia-category-header"
-    ]
-  },
-
-  "menu-item#armocromia-category-header": {
-    "props": {
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/larmocromia?__bindingAddress=www.ido.it/it",
-        "noFollow": true,
-        "tagTitle": "More",
-        "text": "ARMOCROMIA"
-      }
-    }
-  }
+  }, */
+
+	/* bambina header menu*/
+	"menu-item#bambina-category-header": {
+		"props": {
+			"id": "menu-item-category-apparel",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/Tutti-i-Prodotti/Bambina",
+				"noFollow": false,
+				"tagTitle": "Apparel & Accessories",
+				"text": "BAMBINA"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#bambina-category-header"]
+	},
+
+	"vtex.menu@2.x:submenu#bambina-category-header": {
+		"props": {
+			"blockClass": "bambina-desktop-main-container-submenu"
+		},
+		"children": ["vtex.menu@2.x:menu#bambina-category-header"]
+	},
+
+	"vtex.menu@2.x:menu#bambina-category-header": {
+		"props": {
+			"orientation": "vertical",
+			"blockClass": "bambina-desktop-main-container"
+		},
+		"children": [
+			"menu-item#bambina-guarda-tutti",
+			"menu-item#bambina-age-0-18",
+			"menu-item#bambina-age-6-36",
+			"menu-item#bambina-age-9-16",
+			"menu-item#bambina-size-guide"
+		]
+	},
+
+	"menu-item#bambina-test": {
+		"props": {
+			"id": "menu-item-category-apparel",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/Tutti-i-Prodotti/test",
+				"noFollow": false,
+				"tagTitle": "test element",
+				"text": "test element"
+			}
+		}
+	},
+
+	"flex-layout.row#bambinaMenuDesktop": {
+		"props": {
+			"width": "100%",
+			"blockClass": "shelfTitle"
+		},
+		"children": [
+			"flex-layout.col#bambinaMenuDesktopFirstColumn",
+			"flex-layout.col#bambinaMenuDesktopSecondColumn",
+			"flex-layout.col#bambinaMenuDesktopThirdColumn"
+		]
+	},
+
+	"flex-layout.col#bambinaMenuDesktopFirstColumn": {
+		"props": {
+			"width": "33%",
+			"blockClass": "bambinaMenuDesktopFirstColumn"
+		},
+		"children": [
+			"menu-item#bambina-guarda-tutti",
+			"menu-item#bambina-age-0-18",
+			"menu-item#bambina-age-6-36",
+			"menu-item#bambina-age-9-16",
+			"menu-item#bambina-size-guide"
+		]
+	},
+
+	"menu-item#bambina-guarda-tutti": {
+		"props": {
+			"id": "menu-item-category-apparel",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/Tutti-i-Prodotti/Bambina/",
+				"noFollow": false,
+				"tagTitle": "Guarda tutti",
+				"text": "Guarda tutti"
+			}
+		}
+	},
+	"menu-item#bambina-age-0-18": {
+		"props": {
+			"id": "menu-item-category-apparel",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/Tutti-i-Prodotti/Bambina/0%20-%2018%20Mesi?map=c,c,specificationFilter_27&query=/Tutti-i-Prodotti/Bambina/0%20-%2018%20Mesi",
+				"noFollow": false,
+				"tagTitle": "0 - 18 mesi",
+				"text": "0 - 18 mesi"
+			}
+		}
+	},
+	"menu-item#bambina-age-6-36": {
+		"props": {
+			"id": "menu-item-category-apparel",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/Tutti-i-Prodotti/Bambina/6 - 36 mesi",
+				"noFollow": false,
+				"tagTitle": "6 - 36 mesi",
+				"text": "6 - 36 mesi"
+			}
+		}
+	},
+	"menu-item#bambina-age-3-8": {
+		"props": {
+			"id": "menu-item-category-apparel",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/Tutti-i-Prodotti/Bambina/3 - 8 anni",
+				"noFollow": false,
+				"tagTitle": "3 - 8 anni",
+				"text": "3 - 8 anni"
+			}
+		}
+	},
+
+	"menu-item#bambina-age-9-16": {
+		"props": {
+			"id": "menu-item-category-apparel",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/Tutti-i-Prodotti/Bambina/9 - 16 Anni",
+				"noFollow": false,
+				"tagTitle": "9 - 16 Anni",
+				"text": "9 - 16 Anni"
+			}
+		}
+	},
+	/* 16 */
+	"menu-item#bambina-size-guide": {
+		"props": {
+			"id": "menu-item-category-apparel",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/guida-alle-taglie/",
+				"noFollow": false,
+				"tagTitle": "Guida alle taglie",
+				"text": "Guida alle taglie"
+			}
+		}
+	},
+
+	"rich-text#header-top-menu-list-3-8-anni": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/6 - 36 Mesi'>3 - 8 anni",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-9-16-anni": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/6 - 36 Mesi'>9 - 16 anni",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-Guida-alle-taglie": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/guida-alle-taglie/'>Guida alle taglie",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"flex-layout.col#bambinaMenuDesktopSecondColumn": {
+		"props": {
+			"width": "33%",
+			"blockClass": "bambinaMenuDesktopSecondColumn"
+		},
+		"children": [
+			"rich-text#header-top-menu-list-Pantaloni",
+			"rich-text#header-top-menu-list-Accessori",
+			"rich-text#header-top-menu-list-Maglie-e-felpe",
+			"rich-text#header-top-menu-list-Abiti-e-gonne",
+			"rich-text#header-top-menu-list-Giubbotti-e-giacche",
+			"rich-text#header-top-menu-list-Camicie"
+		]
+	},
+
+	"rich-text#header-top-menu-list-Pantaloni": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/pantaloni'>Pantaloni",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-Accessori": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/Accessori'>Accessori",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-Maglie-e-felpe": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/Maglie-E-Felpe'>Maglie e felpe",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-Abiti-e-gonne": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/Abiti-E-Gonne'>Abiti e gonne",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-Giubbotti-e-giacche": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/Giubbotti-E-Giacche'>Giubbotti e giacche",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-Camicie": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/T-Shirt-Polo-E-Camicie'>T-shirt, Polo, Camicie",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"flex-layout.col#bambinaMenuDesktopThirdColumn": {
+		"props": {
+			"width": "33%",
+			"blockClass": "bambinaMenuDesktopThirdColumn"
+		},
+		"children": [
+			"rich-text#header-top-menu-list-Un-iDO-per-ogni-occasione",
+			"rich-text#header-top-menu-list-Glam",
+			"rich-text#header-top-menu-list-iDO-mini",
+			"rich-text#header-top-menu-list-Sport-time"
+		]
+	},
+
+	"rich-text#header-top-menu-list-Un-iDO-per-ogni-occasione": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/'>Gli Imperdibili",
+			"blockClass": "header-top-menu-list-Un-iDO-per-ogni-occasione"
+		}
+	},
+
+	"rich-text#header-top-menu-list-Glam": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/'>Glam collection",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-iDO-mini": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/'>iDO mini",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-Sport-time": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambina/'>Sport time",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	/* bambino header menu*/
+
+	"menu-item#bambino-category-header": {
+		"props": {
+			"id": "menu-item-category-apparel",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/Tutti-i-Prodotti/Bambina",
+				"noFollow": false,
+				"tagTitle": "Apparel & Accessories",
+				"text": "BAMBINO"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#bambino-category-header"]
+	},
+
+	"vtex.menu@2.x:submenu#bambino-category-header": {
+		"props": {
+			"width": "100%",
+			"blockClass": "bambino-desktop-main-container-submenu"
+		},
+		"children": ["vtex.menu@2.x:menu#bambino-category-header"]
+	},
+
+	"vtex.menu@2.x:menu#bambino-category-header": {
+		"props": {
+			"orientation": "vertical",
+			"blockClass": "bambino-desktop-main-container"
+		},
+		"children": ["flex-layout.row#bambinoMenuDesktop"]
+	},
+
+	"flex-layout.row#bambinoMenuDesktop": {
+		"props": {
+			"width": "100%",
+			"blockClass": "shelfTitle"
+		},
+		"children": [
+			"flex-layout.col#bambinoMenuDesktopFirstColumn",
+			"flex-layout.col#bambinoMenuDesktopSecondColumn",
+			"flex-layout.col#bambinoMenuDesktopThirdColumn"
+		]
+	},
+
+	"flex-layout.col#bambinoMenuDesktopFirstColumn": {
+		"props": {
+			"width": "33%",
+			"blockClass": "bambinaMenuDesktopFirstColumn"
+		},
+		"children": [
+			"rich-text#header-top-menu-list-Guarda-tutti-bambino",
+			"rich-text#header-top-menu-list-0-18-mesi-bambino",
+			"rich-text#header-top-menu-list-6-36-mesi-bambino",
+			"rich-text#header-top-menu-list-3-8-anni-bambino",
+			"rich-text#header-top-menu-list-9-16-anni-bambino",
+			"rich-text#header-top-menu-list-Guida-alle-taglie-bambino"
+		]
+	},
+
+	"rich-text#header-top-menu-list-Guarda-tutti-bambino": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/'>Guarda tutti",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-0-18-mesi-bambino": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/0 - 18 Mesi'>0 - 18 mesi",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-6-36-mesi-bambino": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/6 - 36 Mesi'>6 - 36 mesi",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-3-8-anni-bambino": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/6 - 36 Mesi'>3 - 8 anni",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-9-16-anni-bambino": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/6 - 36 Mesi'>9 - 16 anni",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-Guida-alle-taglie-bambino": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/guida-alle-taglie/'>Guida alle taglie",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"flex-layout.col#bambinoMenuDesktopSecondColumn": {
+		"props": {
+			"width": "33%",
+			"blockClass": "bambinaMenuDesktopSecondColumn"
+		},
+		"children": [
+			"rich-text#header-top-menu-list-Pantaloni-bambino",
+			"rich-text#header-top-menu-list-Accessori-bambino",
+			"rich-text#header-top-menu-list-Maglie-e-felpe-bambino",
+			"rich-text#header-top-menu-list-Abiti-e-gonne-bambino",
+			"rich-text#header-top-menu-list-Giubbotti-e-giacche-bambino",
+			"rich-text#header-top-menu-list-Camicie-bambino"
+		]
+	},
+
+	"rich-text#header-top-menu-list-Pantaloni-bambino": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/pantaloni'>Pantaloni",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-Accessori-bambino": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/Accessori'>Accessori",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-Maglie-e-felpe-bambino": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/Maglie-E-Felpe'>Maglie e felpe",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-Abiti-e-gonne-bambino": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/Abiti-E-Gonne'>Abiti e gonne",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-Giubbotti-e-giacche-bambino": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/Giubbotti-E-Giacche'>Giubbotti e giacche",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-Camicie-bambino": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/T-Shirt-Polo-E-Camicie'>T-shirt, Polo, Camicie",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"flex-layout.col#bambinoMenuDesktopThirdColumn": {
+		"props": {
+			"width": "33%",
+			"blockClass": "bambinaMenuDesktopThirdColumn"
+		},
+		"children": [
+			"rich-text#header-top-menu-list-Un-iDO-per-ogni-occasione-bambino",
+			"rich-text#header-top-menu-list-Glam-bambino",
+			"rich-text#header-top-menu-list-iDO-mini-bambino",
+			"rich-text#header-top-menu-list-Sport-time-bambino"
+		]
+	},
+
+	"rich-text#header-top-menu-list-Un-iDO-per-ogni-occasione-bambino": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/'>Gli Imperdibili",
+			"blockClass": "header-top-menu-list-Un-iDO-per-ogni-occasione"
+		}
+	},
+
+	"rich-text#header-top-menu-list-Glam-bambino": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/'>Glam collection",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-iDO-mini-bambino": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/'>iDO mini",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	"rich-text#header-top-menu-list-Sport-time-bambino": {
+		"props": {
+			"text": "<a class='vtex-header-top-menu-list' href='/Tutti-i-Prodotti/Bambino/'>Sport time",
+			"blockClass": "header-top-menu-list"
+		}
+	},
+
+	/* armocromia header menu*/
+
+	"menu-item#armocromia-category-header": {
+		"props": {
+			"id": "menu-item-category-apparel",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/Tutti-i-Prodotti/Bambina",
+				"noFollow": false,
+				"tagTitle": "Apparel & Accessories",
+				"text": "ARMOCROMIA"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#armocromia-category-header"]
+	},
+
+	"vtex.menu@2.x:submenu#armocromia-category-header": {
+		"props": {
+			"width": "100%",
+			"blockClass": "bambina-desktop-main-container-submenu"
+		},
+		"children": ["vtex.menu@2.x:menu#armocromia-category-header"]
+	},
+
+	"vtex.menu@2.x:menu#armocromia-category-header": {
+		"props": {
+			"orientation": "vertical",
+			"blockClass": "armocromia-category-header"
+		},
+		"children": ["menu-item#armocromia-category-header"]
+	},
+
+	"menu-item#armocromia-category-header": {
+		"props": {
+			"id": "menu-item-category-apparel",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/larmocromia?__bindingAddress=www.ido.it/it",
+				"noFollow": true,
+				"tagTitle": "More",
+				"text": "ARMOCROMIA"
+			}
+		}
+	}
 }
-
-
-
