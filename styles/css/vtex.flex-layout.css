@@ -19,6 +19,11 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .flexRowContent--landing-form-desktop-row-main {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .flexRow--kitlook-row-main {
     max-width: 1400px;
@@ -118,6 +123,13 @@
 
 
   .flexRowContent--landing-in-store-desktop-row-main {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .flexRowContent--landing-form-desktop-row-main {
     max-width: 1250px;
     margin-left: auto;
     margin-right: auto;
@@ -253,6 +265,11 @@
 
 
   .flexRowContent--landing-in-store-desktop-row-main {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .flexRowContent--landing-form-desktop-row-main {
     max-width: 1025px;
     margin-left: auto;
     margin-right: auto;
@@ -3364,3 +3381,47 @@
 }
 
 
+.flexRowContent--template-form-row-1 :global(.vtex-input-prefix__group),
+.flexRowContent--template-form-row-2 :global(.vtex-input-prefix__group),
+.flexRowContent--template-form-row-3 :global(.vtex-input-prefix__group),
+.flexRowContent--template-form-row-4 :global(.vtex-input-prefix__group),
+.flexRowContent--template-form-row-5 :global(.vtex-input-prefix__group),
+.flexRowContent--template-form-row-6 :global(.vtex-input-prefix__group){
+  border: solid 1px;
+  margin: .5rem 1rem;
+}
+
+
+.flexRowContent--template-form-row-3 :global(.vtex-input-prefix__group) {
+  width: 325px;
+}
+
+.flexRowContent--template-form-row-1 :global(.vtex-input__label),
+.flexRowContent--template-form-row-2 :global(.vtex-input__label),
+.flexRowContent--template-form-row-3 :global(.vtex-input__label),
+.flexRowContent--template-form-row-4 :global(.vtex-input__label),
+.flexRowContent--template-form-row-5 :global(.vtex-input__label),
+.flexRowContent--template-form-row-6 :global(.vtex-input__label){
+  padding-left: 2rem;
+}
+
+.flexRowContent--template-form-row-4 :global(.vtex-input-prefix__group) {
+  height: 197px!important;
+  margin-bottom: 1rem;
+}
+.flexRowContent--template-form-row-5 :global(.vtex-checkbox__line-container) {
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+}
+.flexRowContent--template-form-row-6 :global(.vtex-button) {
+  width: 159px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #001930;
+  border: none;
+}
+
+.flexRow--template-form-main-container {
+  width: 725px;
+  margin: auto;
+}

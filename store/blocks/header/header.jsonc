@@ -539,22 +539,32 @@
       "verticalAlign": "center"
     },
     "children": [
-    "menu-item#bambina-category-header",
-    "menu-item#bambino-category-header",
-    "menu-item#armocromia-category-header"
+  "menu-item#bambina-category-header"
     ]
   },
-
-   "category-menu#item-1": {
+/* delete from here to the end */
+  "category-menu#custom-menu": {
     "props": {
-      "id" : 1000,
       "showAllDepartments": true,
       "showSubcategories": true,
-      "menuDisposition": "center",
+      "menuDisposition": "right",
       "departments": [
+        {
+        "id": 1000
+        }
       ]
     }
   },
+    "category-menu#main-menu": {
+      "props": {
+        "mobileMode": false,
+        "showAllDepartments": true,
+        "showSubcategories": true,
+        "menuDisposition": "center",
+        "departments": [
+        ]
+      }
+    },
   /*
   "category-menu#item-2": {
     "props": {
@@ -612,8 +622,25 @@
       "blockClass": "bambina-desktop-main-container"
     },
     "children": [
-      "flex-layout.row#bambinaMenuDesktop"
+        "menu-item#bambina-test"
     ]
+  },
+
+
+  "menu-item#bambina-test": {
+    "props": {
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tutti-i-Prodotti/test",
+        "noFollow": false,
+        "tagTitle": "test element",
+        "text": "test element"
+      }
+    }
   },
 
   "flex-layout.row#bambinaMenuDesktop":{

@@ -1,0 +1,290 @@
+{
+  "store.custom#template-form": {
+    "blocks": [
+      "responsive-layout.desktop#landing-form-desktop",
+      "responsive-layout.mobile#landing-form-mobile"
+    ]
+  },
+  "responsive-layout.desktop#landing-form-desktop": {
+    "props": {
+    },
+    "children": [
+      "flex-layout.row#landing-form-desktop-row-main"
+    ]
+  },
+  "flex-layout.row#landing-form-desktop-row-main": {
+    "props": {
+      "blockClass": "landing-form-desktop-row-main"
+    },
+    "children": [
+      "flex-layout.col#landing-form-desktop-col-main"
+    ]
+  },
+  "flex-layout.col#landing-form-desktop-col-main": {
+    "props": {
+      "blockClass": "landing-form-desktop-col-main"
+    },
+    "children": [
+      "flex-layout.row#landing-form-desktop-1",
+      "flex-layout.row#landing-form-desktop-2",
+      "flex-layout.row#template-form",
+      "info-card#newslwtter-banner-hp"
+    ]
+  },
+  "flex-layout.row#landing-form-desktop-1": {
+    "children": [
+      "info-card#landing-form-desktop-1"
+    ],
+    "props": {
+      "blockClass": "landing-form-desktop-1"
+    }
+  },
+  "flex-layout.row#landing-form-desktop-2": {
+    "children": [
+      "info-card#landing-form-desktop-2"
+    ],
+    "props": {
+      "blockClass": "landing-form-desktop-2"
+    }
+  },
+  "info-card#landing-form-desktop-1": {
+    "props": {
+      "id": "template-info-card2",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "",
+      "headline": "LOREM IPSUM <br> DOLOR SIT",
+      "subhead": "Lorem ipsum dolor sit <br> amet lorem ipsum dolor",
+      "callToActionText": "",
+      "callToActionUrl": "#",
+      "blockClass": "landing-form-desktop-1",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#landing-form-desktop-2": {
+    "props": {
+      "id": "template-info-card2",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "",
+      "headline": "Lorem ipsum dolor sit amet",
+      "subhead": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+      "callToActionText": "LOREM IMPSUM DOLOR",
+      "callToActionUrl": "#",
+      "blockClass": "landing-form-desktop-2",
+      "textAlignment": "center"
+    }
+  },
+  "responsive-layout.mobile#landing-form-mobile": {
+    "children": [
+      "flex-layout.row#landing-form-desktop-row-main-mobile"
+    ]
+  },
+  "flex-layout.row#landing-form-desktop-row-main-mobile": {
+    "props": {
+      "blockClass": "landing-form-desktop-row-main-mobile"
+    },
+    "children": [
+      "flex-layout.col#landing-form-desktop-col-main-mobile"
+    ]
+  },
+  "flex-layout.col#landing-form-desktop-col-main-mobile": {
+    "props": {
+      "blockClass": "landing-form-desktop-col-main-mobile"
+    },
+    "children": [
+      "flex-layout.row#landing-form-desktop-1-mobile",
+      "flex-layout.row#landing-form-desktop-2-mobile",
+      "info-card#newslwtter-banner-hp-mobile"
+    ]
+  },
+  "flex-layout.row#landing-form-desktop-1-mobile": {
+    "children": [
+      "info-card#landing-form-desktop-1-mobile"
+    ],
+    "props": {
+      "blockClass": "landing-form-desktop-1-mobile"
+    }
+  },
+  "flex-layout.row#landing-form-desktop-2-mobile": {
+    "children": [
+      "info-card#landing-form-desktop-2-mobile"
+    ],
+    "props": {
+      "blockClass": "landing-form-desktop-2-mobile"
+    }
+  },
+  "info-card#landing-form-desktop-1-mobile": {
+    "props": {
+      "id": "template-info-card2",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "",
+      "headline": "LOREM IPSUM <br> DOLOR SIT",
+      "subhead": "Lorem ipsum dolor sit <br> amet lorem ipsum dolor",
+      "callToActionText": "",
+      "callToActionUrl": "#",
+      "blockClass": "landing-form-desktop-1-mobile",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#landing-form-desktop-2-mobile": {
+    "props": {
+      "id": "template-info-card2",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "",
+      "headline": "Lorem ipsum dolor sit amet",
+      "subhead": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+      "callToActionText": "LOREM IMPSUM DOLOR",
+      "callToActionUrl": "#",
+      "blockClass": "landing-form-desktop-2-mobile",
+      "textAlignment": "center"
+    }
+  },
+
+  "flex-layout.row#template-form": {
+    "props": {
+      "blockClass": "template-form-main-container"
+    },
+    "children": [
+      "flex-layout.col#template-form"
+    ]
+  },
+  "flex-layout.col#template-form": {
+    "children": [
+      "form#template-form"
+    ]
+  },
+
+  "form#template-form": {
+    "props": {
+      "entity": "TF",
+      "schema": "template_form"
+    },
+    "children": [
+      "flex-layout.row#template-form-row-1",
+      "flex-layout.row#template-form-row-2",
+      "flex-layout.row#template-form-row-3",
+      "flex-layout.row#template-form-row-4",
+      "flex-layout.row#template-form-row-5",
+      "flex-layout.row#template-form-row-6"
+    ],
+    "blocks": ["form-success#template-form"]
+  },
+  "form-success#template-form": {
+    "children": [
+      "rich-text#successSubmit-template-form"
+    ]
+  },
+  "rich-text#successSubmit-template-form": {
+    "props": {
+      "text": "Succesfully submitted the data!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#template-form-row-1": {
+    "props": {
+      "blockClass": "template-form-row-1"
+    },
+    "children": [
+      "form-input.text#first-name-template-form",
+      "form-input.text#last-name-template-form"
+    ]
+  },
+  "flex-layout.row#template-form-row-2": {
+    "props": {
+      "blockClass": "template-form-row-2"
+    },
+    "children": [
+      "form-input.text#email-template-form",
+      "form-input.text#phone-template-form"
+    ]
+  },
+  "flex-layout.row#template-form-row-3": {
+    "props": {
+      "blockClass": "template-form-row-3"
+    },
+    "children": [
+      "form-input.text#state-template-form"
+    ]
+  },
+  "flex-layout.row#template-form-row-4": {
+    "props": {
+      "blockClass": "template-form-row-4"
+    },
+    "children": [
+      "form-input.text#comment-template-form"
+    ]
+  },
+  "flex-layout.row#template-form-row-5": {
+    "props": {
+      "blockClass": "template-form-row-5"
+    },
+    "children": [
+      "form-input.checkbox#agreement-template-form"
+    ]
+  },
+  "flex-layout.row#template-form-row-6": {
+    "props": {
+      "blockClass": "template-form-row-6"
+    },
+    "children": [
+      "form-submit#-template-form"
+    ]
+  },
+
+  "form-input.text#first-name-template-form": {
+    "props": {
+      "pointer": "#/properties/first_name",
+      "label": "Nome *",
+      "placeholder": "Mario"
+    }
+  },
+  "form-input.text#last-name-template-form": {
+    "props": {
+      "pointer": "#/properties/last_name",
+      "label": "Cognome *",
+      "placeholder": "Rossi"
+    }
+  },
+  "form-input.text#email-template-form": {
+    "props": {
+      "pointer": "#/properties/email",
+      "label": "Indirizzo mail *",
+      "placeholder": "mariorossi@gmail.it"
+    }
+  },
+  "form-input.text#phone-template-form": {
+    "props": {
+      "pointer": "#/properties/phone",
+      "label": "Telefono *",
+      "placeholder": "345829379"
+    }
+  },
+  "form-input.text#state-template-form": {
+    "props": {
+      "pointer": "#/properties/state",
+      "label": "Provincia *",
+      "placeholder": "Seleziona la provincia"
+    }
+  },
+  "form-input.text#comment-template-form": {
+    "props": {
+      "pointer": "#/properties/comment",
+      "label": "Lascia un commento *"
+    }
+  },
+  "form-input.checkbox#agreement-template-form": {
+    "props": {
+      "pointer": "#/properties/privacy",
+      "label": "Ho preso visione dell'informativa sulla Privacy ed acconsento al trattamento dei miei dati personali *"
+    }
+  },
+  "form-submit#-template-form": {
+    "props": {
+      "label": "INVIA"
+    }
+  }
+}

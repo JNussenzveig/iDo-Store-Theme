@@ -145,7 +145,7 @@
 
 }
 
-:global (.vtex-flex-layout-0-x-flexColChild--landing-in-store-desktop-col-main) .storesListContainer {
+:global (.vtex-flex-layout-0-x-flexColChild--landing-in-store-desktop-col-main) :global(.storeido-store-locator-0-x-storesListContainer) {
   height: 625px;
 }
 
